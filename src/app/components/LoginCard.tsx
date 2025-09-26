@@ -1,51 +1,82 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import api, { setAuthToken, clearAuthToken } from "@/lib/axios";
+import { AuthResponseDTO, ResponseDTO } from "@/types/auth";
+import axios from "axios";
 
 export default function LoginCard() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
   const router = useRouter();
 
-  const handleLogin = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    if (username.trim()) {
-      // Demo flow: persist username and a fake token to simulate auth
-      localStorage.setItem("fedjtech_user", username.trim());
-      // In a real app you'd receive a token from the server. Here we'll store a demo token.
-      const demoToken = "demo-token";
-      setAuthToken(demoToken);
-      router.push("/dashboard");
+  // Function to check if resp has a token
+  const hasToken = (resp: ResponseDTO | AuthResponseDTO): boolean => {
+    // Type guard to check if resp is AuthResponse
+    if ("token" in resp) {
+      // Ensure token is a non-empty string
+      return typeof resp.token === "string" && resp.token.length > 0;
     }
+    return false;
   };
 
-  // On mount: if a token exists, validate it by calling a lightweight endpoint (e.g. /auth/validate or /me).
-  // If validation succeeds redirect to dashboard; if it fails, clear stored token.
-  useEffect(() => {
-    const checkToken = async () => {
-      try {
-        const token = localStorage.getItem("token");
-        if (!token) return;
-        // Attach token to axios instance for this validation call
-        setAuthToken(token);
-        // Try a simple GET to a protected endpoint. Adjust the path if your API exposes a different route.
-        await api.get("/auth/validate");
-        // If successful, navigate to dashboard
-        router.push("/dashboard");
-      } catch {
-        // Invalid token or request failed: remove it so user can log in
-        try {
-          clearAuthToken();
-        } catch {}
+  const handleLogin = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setError(null);
+    setUsername(username.trim()); // Trim whitespace from username
+    if (!username.trim()) {
+      setError("Please enter a username");
+      return;
+    }
+    setLoading(true);
+    try {
+      // POST credentials to the auth endpoint. Use absolute URL so it works regardless of api.baseURL.
+      const resp = await api.post<ResponseDTO | AuthResponseDTO>(
+        "/auth/login",
+        { username, password },
+      );
+      const respData: ResponseDTO | AuthResponseDTO = resp.data;
+      console.log(resp);
+      console.log(respData);
+
+      if (!hasToken(respData)) {
+        setError("Login failed. " + respData.message);
+        setLoading(false);
+        return;
       }
-    };
-
-    checkToken();
-  }, [router]);
-
+      // Persist username for UI and store token for api helper
+      if ("username" in respData && typeof respData.username === "string") {
+        localStorage.setItem("fedjtech_user", respData.username);
+      }
+      if ("token" in respData && typeof respData.token === "string") {
+        setAuthToken(respData.token);
+      }
+      // Navigate to dashboard
+      router.push("/dashboard");
+    } catch (err: unknown) {
+      // Try to extract a useful message from the server response (type-safe)
+      let serverMessage: string | undefined;
+      if (
+        axios.isAxiosError(err) &&
+        err.response &&
+        typeof err.response.data === "object"
+      ) {
+        const data = err.response.data as Record<string, unknown>;
+        if (typeof data.message === "string") serverMessage = data.message;
+        else if (typeof data.error === "string") serverMessage = data.error;
+      }
+      setError(serverMessage ?? "Invalid username or password");
+      try {
+        clearAuthToken();
+      } catch {}
+    } finally {
+      setLoading(false);
+    }
+  };
   return (
     <div className="max-w-[520px] mx-auto mt-[8vh] glass p-5 flex flex-col gap-3.5">
       <div className="flex justify-center mb-0">
@@ -84,10 +115,17 @@ export default function LoginCard() {
             <option>Português</option>
           </select>
         </label>
-        <button type="submit" className="w-full h-10 cta rounded-lg">
-          Sign In
+        <button
+          type="submit"
+          disabled={loading}
+          className="w-full h-10 cta rounded-lg"
+        >
+          {loading ? "Signing in…" : "Sign In"}
         </button>
       </form>
+      {error && (
+        <p className="text-center text-sm text-red-300 mt-2">{error}</p>
+      )}
       <p className="text-center text-muted">
         Demo login — use any credentials.
       </p>

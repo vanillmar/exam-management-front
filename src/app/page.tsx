@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import api, { clearAuthToken } from "@/lib/axios";
+import { ValidateTokenResponse } from "./hooks/useAuthTokenValidation";
 
 export default function Page() {
   const router = useRouter();
@@ -19,8 +20,21 @@ export default function Page() {
 
         // The axios instance attaches the token from localStorage via interceptor,
         // so a simple validation call is enough.
-        await api.get("/auth/validate");
-        router.replace("/dashboard");
+        const response = await api.post<ValidateTokenResponse>(
+          "/auth/validate",
+          { token },
+        );
+
+        // Check response
+        if (response.data.valid_token === "true") {
+          router.push("/dashboard");
+        } else {
+          try {
+            clearAuthToken();
+          } catch (clearErr) {
+            console.error("Error clearing auth token:", clearErr);
+          }
+        }
       } catch {
         try {
           clearAuthToken();

@@ -11,11 +11,12 @@ const isBrowser = typeof window !== "undefined";
  * - Authorization header is attached when a token exists in localStorage (client-side only)
  */
 const api: AxiosInstance = axios.create({
-  baseURL: process.env.NEXT_PUBLIC_API_BASE_URL ?? "",
+  baseURL: process.env.NEXT_PUBLIC_API_BASE_URL ?? "http://127.0.0.1:8080/api",
   headers: {
     "Content-Type": "application/json",
     Accept: "application/json",
   },
+  withCredentials: true,
 });
 
 // Attach token from localStorage to each request (only in browser)
@@ -49,7 +50,7 @@ api.interceptors.response.use(
         console.debug("Failed to remove token from localStorage", err);
       }
       // Redirect to login page. Use location.assign to allow back navigation control by the browser.
-      window.location.assign("/login");
+      // window.location.assign("/login");
     }
     return Promise.reject(error);
   },

@@ -3,19 +3,8 @@
 import Image from "next/image";
 import Topbar from "@/components/Topbar";
 import ExamTable from "@/components/ExamTable";
-import useRequireAuth from "@/hooks/useRequireAuth";
 
 export default function DashboardPage() {
-  const loading = useRequireAuth();
-
-  if (loading) {
-    return (
-      <div className="h-screen flex items-center justify-center">
-        <span className="text-sm text-muted">Checking authentication…</span>
-      </div>
-    );
-  }
-
   return (
     <div className="p-6">
       <Topbar />
