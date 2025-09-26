@@ -40,9 +40,6 @@ export default function LoginCard() {
         { username, password },
       );
       const respData: ResponseDTO | AuthResponseDTO = resp.data;
-      console.log(resp);
-      console.log(respData);
-
       if (!hasToken(respData)) {
         setError("Login failed. " + respData.message);
         setLoading(false);
