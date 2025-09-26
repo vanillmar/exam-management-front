@@ -1,15 +1,15 @@
 "use client";
 
-import React, { useEffect, useState } from 'react';
-import { useRouter } from 'next/navigation';
-import Topbar from '@/components/Topbar';
-import LeftNav from '@/components/LeftNav';
-import QuestionArea from '@/components/QuestionArea';
-import CalculatorModal from '@/components/CalculatorModal';
-import CommentModal from '@/components/CommentModal';
-import AttachmentModal from '@/components/AttachmentModal';
-import FinishModal from '@/components/FinishModal';
-import { fetchQuestions, Question } from '@/lib/api';
+import React, { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
+import Topbar from "@/components/Topbar";
+import LeftNav from "@/components/LeftNav";
+import QuestionArea from "@/components/QuestionArea";
+import CalculatorModal from "@/components/CalculatorModal";
+import CommentModal from "@/components/CommentModal";
+import AttachmentModal from "@/components/AttachmentModal";
+import FinishModal from "@/components/FinishModal";
+import { fetchQuestions, Question } from "@/lib/api";
 
 const PASS_MARK = 75;
 const TAKE_COUNT = 60;
@@ -19,7 +19,9 @@ export default function ClientExam({ subject }: { subject: string }) {
   const router = useRouter();
   const [currentSet, setCurrentSet] = useState<Question[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [answers, setAnswers] = useState<(number | null)[]>(Array(TAKE_COUNT).fill(null));
+  const [answers, setAnswers] = useState<(number | null)[]>(
+    Array(TAKE_COUNT).fill(null),
+  );
   const [marked, setMarked] = useState(new Set<number>());
   const [comments, setComments] = useState<{ [key: number]: string }>({});
   const [remainingSeconds, setRemainingSeconds] = useState(LIMIT_SECONDS);
@@ -32,10 +34,12 @@ export default function ClientExam({ subject }: { subject: string }) {
     const loadQuestions = async () => {
       try {
         const data = await fetchQuestions(subject);
-        const shuffled = [...data.questions].sort(() => Math.random() - 0.5).slice(0, TAKE_COUNT);
+        const shuffled = [...data.questions]
+          .sort(() => Math.random() - 0.5)
+          .slice(0, TAKE_COUNT);
         setCurrentSet(shuffled);
       } catch (error) {
-        console.error('Error fetching questions:', error);
+        console.error("Error fetching questions:", error);
       }
     };
     loadQuestions();
@@ -78,15 +82,17 @@ export default function ClientExam({ subject }: { subject: string }) {
       if (answers[i] === currentSet[i]?.answer_index) correct++;
     }
     const score = Math.round((correct / TAKE_COUNT) * 100);
-    const status = score >= PASS_MARK ? 'PASS' : 'FAIL';
+    const status = score >= PASS_MARK ? "PASS" : "FAIL";
     const elapsed = LIMIT_SECONDS - remainingSeconds;
-    const pad = (n: number) => String(n).padStart(2, '0');
+    const pad = (n: number) => String(n).padStart(2, "0");
     const time = `${pad(Math.floor(elapsed / 3600))}:${pad(Math.floor((elapsed % 3600) / 60))}:${pad(elapsed % 60)}`;
 
     router.push(
       `/result?score=${score}&status=${status}&correct=${correct}/${TAKE_COUNT}&time=${time}&summary=${
-        auto ? 'Time is up. Your examination was auto-submitted.' : 'Your examination data has been successfully submitted.'
-      }`
+        auto
+          ? "Time is up. Your examination was auto-submitted."
+          : "Your examination data has been successfully submitted."
+      }`,
     );
   };
 
@@ -117,7 +123,7 @@ export default function ClientExam({ subject }: { subject: string }) {
       {showCalc && <CalculatorModal onClose={() => setShowCalc(false)} />}
       {showComment && (
         <CommentModal
-          comment={comments[currentIndex] || ''}
+          comment={comments[currentIndex] || ""}
           onSave={(text) => {
             setComments((prev) => ({ ...prev, [currentIndex]: text }));
             setShowComment(false);
@@ -125,7 +131,9 @@ export default function ClientExam({ subject }: { subject: string }) {
           onClose={() => setShowComment(false)}
         />
       )}
-      {showAttachment && <AttachmentModal onClose={() => setShowAttachment(false)} />}
+      {showAttachment && (
+        <AttachmentModal onClose={() => setShowAttachment(false)} />
+      )}
       {showFinish && (
         <FinishModal
           remaining={answers.filter((a) => a === null).length}

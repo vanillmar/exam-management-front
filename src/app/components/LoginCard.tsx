@@ -1,26 +1,32 @@
 "use client";
 
-import { useState } from 'react';
-import { useRouter } from 'next/navigation';
-import Image from 'next/image';
+import { useState } from "react";
+import { useRouter } from "next/navigation";
+import Image from "next/image";
 
 export default function LoginCard() {
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
   const router = useRouter();
 
   const handleLogin = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (username.trim()) {
-      localStorage.setItem('fedjtech_user', username.trim());
-      router.push('/dashboard');
+      localStorage.setItem("fedjtech_user", username.trim());
+      router.push("/dashboard");
     }
   };
 
   return (
     <div className="max-w-[520px] mx-auto mt-[8vh] glass p-5 flex flex-col gap-3.5">
       <div className="flex justify-center mb-0">
-        <Image src="/logo.png" alt="Login Logo" width={120} height={40} className="opacity-95 drop-shadow-lg" />
+        <Image
+          src="/logo.png"
+          alt="Login Logo"
+          width={120}
+          height={40}
+          className="opacity-95 drop-shadow-lg"
+        />
       </div>
       <h2 className="text-2xl font-extrabold mb-3">Sign In</h2>
       <form onSubmit={handleLogin} className="flex flex-col gap-3.5">
@@ -53,7 +59,9 @@ export default function LoginCard() {
           Sign In
         </button>
       </form>
-      <p className="text-center text-muted">Demo login — use any credentials.</p>
+      <p className="text-center text-muted">
+        Demo login — use any credentials.
+      </p>
     </div>
   );
 }

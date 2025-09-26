@@ -71,12 +71,7 @@
     {
       "id": "Q0007",
       "question": "The Basic Empty Mass is:",
-      "options": [
-        "30130 kg",
-        "31720 kg",
-        "32280 kg",
-        "28400 kg"
-      ],
+      "options": ["30130 kg", "31720 kg", "32280 kg", "28400 kg"],
       "answer_index": 0
     },
     {
@@ -137,111 +132,61 @@
     {
       "id": "Q0013",
       "question": "The Zero Fuel Mass (ZFM) is:",
-      "options": [
-        "6780 kg",
-        "7400 kg",
-        "7130 kg",
-        "6200 kg"
-      ],
+      "options": ["6780 kg", "7400 kg", "7130 kg", "6200 kg"],
       "answer_index": 0
     },
     {
       "id": "Q0014",
       "question": "The Traffic Load is:",
-      "options": [
-        "2190 kg",
-        "1630 kg",
-        "710 kg",
-        "560 kg"
-      ],
+      "options": ["2190 kg", "1630 kg", "710 kg", "560 kg"],
       "answer_index": 0
     },
     {
       "id": "Q0015",
       "question": "The Zero Fuel Mass is:",
-      "options": [
-        "6020 kg",
-        "6890 kg",
-        "6470 kg",
-        "6922 kg"
-      ],
+      "options": ["6020 kg", "6890 kg", "6470 kg", "6922 kg"],
       "answer_index": 0
     },
     {
       "id": "Q0016",
       "question": "The Dry Operating Mass is:",
-      "options": [
-        "32520 kg",
-        "40920 kg",
-        "33140 kg",
-        "33320 kg"
-      ],
+      "options": ["32520 kg", "40920 kg", "33140 kg", "33320 kg"],
       "answer_index": 0
     },
     {
       "id": "Q0017",
       "question": "Take-Off fuel 17500 kg The Max. Traffic Load is:",
-      "options": [
-        "21600 kg",
-        "38920 kg",
-        "14980 kg",
-        "11220 kg"
-      ],
+      "options": ["21600 kg", "38920 kg", "14980 kg", "11220 kg"],
       "answer_index": 0
     },
     {
       "id": "Q0018",
       "question": "The Dry Operating Mass is:",
-      "options": [
-        "63000 kg",
-        "84000 kg",
-        "71000 kg",
-        "111000 kg"
-      ],
+      "options": ["63000 kg", "84000 kg", "71000 kg", "111000 kg"],
       "answer_index": 0
     },
     {
       "id": "Q0019",
       "question": "If the Crew Mass is 560 kg, the Dry Operating Mass is:",
-      "options": [
-        "40200 kg",
-        "50540 kg",
-        "51100 kg",
-        "39640 kg"
-      ],
+      "options": ["40200 kg", "50540 kg", "51100 kg", "39640 kg"],
       "answer_index": 0
     },
     {
       "id": "Q0020",
       "question": "The max. Taffic Load in kg is:",
-      "options": [
-        "14 800",
-        "9 500",
-        "13 300",
-        "12 900"
-      ],
+      "options": ["14 800", "9 500", "13 300", "12 900"],
       "answer_index": 0
     },
     {
       "id": "Q0021",
       "question": "The Traffic Load is:",
-      "options": [
-        "99500 kg",
-        "12130 kg",
-        "16550 kg",
-        "10050 kg"
-      ],
+      "options": ["99500 kg", "12130 kg", "16550 kg", "10050 kg"],
       "answer_index": 0
     },
     {
       "id": "Q0022",
       "question": "The fuel mass is:",
-      "options": [
-        "12547 kg",
-        "14363 kg",
-        "17506 kg",
-        "10628 kg"
-      ],
+      "options": ["12547 kg", "14363 kg", "17506 kg", "10628 kg"],
       "answer_index": 0
     },
     {
@@ -291,45 +236,25 @@
     {
       "id": "Q0027",
       "question": "The Max. Gross Container Mass is:",
-      "options": [
-        "800 kg",
-        "320 kg",
-        "80 kg",
-        "32 kg"
-      ],
+      "options": ["800 kg", "320 kg", "80 kg", "32 kg"],
       "answer_index": 0
     },
     {
       "id": "Q0028",
       "question": "The Take-Off Mass is:",
-      "options": [
-        "56300 kg",
-        "48400 kg",
-        "47300 kg",
-        "46600 kg"
-      ],
+      "options": ["56300 kg", "48400 kg", "47300 kg", "46600 kg"],
       "answer_index": 0
     },
     {
       "id": "Q0029",
       "question": "The Max. Take-off Mass is:",
-      "options": [
-        "4500 kg",
-        "4200 kg",
-        "4100 kg",
-        "4300 kg"
-      ],
+      "options": ["4500 kg", "4200 kg", "4100 kg", "4300 kg"],
       "answer_index": 0
     },
     {
       "id": "Q0030",
       "question": "The Fuel which can be tankered is:",
-      "options": [
-        "17200 kg",
-        "12700 kg",
-        "10720 kg",
-        "13230 kg"
-      ],
+      "options": ["17200 kg", "12700 kg", "10720 kg", "13230 kg"],
       "answer_index": 0
     },
     {
@@ -357,45 +282,25 @@
     {
       "id": "Q0033",
       "question": "3000 lbs, the Regulated Take-Off Mass (RTOM) is:",
-      "options": [
-        "3350 lbs",
-        "3000 lbs",
-        "3050 lbs",
-        "3300 lbs"
-      ],
+      "options": ["3350 lbs", "3000 lbs", "3050 lbs", "3300 lbs"],
       "answer_index": 0
     },
     {
       "id": "Q0034",
       "question": "The Max. Take-off Mass is:",
-      "options": [
-        "120200 kg",
-        "121100 kg",
-        "120300 kg",
-        "113500 kg"
-      ],
+      "options": ["120200 kg", "121100 kg", "120300 kg", "113500 kg"],
       "answer_index": 0
     },
     {
       "id": "Q0035",
       "question": "The Max. Take-Off Mass is:",
-      "options": [
-        "121300 kg",
-        "120900 kg",
-        "119050 kg",
-        "118150 kg"
-      ],
+      "options": ["121300 kg", "120900 kg", "119050 kg", "118150 kg"],
       "answer_index": 0
     },
     {
       "id": "Q0036",
       "question": "The Take-off Mass is:",
-      "options": [
-        "2659 lb",
-        "2549 lb",
-        "2809 lb",
-        "2799 lb"
-      ],
+      "options": ["2659 lb", "2549 lb", "2809 lb", "2799 lb"],
       "answer_index": 0
     },
     {
@@ -423,111 +328,61 @@
     {
       "id": "Q0039",
       "question": "2900 lbs, the Regulated Landing Mass (RLM) is:",
-      "options": [
-        "3300 lbs",
-        "3200 lbs",
-        "2900 lbs",
-        "3350 lbs"
-      ],
+      "options": ["3300 lbs", "3200 lbs", "2900 lbs", "3350 lbs"],
       "answer_index": 0
     },
     {
       "id": "Q0040",
       "question": "The Traffic Load is:",
-      "options": [
-        "6710 kg",
-        "11710 kg",
-        "7710 kg",
-        "15710 kg"
-      ],
+      "options": ["6710 kg", "11710 kg", "7710 kg", "15710 kg"],
       "answer_index": 0
     },
     {
       "id": "Q0041",
       "question": "The maximum Traffic Load is:",
-      "options": [
-        "4800 kg",
-        "12900 kg",
-        "7100 kg",
-        "6800 kg"
-      ],
+      "options": ["4800 kg", "12900 kg", "7100 kg", "6800 kg"],
       "answer_index": 0
     },
     {
       "id": "Q0042",
       "question": "The Traffic Load is:",
-      "options": [
-        "18060 kg",
-        "13090 kg",
-        "16490 kg",
-        "16 | P a g e"
-      ],
+      "options": ["18060 kg", "13090 kg", "16490 kg", "16 | P a g e"],
       "answer_index": 0
     },
     {
       "id": "Q0043",
       "question": "The Traffic Load is:",
-      "options": [
-        "36750 kg",
-        "121450 kg",
-        "138950 kg",
-        "15300 kg"
-      ],
+      "options": ["36750 kg", "121450 kg", "138950 kg", "15300 kg"],
       "answer_index": 0
     },
     {
       "id": "Q0044",
       "question": "The Traffic Load is:",
-      "options": [
-        "17090 kg",
-        "18730 kg",
-        "16470 kg",
-        "16370 kg"
-      ],
+      "options": ["17090 kg", "18730 kg", "16470 kg", "16370 kg"],
       "answer_index": 0
     },
     {
       "id": "Q0045",
       "question": "The Traffic Load is:",
-      "options": [
-        "16750 kg",
-        "14331 kg",
-        "13260 kg",
-        "11831 kg"
-      ],
+      "options": ["16750 kg", "14331 kg", "13260 kg", "11831 kg"],
       "answer_index": 0
     },
     {
       "id": "Q0046",
       "question": "Determine the max. Traffic Load:",
-      "options": [
-        "21080 kg",
-        "20830 kg",
-        "21500 kg",
-        "21520 kg"
-      ],
+      "options": ["21080 kg", "20830 kg", "21500 kg", "21520 kg"],
       "answer_index": 0
     },
     {
       "id": "Q0047",
       "question": "Determine the Traffic Load:",
-      "options": [
-        "25900 kg",
-        "23600 kg",
-        "24900 kg",
-        "25800 kg"
-      ],
+      "options": ["25900 kg", "23600 kg", "24900 kg", "25800 kg"],
       "answer_index": 0
     },
     {
       "id": "Q0048",
       "question": "Determine the Max. Fuel:",
-      "options": [
-        "1000 kg",
-        "800 kg",
-        "400 kg",
-        "700 kg"
-      ],
+      "options": ["1000 kg", "800 kg", "400 kg", "700 kg"],
       "answer_index": 0
     },
     {
@@ -544,56 +399,31 @@
     {
       "id": "Q0050",
       "question": "Using the Standard Passenger Mass system by regulation, the Maximum Cargo that can be loaded is:",
-      "options": [
-        "1105 kg",
-        "1389 kg",
-        "1859 kg",
-        "1098 kg"
-      ],
+      "options": ["1105 kg", "1389 kg", "1859 kg", "1098 kg"],
       "answer_index": 0
     },
     {
       "id": "Q0051",
       "question": "The CG position as MAC% is:",
-      "options": [
-        "8",
-        "16",
-        "62",
-        "41"
-      ],
+      "options": ["8", "16", "62", "41"],
       "answer_index": 0
     },
     {
       "id": "Q0052",
       "question": "The CG position in % MAC is:",
-      "options": [
-        "36.3 %",
-        "63.4 %",
-        "45.0 %",
-        "22.9 %"
-      ],
+      "options": ["36.3 %", "63.4 %", "45.0 %", "22.9 %"],
       "answer_index": 0
     },
     {
       "id": "Q0053",
       "question": "The CG position in inches Aft of Datum is:",
-      "options": [
-        "226.32",
-        "645.78",
-        "602.48",
-        "20.18"
-      ],
+      "options": ["226.32", "645.78", "602.48", "20.18"],
       "answer_index": 0
     },
     {
       "id": "Q0054",
       "question": "Express the CG position in % MAC if 560 inches aft of datum:",
-      "options": [
-        "24.8",
-        "16.1",
-        "75.6",
-        "83.5"
-      ],
+      "options": ["24.8", "16.1", "75.6", "83.5"],
       "answer_index": 0
     },
     {
@@ -676,45 +506,25 @@
     {
       "id": "Q0062",
       "question": "of 82.2 in:",
-      "options": [
-        "89.26 in",
-        "85.41 in",
-        "88.97 in",
-        "85.14 in"
-      ],
+      "options": ["89.26 in", "85.41 in", "88.97 in", "85.14 in"],
       "answer_index": 0
     },
     {
       "id": "Q0063",
       "question": "crew member, with a mass of 75 kg, in zone G:",
-      "options": [
-        "108.3",
-        "107.6",
-        "109.2",
-        "109"
-      ],
+      "options": ["108.3", "107.6", "109.2", "109"],
       "answer_index": 0
     },
     {
       "id": "Q0064",
       "question": "member, with a mass of 80 kg, in zone F:",
-      "options": [
-        "130",
-        "126.5",
-        "126.9",
-        "126.1"
-      ],
+      "options": ["130", "126.5", "126.9", "126.1"],
       "answer_index": 0
     },
     {
       "id": "Q0065",
       "question": "The CG in % MAC is:",
-      "options": [
-        "27.2",
-        "96.8",
-        "18",
-        "23.6"
-      ],
+      "options": ["27.2", "96.8", "18", "23.6"],
       "answer_index": 0
     },
     {
@@ -753,45 +563,25 @@
     {
       "id": "Q0069",
       "question": "Determine the Index:",
-      "options": [
-        "36.5",
-        "43",
-        "40",
-        "41.5"
-      ],
+      "options": ["36.5", "43", "40", "41.5"],
       "answer_index": 0
     },
     {
       "id": "Q0070",
       "question": "The Zero Fuel Mass is:",
-      "options": [
-        "2434",
-        "2679",
-        "2599",
-        "2449 lb"
-      ],
+      "options": ["2434", "2679", "2599", "2449 lb"],
       "answer_index": 0
     },
     {
       "id": "Q0071",
       "question": "The Landing Mass is:",
-      "options": [
-        "2537 lb",
-        "2589 lb",
-        "2599 lb",
-        "2452 lb"
-      ],
+      "options": ["2537 lb", "2589 lb", "2599 lb", "2452 lb"],
       "answer_index": 0
     },
     {
       "id": "Q0072",
       "question": "The Ramp Mass is:",
-      "options": [
-        "4320 lb",
-        "4370 lb",
-        "4350 lb",
-        "4720 lb"
-      ],
+      "options": ["4320 lb", "4370 lb", "4350 lb", "4720 lb"],
       "answer_index": 0
     },
     {
@@ -852,23 +642,13 @@
     {
       "id": "Q0078",
       "question": "allowed traffic load:",
-      "options": [
-        "12295 kg",
-        "18588 kg",
-        "17320 kg",
-        "11380 kg"
-      ],
+      "options": ["12295 kg", "18588 kg", "17320 kg", "11380 kg"],
       "answer_index": 0
     },
     {
       "id": "Q0079",
       "question": "Traffic Load 10320 kg. Referring to the annex, determine the max. possible additional Traffic Load in kg:",
-      "options": [
-        "1830",
-        "653",
-        "5000",
-        "8298"
-      ],
+      "options": ["1830", "653", "5000", "8298"],
       "answer_index": 0
     },
     {
@@ -929,45 +709,25 @@
     {
       "id": "Q0085",
       "question": "Compartment to the Front Cargo Compartment is:",
-      "options": [
-        "68.5 kg",
-        "71.5 kg",
-        "65.8 kg",
-        "62.5 kg"
-      ],
+      "options": ["68.5 kg", "71.5 kg", "65.8 kg", "62.5 kg"],
       "answer_index": 0
     },
     {
       "id": "Q0086",
       "question": "m), to move the CG to the aft limit?",
-      "options": [
-        "300 kg",
-        "355 kg",
-        "30 kg",
-        "208 kg"
-      ],
+      "options": ["300 kg", "355 kg", "30 kg", "208 kg"],
       "answer_index": 0
     },
     {
       "id": "Q0087",
       "question": "To move the CG to 40% MAC the mass to be transferred from the Forward to Aft cargo hold is:",
-      "options": [
-        "163 kg",
-        "113 kg",
-        "110 kg",
-        "187 kg"
-      ],
+      "options": ["163 kg", "113 kg", "110 kg", "187 kg"],
       "answer_index": 0
     },
     {
       "id": "Q0088",
       "question": "After shifting 100 kg from Station 30 to Station 120 the new CG will be at Station:",
-      "options": [
-        "117.69",
-        "120.52",
-        "118.28",
-        "118.37"
-      ],
+      "options": ["117.69", "120.52", "118.28", "118.37"],
       "answer_index": 0
     },
     {
@@ -995,56 +755,31 @@
     {
       "id": "Q0091",
       "question": "The Mass to be removed from the Rear Cargo Hold is to bring the CG to the centre of its limits is:",
-      "options": [
-        "41160 kg",
-        "8640 kg",
-        "16569 kg",
-        "29344 kg"
-      ],
+      "options": ["41160 kg", "8640 kg", "16569 kg", "29344 kg"],
       "answer_index": 0
     },
     {
       "id": "Q0092",
       "question": "If the new Take-Off CG position is 5.5 m aft, at what station was the additional load put into?",
-      "options": [
-        "10.4 m",
-        "5.2 m",
-        "5.5 m",
-        "10.7 m"
-      ],
+      "options": ["10.4 m", "5.2 m", "5.5 m", "10.7 m"],
       "answer_index": 0
     },
     {
       "id": "Q0093",
       "question": "station?",
-      "options": [
-        "7.80 m",
-        "4.03 m",
-        "7.47 m",
-        "3.90 m"
-      ],
+      "options": ["7.80 m", "4.03 m", "7.47 m", "3.90 m"],
       "answer_index": 0
     },
     {
       "id": "Q0094",
       "question": "station?",
-      "options": [
-        "7.51 m",
-        "3.67 m",
-        "3.78 m",
-        "7.62 m"
-      ],
+      "options": ["7.51 m", "3.67 m", "3.78 m", "7.62 m"],
       "answer_index": 0
     },
     {
       "id": "Q0095",
       "question": "If the new Take-Off CG position is 5.44 m aft, at what station was the additional load put into?",
-      "options": [
-        "4.04 m",
-        "9.26 m",
-        "4.26 m",
-        "9.48 m"
-      ],
+      "options": ["4.04 m", "9.26 m", "4.26 m", "9.48 m"],
       "answer_index": 0
     },
     {
@@ -1061,56 +796,31 @@
     {
       "id": "Q0097",
       "question": "With the base entirely in contact with the floor, the min. size pallet is:",
-      "options": [
-        "30 x 300 cm",
-        "40 x 300 cm",
-        "40 x 200 cm",
-        "30 x 200 cm"
-      ],
+      "options": ["30 x 300 cm", "40 x 300 cm", "40 x 200 cm", "30 x 200 cm"],
       "answer_index": 0
     },
     {
       "id": "Q0098",
       "question": "The Max. Mass that can be loaded on the pallet is:",
-      "options": [
-        "721 kg",
-        "3105 kg",
-        "1041 kg",
-        "2063 kg"
-      ],
+      "options": ["721 kg", "3105 kg", "1041 kg", "2063 kg"],
       "answer_index": 0
     },
     {
       "id": "Q0099",
       "question": "The maximum mass of a package on a pallet of 80 x 80 cm is:",
-      "options": [
-        "416.0 kg",
-        "429.6 kg",
-        "41.6 kg",
-        "106.0 kg"
-      ],
+      "options": ["416.0 kg", "429.6 kg", "41.6 kg", "106.0 kg"],
       "answer_index": 0
     },
     {
       "id": "Q0100",
       "question": "The Max. Gross Container Mass is:",
-      "options": [
-        "500 kg",
-        "1000 kg",
-        "100 kg",
-        "1500 kg"
-      ],
+      "options": ["500 kg", "1000 kg", "100 kg", "1500 kg"],
       "answer_index": 0
     },
     {
       "id": "Q0101",
       "question": "The max. Running Load for the aft section of the forward lower deck cargo compartment is:",
-      "options": [
-        "13.12 kg/in",
-        "13.15 kg/in",
-        "14.65 kg/in",
-        "7.18 kg/in"
-      ],
+      "options": ["13.12 kg/in", "13.15 kg/in", "14.65 kg/in", "7.18 kg/in"],
       "answer_index": 0
     },
     {
@@ -1138,12 +848,7 @@
     {
       "id": "Q0104",
       "question": "palette with dimension 1.4 m x 1.2 m is:",
-      "options": [
-        "2640 kg",
-        "3080 kg",
-        "1310 kg",
-        "1571 kg"
-      ],
+      "options": ["2640 kg", "3080 kg", "1310 kg", "1571 kg"],
       "answer_index": 0
     },
     {
@@ -1171,78 +876,43 @@
     {
       "id": "Q0107",
       "question": "o during an abortive take-off” is defined as:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "Runaway ramp"
-      ],
+      "options": ["o", "o", "o", "Runaway ramp"],
       "answer_index": 0
     },
     {
       "id": "Q0108",
       "question": "protrudes” is defined as:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0109",
       "question": "o According CS-Definitions, a “Clearway” should be how wide?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0110",
       "question": "o According Regulation EU 139/2014, the “Accelerate-stop distance” means:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0111",
       "question": "o The correct equation about Specific Air Range (SAR) is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0112",
       "question": "o Define “Power Required”:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0113",
       "question": "o Select the correct definition for Density Altitude:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
@@ -1259,89 +929,49 @@
     {
       "id": "Q0115",
       "question": "o Which sketch correctly illustrates the change in the thrust-required curve with decreasing density altitude?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0116",
       "question": "o Which sketch correctly illustrates the change in the thrust-required curve with increasing density altitude?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0117",
       "question": "o Which sketch correctly illustrates the change in the power-required curve with increasing density altitude?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0118",
       "question": "o Which sketch correctly illustrates the change in the power-required curve with mass reduced?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0119",
       "question": "o 1. Under which conditions can the maximum speed in horizontal flight be reached?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0120",
       "question": "o Which statement regarding the speed for maximum lift/drag ratio is true?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0121",
       "question": "o Which statement about “maximum endurance” is correct?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0122",
       "question": "o With regard to jet-engines, “Specific Fuel Consumption (SFC)” can be understood as:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
@@ -1391,34 +1021,19 @@
     {
       "id": "Q0127",
       "question": "at which the minimum climb gradient can be maintained is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0128",
       "question": "Except for Lift, the forces determining the Climb Gradient of an aeroplane are:",
-      "options": [
-        "Thrust",
-        "Drag",
-        "Weight",
-        "o"
-      ],
+      "options": ["Thrust", "Drag", "Weight", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0129",
       "question": "speed:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
@@ -1435,34 +1050,19 @@
     {
       "id": "Q0131",
       "question": "Which statement about descent without thrust at max. lift to drag ratio speed is correct?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0132",
       "question": "The balance of forces acting on the aeroplane is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0133",
       "question": "higher mass affect the Minimum Descent Angle and the corresponding speed?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
@@ -1490,23 +1090,13 @@
     {
       "id": "Q0136",
       "question": "at a mass of 3200 lbs:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0137",
       "question": "landing configuration at a mass of 3650 lbs:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
@@ -1545,397 +1135,217 @@
     {
       "id": "Q0141",
       "question": "manuals from the manufacturer, the landing distance required for a 1.5% downslope should be increased by:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0142",
       "question": "Which condition increases the take-off distance required?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0143",
       "question": "should be applied to the AFM data on a dry short-grass runway is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "1.3"
-      ],
+      "options": ["o", "o", "o", "1.3"],
       "answer_index": 0
     },
     {
       "id": "Q0144",
       "question": "component?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0145",
       "question": "component shall be used for calculating take-off distances?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0146",
       "question": "roll distance is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0147",
       "question": "assumed engine failure height is to be the average all-engine gradient multiplied by a factor of:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "0.77"
-      ],
+      "options": ["o", "o", "o", "0.77"],
       "answer_index": 0
     },
     {
       "id": "Q0148",
       "question": "accountability area has a semi-width at distance D from the end of TODA of:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0149",
       "question": "The maximum Take-off Mass (TOM) is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0150",
       "question": "The Accelerate-Stop Distance is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0151",
       "question": "The Accelerate-Stop Distance is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0152",
       "question": "The Accelerate-Stop Distance is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0153",
       "question": "The Accelerate-Stop Distance in ft is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0154",
       "question": "The Accelerate-Stop Distance in ft is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0155",
       "question": "The Ground Roll Distance is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0156",
       "question": "The Take-Off Distance is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0157",
       "question": "The Ground Roll Distance is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0158",
       "question": "The Take-Off Distance, rounded to the nearest 50 ft, is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0159",
       "question": "The Take-off Distance in ft is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0160",
       "question": "The Take-Off Distance, rounded to he nearest 50 ft, is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0161",
       "question": "The Take-Off Distance in m to 50 ft height is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0162",
       "question": "The Take-Off Distance is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0163",
       "question": "The Take-off Distance, rounded to the nearest 50 ft, is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0164",
       "question": "Determine the Two-Engine Rate of Climb in ft/min:",
-      "options": [
-        "o",
-        "o",
-        "450",
-        "1250"
-      ],
+      "options": ["o", "o", "450", "1250"],
       "answer_index": 0
     },
     {
       "id": "Q0165",
       "question": "Determine the Two-Engine Rate of Climb in ft/min:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0166",
       "question": "Determine the One-Engine Inoperate Rate of Climb in ft/min:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0167",
       "question": "Determine the Two-Engine Rate of Climb in ft/min:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0168",
       "question": "Determine the One-engine Inoperative Rate of Climb in ft/min:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0169",
       "question": "Determine the Two-engine Tate of Climb in ft/min:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0170",
       "question": "The Landing Distance from 50 ft. height is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0171",
       "question": "The Landing Distance from 50 ft height is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "950 ft"
-      ],
+      "options": ["o", "o", "o", "950 ft"],
       "answer_index": 0
     },
     {
       "id": "Q0172",
       "question": "The Landing Distance from 50 ft height is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0173",
       "question": "o The correct statement about VR:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0174",
       "question": "o Which statement about VR is correct?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0175",
       "question": "o What action must be taken after an engine failure at or above V1?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0176",
       "question": "o Which statement regarding V2 is correct?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
@@ -1963,111 +1373,61 @@
     {
       "id": "Q0179",
       "question": "o Which statement regarding VMCA (air minimum control speed) is correct?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0180",
       "question": "o V1 should not be exceeded by:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0181",
       "question": "o Which statements about V1 is correct?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0182",
       "question": "o If max. tyre speed and max. brake energy speed are not limiting, the maximum value of V1 is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0183",
       "question": "o The Take-Off Distance adopted for the certification file is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0184",
       "question": "with regard to V1?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0185",
       "question": "o Which conditions affect the runway in use for take-off?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0186",
       "question": "o The certificated take-off run is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0187",
       "question": "o The certification Take-Off Distance is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0188",
       "question": "o The Max. Take-Off Distance Available is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
@@ -2084,12 +1444,7 @@
     {
       "id": "Q0190",
       "question": "o Which speed may vary if a stopway or clearway is available?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "V2"
-      ],
+      "options": ["o", "o", "o", "V2"],
       "answer_index": 0
     },
     {
@@ -2117,23 +1472,13 @@
     {
       "id": "Q0193",
       "question": "o Field length is balanced when:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0194",
       "question": "o If take-off mass is limited by the TODA, the correct statement is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
@@ -2150,12 +1495,7 @@
     {
       "id": "Q0196",
       "question": "o An estimated braking action as “GOOD” has a braking coefficient of:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "0.40 and above."
-      ],
+      "options": ["o", "o", "o", "0.40 and above."],
       "answer_index": 0
     },
     {
@@ -2183,34 +1523,19 @@
     {
       "id": "Q0199",
       "question": "o How is the Climb Limited Take-off Mass affected by a tailwind?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0200",
       "question": "o What is the effect of headwind on the climb limited take-off mass?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0201",
       "question": "o Which relationship is correct?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
@@ -2227,12 +1552,7 @@
     {
       "id": "Q0203",
       "question": "o Why has the wind not been considered on the chart?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
@@ -2249,34 +1569,19 @@
     {
       "id": "Q0205",
       "question": "of 0.5% during the turn, the minimum gross climb gradient before initiating the turn must be at least:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0206",
       "question": "o Select the correct statement about the acceleration height at the beginning of the 3rd climb segment:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0207",
       "question": "o After change in wind, now 10 kt head wind, determine the Regulated Take-Off Mass for the changed runway:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
@@ -2293,12 +1598,7 @@
     {
       "id": "Q0209",
       "question": "engine failure on a wet or contaminated runway, is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
@@ -2315,12 +1615,7 @@
     {
       "id": "Q0211",
       "question": "has to be reduced because of wet runway conditions?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
@@ -2359,23 +1654,13 @@
     {
       "id": "Q0215",
       "question": "wheels on the airframe during take-off roll is referred to as:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0216",
       "question": "wheels during take-off roll is referred to as:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
@@ -2392,12 +1677,7 @@
     {
       "id": "Q0218",
       "question": "o Which statement about using “reduced take-off thrust” is correct?",
-      "options": [
-        "114.",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["114.", "o", "o", "o"],
       "answer_index": 0
     },
     {
@@ -2425,23 +1705,13 @@
     {
       "id": "Q0221",
       "question": "o When should Reduced Take-off Thrust usually NOT be used?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0222",
       "question": "o When should Reduced Take-off Thrust usually NOT be used?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
@@ -2458,23 +1728,13 @@
     {
       "id": "Q0224",
       "question": "ited Take-Off Mass (PLTOM) in accordance with the requirements for commercial air transport is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0225",
       "question": "ited Take-Off Mass (PLTOM) in accordance with the requirements for commercial air transport is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
@@ -2513,56 +1773,31 @@
     {
       "id": "Q0229",
       "question": "o At the crossover altitude of 29200 ft (ISA):",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0230",
       "question": "o Which of the following statements regarding the optimum altitude is correct?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0231",
       "question": "o Which statement about the optimum altitude is correct?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0232",
       "question": "o When should a flight be operated at an altitude considerably lower (4000 ft or more) than the optimum altitude?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0233",
       "question": "o Select the correct statement about the optimum cruise altitude (best fuel mileage):",
-      "options": [
-        "An aeroplane…",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["An aeroplane…", "o", "o", "o"],
       "answer_index": 0
     },
     {
@@ -2579,34 +1814,19 @@
     {
       "id": "Q0235",
       "question": "o The highest cost-index for (1) climb, (2) cruise and (3) descent is represented in which speed schedule?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0236",
       "question": "in the schedule change?",
-      "options": [
-        "141 | P a g e",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["141 | P a g e", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0237",
       "question": "o When should the Drift-Down procedure be initiated?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
@@ -2634,34 +1854,19 @@
     {
       "id": "Q0240",
       "question": "o Why has the approach climb requirement been established?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0241",
       "question": "o The landing distance required from the Aircraft Flight Manual (AFM) for a dry runway should be at maximum:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0242",
       "question": "demonstrated with:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
@@ -2678,463 +1883,253 @@
     {
       "id": "Q0244",
       "question": "o To improve Field Length Limited Take-Off Mass (FLLTOM), permissible options upon crew decision are:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0245",
       "question": "o The Max. Take-off Mass is:",
-      "options": [
-        "149 | P a g e",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["149 | P a g e", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0246",
       "question": "o Why does the 35000 kg Gross Mass net Drift-Down curve start at approximately 4 min at FL370?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0247",
       "question": "o To land with the most adverse wind condition, the Required Field Length is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0248",
       "question": "compliance with applicable operational requirements for Commercial Air Transport?",
-      "options": [
-        "157 | P a g e",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["157 | P a g e", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0249",
       "question": "compliance with applicable operational requirements for Commercial Air Transport?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0250",
       "question": "o The navigation aid in position 48°59’N, 008°35’E is a:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0251",
       "question": "o The elevation of LSZH ZURICH KLOTHEN airport (47°28’N, 008°33’E) is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0252",
       "question": "o Planning a VFR flight along magnetic track of 155, a suitable Flight Level would be:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0253",
       "question": "o A suitable Flight Level would be:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0254",
       "question": "o The frequency of TANGO VORTAC (48°37’N, 009°16’E) is:",
-      "options": [
-        "159 | P a g e",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["159 | P a g e", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0255",
       "question": "o The navigation aid in position 48°55’N, 009°20’E is a:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0256",
       "question": "Aerodrome:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0257",
       "question": "o The correct frequency to contact Aberdeen ATSU is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0258",
       "question": "o Indicate he correct Callsign and Frequency (MHz) to get start up clearance:",
-      "options": [
-        "160 | P a g e",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["160 | P a g e", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0259",
       "question": "Aberdeen Airport is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0260",
       "question": "o The published frequency (MHz) for Barcelona ATIS is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0261",
       "question": "o The minimum grid area altitude for EDPJ LAICHINGEN airport (48°30’N, 009°38’E) is:",
-      "options": [
-        "161 | P a g e",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["161 | P a g e", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0262",
       "question": "o The distance from C (62°N 020°W) to B (58°N 004°E) is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0263",
       "question": "o The Initial True Course from A (64°N 006°E) to C (62°N 020°W) is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0264",
       "question": "o The Initial Magnetic Course from A (64°N 006°E) to C (62°N 020°W) is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0265",
       "question": "o The Average True Course from A (64°N 006°E) to C (62°N 020°W) is:",
-      "options": [
-        "162 | P a g e",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["162 | P a g e", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0266",
       "question": "o The Average Magnetic Course from A (64°N 006°E) to C (62°N 020°W) is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0267",
       "question": "o The Distance from A (64°N 006°E) to C (62°N 020°W) is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0268",
       "question": "o The Initial Magnetic Course from C (62°N 020°W) to B (58°N 004°E) is:",
-      "options": [
-        "163 | P a g e",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["163 | P a g e", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0269",
       "question": "o The Average True Course from C (62°N 020°W) to B (58°N 004°E) is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0270",
       "question": "o The Average Magnetic Course from C (62°N 020°W) to B (58°N 004°E) is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0271",
       "question": "o The minimum grid area altitude for EDTM MENGEN airport (48°03’N, 009°22’E) is:",
-      "options": [
-        "164 | P a g e",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["164 | P a g e", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0272",
       "question": "o The Initial True Course from C (62°N 020°W) to B (58°N 004°E) is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0273",
       "question": "of the Highest Obstacle within a 5 NM corridor each side of the Courseline is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0274",
       "question": "elevation of the highest obstacle within a 5 NM corridor each side of the courseline is:",
-      "options": [
-        "165 | P a g e",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["165 | P a g e", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0275",
       "question": "NM left and 5 NM right of the courseline, the elevation of the highest obstacle is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0276",
       "question": "o Determine the Course and Distance from Locator HP to the threshold of Runway 08:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0277",
       "question": "o Determine the track and distance from VOR/DME SKR to overhead Esbjerg:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0278",
       "question": "o The maximum altitude at which to transit the complete VFR corridor from REUS to SAN CELONI is:",
-      "options": [
-        "o",
-        "3500 ft",
-        "166 | P a g e",
-        "o"
-      ],
+      "options": ["o", "3500 ft", "166 | P a g e", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0279",
       "question": "o The lowest altitude to fly over the Quiet Zone in the vicinity of DE KOOY is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0280",
       "question": "o The minimum safe Pressure Altitude, rounded to 10 ft, is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0281",
       "question": "o To arrive at 2000 ft overhead the airfield, descent must commence at a distance of:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0282",
       "question": "o The distance covered with an average 35 kt headwind is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0283",
       "question": "o To arrive at 2000 ft overhead a VOR the descent should be commenced at a distance from the VOR of:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0284",
       "question": "o What vertical distance do you have to climb to Cruise Level?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0285",
       "question": "o The distance between the VORTAC and Top of Descent (TOC) is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
@@ -3151,573 +2146,313 @@
     {
       "id": "Q0287",
       "question": "o The position of the Aerodrome Reference Point at Esbjerg is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0288",
       "question": "o The dimensions of Runway 08/26 at Esbjerg are:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0289",
       "question": "o The position of the Aerodrome Reference Point is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0290",
       "question": "and (2) Summer is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0291",
       "question": "Winter and (2) Summer, is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0292",
       "question": "o The max. permitted wingspan of an aircraft using the East Apron and Eastern Taxiway is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0293",
       "question": "o The elevation of the Highest Obstacle within the boundary of the ABERDEEN Control Area is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0294",
       "question": "o The elevation of the highest ground within the boundary of Aberdeen Control Zone is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0295",
       "question": "o The Variation shown on the chart is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0296",
       "question": "the change in TAS is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0297",
       "question": "speed:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0298",
       "question": "o Calculate the wind correction angle (WCA) and ground speed (GS):",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0299",
       "question": "speed:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0300",
       "question": "o The True Track is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0301",
       "question": "o With an average 60 kt tailwind the ground distance is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0302",
       "question": "o Calculate the still air distance in Nautical Air Miles (NAM):",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0303",
       "question": "o Calculate the ground distance with a 30 kt head wind:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0304",
       "question": "o Calculate the climb time:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0305",
       "question": "o The Flight Level which will allow for the maximum ground speed is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0306",
       "question": "o The Total Flight Duration (A to B to A) is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0307",
       "question": "o The minimum suitable IFR flight level is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0308",
       "question": "o The minimum flight level is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0309",
       "question": "on a Magnetic Course 200 is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0310",
       "question": "on a Magnetic Course 180 is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0311",
       "question": "route?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0312",
       "question": "o The airway with designator UG851 is what type of airway?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0313",
       "question": "o An airway is marked “3500T 2100 a” means the:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0314",
       "question": "o The lowest altitude between radio fixes assuring navigational signal coverage and obstacle clearance is the:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0315",
       "question": "centerline?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0316",
       "question": "o During IFR descent to an airport, who is responsible for terrain separation and obstacle clearance?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0317",
       "question": "o The RNAV symbol in line D refers to a:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0318",
       "question": "o The RNAV symbol in line B refers to a:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0319",
       "question": "o The RNAV symbol in line A refers to a:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0320",
       "question": "o The RNAV symbol in line C refers to a:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0321",
       "question": "o The route distance (NM) from runway 36L to ARNEM via the ARNEM 1Z departure route is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0322",
       "question": "o The correct ZURICH EAST departure route via D5.0 ZUE for Runway 32 is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0323",
       "question": "o What is the initial approach fix (IAF) for an arrival via DOMUS to RWY 27R?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0324",
       "question": "o The Minimum Sector Altitude (MSA) based on the airport reference point is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0325",
       "question": "o Determine the Minimum Holding Altitude (MHA) and max. holding speed (IAS) at MOPAR holding:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0326",
       "question": "o The correct departure via ZURICH EAST from runway 34 is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0327",
       "question": "o What is the elevation of runway 09R LFPG?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0328",
       "question": "o What is the MSA at this point?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0329",
       "question": "o What is the correct arrival route when arriving via DISUN?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0330",
       "question": "o What is the outbound course of the AXODO holding?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0331",
       "question": "o What is the total distance of the UVBIX 2C arrival?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0332",
       "question": "o What is the initial approach fix when following the UVBIX 2C arrival?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0333",
       "question": "o What is the height of the highest terrain high point or man-made structure of the chart?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0334",
       "question": "o What is the current MSA for this aircraft?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0335",
       "question": "o What is the inbound course of the ATUPI holding?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0336",
       "question": "o What is the aproximate route distance of the ATUPI 1A arrival?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0337",
       "question": "o The route distance of the AXODO 1A arrival is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0338",
       "question": "o What is the initial approach fix (IAF) of the ATUPI 1A arrival route?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
@@ -3767,353 +2502,193 @@
     {
       "id": "Q0343",
       "question": "o Select the (1) Frequency (MHz) and (2) QDM (deg.) of the ILS at De Kooy Aerodrome:",
-      "options": [
-        "o",
-        "o",
-        "(1) 123.30 (2) 220°T",
-        "(1) 123.30 (2) 220°M"
-      ],
+      "options": ["o", "o", "(1) 123.30 (2) 220°T", "(1) 123.30 (2) 220°M"],
       "answer_index": 0
     },
     {
       "id": "Q0344",
       "question": "o What is the frequency of the NDB for the published NDB approach on runway 26L?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0345",
       "question": "4.2%, the lowest RVR (m) for a LOC approach RWY 26 is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0346",
       "question": "o Determine the ILS localizer final approach course:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0347",
       "question": "o What are the ILS frequency for RWY 09R?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0348",
       "question": "o What is the crossing altitude overhead BANOX for a propeller aircraft?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0349",
       "question": "o The Minimum Descent Altitude (MDA) for an ILS glide slope out is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0350",
       "question": "o The Radio Altimeter minimum altitude for a CAT 2 ILS DME approach to Rwy 01L is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0351",
       "question": "o The minimum initial descent altitude for a an NDB approach on runway 26L is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0352",
       "question": "o The initial climb altitude during the missed approach procedure for runway 26 is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0353",
       "question": "o The Decision Altitude (DA) for an ILS straight-in landing with an aircraft category A is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "581 ft"
-      ],
+      "options": ["o", "o", "o", "581 ft"],
       "answer_index": 0
     },
     {
       "id": "Q0354",
       "question": "o What is the MSA for an aircraft approaching FBSK on a track of 310° for an ILS DME approach on runway 08?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0355",
       "question": "o What is the minimum descent altitude for a localizer approach with NO vertical guidance (GS out)?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0356",
       "question": "o What is the published descent angle for the RNAV approach on runway 01?",
-      "options": [
-        "193 | P a g e",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["193 | P a g e", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0357",
       "question": "o What is the frequency of the localizer for the published ILS approach on runway 19?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0358",
       "question": "Cape Town?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0359",
       "question": "altitude of 1973 ft?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0360",
       "question": "runway 08?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "R275"
-      ],
+      "options": ["o", "o", "o", "R275"],
       "answer_index": 0
     },
     {
       "id": "Q0361",
       "question": "o What minimum navigation equipment is required for a VOR approach on runway 19 at Cape Town airport?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0362",
       "question": "o Determine the minimum RVR for a category A aircraft, assuming the approach light system is out of service:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0363",
       "question": "radius centred on a radio navigational aid, is the:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0364",
       "question": "o What is the elevation of runway 03R FAOR?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0365",
       "question": "o The initial climb altitude during the missed approach procedure for runway 03R is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0366",
       "question": "o What is the minimum descent altitude for an NDB DME approach on runway 26?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0367",
       "question": "o What is the frequency of the NDB for the published NDB DME approach on runway 26?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0368",
       "question": "o What Minimum Sector Altitude has to be considered?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0369",
       "question": "o The Missed Approach Point of the NDB DME approach for runway 26 is located at:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0370",
       "question": "o What is the transition altitude when departing from Windhoek, Namibia?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0371",
       "question": "o Under what conditions is a LNAV/VNAV approach based on barometric measurement NOT permitted?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0372",
       "question": "o The frequency of Cape Town Director is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0373",
       "question": "NDB DME approach for runway 26?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "6000 ft"
-      ],
+      "options": ["o", "o", "o", "6000 ft"],
       "answer_index": 0
     },
     {
       "id": "Q0374",
       "question": "o Type and category of this approach are:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
@@ -4130,78 +2705,43 @@
     {
       "id": "Q0376",
       "question": "o 97. Category and type of an ILS CAT I approach with decision height (DH) of 200 ft are:",
-      "options": [
-        "199 | P a g e",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["199 | P a g e", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0377",
       "question": "o A RNP Type B approach must be 3D and requires:",
-      "options": [
-        "1. ILS",
-        "MLS",
-        "GBAS",
-        "SBAS 5. ABAS only"
-      ],
+      "options": ["1. ILS", "MLS", "GBAS", "SBAS 5. ABAS only"],
       "answer_index": 0
     },
     {
       "id": "Q0378",
       "question": "o Type and category of this approach are:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0379",
       "question": "UA4, what frequency should you select to re-establish communication?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0380",
       "question": "o The TAS in kt is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0381",
       "question": "o Calculate the Wind Correction Angle (WCA) and GS:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0382",
       "question": "o Calculate the flight time:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
@@ -4262,331 +2802,181 @@
     {
       "id": "Q0388",
       "question": "o The fuel mass is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "1066.3 kg"
-      ],
+      "options": ["o", "o", "o", "1066.3 kg"],
       "answer_index": 0
     },
     {
       "id": "Q0389",
       "question": "Imperial gallon fuel drums have to be ordered, assuming a specific gravity of 0.78 kg/L?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0390",
       "question": "o The fuel mass is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0391",
       "question": "o With all other in-flight conditions constant, at 0.75 density the fuel flow will be:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0392",
       "question": "o The approximate fuel quantity in litres (L) to be reported to the fuel truck is:",
-      "options": [
-        "207 | P a g e",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["207 | P a g e", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0393",
       "question": "o This amount is equal to approximately:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0394",
       "question": "o Determine the ground range in NM:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0395",
       "question": "o The fuel flow is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0396",
       "question": "o The Holding Fuel is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0397",
       "question": "o The Holding Fuel is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0398",
       "question": "o Determine the air range in NAM:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0399",
       "question": "o Determine the ground range in NM:",
-      "options": [
-        "o",
-        "820 NM",
-        "209 | P a g e",
-        "o"
-      ],
+      "options": ["o", "820 NM", "209 | P a g e", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0400",
       "question": "o Determine fuel required for ground distance 100 NM at LRC speed:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0401",
       "question": "o Determine fuel required for ground distance 200 NM at LRC speed:",
-      "options": [
-        "o",
-        "o",
-        "1019 kg",
-        "1044 kg"
-      ],
+      "options": ["o", "o", "1019 kg", "1044 kg"],
       "answer_index": 0
     },
     {
       "id": "Q0402",
       "question": "o Determine fuel required for ground distance 180 NM at LRC speed:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0403",
       "question": "o Calculate the Trip Fuel:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0404",
       "question": "o Calculate the Trip Fuel:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0405",
       "question": "o Calculate the Trip Fuel:",
-      "options": [
-        "212 | P a g e",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["212 | P a g e", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0406",
       "question": "o The Minimum Fuel at destination is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0407",
       "question": "o The minimum fuel required (1) at the destination and (2) at the alternate is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0408",
       "question": "is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0409",
       "question": "o Assuming 0.78 kg/litres, the fuel required for engine start and taxi is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0410",
       "question": "o Assuming 0.80 kg/litres, the fuel required for engine start and taxi is:",
-      "options": [
-        "o",
-        "40 kg",
-        "215 | P a g e",
-        "o"
-      ],
+      "options": ["o", "40 kg", "215 | P a g e", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0411",
       "question": "o Determine the Taxi Fuel required for a Commercial Air Transport flight:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0412",
       "question": "o The minimum Block Fuel is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0413",
       "question": "o Determine the Taxi Fuel required for a Commercial Air Transport flight:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0414",
       "question": "o Assuming 0.82 kg/litres, the fuel required for engine start and taxi is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0415",
       "question": "o The minimum Block Fuel is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0416",
       "question": "o Determine the Taxi Fuel required for a Commercial Air Transport flight:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0417",
       "question": "o The result is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
@@ -4603,12 +2993,7 @@
     {
       "id": "Q0419",
       "question": "o The result is:",
-      "options": [
-        "o",
-        "o",
-        "Trip Fuel",
-        "Empty Mass"
-      ],
+      "options": ["o", "o", "Trip Fuel", "Empty Mass"],
       "answer_index": 0
     },
     {
@@ -4625,232 +3010,127 @@
     {
       "id": "Q0421",
       "question": "Alternate:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0422",
       "question": "o With simplified flight planning determine the Fuel Required and Trip Time:",
-      "options": [
-        "o",
-        "o",
-        "12400 kg, 4 h 00 min",
-        "11400 kg, 4 h 10 min"
-      ],
+      "options": ["o", "o", "12400 kg, 4 h 00 min", "11400 kg, 4 h 10 min"],
       "answer_index": 0
     },
     {
       "id": "Q0423",
       "question": "o With simplified flight planning, determine the estimated Trip Fuel and Time:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0424",
       "question": "o Determine the lean mixture cruise TAS and Fuel Flow:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0425",
       "question": "o Determine the Manifold Pressure and lean mixture cruise Fuel Flow:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0426",
       "question": "o To climb with Mixture Rich to FL110 with OAT ISA-10, the Fuel required is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0427",
       "question": "o Determine the TAS and lean mixture cruise Fuel Flow:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0428",
       "question": "o The Alternate Fuel required is:",
-      "options": [
-        "o",
-        "o",
-        "2500 kg",
-        "2750 kg"
-      ],
+      "options": ["o", "o", "2500 kg", "2750 kg"],
       "answer_index": 0
     },
     {
       "id": "Q0429",
       "question": "o The Alternate Fuel required is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0430",
       "question": "o For turbojet aeroplanes, what is the time required for final reserve fuel?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0431",
       "question": "o Determine the Final Reserve Fuel and the corresponding Time:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0432",
       "question": "o Determine the max. extra fuel:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0433",
       "question": "o The Landing Mass at the Alternate will be:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0434",
       "question": "o Which mass is correct?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0435",
       "question": "o The max. Take-Off Fuel is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0436",
       "question": "o The minimum take-off fuel is:",
-      "options": [
-        "233 | P a g e",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["233 | P a g e", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0437",
       "question": "o The Landing Mass at the Alternate will be:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0438",
       "question": "o The max. Take-Off Fuel is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0439",
       "question": "o The max. additional load is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0440",
       "question": "o The Minimum Ramp Fuel is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0441",
       "question": "o The Additional Fuel that must be carried is:",
-      "options": [
-        "o",
-        "o",
-        "3040 kg",
-        "8120 kg"
-      ],
+      "options": ["o", "o", "3040 kg", "8120 kg"],
       "answer_index": 0
     },
     {
@@ -4944,397 +3224,217 @@
     {
       "id": "Q0450",
       "question": "o The validity period of this NOTAM is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0451",
       "question": "o The groundspeed is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0452",
       "question": "o The ETA at C is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0453",
       "question": "o The new estimated time from destination to the alternate is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0454",
       "question": "o Calculate the distance from departure to the PET:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0455",
       "question": "o Calculate the distance from the departure point to the PET:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0456",
       "question": "o Calculate the Distance (NM) and the Time (min) from the departure point to the PET:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0457",
       "question": "o The distance of the PET from the departure point is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0458",
       "question": "o Caluculate the Distance (NM) and the Time (min) of the PET from the departure point:",
-      "options": [
-        "o",
-        "o",
-        "1140 NM, 136 min.",
-        "1350 NM, 159 min"
-      ],
+      "options": ["o", "o", "1140 NM, 136 min.", "1350 NM, 159 min"],
       "answer_index": 0
     },
     {
       "id": "Q0459",
       "question": "o The distance from A to the PET is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0460",
       "question": "o Calculate the Distance (NM) and Time (min) from the departure point to the PET:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0461",
       "question": "o The distance from X to the PET is:",
-      "options": [
-        "o",
-        "o",
-        "1386 NM",
-        "1436 NM"
-      ],
+      "options": ["o", "o", "1386 NM", "1436 NM"],
       "answer_index": 0
     },
     {
       "id": "Q0462",
       "question": "o Calculate the Distance (NM) and Time (min) of the PET from the departure point:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0463",
       "question": "o Calculate the time from the departure point to the PET:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0464",
       "question": "o Calculate the Time from the departure point to the PET:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "163 min"
-      ],
+      "options": ["o", "o", "o", "163 min"],
       "answer_index": 0
     },
     {
       "id": "Q0465",
       "question": "o Calculate the Time from the departure point to the PET:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0466",
       "question": "o Calculate the distance from the departure point to the PET:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0467",
       "question": "o The distance from Departure to Point of Equal Time (PET) is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0468",
       "question": "o The Time of Arrival at the Point of Equal Time (PET) is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0469",
       "question": "o The distance from WP 3 to the PET is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0470",
       "question": "o The time from A to the PET in minutes is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0471",
       "question": "o The distance of the PSR from the departure point is:",
-      "options": [
-        "o",
-        "o",
-        "211 NM",
-        "97 NM"
-      ],
+      "options": ["o", "o", "211 NM", "97 NM"],
       "answer_index": 0
     },
     {
       "id": "Q0472",
       "question": "o The distance of the PSR from the departure point is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0473",
       "question": "o The distance of the PSR from the departure point is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0474",
       "question": "o Calculate the distance and time of the PSR from the departure point:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0475",
       "question": "o Calculate the distance of the PSR from the departure point:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0476",
       "question": "o The time to the Point of Safe Return (PSR) is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0477",
       "question": "o Calculate the distance of the PSR from the departure point:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0478",
       "question": "o The distance of the PSR from the departure point is:",
-      "options": [
-        "o",
-        "o",
-        "142 NM",
-        "103 NM"
-      ],
+      "options": ["o", "o", "142 NM", "103 NM"],
       "answer_index": 0
     },
     {
       "id": "Q0479",
       "question": "o The distance of the PSR from the departure point is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0480",
       "question": "o Calculate the distance and time of the PSR from the departure point:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0481",
       "question": "o The distance from the departure point to the PSR is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0482",
       "question": "o The distance from the departure point to the PSR is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0483",
       "question": "o The time of the PSR from the departure point is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0484",
       "question": "o The time to the Point of Safe Return (PSR) is:",
-      "options": [
-        "255 | P a g e",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["255 | P a g e", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0485",
       "question": "o The distance of the PSR from the departure point is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
@@ -5351,111 +3451,61 @@
     {
       "id": "Q0487",
       "question": "o What is the wake turbulence category?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0488",
       "question": "The reduced Mach Number will be:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0489",
       "question": "o After 3 h 18 min in flight, the remaining fuel is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0490",
       "question": "o After 3 h flight time, the remaining fuel is:",
-      "options": [
-        "o",
-        "o",
-        "158 kg",
-        "176 kg"
-      ],
+      "options": ["o", "o", "158 kg", "176 kg"],
       "answer_index": 0
     },
     {
       "id": "Q0491",
       "question": "o After 1 h 30 min. flight time, the remaining fuel is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0492",
       "question": "o After 4 h in flight the remaining fuel is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0493",
       "question": "o If the density changes to 0.75kg/l the fuel consumption will be:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "223 l/h"
-      ],
+      "options": ["o", "o", "o", "223 l/h"],
       "answer_index": 0
     },
     {
       "id": "Q0494",
       "question": "o After flying 3 h 15 min, the remaining fuel is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0495",
       "question": "o If the fuel flow remains the same, how many minutes can be flown to destination with the remaining fuel?",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {
       "id": "Q0496",
       "question": "o With constant fuel flow and landing with required reserve fuel, the flight time remaining to the destination is:",
-      "options": [
-        "o",
-        "o",
-        "o",
-        "o"
-      ],
+      "options": ["o", "o", "o", "o"],
       "answer_index": 0
     },
     {

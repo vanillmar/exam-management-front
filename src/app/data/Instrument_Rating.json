@@ -5,56 +5,31 @@
     {
       "id": "EN-I030-200625-00466",
       "question": "Course 235(M) MSA 7800 ft QNH 995 hPa Temp. ISA o The minimum suitable IFR flight level is: o FL60 FL90",
-      "options": [
-        "FL75",
-        "FL100",
-        "o Question 2 of 122",
-        "ID:"
-      ],
+      "options": ["FL75", "FL100", "o Question 2 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200625-00410",
       "question": "The minimum sector altitude (MSA) on an instrument apppraoch chart is referenced to a radio navigation facility, usually within… o 5 NM 30 NM",
-      "options": [
-        "25 NM",
-        "20 NM",
-        "o Question 3 of 122",
-        "ID:"
-      ],
+      "options": ["25 NM", "20 NM", "o Question 3 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200625-00408",
       "question": "QNH 1025 HPa ISA +10 deg. C IFR flight 135° magnetic course airway MSA 7800 ft o The minimum flight level is: o FL75 FL65",
-      "options": [
-        "FL90",
-        "FL80",
-        "o Question 4 of 122",
-        "ID:"
-      ],
+      "options": ["FL90", "FL80", "o Question 4 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200625-00371",
       "question": "Excluding RVSM, an appropriate flight level (FL) for an IFR flight in accordance with the semi-circular height rules on a Magnetic Course 200 is: o FL320 FL310",
-      "options": [
-        "FL300",
-        "FL290",
-        "o Question 5 of 122",
-        "ID:"
-      ],
+      "options": ["FL300", "FL290", "o Question 5 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200625-00370",
       "question": "Excluding RVSM, an appropriate flight level (FL) for an IFR flight in accordance with the semi-circular height rules on a Magnetic Course 180 is: o FL85 FL90",
-      "options": [
-        "FL100",
-        "FL115",
-        "o Question 6 of 122",
-        "ID:"
-      ],
+      "options": ["FL100", "FL115", "o Question 6 of 122", "ID:"],
       "answer_index": 0
     },
     {
@@ -148,12 +123,7 @@
     {
       "id": "EN-I033-210505-02208",
       "question": "The Minimum Off-Route Altitude (MORA) provides obstruction clearance up to what distance from the airway centerline? o 20 NM 5 NM",
-      "options": [
-        "1 NM",
-        "10 NM",
-        "o Question 15 of 122",
-        "ID:"
-      ],
+      "options": ["1 NM", "10 NM", "o Question 15 of 122", "ID:"],
       "answer_index": 0
     },
     {
@@ -247,34 +217,19 @@
     {
       "id": "EN-I033-210505-02217",
       "question": "Given the following information, calculate the minimum flight level to be flown under IFR: MOCA: 4400 ft o Magnetic course: 233(M) Elevation of nearby airport: 1500 ft Magnetic variation: 12°W Temperature: ISA-18 QNH reported at airport: 993 hPa Transition Altitude: 5000 feet o FL 70 FL 80",
-      "options": [
-        "FL 60",
-        "FL 50",
-        "o Question 24 of 122",
-        "ID:"
-      ],
+      "options": ["FL 60", "FL 50", "o Question 24 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I033-210505-02221",
       "question": "Given the following information, calculate the minimum flight level to be flown under IFR in RVSM airspace? Obstacle Altitude: 24800 ft Obstacle Clearance: 2000 ft Magnetic course: 330(M) Temperature: ISA-15 QNH reported at airport: 993 hPa o FL 310 FL 290",
-      "options": [
-        "FL 300",
-        "FL 280",
-        "o Question 25 of 122",
-        "ID:"
-      ],
+      "options": ["FL 300", "FL 280", "o Question 25 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I033-210505-02218",
       "question": "Given the following information, calculate the true altitude of the aircraft of the aircraft above airfield datum (“true height”): Aircraft at FL 45 Temperature: ISA-13 Elevation of nearby airport: 200 ft QNH at airport: 1030 hPa o 3560 ft 5040 ft",
-      "options": [
-        "4580 ft",
-        "4020 ft",
-        "o Question 26 of 122",
-        "ID:"
-      ],
+      "options": ["4580 ft", "4020 ft", "o Question 26 of 122", "ID:"],
       "answer_index": 0
     },
     {
@@ -335,45 +290,25 @@
     {
       "id": "EN-I030-200625-00637",
       "question": "(See attachment IC-033-007) The route distance (NM) from runway 36L to ARNEM via the ARNEM 1Z departure route is: o 63.5 NM 68 NM",
-      "options": [
-        "63 NM",
-        "65.5 NM",
-        "o Question 32 of 122",
-        "ID:"
-      ],
+      "options": ["63 NM", "65.5 NM", "o Question 32 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200625-00636",
       "question": "(See attachment IC-033-003) The correct ZURICH EAST departure route via D5.0 ZUE for Runway 32 is: o ZUE 3F ZUE 1G",
-      "options": [
-        "ZUE 1M",
-        "o ZUE 3L",
-        "o Question 33 of 122",
-        "ID:"
-      ],
+      "options": ["ZUE 1M", "o ZUE 3L", "o Question 33 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200625-00635",
       "question": "(See attachment IC-033-001) What is the initial approach fix (IAF) for an arrival via DOMUS to RWY 27R? o BANOX DOMUS",
-      "options": [
-        "PGS",
-        "PG516",
-        "o Question 34 of 122",
-        "ID:"
-      ],
+      "options": ["PGS", "PG516", "o Question 34 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200625-00634",
       "question": "(See attachment IC-033-001) The Minimum Sector Altitude (MSA) based on the airport reference point is: o 6600 ft 3200 ft",
-      "options": [
-        "4000 ft",
-        "3300 ft",
-        "o Question 35 of 122",
-        "ID:"
-      ],
+      "options": ["4000 ft", "3300 ft", "o Question 35 of 122", "ID:"],
       "answer_index": 0
     },
     {
@@ -390,56 +325,31 @@
     {
       "id": "EN-I030-200625-00632",
       "question": "(See attachment IC-033-003) The correct departure via ZURICH EAST from runway 34 is: o ZUE 3L ZUE 3F",
-      "options": [
-        "ZUE 1G",
-        "ZUE 1M",
-        "o Question 37 of 122",
-        "ID:"
-      ],
+      "options": ["ZUE 1G", "ZUE 1M", "o Question 37 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200625-00516",
       "question": "(See attachment IC-033-002) What is the elevation of runway 09R LFPG? o 392 ft 823 ft",
-      "options": [
-        "371 ft",
-        "3200 ft",
-        "o Question 38 of 122",
-        "ID:"
-      ],
+      "options": ["371 ft", "3200 ft", "o Question 38 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200701-00749",
       "question": "(See annex IC-033-022) An aircraft proceeding on the EXOBI 3B SID is passing DME 15.0 JSV. What is the MSA at this point? o 7000 ft 8400 ft",
-      "options": [
-        "o 8000 ft",
-        "7800 ft",
-        "o Question 39 of 122",
-        "ID:"
-      ],
+      "options": ["o 8000 ft", "7800 ft", "o Question 39 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200701-00748",
       "question": "(See annex IC-033-022) An aircraft cleared for the EXOBI 1A SID for runway 03 L/R is permitted to climb initially to… o FL90. 7800 ft altitude.",
-      "options": [
-        "FL75.",
-        "8000 ft altitude.",
-        "o Question 40 of 122",
-        "ID:"
-      ],
+      "options": ["FL75.", "8000 ft altitude.", "o Question 40 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200625-00638",
       "question": "(See attachment IC-033-005) What is the correct arrival route when arriving via DISUN? o MERSI 4A KOGOL 4A",
-      "options": [
-        "OSDER 4A",
-        "IRBIR 5A",
-        "o Question 41 of 122",
-        "ID:"
-      ],
+      "options": ["OSDER 4A", "IRBIR 5A", "o Question 41 of 122", "ID:"],
       "answer_index": 0
     },
     {
@@ -467,34 +377,19 @@
     {
       "id": "EN-I030-200701-00739",
       "question": "(See annex IC-033-023) What is the outbound course of the AXODO holding? o 217° 300°",
-      "options": [
-        "119°",
-        "299°",
-        "o Question 44 of 122",
-        "ID:"
-      ],
+      "options": ["119°", "299°", "o Question 44 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200701-00745",
       "question": "(See annex IC-033-026) What is the total distance of the UVBIX 2C arrival? o 51 NM o 74 NM",
-      "options": [
-        "72 NM",
-        "48 NM",
-        "o Question 45 of 122",
-        "ID:"
-      ],
+      "options": ["72 NM", "48 NM", "o Question 45 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200701-00744",
       "question": "(See annex IC-033-026) What is the initial approach fix when following the UVBIX 2C arrival? o UVBIX OKPEX",
-      "options": [
-        "UTIMO",
-        "BONDY",
-        "o Question 46 of 122",
-        "ID:"
-      ],
+      "options": ["UTIMO", "BONDY", "o Question 46 of 122", "ID:"],
       "answer_index": 0
     },
     {
@@ -511,78 +406,43 @@
     {
       "id": "EN-I030-200701-00742",
       "question": "(See annex IC-033-025) What is the height of the highest terrain high point or man-made structure of the chart? o 8400 ft 7800 ft",
-      "options": [
-        "6793 ft",
-        "8900 ft",
-        "o Question 48 of 122",
-        "ID:"
-      ],
+      "options": ["6793 ft", "8900 ft", "o Question 48 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200701-00741",
       "question": "(See annex IC-033-025) An aircraft following the AVAGO 2A arrival is on JSV radial 320 inbound at a distance of 10.0 JSV DME. What is the current MSA for this aircraft? o 8900 ft 8400 ft",
-      "options": [
-        "7800 ft",
-        "8000 ft",
-        "o Question 49 of 122",
-        "ID:"
-      ],
+      "options": ["7800 ft", "8000 ft", "o Question 49 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200701-00747",
       "question": "(See annex IC-033-027) An aircraft cleared for the TETAN 1B SID for runway 19 is permitted to climb initially to… o 7500 ft altitude. FL75.",
-      "options": [
-        "FL85.",
-        "FL90.",
-        "o Question 50 of 122",
-        "ID:"
-      ],
+      "options": ["FL85.", "FL90.", "o Question 50 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200701-00738",
       "question": "(See annex IC-033-023) What is the inbound course of the ATUPI holding? o 299° 217°",
-      "options": [
-        "037°",
-        "036°",
-        "o Question 51 of 122",
-        "ID:"
-      ],
+      "options": ["037°", "036°", "o Question 51 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200701-00737",
       "question": "(See annex IC-033-023) What is the aproximate route distance of the ATUPI 1A arrival? o 64 NM 32 NM",
-      "options": [
-        "28 NM",
-        "35 NM",
-        "o Question 52 of 122",
-        "ID:"
-      ],
+      "options": ["28 NM", "35 NM", "o Question 52 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200701-00736",
       "question": "(See annex IC-033-023) The route distance of the AXODO 1A arrival is: o 58 NM 32 NM",
-      "options": [
-        "64 NM",
-        "60 NM",
-        "o Question 53 of 122",
-        "ID:"
-      ],
+      "options": ["64 NM", "60 NM", "o Question 53 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200701-00734",
       "question": "(See annex IC-033-023) What is the initial approach fix (IAF) of the ATUPI 1A arrival route? o UNDID OLLIE",
-      "options": [
-        "ATUPI",
-        "EGLIK",
-        "o Question 54 of 122",
-        "ID:"
-      ],
+      "options": ["ATUPI", "EGLIK", "o Question 54 of 122", "ID:"],
       "answer_index": 0
     },
     {
@@ -632,12 +492,7 @@
     {
       "id": "EN-I033-210505-02230",
       "question": "A commercial aeroplane is capable for an Approach Climb Gradient (ACG) of 3.5%. Instrument approach procedures that o 1. ILS-DME approach with required minimum ACG is 2.9% 2. VOR-DME approach minimum ACG required is 4.4% 3. LOC-DME approach with required minimum ACG required is 3.5% o 1 and 3. 1, 2 and 3",
-      "options": [
-        "2 and 3",
-        "1 and 2",
-        "o Question 59 of 122",
-        "ID:"
-      ],
+      "options": ["2 and 3", "1 and 2", "o Question 59 of 122", "ID:"],
       "answer_index": 0
     },
     {
@@ -654,166 +509,91 @@
     {
       "id": "EN-I030-200625-00648",
       "question": "(See attachment IC-033-006) What is the frequency of the NDB for the published NDB approach on runway 26L? o 115.0 MHz 400 kHz",
-      "options": [
-        "108.3 MHz",
-        "338 kHz",
-        "o Question 61 of 122",
-        "ID:"
-      ],
+      "options": ["108.3 MHz", "338 kHz", "o Question 61 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200625-00647",
       "question": "(See annex IC-033-004) In a Category A aircraft with all other aids serviceable and a missed approach climb gradient until 3,200 ft of 4.2%, the o 2100 m 2500 m",
-      "options": [
-        "1500 m",
-        "1200 m",
-        "o Question 62 of 122",
-        "ID:"
-      ],
+      "options": ["1500 m", "1200 m", "o Question 62 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200625-00646",
       "question": "(See attachment IC-033-002) Determine the ILS localizer final approach course: o 134° 114°",
-      "options": [
-        "085°",
-        "110°",
-        "o Question 63 of 122",
-        "ID:"
-      ],
+      "options": ["085°", "110°", "o Question 63 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200625-00645",
       "question": "(See annex IC-033-002) What are the ILS frequency for RWY 09R? o 110.1 MHz 119.25 MHz",
-      "options": [
-        "115.35 MHz",
-        "127.13 MHz",
-        "o Question 64 of 122",
-        "ID:"
-      ],
+      "options": ["115.35 MHz", "127.13 MHz", "o Question 64 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200625-00644",
       "question": "(See attachment IC-033-001) What is the crossing altitude overhead BANOX for a propeller aircraft? o FL 150 FL 140",
-      "options": [
-        "FL 280",
-        "FL 070",
-        "o Question 65 of 122",
-        "ID:"
-      ],
+      "options": ["FL 280", "FL 070", "o Question 65 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200625-00643",
       "question": "(See attachment IC-033-002) The Minimum Descent Altitude (MDA) for an ILS glide slope out is: o 760 ft 389 ft",
-      "options": [
-        "581 ft",
-        "571 ft",
-        "o Question 66 of 122",
-        "ID:"
-      ],
+      "options": ["581 ft", "571 ft", "o Question 66 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200625-00642",
       "question": "(See attachment IC-033-057) The Radio Altimeter minimum altitude for a CAT 2 ILS DME approach to Rwy 01L is: o 100 ft 300 ft",
-      "options": [
-        "188 ft",
-        "88 ft",
-        "o Question 67 of 122",
-        "ID:"
-      ],
+      "options": ["188 ft", "88 ft", "o Question 67 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200625-00641",
       "question": "(See attachment IC-033-006) The minimum initial descent altitude for a an NDB approach on runway 26L is: o 5000 ft 4040 ft",
-      "options": [
-        "2800 ft",
-        "2330 ft",
-        "o Question 68 of 122",
-        "ID:"
-      ],
+      "options": ["2800 ft", "2330 ft", "o Question 68 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200625-00640",
       "question": "(See annex IC-033-004) The initial climb altitude during the missed approach procedure for runway 26 is: o 10300 ft 9500 ft",
-      "options": [
-        "11600 ft",
-        "11500 ft",
-        "o Question 69 of 122",
-        "ID:"
-      ],
+      "options": ["11600 ft", "11500 ft", "o Question 69 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200625-00639",
       "question": "(See attachment IC-033-002) The Decision Altitude (DA) for an ILS straight-in landing with an aircraft category A is: o 581 ft 571 ft",
-      "options": [
-        "760 ft",
-        "200 ft",
-        "o Question 70 of 122",
-        "ID:"
-      ],
+      "options": ["760 ft", "200 ft", "o Question 70 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200701-00735",
       "question": "(See annex IC-033-021) What is the MSA for an aircraft approaching FBSK on a track of 310° for an ILS DME approach on runway 08? o 6400 ft 6100 ft",
-      "options": [
-        "6000 ft",
-        "7000 ft",
-        "o Question 71 of 122",
-        "ID:"
-      ],
+      "options": ["6000 ft", "7000 ft", "o Question 71 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200701-00732",
       "question": "(See annex IC-033-021) What is the minimum descent altitude for a localizer approach with NO vertical guidance (GS out)? o 3960 ft 4060 ft",
-      "options": [
-        "3600 ft",
-        "3492 ft",
-        "o Question 72 of 122",
-        "ID:"
-      ],
+      "options": ["3600 ft", "3492 ft", "o Question 72 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200701-00731",
       "question": "(See annex IC-033-020) What is the published descent angle for the RNAV approach on runway 01? o 10.0° 3.0°",
-      "options": [
-        "5.0°",
-        "3.8°",
-        "o Question 73 of 122",
-        "ID:"
-      ],
+      "options": ["5.0°", "3.8°", "o Question 73 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200701-00730",
       "question": "(See annex IC-033-019) What is the frequency of the localizer for the published ILS approach on runway 19? o 115.7 MHz 109.1 MHz",
-      "options": [
-        "189.0 MHz",
-        "o 462.5 kHz",
-        "o Question 74 of 122",
-        "ID:"
-      ],
+      "options": ["189.0 MHz", "o 462.5 kHz", "o Question 74 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200701-00729",
       "question": "(See annex IC-033-019) o What is the speed limit, when established on localizer at 10.0 KSI DME on the ILS approach for runway 19 in Cape Town? o As advised by ATC 160 kt",
-      "options": [
-        "180 kt",
-        "150 kt",
-        "o Question 75 of 122",
-        "ID:"
-      ],
+      "options": ["180 kt", "150 kt", "o Question 75 of 122", "ID:"],
       "answer_index": 0
     },
     {
@@ -830,56 +610,31 @@
     {
       "id": "EN-I030-200701-00733",
       "question": "(See annex IC-033-021) Which radial must a category C aircraft intercept when passing GSV VOR for a standard ILS DME approach on runway 08? o R077 R275",
-      "options": [
-        "R266",
-        "R074",
-        "o Question 77 of 122",
-        "ID:"
-      ],
+      "options": ["R266", "R074", "o Question 77 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200701-00726",
       "question": "(See annex IC-033-018) What minimum navigation equipment is required for a VOR approach on runway 19 at Cape Town airport? o ADF and DME CDI and ADF",
-      "options": [
-        "CDI only",
-        "CDI and DME",
-        "o Question 78 of 122",
-        "ID:"
-      ],
+      "options": ["CDI only", "CDI and DME", "o Question 78 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200701-00727",
       "question": "(See annex IC-033-018) Determine the minimum RVR for a category A aircraft, assuming the approach light system is out of service: o 1800 m 1500 m",
-      "options": [
-        "900 m",
-        "1000 m",
-        "o Question 79 of 122",
-        "ID:"
-      ],
+      "options": ["900 m", "1000 m", "o Question 79 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200625-00440",
       "question": "o The lowest ICAO altitude providing minimum 300 m (1000 ft) clearance above all objects in a 46 km (25 NM) radius centred on a radio navigational aid, is the: o MSA MEA",
-      "options": [
-        "MORA",
-        "MOCA",
-        "o Question 80 of 122",
-        "ID:"
-      ],
+      "options": ["MORA", "MOCA", "o Question 80 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200701-00712",
       "question": "(See annex IC-033-015) What is the elevation of runway 03R FAOR? o 5558 ft 5510 ft",
-      "options": [
-        "7800 ft",
-        "186 ft",
-        "o Question 81 of 122",
-        "ID:"
-      ],
+      "options": ["7800 ft", "186 ft", "o Question 81 of 122", "ID:"],
       "answer_index": 0
     },
     {
@@ -896,56 +651,31 @@
     {
       "id": "EN-I030-200701-00714",
       "question": "(See annex IC-033-015) The initial climb altitude during the missed approach procedure for runway 03R is: o 7800 ft 8400 ft",
-      "options": [
-        "8000 ft",
-        "9000 ft",
-        "o Question 83 of 122",
-        "ID:"
-      ],
+      "options": ["8000 ft", "9000 ft", "o Question 83 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200701-00715",
       "question": "(See annex IC-033-015) The ILS localizer course for runway 03R is… o 028°. 030°.",
-      "options": [
-        "034°.",
-        "214°.",
-        "o Question 84 of 122",
-        "ID:"
-      ],
+      "options": ["034°.", "214°.", "o Question 84 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200701-00717",
       "question": "(See annex IC-033-016) What is the minimum descent altitude for an NDB DME approach on runway 26? o 3960 ft 5500 ft",
-      "options": [
-        "3650 ft",
-        "373 ft",
-        "o Question 85 of 122",
-        "ID:"
-      ],
+      "options": ["3650 ft", "373 ft", "o Question 85 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200701-00718",
       "question": "o (See annex IC-033-016) What is the frequency of the NDB for the published NDB DME approach on runway 26? o 126.6 MHz 128 kHz",
-      "options": [
-        "114.0 MHz",
-        "311 kHz",
-        "o Question 86 of 122",
-        "ID:"
-      ],
+      "options": ["114.0 MHz", "311 kHz", "o Question 86 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200701-00716",
       "question": "(See annex IC-033-015) An aircraft is approaching FAOR for the ILS on runway 03R on a 250° track. What Minimum Sector Altitude has to be considered? o 9000 ft 6700 ft",
-      "options": [
-        "7800 ft",
-        "8400 ft",
-        "o Question 87 of 122",
-        "ID:"
-      ],
+      "options": ["7800 ft", "8400 ft", "o Question 87 of 122", "ID:"],
       "answer_index": 0
     },
     {
@@ -973,23 +703,13 @@
     {
       "id": "EN-I030-200701-00722",
       "question": "(See annex IC-033-017) Determine the Minimum Descent Height for a category C aircraft using lateral and vertical guidance. o 368 ft 1800 m",
-      "options": [
-        "6010 ft",
-        "1500 m",
-        "o Question 90 of 122",
-        "ID:"
-      ],
+      "options": ["6010 ft", "1500 m", "o Question 90 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200701-00723",
       "question": "(See annex IC-033-017) What is the transition altitude when departing from Windhoek, Namibia? o 10000 ft As advised by ATC",
-      "options": [
-        "5000 ft",
-        "9000 ft",
-        "o Question 91 of 122",
-        "o ID:"
-      ],
+      "options": ["5000 ft", "9000 ft", "o Question 91 of 122", "o ID:"],
       "answer_index": 0
     },
     {
@@ -1006,23 +726,13 @@
     {
       "id": "EN-I030-200701-00725",
       "question": "(See annex IC-033-018) The frequency of Cape Town Director is: o 124.35 MHz 124.35 kHz",
-      "options": [
-        "119.7 kHz",
-        "119.7 MHz",
-        "o Question 93 of 122",
-        "ID:"
-      ],
+      "options": ["119.7 kHz", "119.7 MHz", "o Question 93 of 122", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I030-200701-00719",
       "question": "(See annex IC-033-016) What altitude indication is required at 4.0 GSV DME, in order to maintain the ideal descent path during the NDB DME approach for runway 26? o 5500 ft 3940 ft",
-      "options": [
-        "6000 ft",
-        "4260 ft",
-        "o Question 94 of 122",
-        "ID:"
-      ],
+      "options": ["6000 ft", "4260 ft", "o Question 94 of 122", "ID:"],
       "answer_index": 0
     },
     {
@@ -1215,12 +925,7 @@
     {
       "id": "EN-I030-200625-00094",
       "question": "Cruise Level FL370 Cruise Regime M 0.74 OAT -47° C The TAS in kt is: o 438 424",
-      "options": [
-        "416",
-        "434",
-        "o Question 112 of 122",
-        "ID:"
-      ],
+      "options": ["416", "434", "o Question 112 of 122", "ID:"],
       "answer_index": 0
     },
     {
@@ -1237,12 +942,7 @@
     {
       "id": "EN-I030-200625-00441",
       "question": "Distance 300 NM Wind (true) 340/40 Magnetic course 300° Variation 20°E TAS 440 kt Calculate the flight time: o 48 min 37 min",
-      "options": [
-        "45 min",
-        "42 min",
-        "o Question 114 of 122",
-        "ID:"
-      ],
+      "options": ["45 min", "42 min", "o Question 114 of 122", "ID:"],
       "answer_index": 0
     },
     {
@@ -1347,12 +1047,7 @@
     {
       "id": "EN-I010-201014-00480",
       "question": "The turn made by an aircraft to the runway between the end of the outbound track and the beginning of the intermediate or final approach track, where the tracks are not reciprocal, is called a… o final turn. approach turn.",
-      "options": [
-        "procedure turn.",
-        "base turn.",
-        "o Question 2 of 4",
-        "ID:"
-      ],
+      "options": ["procedure turn.", "base turn.", "o Question 2 of 4", "ID:"],
       "answer_index": 0
     },
     {
@@ -1413,23 +1108,13 @@
     {
       "id": "EN-I010-201014-00569",
       "question": "The initial track in a straight departure does not differ from the alignment of the extended runway centre line by more than how many degrees? o 30 15",
-      "options": [
-        "10",
-        "25",
-        "o Question 4 of 6",
-        "ID:"
-      ],
+      "options": ["10", "25", "o Question 4 of 6", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00517",
       "question": "In a turning departure, the initial departure track deviates from the alignment of the extended runway centre line by more than: o 25° 10°",
-      "options": [
-        "15°",
-        "5°",
-        "o Question 5 of 6",
-        "ID:"
-      ],
+      "options": ["15°", "5°", "o Question 5 of 6", "ID:"],
       "answer_index": 0
     },
     {
@@ -1523,12 +1208,7 @@
     {
       "id": "EN-I010-210105-01139",
       "question": "According ICAO Doc 8168, the design of an instrument approach procedure is, in general, dictated by the: o 1. terrain surrounding the aerodrome 2. type of available navigation aids 3. the type of operations contemplated and the aircraft to be accommodated. 4. Aircraft and Pavement Classification Numbers (ACN / PCN) o 1, 2 and 3 1 and 3",
-      "options": [
-        "1, 2, 3 and 4",
-        "2 and 3",
-        "o Question 8 of 40",
-        "ID:"
-      ],
+      "options": ["1, 2, 3 and 4", "2 and 3", "o Question 8 of 40", "ID:"],
       "answer_index": 0
     },
     {
@@ -1556,12 +1236,7 @@
     {
       "id": "EN-I010-201014-00510",
       "question": "For a non-precision or circling approach, the MDH shall not be lower than: o 100 ft",
-      "options": [
-        "OCH",
-        "200 ft",
-        "o Question 11 of 40",
-        "ID:"
-      ],
+      "options": ["OCH", "200 ft", "o Question 11 of 40", "ID:"],
       "answer_index": 0
     },
     {
@@ -1578,12 +1253,7 @@
     {
       "id": "EN-I010-201014-00535",
       "question": "An Obstacle Clearance Altitude has reference to… o the Aerodrome Elevation the Runway Threshold",
-      "options": [
-        "MSL",
-        "AGL",
-        "o Question 13 of 40",
-        "ID:"
-      ],
+      "options": ["MSL", "AGL", "o Question 13 of 40", "ID:"],
       "answer_index": 0
     },
     {
@@ -1633,23 +1303,13 @@
     {
       "id": "EN-I010-210105-01143",
       "question": "o Standard glide slope for descent, also used in ILS approaches, is: o 4° 5°",
-      "options": [
-        "2°",
-        "3°",
-        "o Question 18 of 40",
-        "ID:"
-      ],
+      "options": ["2°", "3°", "o Question 18 of 40", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-210105-01144",
       "question": "Standard gradient for descent, also used in ILS approaches, is: o 5.20% 3%",
-      "options": [
-        "1%",
-        "2.50%",
-        "o Question 19 of 40",
-        "ID:"
-      ],
+      "options": ["1%", "2.50%", "o Question 19 of 40", "ID:"],
       "answer_index": 0
     },
     {
@@ -1776,12 +1436,7 @@
     {
       "id": "EN-I010-201014-00542",
       "question": "Missed approach procedures are generally based on a missed approach climb gradient of: o 5.50% 3.30%",
-      "options": [
-        "2.50%",
-        "1.50%",
-        "o Question 31 of 40",
-        "ID:"
-      ],
+      "options": ["2.50%", "1.50%", "o Question 31 of 40", "ID:"],
       "answer_index": 0
     },
     {
@@ -1919,23 +1574,13 @@
     {
       "id": "EN-I010-201014-00547",
       "question": "Tracks in a holding pattern can be maintained by considering the wind conditions and therefore adjusting: o 1. Heading 2. Track 3. Time 4. Speed o 1 and 3 2 and 3",
-      "options": [
-        "2 and 4",
-        "1 and 4",
-        "o Question 4 of 11",
-        "ID:"
-      ],
+      "options": ["2 and 4", "1 and 4", "o Question 4 of 11", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00485",
       "question": "In still air conditions, the outbound time in a holding pattern at 14000 ft or below is: o 1 minute 30 seconds",
-      "options": [
-        "3 minutes",
-        "20 seconds",
-        "o Question 5 of 11",
-        "ID:"
-      ],
+      "options": ["3 minutes", "20 seconds", "o Question 5 of 11", "ID:"],
       "answer_index": 0
     },
     {
@@ -1952,12 +1597,7 @@
     {
       "id": "EN-I010-201014-00585",
       "question": "The three entry sectors in a holding pattern have a range of flexibility on each side of the sector boundaries of… o 5 degrees. 3 degrees.",
-      "options": [
-        "25 degrees.",
-        "o 15 degrees.",
-        "o Question 7 of 11",
-        "ID:"
-      ],
+      "options": ["25 degrees.", "o 15 degrees.", "o Question 7 of 11", "ID:"],
       "answer_index": 0
     },
     {
@@ -2018,23 +1658,13 @@
     {
       "id": "EN-I010-201014-00540",
       "question": "The vertical position of an aircraft at or above the transition level with altimeter setting 1013.2 hPa shall be stated as: o Elevation Flight Level",
-      "options": [
-        "Altitude",
-        "Height",
-        "o Question 2 of 16",
-        "ID:"
-      ],
+      "options": ["Altitude", "Height", "o Question 2 of 16", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00577",
       "question": "What are the main objectives of altimeter setting procedures? o 1. To provide terrain clearance 2. To provide an adequate input to ACAS equipment 3. To ensure vertical separation between aircraft 4. To ensure horizontal separation between aircraft o 2 and 4 2 and 3",
-      "options": [
-        "1 and 3",
-        "1 and 4",
-        "o Question 3 of 16",
-        "ID:"
-      ],
+      "options": ["1 and 3", "1 and 4", "o Question 3 of 16", "ID:"],
       "answer_index": 0
     },
     {
@@ -2062,23 +1692,13 @@
     {
       "id": "EN-I010-201014-00580",
       "question": "According ICAO Doc 8168, consecutive flight levels are separated by at least: o 500 ft 1000 ft",
-      "options": [
-        "300 ft",
-        "2000 ft",
-        "o Question 6 of 16",
-        "ID:"
-      ],
+      "options": ["300 ft", "2000 ft", "o Question 6 of 16", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00497",
       "question": "In general the transition altitude shall be as low as possible, but not less than: o 3500 ft AGL 3000 ft AGL",
-      "options": [
-        "o 1500 ft AGL",
-        "2000 ft AGL",
-        "o Question 7 of 16",
-        "ID:"
-      ],
+      "options": ["o 1500 ft AGL", "2000 ft AGL", "o Question 7 of 16", "ID:"],
       "answer_index": 0
     },
     {
@@ -2128,12 +1748,7 @@
     {
       "id": "EN-I010-201014-00584",
       "question": "According to ICAO Doc 8168, during approach to a controlled aerodrome for landing, when should the QNH altimeter setting be provided for flight crews? o 1. in landing clearances 2. in approach clearances 3. in clearances to enter the traffic circuit o 1 and 3 2 and 3",
-      "options": [
-        "2 only.",
-        "1, 2 and 3",
-        "o Question 12 of 16",
-        "ID:"
-      ],
+      "options": ["2 only.", "1, 2 and 3", "o Question 12 of 16", "ID:"],
       "answer_index": 0
     },
     {
@@ -2216,23 +1831,13 @@
     {
       "id": "EN-I010-210105-01149",
       "question": "According to ICAO Doc 8168, required avionics for operation in parallel instrument approaches are: o 1. Normal IFR avionics 2. Full ILS or MLS capability 3. RNP-RNAV compliant navigation system o 1 only 1, 2 and 3",
-      "options": [
-        "1 and 2 only",
-        "2 and 3 only",
-        "o Question 4 of 5",
-        "ID:"
-      ],
+      "options": ["1 and 2 only", "2 and 3 only", "o Question 4 of 5", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00483",
       "question": "In case of independent parallel approaches, the minimum radar separation on the ILS localizer is: o 8.0 NM 5.0 NM",
-      "options": [
-        "1.0 NM",
-        "3.0 NM",
-        "o Question 5 of 5",
-        "ID:"
-      ],
+      "options": ["1.0 NM", "3.0 NM", "o Question 5 of 5", "ID:"],
       "answer_index": 0
     },
     {
@@ -2293,12 +1898,7 @@
     {
       "id": "EN-I010-201014-00499",
       "question": "When an aircraft is subjected to unlawful interference, the pilot shall set the transponder to Mode A, code: o 5500 5000",
-      "options": [
-        "7600",
-        "7500",
-        "o Question 6 of 13",
-        "ID:"
-      ],
+      "options": ["7600", "7500", "o Question 6 of 13", "ID:"],
       "answer_index": 0
     },
     {
@@ -2392,12 +1992,7 @@
     {
       "id": "EN-I010-210105-01150",
       "question": "Regulation (EU) No 965/2012 lays down detailed rules for: o 1. Air operations with aeroplanes and helicopters 2. Ramp inspections of aircraft of operators 3. Flight Crew Licensing 4. Conditions for issuing the certificates of operators o 1, 3 and 4 1, 2 and 4",
-      "options": [
-        "3 and 4",
-        "1, 2, 3 and 4",
-        "o Question 2 of 8",
-        "ID:"
-      ],
+      "options": ["3 and 4", "1, 2, 3 and 4", "o Question 2 of 8", "ID:"],
       "answer_index": 0
     },
     {

@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
+import { useState } from "react";
 
 interface LeftNavProps {
   total: number;
@@ -11,8 +11,15 @@ interface LeftNavProps {
   onFinish: () => void;
 }
 
-export default function LeftNav({ total, answers, marked, currentIndex, onSelect, onFinish }: LeftNavProps) {
-  const [timer, setTimer] = useState('2:30:00');
+export default function LeftNav({
+  total,
+  answers,
+  marked,
+  currentIndex,
+  onSelect,
+  onFinish,
+}: LeftNavProps) {
+  const [timer, setTimer] = useState("2:30:00");
 
   return (
     <div className="sticky top-16 bg-white/3 border border-white/8 rounded-12 p-2.5 flex flex-col gap-2.5 h-[calc(100vh-110px)]">
@@ -26,13 +33,15 @@ export default function LeftNav({ total, answers, marked, currentIndex, onSelect
           Finish
         </button>
       </div>
-      <div className="text-center text-sm border border-dashed border-white/10 p-1.5">{timer}</div>
+      <div className="text-center text-sm border border-dashed border-white/10 p-1.5">
+        {timer}
+      </div>
       <div className="grid grid-cols-5 gap-1.5 overflow-auto">
         {Array.from({ length: total }).map((_, i) => (
           <button
             key={i}
-            className={`q-btn ${answers[i] !== null ? 'answered' : ''} ${marked.has(i) ? 'marked' : ''} ${
-              i === currentIndex ? 'current' : ''
+            className={`q-btn ${answers[i] !== null ? "answered" : ""} ${marked.has(i) ? "marked" : ""} ${
+              i === currentIndex ? "current" : ""
             }`}
             onClick={() => onSelect(i)}
           >

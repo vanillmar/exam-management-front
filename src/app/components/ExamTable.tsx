@@ -1,16 +1,46 @@
-'use client';
+"use client";
 
-import { useRouter } from 'next/navigation';
+import { useRouter } from "next/navigation";
 
 const exams = [
-  { subject: 'airlaw', title: 'Air Law', result: '—', status: 'Ready' },
-  { subject: 'human-performance', title: 'Human Performance', result: '—', status: 'Ready' },
-  { subject: 'aircraft-technical', title: 'Aircraft Technical General', result: '—', status: 'Ready' },
-  { subject: 'flight-planning', title: 'Flight Planning and Performance', result: '—', status: 'Ready' },
-  { subject: 'instruments', title: 'Instruments and Electronics', result: '—', status: 'Ready' },
-  { subject: 'meteorology', title: 'Meteorology', result: '—', status: 'Ready' },
-  { subject: 'general-navigation', title: 'General Navigation', result: '—', status: 'Ready' },
-  { subject: 'radio-aids', title: 'Radio Aids', result: '—', status: 'Ready' },
+  { subject: "airlaw", title: "Air Law", result: "—", status: "Ready" },
+  {
+    subject: "human-performance",
+    title: "Human Performance",
+    result: "—",
+    status: "Ready",
+  },
+  {
+    subject: "aircraft-technical",
+    title: "Aircraft Technical General",
+    result: "—",
+    status: "Ready",
+  },
+  {
+    subject: "flight-planning",
+    title: "Flight Planning and Performance",
+    result: "—",
+    status: "Ready",
+  },
+  {
+    subject: "instruments",
+    title: "Instruments and Electronics",
+    result: "—",
+    status: "Ready",
+  },
+  {
+    subject: "meteorology",
+    title: "Meteorology",
+    result: "—",
+    status: "Ready",
+  },
+  {
+    subject: "general-navigation",
+    title: "General Navigation",
+    result: "—",
+    status: "Ready",
+  },
+  { subject: "radio-aids", title: "Radio Aids", result: "—", status: "Ready" },
 ];
 
 export default function ExamTable() {

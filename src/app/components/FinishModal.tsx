@@ -12,7 +12,9 @@ export default function FinishModal({
       <div className="modal-card w-[92%] max-w-[520px] glass p-5">
         <h3 className="text-xl font-bold mb-3">Finish examination</h3>
         <p>Do you really want to submit the examination?</p>
-        <p className="mt-2">There are still {remaining} unanswered question(s) remaining.</p>
+        <p className="mt-2">
+          There are still {remaining} unanswered question(s) remaining.
+        </p>
         <div className="row space-between mt-3">
           <button onClick={onCancel} className="ghost">
             No

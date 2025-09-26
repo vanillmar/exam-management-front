@@ -5,23 +5,13 @@
     {
       "id": "EN-I090-201019-00073",
       "question": "Which of the following is an ATS unit in charge of controlling traffic? AFIS AIS",
-      "options": [
-        "ATIS",
-        "DEPARTURE",
-        "Question 2 of 70",
-        "ID:"
-      ],
+      "options": ["ATIS", "DEPARTURE", "Question 2 of 70", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I090-201019-00077",
       "question": "Which of the following is the correct suffix for the ATC unit controlling the traffic using the movement area? DELIVERY RADAR",
-      "options": [
-        "APPROACH",
-        "GROUND",
-        "Question 3 of 70",
-        "ID:"
-      ],
+      "options": ["APPROACH", "GROUND", "Question 3 of 70", "ID:"],
       "answer_index": 0
     },
     {
@@ -225,12 +215,7 @@
     {
       "id": "EN-I090-210913-00564",
       "question": "An approach should be reported as “FINAL” at a point at what distance to the runway (or less)? 4 NM 8 NM",
-      "options": [
-        "10 NM",
-        "2 NM",
-        "Question 22 of 70",
-        "ID:"
-      ],
+      "options": ["10 NM", "2 NM", "Question 22 of 70", "ID:"],
       "answer_index": 0
     },
     {
@@ -346,12 +331,7 @@
     {
       "id": "EN-I090-201019-00085",
       "question": "Which abbreviation is used for “Co-ordinated universal time”? GMT UTC",
-      "options": [
-        "CUT",
-        "COUT",
-        "Question 33 of 70",
-        "ID:"
-      ],
+      "options": ["CUT", "COUT", "Question 33 of 70", "ID:"],
       "answer_index": 0
     },
     {
@@ -379,12 +359,7 @@
     {
       "id": "EN-I090-201019-00082",
       "question": "Which abbreviation is used for the term “control zone”? CTA CTZ",
-      "options": [
-        "CZ",
-        "CTR",
-        "Question 36 of 70",
-        "ID:"
-      ],
+      "options": ["CZ", "CTR", "Question 36 of 70", "ID:"],
       "answer_index": 0
     },
     {
@@ -445,45 +420,25 @@
     {
       "id": "EN-I090-201019-00219",
       "question": "What is the Q-code for “true bearing from the station”? QDM QFE",
-      "options": [
-        "QTE",
-        "QDR",
-        "Question 42 of 70",
-        "ID:"
-      ],
+      "options": ["QTE", "QDR", "Question 42 of 70", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I090-201019-00212",
       "question": "Which Q-code is used to report altitude? QFF QNJ",
-      "options": [
-        "QFE",
-        "QNH",
-        "Question 43 of 70",
-        "ID:"
-      ],
+      "options": ["QFE", "QNH", "Question 43 of 70", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I090-201019-00211",
       "question": "If you are requested to report your height, to which Q-code-setting would you refer to? QDM QBI",
-      "options": [
-        "QNH",
-        "QFE",
-        "Question 44 of 70",
-        "ID:"
-      ],
+      "options": ["QNH", "QFE", "Question 44 of 70", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I090-201019-00213",
       "question": "What is the Q-code for “magnetic heading to the station” (no wind)? QTE QNE",
-      "options": [
-        "QDR",
-        "QDM",
-        "Question 45 of 70",
-        "ID:"
-      ],
+      "options": ["QDR", "QDM", "Question 45 of 70", "ID:"],
       "answer_index": 0
     },
     {
@@ -522,56 +477,31 @@
     {
       "id": "EN-I090-210913-00580",
       "question": "In RTF air-ground communication, the Q-codes used for directions and bearings are: QDM and QNH QDM and QDR",
-      "options": [
-        "QFE and QNH",
-        "QFE and QDR",
-        "Question 49 of 70",
-        "ID:"
-      ],
+      "options": ["QFE and QNH", "QFE and QDR", "Question 49 of 70", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I090-201019-00090",
       "question": "What is the Q-code for “magnetic bearing from the station”? QTE QDR",
-      "options": [
-        "QDM",
-        "QFE",
-        "Question 50 of 70",
-        "ID:"
-      ],
+      "options": ["QDM", "QFE", "Question 50 of 70", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I090-210913-00578",
       "question": "When plotting bearings from a VDF facility or NDB into a chart, the bearning that has to be used for drawing lines from the station to the aircraft in the chart is the… QDM QDR",
-      "options": [
-        "QUJ",
-        "QTE",
-        "Question 51 of 70",
-        "ID:"
-      ],
+      "options": ["QUJ", "QTE", "Question 51 of 70", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I090-210913-00579",
       "question": "When asking for magnetic track to a VDF station, the phrasing to be used is: CONFIRM QDM CONFIRM QTE",
-      "options": [
-        "REQUEST QDM",
-        "REQUEST QTE",
-        "Question 52 of 70",
-        "ID:"
-      ],
+      "options": ["REQUEST QDM", "REQUEST QTE", "Question 52 of 70", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I090-210913-00581",
       "question": "When asking for true track from a VDF station, the phrasing to be used is: REQUEST QDM CONFIRM QTE",
-      "options": [
-        "REQUEST QTE",
-        "CONFIRM QDM",
-        "Question 53 of 70",
-        "ID:"
-      ],
+      "options": ["REQUEST QTE", "CONFIRM QDM", "Question 53 of 70", "ID:"],
       "answer_index": 0
     },
     {
@@ -709,12 +639,7 @@
     {
       "id": "EN-I090-201019-00388",
       "question": "Each category of air-ground radio telecommunication messages is associated with specific message types. Which of the following is a specific example of an urgency message? EMERGENCY MAYDAY",
-      "options": [
-        "LEVEL OFF",
-        "PAN PAN",
-        "Question 66 of 70",
-        "ID:"
-      ],
+      "options": ["LEVEL OFF", "PAN PAN", "Question 66 of 70", "ID:"],
       "answer_index": 0
     },
     {
@@ -731,12 +656,7 @@
     {
       "id": "EN-I090-201019-00379",
       "question": "What type of message is the following? “Mayday Mayday Mayday, Lille Tower, Sunny Air 125, engine shut down, passing FL80, making forced landing in Brussels” Distress Flight regularity",
-      "options": [
-        "Urgency",
-        "Flight safety",
-        "Question 68 of 70",
-        "ID:"
-      ],
+      "options": ["Urgency", "Flight safety", "Question 68 of 70", "ID:"],
       "answer_index": 0
     },
     {
@@ -753,12 +673,7 @@
     {
       "id": "EN-I090-201019-00370",
       "question": "OO-IMC, Lille Tower, number 2, turn right heading 050 for delaying action. What type of message is this? Direction finding Flight safety",
-      "options": [
-        "Urgency",
-        "Flight regularity",
-        "Question 70 of 70",
-        "ID:"
-      ],
+      "options": ["Urgency", "Flight regularity", "Question 70 of 70", "ID:"],
       "answer_index": 0
     },
     {
@@ -962,12 +877,7 @@
     {
       "id": "EN-I090-201019-00328",
       "question": "Which of these has to be transmitted by pronouncing each digit separately? Altitude 2500 ft Ceiling overcast 1300 ft",
-      "options": [
-        "QNH 1000",
-        "Visibility 4000 m",
-        "Question 19 of 251",
-        "ID:"
-      ],
+      "options": ["QNH 1000", "Visibility 4000 m", "Question 19 of 251", "ID:"],
       "answer_index": 0
     },
     {
@@ -1072,12 +982,7 @@
     {
       "id": "EN-I090-201019-00111",
       "question": "Regardless of your position, with what reference are time figures transmitted? Winter time Greenwich time",
-      "options": [
-        "UTC",
-        "Local time",
-        "Question 29 of 251",
-        "ID:"
-      ],
+      "options": ["UTC", "Local time", "Question 29 of 251", "ID:"],
       "answer_index": 0
     },
     {
@@ -1171,34 +1076,19 @@
     {
       "id": "EN-I090-201019-00116",
       "question": "Which phrase shall be used if the repetition of an entire message is required? WHAT MESSAGE REPEAT TRANSMISSION",
-      "options": [
-        "REPEAT MESSAGE",
-        "SAY AGAIN",
-        "Question 38 of 251",
-        "ID:"
-      ],
+      "options": ["REPEAT MESSAGE", "SAY AGAIN", "Question 38 of 251", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I090-201019-00117",
       "question": "Which phrase shall be used if you want to say “I understand your message and will comply with it”? WILL COMPLY AFFIRM",
-      "options": [
-        "WILCO",
-        "ROGER",
-        "Question 39 of 251",
-        "ID:"
-      ],
+      "options": ["WILCO", "ROGER", "Question 39 of 251", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I090-201019-00118",
       "question": "Which phrase shall be used if you want to say “Yes”? AFFIRMATIVE ROGER",
-      "options": [
-        "YES",
-        "AFFIRM",
-        "Question 40 of 251",
-        "ID:"
-      ],
+      "options": ["YES", "AFFIRM", "Question 40 of 251", "ID:"],
       "answer_index": 0
     },
     {
@@ -1215,23 +1105,13 @@
     {
       "id": "EN-I090-201019-00128",
       "question": "Which phrase shall be used to confirm that a message has been repeated correctly? CORRECT RIGHT",
-      "options": [
-        "AFFIRM",
-        "THAT IS AFFIRMATIVE",
-        "Question 42 of 251",
-        "ID:"
-      ],
+      "options": ["AFFIRM", "THAT IS AFFIRMATIVE", "Question 42 of 251", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I090-201019-00129",
       "question": "Which word or phrase shall be used if you want to say “Wait and I will call you”? WILCO ROGER",
-      "options": [
-        "STANDBY",
-        "GO AHEAD",
-        "Question 43 of 251",
-        "ID:"
-      ],
+      "options": ["STANDBY", "GO AHEAD", "Question 43 of 251", "ID:"],
       "answer_index": 0
     },
     {
@@ -1248,23 +1128,13 @@
     {
       "id": "EN-I090-201019-00131",
       "question": "Which phrase shall be used if you want to say “Pass me the following information (…)”? CHECK SAY",
-      "options": [
-        "REQUEST",
-        "REPORT",
-        "Question 45 of 251",
-        "ID:"
-      ],
+      "options": ["REQUEST", "REPORT", "Question 45 of 251", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I090-201019-00132",
       "question": "Which phrase shall be used if you want to say “I should like to know (…)” or “I wish to obtain (…)”? CONFIRM REQUEST",
-      "options": [
-        "REPORT",
-        "ACKNOWLEDGE",
-        "Question 46 of 251",
-        "ID:"
-      ],
+      "options": ["REPORT", "ACKNOWLEDGE", "Question 46 of 251", "ID:"],
       "answer_index": 0
     },
     {
@@ -1281,12 +1151,7 @@
     {
       "id": "EN-I090-201019-00432",
       "question": "In radiotelephony, which words should be used to preface a general call made by a ground station? LISTEN EVERYBODY ALL STATIONS",
-      "options": [
-        "ALL AIRCRAFT",
-        "ALL RECEIVERS",
-        "Question 48 of 251",
-        "ID:"
-      ],
+      "options": ["ALL AIRCRAFT", "ALL RECEIVERS", "Question 48 of 251", "ID:"],
       "answer_index": 0
     },
     {
@@ -1391,23 +1256,13 @@
     {
       "id": "EN-I090-201019-00237",
       "question": "Which word or phrase shall be used when giving authorization to proceed under specified conditions? PROCEED CLEARED",
-      "options": [
-        "GO AHEAD",
-        "APPROVED",
-        "Question 58 of 251",
-        "ID:"
-      ],
+      "options": ["GO AHEAD", "APPROVED", "Question 58 of 251", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I090-201019-00238",
       "question": "Which phrasing shall be used to ask a station whether you have correctly received a message, clearance or instruction? CORRECT CONFIRM",
-      "options": [
-        "VERIFY",
-        "ACKNOWLEDGE",
-        "Question 59 of 251",
-        "ID:"
-      ],
+      "options": ["VERIFY", "ACKNOWLEDGE", "Question 59 of 251", "ID:"],
       "answer_index": 0
     },
     {
@@ -1446,12 +1301,7 @@
     {
       "id": "EN-I090-201019-00248",
       "question": "In radiotelephony communication, what phrase shall be used when asking for the readability of a transmission? REPORT READABILITY READ YOU LOUD AND CLEAR",
-      "options": [
-        "RADIO CHECK",
-        "READ BACK",
-        "Question 63 of 251",
-        "ID:"
-      ],
+      "options": ["RADIO CHECK", "READ BACK", "Question 63 of 251", "ID:"],
       "answer_index": 0
     },
     {
@@ -1567,23 +1417,13 @@
     {
       "id": "EN-I090-201019-00003",
       "question": "Which phrase should a pilot use to inform ATC that they are initiating a missed approach procedure? GOING AROUND MISSING APPROACH",
-      "options": [
-        "PULLING UP",
-        "MISSED APPROACG",
-        "Question 74 of 251",
-        "ID:"
-      ],
+      "options": ["PULLING UP", "MISSED APPROACG", "Question 74 of 251", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I090-201019-00382",
       "question": "In case you are cruising with reduced thrust at Mach 0.80 and are able to fly at Mach 0.85, what would be the correct response AFFIRM POSITIVE",
-      "options": [
-        "YES SIR",
-        "0.85 Roger",
-        "Question 75 of 251",
-        "ID:"
-      ],
+      "options": ["YES SIR", "0.85 Roger", "Question 75 of 251", "ID:"],
       "answer_index": 0
     },
     {
@@ -1622,12 +1462,7 @@
     {
       "id": "EN-I090-201019-00017",
       "question": "In radiotelephony communication, which word or phrase shall be used to indicate a separation between portions of a message? STOP I SAY AGAIN",
-      "options": [
-        "BREAK",
-        "OVER",
-        "Question 79 of 251",
-        "ID:"
-      ],
+      "options": ["BREAK", "OVER", "Question 79 of 251", "ID:"],
       "answer_index": 0
     },
     {
@@ -1655,12 +1490,7 @@
     {
       "id": "EN-I090-201019-00020",
       "question": "In radiotelephony communication, which word or phrase shall be used in order to repeat for clarity or emphasis? READ BACK I SAY AGAIN",
-      "options": [
-        "CONFIRM",
-        "VERIFY",
-        "Question 82 of 251",
-        "ID:"
-      ],
+      "options": ["CONFIRM", "VERIFY", "Question 82 of 251", "ID:"],
       "answer_index": 0
     },
     {
@@ -1677,23 +1507,13 @@
     {
       "id": "EN-I090-201019-00022",
       "question": "In radiotelephony communication, which word shall be used to indicate that an error has been made in a transmission or DISREGARD CORRECT",
-      "options": [
-        "NEGATIVE",
-        "CORRECTION",
-        "Question 84 of 251",
-        "ID:"
-      ],
+      "options": ["NEGATIVE", "CORRECTION", "Question 84 of 251", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I090-201019-00005",
       "question": "To indicate that the aircraft is no longer occupying the active runway, a pilot shall report to the controller: CLEAR OF RUNWAY RUNWAY VACATED",
-      "options": [
-        "RUNWAY CLEARED",
-        "RUNWAY FREE",
-        "Question 85 of 251",
-        "ID:"
-      ],
+      "options": ["RUNWAY CLEARED", "RUNWAY FREE", "Question 85 of 251", "ID:"],
       "answer_index": 0
     },
     {
@@ -1721,12 +1541,7 @@
     {
       "id": "EN-I090-201019-00078",
       "question": "What is the correct suffix to use when establishing radio contact with an area control centre? RADIO CONTROL",
-      "options": [
-        "CENTRE",
-        "CONTROL CENTRE",
-        "Question 88 of 251",
-        "ID:"
-      ],
+      "options": ["CENTRE", "CONTROL CENTRE", "Question 88 of 251", "ID:"],
       "answer_index": 0
     },
     {
@@ -1754,23 +1569,13 @@
     {
       "id": "EN-I090-201019-00032",
       "question": "In radiotelephony communication, which word or phrase shall be used if you want to say: “Reduce your rate of speech”? SAY AGAIN REPEAT",
-      "options": [
-        "WORDS TWICE",
-        "SPEAK SLOWER",
-        "Question 91 of 251",
-        "ID:"
-      ],
+      "options": ["WORDS TWICE", "SPEAK SLOWER", "Question 91 of 251", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I090-201019-00031",
       "question": "In radiotelephony communication, which word or phrase shall be used to indicate that a change has been made to the last clearance and this new clearance supersedes the previous clearance or part thereof? AMENDED CLEARANCE RECLEARED",
-      "options": [
-        "APPROVED",
-        "CLEARED AGAIN",
-        "Question 92 of 251",
-        "ID:"
-      ],
+      "options": ["APPROVED", "CLEARED AGAIN", "Question 92 of 251", "ID:"],
       "answer_index": 0
     },
     {
@@ -1787,12 +1592,7 @@
     {
       "id": "EN-I090-201019-00119",
       "question": "How shall a pilot inform the control tower that he is prepared for take-off? READY TO GO READY TO LINE-UP",
-      "options": [
-        "READY",
-        "READY FOR TAKE-OFF",
-        "Question 94 of 251",
-        "ID:"
-      ],
+      "options": ["READY", "READY FOR TAKE-OFF", "Question 94 of 251", "ID:"],
       "answer_index": 0
     },
     {
@@ -1952,12 +1752,7 @@
     {
       "id": "EN-I090-201019-00147",
       "question": "An aircraft is instructed to hold short of the runway-in-use. What is the correct phraseology to indicate it will follow this instruction? HOLDING SHORT ROGER",
-      "options": [
-        "WILL STOP AT",
-        "WILCO",
-        "Question 109 of 251",
-        "ID:"
-      ],
+      "options": ["WILL STOP AT", "WILCO", "Question 109 of 251", "ID:"],
       "answer_index": 0
     },
     {
@@ -1974,12 +1769,7 @@
     {
       "id": "EN-I090-210913-00584",
       "question": "An aircraft with call sign D-IABC already in contact with ATC that indents to know the correct time should transmit: “Delta India Alpha Bravo Charlie request… departure information\" UTC\"",
-      "options": [
-        "local time\"",
-        "time check\"",
-        "Question 111 of 251",
-        "ID:"
-      ],
+      "options": ["local time\"", "time check\"", "Question 111 of 251", "ID:"],
       "answer_index": 0
     },
     {
@@ -2172,12 +1962,7 @@
     {
       "id": "EN-I090-210913-00599",
       "question": "When receiving a message via Aircraft Communication Addressing Reporting System (ACARS) reading “MAINTAIN PRESENT SPEED”, the correct phrase for response would be: AFFIRM MAINTAINING",
-      "options": [
-        "WILCO",
-        "ROGER",
-        "Question 129 of 251",
-        "ID:"
-      ],
+      "options": ["WILCO", "ROGER", "Question 129 of 251", "ID:"],
       "answer_index": 0
     },
     {
@@ -2227,12 +2012,7 @@
     {
       "id": "EN-I090-210913-00601",
       "question": "When deviating from a clearance to perform a TCAS Resolution Advisory (RA), the correct phrase to inform ATC would be: DEVIATING DUE TCAS RA TCAS RA",
-      "options": [
-        "FOLLOWING RA",
-        "TCAS ALERT",
-        "Question 134 of 251",
-        "ID:"
-      ],
+      "options": ["FOLLOWING RA", "TCAS ALERT", "Question 134 of 251", "ID:"],
       "answer_index": 0
     },
     {
@@ -2249,34 +2029,19 @@
     {
       "id": "EN-I090-201019-00228",
       "question": "What is the radiotelephony call sign for the aeronautical station indicating approach control radar departures? RADAR APPROACH",
-      "options": [
-        "CONTROL",
-        "DEPARTURE",
-        "Question 136 of 251",
-        "ID:"
-      ],
+      "options": ["CONTROL", "DEPARTURE", "Question 136 of 251", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I090-201019-00223",
       "question": "What is the radiotelephony call sign for the aeronautical station providing approach control (no radar service)? CONTROL RADAR",
-      "options": [
-        "ARRIVAL",
-        "APPROACH",
-        "Question 137 of 251",
-        "ID:"
-      ],
+      "options": ["ARRIVAL", "APPROACH", "Question 137 of 251", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I090-201019-00135",
       "question": "What is the radiotelephony call sign for the aeronautical station providing surface movement control of aircraft on the manoeuvring area? APPROACH GROUND",
-      "options": [
-        "CONTROL",
-        "TOWER",
-        "Question 138 of 251",
-        "ID:"
-      ],
+      "options": ["CONTROL", "TOWER", "Question 138 of 251", "ID:"],
       "answer_index": 0
     },
     {
@@ -2293,12 +2058,7 @@
     {
       "id": "EN-I090-201019-00133",
       "question": "What is the radiotelephony call sign suffix for the aeronautical station providing air traffic control service to controlled flights arriving at, or departing from, one or more aerodromes? APRON APPROACH",
-      "options": [
-        "TOWER",
-        "CONTROL",
-        "Question 140 of 251",
-        "ID:"
-      ],
+      "options": ["TOWER", "CONTROL", "Question 140 of 251", "ID:"],
       "answer_index": 0
     },
     {
@@ -2315,56 +2075,31 @@
     {
       "id": "EN-I090-201019-00067",
       "question": "What is the radiotelephony call sign suffix which indicates that the aeronautical station is providing area control without radar? CONTROL CENTRE",
-      "options": [
-        "APPROACH",
-        "RADAR",
-        "Question 142 of 251",
-        "ID:"
-      ],
+      "options": ["APPROACH", "RADAR", "Question 142 of 251", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I090-201019-00070",
       "question": "What is the radiotelephony call sign suffix for the aeronautical station indicating clearance delivery? DELIVERY GROUND",
-      "options": [
-        "RADIO",
-        "CLEARANCE",
-        "Question 143 of 251",
-        "ID:"
-      ],
+      "options": ["RADIO", "CLEARANCE", "Question 143 of 251", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I090-201019-00035",
       "question": "In general, what is the radiotelephony call sign suffix for the aeronautical station providing radar service? CONTROL RADAR-SERVICE",
-      "options": [
-        "RADAR-CONTROL",
-        "RADAR",
-        "Question 144 of 251",
-        "ID:"
-      ],
+      "options": ["RADAR-CONTROL", "RADAR", "Question 144 of 251", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I090-201019-00068",
       "question": "What is the radiotelephony call sign suffix for the station that signifies that radar service is provided during the approach phase? RADAR DIRECTOR",
-      "options": [
-        "ARRIVAL",
-        "INFORMATION",
-        "Question 145 of 251",
-        "ID:"
-      ],
+      "options": ["ARRIVAL", "INFORMATION", "Question 145 of 251", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I090-201019-00422",
       "question": "Three of the following call-signs suffixes indicate that you are in contact with an Air Traffic Services unit. Which call sign indicates contact with something other than an ATS unit? INFORMATION TOWER",
-      "options": [
-        "DISPATCH",
-        "GROUND",
-        "Question 146 of 251",
-        "ID:"
-      ],
+      "options": ["DISPATCH", "GROUND", "Question 146 of 251", "ID:"],
       "answer_index": 0
     },
     {
@@ -2425,34 +2160,19 @@
     {
       "id": "EN-I090-210913-00606",
       "question": "An Airbus A340 with registration D-AIHC is scheduled as Lufthansa flight LH0023 using call sign “Lufthansa”. The correct abbreviated call sign used by the pilot would be: Lufthansa HC Lufthansa AIHC",
-      "options": [
-        "Lufthansa 23",
-        "A340 HC",
-        "Question 152 of 251",
-        "ID:"
-      ],
+      "options": ["Lufthansa 23", "A340 HC", "Question 152 of 251", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I090-201019-00363",
       "question": "F-GTPO is a Robin HR-200 aeroplane. Which of the options below is a correct abbreviation of its call sign? T-PO F-PO",
-      "options": [
-        "Robin 200",
-        "Robin F-PO",
-        "Question 153 of 251",
-        "ID:"
-      ],
+      "options": ["Robin 200", "Robin F-PO", "Question 153 of 251", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I090-201019-00364",
       "question": "An Airbus A319 is registered as G-HTBD, and has the call sign “Sunny Air HTBD”. What is the abbreviated form of this call sign? Sunny Air HT Sunny Air BD",
-      "options": [
-        "Airbus BD",
-        "Airbus HT",
-        "Question 154 of 251",
-        "ID:"
-      ],
+      "options": ["Airbus BD", "Airbus HT", "Question 154 of 251", "ID:"],
       "answer_index": 0
     },
     {
@@ -2491,12 +2211,7 @@
     {
       "id": "EN-I090-201019-00200",
       "question": "Which of the following abbreviated call signs of aircraft XY-ABC is correct? ABC XY-BC",
-      "options": [
-        "X-BC",
-        "BC",
-        "Question 158 of 251",
-        "ID:"
-      ],
+      "options": ["X-BC", "BC", "Question 158 of 251", "ID:"],
       "answer_index": 0
     },
     {
@@ -2557,12 +2272,7 @@
     {
       "id": "EN-I090-201019-00455",
       "question": "For which of the following call signs is it prohibited to use an abbreviated form? Cessna D-GABC D-IABC",
-      "options": [
-        "VIRGIN VGAL",
-        "SKYRUNNER 123",
-        "Question 164 of 251",
-        "ID:"
-      ],
+      "options": ["VIRGIN VGAL", "SKYRUNNER 123", "Question 164 of 251", "ID:"],
       "answer_index": 0
     },
     {
@@ -2777,12 +2487,7 @@
     {
       "id": "EN-I090-201019-00360",
       "question": "An aircraft is permitted to change frequency when so advised by ATC. If not advised, under which other condition(s) may the aircraft change frequency? 1. After notifying the aeronautical station that a change of frequency is needed 2. In case of distress 3. To get necessary information to land at the planned destination on the ATIS frequency 1 and 3 1 and 2",
-      "options": [
-        "3 only",
-        "1 only",
-        "Question 186 of 251",
-        "ID:"
-      ],
+      "options": ["3 only", "1 only", "Question 186 of 251", "ID:"],
       "answer_index": 0
     },
     {
@@ -2854,12 +2559,7 @@
     {
       "id": "EN-I090-210913-00608",
       "question": "A transmission as “RADIO CHECK” should not last longer than: 30 seconds 5 seconds",
-      "options": [
-        "10 seconds",
-        "20 seconds",
-        "Question 193 of 251",
-        "ID:"
-      ],
+      "options": ["10 seconds", "20 seconds", "Question 193 of 251", "ID:"],
       "answer_index": 0
     },
     {
@@ -2876,12 +2576,7 @@
     {
       "id": "EN-I090-201019-00357",
       "question": "What is the range of the readability scale? 0 to 5 1 to 10",
-      "options": [
-        "0 to 10",
-        "1 to 5",
-        "Question 195 of 251",
-        "ID:"
-      ],
+      "options": ["0 to 10", "1 to 5", "Question 195 of 251", "ID:"],
       "answer_index": 0
     },
     {
@@ -3327,12 +3022,7 @@
     {
       "id": "EN-I090-201019-00417",
       "question": "What is the correct phraseology for a temporary suspension of transponder operation? SQUAWK STANDBY XPDR STANDBY",
-      "options": [
-        "XPDR OFF",
-        "SQUAWK IDENT",
-        "Question 236 of 251",
-        "ID:"
-      ],
+      "options": ["XPDR OFF", "SQUAWK IDENT", "Question 236 of 251", "ID:"],
       "answer_index": 0
     },
     {
@@ -3481,12 +3171,7 @@
     {
       "id": "EN-I090-210913-00615",
       "question": "The procedure to be followed by crew members to enable an ATS unit to establish a CPDLC connection with the aircraft is LOGON CONTACT",
-      "options": [
-        "CHECK IN",
-        "CONNECTION",
-        "Question 250 of 251",
-        "ID:"
-      ],
+      "options": ["CHECK IN", "CONNECTION", "Question 250 of 251", "ID:"],
       "answer_index": 0
     },
     {
@@ -3580,12 +3265,7 @@
     {
       "id": "EN-I090-210913-00622",
       "question": "According ICAO Annex 3, the unit used for measuring and reporting wind speed in aerodrome weather reports is: NM/h m/s or KT",
-      "options": [
-        "ft/min",
-        "km/h",
-        "Question 8 of 39",
-        "ID:"
-      ],
+      "options": ["ft/min", "km/h", "Question 8 of 39", "ID:"],
       "answer_index": 0
     },
     {
@@ -3657,12 +3337,7 @@
     {
       "id": "EN-I090-210913-00619",
       "question": "The unit used for atmospheric pressure reported by QNH and QFE is: hPa PSI",
-      "options": [
-        "bar",
-        "mmHg",
-        "Question 15 of 39",
-        "ID:"
-      ],
+      "options": ["bar", "mmHg", "Question 15 of 39", "ID:"],
       "answer_index": 0
     },
     {
@@ -3679,23 +3354,13 @@
     {
       "id": "EN-I090-210913-00629",
       "question": "If available, D-VOLMET can be obtained via… ADSB. discrete VHF frequency or/and VOR.",
-      "options": [
-        "data link.",
-        "HF frequncies.",
-        "Question 17 of 39",
-        "ID:"
-      ],
+      "options": ["data link.", "HF frequncies.", "Question 17 of 39", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I090-210913-00630",
       "question": "At approximately 500NM from destination, a pilot wants to check the destination weather. The information can be obtained by: D-ATIS using SATCOM and data link equipment (ARCAS) Aerodrome ATIS frequency",
-      "options": [
-        "SHF VOLMET",
-        "HF ATIS",
-        "Question 18 of 39",
-        "ID:"
-      ],
+      "options": ["SHF VOLMET", "HF ATIS", "Question 18 of 39", "ID:"],
       "answer_index": 0
     },
     {
@@ -3767,12 +3432,7 @@
     {
       "id": "EN-I090-201019-00167",
       "question": "How can aviation routine weather reports (METAR) of specific airports be obtained by aircraft in flight? VOLMET ATIS",
-      "options": [
-        "AFIS",
-        "SIGMET",
-        "Question 25 of 39",
-        "ID:"
-      ],
+      "options": ["AFIS", "SIGMET", "Question 25 of 39", "ID:"],
       "answer_index": 0
     },
     {
@@ -3855,12 +3515,7 @@
     {
       "id": "EN-I090-201019-00305",
       "question": "Runway Visual Range (RVR) is reported in… metres. miles.",
-      "options": [
-        "feet.",
-        "kilometres.",
-        "Question 33 of 39",
-        "ID:"
-      ],
+      "options": ["feet.", "kilometres.", "Question 33 of 39", "ID:"],
       "answer_index": 0
     },
     {
@@ -3943,12 +3598,7 @@
     {
       "id": "EN-I090-201019-00552",
       "question": "In case of radio communication failure, which of the following statements is/are correct? 1. A VFR flight can fly in Instrument Meteorological Conditions as an exception 2. A VFR flight may, under certain circumstances, enter the relevant control zones 3. A VFR flight shall squawk 7600 2 and 3 1 and 3",
-      "options": [
-        "1, 2, and 3",
-        "3",
-        "Question 2 of 41",
-        "ID:"
-      ],
+      "options": ["1, 2, and 3", "3", "Question 2 of 41", "ID:"],
       "answer_index": 0
     },
     {
@@ -3998,12 +3648,7 @@
     {
       "id": "EN-I090-201019-00195",
       "question": "If all attempts to establish radio contact with a ground station fail, the pilot of an aircraft shall transmit messages preceded by the phrase… PAN PAN, PAN PAN, PAN PAN TRANSMITTIMG BLIND",
-      "options": [
-        "READ YOU ONE",
-        "DO YOU READ?",
-        "Question 7 of 41",
-        "ID:"
-      ],
+      "options": ["READ YOU ONE", "DO YOU READ?", "Question 7 of 41", "ID:"],
       "answer_index": 0
     },
     {
@@ -4141,12 +3786,7 @@
     {
       "id": "EN-I090-201019-00169",
       "question": "What is the transponder code for radio communication failure? 6700 7600",
-      "options": [
-        "7700",
-        "7500",
-        "Question 20 of 41",
-        "ID:"
-      ],
+      "options": ["7700", "7500", "Question 20 of 41", "ID:"],
       "answer_index": 0
     },
     {
@@ -4207,12 +3847,7 @@
     {
       "id": "EN-I090-210913-00633",
       "question": "When experiencing communication failure in a traffic circuit at a controlled aerodrome, attempts to re- establish communication should be made with which ATC unit? RADAR INFORMATION",
-      "options": [
-        "TWR",
-        "ACC",
-        "Question 26 of 41",
-        "ID:"
-      ],
+      "options": ["TWR", "ACC", "Question 26 of 41", "ID:"],
       "answer_index": 0
     },
     {
@@ -4350,12 +3985,7 @@
     {
       "id": "EN-I090-201019-00356",
       "question": "In case of communication failure on IFR flights in IMC, the pilot must land, if possible, within how many minutes of the estimated time of arrival of the current flight plan? 45 minutes 30 minutes",
-      "options": [
-        "60 minutes",
-        "20 minutes",
-        "Question 39 of 41",
-        "ID:"
-      ],
+      "options": ["60 minutes", "20 minutes", "Question 39 of 41", "ID:"],
       "answer_index": 0
     },
     {
@@ -4372,12 +4002,7 @@
     {
       "id": "EN-I090-210913-00635",
       "question": "While enroute on a IFR flight in airspace where radar is not used in the provision of air traffic control, and experiencing communication receiver failure without having your position reported at the last compulsory reporting point, the correct action would be to maintain last assigned speed and level, or minimum flight altitude if higher, for how long after the failed position report? 30 minutes 10 minutes",
-      "options": [
-        "20 minutes",
-        "2 minutes",
-        "Question 41 of 41",
-        "ID:"
-      ],
+      "options": ["20 minutes", "2 minutes", "Question 41 of 41", "ID:"],
       "answer_index": 0
     },
     {
@@ -4471,12 +4096,7 @@
     {
       "id": "EN-I090-201019-00178",
       "question": "Which of the following frequencies is an international emergency frequency? 6500 KHz 121.050 MHz",
-      "options": [
-        "121.500 MHz",
-        "122.500 MHz",
-        "Question 9 of 47",
-        "ID:"
-      ],
+      "options": ["121.500 MHz", "122.500 MHz", "Question 9 of 47", "ID:"],
       "answer_index": 0
     },
     {
@@ -4504,12 +4124,7 @@
     {
       "id": "EN-I090-201019-00179",
       "question": "An aircraft in state of emergency shall squawk… 7600 6700",
-      "options": [
-        "7500",
-        "7700",
-        "Question 12 of 47",
-        "ID:"
-      ],
+      "options": ["7500", "7700", "Question 12 of 47", "ID:"],
       "answer_index": 0
     },
     {
@@ -4955,12 +4570,7 @@
     {
       "id": "EN-I090-201019-00312",
       "question": "Which are the radio frequency bands normally used for aeronautical radio communications? LF and VHF VHF and MF",
-      "options": [
-        "VHF and HF",
-        "UHF and VHF",
-        "Question 6 of 32",
-        "ID:"
-      ],
+      "options": ["VHF and HF", "UHF and VHF", "Question 6 of 32", "ID:"],
       "answer_index": 0
     },
     {
@@ -4988,12 +4598,7 @@
     {
       "id": "EN-I090-201019-00323",
       "question": "In the Aeronautical Mobile Service, which one of the following frequencies may be allocated in the normal band for voice communications? 124.258 MHz 151.055 MHz",
-      "options": [
-        "142.775 MHz",
-        "116.300 MHz",
-        "Question 9 of 32",
-        "ID:"
-      ],
+      "options": ["142.775 MHz", "116.300 MHz", "Question 9 of 32", "ID:"],
       "answer_index": 0
     },
     {
@@ -5076,34 +4681,19 @@
     {
       "id": "EN-I090-201019-00287",
       "question": "Which is the minimum separation between assignable frequencies in the Aeronautical Mobile Service VHF band? 2.5 kHz 83.3 kHz",
-      "options": [
-        "25 kHz",
-        "8.33 kHz",
-        "Question 17 of 32",
-        "ID:"
-      ],
+      "options": ["25 kHz", "8.33 kHz", "Question 17 of 32", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I090-201019-00298",
       "question": "What is the radio equipment channel spacing requirement for aircraft operating above FL 195 in the ICAO European Region? 8.33 MHz 8.33 kHz",
-      "options": [
-        "25 MHz",
-        "25 kHz",
-        "Question 18 of 32",
-        "ID:"
-      ],
+      "options": ["25 MHz", "25 kHz", "Question 18 of 32", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I090-201019-00414",
       "question": "All aircraft operating above FL195 in the European region shall be equipped with radio equipment capable operating on a channel spacing of: 12.5 kHz 8.33 kHz",
-      "options": [
-        "50 kHz",
-        "25 kHz",
-        "Question 19 of 32",
-        "ID:"
-      ],
+      "options": ["50 kHz", "25 kHz", "Question 19 of 32", "ID:"],
       "answer_index": 0
     },
     {

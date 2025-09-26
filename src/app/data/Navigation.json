@@ -5,408 +5,223 @@
     {
       "id": "EN-I060-210205-01754",
       "question": "The hightest latitude at which the sun will rise and set every day is: 00°N/S 65°N/S 70°N/S 90°N/S 7. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01756",
       "question": "Seasons on earth are due to the (1) ___ of the earth’s axis, resulting in varying amount of (2) ___ and length (1) inclination, (2) insolation, (3) daylight (1) variation, (2) inclination, (3) solar day (1) inclination, (2) oscillation, (3) length of day (1) insolation, (2) inclination, (3) siderial day 8. ID:",
-      "options": [
-        "f (3) ___ throughout the year.",
-        "",
-        "",
-        ""
-      ],
+      "options": ["f (3) ___ throughout the year.", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01757",
       "question": "When comparing two positions at different latitudes on the northern hemisphere, with A at higher latitude than B, what statement about duration of sunlight when compared at these locations is correct? During June, daylight duration at location A is more than at location B During March, daylight duration at location A is more than at location B During September, daylight duration at location A is less than at location B During December, daylight duration at location A is more than at location A 9. ID: EN-I060-20102701134 What is the angle between the plane of the ecliptic and the plane of the equator? 66.5° 23.5° 90.0° 45.0° 10. ID: EN-I060-20102701172 The continuous variation in the length of the apparent solar day throughout the year is caused by… the fact that the Earth is closest to the Sun at the beginning of July. the fact that the Earth is closest to the Sun at the beginning of January. the right angle of Earth's axis to the ecliptic plane and the elliptical orbit of the Sun around the Earth. the tilt of the Earth's axis to the ecliptic plane and the elliptical orbit of the Earth around the Sun. 11. ID: EN-I060-20102701177 The different duration of day and night, in mid-latitudes throughout the year, is caused by the… change in relative speed of the Sun's apparent motion along the ecliptic. inclination of the Earth's spin axis to the plane of rotation around the Sun. gravitational effect of the Sun and Moon on the Earth's rotation speed. variable distance between earth and sun due to the elliptical shape of earth's orbit. 12. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I061-211025-02017",
       "question": "Which answer states the highest latitude at which the Sun will rise and set every day throughout the year? 68° N/S 64° N/S 66.5° N/S 62° N/S Position 1. The definition of geodetic latitude of a position on the ellipsoid is… the angle between earth's axis and a line perpendicular to the local horizontal plane at that position. the angle between equatorial plane and a line direct to the center of the earth. the angle between earth's axis and a line direct to the center of the earth. the angle between equatorial plane and a line perpendicular to the local horizontal plane at that position. 2. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01759",
       "question": "Which of the following statements is correct? 1. On the WGS84 ellipsoid the distance between the parallels of latitude increase with increasing latitude. 2. For navigational purposes, the distance along any great circle is 60 NM per degree angular distance. 1 is correct, 2 is correct 1 is incorrect, 2 is incorrect 1 is incorrect, 2 is correct 1 is correct, 2 is incorrect 3. ID: EN-I060-20102701541 What is the difference of latitude between A (17°43’33″N, 120°10’26″E) and B (14°25’10″S, 075°17’22″E)? 32°08'43\" 44°53'04\" 03°18'23\" 15°27'48\" 4. ID: EN-I060-20102701662 Aircraft A is at (26°35’25″N, 075°15’49″E) and aircraft B is at (18°24’15″S, 080°10’32″E). What is the difference in latitude between the two aircraft? 101°51'14\" 08°11'10\" 44°59'40\" 93°40'04\" 5. ID: EN-I060-20102701401 What is the latitude change from A (60°20’47″N, 024°24’09″E) to B (44°28’36″N, 034°21’17″E)? 23°42'14\"N 23°42'14\"S 15°52'11\"N 15°52'11\"S 6. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01760",
       "question": "The definition of geodetic longitude of a position on the ellipsoid is… the angle between the plane of the zero meridian and the plane of the anti-meridian passing through that position. the angle between the plane of the 180° meridian and the plane of the anti-meridian passing through that position. the angle between the plane of the 180° meridian and the plane of the local meridian passing through that position. the angle between the plane of the zero meridian and the plane of the local meridian passing through that position. 7. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01761",
       "question": "Which of the following statements is correct? 1. The distance between two parallels of latitude with constant angular distance is constant along any meridian on the earth ellipsoid. 2. The distance between two meridians with constant angular difference is constant along any parallel of latitude on the earth ellipsoid. 1 is incorrect, 2 is correct 1 is correct, 2 is incorrect 1 is incorrect, 2 is incorrect 1 is correct, 2 is correct 8. ID: EN-I060-20102701017 What is the correct term for a semi great circle on the Earth running from the North Pole to the South Pole? Longitude Meridian Parallel of latitude Difference of longitude. 9. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01762",
       "question": "The difference in longitude between from positions A (55°22’N, 012°13’E) to position B (67°47’N, 008°37’E) is: 020°50' W 003°36' E 003°36' W 020°50' E 10. ID: EN-I060-20102701157 Given the following information: A (56°N, 145°E) B (59°N, 165°W) The difference in longitude between A and B is: 170°. 020°. 050°. 003°. Direction 1. True North is the direction of… the observer's compass reading corrected for Variation. the observer's Magnetic North corrected for Deviation. the observer's parallel of latutude. the observer's meridian to the North Pole. 2. ID: EN-I060-20102701403 True directions are measured…. as an angle in degrees clockwise from true north. as an angle in degrees anticlockwise from true north. as an angle in degrees clockwise from the longitudinal axis of the aircraft. as an angle in degrees anticlockwise from the longitudinal axis of the aircraft. 3. ID: EN-I060-20102701412 What element can be used to determine the direction of True North? Aircraft's position. Direction of the local meridian. Earth's rotational axis. Aircraft's heading. 4. ID: EN-I060-20102700159 The Magnetic Track is the direction of… the longitudinal axis related to Magnetic North. the track line related to Magnetic North. the track line related to Compass North. the longitudinal axis related to True North. 5. ID: EN-I060-20102700865 The magnetic north and south poles are the only positions on the Earth’s surface where… a freely suspended compass needle stands vertical. the horizontal component of the Earth's magnetic field reaches its maximum value. the value of magnetic variation equals 90°. a freely suspended compass needle stands horizontal. 6. ID: EN-I060-20102701211 Magnetic north is the… direction of the horizontal component of the of the Earth's magnetic field at a position. great circle between a position and the magnetic North Pole. compass North at a position corrected for variation. isogonal to the magnetic North Pole. 7. ID: EN-I060-20102701341 The direction of Magnetic North at a certain position coincides with the direction of the… horizontal component of the Earth's magnetic field. isoclinic line to the magnetic North Pole. great circle to the magnetic North Pole. isogonic line to the magnetic North Pole. 8. ID: EN-I060-20102700826 Which statement regarding isogonals is correct? Isogonals are lines of equal compass deviation. Isogonals are lines of equal magnetic variation. Isogonals are lines of equal temperature. Isogonals are lines of equal wind speed. 9. ID: EN-I060-20102700893 Route ‘A’ (44°N, 026°E) to ‘B’ (46°N, 024°E) forms an angle of 35° with longitude 026°E. Variation at A is 3°E. The initial magnetic track from A to B is: 322° 326° 042° 036° 10. ID: EN-I060-20102700822 What does a negative (westerly) magnetic variation indicate? True North is east of Magnetic North. Compass North is west of Magnetic North. Compass North is east of Magnetic North. True North is west of Magnetic North. 11. ID: EN-I060-20102701222 The following information are given: Compass Heading: 233° True Track: 256° Drift Angle: 10°R Deviation: -3° Calculate the variation: 30°W 26°E 20°W 16°E 12. ID: EN-I060-20102700630 What is the name of the angle between True North and Magnetic North? Compass error Drift error Deviation Variation 13. ID: EN-I060-20102701209 Magnetic variation… varies between a maximum value of 45°E and 45°W. cannot exceed 60°. have a value of 0° at the magnetic Equator. has a maximum value of 180°. 14. ID: EN-I060-20102700526 Magnetic heading 060 Magnetic variation 8W Drift angle 4R The true track is: 064 044 056 076 15. True track 180° (T) Drift 8R Compass Heading 195(C) Deviation 2W Calculate the variation: 8E 25W 21W 12E 16. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01764",
       "question": "Which of the following statements is correct? 1. Variation “West” is mathematically “minus”. 2. For any heading, course or track, subtracting VAR from MAG gives the corresponding TRUE value. 1 is incorrect, 2 is correct 1 is correct, 2 is correct 1 is incorrect, 2 is incorrect 1 is correct, 2 is incorrect 17. ID: EN-I060-20102700534 True track 192 Magnetic variation 7E Drift angle 5L Calculate the magnetic heading (MH): 168 308 190 194 18. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01763",
       "question": "During final approach, you are required to fly True Headings according the procedure. Given that Final Approach Course is 235(M) and VAR is 43W, due to wind you are approaching the final approach track with a magnetic heading of 225(M). The corresponding True Heading (TH) is: 278(T) 268(T) 182(T) 192(T) 19. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01767",
       "question": "High values of Variation (VAR) are typically found… at high latitudes having the geographic and magnetic poles in different directions. at high latitudes having the geographic and magnetic poles in the same direction. at low latitudes during flights at high altitude. at low latitudes having the geographic and magnetic poles in the same direction. 20. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01768",
       "question": "Variation changes with: 1. Position 2. Time (from year to year) 3. Daytime 4. Speed 1 and 2 1, 2 and 3 2 only 1 and 4 21. ID: EN-I060-20102700707 The charted values of magnetic variation on Earth normally change annually due to [1] ___ causing numerical values at all locations to [2] ___. [1] magnetic pole movement, [2] increase or decrease. [1] reducing field strength, [2] decrease [1] reducing field strength, [2] increase [1] magnetic pole movement, [2] increase 22. ID: EN-I060-20102700827 Which statement regarding the value of magnetic variation is correct? It depends on the magnetic track. It varies slowly over time. It depends on the type of compass. It depends on the magnetic heading. 23. ID: EN-I060-20102701213 The long-term periodic change in the magnetic field of the Earth… mainly influences the compass deviation. is caused by the westerly movement of the geographic North Pole. is caused by sunspot activity. is reflected in slow movements of the magnetic poles. 24. ID: EN-I060-20102700864 What is the name of the angle between Magnetic North and Compass North? Compass error Adjustment error Compass deviation Magnetic variation 25. ID: EN-I060-20102701342 Compass deviation is the angle between… the horizontal and the total intensity of the Earth's magnetic field. True North and Compass North. True North and Magnetic North. Magnetic North and Compass North. 26. ID: EN-I060-20102701217 When the deviation is applied to the magnetic heading, it gives information about the… true heading. compass heading. magnetic track. magnetic course. 27. ID: EN-I060-20102701221 The following information are given: Compass Heading: 265° Variation: 33° W Deviation: 3°E Calculate the True Heading: 287° 235° 225° 307° 28. ID: EN-I060-20102701219 Relating to the following information, the compass heading is: True track: 348° Drift: 17° left Variation: 32° W Deviation: 4° E 011° 033° 331° 357° 29. ID: EN-I060-20102701218 Deviation is affected by: 1. magnetic latitude 2. aircraft electronic equipment 3. aircraft heading 4. aircraft altitude 2 and 4 only 1, 2 and 3 1, 2 and 4 1 and 3 only 30. ID: EN-I060-20102701216 Which statement regarding the deviation on the standby compass is true? It is independent of the latitude of the position. It is dependent on the heading of the aircraft. It is positive if Compass North is west of Magnetic North. It is zero on the magnetic Equator. 31. ID: EN-I060-20102701223 The following information are given: True Course: 245° Drift: 5° right Variation: 3° E Compass heading: 242° Calculate the deviation: 11° E 5° W 11° W 5° E 32. ID: EN-I060-20102700493 True track 300(T) Drift 8R Variation 10W Deviation 4W Calculate the compass heading (CH): 288 306 318 313 33. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01766",
       "question": "(Please see attachment AC-ICQB-061-110) According to the deviation table in the annex, if your required magnetic heading is 343, the direct reading compass should show: 343 344 341 345 34. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01765",
       "question": "(Please see attachment AC-ICQB-061-109) According to the deviation table in the annex, with the direct reading compass showing 065, what is the deviation? (-1) (+1) 0 (+5) 35. ID: EN-I060-20102700494 With the information given below, determine the compass heading: True track: 352 Variation: 11W Deviation: -5° Drift: 10R 014 358 342 032 36. ID: EN-I060-20102701063 Maximum allowable tailwind component for landing: 10 kt Planned RWY 05 (047°(M)) Surface wind direction reported by ATIS: 210° VAR: 17°E Calculate the maximum allowable wind speed that can be accepted without exceeding the tailwind limit: 13 kt 16 kt 10 kt 7 kt 37. ID: EN-I060-20102701321 Using trigonometry, calculate the crosswind component for runway 30, QDM 300°, if the reported surface wind from the Control Tower is 240°/35 kt: 24 kt 18 kt 21 kt 30 kt 38. ID: EN-I060-20102700694 Using trigonometry, calculate the Cross Wind Component with the values given: Runway direction 210°(M) Surface W/V: 230°(M)/30 kt 10 kt 13 kt 21 kt 16 kt 39. ID: EN-I060-20102700665 Using trigonometry, calculate the Cross Wind Component with the values given: Runway direction: 230°(T) Surface W/V: 280°(T)/40 kt 31 kt 35 kt 26 kt 23 kt 40. ID: EN-I060-20102700664 For take-off an aircraft requires a headwind component of at least 10 kt and has a cross wind limitation of 35 kt. The angle between the wind direction and the runway is 60°. Using trigonometry, calculate the minumum and maximum allowable wind speeds: 20 kt and 40 kt. 10 kt and 36 kt. 13 kt and 45 kt. 20 kt and 54 kt. 41. ID: EN-I060-20102701307 Given the following information, calculate the cross-wind component: Runway direction: 305°(M) Surface W/V: 260°(M)/30 kt 24 kt 27 kt 21 kt 18 kt 42. ID: EN-I060-20102700645 Using trigonometry, what is the maximum allowable wind speed with the values given? Maximum allowable crosswind component: 20 kt Runway centreline direction: 063°(M) Wind direction: 100°(M) 31 kt 36 kt 33 kt 25 kt 43. ID: EN-I060-20102700653 Using Mental Dead Reckoning and the ‘clock-rule’, calculate the cross wind component when landing on runway 23. RWY centreline direction: 227°(M) ATIS reported wind velocity: 180°/30 kt VAR: 13°E 15 kt 20 kt 24 kt 22 kt 44. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-02007",
       "question": "Using Mental Dead Reckoning and the ‘clock-rule’, determine the crosswind component (to the nearest full knot) with the values given: RWY track: 065(M) Surface wind (reported by Tower): 110/32 kt Variation 15°E 16 kt from the right 24 kt from the right 24 kt from the left 16 kt from the left 45. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01769",
       "question": "Using Mental Dead Reckoning and the ‘clock-rule’, determine the crosswind component (to the nearest full knot) with the values given: RWY 23 Surface wind (reported by Tower): 240/30 kt Variation 10°W 5 kt from the right 5 kt from the left 25 kt from the left 25 kt from the right 46. ID: EN-I060-20102700662 Using trigonometry, calculate the headwind component with the values given: Runway direction 083°(M) Surface W/V 035°(M)/35 kt 29 kt 23 kt 26 kt 20 kt 47. ID: EN-I060-20102700290 TT 090, GS 150 kt W/V 160/30 kt Position after 12 minutes is 1.5 NM right of the intended track. The Track Error Angle (TKE) is: 3°R 3ºL 6ºL 6ºR 48. ID: EN-I060-20102700291 True Track = 085, GS = 180 kt, W/V = 290/30 kt, Var = 4°E. After 12 minutes of flying the aircraft is 1.5 NM left of the intendend track. The Track Error Angle is: 3.0 L 5.0 R 2.5 L 2.5 R 49. ID: EN-I060-20102701246 The True course in the flight log is 270°, the forecast wind is 045°(T)/15 kt and the TAS is 150 kt. After 15 minutes of flying with the planned TAS and TH, the aircraft is 2 NM north of the intended track and 2.5 NM ahead of the dead-reckoning position. What is the track angle error (TKE)? 3° R 5° R 3° L 1° L 50. ID: EN-I060-20102701249 An aircraft is flying from position A to position B. The true course according to the flight log is 090°, the estimated wind is 225°(T)/20 kt and the TAS is 110 kt. After 15 minutes of flying with the planned TAS and TH, the aircraft is 4 NM north of the intended track and 3 NM ahead of the dead-reckoning position. The Track angle error is: 7° R 8° L 5° L 10° R 51. ID: EN-I060-20102701129 Given: Distance A to B = 150 NM. After 30 NM aircraft is 4 NM to the right of the course. The heading alteration to be made in order to arrive at point “B” is: 8° right 10° left 14° left 5° left 52. ID: EN-I060-20102701244 The distance between position A and position B is 105 NM. At a distance of 15 NM from A, the aircraft is 3 NM right of course. To reach point B, the heading should be altered by: 5° 14° 17° 11° 53. ID: EN-I060-20102701242 Distance “A” to “B” is 100 NM, Fix obtained 40 NM along and 4 NM to the right of the course. Determine the heading alteration to be made to reach “B”: 14° right 7° left 10° left 11° Right 54. ID: EN-I060-20102701205 Considering the following information, determine the heading alteration to be made to reach point B? Distance from A to B: 90 NM, fix obtained 60 NM along and 5 NM to the right of the course. 5° Left 12° Left 15° Left 7° Left 55. ID: EN-I060-20102701131 The distance between two waypoints is 150 NM. To calculate the compass heading, the pilot by mistake used 2°E magnetic variation instead of 2°W. Assuming the forecast W/V applies, the off-track distance at the second waypoint will be: 7 NM 22 NM 10 NM 16 NM 56. ID: EN-I060-20102701128 An aircraft departs position A on track to position B, which is 210 NM away. After having travelled 60 NM, its position is 5 NM left of the intended track. Assuming no change in wind direction and velocity, what alteration of heading must be made in order to arrive at position B? 2° Right 5° Left 5° Right 7° Right 57. ID: EN-I060-20102701051 (See attachment AC-ICQB-061-111) An aircraft is flying according the flight log in the Annex. After 15 minutes of flying with the planned TAS and TH, the aircraft is 3 NM south of the intended track and 2.5 NM ahead of the dead reckoning position. In order to reach position B from this point, the TH should be changed to: 078º 107º 073º 112º 58. ID: EN-I060-20102701052 (See attachment AC-ICQB-061-111) An aircraft is flying according the flight log in the Annex. After 15 minutes of flying with the planned TAS and TH, the aircraft is 3 NM north of the intended track and 2.5 NM ahead of the dead reckoning position. In order to reach position B from this point, the TH should be changed to: 078º 107º 100º 112º 59. ID: EN-I060-20102701053 (See attachment AC-ICQB-061-111) An aircraft is flying according the flight log in the Annex. After 15 minutes of flying with the planned TAS and TH, the aircraft is 3 NM north of the intended track and 2.5 NM ahead of the dead reckoning position. To reach position B from this point, the TH should be changed to: 291º 255º 247º 276º 60. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I061-210617-02016",
       "question": "While enroute on a VFR flight using dead reckoning, the aircraft position after 30 NM is fixed after a certain time being 2 NM right of intended track while keeping a heading of 126°(C). To be back on track after the same time and using the 1/60 rule, the correction heading should be: 134 130 118 122 61. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I061-210617-02015",
       "question": "While enroute on a VFR flight using dead reckoning, the aircraft position after 40 NM is fixed after a certain time being 4 NM left of intended track. To be back on track after the same time and using the 1/60 rule, the heading should be corrected by: 6°L 6°R 12°L 12°R 62. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01800",
       "question": "During enroute flight using dead reckoning with a heading of 033(M), an aircraft’s position is determined 3 NM to the left of the intended track. The distance from the last fix is 30 NM. Using 1/60 rule, the heading to be back on track after another 30 NM should be: 045(M) 039(M) 027(M) 021(M) 63. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01771",
       "question": "While proceeding on flight planned route from waypoint ONEGO with planned track (course) of 284(M) and constant heading of 274(M) via TWOGO to TRIGO, position check at TWOGO shows a position 4 NM off-track to the left. Distance ONEGO to TWOGO is 40 NM. Using 1/60 rule, calculate the average drift experienced since ONEGO: 4°R 4°L 6°L 6°R 64. ID: EN-I060-20102701074 The true course of a planned route is 179°, true heading is 185°. After 23 minutes along the route a fix is The average drift angle for this flight is… 6° to the left. 2° to the left. 6° to the right. 2° to the right. 65. ID: EN-I060-20102701245 The distance between position A and position B is 90 NM. At a distance of 75 NM from A, the aircraft is 7 NM to the right of the course. The Track Angle Error (TKE) is approximately: 11° R 14° R 3° R 6° R Distance 1. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01772",
       "question": "One minute of difference in latitude measured along a meridian on the WGS84 ellipsoid corresponds to: 60 km 10000 km 600 km 1852 km 2. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01773",
       "question": "One minute of difference in longitude measured along the equator on the WGS84 ellipsoid corresponds to: 60 NM 6 NM 1852 NM 1 NM 3. ID: EN-I060-20102701478 One minute of difference in latitude measured along a meridian on the WGS84 ellipsoid corresponds to: 100 km 1 NM 60 NM 1 km 4. ID: EN-I060-20102701477 A ratio of 1 to 1.852 is… the ratio between kilometres and nautical miles. the ratio between nautical miles and kilometres. the ratio between kilometres and statute miles. the ratio between nautical miles and statute miles. 5. ID: EN-I060-20102701479 What unit are permitted used with regard to heights and altitudes, subject to the choice of individual States? metres or nautical miles metres or tatute miles metres or feet feet or nautical miles 6. ID: EN-I060-20102701243 An aircraft flies from point A (53°00′ N, 073°00’W) to point B (54°00′ N, 073°00′ W). The aircraft’s position is (54°00′ N, 073°15’W). When relating to the planned track, what is the cross-track distance? 12.1 NM L 8.8 NM R 12.1 NM R 8.8 NM L 7. ID: EN-I060-20102701234 What is the rhumb-line distance between A (60°00’N 002°30’E) and B (60°00’N 007°30’W)? 300 NM 400 NM 200 NM 100 NM 8. ID: EN-I060-20102701171 Calculate the great circle distance between A (85°N, 172°W) and B (85°N, 008°E): 490 NM 300 NM 950 NM 600 NM 9. ID: EN-I060-20102701169 Calculate the great circle distance between position A (59°34.1’N, 008°08.4’E) and B (30°25.9’N, 171°51.6’W): 10600 NM 2900 NM 10800 km 5400 NM 10. ID: EN-I060-20102701149 What is the distance along a meridian between 63°55’N and 13°47’S? 4662 NM 3028 NM 5038 NM 7502 NM 11. ID: EN-I060-20102701019 The earth distance of one degree of longitude at latitude 60°S is: 30 NM. 80 NM. 60 NM. 50 NM. 12. ID: EN-I060-20102701405 An aircraft leaves position A (30S, 010W) and flies the rhumb line tracks listed below while maintaining a ground speed of 180 kt. 1) A to B: 090° (T) for 25 minutes, 2) B to C: 180° (T) for 32 minutes, 3) C to D: 270° (T) for 28 minutes, 4) D to E: 360° (T) for 24 minutes. 30°24’S, 010°12’W are the coordinates of point: E B D C 13. ID: EN-I060-20102701368 An aircraft departs position A (51°30’N, 001°59’W). At a groundspeed of 390 kt, it flies on a track of 270°(T). After a flight time of 01:30 the aircraft’s longtude is: 014°37'W 012°29'W 007°35'W 017°39'W 14. ID: EN-I060-20102700823 An airport is located at 48°50’N, 002°16.5’E. The coordinates of the antipode (position on the direct opposite side of the Earth) are: 41°10'S, 177°43.5'W 48°50'N, 177°43.5'E 48°50'S, 177°43.5'W 41°10'N, 177°43.5'E 15. ID: EN-I060-20102700720 An aircraft at latitude 10S flies north at a ground speed of 890 km/h. Its latitude after 1.5 hours will be: 12°00'N 07°50'N 02°00'N 22°00'N 16. ID: EN-I060-20102700719 The new latitude of an aircraft tracking 180(T) for 685 km from 02°20’N is: 03°50'S 04°10'S 04°40'S 07°05'S 17. ID: EN-I060-20102701235 A flight is planned from point A (49°S, 180°E/W) to point B (58°S, 180°E/W). What is the distance from A to B? 812 km 550 km 1252 km 1000 km 18. ID: EN-I060-20102700717 The new longitude of an aircraft tracking 090(T) for 315 km from position (60N, 005W) is: 000°25'E 005°10'W 003°15'E 000°40'E 19. ID: EN-I060-20102700478 An aircraft proceeds along a great circle track from (56N, 070W) to (62N, 110E). The great circle distance between these two positions is: 2080 NM 1758 NM 5420 NM 3720 NM 20. ID: EN-I060-20102700515 How long does it take to travel along the parallel of latitude 60°N between meridians 010°E and 030°W at a groundspeed of 480 kt? 75 minutes 150 minutes 105 minutes 180 minutes 21. ID: EN-I060-20102700718 The departure between positions A (60°N, 160°E) and B (60°N) is 900 NM. If B is to the east of A, the new longitude of B is: 185°E 170°W 130°W 155°E 22. ID: EN-I060-20102700523 When flying from position A (10°00’N, 030°00’W) to position B (30°00’N, 050°00’W), to maintain a constant true course it is required to fly a… along the circle of latitude. great circle track. rhumb line track. straight line taken from a Lambert chart. 23. D: EN-I060-20102700524 Position A 45N, length unknown (E hemisphere), Position B 45N, 45°15’E. Distance between A and B: 280 NM. B is located east of A. The longitude of position A is: 38°39'E 51°41'E 40°53'E 49°52'E 24. ID: EN-I060-20102700530 An aircraft is circling the Earth following parallel of latitude 60°N at a ground speed of 480 kt. Which ground speed is required to circle the Earth along the equator in the same amount of time? 360 kt 960 kt 240 kt 580 kt 25. ID: EN-I060-20102700522 An aircraft departs from position A (04°10’S, 178°22’W) and flies northward following the meridian for 2950 NM. Then, it flies westward along the parallel of latitude for 382 NM to position B. The coordinates of position B are: 53°20'N, 172°38'E 45°00'N, 169°22'W 45°00'N, 172°38'E 53°20'N, 169°22'W 26. ID: EN-I060-20102700631 An aircraft departs at 04°00’N, 030°00’W and flies 600 NM south, followed by 600 NM east, then 600 NM north, then 600 NM west. The coordinates of its final position are: 04°00'N, 029°58'W. 04°00'N, 030°02'W. 04°00'N, 029°18'W. 03°58'N, 030°06'W. 27. ID: EN-I060-20102700632 An aircraft departs at 60°00’N, 030°00’W and flies 3600 NM south, followed by 3600 NM east, then 3600 NM north, then 3600 NM west. The coordinates of its final position are: 59°00'N, 030°00'W. 59°00'N, 060°00'E. 60°00'N, 030°00'E. 60°00'N, 090°00'W. 28. ID: EN-I060-20102700671 What is the circumference of the parallel of latitude at 60°N? 34600 NM 21600 NM 18700 NM 10800 NM 29. ID: EN-I060-20102700672 Relating to the following information, the distances from A to B and from A to C are respectively: Position ‘A’ N60, W020, Position ‘B’ N60, W021, Position ‘C’ N59, W020. 30 NM and 60 NM 45 NM and 60 NM 60 NM and 30 NM 60 NM and 45 NM 30. ID: EN-I060-20102700540 The longitude of a position 6 NM easterly of 58°42’N, 094°00’W is: 093°48.5'W 093°54.0'W 093°16.0'W 093°53.2'W 31. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01774",
       "question": "Which of the following statements about the difference between Air Distance (NAM) and Ground Distance (NM) is correct? 1. The difference between NAM and NM increases with increasing altitude and wind speed. 2. The difference between NAM and NM is greater with tailwind than with headwind. 1 is incorrect, 2 is correct. 1 is correct, 2 is incorrect. 1 is incorrect, 2 is incorrect. 1 is correct, 2 is correct. 32. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01775",
       "question": "In which of the following combination of parameters is the distance between Air Miles (NAM) and Ground Miles (NM) the largest? FL340 / Tailwind Component 15 kt FL340 / Headwind Component 5 kt FL200 / Tailwind Component 5 kt FL200 / Headwind Component 10 kt 33. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01776",
       "question": "Calculate the air distance given the following values, rounded to the nearest full NM: TAS 200 kt GS 220 kt Ground distance 200 NM 182 NM 200 NM 218 NM 220 NM 34. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01777",
       "question": "Calculate the air distance from ground distance given the following values, rounded to the nearest full NM: TAS 250 kt GS 220 kt Ground distance 440 NM 125 NM 287 NM 500 NM 440 NM 35. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01778",
       "question": "The correct formular to convert between Nautical Air Miles (NAM) and Ground Miles (NM) with True Airspeed (TAS) and Groundspeed (GS) is: NM = TAS / NAM x GS NAM = TAS x NM / GS NAM = TAS / NM x GS NM = NAM / GS x TAS Speed 1. Using the mechanical computer, determine the TAS with the values given below: CAS: 180 kt Cruising level: FL200 Temperature: ISA – 5°C 128 kt 252 kt 133 kt 241 kt 2. ID: EN-I060-20102701022 Relating to the following information, calculate the TAS: FL180 OAT: -30° C CAS: 150 kt 195 kt 135 kt 205 kt 180 kt 3. ID: EN-I060-20102701042 Relating to the following information, calculate the TAS: Pressure altitude: 9000 ft OAT: -32° C CAS: 200 kt 226 kt 220 kt 210 kt 216 kt 4. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01779",
       "question": "Using the ‘rule of thumb’, calculate the approximate TAS with the values given below: CAS: 180 kt Cruising level: FL200 Temperature: ISA – 5°C 133 kt 128 kt 241 kt 252 kt 5. ID: EN-I060-20102701692 Calculate the CAS using the information provided below: Cruising altitude: 4000 feet OAT: +25° C TAS: 125 kt 137 kt 113 kt 118 kt 135 kt 6. ID: EN-I060-20102700825 Relating to the following information, calculate the TAS: CAS: 120 kt FL80 OAT: +20° C 141 kt 135 kt 117 kt 110 kt 7. ID: EN-I060-20102701691 Calculate the CAS using the data provided below: TAS: 223 kt Pressure altitude: FL100 Temperature: ISA -20°C 200 kt 267 kt 248 kt 184 kt 8. ID: EN-I060-20102700372 CAS 190 kt Pressure Altitude 9000 ft OAT ISA-15 Calculate the TAS: 241 kt 211 kt 199 kt 221 kt 9. ID: EN-I060-20102700371 CAS 190 kt Pressure Altitude 9000 ft OAT ISA-15 Calculate the Mach number: 0.39 0.3 0.34 0.42 10. ID: EN-I060-20102700286 FL 300 OAT -45°C IAS 260 kt Compressibility factor 0.96 (assuming no instruments and position error) Calculate the TAS: 408 kt 428 kt 492 kt 339 kt 11. ID: EN-I060-20102700288 FL 370 CAS 300 kt OAT ISA -4°C Compressibility factor = 0.932 Calculate the TAS: 519 kt 551 kt 544 kt 407 kt 12. ID: EN-I060-20102700287 FL 350 OAT -40°C IAS 280 kt Compressibility factor 0.94 (assuming no instruments and position error) Calculate the TAS: 383 kt 517 kt 572 kt 487 kt 13. ID: EN-I060-20102700285 FL 400 OAT, -65°C, IAS 260 kt Compressibility factor 0.935 (assuming no instruments and position error) Calculate the TAS: 479 kt 508 kt 533 kt 397 kt 14. ID: EN-I060-20102700284 FL 400 OAT -65°C M 0.90 Calculate the TAS: 506 kt 496 kt 568 kt 383 kt 15. ID: EN-I060-20102700261 FL 390 OAT ISA-15 CAS 280 kt Compressibility factor 0.95 Calculate the TAS: 392 kt 538 kt 505 kt 522 kt 16. ID: EN-I060-20102700260 FL 390 OAT ISA+15 CAS 240 kt Compressibility factor 0.96 Calculate the TAS: 395 kt 522 kt 478 kt 468 kt 17. ID: EN-I060-20102700370 TAS 210 kt CAS 190 kt Pressure Altitude 9000 ft Calculate the Mach number: 0.3 0.34 0.28 0.41 18. ID: EN-I060-20102700808 Relating to the following information, what is the heading (M) and GS? Required course: 045°(M) Variation: 15°E W/V: 190°(T)/30 kt CAS: 120 kt at FL 55 in ISA conditions 045°(M) and 145 kt 036°(M) and 151 kt 055°(M) and 147 kt 048°(M) and 152 kt 19. ID: EN-I060-20102700565 Relating to the following information, calculate the Mach number: FL25 OAT: -15º C TAS: 250 kt. 0.42 0.4 0.36 0.38 20. ID: EN-I060-20102700527 FL350 Mach 0.80 OAT -55°C Calculate True Airspeed (TAS) and the Local Speed of Sound (LSS): TAS 437 kt and LSS 306 kt TAS 461 kt and LSS 296 kt TAS 461 kt and LSS 576 kt TAS 493 kt and LSS 475 kt 21. ID: EN-I060-20102700482 TAS 487 kt FL 330 Temperature ISA+15 Calculate the Mach number: 0.69 0.76 0.83 0.81 22. ID: EN-I060-20102700369 Mach number M.34 Pressure Altitude 9000 ft OAT ISA-15 Calculate the TAS: 549 kt 226 kt 191 kt 211 kt 23. ID: EN-I060-20102700259 FL 390 TAS 440 kt OAT ISA+15 Calculate the Mach number: 0.74 0.77 0.8 0.82 24. ID: EN-I060-20102700271 FL390 Mach 0.821 OAT ISA-4 Compressibility factor 0.942 Calculate the TAS: 467 kt 489 kt 435 kt 328 kt 25. ID: EN-I060-20102700258 TAS 480 kt OAT ISA-10 FL 300 Calculate the Mach number: 0.72 0.88 0.81 0.83 26. ID: EN-I060-20102701037 Relating to the following information, calculate the Mach number: TAS: 485 kt, OAT: ISA +10° C, FL410. 0.72 0.78 0.89 0.85 27. ID: EN-I060-20102700368 Mach number M.34, Pressure Altitude 9000 ft, OAT ISA-15 Calculate the CAS: 191 kt 307 kt 550 kt 211 kt 28. ID: EN-I060-20102700735 What happens to the Mach number and TAS when an aircraft climbs at a constant CAS, assuming ISA conditions and a climb below the tropopause? Mach number decreases, TAS increases Mach number decreases, TAS decreases Mach number increases, TAS decreases Mach number increases, TAS increases 29. ID: EN-I060-20102700373 During climb with constant CAS… Mach number will increase, TAS will decrease both TAS and Mach number will increase. both TAS and Mach number will decrease. Mach number will decrease, TAS will increase 30. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01781",
       "question": "During climb at ISA conditions with a constant CAS of 220, you check your TAS and M giving TAS 254 kt and Mach 0.39. What values are likely to be seen during further climb with constant CAS? TAS 232, Mach 0.44 TAS 232, Mach 0.36 TAS 280, Mach 0.44 TAS 280, Mach 0.36 31. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01782",
       "question": "During descent at ISA conditions with a constant CAS of 220, you check your TAS and M giving TAS 254 kt and Mach 0.39. What values are likely to be seen during further descent with constant CAS? TAS 232, Mach 0.44 TAS 280, Mach 0.44 TAS 232, Mach 0.36 TAS 280, Mach 0.36 32. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-220715-02403",
       "question": "Using Mental Dead Reckoning (MDR) and the information given below, calculate the crosswind component for take-off: RWY 22 Surface wind (from Tower): 210/30 kt Variation 30W 7 kt 6 kt 27 kt 5 kt 33. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01786",
       "question": "Using Mental Dead Reckoning (MDR) and the information given below, calculate the headwind component for take-off: RWY 26 Surface wind (from Tower): 200/20 kt Variation 30W 8 kt 20 kt 12 kt 10 kt 34. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01787",
       "question": "Using Mental Dead Reckoning (MDR) and the information given below, calculate the head- or tailwind component for take-off: RWY 14 Surface wind (from Tower): 280/20 kt Variation 20E 16 kt headwind 13 kt headwind 16 kt tailwind 13 kt tailwind 35. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01788",
       "question": "Using trigonometry and the information given below, calculate the head- or tailwind component for take-off: RWY 06 Surface wind (from Tower): 110/25 kt Variation 10W 16 kt tailwind 16 kt headwind 19 kt headwind 19 kt tailwind 36. ID: EN-I060-20102701064 An aircraft approaches RWY 24 of an airfield. The tower gives a wind of 260°/26 kt. The magnetic variation is 12°E. According to the airport chart the direction of RWY 24 is 238°. What is the head/tailwind component? 24 kt headwind 28 kt tailwind 28 kt headwind 24 kt tailwind 37. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01789",
       "question": "Using a mechanical computer and the information given below, calculate the groundspeed: True Track: 144(T) TAS: 240 kt W/V: 080(T)/60 kt 214 kt 266 kt 208 kt 186 kt 38. ID: EN-I060-20102701459 With the information given below, calculate the Groundspeed: Cruise level: FL410 OAT: ISA -10 Mach 0.80 Wind component: -20 kt 478 kt 428 kt 468 kt 438 kt 39. ID: EN-I060-20102701482 With the information given below, calculate the Groundspeed: OAT: ISA +10 CAS: 155 kt W/V: 120(T) /30 kt Cruise level: FL120 Track Direction: 233(T) 199 kt 155 kt 164 kt 234 kt 40. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01785",
       "question": "Given the information below, calculate the Tail- or Headwind component (no regard to Equivalent wind component): Track: 060(T) Wind vector: 210(T)/30 kt TAS: 120 kt 26 kt headwind 26 kt tailwind 15 kt headwind 15 kt tailwind 41. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01784",
       "question": "With the information given below, calculate the elapsed time between WP1 and WP2 (rounded to nearest 10 seconds): Distance WP1-WP2: 450 km TAS: 380 kt Headwind component (including Equivalent wind component): -55 kt 33 min 30 sec 38 min 20 sec 44 min 50 sec 32 min 20 sec 42. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
@@ -423,870 +238,475 @@
     {
       "id": "EN-I060-210205-01794",
       "question": "(See attachment AC-ICQB-061-114A) During flight, while checking time and fuel at TWO at 1415, it is noticed being 1.5 NM off-track to the left. Since heading and speed were kept as planned, what is the actual wind causing this offset when assuming the observed groundspeed? 150(T) / 36 kt 215(T) / 20 kt 320(T) / 36 kt 185(T) / 20 kt 59. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01793",
       "question": "(See attachment AC-ICQB-061-114A) During flight, Fuel overhead ONEGO was noticed as shown in the flight log. Using that entry, what remaining fuel can be expected overhead FORGO, assuming groundspeed as between ONEGO and TWO? 182 lbs 212 lbs 173 lbs 207 lbs 60. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01792",
       "question": "(See attachment AC-ICQB-061-114A) During flight, ATC requests to report your expected time of arrival (ETA) overhead waypoint FORGO. Using the entries from the flight log, what will be the groundspeed and ETA, assuming groundspeed as between ONEGO and TWO? GS 147 kt, ETA 1438 GS 135 kt, ETA 0043 GS 132 kt, ETA 1440 GS 147 kt, ETA 0022 61. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01791",
       "question": "(See attachment AC-ICQB-061-113) The average groundspeed between TWO and FORGO is: 99 kt 120 kt 135 kt 101 kt 62. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01790",
       "question": "(See attachment AC-ICQB-061-113) The average groundspeed between ONEGO and TRIGO is: 120 kt 99 kt 135 kt 113 kt 63. ID: EN-I060-20102700458 For a descent from FL 120 to 3000 ft MSL, ground distance available is 25 NM. What is the gradient of the descent? 3.3 % 2.6 % 6.8 % 6.0 % 64. ID: EN-I060-20102700539 An aircraft maintains a 5.2 % gradient above flat terrain at a distance of 7 NM from the runway. What is the aircraft’s approximate height? 2184 ft 982 ft 1834 ft 3125 ft 65. ID: EN-I060-20102700473 An aircraft descends from FL 250 to FL 100. Rate of descent is 1000 ft/min, ground speed is 360 kt. What is the flight path angle? 3.1° 2.6° 2.2° 1.6° 66. ID: EN-I060-20102700151 An aircraft descends to a DME in a straight line: DME 55.0 NM, altitude 33000 ft, DME 43.9 NM, altitude 30500 ft, M = 0.72, GS = 525 kt, OAT = ISA. The descent gradient of the aircraft is: 3.7% 3.2% 3.9% 4.2% 67. ID: EN-I060-20102701040 Considering the following information, at what distance from the runway threshold can you expect to capture the glide path (GP)? Aircraft height: 2500 ft ILS GP angle: 3° 13.4 NM 16.7 NM 6.8 NM 8.3 NM 68. ID: EN-I060-20102700544 An aircraft descends down a 6% slope and maintains a ground speed of 300 kt. The aircraft’s approximate rate of descent is: 1200 ft/min 5800 ft/min 1800 ft/min 3300 ft/min 69. ID: EN-I060-20102701041 Given the following information, what is the approximate rate of descent? ILS GP angle: 3.5 degrees GS: 150 kt. 750 ft/min 875 ft/min 1050 ft/min 600 ft/min 70. ID: EN-I060-20102701431 With the information given below, find the climb gradient in %: True Airspeed: 180 kt ROC (Rate of Climb): 850 ft/min Headwind: 15 kt 6.6% 3.4 % 4.1% 5.1% Triangle of velocities ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01796",
       "question": "1. (See attachment AC-ICQB-061-116) Identify the figure that correctly shows the components of vector A: Vector 3 Vector 1 Vector 4 Vector 2 2. ID: EN-I060-20102701609 When adding two vectors with different magnitude (length) and direction, what information can be taken from the result? The direction and magnitude (length) of the resulting vector. A third vector in a direction perpendicular to both initial vectors. The sum of the square of the initial vector's components. Generally the sum of the lengths of the two initial vectors. 3. ID: EN-I060-20102701603 Two vectors can be “added” to give the resulting vector by which procedure? At the tail of one vector, start with the tail of the second vector against its direction. At the head of one vector, start with the tail of the second vector against its direction. Point the head of one vector to the head of the other vector. At the head of one vector, start with the tail of the second vector in its direction. 4. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01797",
       "question": "(See attachment AC-ICQB-061-115) With regard to triangle of velocities, having Vector A and Vector B, what will be the resulting vector? Vector 3 Vector 1 Vector 2 Vector 4 5. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01795",
       "question": "With regard to triangle of velocities, to construct the complete set of 3 vectors, what information has to be given? All speeds of the 3 vectors to determine the corresponding directions. At least 2 complete vectors (direction and speed) to produce the resulting vector. All directions of the 3 vectors to determine the corresponding speeds. At least 4 out of 6 components of the 3 vectors (direction and/or speed) 6. ID: EN-I060-20102700652 Relating to the following information, what is the [1] compass heading (C) and the [2] groundspeed? Track: 090(T) TAS: 460 kt Wind velocity: 360(T) / 100 kt Average variation: 10E Deviation: -2 [1] 104°(C) [2] 460 kt [1] 078°(C) [2] 450 kt [1] 066°(C) [2] 460 kt [1] 070°(C) [2] 450 kt 7. ID: EN-I060-20102700641 Relating to the following information, calculate the true heading and GS: TAS: 155 kt Track: 305(T) Wind velocity: 160(T) / 18 kt Heading: 301°(T), GS: 169 kt Heading: 305°(T), GS: 169 kt Heading: 297°(T), GS: 175 kt Heading: 299°(T), GS: 171 kt 8. ID: EN-I060-20102700642 Relating to the following information, calculate the true heading and GS: TAS: 130 kt Track: 003(T) Wind velocity: 190(T) / 40 kt Heading: 358°(T), GS: 162 kt Heading: 001°(T), GS: 170 kt Heading: 002°(T), GS: 172 kt Heading: 359°(T), GS: 164 kt 9. ID: EN-I060-20102700643 Relating to the following information, calculate the true heading and GS: TAS: 465 kt Track: 007(T) Wind velocity: 300(T) / 80 kt Heading: 005°(T), GS: 486 kt Heading: 358°(T), GS: 428 kt Heading: 355°(T), GS: 436 kt Heading: 002°(T), GS: 433 kt 10. ID: EN-I060-20102700644 Relating to the following information, calculate the true heading and GS: TAS: 200 kt Track: 073(T) Wind velocity: 210(T) / 20 kt Heading: 077°(T), GS: 214 kt Heading: 079°(T), GS: 220 kt Heading: 075°(T), GS: 211 kt Heading: 077°(T), GS: 218 kt 11. ID: EN-I060-20102700651 Relating to the following information, calculate the heading (T) and flight time: Course required: 085(T) Forecast wind velocity: 030(T) / 100 kt TAS: 470 kt Distance: 265 NM Heading: 085°(T), 38 MIN Heading: 075°(T), 39 MIN Heading: 086°(T), 26 MIN Heading: 077°(T), 33 MIN 12. ID: EN-I060-20102700824 Relating to the following information, the maximum drift angle can be obtained for a wind direction of ____ . Course: 040(T), TAS: 120 kt, Wind speed 30 kt. 115° 130° 135° 120° 13. ID: EN-I060-20102700076 Magnetic track 315(M), MH 301(M) VAR 5ºW TAS 225 kt Time for 50 NM is 12 MIN Calculate the W/V(T): 010/63 kt 195/59 kt 345/25 kt 190/63 kt 14. ID: EN-I060-20102701330 Calculate the drift angle with the following information given: Heading: 255(M) Variation: 40W GS: 375 kt W/V: 235(T) / 120 kt 6° right 9° left 3° left 6° left 15. ID: EN-I060-20102700146 At 1015 the reading from a VOR/DME is 211/90 NM, at 1020 the reading from the station is 211/120 NM. Compass Heading = 200(C), Variation in the area = 31W, Deviation = +1, TAS = 390 kt. The wind vector (T) is approximately: 120/85 kt 120/50 kt 110/45 kt 110/70 kt 16. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01798",
       "question": "On TH 255 while maintaining 150 kt TAS, an aircraft crosses two fixes at a distance of 45 NM from each other within 15 minutes. The map shows a true direction between the fixes of 246(T). What is the wind / velocity (W/V)? 030(T) / 40 kt 210(T) / 40 kt 035(T) / 60 kt 030(T) / 60 kt 17. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01799",
       "question": "Using dead reckoning during flight with the information given below, calculate the track angle error (TKE): True Course (TC): 055(T) Calculated Heading (MH): 045(M) Variation: 15E Deviation: +3 In-flight drift: 8L 3L 5L 8R 3R 18. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01801",
       "question": "With the information given below and using Mental Dead Reckoning (MDR) technique, calculate the drift and Wind Correction Angle (WCA): TAS 180 kt Wind: 30° from right to the planned track, 30 kt Drift 5L, WCA +5° Drift 15R, WCA -15° Drift 5R, WCA -5° Drift 15L, WCA -15° 19. ID: EN-I060-20102701065 Relating to the following information, calculate the track and the TAS: HDG 230(T) GS 340 kt W/V 270(T) / 40 kt Track = 229°, TAS = 320 kt Track = 238°, TAS = 365 kt Track = 232°, TAS = 304 kt Track = 226° ,TAS = 370 kt 20. ID: EN-I060-20102700640 Relating to the following information, calculate the true track and GS: TAS: 480 kt Heading: 040(T) Wind velocity: 090(T) / 60 kt Track: 032°(T), GS: 415 kt Track: 030°(T), GS: 425 kt Track: 038°(T), GS: 455 kt Track: 034°(T), GS: 445 kt 21. ID: EN-I060-20102700084 TAS 440 kt TH 349(T) W/V 040(T)/40 kt Calculate the drift and GS: 5L – 390 kt 4L – 415 kt 2L – 410 kt 6L – 380 kt 22. ID: EN-I060-20102700639 Relating to the following information, calculate the true track and GS: TAS: 225 kt Heading: 123(T) Wind velocity: 090(T) / 60 kt Track: 138°(T), GS: 172 kt Track: 124°(T), GS: 178 kt Track: 134°(T), GS: 188 kt Track: 134°(T), GS: 178 kt 23. ID: EN-I060-20102700638 Relating to the following information, calculate the true track and GS: TAS: 135 kt Heading: 278(T) Wind velocity: 140(T) / 20 kt Track: 283°(T), GS: 150 kt Track: 286°(T), GS: 129 kt Track: 278°(T), GS: 153 kt Track: 273°(T), GS: 150 kt 24. ID: EN-I060-20102700073 Relating to the following information, determine the Ground Speed (GS): TAS 220 kt MC 212 W/V 160(M) / 50 kt 260 kt 178 kt 186 kt 244 kt 25. ID: EN-I060-20102701275 Given the following information, calculate the drift and GS: TAS: 485 kt Heading: 226(T) Wind velocity: 110(T) / 95 kt Drift: 9°R, groundspeed: 533 kt Drift: 8°L, groundspeed: 435 kt Drift: 10°R, groundspeed: 520 kt Drift: 7°R, groundspeed: 531 kt 26. ID: EN-I060-20102700050 Compass Heading 090(C) Deviation 2°W Variation 12°E TAS 160 kt Whilst maintaining a radial 070 from a VOR station, the aircraft flies a ground distance of 14 NM in 6 MIN. Determine the true W/V(T): 150/35 kt 340/56 kt 340/25 kt 160/50 kt 27. ID: EN-I060-20102700454 True course 353(T) W/V 260(T)/35 TAS 160 kt Calculate the Wind Correction Angle (WCA) and GroundSpeed (GS): WCA 13L, GS 158 kt WCA 13R, GS 152 kt WCA 12L, GS 163 kt WCA 12R, GS 164 kt 28. ID: EN-I060-20102700455 True course 188(T) W/V 260(T)/90 TAS 420 kt Calculate True Heading (TH) and Ground Speed (GS): True heading 176, GS 439 kt True heading 199, GS 455 kt True heading 200, GS 383 kt True heading 176, GS 402 kt 29. ID: EN-I060-20102700456 Relating to the following information, calculate the true track and GS: True heading: 254 TAS: 163 kt W/V: 130(T)/30 True track 262, GS 182 kt True track 266, GS 173 kt True track 256, GS 182 kt True track 248, GS 163 kt 30. ID: EN-I060-20102700481 True track 095(T) TAS 160 kt True heading 087(T) GS 130 kt Calculate the W/V: 057(T)/36 kt 237(T)/38 kt 227(T)/36 kt 061(T)/32 kt 31. ID: EN-I060-20102700528 True heading 180(T) TAS 500 kt W/V 225(T)/100 kt Calculate the GS: 435 kt 615 kt 444 kt 535 kt 32. ID: EN-I060-20102700529 True heading 310(T) TAS 200 kt GS 176 kt Drift angle 7R Calculate the W/V: 180(T) / 33 kt 090(T) / 31 kt 360(T) / 38 kt 270(T) / 33 kt 33. ID: EN-I060-20102700049 Relating to the following information, what is the true W/V? M 0.80 OAT -50°C FL 330 GS 490 kt VAR 20°W Magnetic heading 140(M) Drift is 11(R) 200/95 kt 020/43 kt 020/95 kt 025/43 kt 34. ID: EN-I060-20102700637 Relating to the following information, calculate the true track and GS: TAS: 125 kt Heading: 355(T) Wind velocity: 320(T) / 30 kt True track: 002°, GS: 97 kt True track: 355°, GS: 99 kt True track: 005°, GS: 102 kt True track: 009°, GS: 102 kt 35. ID: EN-I060-20102700537 Calculate the W/V given the following outputs of the Inertial Navigation System and the Air Data Computer: GS: 520 kt True heading: 090(T) Drift angle: 5° right TAS: 480 kt Static Air Temperature (SAT): -51°C 220(T) / 60 kt 320(T) / 60 kt 225(T) / 60 kt 325(T) / 60 kt 36. ID: EN-I060-20102700633 Relating to the following information, calculate the drift and GS: TAS: 270 kt Heading: 270(T) Wind velocity: 205(T)/30 kt Drift: 8°L, GS: 253 kt Drift: 8°R, GS: 258 kt Drift: 6°L, GS: 256 kt Drift: 6°R, GS: 259 kt 37. ID: EN-I060-20102700634 Relating to the following information, calculate the drift and GS: TAS: 270 kt Heading: 145(T) Wind velocity: 205(T) / 30 kt Drift: 8°R, GS: 265 kt Drift: 6°L, GS: 256 kt Drift: 6°R, GS: 253 kt Drift: 8°L, GS: 257 kt 38. ID: EN-I060-20102700635 Relating to the following information, calculate the drift and GS: TAS: 470 kt Heading: 317(T) Wind velocity: 045(T) / 45 kt Drift: 3°L, GS: 467 kt Drift: 5°R, GS: 473 kt Drift: 3°R, GS: 470 kt Drift: 5°L, GS: 470 kt 39. ID: EN-I060-20102700636 Relating to the following information, calculate the drift and GS: TAS: 140 kt Heading: 302(T) Wind velocity: 045(T) / 45 kt Drift: 9°L, GS: 149 kt Drift: 9°R, GS: 145 kt Drift: 16°L, GS: 156 kt Drift: 16°R, GS: 148 kt 40. ID: EN-I060-20102701274 Given the following information, calculate the drift and GS: TAS: 290 kt Heading: 171(T) Wind velocity: 310(T) / 30 kt Drift: 4°L, groundspeed: 310 kt Drift: 4°R, groundspeed: 314 kt Drift: 4°R, groundspeed: 310 kt Drift: 4°L, groundspeed: 314 kt 41. ID: EN-I060-20102700531 True heading 090(T) TAS 200 kt W/V 220(T)/30 kt Calculate the GS: 220 kt 290 kt 230 kt 170 kt Dead Reckoning 1. ID: EN-I060-20102701066 What is the main reason of DR navigation? To obtain a position of the aircraft in the absence of fixes. To obtain the position of the aircraft between IRS fixes. To closely monitor the flight track by visual reference points. To improve the accuracy of GNSS positions. 2. ID: EN-I060-20102700226 The reason for a difference between a DR-position and a Fix may be the difference between… the actual wind and the forecasted wind. no-wind situation and the actual wind. the magnetic and the true wind direction. no-wind situation and the forecasted wind. 3. ID: EN-I060-20102700227 Which one of the following factors may affect the accuracy of the manually calculated DR-position of an aircraft? The flight time since the last position update. Time of day since the last position update. The flight altitude since the last position update. Local variation since the last position update. 4. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01802",
       "question": "The “speed factor” (SF), used for mental flight path calculations, is defined as: SF = GS[NM/min] + 60 SF = GS[kt| x 60 SF = GS[kt| / 60 SF = GS[NM/min] / 60 5. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01803",
       "question": "With the information given below and using mental flight path calculations (with speed factor, SF), determine the Wind Correction Angle (WCA): TAS: 120 kt Planned track: 165(T) Crosswind component (XWC): 20 kt from the right 20L or -20° 10L or -10° 10R or +10° 20R or +20° 6. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01804",
       "question": "With the information given below and using mental flight path calculations (with speed factor, SF), determine the Wind Correction Angle (WCA): TAS: 240 kt Planned track: 225(T) Crosswind component (XWC): 30 kt from the left 15L or -15° 7.5L or -7.5° 7.5R or +7.5° 15R or +15° 7. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01805",
       "question": "With the information given below and using mental flight path calculations (with speed factor, SF), determine the drift angle: TAS: 180 kt Planned track: 290(T) Crosswind component (XWC): 15 kt from the left 15L or -15° 5L or -5° 5R or +5° 15R or +15° Navigation in climb or descent 1. ID: EN-I060-20102700289 Departure airfield at elevation 2000 ft, temperature 20°C, QNH 1013 hPa. When planning to climb to FL 290 with OAT -40°C with CAS during climb of 180 kt and assuming compressibility negligible, the average TAS in the climb is: 249 kt 236 kt 222 kt 289 kt 2. ID: EN-I060-20102700297 Departure airfield is at ELEV 2000 ft, temperature at the field is 0°C, QNH 1013 hPa, planning climb to FL 320 where OAT is -60°C. CAS during climb is 200 kt, compressibility negligible. The average TAS in the climb is: 248 kt 233 kt 276 kt 322 kt 3. ID: EN-I060-20102700280 Departure airfield at elevation 2000 ft, temperature 20°C, QNH 1013 hPa. When planning climb to FL 290 with OAT -40°C, to calculate the average TAS during climb, what FL and temperature should be used? FL 160 with temperature -11°C FL 200 with temperature -20°C FL 110 with temperature 0°C FL 290 with temperature -40°C 4. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01806",
       "question": "When calculating average values during climb (i.e. average TAS, average wind), which altitude should be used as reference for calculation? The altitude at one third of the climb interval between take-off (ELEV) and cruise altitude (or flight level). The altitude at one half of the climb interval between take-off (ELEV) and cruise altitude (or flight level). The altitude at two third of the climb interval between MSL and cruise altitude (or flight level). The altitude at two thirds of the climb interval between take-off (ELEV) and cruise altitude (or flight level). 5. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01807",
       "question": "When calculating average values during descent (i.e. average TAS, average wind), which altitude should be used as reference for calculation? The altitude at one third of the descent interval between take-off (ELEV) and cruise altitude (or flight level) The altitude at two thirds of the descent interval between take-off (ELEV) and cruise altitude (or flight level) The altitude at one half of the descent interval between take-off (ELEV) and cruise altitude (or flight level) The altitude at two third of the descent interval between MSL and cruise altitude (or flight level) 6. ID: EN-I060-20102700296 Descent from FL 240 to FL 80 Track 070 CAS 220 kt OAT ISA-10 The average TAS during descent is: 276 kt 311 kt 289 kt 325 kt 7. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01808",
       "question": "(See attachment AC-ICQB-061-117) An aircraft descends from flight level 180 to the ground. The table from the attachment states the W/V at various flight levels in the area. Which W/V should be used to calculate the GS from TAS and the Track in the descent? 285°/55 kt 270°/40 kt 290°/55 kt 280°/50 kt 8. ID: EN-I060-20102700293 (See attachment AC-ICQB-061-117) Planning a climb from the ground to FL180 with constant TAS of 220 kt, the track in climb is 080°. Using the W/V at various flight levels from the attachment, determine the average GS in climb: 288 kt 255 kt 266 kt 232 kt 9. ID: EN-I060-20102700294 (See attachment AC-ICQB-061-117) An aircraft climbs from the ground to flight level of 180. The table from the attachment gives the W/V at various flight levels in the area. Which W/V should be used to calculate the GS from TAS and the Track in the climb? 270°/35 kt 290°/55 kt 260°/25 kt 280°/50 kt 10. ID: EN-I060-20102701048 Considering the following information, what is the average ground speed during the descent? W/V at TOD at FL130: 280°/45 kt W/V at arrival aerodrome at 1000 ft AMSL: 230°/15 kt Average track during descent: 220° ISA conditions Descent speed: 170 KIAS 148 kt 209 kt 191 kt 163 kt 11. ID: EN-I060-20102701049 Considering the following information, what is the average ground speed during the descent? W/V at TOD at FL100: 260°/50 kt W/V at arrival aerodrome at MSL: 200°/20 kt Average track after TOD: 190° ISA conditions Descent speed: 150 KIAS 153 kt 120 kt 165kt 135 kt 12. ID: EN-I060-20102701072 (See attachment AC-ICQB-061-117) An aircraft descends from FL 180 to ground level with a constant TAS of 220 kt. The TT in descent is 080°. The W/V at various flight levels in the area are given in the attachment table. The average GS in the descent is… 249 kt 269 kt 259 kt 272 kt 13. ID: EN-I060-20102700098 The rate of descent required to maintain a 3° glidepath at a ground speed of 90 kt is approximately: 700 ft/min 800 ft/min 300 ft/min 450 ft/min 14. ID: EN-I060-20102700489 An aircraft flying a 3° glide path experiences a decrease in ground speed from 150 kt at the outer marker to 120 kt over the threshold. The effect of this change in ground speed on the rate of descent will be a decrease of approximately… 150 ft/min. 30 ft/min. 250 ft/min. 600 ft/min. 15. ID: EN-I060-20102700487 Every 10 kt reduction of the ground speed on a 3° ILS glide path requires… a decrease in rate of descent of approximately 50 ft/min. an increase in rate of descent of approximately 150 ft/min. an increase in rate of descent of approximately 50 ft/min. a decrease in rate of descent of approximately 150 ft/min. 16. ID: EN-I060-20102700075 Assuming zero wind, an aircraft descending 15000 ft with a TAS of 320 kt and a rate of descent of 3000 ft/min will cover a distance of: 14.0 NM 26.7 NM 34.3 NM 19.2 NM 17. ID: EN-I060-20102700038 The approximate rate of descent required to maintain a 3° glide path at a groundspeed of 120 kt is: 600 ft/min 750 ft/min 300 ft/min 1000 ft/min 18. ID: EN-I060-20102700457 For a descent from Altitude 15000 ft to Altitude 3000 ft, a glide path angle of 3° shall be flown. The ground speed is 180 kt at 15000 ft and 150 kt at 3000 ft. To maintain a glide path angle of 3°, the rate of descent will: Decrease from 900 ft/min to 750 ft/min Decrease from 700 ft/min to 500 ft/min Increase from 400 ft/min to 800 ft/min Be constant at 1100 ft/min 19. ID: EN-I060-20102700660 An aircraft flying at FL 370 needs to start descent at 120 NM from a VOR and to cross the facility at FL 130. With a mean GS for the descent of 288 kt, the minimum required rate of descent is… 960 ft/min. 830 ft/min. 880 ft/min. 1030 ft/min. 20. ID: EN-I060-20102700093 When instructed to descend from at FL 350 and to cross a DME facility at FL80, maximum rate of descent of 1800 ft/min and average GS for descent 276 kt, the minimum range from the DME at which the descent should be initiated is: 69 NM 84 NM 52 NM 79 NM 21. ID: EN-I060-20102700706 An aircraft departs from an airport with an elevation of 2000 ft. QNH is 1013 hPa, GS is 100 kt, rate of climb is 1000 ft/min. 10 NM away there is a waypoint the aircraft is required to pass at an altitude of 7500 ft. What is the minimum required rate of climb? 670 ft/min 1040 ft/min 920 ft/min 780 ft/min 22. ID: EN-I060-20102700700 An aircraft flying at FL 350 needs to start the descent at a distance of 85 NM from a VOR and to cross the VOR at FL 80. The mean GS for the descent is 340 kt. The minimum required rate of descent is… 1800 ft/min 2000 ft/min 1650 ft/min 1950 ft/min 23. ID: EN-I060-20102700699 An aircraft flying at FL 290 needs to start the descent at a distance of 50 NM from a VOR and to cross that VOR at FL 80. The mean GS during descent is 271 kt. The minimum required rate of descent is… 1900 ft/min 2030 ft/min 1810 ft/min 1650 ft/min 24. ID: EN-I060-20102700150 During approach the following data are monitored: DME 12.0 NM, altitude 3000 ft DME 9.8 NM, altitude 2400 ft TAS 160 kt, GS 125 kt The aircraft descends at a rate of: 700 ft/min 570 ft/min 650 ft/min 780 ft/min 25. ID: EN-I060-20102700666 An aircraft flying at FL 370 needs to commence descent when 100 NM from a DME facility and to cross the station at FL 120. The mean GS during the descent is 396 kt. What is the approximate minimum rate of descent required? 1650 ft/min 1850 ft/min 2340 ft/min 1300 ft/min 26. ID: EN-I060-20102700663 An aircraft flying at FL 350 needs to cross a VOR/DME at FL 110 and to start descent when 100 NM from the facility. With a mean GS for the descent of 335 kt, the minimum required rate of descent is… 1150 ft/min. 1340 ft/min. 1280 ft/min. 1400 ft/min. 27. ID: EN-I060-20102700696 An aircraft flying at FL 330 needs to start the descent at a distance of 65 NM from a VOR and to cross the VOR at FL 100. The mean GS during the descent is 330 kt. What minimum rate of descent is required? 1950 ft/min 2100 ft/min 1800 ft/min 1550 ft/min 28. ID: EN-I060-20102700096 When instructed at FL 390 to descend and to cross a DME facility at FL 70 with maximum rate of descent is 2500 ft/min and average GS during descent of 248 kt, the minimum range from the DME where the descent should be initiated is: 53 NM 58 NM 66 NM 88 NM 29. ID: EN-I060-20102700701 An aircraft flying at FL 360 needs to descend to FL 120, which should be reached at 40 NM from the next waypoint. The rate of descent is 2000 ft/min and the average GS is 420 kt. At what minimum distance from the next waypoint should the descent start? 95 NM 124 NM 159 NM 213 NM 30. ID: EN-I060-20102700702 An aircraft departs from an airport with an elevation of 2000 ft. Given: QNH is 1003 hPa, TAS is 100 kt, head wind component is 20 kt, rate of climb is 1000 ft/min. Top of climb is FL 050. At what distance from the airport will FL 050 be reached? 4.8 NM 4.3 NM 2.9 NM 3.6 NM 31. ID: EN-I060-20102700703 An aircraft departs from an airport with an elevation of 2000 ft. Given: QNH is 1003 hPa, TAS is 100 kt, head wind component is 20 kt, rate of climb is 500 ft/min. Top of climb is FL 050. At what distance from the airport will FL 050 be reached? 7.2 NM 8.7 NM 10.4 NM 6.3 NM 32. ID: EN-I060-20102700704 An aircraft departs from an airport with an elevation of 2000 ft. Given: QNH is 1003 hPa, TAS is 100 kt, head wind component is 20 kt, rate of climb is 1000 ft/min. Top of climb is FL 100. At what distance from the airport will FL 100 be reached? 9.2 NM 14.1 NM 10.3 NM 12.0 NM 33. ID: EN-I060-20102700705 An aircraft departs from an airport with an elevation of 2000 ft. Given: QNH is 1023 hPa, TAS is 100 kt, head wind component is 20 kt, rate of climb is 1000 ft/min. Top of climb is FL 100. At what distance from the airport will FL 100 be reached? 11.1 NM 10.2 NM 12.8 NM 14.7 NM 34. ID: EN-I060-20102700771 Considering the following information, what is the approximate rate of descent? TAS: 197 kt True course: 240° W/V: 180/30 kt Descent is initiated at FL 220 and completed at FL 40 Distance to be covered during descent is 39 NM 1700 ft/min 1150 ft/min 1400 ft/min 750 ft/min 35. ID: EN-I060-20102700149 Departing from an airport with elevation 1500 ft, QNH is 1003 hPa. At a distance of 15 NM there is a waypoint you are required to pass at an altitude of 7500 ft. Given a ground speed of 120 kt, what minimum rate of climb is required? 800 ft/min 880 ft/min 650 ft/min 720 ft/min Ground Features 1. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01809",
       "question": "When selecting ground features to be recognized on the map and vice versa, what features work best to be recognized during a VFR flight by day? 1. Large water features, i.e lakes and artificial channels 2. Obstacles with exceptional height 3. Rivers with lots of curves and wiggles 4. Electric power lines (after snowfall) 5. Active Power Stations (with clouds overhead cooling towers) 1, 2 and 3 1, 2, 3 and 5 2, 4, and 5 1, 2, 4 and 5 2. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01811",
       "question": "Flying with cloud covered sky over snow-covered areas may rise the danger of… controlled flight into terrain. moderate to severe icing in clear air. unreliable indications on electronic instruments. false indicatins on altimeter and airspeed indicator. 3. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01810",
       "question": "When approaching an unfamiliar airport early after sunrise, visually identifying the airport and performing a visual approach may usually be difficult due to… bird clusters flying at low altitude above the runway. radiation fog over small rivers and creeks. the sun being close to the horizon. long shadows hiding the structure of terrain. 4. ID: EN-I060-20102701101 An aircraft conducts a VFR flight under freezing conditions after recent heavy snow fall. Which land mark will provide the most reliable reference? A high-tension power line (with towers) A railway track (without an overhead line) Carved fields A country road 5. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01812",
       "question": "With regard to potential hazards with VFR flights during night time, which of the following statements is correct? 1. Reference obstacles selected during the planning phase are always easy to detect also with visual conditions during night time. 2. During visual approach at night, aircraft’s height may be difficult to estimate due to lack of visual reference. 1 is correct, 2 is incorrect 1 is incorrect, 2 is incorrect 1 is incorrect, 2 is correct 1 is correct, 2 is correct VFR Navigation Techniques ID: EN-I060-20102700375 1. What is a visual check point? A point used to measure the meteorological visibility on the ground or the flight visibility A landmark visible to both the radar and the human eye, to be used for VFR or IFR flights A distinct point which is easily visually identifiable on the terrain as well as on the chart A reference point which may only be used for flights according to visual flight rules 2. ID: EN-I060-20102700727 An island appears 30° to the left of the aircraft’s longitudinal axis. Determine the true bearing of the aircraft from the island, considering that at the time of observation the aircraft was on a magnetic heading of 020° with a magnetic variation of 25°W: 145°(T) 333°(T) 195°(T) 217°(T) 3. ID: EN-I060-20102700729 An island appears 30° to the right of the aircraft’s longitudinal axis. The aircraft flies a magnetic heading of 290°, the variation is 10°E. The bearing from the aircraft to the island is… 330°(T). 270°(T). 010°(T). 230°(T). 4. ID: EN-I060-20102700728 An island appears 30° to the left of the aircraft’s longitudinal axis. Determine the true bearing of the aircraft from the island, considering that at the time of observation the aircraft was on a magnetic heading of 276° with a magnetic variation of 12°W: 046(T) 252°(T) 318°(T) 054°(T) 5. ID: EN-I060-20102700726 Determine the true bearing of the aircraft from the island, considering that at the time of observation the aircraft was on a magnetic heading of 276 with a magnetic variation of 10°E and having a Relative Bearing of 300: 046 036 216 226 6. ID: EN-I060-20102700724 An island appears 15° to the left of the aircraft’s longitudinal axis. The aircraft flies a magnetic heading of 120°, the magnetic variation is 17°W. The true bearing of the aircraft from the island is… 096°(T) 135°(T) 302°(T) 268°(T) 7. ID: EN-I060-20102700725 An island appears 15° to the left of the aircraft’s longitudinal axis. The aircraft flies a magnetic heading of 120°, the magnetic variation is 17°W. The true bearing from the aircraft to the island is… 088°(T). 122°(T). 256°(T). 314°(T). 8. ID: EN-I060-20102700723 An island appears 30° to the right of the aircraft’s longitudinal axis. Determine the true bearing of the aircraft from the island, considering that at the time of observation the aircraft was on a magnetic heading of 355° with a magnetic variation of 15°E: 190°(T) 220°(T) 130°(T) 310°(T) 9. ID: EN-I060-20102700722 An island appears 45° to the right of the aircraft’s longitudinal axis. Determine the true bearing of the aircraft from the island, considering that at the time of observation the aircraft was on a magnetic heading of 215° with a magnetic variation of 21°W: 170°(T) 059°(T) 236°(T) 101°(T) 10. ID: EN-I060-20102700145 An aircraft at position 53ºN, 006ºW has a landmark at position 52º47’N, 004º45’W with a relative bearing of 060º and following information given: Compass Heading = 051º Variation = 16ºW Deviation = 2ºE What is the true bearing from the landmark to the aircraft (QTE) on a Lambert chart with standard parallels at 37ºN and 65ºN? 278 260 284 276 11. ID: EN-I060-20102700039 A ground feature appears 30° to the left of present heading of 355(M), the variation is 15°E, the QTE is: 220 190 160 325 12. ID: EN-I060-20102700074 When crossing two parallel roads at right angles during a low-level flight, the time taken between the road crossing can be used to check… the groundspeed. the true airspeed. the compass deviation. the wind correction angle. 13. ID: EN-I060-20102700281 For a check of the flight progress by observing a single visual line, such as a canal or highway, it should be… more or less perpendicular to the track. more or less parallel to the track. at a distance of at least 5 NM. used only below the transition altitude. 14. ID: EN-I060-20102700374 Which of the following factors should be considered when choosing landmarks as visual reference points? 1. Chance for identification (from other similiar landmarks) 2. Airspace classidication 3. Visibility (color and contrast) 4. Distance from the track 2 and 3 1, 2 and 3 2 and 4 1, 3 and 4 15. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01813",
       "question": "When enroute on a VFR flight and overflying a snow-covered area, what landmarks are suitable as visual reference points? Boundaries of larger cities. Large water areas and canals, coastlines, high and easy to distinguish obstacles. Roads and raiload tracks without power lines. Farm land areas with and without vegetation. 16. ID: EN-I060-20102700479 Contour lines on aeronautical charts connect points… with the same inclination. with the same elevation. with the same variation. with the same pressure. 17. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01816",
       "question": "With regard to the orientation of the map during a VFR flight, which of the following statements is correct? 1. Holding the map North-up can make airspace and symbolic information easily be read. 2. Holding the map Track-up can support the visualisation of the overall in-flight navigational situation. 1 is correct, 2 is incorrect. 1 is correct, 2 is correct. 1 is incorrect, 2 is incorrect. 1 is incorrect, 2 is correct. 18. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01815",
       "question": "Identifying landmarks and overall orientation and visualisation of the in-flight situation on a VFR flight can be made easy by: holding the complete map with track-up orientation. holding only a small of the map with North-up orientation. holding a relevant part of the map with track-up orientation. holding the complete map with North-up orientation. 19. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01814",
       "question": "To keep maintain overall situational awareness and free capacities for watching airspace and flight monitoring, visual reference points shoud selected as (1) ____ landmarks at a distance as (2) ___ as possible along the planned track. (1) high as possible, (2) close. (1) large as possible, (2) far. (1) easy identifyable, (2) far. (1) easy visible, (2) close. 20. ID: EN-I060-20102700732 An aircraft is planned to fly a distance of 250 NM from A to B at an average ground speed of 115 kt. Departure at A at 0900 UTC. After 75 NM along track from A, the aircraft is 1.5 minutes behind the planned time. Considering the actual ground speed, what is the revised ETA at B? 1115 UTC 1123 UTC 1109 UTC 1057 UTC 21. ID: EN-I060-20102700731 An aircraft planned to fly a distance of 320 NM from A to B at an average ground speed of 180 kt. Departure at A at 1200 UTC. After 70 NM along track from A, the aircraft is 3 minutes ahead of the planned time. Considering the actual ground speed, what is the revised ETA at B? 1333 UTC 1403 UTC 1339 UTC 1326 UTC 22. ID: EN-I060-20102700730 An aircraft planned to fly a distance of 480 NM from A to B at an average ground speed of 240 kt. Departure at A at 1000 UTC. After 150 NM along track, the aircraft is 2 minutes behind planned time. Considering the actual ground speed, what is the revised ETA at B? 1206 UTC 1203 UTC 1155 UTC 1211 UTC 23. ID: EN-I060-20102700144 An aircraft follows a radial inbound a VOR/DME station. At 1000 the DME reads 120 NM. At 1003 the DME reads 105 NM. The estimated time overhead station is: 1028 1022 1008 1024 24. ID: EN-I060-20102700992 When flying under visual conditions, a useful method for a pilot to resolve any uncertainty in the aircraft’s position is to maintain visual contact with the ground and… set the heading towards a line feature such as a coastline, river or railway. fly reverse headinga and associated timings until the point of departure is regained. fly a reverse heading prior to becoming uncertain until a pinpoint is obtained. fly expanding circles until a pinpoint is obtained. 25. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01817",
       "question": "When uncertain of the aircraft’s position during a VFR-flight, a good option to re-establish the aircraft’s position can be to: proceed along a river nearly parallel to the planned track. tune a VOR/DME facility for radial and distance information. circling overhead a wind park to identify a specific wind mill. climb at higher level to more easily identify obstacle landmarks. 26. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01818",
       "question": "When becoming unsure of position during a VFR flight, which of the following options are correct for re- establishing position? 1. Change heading to a easily identifyable landmarks like a highway, coastline or characteristic patterns of railways or road crossings. 2. Note the time and request assistance from ATC (if in contact) 1 is correct, 2 is correct. 1 is incorrect, 2 is correct. 1 is correct, 2 is incorrect. 1 is incorrect, 2 is incorrect. Great Circles 1. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01821",
       "question": "Which of the following statements is correct? 1. With regard to WGS84 ellipsoid, the only true great circle is the equator. 2. The center of a great circle coincides with the center of the earth. 1 is correct, 2 is incorrect. 1 is incorrect, 2 is incorrect. 1 is correct, 2 is correct. 1 is incorrect, 2 is correct. 2. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01819",
       "question": "When following a great circle track on the northern hemisphere in westerly direction, after passing the position with track 270, the great circle track will initially (1) ___ and the latitude will (2) ___. (1) decrease, (2) decrease (1) increase, (2) decrease (1) decrease, (2) increase (1) increase, (2) increase 3. ID: EN-I060-20102701163 An aircraft is flying directly from A (55°N, 005°E) to B (45°N, 055°W). At a certain moment in time the true track of the aircraft is 275°, although the aircraft is on track and the track angle error is 0°. Which statement about this situation is true? The aircraft is flying along the great circle from A to B and has not yet passed the vertex of this great circle. The aircraft is flying along the great circle from A to B and has already passed the vertex of this great circle. The aircraft is flying along the rhumb line from A to B and the true track angle of the rhumb line is 275°. The aircraft is flying along the great circle from A to B and will not pass the vertex of this great circle as it is not situated on the leg from A to B. 4. ID: EN-I060-20102701160 In the vertex of a great circle, the… True Track reaches its maximum value. highest longitude will be reached. highest latitude will be reached. True Track reaches its minimum value. 5. ID: EN-I060-20102701159 In the vertex of a great circle, the True Track… is always equal to (TT departure + TT arrival) / 2. reaches its maximum value. is always 090° or 270°. reaches its minimum value. 6. ID: EN-I060-20102701146 Point A: 50°N, 070°W, Point B: 50°N, 080°W. Position of one of the vertices of the great circle between A and B: 50°06.4’N, 075°00.0’W What is the position of the other vertex of the great circle between A and B? 00°00.0'N, 105°00.0'E 50°06.4'S, 105°00.0'E 00°00.0'N, 075°00.0'W 50°06.4'S, 075°00.0'W 7. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01820",
       "question": "Which of the following statements is correct? 1. The radius of a small circle is smaller or the same as that of a great circle. 2. The center of a small circle coincides with the center of the earth. 1 is incorrect, 2 is incorrect. 1 is correct, 2 is correct. 1 is correct, 2 is incorrect. 1 is incorrect, 2 is correct. 8. ID: EN-I060-20102701168 Which of the following statements about meridians is true? A meridian is a complete great circle. A meridian and its anti-meridian form a complete great circle. The plane of a meridian is parallel to the Equator. All meridians are parallel to the Prime Meridian. 9. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01822",
       "question": "A ‘meridian’ in the earth’s co-ordinate grid is… a great cirlce running in arbitrary orientation to the equator. a semi-great circle running from one pole to the other pole. a great circle running from one pole around the earth to the same pole again. a small circle following a parallel to the equator. 10. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01823",
       "question": "A ‘parallel of latitude’ in the earth’s co-ordinate grid is… a small circle following a parallel to the equator. a great cirlce running in arbitrary orientation to the equator. a great circle running from one pole around the earth to the same pole again. a semi-great circle running from one pole to the other pole. 11. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01824",
       "question": "A visual great circle bearing or a VOR radial will follow: a constant bearing along the aircraft's path. a small circle. a rhumb line track. a great circle track. 12. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01826",
       "question": "Considering an arbitrary great circle route between two positions on the earth A and B, the difference between the great circle tracks at A and B is: directly proportional to the latitude difference between positions A and B. equal to the angle between the great circle and the rhumb line track at B. equal to the angle between the great circle and the rhumb line track at A. equal to the (earth) convergency between the meridians through A and B. 13. ID: EN-I060-20102701153 An aircraft follows a great circle in the Northern Hemisphere. As soon as the aircraft has passed the point where the track is 270°(T), the great circle track angle [1] … and the latitude [2] … [1] decreases [2] increases [1] decreases [2] decreases [1] increases [2] increases [1] increases [2] decreases 14. ID: EN-I060-20102701020 Relating to the southern hemisphere, when flying on a westerly great circle track, the… true track increases. true track decreases. track spirals and finally ends up at the South Pole. rhumb line track between the departure point and the destination is on the left throughout the flight. 15. ID: EN-I060-20102701062 The convergency of any two meridians on the Earth … is constant and does not vary with latitude. changes as sine of latitude. increases when the latitude decreases. changes as cosine of latitude. 16. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01825",
       "question": "The correct formula to find the convergency between two positions relatively close to each other is: Convergency = Difference in longitude x cos (mean latitude) Convergency = Difference in longitude x sin (mean latitude) Convergency = Difference in latitude x cos (mean longitude) Convergency = Difference in latitude x sin (mean longitude) 17. ID: EN-I060-20102701151 The initial great circle track from A to B is 080° and the rhumb line track is 083°. The initial great circle track from B to A is … 266° when flying in the northern hemisphere. 266° when flying in the southern hemisphere. 260° when flying in the southern hemisphere. 260° when flying in the northern hemisphere. 18. ID: EN-I060-20102701165 Assuming a flight from A (59°S 142°W) to B (61°S 148°W) with a TAS of 480 kt. The autopilot is engaged and coupled with an Inertial Navigation System in which the track from A to B is active. On route AB, the true track… increases by 5°. changes by 10°. decreases by 5°. changes by 3°. 19. ID: EN-I060-20102701111 Assuming a flight from A (60°S, 165°W) to B (60°S, 177°E). The angle between the initial true great circle track and the true rhumb line track is … 5.6° 15.6° 8.5° 7.8° 20. ID: EN-I060-20102701086 The difference between the initial true track of the great circle on the surface of the Earth joining two positions A and B (of unequal northern latitude and eastern longitude) and the true track of arrival at B equals ….. of the meridians at A and B. quarter of the conversion angle half of the earth convergency the conversion angle the earth convergency 21. ID: EN-I060-20102701071 Position A: 31º00’S, 176º17’W, Rhumb line track from A to B: 270º(T), Initial great circle track from A to B: 266.2º(T) The position of B is … 31º00'S, 173º48'E. 31º00'S, 168º58'E. 31º00'S, 161º32'W. 31º00'S, 166º32'W. 22. ID: EN-I060-20102701070 Rhumb line track from position A to B: 230°, convergency: 6°, difference in longitude: 10° When assuming a flight in the Northern Hemisphere, the initial rhumb line track from B to A is … 050°. 053°. 044°. 056°. 23. ID: EN-I060-20102701061 The great circle bearing of position B from position A in the Northern Hemisphere is 040°. When assuming a Conversion Angle is 4°, the great circle bearing of A from B is… 226°. 240°. 212°. 228°. 24. ID: EN-I060-20102701060 Given the following information: Position A (56°00.0’S, 163°57.2’E) Position B (56°00.0’S, 171°47.4’W) For the route from A to B, the… rhumb line distance is 1440 NM. great circle direction at B is 60°(T). rhumb line distance is 1096 NM. great circle direction at B is 080°(T). 25. ID: EN-I060-20102701058 A great circle track joins position A (59°S 141°W) and B (61°S 148°W). When flying from position A to position B, the track … will increase by 6°. will decrease by 6°. will increase by 3°. will decrease by 3°. 26. ID: EN-I060-20102700809 A pilot is flying from A (45°00’N, 010°00’W) to B (45°00’N, 019°00’W). The initial great circle track is …. 273° (T). 080° (T). 093° (T). 260° (T). 27. ID: EN-I060-20102700554 What is the great circle bearing from A (70°S, 030°W) to B (70°S, 060°E)? 058° (T) 132° (T) 312° (T) 218° (T) 28. ID: EN-I060-20102700538 An aircraft passes position A (60°00’N, 120°00’W) The great circle track on departure from A is … 290° (T). 261° (T). 298° (T). 279° (T). Rhumb Lines 1. ID: EN-I060-20102701152 When an aircraft flies along a parallel of latitude, it flies … a great circle track. a rhumb line track. 2. ID: EN-I060-20102701147 Parallels of latitude are special cases of rhumb lines because … the parallels run from the North pole to the South pole. the centre of the parallels is always situated on the Earth's axis. they intersect all meridians at the same angle of 90°. the radius of the parallels is always lower than the Earth's radius. 3. ID: EN-I060-20102701018 Rhumb line tracks and great circle tracks on the earth’s surface coincide … 4. ID: EN-I060-20102700513 When an aircraft is following the 45S parallel of latitude, this track can be referred to as a: Line of equal bearing Meridian Great circle Rhumb line 5. ID: EN-I060-20102700480 A “rhumb line” is… a line on the earth's surface cutting all meridians at the same angle. any straight line on a Lambert projection the shortest distance between two points along the earth's surface. a line convex to the nearest pole on a Mercator projection 6. ID: EN-I060-20102700828 Given the following information: A: 55°N, 000° B: 54°N, 010°E Average true course of the great circle: 100° The true course of the rhumb line at point A is … 109°. 104°. 096°. 100°. 7. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-02008",
       "question": "When flying a rhumb line track between two positions on the earth, excluding meridians and equator, the aircraft… is following a route with continiously change of track (and heading). is not following the shortest distance between these two positions. experiences a constant bearing from aircraft position to the destination point. experience a change in track corresponding to the convergency between the two positions. Great Circles Rhumb Line Relationship 1. ID: EN-I060-20102701161 The departure between position A (56°S, 010°W) and position B (56°S 030°W) is ___ the great circle distance between A and B. less than more than equal to equal to or more than 2. ID: EN-I060-20102701237 When proceeding along the great circle between two positions, instead of the rhumb line, the maximum difference in distance will be reached … 3. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01827",
       "question": "A rhumb line track becomes closer to the great cirlce track between two positions with: 1. shorter distance 2. increasing North-South orientation 3. increasing East-West orientation 4. latitudes farther away from polar regions. Which answer list all the correct parameters? 1 and 3. 1 and 2. 1, 3, and 4. 1, 2, and 4. 4. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01828",
       "question": "(See attachment AC-ICQB-061-118) Assuming the great circle distances of the routes along the earth’s surface (shown in the Lambert-like sketch) are the same, along which route will the difference between rhumb line track and great circle track be the largest? Route B-F Route C-D Route A-B Route D-E 5. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01829",
       "question": "(See attachment AC-ICQB-061-119) Assuming the great circle distances of the routes shown in the polar-stereographic chart are the same, along which route will the difference between rhumb line track and great circle track be the largest? Route A-B Route C-D Route E-F Difference is alway zero on a polar stereographic chart 6. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01830",
       "question": "With two positions with a given difference in longitude, the difference in distance between the rhumb line track and great circle track between these positions will (1) ___ with (2) ___ . (1) increase, (2) decreasing latitude. (1) decrease, (2) increasing E-W orientation (1) increase, (2) increasing N-S orientation (1) increase, (2) increasing latitude. 7. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01831",
       "question": "Given the same great circle distance, which of the following statements is correct? 1. The difference in distance between rhumb line track and great circle track decreases with increasing mean latitude. 2. The difference in distance between rhumb line track and great circle track increases with increasing change of longitude. 1 is correct, 2 is correct 1 is correct, 2 is incorrect 1 is incorrect, 2 is correct 1 is incorrect, 2 is incorrect 8. ID: EN-I060-20102700451 The rhumb line track between position A (60°S, 011°E) and B (60°S, 009°W) is 270. What is the great circle track from A to B? 257 261 279 289 9. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01835",
       "question": "When flying along the great circle from (40S, 030E) to (50S, 50E), the initial great circle track is 138(T). The rhumb line track when passing 035E will be: 131(T) 124(T) 145(T) 138(T) 10. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01834",
       "question": "When flying along a great circle track from A (60N, 020E) to B (60N, 040E), the great circle track (T) when passing 028E is: 271(T) 090(T) 081(T) 089(T) 11. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01833",
       "question": "When flying along a great circle track from A (60N, 030W) to B (60N, 050W), the great circle track (T) when passing 038W is: 271(T) 279(T) 270(T) 091(T) 12. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01832",
       "question": "(See attachment AC-ICQB-061-120) The Conversion Angle (CA) is represented by which angle in the sketch? Angle 2 Angle 4 Angle 3 Angle 1 13. ID: EN-I060-20102700279 With regard to the following flight plan excerpt: Waypoint ONEGO at (53N, 175E) Waypoint TWOGO at (53N, 175W) The final great circle track at TWOGO is: 264 090 086 094 14. ID: EN-I060-20102700274 The rhumb line track from A (53º 50’N, 006º 55’E) to B (53º 00’N, 003º 00’E) is 250. The final true track along the great circle is: 246º 250º 248º 252 15. ID: EN-I060-20102700273 The rhumb line track from A (67º 50’N, 006º 55’E) to B (67º 00’N, 015º 40’E) is 099. The final true track along the great circle is: 103 096 095 099 16. ID: EN-I060-20102700272 The rhumb line track from A (53º 50’N, 006º 55’E) to B (53º 00’N, 015º 40’E) is 099. The initial true track along the great circle is: 102 107 090 096 17. ID: EN-I060-20102700173 A straight line is drawn between positions (40N, 050W) and (50N, 060W). The angle between the rhumb line and the great circle in position A is: 4.2° 5.2° 3.5° 4.5° 18. ID: EN-I060-20102700275 The rhumb line track from A (53º 50’N 006º 55’E) to B (53º 00’N 003º 00’E) is 250. The initial great circle track is: 244 256 248 252 Chart Requirements ID: EN-I060-20102700171 1. An aeronautical chart is “conformal” when: at any point the scale over a short distance in the direction of the parallel is equal to the scale in the direction of the meridian and the meridians are perpendicular to the parallels. the map is an equidistant Mercator projection with all meridians represented by circles. every great circle and every small circle is represented by a straight line in the map. at any point the scale over a large distance in the direction of the parallel is greater than the scale in the direction of the meridian and the meridians are perpendicular to each other. 2. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01836",
       "question": "A chart used for navigational purposes in aviation needs to be conformal, which means: 1. Exactly constant scale all over the chart 2. scale varying the same in every direction at any point on the chart 3. bearings (angles) being the same on the chart as on earth at any point on the chart 4. parallels of latitude and meridians intersecting at right angles everywhere on the chart. Select the answer which lists all relevant items: 1, 3 and 4 2, 3 and 4 1 and 3 2 and 4 3. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01837",
       "question": "Beside choosing a limited range of latitudes from the projection, mathematical corrections on conic or polar- stereographic projections are done on charts for use in aviation to provide… keep convergency constant on the chart and let rhumb lines appear as straight lines. scale increasing with distance from the equator and let rhumb lines appear as straight lines. convergency varying the same as on earth and let great circles appear as straight lines. approximately constant scale on the chart and let great circles appear as straight lines. 4. ID: EN-I060-20102700698 A Lambert conformal conic chart has a constant of the cone of 0.80. A straight line is drawn from position A (53°N, 004°W) to position B. The initial track at A is 080°(T) and the final track at B is 092°(T). The longitude of positon B is… 017°30'E 011°E 009°30'E 007°E 5. ID: EN-I060-20102700519 With standard parallels of a Lambert conical projection of 07°40’N and 38°20’N, the approximate constant of the cone for this chart is: 1 0.39 0.5 0.77 6. ID: EN-I060-20102700829 The constant of the cone for a Lambert conformal conic projection with the standard parallels at 10°40’N and 41°20’N is approximately… 0.24. 0.85. 0.66. 0.44. 7. ID: EN-I060-20102700277 The chart convergency between two positions on a Lambert conformal chart depends on… the difference in latitude of the two positions and the mean latitude of the flight track. the difference in latitude of the two positions and the latitude of the parallel of origin. the difference in longitude of the two positions and the latitude of the parallel of origin. the difference in longitude of the two positions and the mean latitude of the flight track. 8. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01839",
       "question": "Which of the following statements is correct about the change in true track along a straight line drawn on the aeronautical chart between two positions? The change in true track is given by the map convergency (mc) between the meridians at the beginning and at the end of the line. The change in true track is given by the sine of the parallel of origin of the chart. The change in true track is given by the earth convergency (ec) between the meridians at the beginning and at the end of the line. The change in true track is given by the constant of cone (cc) of the chart. 9. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01840",
       "question": "Two positions marked on aeronautical chart at the same latitude and the local meridians form an angle of 20°. How will this affect the true track between these to positions when taken from the chart? The true track of a straight line drawn between these two positions will change by 20°. The true track of a straight line drawn between these two positions will change the same as the earth convergency along the track. The true track of a straight line drawn between these two positions will change by 20° x sine of mean latitude. The true track of a straight line drawn between these two positions will change by 20° x sine of parallel of origin. 10. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01838",
       "question": "(See annex AC-ICQB-061-121) With regard to the sketch of a Lambert Chart in the annex, state the correct relation between Earth Convergency (ec) and Chart Convergency (cc) at position C: ec < cc ec = cc ec > cc ec not constant 11. ID: EN-I060-20102700187 The constant of the cone in a Lambert chart is 0.86, what is the angle between the directions of the meridians of position A (65°00’N, 018°00’W) and position B (75°00’N, 023°00’W) on the chart? 4.3° 3.9º 5.1º 5.3º 12. ID: EN-I060-20102700553 The constant of cone of a Lambert conformal conic chart is 0.45. At what latitude on the chart is earth convergency correctly represented? 26°45' 24°14' 63°15' 45°00' 13. ID: EN-I060-20102700130 The chart convergency (map convergency) on a Lambert Conformal chart changes with latitude in which way? It is constant and does not change with latitude. It decreases with an increase of latitude. It increases with an increase of latitude. It increases in both directions from the parallel of origin. 14. ID: EN-I060-20102700040 What is the constant of the cone for a Lambert conic projection with the standard parallels at 50°N and 70°N? 0.5 0.87 0.34 0.77 15. ID: EN-I060-20102700041 What is the constant of the cone on a Lambert Chart with the chart convergency between 010°E and 030°W being 30°? 0.5 1.33 0.87 0.75 16. ID: EN-I060-20102700042 The scale on a Lambert conformal conic chart is correct… along the two standard parallels. along all parallels of latitude. between the two standard parallels. along the parallel of origin. 17. ID: EN-I060-20102700043 The constant of the cone of a Lambert conformal conic chart is quoted as 0.79, representing the earth convergency correctly correctly at which latitude? 52°18' 37°49' 51°11' 23°26' 18. ID: EN-I060-20102700175 On a Lambert conformal chart, from postion A (48° 02.5′ N, 013° 41.5′ E) to B (48° 02.5′ N, 008° 38.3′ E) the true track at A along along a straight line is 272. What is the constant of the cone? 1 0.61 0.79 0.5 19. ID: EN-I060-20102700085 When a straight line on a Lambert conformal conic chart connects two positions at different longitude, the angular difference between the initial and final true track corresponds to… the earth convergency. the chart convergency. the conversion angle. the difference in longitude. 20. ID: EN-I060-20102700044 Earth convergency (ec) on a Lambert Conformal Conic chart is most accurately represented along the… parallel of origin. meridians. standard parallels. parallels of latitude. 21. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01841",
       "question": "The ICAO requirement of a great circle to appear on the map as a straight line in the map region can approximately be achieved by… having merdians and parallels of latitude intersect with 90° everywhere on the chart. having the map convergency close to 0 everywhere on the chart. having the scale on the chart changing with the same rate in all directions. having the map convergency close to the earth convergency in that region. 22. ID: EN-I060-20102701112 At a point at 60°N on a Lambert conformal projection, the scale in the direction of True North is 1:1 000 000. The scale at the same point in an easterly direction is… 1:250 000 1:2 000 000 1:1 000 000 1:4 000 000 23. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01842",
       "question": "The scale of a map is usually expressed as a ratio of 1 : scale factor. The (1) ___ the scale factor, the (2) ___ the scale of the map. (1) smaller, (2) less accurate (1) larger, (2) larger (1) larger, (2) smaller (1) smaller, (2) more accurate 24. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01843",
       "question": "As scale for measuring distances on an aviation map is best to choose… a rule of thumb derived from a scale when using a chart copy. the distance markings along the full parallels of latitude. the distance markings along the full meridians. a scale ruler printed on the chart legend when using a chart copy. 25. ID: EN-I060-20102700442 The definition of the term “scale” is: The ratio between the length of a distance on the map and the length of the same distance on the earth The ratio between the distortion in north-south direction and the distortion in east-west direction on the map The ratio between the length of a distance on the map and the same length on the map at a different latitude A coded identification number often used on charts and maps giving information about the shown location 26. ID: EN-I060-20102700804 Relating to a Mercator chart, the distance between positions A and B, located on the same parallel and 10° longitude apart, is 6 cm. The scale at the parallel is 1: 9 260 000. The latitude of A and B is … 60° N or S. 50° N or S. 40° N or S. 0°. 27. ID: EN-I060-20102700094 12 cm on a map with a scale of 1: 2.000.000 correspond to: 130 NM 149 NM 210 NM 78 NM 28. ID: EN-I060-20102700443 The scale of a chart is 1:500.000. What chart distance is equivalent to 10 NM on the earth? 3.7 cm 2.8 cm 1.8 cm 4.3 cm 29. ID: EN-I060-20102700555 On a Lambert Conformal chart the distance between meridians 5° apart at latitude 37° N is 9 cm. The scale of the chart at that parallel is approximately: 1: 5 000 000 1: 4 250 000 1: 8 000 000 1: 6 500 000 30. ID: EN-I060-20102700557 On a direct Mercator chart with a scale of 1: 5 000 000 at the Equator, the chart distance between longitudes 179°E and 175°W is: 133 mm 108 mm 86 mm 163 mm Projections 1. (See attachment AC-ICQB-061-122) Which answer assignes the correct names to the projection types shown in the annex? (A) cylindrical, (B) conical, (C) azimuthal (A) direct, (B) oblique, (C) transversal (A) azimuthal, (B) conical, (C) oblique (A) transversal, (B) azimuthal, (C) conical 2. ID: EN-I060-20102700867 On which of the following chart projections can the Poles not be represented? Polar stereographic Transverse Mercator Lambert conformal Direct Mercator 3. ID: EN-I060-20102700003 The chart used for navigation in polar areas is based on a: Grid projection Lambert conformal projection Mercator projection Stereographical projection 4. ID: EN-I060-20102700105 Rhumb lines, except meridians, on a Polar Stereographic chart are: straight lines. hyperbolic lines convex to the pole. circular lnines convex to the pole. curves concave to the pole. 5. ID: EN-I060-20102700106 The convergence factor on a Polar Stereographic chart is: 0.75 0 0.87 1 6. ID: EN-I060-20102700174 Two places in the Southern Hemisphere are situated on the same parallel. The great circle, rhumb line and straight line between these places are drawn on a Polar Stereographic Projection. Which of the following statements is correct? The great circle is situated between the parallel and the straight line, because the concave side From North to South, the correct sequence is great circle, straight line, then rhumb line. The great circle is pointed towards the equator, the rhumb line is situated between great circle and the straight line. The great circle is situated between the parallel and the straight line, because the concave side 7. ID: EN-I060-20102700244 Which of the following statements is correct regarding the scale of a Polar Stereographic projection of the Northern polar area? The scale reaches its maximum value at the equator The scale reaches its maximum value at 34N The scale reaches its minimum value at the equator The scale reaches its minimum value at the North pole 8. ID: EN-I060-20102700276 The chart convergency between two positions on a Polar Stereographic chart depends on the… mean latitude of the standard parallels. the mean longitude of the two positions. difference in latitude of the two positions. difference in longitude of the two positions. 9. ID: EN-I060-20102700355 Which of the following statements about a Polar Stereographic chart is correct? When getting closer to the pole, the more a great circle will coincide with the straight line on the chart Distance between two positions along the straight line on the chart is shorter than the distance along the great circle Polar Stereographic charts have their greatest accuracy near the equator When further away from the pole, the more a great circle will coincide with the straight line on the chart 10. ID: EN-I060-20102701424 Parallels of latitude on a polar stereographic chart appear as: curves convex to the pole. concentric circles with the pole at their center. curves concave to the equator. straight lines crossing at the pole. 11. ID: EN-I060-20102700990 Which statement is correct regarding the appearance of great circles, except for meridians, on a Polar Stereographic chart? The higher the latitude, the closer they approximate to a straight line. They are complex curves that are concave to the Pole. Any great circle is a straight line, regardless of the latitude. They are complex curves that are convex to the Pole. 12. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01845",
       "question": "(See attachment AC-ICQB-061-123) Which of the sketches from the annex most accurately shows an exact great circle line between the positions A and B on a polar stereographic chart? Sketch 4 Sketch 3 Sketch 1 Sketch 2 13. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01846",
       "question": "A straight line is drawn on a polar stereographic chart between two positions on the same latitude with a difference in longitude of 30° . The true course along that track will… change by 30°. change by less than 30°. will be constant 270 or 090. change by more than 30°. 14. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01847",
       "question": "A straight line is drawn on a polar stereographic chart between two positions on the same latitude with a difference in longitude of 30°. The rhumb line track between these two positions will… will be constant 270 or 090. change by 30°. change by more than 30°. change by less than 30°. 15. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01848",
       "question": "A straight line is drawn on a polar stereographic chart between two positions on different latitudes. The true course along that track changes by 34°. This is due to the fact that… the chart convergency between these positions is less than 34°. the chart convergency between these positions is more than 34°. the chart convergency factor is sin of 34°. the meridians through that positions converge with an angle of 34°. 16. ID: EN-I060-20102700525 On a Polar Stereographic chart for the South Pole, a straight line connects position A (70S, 065E) and position B (70S, 025W). The approximate true track on departure from position A is: 310 225 255 270 17. ID: EN-I060-20102700520 The initial great circle course on a Polar Stereographic chart from position (70N, 060W) to position (70N, 060E) is approximately: 210(T) 030(T) 330(T) 320(T) 18. ID: EN-I060-20102701032 Point A at 80°N, 000° and point B at 70°N, 102°W are joined by a straight line on a Polar Stereographic chart. The highest latitude is reached at 035°W. The true track at point B is… 257° 301° 023° 203° 19. ID: EN-I060-20102700386 A straight line between A (75º00′.0S, 166º00′.0E) and B (78º00′.0S, 154º00′.0E) is drawn on a Polar Stereographic chart. The true track angle of the rhumb line is 223. What is the direction (T) of the straight line in position B? 210 233 217 229 20. ID: EN-I060-20102700453 On a polar stereographic chart for the northern hemisphere the true course of a straight line at position (60N, 170W) is 315. What is the true course of the straight line at longitude 145E? 335 315 290 270 21. ID: EN-I060-20102700384 A straight line between A (75º00’N, 166º00’E) and B (78º00’N, 154º00’E) is drawn on a Polar Stereographic chart, with a rhumb line track at B of 317(T). What is the direction (T) of the straight line in position B? 131 332 303 311 22. ID: EN-I060-20102700231 A straight line from A (75S, 120E) to B (75S, 160E) is drawn on a Polar Stereographic chart. The true track when passing meridian 155E is: 095 075 255 226 23. ID: EN-I060-20102700385 A straight line between A (75º00′.0N, 166º00′.0E) and B (78º00′.0N, 154º00′.0E) is drawn on a Polar Stereographic chart. The true track angle of the rhumb line is 317 in B. What is the direction (T) of the straight line in position A? 323 332 311 303 24. ID: EN-I060-20102700232 A straight line from A (75N, 120E) to B (75N, 160E) is drawn on a Polar Stereographic chart. The true track when passing meridian 155E is: 005 105 285 185 25. ID: EN-I060-20102700004 A rhumb line on a Direct Mercator chart appears as a: Curve convex to the pole Straight line Curve convex to the equator Small circle 26. ID: EN-I060-20102700053 On a Direct Mercator chart, with increasing latitude from the equator, parallels of latitude are presented by… hyperbolic lines with increasing spacing. parallel straight lines with equal spacing. parallel straight lines with decreasing spacing. parallel straight lines with increasing spacing. 27. ID: EN-I060-20102700535 Which statement correctly describes how the scale varies on a Direct Mercator chart? The scale increases with increasing distance from the Equator The scale increases with decreasing distance from the Equator The scale is constant throughout the chart due to conformity The scale decreases with increasing distance from parallel of origin 28. ID: EN-I060-20102700560 A great circle on a Direct Mercator chart (apart from meridians and the Equator) will be represented by a… double-convex line. curve convex to the Equator. curve concave to the pole. curve concave to the Equator. 29. ID: EN-I060-20102700675 The graticule of a Direct Mercator chart is based on a projection that is… cylindrical. ellipsoidal. spherical. triangular. 30. ID: EN-I060-20102700868 Which statement is correct regarding great circles on a Direct Mercator chart? They are curves concave to the Equator, including all meridians and the Equator. With the exception of meridians and the Equator, they are curves concave to the Equator. With the exception of meridians and the Equator, they are curves convex to the Equator. They are approximately straight lines between the standard parallels. 31. ID: EN-I060-20102700911 The chart convergency on a Direct Mercator projection, compared to the Earth convergency, is correct… at the Equator. at the parallels of tangency. at both poles. 32. ID: EN-I060-20102700912 On a Direct Mercator chart, a rhumb line appears as a… small circle concave to the pole. straight line. curve concave to the pole. curve convex to the pole. 33. ID: EN-I060-20102701417 The parallel of origin for a direct Mercator projection is: any meridian and anti-meridian. the Equator. the pole. along any great cirle of a route. 34. ID: EN-I060-20102701418 The convergency factor on a direct Mercator projection is: 1 cosine of latitude 0 sine of longitude 35. ID: EN-I060-20102701422 On a Mercator projection, a great circle route from 40°S, 090°W to 40°S, 140°W will be appear as: an S-shaped line. straight line. curve concave to the south pole. a curve concave to the equator. 36. ID: EN-I060-20102700991 Rhumb lines on a Direct Mercator chart are… complex curves. curves concave to the Equator. curves concave to the pole. straight lines. 37. ID: EN-I060-20102700866 Meridians on a Direct Mercator chart are… inclined, unequally spaced lines meeting at the pole. parallel, unequally spaced, vertical straight lines. inclined, equally spaced lines meeting at the pole. parallel, equally spaced, vertical straight lines. 38. ID: EN-I060-20102700803 The distance measured between W002° and E008° at 60°N on a Mercator chart is 20 cm. The scale of the chart at 60°N is approximately: 1: 900 000 1: 2 800 000 1: 800 000 1: 4 800 000 39. ID: EN-I060-20102700556 The scale of a direct Mercator chart at 60N is 1: 3 000 000. On the same chart, the scale at the equator is: 1: 12 000 000 1: 6 000 000 1: 4 500 000 1: 9 000 000 40. ID: EN-I060-20102700558 The total length of the 53N parallel of latitude on a direct Mercator chart is 133 cm. The scale of the chart at latitude 3S is approximately: 1: 12 600 000 1: 32 000 000 1: 26 000 000 1: 22 000 000 41. ID: EN-I060-20102700541 Assuming one minute of latitude along the parallel of 55ºN is 3.1 mm on a Direct Mercator chart, then the scale of the chart at 40ºN is: 1 : 720 000 1 : 260 000 1 : 340 000 1 : 460 000 42. ID: EN-I060-20102700521 On a Direct Mercator projection, a chart distance representing 70 NM at 45N will represent what earth distance at 30N? 71 NM 86 NM 94 NM 59 NM 43. ID: EN-I060-20102700172 On a Mercator projection the distance between 17°N, 035°E and 17°N, 040°E is 5 cm. The approximate scale at 57°N is: 1 : 6 000 000 1 : 3 150 000 1 : 16 358 440 1 : 10 600 000 44. ID: EN-I060-20102700518 A Mercator chart has a scale of 1: 3.704.000 at the equator. The scale at latitude 60S is approximately: 1: 1.850.000 1: 6.400.000 1: 2.110.000 1: 185.000 45. ID: EN-I060-20102700131 Taking a length measured on a Direct Mercator projection at 30°N, the corresponding earth distance of the same chart length when taken at 60°N, is… the distance times map convercency. a greater distance. the same distance. a smaller distance. 46. ID: EN-I060-20102700711 A certain length measured on a Direct Mercator chart along the 45°N parallel of latitude represents a distance of 90 NM on the surface of the Earth. The same length on this chart along the 30°N parallel of latitude will represent a distance on the Earth of: 124 NM 81 NM 110 NM 70.5 NM 47. ID: EN-I060-20102700713 A certain length measured on a Direct Mercator chart at latitude 15°S represents a distance of 120 NM on the surface of the Earth. The same length on this chart at 10°N will represent a distance on the Earth of… 117.6 NM. 127.4 NM. 122.3 NM. 108.9 NM. 48. ID: EN-I060-20102700006 Great circles that are not meridians on a Lambert Conformal Conic chart are… straight lines when between the standard parallels. curves concave to the nearest pole. straight lines at any latitude. curves concave to the parallel of origin. 49. ID: EN-I060-20102700007 For usual flight planning purposes, a straight line on a Lambert Conformal Projection chart… must be a meridian or the equator. is approximately a Great Circle. is a great circle when in polar regions. is a representation of a Rhumb line. 50. ID: EN-I060-20102700536 The convergence of the meridians on a Lambert conformal conic chart… is the same as earth convergency at the equator. equals earth convergency at the standard parallels. is the same as earth convergency throughout the chart. is the same as earth convergency at the parallel of origin. 51. ID: EN-I060-20102701377 A straight line will approximate to a great circle track on a Lambert conformal conic chart in case the… the parallel of origin is the equator. the difference of longitude is larger than the constant of cone. line is drawn in exact east-west-direction. straight line is close to the parallel of origin. 52. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01849",
       "question": "(See attachment AC-ICQB-061-124) Which of the sketches in the annex most accurately displays a greate circle track from A to B on a Lambert conformal chart with the parallel of origin as marked? Sketch 4 Sketch 3 Sketch 1 Sketch 2 53. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01850",
       "question": "(See attachment AC-ICQB-061-121) What is the relationship between Earth Convergency (ec) and Map Convergency (mc) at position A? not enough information to determine. ec = mc ec > mc ec < mc 54. ID: EN-I060-20102700387 A straight line between A (55º 00’S, 165º 00’E) and B (58º 00’S, 154º 00’E) is drawn on a Lambert conformal conic chart with the standard parallels at 54S and 59S. The true track angle along the straight line at A is 239(T). What is the direction of the straight line in position B? 248(T) 245(T) 230(T) 225(T) 55. ID: EN-I060-20102700388 A straight line between A (55º00′.0N, 165º00′.0E) and B (58º00′.0N, 154º00′.0E) is drawn on a Lambert conformal conic chart with the standard parallels at 54N and 59N. The true track angle along the straight line is 301 in A. What is the direction of the straight line in position B? 301 310 297 292 56. ID: EN-I060-20102700559 On a Lambert conformal conic projection with two standard parallels… the scale is only correct south of the standard parallels. the scale is only correct at the parallel of origin. the scale is only correct between the standard parallels. the scale is only correct along the standard parallels. 57. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01851",
       "question": "On a Lambert chart with standard parallels 45N and 55N, and with the chart edges at 35N and 63N, the exact scale of the chart will reach its minimum at what latitude? At 35N and 63N At 50N At 49N At 45N and 55N 58. ID: EN-I060-20102700674 On a Lambert conformal conic chart, the scale… is constant in any direction over short distances. is constant across the whole map. is constant along a parallel of longitude. is constant along a parallel of latitude. 59. ID: EN-I060-20102700278 Which statement about the area on a Lambert projection between the two standard parallels is correct? Rhumb lines and great circles between two positions in this area both are straight lines In this area the scale differs less than 1% from the stated scale of the chart The scale is larger than outside the standard parallels Initial and final true track between any two positions in this area are the same 60. ID: EN-I060-20102700245 Which of the following statements is correct regarding the parallel of origin of a conformal chart? The parallel of origin ist the only parallel where the scale is correct. The parallel of origin is the parallel at which the scale reaches its maximum value The parallel of origin ist the only parallel where the chart is conformal. The parallel of origin is the parallel at which the scale reaches its minimum value 61. ID: EN-I060-20102700477 The scale referenced on a Lambert conformal conic chart is the… scale at the standard parallels. scale at the mean latitude of the standard parallels. scale at the Greenwich meridian. scale at the parallel of origin. 62. ID: EN-I060-20102700242 A Lambert chart with standard parallels 26N and 48N and a scale of 1:2.500.000. Which of the following statements is correct? The scale at 28N is smaller than the scale at 24N The scale at 29N is smaller than the scale at 38N The scale at 32N is larger than the scale at 52N The scale at 46N is larger than the scale at 50N 63. ID: EN-I060-20102700104 On a Lambert conformal conic chart, the distance between parallels of latitude the same number of degrees apart: is smaller between the standard parallels than outside. is constant between the standard parallels. is larger between the standard parallels than outside. is constant at all latitudes throughout the chart. 64. ID: EN-I060-20102700243 Which of the following statements about the scale of a Lambert projection is correct? The scale reaches its maximum value at the parallel of origin The scale reaches its minimum value at the standard parallels The scale reaches its maximum value at the standard parallels The scale reaches its minimum value at the parallel of origin 65. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-02009",
       "question": "Calculate the rhumb line track between positions A and B on a Lambert chart with constant of cone (cc) of 0.5: Position A: 25N, 020E Position B: 33N, 040E Initial great circle track at A: 061(T) 071(T) 056(T) 051(T) 066(T) 66. ID: EN-I060-20102700186 Positions A (37°00’N, 015°00’E) and B (37°00’N, 025°00’E) are connected by a straight line on a Lambert conformal chart with a constant of the cone of 0.5. A true track of 087 is measured at A. What is the true track measured at B? 081 093 082 092 67. ID: EN-I060-20102700233 A straight line from A (53N, 155W) to B (53N, 170E) is drawn on a Lambert Conformal conical chart with standard parallels 50N and 56N. The true track when passing meridian 175E is: 080 255 260 103 68. ID: EN-I060-20102700234 A straight line from A (53S, 155E) to B (53S, 170W) is drawn on a Lambert Conformal conical chart with standard parallels 50S and 56S. The true track when passing meridian 175W is: 080 104 260 282 69. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01852",
       "question": "Calculate the final true track of the great circle track drawn as a straight line on a Lambert chart of the northern hemisphere between positions A and B. Position A: 25N, 020E Convergency between A and B: 30° Initial true track at A: 145(T) 175(T) 132(T) 115(T) 158(T) 70. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01853",
       "question": "Given two positions on a Lambert chart, which local meridians form an angle of 31° on the chart and having a difference in longitude of 40°, what is the parallel of origin of this chart? 51N or S 25N or S 40N or S 30N or S 71. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01854",
       "question": "On a Lambert chart with Standard parallels 52N and 59N, calculate the constant of cone (cc): cc = 0.82 cc = 0.57 cc = 0.79 cc = 0.86 72. ID: EN-I060-20102700693 A Lambert conformal conic chart has a constant of the cone of 0.75. A straight line is drawn from position A (40°N, 050°W) to position B. The initial track at A is 043°(T) and the final track at B is 055°(T). The longitude of positon B is… 040°W 032°W 036°W 034°W 73. ID: EN-I060-20102700358 A straight line between A (55º 00.0’N, 165º 00.0’E) and B (58º 00.0’N, longitude unknown, E hemisphere) is drawn on a Lambert conformal chart with the standard parallels at 54N and 59N. The true track along the straight line at A is 301 and at B is 292. What is the longitude of position B? 154º 12.4'E 175º 47.6'E 169º 00.0'E 146º 25.0'E 74. ID: EN-I060-20102700357 A straight line between A (55º 00.0’N, 165º 00.0’E) and B (58º 00.0’N, longitude unknown, E hemisphere) is drawn on a Lambert conformal chart with the standard parallels at 54N and 59N. The true track along the straight line at A is 301 and at B is 292. What is the longitude of position B relative to position A? 007º 30.0'E 010º 47.6'E 010º 47.6'W 007º 30.0'W Practical Use 1. ID: EN-I060-20102700763 (See attachment AC-ICQB-061-102) The chart symbol representing an exceptionally high lighted obstacle is number… 13 10 14 12 2. ID: EN-I060-20102700764 (See attachmentAC-ICQB-061-102) What feature is represented by aeronautical chart symbol No. 15? Hazard to aerial navigation Aeronautical ground light The Pole Star Compulsory reporting point 3. ID: EN-I060-20102700761 (See attachment AC-ICQB-061-102) The chart symbol representing a group of lighted obstacles is number… 11 12 14 16 4. ID: EN-I060-20102700765 (See attachment AC-ICQB-061-102) What feature is represented by aeronautical chart symbol No. 16? Shipwreck shooting signal rockets An island with a harbour Lightship Off-shore lighthouse 5. ID: EN-I060-20102700766 (See attachment AC-ICQB-061-102) The chart symbol representing an aeronautical ground light is number… 15 16 12 8 6. ID: EN-I060-20102700791 (See attachment AC-ICQB-061-101) Select the aeronautical chart symbol that represents a VOR: 3 6 1 4 7. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01855",
       "question": "On a topographical chart, steep terrain is indicated by… contour lines being close together. deformed co-ordinate grid lines. spot elevation with different values. contour lines at large distances. 8. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01856",
       "question": "According ICAO Annex 4, which map feature is usually portrayed by combinations of contours, hypsometric tints, spot elevations or hill shading? Extended water features Highest obstacles on the chart Relief of terrain Wooded areas and vegetation 9. ID: EN-I060-20102700760 (See attachment AC-ICQB-061-102) The chart symbol representing a group of unlighted obstacles is number… 8 12 14 11 10. ID: EN-I060-20102700767 (See attachment AC-ICQB-061-102) The chart symbol representing a lightship is number… 8 15 16 12 11. ID: EN-I060-20102700759 (See attachment AC-ICQB-061-102) The chart symbol representing a lighted obstacle is number… 13 15 9 10 12. ID: EN-I060-20102700758 (See attachment AC-ICQB-061-102) The chart symbol representing an unlighted obstacle is number… 8 10 9 13 13. ID: EN-I060-20102700762 (See attachment AC-ICQB-061-102) The chart symbol representing an exceptionally high unlighted obstacle is number… 14 10 13 15 14. ID: EN-I060-20102700763 (See attachment AC-ICQB-061-102) The chart symbol representing an exceptionally high lighted obstacle is number… 13 10 14 12 15. ID: EN-I060-20102700764 (See attachmentAC-ICQB-061-102) What feature is represented by aeronautical chart symbol No. 15? Hazard to aerial navigation Aeronautical ground light The Pole Star Compulsory reporting point 16. ID: EN-I060-20102700761 (See attachment AC-ICQB-061-102) The chart symbol representing a group of lighted obstacles is number… 11 12 14 16 17. ID: EN-I060-20102700765 (See attachment AC-ICQB-061-102) What feature is represented by aeronautical chart symbol No. 16? Shipwreck shooting signal rockets An island with a harbour Lightship Off-shore lighthouse 18. ID: EN-I060-20102700766 (See attachment AC-ICQB-061-102) The chart symbol representing an aeronautical ground light is number… 15 16 12 8 19. ID: EN-I060-20102700791 (See attachment AC-ICQB-061-101) Select the aeronautical chart symbol that represents a VOR: 3 6 1 4 20. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01855",
       "question": "On a topographical chart, steep terrain is indicated by… contour lines being close together. deformed co-ordinate grid lines. spot elevation with different values. contour lines at large distances. 21. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01856",
       "question": "According ICAO Annex 4, which map feature is usually portrayed by combinations of contours, hypsometric tints, spot elevations or hill shading? Extended water features Highest obstacles on the chart Relief of terrain Wooded areas and vegetation 22. ID: EN-I060-20102700760 (See attachment AC-ICQB-061-102) The chart symbol representing a group of unlighted obstacles is number… 8 12 14 11 23. ID: EN-I060-20102700767 (See attachment AC-ICQB-061-102) The chart symbol representing a lightship is number… 8 15 16 12 24. ID: EN-I060-20102700759 (See attachment AC-ICQB-061-102) The chart symbol representing a lighted obstacle is number… 13 15 9 10 25. ID: EN-I060-20102700758 (See attachment AC-ICQB-061-102) The chart symbol representing an unlighted obstacle is number… 8 10 9 13 26. ID: EN-I060-20102700762 (See attachment AC-ICQB-061-102) The chart symbol representing an exceptionally high unlighted obstacle is number… 14 10 13 15 27. ID: EN-I060-20102700756 (See attachment AC-ICQB-061-102) The chart symbol representing a non-compulsory reporting point is number… 6 7 9 11 28. ID: EN-I060-20102700747 (See attachment AC-ICQB-061-101) Select the aeronautical chart symbol that represents a VOR/DME: 1 4 5 7 29. ID: EN-I060-20102700748 (See attachment AC-ICQB-061-101) Select the aeronautical chart symbol that represents a DME: 2 3 7 1 30. ID: EN-I060-20102700757 (See attachment AC-ICQB-061-102) The chart symbol representing a compulsory reporting point is number… 7 8 13 10 31. ID: EN-I060-20102700750 (See attachment AC-ICQB-061-101) Select the aeronautical chart symbol that represents a basic, non-specified, navigation aid: 7 4 3 5 32. ID: EN-I060-20102700751 (See attachment AC-ICQB-061-101) Select the aeronautical chart symbol that represents a TACAN: 1 6 4 3 33. ID: EN-I060-20102700749 (See attachment AC-ICQB-061-101) Select the aeronautical chart symbol that represents a NDB: 4 1 2 5 34. ID: EN-I060-20102700753 (See attachment AC-ICQB-061-102) The chart symbol representing a Control Zone boundary is number… 5 1 3 2 35. ID: EN-I060-20102700754 (See attachment AC-ICQB-061-102) The chart symbol representing an uncontrolled route is number… 3 5 4 1 36. ID: EN-I060-20102700755 (See attachment AC-ICQB-061-102) The chart symbol representing a boundary of advisory airspace is number… 5 2 3 1 37. ID: EN-I060-20102700752 (See attachment AC-ICQB-061-101) Select the aeronautical chart symbol that represents a VORTAC: 6 2 4 7 38. ID: EN-I060-20102700580 (See attachment AC-ICQB-061-001) Determine the average track (T) and distance from CRN NDB (N53 18.1 W008 56.5) to EKN NDB (N54 23.6 W007 38.7): Track: 035 (T), distance: 80 NM Track: 067 (T), distance: 81 NM Track: 048 (T), distance: 84 NM Track: 021 (T), distance: 80 NM 39. ID: EN-I060-20102700579 (See attachment AC-ICQB-061-001) Determine the average track (T) and distance from BAL VOR (N53 18.0 W006 26.9) to CFN NDB (N55 02.6 W008 20.4): Track: 326 (T), distance: 145 NM Track: 312 (T). distance: 136 NM Track: 339 (T), distance: 129 NM Track: 327 (T), distance: 124 NM 40. ID: EN-I060-20102700578 (See attachment AC-ICQB-061-001) Determine the average track (T) and distance from BAL VOR (N53 18.0 W006 26.9) to CRN NDB (N53 18.1 W008 56.5): Track: 284 (T), distance: 90 NM Track: 273 (T), distance: 83 NM Track: 270 (T), distance: 90 NM Track: 257 (T), distance: 98 NM 41. ID: EN-I060-20102700577 (See attachment AC-ICQB-061-001) Determine the average track (T) and distance from SHA VOR (N52 43.3 W008 53.1) to CON VOR (N53 54.8 W008 49.1): Track: 014 (T),distance: 71 NM Track: 352 (T), distance: 89 NM Track: 002 (T), distance: 72 NM Track: 004 (T), distance: 88 NM 42. ID: EN-I060-20102700576 (See attachment AC-ICQB-061-001) Determine the average track (T) and distance from WTD NDB (N52 11.3 W007 05.0) to SLG NDB (N54 16.7 W008 36.0): Track: 352 (T), distance: 139 NM Track: 336 (T), distance: 137 NM Track: 136 (T), distance: 138 NM Track: 184 (T), distance: 120 NM 43. ID: EN-I060-20102700575 (See attachment AC-ICQB-061-001) Determine the average track (T) and distance from WTD NDB (N52 11.3 W007 05.0) to FOY NDB (N52 34.0 W009 11.7): Track: 271 (T), distance: 79 NM Track: 286 (T), distance: 81 NM Track: 304 (T), distance: 81 NM Track: 159 (T), distance: 82 NM 44. ID: EN-I060-20102700574 (See attachment AC-ICQB-061-001) Determine the average track (T) and distance from SLG NDB (N54 16.7 W008 36.0) to CFN NDB (N55 02.6 W008 20.4): Track: 192 (T), distance: 46 NM Track: 011 (T), distance: 47 NM Track: 348 (T), distance: 47 NM Track: 026 (T), distance: 45 NM 45. ID: EN-I060-20102700573 (See attachment AC-ICQB-061-001) Determine the average track (M) and distance from CRN NDB (N53 18.1 W008 56.5) to BEL VOR (N54 39.7 W006 13.8): Track: 237 (M), distance: 129 NM Track: 058 (M), distance: 128 NM Track: 063 (M), distance: 107 NM Track: 205 (M), distance: 134 NM 46. ID: EN-I060-20102700571 (See attachment AC-ICQB-061-001) Determine the average track (M) and distance from BAL VOR (N53 18.0 W006 26.9) to SLG NDB (N54 16.7 W008 36.0): Track: 304 (M), distance: 98 NM Track: 139 (M), distance: 97 NM Track: 282 (M), distance: 96 NM Track: 316 (M), distance: 96 NM 47. ID: EN-I060-20102700570 (See attachment AC-ICQB-061-001) Determine the average track (M) and distance from WTD NDB (N52 11.3 W007 05.0) to BAL VOR (N53 18.0 W006 26.9): Track: 198 (M), distance: 72 NM Track: 026 (M), distance: 71 NM Track: 013 (M), distance: 70 NM Track: 137 (M), distance: 73 NM 48. ID: EN-I060-20102700500 (See attachment AC-ICQB-061-001) The average track (°T) and distance from CON VOR (N53 54.8 W008 49.1) to BEL VOR (N54 39.7 W006 13.8) is: Track: 067° (T), distance: 97 NM Track: 183° (T), distance: 100 NM Track: 063° (T), distance: 101 NM Track: 291° (T), distance: 99 NM 49. ID: EN-I060-20102700499 (See attachment AC-ICQB-061-001) The average track (°M) and distance from KER NDB (N52 10.9 W009 31.5) to CRN NDB (N53 18.1 W008 56.5) is: Track: 188° (M), distance: 72 NM Track: 205° (M), distance: 69 NM Track: 025° (M), distance: 70 NM Track: 019° (M), distance: 70 NM 50. ID: EN-I060-20102700498 (See attachment AC-ICQB-061-001) The average track and distance from CRN NDB (N53 18.1 W008 56.5) to WTD NDB (N52 11.3 W007 05.0) is: Track 143(M), distance 93 NM Track 135(M), distance 93 NM Track 135(M), distance 167 NM Track 143(M), distance 167 NM 51. ID: EN-I060-20102700497 (See attachment AC-ICQB-061-001) The average track and distance from WTD NDB (N52″11.3′ W007″05.0′) to KER NDB (N52°10.9′ W009°31.5′) is: Track 278(M), distance 90 NM Track 269(M), distance 90 NM Track 278(T), distance 150 NM Track 269(T), distance 167 NM 52. ID: EN-I060-20102700572 (See attachment AC-ICQB-061-001) Determine the average track (°M) and distance from CRK VOR (N51 50.4 W008 29.7) to CRN NDB (N53 18.1 W008 56.5): Track: 012 (M), distance: 88 NM Track: 344 (M), distance: 91 NM Track: 357 (M), distance: 89 NM Track: 186 (M), distance: 90 NM 53. ID: EN-I060-20102700596 (See attachment AC-ICQB-061-001) Given the following information, which radials cross at the aircraft’s position? CRN DME (N53 18.1 W008 56.5) distance: 34 NM, SHA VOR/DME (N52 43.3 W008 53.1) distance: 26 NM, Aircraft heading: 090 (M), Both DME distances increase. N52 55 W008 40 N52 55 W008 15 N53 00 W008 00 N53 15 W009 35 54. ID: EN-I060-20102700591 (See attachment AC-ICQB-061-001) Given the following information, which radials cross at the aircraft’s position? SHA VOR: N52 43.3 W008 53.1 CRK VOR: N51 50.4 W008 29.7 Aircraft position: N52 20 W009 10 SHA 214, CRK 330 SHA 125, CRK 172 SHA 207, CRK 312 SHA 023, CRK 329 55. ID: EN-I060-20102700592 (See attachment AC-ICQB-061-001) Given the following information, which radials cross at the aircraft’s position? SHA VOR: N52 43.3 W008 53.1 CRK VOR: N51 50.4 W008 29.7 Aircraft position: N52 30 W008 20 SHA 131, CRK 017 SHA 305, CRK 121 SHA 304, CRK 359 SHA 128, CRK 038 56. ID: EN-I060-20102700593 (See attachment AC-ICQB-061-001) Given the following information, which radials cross at the aircraft’s position? SHA VOR: N52 43.3 W008 53.1 CRK VOR: N51 50.4 W008 29.7 Aircraft position: N52 30 W009 30 SHA 248, CRK 325 SHA 067, CRK 140 SHA 062, CRK 326 SHA 245, CRK 347 57. ID: EN-I060-20102700594 (See attachment AC-ICQB-061-001) Given the following information, which radials cross at the aircraft’s position? SHA VOR: N52 43.3 W008 53.1 CON VOR: N53 54.8 W008 49.1 Aircraft position: N53 30 W008 00 SHA 048, CON 162 SHA 218, CON 303 SHA 042, CON 138 SHA 226, CON 110 58. ID: EN-I060-20102700595 (See attachment AC-ICQB-061-001) Given the following information, which radials cross at the aircraft’s position? SHA VOR: N52 43.3 W008 53.1 CON VOR: N53 54.8 W008 49.1 Aircraft position: N53 20 W009 50 SHA 311, CON 228 SHA 139, CON 082 SHA 325, CON 235 SHA 150, CON 034 59. ID: EN-I060-20102700597 (See attachment AC-ICQB-061-001) Considering the following information, determine the radial and DME distance from CRK VOR/DME when CRK VOR/DME position:(N51 50.4 W008 29.7), Kerry aerodrome position: (N52 10.9 W009 31.4) Radial: 297, DME distance: 48 NM Radial: 197, DME distance: 45 NM Radial: 126, DME distance: 43 NM Radial: 307, DME distance: 43 NM 60. ID: EN-I060-20102700598 (See attachment AC-ICQB-061-001) Considering the following information, determine the radial and DME distance from CON VOR/DME when CON VOR/DME position: N53 54.8 W008 49.1, Castlebar aerodrome position: N53 51 W009 17 Radial: 265, DME distance: 17 NM Radial: 080, DME distance: 18 NM Radial: 251, DME distance: 18 NM Radial: 063, DME distance: 19 NM 61. ID: EN-I060-20102700590 (See attachment AC-ICQB-061-001) An aircraft is on radial 048 at a distance of 22 NM from SHA VOR/DME (N52 43.3 W008 53.1). Determine the aircraft’s position: N53 00 W008 30 N52 48 W008 20 N52 15 W009 02 N52 40 W008 20 62. ID: EN-I060-20102700673 An aircraft is flying on a track of 255°(M). At 2254 UTC it crosses radial 360 of a VOR. At 2300 UTC it crosses radial 330 of the same station. The distance between the aircraft and the station at 2300 UTC is… less than it was at 2254 UTC. impossible to determine. greater than it was at 2254 UTC. the same as it was at 2254 UTC 63. ID: EN-I060-20102701054 (See attachment AC-ICQB-061-001) Determine the radial and DME distance from CRK VOR/DME (N51 50.4 W008 29.7) to position N51 40 W007 30: Radial: 113°, DME distance: 38 NM Radial: 115°, DME distance: 68 NM Radial: 293°, DME distance: 37 NM Radial: 101°, DME distance: 38 NM 64. ID: EN-I060-20102701113 With the information below, determine the magnetic bearing of the NDB from the aircraft: NDB position: 55°26’N, 005°42’W Aircraft position: 56°00’N, 010°00’W Variation at the NDB: 9°W Variation at the aircraft: 11°W Great circle track, aircraft to NDB: 101.5°(T) 115.5° 110.0° 108.5° 112.5° 65. ID: EN-I060-20102701115 Considering the following information, determine the radial the aircraft is on: VOR position: 55°26’N, 005°42’W Aircraft position: 56°00’N, 010°00’W Variation at the VOR: 9°W Variation at the aircraft: 11°W Great circle track, aircraft to VOR: 101.5°(T) 290 294 272 276 66. ID: EN-I060-20102701116 An aircraft is flying from SALCO to BERRY HEAD on Magnetic Track 007º. At 1000 UTC the relative bearing of locator PY is 311º. At 1003 UTC the relative bearing of locator PY is 266º. Determine the true bearing of locator PY at 1003 UTC from the aircraft, given: TAS: 445 kt W/V: 050º(T)/40 kt Variation: 5ºW Deviation: +2º 263º(T) 268º(T) 279º(T) 272º(T) 67. ID: EN-I060-20102701117 An aircraft is flying from SALCO to BERRY HEAD on Magnetic Track 007º. At 1000 UTC the relative bearing of locator PY is 311º. At 1003 UTC the relative bearing of locator PY is 266º. Determine the distance of the aircraft from locator PY at 1003 UTC, given: TAS: 445 kt W/V: 050º(T)/40 kt Variation: 5ºW Deviation: +2º 21 NM 24 NM 19 NM 25 NM 68. ID: EN-I060-20102700588 (See attachment AC-ICQB-061-001) An aircraft is on radial 232 at a distance of 32 NM from SHA VOR/DME (N52 43.3 W008 53.1). Determine the aircraft’s position: N52 28 W009 46 N52 25 W008 30 N53 00 W008 35 N52 20 W009 30 69. ID: EN-I060-20102700599 (See attachment AC-ICQB-061-001) Considering the following information, determine the radial and DME distance from CON VOR/DME when CON VOR/DME position: N53 54.8 W008 49.1, Abbey Shrule aerodrome position: N53 35 W007 39 Radial: 123, DME distance: 46 NM Radial: 111, DME distance: 47 NM Radial: 223, DME distance: 48 NM Radial: 312, DME distance: 46 NM 70. ID: EN-I060-20102700587 (See attachment AC-ICQB-061-001) Determine the aircraft’s position with the following information given: SHA VOR (N52°43.3′ W008°53.1′) Radial 050, DME distance 133 NM N55°40' W007°40' N55°40' W006°20' N54°20' W007°40' N54°20' W006°20' 71. ID: EN-I060-20102700586 (See attachment AC-ICQB-061-001) Determine the aircraft’s position with the following information given: SHA VOR (N52°43.3′ W008°53.1′) Radial 024, DME distance 90 NM N55°50' W008°10' N54°10' W008°10' N55°50' W009°50' N54°10' W009°50' 72. ID: EN-I060-20102700589 (See attachment AC-ICQB-061-001) An aircraft is on radial 025 at a distance of 49 NM from SHA VOR/DME (N52 43.3 W008 53.1). Determine the aircraft’s position: N52 05 W09 15 N53 30 W008 30 N53 25 W008 45 N51 50 W009 00 73. ID: EN-I060-20102700584 (See attachment AC-ICQB-061-001) Based on the following information, determine the aircraft’s position: SHA VOR (N52 43.3 W008 53.1) radial 129 CRK VOR (N51 50.4 W008 29.7) radial 047 N52 05 W007 50 N52 15 W007 45 N52 10 W007 55 N52 20 W007 50 74. ID: EN-I060-20102700502 (See attachment AC-ICQB-061-001) With the information given below, determine the aircraft’s position: Distance from CON VOR/DME (N53°54.8′ W008°49.1′): 20 NM Distance from CRN DME (N53°18.1′ W008°56.5′): 30 NM Magnetic Heading: 090(M) DME distances are both decreasing N54°15' W010°40' N54°20' W009°35' N53°45' W009°20' N53°40' W008°25' 75. ID: EN-I060-20102700503 (See attachment AC-ICQB-061-001) Determine radial and distance from SHA VOR/DME (N52°43.3′ W008°53.1′) to position N53°40.0′ W008°00.0′: Radial 037, DME 64 NM Radial 037, DME 112 NM Radial 030, DME 64 NM Radial 030, DME 112 NM 76. ID: EN-I060-20102700504 (See attachment AC-ICQB-061-001) Determine radial and distance from SHA VOR/DME (N52°43.3′ W008°53.1′) to position N53°40.0′ W008°00.0′: Radial 112, DME 88 NM Radial 105, DME 52 NM Radial 112, DME 52 NM Radial 105, DME 88 NM 77. ID: EN-I060-20102700505 (See attachment AC-ICQB-061-001) Determine the radial and DME distance from SHA VOR/DME (N52 43.3 W008 53.1) to position N52 20 W008 10: Radial: 139°, DME distance: 35 NM Radial: 125°, DME distance: 41 NM Radial: 195°, DME distance: 29 NM Radial: 151°, DME distance: 38 NM 78. ID: EN-I060-20102700506 (See attachment AC-ICQB-061-001) Determine the radial and DME distance from SHA VOR/DME (N52 43.3 W008 53.1) to position N52 10 W009 20: Radial: 214, DME distance: 37 NM Radial: 326, DME distance: 32 NM Radial: 007, DME distance: 38 NM Radial: 196, DME distance: 37 NM 79. ID: EN-I060-20102700507 (See attachment AC-ICQB-061-001) Determine the radial and DME distance from CON VOR/DME (N53 54.8 W008 49.1) to position N54 30 W009 00: Radial: 333, DME distance: 36 NM Radial: 358, DME distance: 36 NM Radial: 042, DME distance: 42 NM Radial: 289, DME distance: 35 NM 80. ID: EN-I060-20102700508 (See attachment AC-ICQB-061-001) Determine the radial and DME distance from CON VOR/DME (N53 54.8 W008 49.1) to position N54 00 W008 00: Radial: 268, DME distance: 30 NM Radial: 094, DME distance: 54 NM Radial: 310, DME distance: 17 NM Radial: 088, DME distance: 29 NM 81. ID: EN-I060-20102700501 (See attachment AC-ICQB-061-001) With the information given below, determine the aircraft’s position: Distance from CON VOR/DME (N53°54.8′ W008°49.1′): 20 NM Distance from CRN DME (N53°18.1′ W008°56.5′): 30 NM Magnetic Heading: 090(M) DME distances are both increasing N54°15' W010°40' N54°20' W009°35' N53°40' W008°25' N53°45' W009°20' 82. ID: EN-I060-20102700509 (See attachment AC-ICQB-061-001) Determine the radial and DME distance from CON VOR/DME (N53 54.8 W008 49.1) to position N53 40 W008 20: Radial: 140, DME distance: 23 NM Radial: 139, DME distance: 41 NM Radial: 201, DME distance: 22 NM Radial: 190, DME distance: 30 NM 83. ID: EN-I060-20102700511 (See attachment AC-ICQB-061-001) Determine the radial and DME distance from BEL VOR/DME (N54 39.7 W006 13.8) to position N54 10 W007 10: Radial: 327, DME distance: 41 NM Radial: 223, DME distance: 37 NM Radial: 270, DME distance: 44 NM Radial: 236, DME distance: 44 NM 84. ID: EN-I060-20102700512 (See attachment AC-ICQB-061-001) Determine the radial and DME distance from BEL VOR/DME (N54 39.7 W006 13.8) to position N54 40 W007 30: Radial: 278, DME distance: 44 NM Radial: 278, DME distance: 23 NM Radial: 096, DME distance: 44 NM Radial: 254, DME distance: 45 NM 85. ID: EN-I060-20102700569 (See attachment AC-ICQB-061-001) Determine the radial and DME distance from BEL VOR/DME (N54 39.7 W006 13.8) to position N55 00 W007 00: Radial: 036, DME distance: 33 NM Radial: 275, DME distance: 40 NM Radial: 315, DME distance: 34 NM Radial: 298, DME distance: 45 NM 86. ID: EN-I060-20102700581 (See attachment AC-ICQB-061-001) Determine the aircraft’s position with the following Radials given: SHA VOR (N52°43.3′ W008°53.1′) Radial 092 CRK VOR (N51°50.4′ W008°29.7′) Radial 043 N52°50' W008°40' N52°50' W007°20' N53°10' W007°20' N53°10' W008°40' 87. ID: EN-I060-20102700582 (See attachment AC-ICQB-061-001) Determine the aircraft’s position with the following Radials given: SHA VOR (N52°43.3′ W008°53.1′) Radial 127 CRK VOR (N51°50.4′ W008°29.7′) Radial 047 N53°40' W007°50' N53°40' W008°10' N52°20' W008°10' N52°20' W007°50' 88. ID: EN-I060-20102700583 (See attachment AC-ICQB-061-001) Based on the following information, determine the aircraft’s position: SHA VOR (N52 43.3 W008 53.1) radial 120 CRK VOR (N51 50.4 W008 29.7) radial 033 N52 50 W008 05 N52 25 W008 10 N52 30 W008 15 N52 30 W008 00 89. ID: EN-I060-20102700585 (See attachment AC-ICQB-061-001) Based on the following information, determine the aircraft’s position: SHA VOR (N52 43.3 W008 53.1) radial 143 CRK VOR (N51 50.4 W008 29.7) radial 050 N51 55 W008 05 N52 10 W008 00 N52 05 W008 10 N52 00 W008 10 90. ID: EN-I060-20102700510 (See attachment AC-ICQB-061-001) Determine the radial and DME distance from CON VOR/DME (N53 54.8 W008 49.1) to position N53 30 W009 30: Radial: 245, DME distance: 42 NM Radial: 233, DME distance: 35 NM Radial: 185, DME distance: 29 NM Radial: 053, DME distance: 36 NM 91. ID: EN-I060-20102701119 An aircraft’s position is 55°30’N, 012°00’E. An NDB is located at position 55°30’N, 020°00’E. Determine the true bearing of the aircraft’s position line from the NDB, when plotted on a Lambert conformal chart (standard parallels at 40°N and 50°N)? 269º 075º 093º 273º 92. ID: EN-I060-20102701114 Given: Position NDB (55°10’N, 012°55’E) DR Position (54°53’N, 009°58’E) NDB on the RMI reads 090° Magnetic variation: 10°W The position line has to be plotted on a Lambert conformal chart (standard parallels at 40°N and 48°N). Determine the direction (T) of the bearing to be plotted from the NDB. 272° 266° 262° 278° 93. ID: EN-I060-20102701118 Considering the following information, determine the true bearing of the aircraft’s position line from the NDB plotted on a Polar Stereographic chart: Aircraft position: 70°N, 035°E NDB position: 70°N, 050°E Variation at the aircraft: 32°E Variation at the NDB: 60°E Deviation: +2° 053º 083º 278º 098º 94. ID: EN-I060-20102700532 Magnetic heading 311 Drift angle 10L Relative bearing 270 Determine the QDR: 211 198 207 221 Local Mean Time 1. ID: EN-I060-20102701178 The mean Sun moves ____ in 8 hours and 8 minutes along the celestial equator. 64° 144° 16° 122° 2. ID: EN-I060-20102701193 When time is 0000 LMT, the [1] ____ is in transit with the [2] ____ . [1] mean Sun, [2] observer's anti-meridian [1] apparent Sun, [2] observer's meridian [1] apparent Sun, [2] observer's anti-meridian [1] mean Sun, [2] observer's meridian 3. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01857",
       "question": "The concept of “mean solar day” is based on… a fictious sun, moving with constant angular velocity along the ecliptic line. the apparent sun, moving with constant angular velocity along the ecliptic line. the apparent sun, moving with varying angular velocity along the celestial equator. a fictious sun, moving with constant angular velocity along the celestial equator. 4. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01858",
       "question": "Local Mean Time (LMT) is based on the (1) ___ providing a duration of (2) ___ per day. (1) mean sun, (2) 24:00 hours (1) apparent sun, (2) 23:56 hours (1) mean sun, (2) 23:56 hours (1) apparent sun, (2) 24:00 hours 5. ID: EN-I060-20102701192 With given time 2000 UTC, which of the following statements is correct? It is 0800 LMT at 000E/W It is 2400 LMT at 120W It is 1400 LMT at 90W It is 1200 LMT at 60E 6. ID: EN-I060-20102701191 Which of the following statements is correct when the time is 1400 LMT at 090W? It is 0500 LMT at 000E/W It is 1200 LMT at 120W It is 1400 LMT at 090E It is 0900 LMT at 060W 7. ID: EN-I060-20102701176 Which difference in longitude corresponds to 5 hours, 20 minutes and 20 seconds, due to earth’s rotation? 80°05' 81°10' 73°45' 76°30' 8. ID: EN-I060-20102701174 When flying along a parallel towards the east, sunrise will occur one hour earlier with every 15° change of longitude when expressed in… Standard Time. Local Apparent Time. LMT. UTC. 9. ID: EN-I060-20102701122 What is the LMT at longitude 085°20’E, at 0000 UTC? 0541 on the same day. 1739 on the previous day. 1739 on the same day. 0541 on the previous day. 10. ID: EN-I060-20102701126 The LMT at position 65°15’N, 161°15’W at 1900 UTC is: 0645 0815 0315 1239 11. ID: EN-I060-20102701614 When having 0100 LMT on the 20st of the month at position A (22°00’N, 122°30’E), what is the UTC time and date? 0810 UTC, 19th of the month. 1650 UTC, 19th of the month. 0910 UTC, 21th of the month. 0100 UTC, 20th of the month. 12. ID: EN-I060-20102701613 When UTC is 1500, what is the Local Mean Time (LMT) at point A (36°00’N, 087°30’W)? 2050 LMT 1500 LMT 0900 LMT 0910 LMT 13. ID: EN-I060-20102701057 Sunrise at airport A (53°29’N, 006°15’W) is 0623 LMT. When does the sun rise at airport B (53°29’N, 008°45’E) in LMT? 0653 0723 0623 0753 14. ID: EN-I060-20102701056 The difference in LMT between airport A (53°29′ N, 006°15′ W) and airport B (53°09’N, 008°45’E) is… 1 hour. 2 hours. There is no difference. 1.5 hours. Standard Time 1. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01862",
       "question": "An aircraft departs at Airport A (50N 175E) at 2200 ST on the 10th of month. After a flight time of 05:30 it arrives at airport B (35N, 115W). The Air Almanac lists time differences for airport A as UTC+11 and for airport B UTC-8. The Standard Time (ST) and date of arrival at B is: 0830 ST, 10th 0830 ST, 11th 0630 ST, 09th 2330 ST, 10th 2. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01863",
       "question": "In case Daylight Saving Time (DST) is applied on discretion of a country with “+1 hour” for a specified time of the year, this results in: shifting time of sunset one hour ahead, sunrise to one hour earlier. time of daylight beeing shifted to one hour earlier. time of daylight beeing shifted to one hour later. shifting time of sunset one hour earlier, sunrise to one hour ahead. 3. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01861",
       "question": "An aircraft departs at Airport A (50N 115E) at 1400 ST on the 10th of month. After a flight time of 05:30 it arrives at airport B (35N, 055E). The Air Almanac lists time differences for airport A as UTC+7 and for airport B UTC+4. The Standard Time (ST) and date of arrival at B is: 1530 ST, 10th 1630 ST, 11th 2230 ST, 11th 1630 ST, 10th 4. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01860",
       "question": "Daylight Saving Time (DSL) may be applied… to Standard Time at discretion of a country for a specified time of the year. to UTC at discretion of a country for a specified time of the year. to LMT provided more daylight hours througout a specified time of year. 5. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01859",
       "question": "The concept of ‘Standard Time’ (ST) is based on… a specific time difference to UTC chosen by a country for political and economical reasons. a common, uniform world wide time used in aviation for comparing points in time. the position of the mean sun overhead a specific meridian. specifying areas with 15° difference in longitude using 1 hour difference in local time. 6. ID: EN-I060-20102701183 An aircraft is flying from Schiphol airport to Santa Cruz in Bolivia (South America) via Miami in Florida. The departure time (off blocks) is 0745 ST on the 10th of November, taxi time before take off at Schiphol is 25 minutes, ST is UTC +1. Flight time to Miami: 09h 20m. Taxi time in Miami to and from the gate: 25 minutes. Ground time in Miami: 02h 40m. Flight time from Miami to Santa Cruz: 06h 30m. ST in Bolivia is UTC -05. What is the the time and date of touch down in Santa Cruz, expressed in in ST? 2105 10th Nov 2205 10th Nov 0505 11th Nov 0305 11th Nov 7. ID: EN-I060-20102701196 Which of the following statements regarding the “Standard Time” is correct? At 145°E the difference from ST to UTC is 9 hours 40 minutes Standard time is determined by division of the longitude by 15 and rounding off the answer to the nearest integer Standard Times at western longitudes are earlier than UTC, and at eastern longitudes later than UTC Standard Time is determined by the government and does not necessarily follow the borders 8. ID: EN-I060-20102701180 An aircraft departs at point A (25°N, 175°W) on the 7th January at 1423 LMT. Relating to the following information, what is the standard time and date of arrival at B (STB)? Difference UTC and STA: 11 hours, Destination point B: 15°N, 155°E, Difference between UTC and STB: 10 hours, Distance along the great circle between A and B: 1790 NM, Average head wind component: 19 kt, Average TAS: 400 kt. 0619 STB on the 09/01 0645 STB on the 09/01 1619 STB on the 08/01 1645 STB on the 08/01 9. ID: EN-I060-20102701179 An aircraft is flying from position A (53°24’N, 015°54’E) to B (32°00’N, 052°51’W). Relating to the following information, what is the Estimated Time of Departure (ETD) from A, expressed in Standard Time at A (STA)? Distance from A to B: 3150 NM, average GS: 450 kt, Difference between Standard Time A and UTC: 1 hour, Difference between Standard Time B and UTC: 4 hours, Estimated Time of Arrival (ETA) at B: 1000 STB on the 5th August. 0500 STA 05/08 0800 STA 05/08 2300 STA 04/08 2000 STA 04/08 10. ID: EN-I060-20102701197 Estimated Time of Departure at position A (15° 15.0’N, 072° 06.0’W) on 12 March is 0100 ST (ST = UTC – 05). Estimated Time of Arrival at position B (55° 18.0’N, 005° 45.0’E) on 1615 ST on the same date (ST = UTC + 01). According to the Jeppesen table sunset at B takes place at 1820. [1] What is the flight time from A to B? [2] What is the time difference between arrival and sunset at B? [1] 21 hours 15 minutes, [2] 03 hours 28 minutes [1] 09 hours15 minutes, [2] 03 hours 28 minutes [1] 21 hours 15 minutes, [2] 02 hours 42 minutes [1] 09 hours15 minutes, [2] 02 hours 42 minutes 11. ID: EN-I060-20102701195 Standard Time is… the time set by legal authorities for political and economical reasons. the time zone system applicable for the prime meridian. the time zone system applicable use in aviation documentation. is, when expressed, the same as LMT at any location. 12. ID: EN-I060-20102701181 On the 4th February at 0800 Standard Time A (STA) an aircraft is directly above position A. Relating to the following information, what is the estimated time of arrival at position B in Standard Time B (STB)? Position A: 50°00.0’N, 138°30.0’W, STA: UTC – 9 hours, Position B: 50°00.0’N, 175°45.0’E, STB: UTC +12 hours. Ground distance between A and B: 1736 NM. Air distance between A and B exactly when the aircraft arrives 0900 STB on the 05/02 1200 STB on the 04/02 1900 STB on the 03/02 1700 STB on the 04/02 13. ID: EN-I060-20102701182 The reason why some states use standard times like UTC +13 instead of UTC -11 is: To apply daylight saving time in the areas affected To keep the same date in areas of the same political or economical entity To adjust local time for day- or nighttime To prevent the requirements of leap-years 14. ID: EN-I060-20102701184 When crossing the international date line… the calender date will increase when crossing heading west. the calender date will increase when crossing heading east. the calender date will decrease by two days when crossing heading east. the calender date will increase on heading west only when midnight occurs during flight. Sunrise and Sunset ID: EN-I060-20102701204 1. Sunrise at airport A (52°17’N, 004°23’W) is given by the almanach table with 0533 LMT. LMT of sunrise at airport B (52°17’N, 013°55’E) is: 0533 0646 0550 0420 2. ID: EN-I060-20102701201 Mu’a, Tonga Islands, is situated at (21°11’S, 175°07’W). In the Air Almanac the standard time of Tonga Islands is listed as UTC+13. For 21st of August the sunrise table in the Air Almanac gives the following values: 20°S: 0618, 30°S: 0628. The Standard Time of sunrise at Mu’a is at: 0729 on August 22nd 0729 on August 21st 0659 on August 21st 0659 on August 22nd 3. ID: EN-I060-20102701199 The Sunrise/Sunset table states: February 17th, latitude 44ºN, Sunrise at 0644, Sunset at 1744. At 1200 Central European Time (UTC +1) at 44ºN… the sun rises at 64ºW. the sun sets at 120ºE. the sun sets at 90ºE. the sun rises at 55ºW. 4. ID: EN-I060-2010270118 When does “Morning Civil Twilight” begin? When the upper part of the Sun touches to the visible horizon When the center of the Sun is 12° below the celestial horizon When the center of the Sun is 6° below the celestial horizon When the center of the Sun is 18° below the visible horizon 5. ID: EN-I060-20102701186 Civil twilight is the time between sunset and when… the centre of the Sun is 6° below the celestial horizon. the centre of the Sun is 6° below the apparent horizon. the centre of the Sun is 12° below the celestial horizon. the centre of the Sun is 12° below the apparent horizon. 6. ID: EN-I060-20102701203 A position is located at 58°00’N, 135°30’W, Standard Time is listed as UTC-8. If sunset occurs at 0057 UTC on 21st January, the sunset in LMT is at… 1653 on 20th of January. 1555 on 20th of January. 0757 on 21th of January. 1059 on 21th of January. 7. ID: EN-I060-20102700811 (See attachment AC-ICQB-061-103) The time of sunrise at 66º48’N, 095º26’W on 27 January is: 0305 UTC 1549 UTC 0927 UTC 0711 UTC 8. ID: EN-I060-20102700800 (See attachment AC-ICQB-061-103) The beginning of morning civil twilight at 66º48’N, 095º26’W on 27 January is: 0817 UTC 1538 UTC 0925 UTC 1436 UTC 9. ID: EN-I060-20102700552 (See attachment AC-ICQB-061-104) The tim of sun rise (UTC) on 6 December at location (49°50’N, 097°30’W) is: 1411 0930 0411 2030 10. ID: EN-I060-20102700545 Sunrise on a specific day and a specific latitude is given at 040E with 0247 UTC. The time of sunrise on the same latitude and at 035°W on the same day is: 0247 UTC 0747 UTC 0627 UTC 2347 UTC 11. ID: EN-I060-20102700812 (See attachment AC-ICQB-061-103) The duration of morning civil twilight at 66º48’N, 095º26’W on January 27th is: 58 minutes 1 hour 13 minutes 8 hours 18 minutes 7 hours 27 minutes 12. ID: EN-I060-20102701202 At (54°N, 020°W) the sun rises on 28th of November at 0901 UTC. At (44°N, 020°W) the sun rises… earlier since the latter position lies further south. at 0651 LMT. later since the latter position lies further south. at the same time since both positions are situated on the same meridian. 13. ID: EN-I060-20102701200 Which of the following statements is correct? The declination of the Sun is different for northern and southern hemisphere throughout the year The declination of the Sun and the latitude of the observer will affect the duration of civil twilight The declination of the Sun and the longitude of the observer will affect the duration of civil twilight The declination of the Sun will have no effect on the duration of civil twilight 14. ID: EN-I060-20102701198 With regard to the duration of daylight, which of the following statements is correct? Close to the equinoxes the influence of latitude on the duration of daylight is the smallest. Close to the solstices the influence of latitude on the duration of daylight is the smallest. On a day in August, the duration of daylight is longer on the Southern Hemisphere than on the Northern Hemisphere. The length of daylight varies with the changing distance between earth and sun 15. ID: EN-I060-20102701188 What is the time difference in LMT between sunset at the two positions A (50°N, 120°E) and B (50°S, 120°E) The time difference depends on politically chosen time difference to UTC There is no time difference because A and B are located at the same meridian A time difference of some hours and the Sun rises earlier in A than in B A time difference of some hours and the Sun rises earlier in B than in A 16. ID: EN-I060-20102701194 A sunrise/sunset table for June 24th gives sunrise as 0252, and sunset is given as 2207. This could be observed at which latitude? 00°N/S 40°S 80°N 60°N 17. ID: EN-I060-20102701141 At the spring and autumn equinox the Sun reaches… a declination of 0°. a declination of +66.5°. a declination of -23.5°. a declination of +23.5°. 18. ID: EN-I060-20102701140 The time of sunrise and sunset stated in LMT changes with the observer’s latitude and [1] ___ because of the Earth axis’ [2] ___ with respect to the plane of its orbit. [1] the time of year [2] inclination [1] the time of year [2] perpendicularity [1] longitude [2] inclination [1] longitude [2] perpendicularity 19. ID: EN-I060-20102701138 The polar circle is the parallel… at the lowest latitude (N/S) at which an observer can see the Sun approx. 6 monaths above the horizon. at the lowest latitude (N/S) at which an observer can see the Sun for 24 hours above the horizon. at the lowest latitude (N/S) at which an observer can see the Sun for 24 hours above the horizon. at the lowest latitude (N/S) at which an observer will never see the Sun for 24 hours above the horizon. 20. ID: EN-I060-20102701107 At which latitude are the polar circles are situated? At 66.5°N and S 23.5°N and S 30°N and S 60°N and S 21. ID: EN-I060-20102701104 The time interval between sunrise and sunset is dependent on: 1. Declination of the Sun 2. Longitude of the observer 3. Date 4. Inclination of the axis of the Earth 5. Latitude of the observer 2, 3 and 4 2 and 3 2, 4 and 5 1, 3 and 5 22. ID: EN-I060-20102701102 Earth’s seasons occur due of the… Earth's elliptical orbit around the Sun. inclination of the polar axis from the vertical on the ecliptic plane. Earth's rotation on the polar axis. varying distance between the Earth and the Sun. 23. ID: EN-I060-20102700551 The highest latitude at which the sun will rise and set every day is: 65 N/S 23.5 N/S 70 N/S 66.5 N/S 24. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01864",
       "question": "When comparing the time of sunset at a position at MSL and a position at 15000 ft altitude, the time of sunset… at MSL will appear later due to the enlarged visual horizon. at 15000 ft will appear later due to the enlarged visual horizon. at 15000 ft will appear earlier due to refraction in the atmosphere. at MSL will appear later due to longer twilight duration time. 25. ID: EN-I060-20102701139 At the summer and winter solstices the Sun reaches… its highest/lowest declination. its furthest distance from the earth. a declination of 0°. the zenith above the euqator. 26. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01865",
       "question": "If sunrise is observed earlier from day to day, the observer is possibly situated at which latitude? At any latitude other than equator and the poles. At the equator. At one of the poles. At any latitude. 27. ID: EN-I060-20102700714 With regard to mid-latitudes around 50°N/S, the length of day and night changes at the greatest rate around… Winter solstice and autumn equinox. spring equinox and autumn equinox. summer solstice and spring equinox. summer solstice and winter solstice. 28. ID: EN-I060-20102701103 Which statement regarding the “declination of the sun” is correct? It is the angular distance of the Sun east or west of the vernal equinox. It is the angular distance of the Sun north or south of the celestial equator. It is the horizontal direction of the Sun above the horizon. It is the angular distance of the Sun from the local horizon. 29. ID:",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     },
     {
       "id": "EN-I060-210205-01866",
       "question": "The length of daylight changes the quickest around (1) ___ due to the highest rate of change in change of (2) ___ of the sun. (1) the solstices, (2) declination. (1) the solstices, (2) variation. (1) the equinoxes, (2) declination. (1) the equinoxes, (2) inclination.",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "answer_index": 0
     }
   ]

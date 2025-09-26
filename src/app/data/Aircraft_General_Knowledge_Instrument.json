@@ -5,23 +5,13 @@
     {
       "id": "Q0001",
       "question": "o A pressure of 800 bar equals:",
-      "options": [
-        "120 psi",
-        "12 psi",
-        "12000 psi",
-        "1200 psi"
-      ],
+      "options": ["120 psi", "12 psi", "12000 psi", "1200 psi"],
       "answer_index": 0
     },
     {
       "id": "Q0002",
       "question": "o A pressure of 1 bar equals:",
-      "options": [
-        "10 Pascal",
-        "1000 Pascal",
-        "100000 Pascal",
-        "100 Pascal"
-      ],
+      "options": ["10 Pascal", "1000 Pascal", "100000 Pascal", "100 Pascal"],
       "answer_index": 0
     },
     {
@@ -38,12 +28,7 @@
     {
       "id": "Q0004",
       "question": "o A pressure of 3000 psi is equivalent to approximately:",
-      "options": [
-        "2 bar",
-        "200 bar",
-        "20 bar",
-        "2000 bar"
-      ],
+      "options": ["2 bar", "200 bar", "20 bar", "2000 bar"],
       "answer_index": 0
     },
     {
@@ -71,12 +56,7 @@
     {
       "id": "Q0007",
       "question": "o What does the Bourdon tube measure?",
-      "options": [
-        "Temperature",
-        "Pressure",
-        "Air flow",
-        "Quantity"
-      ],
+      "options": ["Temperature", "Pressure", "Air flow", "Quantity"],
       "answer_index": 0
     },
     {
@@ -225,12 +205,7 @@
     {
       "id": "Q0021",
       "question": "o What is the most relevant fuel parameter for a fuel gauge system?",
-      "options": [
-        "Density",
-        "Volume.",
-        "Mass",
-        "Permittivity"
-      ],
+      "options": ["Density", "Volume.", "Mass", "Permittivity"],
       "answer_index": 0
     },
     {
@@ -390,12 +365,7 @@
     {
       "id": "Q0036",
       "question": "o What is the correct relationship between the following units?",
-      "options": [
-        "P = power",
-        "T = torque",
-        "n = RPM",
-        "P = T x n"
-      ],
+      "options": ["P = power", "T = torque", "n = RPM", "P = T x n"],
       "answer_index": 0
     },
     {
@@ -500,12 +470,7 @@
     {
       "id": "Q0046",
       "question": "o The calibrated airspeed is a function of:",
-      "options": [
-        "Pt / Ps",
-        "(Pt – Pso) / Ps",
-        "Pt + Pso",
-        "Pt – Ps"
-      ],
+      "options": ["Pt / Ps", "(Pt – Pso) / Ps", "Pt + Pso", "Pt – Ps"],
       "answer_index": 0
     },
     {
@@ -665,23 +630,13 @@
     {
       "id": "Q0061",
       "question": "o What is the pressure altitude of the aircraft?",
-      "options": [
-        "15000 ft",
-        "11580 ft",
-        "12000 ft",
-        "12420 ft"
-      ],
+      "options": ["15000 ft", "11580 ft", "12000 ft", "12420 ft"],
       "answer_index": 0
     },
     {
       "id": "Q0062",
       "question": "o What is the pressure altitude of the aircraft?",
-      "options": [
-        "12400 ft",
-        "9600 ft",
-        "10400 ft",
-        "10000 ft"
-      ],
+      "options": ["12400 ft", "9600 ft", "10400 ft", "10000 ft"],
       "answer_index": 0
     },
     {
@@ -830,12 +785,7 @@
     {
       "id": "Q0076",
       "question": "o Which parameter defines the relationship between EAS and TAS?",
-      "options": [
-        "Mach number",
-        "Pressure",
-        "OAT",
-        "Density"
-      ],
+      "options": ["Mach number", "Pressure", "OAT", "Density"],
       "answer_index": 0
     },
     {
@@ -885,12 +835,7 @@
     {
       "id": "Q0081",
       "question": "o In case of absence of position and instrument errors, CAS is equal to:",
-      "options": [
-        "GS",
-        "IAS",
-        "TAS",
-        "EAS"
-      ],
+      "options": ["GS", "IAS", "TAS", "EAS"],
       "answer_index": 0
     },
     {
@@ -940,12 +885,7 @@
     {
       "id": "Q0086",
       "question": "o Relating to an airspeed indicator, a second striped needle shows:",
-      "options": [
-        "VS1",
-        "VNE",
-        "VMO",
-        "VFE"
-      ],
+      "options": ["VS1", "VNE", "VMO", "VFE"],
       "answer_index": 0
     },
     {
@@ -1028,34 +968,19 @@
     {
       "id": "Q0094",
       "question": "o What is the value of the Mach number?",
-      "options": [
-        "0.82",
-        "0.83",
-        "0.78",
-        "0.8"
-      ],
+      "options": ["0.82", "0.83", "0.78", "0.8"],
       "answer_index": 0
     },
     {
       "id": "Q0095",
       "question": "o What is the speed of sound at MSL at ISA conditions?",
-      "options": [
-        "357 kt",
-        "330 kt",
-        "661 kt",
-        "1224 kt"
-      ],
+      "options": ["357 kt", "330 kt", "661 kt", "1224 kt"],
       "answer_index": 0
     },
     {
       "id": "Q0096",
       "question": "o If the outside temperature at 35 000 ft is -40°C, what is the value of the local speed of sound?",
-      "options": [
-        "696 kt.",
-        "507 kt.",
-        "595 kt.",
-        "247 kt."
-      ],
+      "options": ["696 kt.", "507 kt.", "595 kt.", "247 kt."],
       "answer_index": 0
     },
     {
@@ -1127,12 +1052,7 @@
     {
       "id": "Q0103",
       "question": "o VMO is stated as:",
-      "options": [
-        "TAS or IAS",
-        "CAS or TAS",
-        "TAS or EAS",
-        "CAS or EAS"
-      ],
+      "options": ["TAS or IAS", "CAS or TAS", "TAS or EAS", "CAS or EAS"],
       "answer_index": 0
     },
     {
@@ -1193,23 +1113,13 @@
     {
       "id": "Q0109",
       "question": "o Air Data Computer output data are used by the:",
-      "options": [
-        "SAT indicator",
-        "ADI",
-        "IRS",
-        "GPS"
-      ],
+      "options": ["SAT indicator", "ADI", "IRS", "GPS"],
       "answer_index": 0
     },
     {
       "id": "Q0110",
       "question": "o Air Data Computer output data are used by the:",
-      "options": [
-        "RPM indicator",
-        "GPS",
-        "DG",
-        "AFCS"
-      ],
+      "options": ["RPM indicator", "GPS", "DG", "AFCS"],
       "answer_index": 0
     },
     {
@@ -1226,12 +1136,7 @@
     {
       "id": "Q0112",
       "question": "o What is the true heading?",
-      "options": [
-        "280°",
-        "274°",
-        "258°",
-        "263°"
-      ],
+      "options": ["280°", "274°", "258°", "263°"],
       "answer_index": 0
     },
     {
@@ -1248,12 +1153,7 @@
     {
       "id": "Q0114",
       "question": "o What is the inclination of the earth magnetic field at the North magnetic Pole?",
-      "options": [
-        "45°.",
-        "0°.",
-        "90°.",
-        "270°."
-      ],
+      "options": ["45°.", "0°.", "90°.", "270°."],
       "answer_index": 0
     },
     {
@@ -1292,12 +1192,7 @@
     {
       "id": "Q0118",
       "question": "o What is the inclination of the earth magnetic field at the magnetic equator?",
-      "options": [
-        "0°.",
-        "90°.",
-        "270°.",
-        "45°."
-      ],
+      "options": ["0°.", "90°.", "270°.", "45°."],
       "answer_index": 0
     },
     {
@@ -1380,12 +1275,7 @@
     {
       "id": "Q0126",
       "question": "o If the initial heading was 135°, after 30 seconds the direct reading magnetic compass indicates:",
-      "options": [
-        "Less than 055°",
-        "055°",
-        "225°",
-        "More than 225°"
-      ],
+      "options": ["Less than 055°", "055°", "225°", "More than 225°"],
       "answer_index": 0
     },
     {
@@ -1402,12 +1292,7 @@
     {
       "id": "Q0128",
       "question": "o During the take-off run, the compass shows:",
-      "options": [
-        "225°",
-        "Less than 045°",
-        "045°",
-        "More than 225°"
-      ],
+      "options": ["225°", "Less than 045°", "045°", "More than 225°"],
       "answer_index": 0
     },
     {
@@ -1424,12 +1309,7 @@
     {
       "id": "Q0130",
       "question": "o The initial heading was 330°, what does the magnetic compass read after 30 seconds of the turn?",
-      "options": [
-        "060°",
-        "Less than 060°",
-        "90°",
-        "More than 090°"
-      ],
+      "options": ["060°", "Less than 060°", "90°", "More than 090°"],
       "answer_index": 0
     },
     {
@@ -1446,12 +1326,7 @@
     {
       "id": "Q0132",
       "question": "o about:",
-      "options": [
-        "200",
-        "170",
-        "160",
-        "230"
-      ],
+      "options": ["200", "170", "160", "230"],
       "answer_index": 0
     },
     {
@@ -1523,23 +1398,13 @@
     {
       "id": "Q0139",
       "question": "o Which diagram shows a 40° left bank and 15° nose up attitude?",
-      "options": [
-        "Diagram 1",
-        "Diagram 3",
-        "Diagram 4",
-        "Diagram 2"
-      ],
+      "options": ["Diagram 1", "Diagram 3", "Diagram 4", "Diagram 2"],
       "answer_index": 0
     },
     {
       "id": "Q0140",
       "question": "o Which diagram shows a right turn with insufficient yaw rate?",
-      "options": [
-        "Diagram 2",
-        "Diagram 1",
-        "Diagram 3",
-        "Diagram 4"
-      ],
+      "options": ["Diagram 2", "Diagram 1", "Diagram 3", "Diagram 4"],
       "answer_index": 0
     },
     {
@@ -1567,12 +1432,7 @@
     {
       "id": "Q0143",
       "question": "o Which indication corresponds to straight and level flight?",
-      "options": [
-        "Diagram 4",
-        "Diagram 1",
-        "Diagram 3",
-        "Diagram 2"
-      ],
+      "options": ["Diagram 4", "Diagram 1", "Diagram 3", "Diagram 2"],
       "answer_index": 0
     },
     {
@@ -1611,23 +1471,13 @@
     {
       "id": "Q0147",
       "question": "o Which diagram shows a left turn with insufficient yaw rate?",
-      "options": [
-        "Diagram 1",
-        "Diagram 4",
-        "Diagram 2",
-        "Diagram 3"
-      ],
+      "options": ["Diagram 1", "Diagram 4", "Diagram 2", "Diagram 3"],
       "answer_index": 0
     },
     {
       "id": "Q0148",
       "question": "o Which diagram shows a left turn with too much yaw rate?",
-      "options": [
-        "Diagram 1",
-        "Diagram 2",
-        "Diagram 4",
-        "Diagram 3"
-      ],
+      "options": ["Diagram 1", "Diagram 2", "Diagram 4", "Diagram 3"],
       "answer_index": 0
     },
     {
@@ -1677,34 +1527,19 @@
     {
       "id": "Q0153",
       "question": "o Which diagram shows a 20° left bank and 18° nose down attitude?",
-      "options": [
-        "Diagram 2",
-        "Diagram 3",
-        "Diagram 4",
-        "Diagram 1"
-      ],
+      "options": ["Diagram 2", "Diagram 3", "Diagram 4", "Diagram 1"],
       "answer_index": 0
     },
     {
       "id": "Q0154",
       "question": "o Which diagram shows a 40° right bank and 8° nose down attitude?",
-      "options": [
-        "Diagram 4",
-        "Diagram 2",
-        "Diagram 1",
-        "Diagram 3"
-      ],
+      "options": ["Diagram 4", "Diagram 2", "Diagram 1", "Diagram 3"],
       "answer_index": 0
     },
     {
       "id": "Q0155",
       "question": "o Which diagram represents a 40° left bank and 15° nose down attitude?",
-      "options": [
-        "Diagram 3",
-        "Diagram 2",
-        "Diagram 4",
-        "Diagram 1"
-      ],
+      "options": ["Diagram 3", "Diagram 2", "Diagram 4", "Diagram 1"],
       "answer_index": 0
     },
     {
@@ -1886,12 +1721,7 @@
     {
       "id": "Q0172",
       "question": "o What undesired aircraft state is usually prevented by the yaw damper system at higher altitudes?",
-      "options": [
-        "Phygoide",
-        "Dutch roll",
-        "Spin",
-        "Spiral instability."
-      ],
+      "options": ["Phygoide", "Dutch roll", "Spin", "Spiral instability."],
       "answer_index": 0
     },
     {
@@ -1963,12 +1793,7 @@
     {
       "id": "Q0179",
       "question": "o approaching a limit?",
-      "options": [
-        "Stick shaker",
-        "Stick pusher",
-        "Mach trim",
-        "Yaw damper"
-      ],
+      "options": ["Stick shaker", "Stick pusher", "Mach trim", "Yaw damper"],
       "answer_index": 0
     },
     {
@@ -2029,12 +1854,7 @@
     {
       "id": "Q0185",
       "question": "o Which of the following is measured by a stall warning system?",
-      "options": [
-        "Angle of attack",
-        "GS",
-        "TAS",
-        "Rudder movement"
-      ],
+      "options": ["Angle of attack", "GS", "TAS", "Rudder movement"],
       "answer_index": 0
     },
     {
@@ -2326,12 +2146,7 @@
     {
       "id": "Q0212",
       "question": "o A radio altimeter indicates the height from the ground to:",
-      "options": [
-        "200 ft",
-        "1000 ft",
-        "50 ft",
-        "2500 ft"
-      ],
+      "options": ["200 ft", "1000 ft", "50 ft", "2500 ft"],
       "answer_index": 0
     },
     {
@@ -2535,12 +2350,7 @@
     {
       "id": "Q0231",
       "question": "o The anticollision logic of a TCAS II is based on which criterion?",
-      "options": [
-        "Distance",
-        "Altitude",
-        "Configuration",
-        "Time"
-      ],
+      "options": ["Distance", "Altitude", "Configuration", "Time"],
       "answer_index": 0
     },
     {

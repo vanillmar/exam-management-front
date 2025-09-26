@@ -1,4 +1,4 @@
- {
+{
   "source": "Airlaw.pdf",
   "question_count": 525,
   "questions": [
@@ -104,12 +104,7 @@
     {
       "id": "EN-I010-201014-00416",
       "question": "Which freedom of the Air allows an airline to plan a technical stop in a neighbouring State?\n8th freedom\n2nd freedom",
-      "options": [
-        "1st freedom",
-        "5th freedom",
-        "Question 3 of 14",
-        "ID:"
-      ],
+      "options": ["1st freedom", "5th freedom", "Question 3 of 14", "ID:"],
       "answer_index": 0
     },
     {
@@ -159,12 +154,7 @@
     {
       "id": "EN-I010-210105-01095",
       "question": "According Article 6 of Tokyo Convention of 1963, an aircraft commender may, when he has reasonable grounds to\nbelieve that\n1. protect the safety of the aircraft, or of persons or property therein\n2. maintain good order and discipline on board\n3. enable him to deliver such person to competent authorities or to disembark him in accordance with the\nprovisions of this\n1 or 3 only\nonly 1 and 2",
-      "options": [
-        "only 3",
-        "1, 2 or 3",
-        "Question 8 of 14",
-        "ID:"
-      ],
+      "options": ["only 3", "1, 2 or 3", "Question 8 of 14", "ID:"],
       "answer_index": 0
     },
     {
@@ -280,23 +270,13 @@
     {
       "id": "EN-I010-210105-01103",
       "question": "The structure of the regulatory material related to EASA involves certification specifications, acceptable means of\ncompliance, and guidance material.\nThese are categorized as…\nsoft laws.\nimplementing rules.",
-      "options": [
-        "regulations.",
-        "hard laws.",
-        "Question 4 of 7",
-        "ID:"
-      ],
+      "options": ["regulations.", "hard laws.", "Question 4 of 7", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-210105-01102",
       "question": "The structure of the regulatory material related to EASA involves regulations, delegated acts, implementing acts,\nand implementing rules.\nThese are categorized as…\nguidance material (GM).\nacceptable means of compliance (AMC).",
-      "options": [
-        "hard laws.",
-        "soft laws.",
-        "Question 5 of 7",
-        "ID:"
-      ],
+      "options": ["hard laws.", "soft laws.", "Question 5 of 7", "ID:"],
       "answer_index": 0
     },
     {
@@ -335,12 +315,7 @@
     {
       "id": "EN-I010-201014-00424",
       "question": "A certificate of airworthiness shall be issued on the basis of satisfactory evidence that the aircraft complies\nwith the design aspects of the appropriate airworthiness requirements.\nWho issues the Certificate of Airworthiness?\nThe State of Registry\nThe operator",
-      "options": [
-        "The manufacturer",
-        "The ICAO",
-        "Question 2 of 4",
-        "ID:"
-      ],
+      "options": ["The manufacturer", "The ICAO", "Question 2 of 4", "ID:"],
       "answer_index": 0
     },
     {
@@ -412,12 +387,7 @@
     {
       "id": "EN-I010-210105-01109",
       "question": "According ICAO Annex 7, when letters are used for the registration mark, a combination that may be used\nis:\nPAN\nQFE",
-      "options": [
-        "ABC",
-        "SOS",
-        "Question 3 of 4",
-        "ID:"
-      ],
+      "options": ["ABC", "SOS", "Question 3 of 4", "ID:"],
       "answer_index": 0
     },
     {
@@ -467,34 +437,19 @@
     {
       "id": "EN-I010-210105-01112",
       "question": "According FCL.010, “the administrative action taken after a rating or certificate has lapsed for the purpose\nof renewing the privileges of the rating or certificate for a further specified period consequent upon the\nfulfilment of specified requirements.”\nis the definition for:\nRevalidation\nExtension",
-      "options": [
-        "Fulfilment",
-        "Renewal",
-        "Question 3 of 28",
-        "ID:"
-      ],
+      "options": ["Fulfilment", "Renewal", "Question 3 of 28", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-210105-01113",
       "question": "According FCL.010 “the administrative action taken within the period of validity of a rating or certificate\nwhich allows the holder to continue to exercise the privileges of a rating or certificate for a further\nspecified period consequent upon the fulfilment of specified requirements.”\nis the definition for:\nRevalidation\nExtension",
-      "options": [
-        "Fulfilment",
-        "Renewal",
-        "Question 4 of 28",
-        "ID:"
-      ],
+      "options": ["Fulfilment", "Renewal", "Question 4 of 28", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-210105-01114",
       "question": "According FCL.010 “the period between the end of evening civil twilight and the beginning of morning civil\ntwilight or such other period between sunset and sunrise as may be prescribed by the appropriate\nauthority.”\nis the definition for:\nDay\nIFR time",
-      "options": [
-        "Night",
-        "Local darkness",
-        "Question 5 of 28",
-        "ID:"
-      ],
+      "options": ["Night", "Local darkness", "Question 5 of 28", "ID:"],
       "answer_index": 0
     },
     {
@@ -511,12 +466,7 @@
     {
       "id": "EN-I010-210105-01118",
       "question": "At what age shall the holder of a pilot licence NOT act as a pilot of an aeroplane or helicopter engaged in\ncommercial air transport?\n60 years\n65 years",
-      "options": [
-        "58 years",
-        "62 years",
-        "Question 7 of 28",
-        "ID:"
-      ],
+      "options": ["58 years", "62 years", "Question 7 of 28", "ID:"],
       "answer_index": 0
     },
     {
@@ -588,12 +538,7 @@
     {
       "id": "EN-I010-201014-00438",
       "question": "What is the minimum age for an applicant for a Commercial Pilot Licence?\n21 years\n18 years",
-      "options": [
-        "17 years",
-        "16 years",
-        "Question 14 of 28",
-        "ID:"
-      ],
+      "options": ["17 years", "16 years", "Question 14 of 28", "ID:"],
       "answer_index": 0
     },
     {
@@ -610,56 +555,31 @@
     {
       "id": "EN-I010-201014-00434",
       "question": "For the issue of an ATPL, at least how many of the needed cross country flight time shall be as PIC or\nPIC under supervision?\n150 h\n60 h",
-      "options": [
-        "100 h",
-        "90 h",
-        "Question 16 of 28",
-        "ID:"
-      ],
+      "options": ["100 h", "90 h", "Question 16 of 28", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00437",
       "question": "The credit for multi-pilot aeroplane co-pilot time is (are) ___ of the co-pilot flight time towards the total\nflight time required for a higher licence class.\n50 hours\n50%",
-      "options": [
-        "100 hours",
-        "100%",
-        "Question 17 of 28",
-        "ID:"
-      ],
+      "options": ["100 hours", "100%", "Question 17 of 28", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00442",
       "question": "For the issue of the ATPL(A) or (H), the minimum night flight time as PIC or as co-pilot shall be:\n150 hours.\n100 hours.",
-      "options": [
-        "60 hours.",
-        "90 hours.",
-        "Question 18 of 28",
-        "ID:"
-      ],
+      "options": ["60 hours.", "90 hours.", "Question 18 of 28", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00444",
       "question": "The minimum age for the issue of the Airline Transport Pilot Licence is…\n18 years.\n24 years.",
-      "options": [
-        "21 years.",
-        "16 years.",
-        "Question 19 of 28",
-        "ID:"
-      ],
+      "options": ["21 years.", "16 years.", "Question 19 of 28", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00445",
       "question": "For the issue of the ATPL(A), the minimum instrument time shall be [1] … hours, of which not more than\n[2] … hours may be instrument ground time.\n[1] 100\n[2] 30\n[1] 75\n[2] 20\n[1] 150\n[2] 75",
-      "options": [
-        "[1] 75",
-        "[2] 30",
-        "Question 20 of 28",
-        "ID:"
-      ],
+      "options": ["[1] 75", "[2] 30", "Question 20 of 28", "ID:"],
       "answer_index": 0
     },
     {
@@ -687,12 +607,7 @@
     {
       "id": "EN-I010-210105-01121",
       "question": "According FCL.505, the privileges of the holder of an ATPL are, within the appropriate aircraft category, to \nexercise all the privileges of the holder of a:",
-      "options": [
-        "LAPL",
-        "PPL",
-        "CPL",
-        "SPL"
-      ],
+      "options": ["LAPL", "PPL", "CPL", "SPL"],
       "answer_index": 0
     },
     {
@@ -709,34 +624,19 @@
     {
       "id": "EN-I010-201014-00453",
       "question": "The validity of a Single-Engine Class Rating is limited for ..\n18 months.\none year.",
-      "options": [
-        "6 months.",
-        "two years.",
-        "Question 25 of 28",
-        "ID:"
-      ],
+      "options": ["6 months.", "two years.", "Question 25 of 28", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00443",
       "question": "An instrument rating is valid for a period of…\n2 years.\n1 year.",
-      "options": [
-        "6 months.",
-        "9 months.",
-        "Question 26 of 28",
-        "ID:"
-      ],
+      "options": ["6 months.", "9 months.", "Question 26 of 28", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00446",
       "question": "For the issue of an instrument rating, the holder of a PPL or CPL shall have completed at least [1] ____\nhours of cross-country flight time as pilot-in-command, which includes a minimum of [2] ____ cross\ncountry flight hours in the relevant aircraft category.\n[1] 75\n[2] 15\n[1] 100\n[2] 30\n[1] 50\n[2] 20",
-      "options": [
-        "[1] 50",
-        "[2] 10",
-        "Question 27 of 28",
-        "ID:"
-      ],
+      "options": ["[1] 50", "[2] 10", "Question 27 of 28", "ID:"],
       "answer_index": 0
     },
     {
@@ -808,12 +708,7 @@
     {
       "id": "EN-I010-201014-00447",
       "question": "When pilot licence holders have reached the age of 40 and work as a single-pilot in commercial air transport\noperation carrying passengers, the validity of a Class 1 medical certificate is reduced to:\n3 months\n6 months",
-      "options": [
-        "9 months",
-        "12 months",
-        "Question 6 of 6",
-        "ID:"
-      ],
+      "options": ["9 months", "12 months", "Question 6 of 6", "ID:"],
       "answer_index": 0
     },
     {
@@ -830,12 +725,7 @@
     {
       "id": "EN-I010-210105-01185",
       "question": "Which ICAO Annex contains standards for “Rules of the Air”?\nICAO Annex 1\nICAO Annex 2",
-      "options": [
-        "ICAO Annex 6",
-        "ICAO Annex 7",
-        "Question 2 of 4",
-        "ID:"
-      ],
+      "options": ["ICAO Annex 6", "ICAO Annex 7", "Question 2 of 4", "ID:"],
       "answer_index": 0
     },
     {
@@ -885,12 +775,7 @@
     {
       "id": "EN-I010-201014-00616",
       "question": "When an ATC clearance is issued, who must observe the terrain clearance?\nATS\nThe pilot-in-command",
-      "options": [
-        "ATC",
-        "The aircraft owner",
-        "Question 3 of 8",
-        "ID:"
-      ],
+      "options": ["ATC", "The aircraft owner", "Question 3 of 8", "ID:"],
       "answer_index": 0
     },
     {
@@ -984,12 +869,7 @@
     {
       "id": "EN-I010-201014-00619",
       "question": "An overtaking aircraft is an aircraft that approaches another aircraft from the rear on a line forming an angle\nof less than how many degrees with the plane of symmetry of the latter?\n60\n90",
-      "options": [
-        "70",
-        "40",
-        "Question 4 of 33",
-        "ID:"
-      ],
+      "options": ["70", "40", "Question 4 of 33", "ID:"],
       "answer_index": 0
     },
     {
@@ -1215,12 +1095,7 @@
     {
       "id": "EN-I010-201014-00614",
       "question": "When the The appropriate ATS shall be informed in case the average cruising TAS varies from the TAS stated\nin the flight plan by how many percent?\n3%\n5%",
-      "options": [
-        "20%",
-        "10%",
-        "Question 25 of 33",
-        "ID:"
-      ],
+      "options": ["20%", "10%", "Question 25 of 33", "ID:"],
       "answer_index": 0
     },
     {
@@ -1314,12 +1189,7 @@
     {
       "id": "EN-I010-201014-00627",
       "question": "After experiencing a two-way communication failure during a flight under IFR in VMC, the correct procedure is\nto…\ncontinue to fly in VMC, land at the nearest suitable aerodrome, report the arrival by the most expeditious\nmeans to the appropriate Air Traffic Control unit.\ncontinue the flight at the assigned level and route, carry out level changes as indicated in the filed ATS flight\nplan, start the approach to the flight plan destination at the planned ETA.\ncontinue to fly in VMC and return to the aerodrome of departure.\nmaintain the assigned level and route and land at the nearest aerodrome where VMC conditions prevail.\n10.5.4 Visual flight rules (VFR) – ATPL(A)\nQuestion 1 of 10\nAn aircraft flying VFR within airspace Class G and above 10000 ft shall maintain a distance from clouds of\nat least [1] ___ horizontally, [2] ___ vertically, and a flight visibility of at least [3] ___.\n[1] 1 NM\n[2] 1000 ft\n[3] 8 km\n[1] 1500 m\n[2] 1000 ft\n[3] 5 km\n[1] 1 NM\n[2] 1000 ft\n[3] 5 km\n[1] 1500 m",
-      "options": [
-        "[2] 1000 ft",
-        "[3] 8 km",
-        "Question 2 of 10",
-        "ID:"
-      ],
+      "options": ["[2] 1000 ft", "[3] 8 km", "Question 2 of 10", "ID:"],
       "answer_index": 0
     },
     {
@@ -1336,12 +1206,7 @@
     {
       "id": "EN-I010-201014-00641",
       "question": "Unless authorised by the appropriate ATS unit, what is the maximum Flight Level (FL) for VFR flights?\nFL 250\nFL 290",
-      "options": [
-        "FL 100",
-        "FL 200",
-        "Question 4 of 10",
-        "ID:"
-      ],
+      "options": ["FL 100", "FL 200", "Question 4 of 10", "ID:"],
       "answer_index": 0
     },
     {
@@ -1358,12 +1223,7 @@
     {
       "id": "EN-I010-201014-00645",
       "question": "Except when necessary for take-off or landing, a VFR flight shall not be flown over the congested areas of\ncities, towns, settlements or over an open-air assembly of persons at a height less than how many feet\nabove the highest obstacle within a radius of 600 m from the aircraft?\n1000 ft\n100 ft",
-      "options": [
-        "500 ft",
-        "2000 ft",
-        "Question 6 of 10",
-        "ID:"
-      ],
+      "options": ["500 ft", "2000 ft", "Question 6 of 10", "ID:"],
       "answer_index": 0
     },
     {
@@ -1380,12 +1240,7 @@
     {
       "id": "EN-I010-201014-00649",
       "question": "Which is the appropriate flight level for a VFR flight with a magnetic track of 170 degrees?\nFL85\nFL95",
-      "options": [
-        "FL90",
-        "FL105",
-        "Question 8 of 10",
-        "ID:"
-      ],
+      "options": ["FL90", "FL105", "Question 8 of 10", "ID:"],
       "answer_index": 0
     },
     {
@@ -1424,12 +1279,7 @@
     {
       "id": "EN-I010-201014-00646",
       "question": "What is the correct flight level for an IFR flight in non-RVSM airspace with a magnetic track of 070°?\nFL330\nFL310",
-      "options": [
-        "FL280",
-        "FL300",
-        "Question 2 of 10",
-        "ID:"
-      ],
+      "options": ["FL280", "FL300", "Question 2 of 10", "ID:"],
       "answer_index": 0
     },
     {
@@ -1457,12 +1307,7 @@
     {
       "id": "EN-I010-201014-00648",
       "question": "What is the correct flight level for an IFR flight within RVSM airspace with a magnetic track of 230°?\nFL420\nFL310",
-      "options": [
-        "FL390",
-        "FL380",
-        "Question 5 of 10",
-        "ID:"
-      ],
+      "options": ["FL390", "FL380", "Question 5 of 10", "ID:"],
       "answer_index": 0
     },
     {
@@ -1501,12 +1346,7 @@
     {
       "id": "EN-I010-201014-00660",
       "question": "When flying on an airway with an easterly magnetic heading, the correct flight level will be…\nusually even.\nalways even.",
-      "options": [
-        "usually odd.",
-        "always odd.",
-        "Question 9 of 10",
-        "ID:"
-      ],
+      "options": ["usually odd.", "always odd.", "Question 9 of 10", "ID:"],
       "answer_index": 0
     },
     {
@@ -1545,67 +1385,37 @@
     {
       "id": "EN-I010-201014-00665",
       "question": "If radio contact with the intercepting aircraft is established but communication in a common language is not\npossible, which phrase should be pronounced by the intercepted aircraft to communicate that the position is\nunknown?\nPOSITION UNCERTAIN\nNAVIGATION UNCLEAR",
-      "options": [
-        "AM LOST",
-        "LOST ORIENTATION",
-        "Question 3 of 10",
-        "ID:"
-      ],
+      "options": ["AM LOST", "LOST ORIENTATION", "Question 3 of 10", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00667",
       "question": "According to ICAO Annex 2, which phrase should be used by an intercepting aircraft for the meaning “what is your\ncall sign”?\nName\nCall sign",
-      "options": [
-        "Who",
-        "Registration",
-        "Question 4 of 10",
-        "ID:"
-      ],
+      "options": ["Who", "Registration", "Question 4 of 10", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00668",
       "question": "According to ICAO Annex 2, which phrase should be used by an intercepting aircraft for the meaning “land at this\naerodrome”?\nDe-scend\nGo land",
-      "options": [
-        "Go down",
-        "You land",
-        "Question 5 of 10",
-        "ID:"
-      ],
+      "options": ["Go down", "You land", "Question 5 of 10", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00687",
       "question": "The standard phrase used by an aircraft for “Descend for landing” is:\nREDUCE ALTITUDE\nLET DOWN",
-      "options": [
-        "YOU LAND",
-        "DESCEND",
-        "Question 6 of 10",
-        "ID:"
-      ],
+      "options": ["YOU LAND", "DESCEND", "Question 6 of 10", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00606",
       "question": "The crew of an intercepted aircraft shall immediately attempt to establish radio-communication with the\nintercepting aircraft or with the appropriate intercept control unit by making a general call on the frequency [1] ____\n.\nIf no contact can be established and if practicable, repeat this call on the frequency [2] ____ .\n[1] 243 MHz\n[2] 125.5 MHz\n[1] 121.5 MHz\n[2] 125.5 MHz\n[1] 121.5 MHz\n[2] 282.8 MHz",
-      "options": [
-        "[1] 121.5 MHz",
-        "[2] 243 MHz",
-        "Question 7 of 10",
-        "ID:"
-      ],
+      "options": ["[1] 121.5 MHz", "[2] 243 MHz", "Question 7 of 10", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00603",
       "question": "An aircraft intercepted by another aircraft shall immediately select which transponder Mode A Code?\n7500\n7700",
-      "options": [
-        "7000",
-        "7600",
-        "Question 8 of 10",
-        "ID:"
-      ],
+      "options": ["7000", "7600", "Question 8 of 10", "ID:"],
       "answer_index": 0
     },
     {
@@ -1644,12 +1454,7 @@
     {
       "id": "EN-I010-201014-00480",
       "question": "The turn made by an aircraft to the runway between the end of the outbound track and the beginning of the\nintermediate or final approach track, where the tracks are not reciprocal, is called a…\nfinal turn.\napproach turn.",
-      "options": [
-        "procedure turn.",
-        "base turn.",
-        "Question 2 of 4",
-        "ID:"
-      ],
+      "options": ["procedure turn.", "base turn.", "Question 2 of 4", "ID:"],
       "answer_index": 0
     },
     {
@@ -1710,23 +1515,13 @@
     {
       "id": "EN-I010-201014-00569",
       "question": "The initial track in a straight departure does not differ from the alignment of the extended runway centre\nline by more than how many degrees?\n30\n15",
-      "options": [
-        "10",
-        "25",
-        "Question 4 of 6",
-        "ID:"
-      ],
+      "options": ["10", "25", "Question 4 of 6", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00517",
       "question": "In a turning departure, the initial departure track deviates from the alignment of the extended runway\ncentre line by more than:\n25°\n10°",
-      "options": [
-        "15°",
-        "5°",
-        "Question 5 of 6",
-        "ID:"
-      ],
+      "options": ["15°", "5°", "Question 5 of 6", "ID:"],
       "answer_index": 0
     },
     {
@@ -1853,12 +1648,7 @@
     {
       "id": "EN-I010-201014-00510",
       "question": "For a non-precision or circling approach, the MDH shall not be lower than:\n100 ft",
-      "options": [
-        "OCH",
-        "200 ft",
-        "Question 11 of 40",
-        "ID:"
-      ],
+      "options": ["OCH", "200 ft", "Question 11 of 40", "ID:"],
       "answer_index": 0
     },
     {
@@ -1875,12 +1665,7 @@
     {
       "id": "EN-I010-201014-00535",
       "question": "An Obstacle Clearance Altitude has reference to…\nthe Aerodrome Elevation\nthe Runway Threshold",
-      "options": [
-        "MSL",
-        "AGL",
-        "Question 13 of 40",
-        "ID:"
-      ],
+      "options": ["MSL", "AGL", "Question 13 of 40", "ID:"],
       "answer_index": 0
     },
     {
@@ -1930,23 +1715,13 @@
     {
       "id": "EN-I010-210105-01143",
       "question": "Standard glide slope for descent, also used in ILS approaches, is:\n4°\n5°",
-      "options": [
-        "2°",
-        "3°",
-        "Question 18 of 40",
-        "ID:"
-      ],
+      "options": ["2°", "3°", "Question 18 of 40", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-210105-01144",
       "question": "Standard gradient for descent, also used in ILS approaches, is:\n5.20%\n3%",
-      "options": [
-        "1%",
-        "2.50%",
-        "Question 19 of 40",
-        "ID:"
-      ],
+      "options": ["1%", "2.50%", "Question 19 of 40", "ID:"],
       "answer_index": 0
     },
     {
@@ -2073,12 +1848,7 @@
     {
       "id": "EN-I010-201014-00542",
       "question": "Missed approach procedures are generally based on a missed approach climb gradient of:\n5.50%\n3.30%",
-      "options": [
-        "2.50%",
-        "1.50%",
-        "Question 31 of 40",
-        "ID:"
-      ],
+      "options": ["2.50%", "1.50%", "Question 31 of 40", "ID:"],
       "answer_index": 0
     },
     {
@@ -2161,12 +1931,7 @@
     {
       "id": "EN-I010-201014-00534",
       "question": "The obstacle clearance altitude/height within a visual manoeuvring (circling) area is given for which ICAO\naircraft categories?\nC, D and E\nD and E only",
-      "options": [
-        "A, B and C",
-        "A, B, C, D and E",
-        "Question 39 of 40",
-        "ID:"
-      ],
+      "options": ["A, B and C", "A, B, C, D and E", "Question 39 of 40", "ID:"],
       "answer_index": 0
     },
     {
@@ -2216,45 +1981,25 @@
     {
       "id": "EN-I010-201014-00547",
       "question": "Tracks in a holding pattern can be maintained by considering the wind conditions and therefore adjusting:",
-      "options": [
-        "Heading",
-        "Track",
-        "Time",
-        "Speed"
-      ],
+      "options": ["Heading", "Track", "Time", "Speed"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00485",
       "question": "In still air conditions, the outbound time in a holding pattern at 14000 ft or below is:\n1 minute\n30 seconds",
-      "options": [
-        "3 minutes",
-        "20 seconds",
-        "Question 5 of 11",
-        "ID:"
-      ],
+      "options": ["3 minutes", "20 seconds", "Question 5 of 11", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00537",
       "question": "What is the outbound time for a holding pattern above 14000 ft in still air conditions?\n30 seconds\n3 minutes",
-      "options": [
-        "1 minute",
-        "1 minute 30 seconds",
-        "Question 6 of 11",
-        "ID:"
-      ],
+      "options": ["1 minute", "1 minute 30 seconds", "Question 6 of 11", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00585",
       "question": "The three entry sectors in a holding pattern have a range of flexibility on each side of the sector boundaries of…\n5 degrees.\n3 degrees.",
-      "options": [
-        "25 degrees.",
-        "15 degrees.",
-        "Question 7 of 11",
-        "ID:"
-      ],
+      "options": ["25 degrees.", "15 degrees.", "Question 7 of 11", "ID:"],
       "answer_index": 0
     },
     {
@@ -2271,12 +2016,7 @@
     {
       "id": "EN-I010-201014-00590",
       "question": "After the holding fix, following manoeuvres are carried out for which type of entry into a holding pattern?\n1. Left turn onto outbound heading of 030° for 1 minute\n2. Left turn onto holding side to intercept 210° inbound track\n3. On the second arrival over holding fix, right turn to follow holding pattern\nParallel entry\nFree entry",
-      "options": [
-        "Direct entry",
-        "Teardrop entry",
-        "Question 9 of 11",
-        "ID:"
-      ],
+      "options": ["Direct entry", "Teardrop entry", "Question 9 of 11", "ID:"],
       "answer_index": 0
     },
     {
@@ -2315,12 +2055,7 @@
     {
       "id": "EN-I010-201014-00540",
       "question": "The vertical position of an aircraft at or above the transition level with altimeter setting 1013.2 hPa shall\nbe stated as:\nElevation\nFlight Level",
-      "options": [
-        "Altitude",
-        "Height",
-        "Question 2 of 16",
-        "ID:"
-      ],
+      "options": ["Altitude", "Height", "Question 2 of 16", "ID:"],
       "answer_index": 0
     },
     {
@@ -2359,23 +2094,13 @@
     {
       "id": "EN-I010-201014-00580",
       "question": "According ICAO Doc 8168, consecutive flight levels are separated by at least:\n500 ft\n1000 ft",
-      "options": [
-        "300 ft",
-        "2000 ft",
-        "Question 6 of 16",
-        "ID:"
-      ],
+      "options": ["300 ft", "2000 ft", "Question 6 of 16", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00497",
       "question": "In general the transition altitude shall be as low as possible, but not less than:\n3500 ft AGL\n3000 ft AGL",
-      "options": [
-        "1500 ft AGL",
-        "2000 ft AGL",
-        "Question 7 of 16",
-        "ID:"
-      ],
+      "options": ["1500 ft AGL", "2000 ft AGL", "Question 7 of 16", "ID:"],
       "answer_index": 0
     },
     {
@@ -2425,12 +2150,7 @@
     {
       "id": "EN-I010-201014-00584",
       "question": "According to ICAO Doc 8168, during approach to a controlled aerodrome for landing, when should the QNH\naltimeter setting be provided for flight crews?\n1. in landing clearances\n2. in approach clearances\n3. in clearances to enter the traffic circuit\n1 and 3\n2 and 3",
-      "options": [
-        "2 only.",
-        "1, 2 and 3",
-        "Question 12 of 16",
-        "ID:"
-      ],
+      "options": ["2 only.", "1, 2 and 3", "Question 12 of 16", "ID:"],
       "answer_index": 0
     },
     {
@@ -2513,23 +2233,13 @@
     {
       "id": "EN-I010-210105-01149",
       "question": "According to ICAO Doc 8168, required avionics for operation in parallel instrument approaches are:\n1. Normal IFR avionics\n2. Full ILS or MLS capability\n3. RNP-RNAV compliant navigation system\n1 only\n1, 2 and 3",
-      "options": [
-        "1 and 2 only",
-        "2 and 3 only",
-        "Question 4 of 5",
-        "ID:"
-      ],
+      "options": ["1 and 2 only", "2 and 3 only", "Question 4 of 5", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00483",
       "question": "In case of independent parallel approaches, the minimum radar separation on the ILS localizer is:\n8.0 NM\n5.0 NM",
-      "options": [
-        "1.0 NM",
-        "3.0 NM",
-        "Question 5 of 5",
-        "ID:"
-      ],
+      "options": ["1.0 NM", "3.0 NM", "Question 5 of 5", "ID:"],
       "answer_index": 0
     },
     {
@@ -2590,12 +2300,7 @@
     {
       "id": "EN-I010-201014-00499",
       "question": "When an aircraft is subjected to unlawful interference, the pilot shall set the transponder to Mode A, code:\n5500\n5000",
-      "options": [
-        "7600",
-        "7500",
-        "Question 6 of 13",
-        "ID:"
-      ],
+      "options": ["7600", "7500", "Question 6 of 13", "ID:"],
       "answer_index": 0
     },
     {
@@ -2810,12 +2515,7 @@
     {
       "id": "EN-I010-201014-00814",
       "question": "Assume that ATS can not establish contact with an aircraft on the frequency in use.\nIn case of emergency the ATS unit will contact the aircraft on frequency:\n123.4 MHz\n112 kHz",
-      "options": [
-        "121.5 MHz",
-        "243 kHz",
-        "Question 6 of 48",
-        "ID:"
-      ],
+      "options": ["121.5 MHz", "243 kHz", "Question 6 of 48", "ID:"],
       "answer_index": 0
     },
     {
@@ -2843,34 +2543,19 @@
     {
       "id": "EN-I010-201014-00750",
       "question": "IFR and VFR flights are permitted, air traffic control service is available for all flights, traffic information is provided\nfor VFR flights, separation is provided between IFR flights, between other IFR and VFR flights and between VFR and\nIFR flights\nThis is the definition for Airspace:\nClass A\nClass C",
-      "options": [
-        "Class F",
-        "Class D",
-        "Question 9 of 48",
-        "ID:"
-      ],
+      "options": ["Class F", "Class D", "Question 9 of 48", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00751",
       "question": "Which airspace class is described below?\n“IFR and VFR flights are permitted, air traffic control service is available for all flights, separation is provided\nbetween IFR flights, IFR flights obtain traffic information for VFR flights and VFR flights obtain traffic information for\nall other flights”\nClass E\nClass C",
-      "options": [
-        "Class D",
-        "Class F",
-        "Question 10 of 48",
-        "ID:"
-      ],
+      "options": ["Class D", "Class F", "Question 10 of 48", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00752",
       "question": "The class of airspace, where IFR and VFR flights are allowed, air traffic control service is provided for IFR flights,\nseparation is provided between IFR flights, and traffic information is given for all flights, is:\nClass D\nClass E",
-      "options": [
-        "Class G",
-        "Class C",
-        "Question 11 of 48",
-        "ID:"
-      ],
+      "options": ["Class G", "Class C", "Question 11 of 48", "ID:"],
       "answer_index": 0
     },
     {
@@ -2909,12 +2594,7 @@
     {
       "id": "EN-I010-201014-00753",
       "question": "The airspace class, where IFR and VFR flights are allowed, air traffic advisory service is available to all flights and\ntraffic information is available if requested, is:\nClass C\nClass F",
-      "options": [
-        "Class G",
-        "Class B",
-        "Question 15 of 48",
-        "ID:"
-      ],
+      "options": ["Class G", "Class B", "Question 15 of 48", "ID:"],
       "answer_index": 0
     },
     {
@@ -2953,23 +2633,13 @@
     {
       "id": "EN-I010-201014-00743",
       "question": "In airspace Class E below 10000 ft (3050 m) AMSL, what is the maximum speed for flights under IFR?\n250 kt IAS\n150 kt IAS",
-      "options": [
-        "200 kt TAS",
-        "250 kt TAS",
-        "Question 19 of 48",
-        "ID:"
-      ],
+      "options": ["200 kt TAS", "250 kt TAS", "Question 19 of 48", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00742",
       "question": "For a flight in airspace Class C below 10000ft (3050 m) AMSL, the maximum speed under VFR is:\n250 kt TAS\n150 kt TAS",
-      "options": [
-        "250 kt IAS",
-        "200 kt IAS",
-        "Question 20 of 48",
-        "ID:"
-      ],
+      "options": ["250 kt IAS", "200 kt IAS", "Question 20 of 48", "ID:"],
       "answer_index": 0
     },
     {
@@ -2986,12 +2656,7 @@
     {
       "id": "EN-I010-201014-00744",
       "question": "The speed for a flight under IFR in airspace Class C below 10000 ft (3050 m) AMSL is…\n200 kt IAS.\n150 kt TAS.",
-      "options": [
-        "not restricted.",
-        "250 kt IAS.",
-        "Question 22 of 48",
-        "ID:"
-      ],
+      "options": ["not restricted.", "250 kt IAS.", "Question 22 of 48", "ID:"],
       "answer_index": 0
     },
     {
@@ -3063,23 +2728,13 @@
     {
       "id": "EN-I010-201014-00701",
       "question": "A control zone shall extend from the centre of the aerodrome, or aerodromes affected in the direction from which\napproaches may be made, by a minimum distance of:\n10 NM\n3 NM",
-      "options": [
-        "20 NM",
-        "5 NM",
-        "Question 29 of 48",
-        "ID:"
-      ],
+      "options": ["20 NM", "5 NM", "Question 29 of 48", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00808",
       "question": "Air Traffic Control Service will be provided for all VFR flights in airspaces of class…\nB, C and D.\nA, B and E.",
-      "options": [
-        "A, B and C.",
-        "C, D and E.",
-        "Question 30 of 48",
-        "ID:"
-      ],
+      "options": ["A, B and C.", "C, D and E.", "Question 30 of 48", "ID:"],
       "answer_index": 0
     },
     {
@@ -3140,12 +2795,7 @@
     {
       "id": "EN-I010-201014-00765",
       "question": "In which classes of airspace is a Flight Information Service provided?\nA, B, C, D, E, F and G\nC and D only",
-      "options": [
-        "G only",
-        "C, D, E, F, and G",
-        "Question 36 of 48",
-        "ID:"
-      ],
+      "options": ["G only", "C, D, E, F, and G", "Question 36 of 48", "ID:"],
       "answer_index": 0
     },
     {
@@ -3338,12 +2988,7 @@
     {
       "id": "EN-I010-201014-00843",
       "question": "A clearance issued by ATC is not conform with the Standardised European Rules of the Air (SERA).\nThe responsibility for ensuring compliance of the flight with SERA is with…\nATC.\nthe operator.",
-      "options": [
-        "the PIC.",
-        "local authority.",
-        "Question 6 of 70",
-        "ID:"
-      ],
+      "options": ["the PIC.", "local authority.", "Question 6 of 70", "ID:"],
       "answer_index": 0
     },
     {
@@ -3382,34 +3027,19 @@
     {
       "id": "EN-I010-201014-00845",
       "question": "ATC instructions for speed adjustments aim at:\n1. facilitate a safe and orderly flow of traffic\n2. reduce fuel consumption\n3. reduce flight time\n1 only\n1, 2 and 3",
-      "options": [
-        "1 and 2",
-        "2 and 3.",
-        "Question 10 of 70",
-        "ID:"
-      ],
+      "options": ["1 and 2", "2 and 3.", "Question 10 of 70", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00736",
       "question": "During an intermediate or final approach, ATC may require an adjustment of speed that will not exceed\nplus or minus:\n30 kt IAS\n5 kt IAS",
-      "options": [
-        "20 kt IAS",
-        "15 kt IAS",
-        "Question 11 of 70",
-        "ID:"
-      ],
+      "options": ["20 kt IAS", "15 kt IAS", "Question 11 of 70", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00819",
       "question": "On the final approach, at what distance from threshold may the PIC expect to stop receiving instructions\nfor speed adjustments?\n6 NM\n10 NM",
-      "options": [
-        "4 NM",
-        "2 NM",
-        "Question 12 of 70",
-        "ID:"
-      ],
+      "options": ["4 NM", "2 NM", "Question 12 of 70", "ID:"],
       "answer_index": 0
     },
     {
@@ -3437,34 +3067,19 @@
     {
       "id": "EN-I010-201014-00777",
       "question": "What is the maximum certified take-off mass of an aircraft to be categorised in wake turbulence category\nLIGHT (L)?\n6800 kg\n7000 kg",
-      "options": [
-        "7500 kg",
-        "7700 kg",
-        "Question 15 of 70",
-        "ID:"
-      ],
+      "options": ["7500 kg", "7700 kg", "Question 15 of 70", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00779",
       "question": "What is the minimum separation between a light or medium aircraft and a heavy aircraft, when the\nheavier aircraft is making a low or missed approach and the lighter aircraft is utilising an oppositedirection runway for take-off?\nNo separation is required.\n1 minute",
-      "options": [
-        "3 minutes",
-        "2 minutes",
-        "Question 16 of 70",
-        "ID:"
-      ],
+      "options": ["3 minutes", "2 minutes", "Question 16 of 70", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-210105-01163",
       "question": "According to ICAO Doc 4444 (PANS-ATM), which word should be added to the call sign of aircrafts with\nmaximum certified take-off mass of 136.000 kg or more?\nPriority\nWake",
-      "options": [
-        "Large",
-        "Heavy",
-        "Question 17 of 70",
-        "ID:"
-      ],
+      "options": ["Large", "Heavy", "Question 17 of 70", "ID:"],
       "answer_index": 0
     },
     {
@@ -3481,12 +3096,7 @@
     {
       "id": "EN-I010-201014-00848",
       "question": "The lowest usable flight level, stated in ICAO Doc 4444 on Air Traffic Management, is determined by ____\nand is at or above the established minimum flight altitude.\nthe operator\nthe PIC",
-      "options": [
-        "ICAO",
-        "ATC",
-        "Question 19 of 70",
-        "ID:"
-      ],
+      "options": ["ICAO", "ATC", "Question 19 of 70", "ID:"],
       "answer_index": 0
     },
     {
@@ -3580,12 +3190,7 @@
     {
       "id": "EN-I010-201014-00692",
       "question": "The minimum vertical separation in RVSM airspace for aircrafts flying in the opposite direction, at or\nabove FL 290 is:\n500 ft\n300 ft",
-      "options": [
-        "2000 ft",
-        "1000 ft",
-        "Question 28 of 70",
-        "ID:"
-      ],
+      "options": ["2000 ft", "1000 ft", "Question 28 of 70", "ID:"],
       "answer_index": 0
     },
     {
@@ -3602,23 +3207,13 @@
     {
       "id": "EN-I010-201014-00768",
       "question": "The standard vertical separation minima between two aircraft flying in the same direction above FL290 is:\n2000 feet\n4000 feet",
-      "options": [
-        "2500 feet",
-        "1000 feet",
-        "Question 30 of 70",
-        "ID:"
-      ],
+      "options": ["2500 feet", "1000 feet", "Question 30 of 70", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00784",
       "question": "Flights operated under IFR in non-RVSM airspace above FL290, proceeding in the same direction are\nseparated by:\n2500 ft\n1000 ft",
-      "options": [
-        "4000 ft",
-        "1500 ft",
-        "Question 31 of 70",
-        "ID:"
-      ],
+      "options": ["4000 ft", "1500 ft", "Question 31 of 70", "ID:"],
       "answer_index": 0
     },
     {
@@ -3635,12 +3230,7 @@
     {
       "id": "EN-I010-201014-00697",
       "question": "The minimum distance in the landing sequence between a LIGHT and a preceding HEAVY aircraft is:\n6 NM\n4 NM",
-      "options": [
-        "2 NM",
-        "3 NM",
-        "Question 33 of 70",
-        "ID:"
-      ],
+      "options": ["2 NM", "3 NM", "Question 33 of 70", "ID:"],
       "answer_index": 0
     },
     {
@@ -3701,23 +3291,13 @@
     {
       "id": "EN-I010-201014-00739",
       "question": "When a light aircraft taking off behind a heavy aircraft from the same position on the same runway, the\nminimum wake\n5 minutes\n2 minutes",
-      "options": [
-        "3 minutes",
-        "4 minute",
-        "Question 39 of 70",
-        "ID:"
-      ],
+      "options": ["3 minutes", "4 minute", "Question 39 of 70", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00802",
       "question": "What is the minimum wake turbulence separation between a MEDIUM aircraft and a HEAVY aircraft?\n2 minutes\n3 minutes",
-      "options": [
-        "6 minutes",
-        "1 minutes",
-        "Question 40 of 70",
-        "ID:"
-      ],
+      "options": ["6 minutes", "1 minutes", "Question 40 of 70", "ID:"],
       "answer_index": 0
     },
     {
@@ -3745,12 +3325,7 @@
     {
       "id": "EN-I010-201014-00718",
       "question": "A flight under VFR constitutes essential traffic to other VFR flights, when operating in controlled airspace …\nClass B\nClass C",
-      "options": [
-        "Class D",
-        "Class A",
-        "Question 43 of 70",
-        "ID:"
-      ],
+      "options": ["Class D", "Class A", "Question 43 of 70", "ID:"],
       "answer_index": 0
     },
     {
@@ -3778,45 +3353,25 @@
     {
       "id": "EN-I010-201014-00737",
       "question": "The pilot of an arriving aircraft is informed about a change in the surface wind when the tailwind\ncomponent differs by more than:\n8 kt\n1 kt",
-      "options": [
-        "2 kt",
-        "5 kt",
-        "Question 46 of 70",
-        "ID:"
-      ],
+      "options": ["2 kt", "5 kt", "Question 46 of 70", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00735",
       "question": "The pilot of an arriving aircraft is informed about a change in the surface wind when the crosswind\ncomponent differs by more than:\n15 kt\n10 kt",
-      "options": [
-        "5 kt",
-        "3 kt",
-        "Question 47 of 70",
-        "ID:"
-      ],
+      "options": ["5 kt", "3 kt", "Question 47 of 70", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00738",
       "question": "The pilot of an arriving aircraft is informed about a change in the surface wind when the headwind\ncomponent differs by more than:\n15 kt\n10 kt",
-      "options": [
-        "2 kt",
-        "5 kt",
-        "Question 48 of 70",
-        "ID:"
-      ],
+      "options": ["2 kt", "5 kt", "Question 48 of 70", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00694",
       "question": "A pilot can expect the clearance to land, or any alternative clearance, at a distance from touchdown of:\n3 NM\n2 NM",
-      "options": [
-        "5 NM",
-        "0.2 NM",
-        "Question 49 of 70",
-        "ID:"
-      ],
+      "options": ["5 NM", "0.2 NM", "Question 49 of 70", "ID:"],
       "answer_index": 0
     },
     {
@@ -3888,45 +3443,25 @@
     {
       "id": "EN-I010-201014-00722",
       "question": "When ATC is using primary surveillance radar, the pilot can expect the identification on departure at a\nwhat distance from the end of the runway?\n0.5 NM\n4 NM",
-      "options": [
-        "1 NM",
-        "2 NM",
-        "Question 56 of 70",
-        "ID:"
-      ],
+      "options": ["1 NM", "2 NM", "Question 56 of 70", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00725",
       "question": "A pilot can expect instructions for a missed approach from radar when the controller has not issued the\nlanding-clearance when the aircraft is at what distance from touch-down?\n0.5 NM\n1 NM",
-      "options": [
-        "2 NM",
-        "2.5 NM",
-        "Question 57 of 70",
-        "ID:"
-      ],
+      "options": ["2 NM", "2.5 NM", "Question 57 of 70", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00755",
       "question": "Aircraft under radar-control shall not operated closer than what distance to the boundary of a controlled\nairspace?\n2 NM\n4 NM",
-      "options": [
-        "1.5 NM",
-        "2.5 NM",
-        "Question 58 of 70",
-        "ID:"
-      ],
+      "options": ["1.5 NM", "2.5 NM", "Question 58 of 70", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00804",
       "question": "When the Secondary Surveillance Radar is unservicable, the pilot may be requested by ATC to execute\none or more heading changes of ____ degress or more for radar identification.\n20\n30",
-      "options": [
-        "5",
-        "15",
-        "Question 59 of 70",
-        "ID:"
-      ],
+      "options": ["5", "15", "Question 59 of 70", "ID:"],
       "answer_index": 0
     },
     {
@@ -3954,23 +3489,13 @@
     {
       "id": "EN-I010-201014-00734",
       "question": "During a surveillance radar approach, a pilot will receive missed-approach instructions from the radar\ncontroller when the tower has not issued a clearance to land by the time the aircraft reaches a distance\nfrom touch down of:\n4 NM\n1.5 NM",
-      "options": [
-        "5 NM",
-        "2 NM",
-        "Question 62 of 70",
-        "ID:"
-      ],
+      "options": ["5 NM", "2 NM", "Question 62 of 70", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00733",
       "question": "When surveillance radar approaches are proceeded to the threshold of the runway, transmission should\nnot be interrupted for intervals of more than five seconds while the aircraft is within a distance from touch\ndown of:\n1 NM\n5 NM",
-      "options": [
-        "4 NM",
-        "1.5 NM",
-        "Question 63 of 70",
-        "ID:"
-      ],
+      "options": ["4 NM", "1.5 NM", "Question 63 of 70", "ID:"],
       "answer_index": 0
     },
     {
@@ -4042,12 +3567,7 @@
     {
       "id": "EN-I010-201014-00794",
       "question": "In an air traffic incident report the abbreviation ____ should be used to designate “aircraft proximity”.\nAIRCOL\nAIRPROX",
-      "options": [
-        "PROXI",
-        "PROXAIR",
-        "Question 70 of 70",
-        "ID:"
-      ],
+      "options": ["PROXI", "PROXAIR", "Question 70 of 70", "ID:"],
       "answer_index": 0
     },
     {
@@ -4130,111 +3650,61 @@
     {
       "id": "EN-I010-201014-00986",
       "question": "The part of the Aeronautical Information Publication (AIP) containing runway physical characteristics, declared\ndistances, approach lighting and runway lighting is called:\nAD\nAMDT",
-      "options": [
-        "ENR",
-        "GEN",
-        "Question 2 of 19",
-        "ID:"
-      ],
+      "options": ["ENR", "GEN", "Question 2 of 19", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00975",
       "question": "Which part of the AIP includes a short description of areas and/or routes for which meteorological service is provided?\nENR\nMET",
-      "options": [
-        "GEN",
-        "SUP",
-        "Question 3 of 19",
-        "ID:"
-      ],
+      "options": ["GEN", "SUP", "Question 3 of 19", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00942",
       "question": "Where are temporary, long-term modifications and short-term extensive or graphical information published?\nAIP SUP\nAIRAC",
-      "options": [
-        "AIP AMD",
-        "NOTAMs",
-        "Question 4 of 19",
-        "ID:"
-      ],
+      "options": ["AIP AMD", "NOTAMs", "Question 4 of 19", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00938",
       "question": "Which part of the AIP provides information about holding, approach, and departure procedures?\nMAP\nSUP",
-      "options": [
-        "GEN",
-        "ENR",
-        "Question 5 of 19",
-        "ID:"
-      ],
+      "options": ["GEN", "ENR", "Question 5 of 19", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00937",
       "question": "Which part of the AIP provides a short description of the service(s) responsible for Search and Rescue?\nSUP\nGEN",
-      "options": [
-        "AD",
-        "ENR",
-        "Question 6 of 19",
-        "ID:"
-      ],
+      "options": ["AD", "ENR", "Question 6 of 19", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00924",
       "question": "Which part of AIP that provides information about prohibited (P), restricted (R) and danger (D) areas?\nAD\nSUP",
-      "options": [
-        "GEN",
-        "ENR",
-        "Question 7 of 19",
-        "ID:"
-      ],
+      "options": ["GEN", "ENR", "Question 7 of 19", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00875",
       "question": "Which part of the AIP includes a list with “Location Indicators”?\nSUP\nGEN",
-      "options": [
-        "ENR",
-        "AIS",
-        "Question 8 of 19",
-        "ID:"
-      ],
+      "options": ["ENR", "AIS", "Question 8 of 19", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00856",
       "question": "Which part of the AIP provides information about SIGMET?\nGEN\nSUP",
-      "options": [
-        "ENR",
-        "AD",
-        "Question 9 of 19",
-        "ID:"
-      ],
+      "options": ["ENR", "AD", "Question 9 of 19", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00851",
       "question": "Which part of AIP provides information about refuelling facilities and available fuel grades?\nGEN\nENR",
-      "options": [
-        "AD",
-        "SUP",
-        "Question 10 of 19",
-        "ID:"
-      ],
+      "options": ["AD", "SUP", "Question 10 of 19", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00853",
       "question": "Relating to the AIP supplements, temporary AIP changes of long duration lasts for…\nsix months.\none months.",
-      "options": [
-        "three months.",
-        "nine months.",
-        "Question 11 of 19",
-        "ID:"
-      ],
+      "options": ["three months.", "nine months.", "Question 11 of 19", "ID:"],
       "answer_index": 0
     },
     {
@@ -4273,12 +3743,7 @@
     {
       "id": "EN-I010-201014-00940",
       "question": "What is the name of the NOTAM providing information about volcano activity, eruption, or ash cloud?\nSIGMET\nVULTAM",
-      "options": [
-        "SNOWTAM",
-        "ASHTAM",
-        "Question 15 of 19",
-        "ID:"
-      ],
+      "options": ["SNOWTAM", "ASHTAM", "Question 15 of 19", "ID:"],
       "answer_index": 0
     },
     {
@@ -4295,34 +3760,19 @@
     {
       "id": "EN-I010-201014-00941",
       "question": "The system notifying in advance the circumstances requiring important changes in the methods of operation, based\non common effective dates, is identified by the abbreviation:\nNOTAM\nAIS",
-      "options": [
-        "AIRMET",
-        "AIRAC",
-        "Question 17 of 19",
-        "ID:"
-      ],
+      "options": ["AIRMET", "AIRAC", "Question 17 of 19", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00934",
       "question": "How are operationally significant changes to the AIP, published at a specific date, called?\nAIRAC\nNOTAM",
-      "options": [
-        "NOTOC",
-        "AIS",
-        "Question 18 of 19",
-        "ID:"
-      ],
+      "options": ["NOTOC", "AIS", "Question 18 of 19", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00977",
       "question": "The publication of the AIS containing information on Rules of the Air, Air Traffic Services and Air Navigation\nProcedures, published in advance to become effective at a specific date, is called:\nNOTAM\nTAF",
-      "options": [
-        "AIRAC",
-        "AIP",
-        "Question 19 of 19",
-        "ID:"
-      ],
+      "options": ["AIRAC", "AIP", "Question 19 of 19", "ID:"],
       "answer_index": 0
     },
     {
@@ -4372,23 +3822,13 @@
     {
       "id": "EN-I010-201014-00897",
       "question": "Relating to the pavement strength, the letter “A” in the abbreviation ACN stands for:\nAirport\nAircraft",
-      "options": [
-        "Aerodrome",
-        "Aviation",
-        "Question 3 of 11",
-        "ID:"
-      ],
+      "options": ["Aerodrome", "Aviation", "Question 3 of 11", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00898",
       "question": "Relating to the bearing strength of aprons, runways, and taxiways, the letter “C” in the abbreviation PCN stands for:\nCapacity\nCertified",
-      "options": [
-        "Classification",
-        "Code",
-        "Question 4 of 11",
-        "ID:"
-      ],
+      "options": ["Classification", "Code", "Question 4 of 11", "ID:"],
       "answer_index": 0
     },
     {
@@ -4460,12 +3900,7 @@
     {
       "id": "EN-I010-201014-00910",
       "question": "Relating to runway surface conditions, “when more than 25 per cent of the runway is covered by water more than 3\nmm deep” is the description for…\nstanding water.\nwet.",
-      "options": [
-        "slippery.",
-        "damp.",
-        "Question 11 of 11",
-        "ID:"
-      ],
+      "options": ["slippery.", "damp.", "Question 11 of 11", "ID:"],
       "answer_index": 0
     },
     {
@@ -4548,23 +3983,13 @@
     {
       "id": "EN-I010-201014-00894",
       "question": "According ICAO Annex 14, “a defined rectangular area on the ground or water, selected or prepared as a\nsuitable area over which an aircraft may make a portion of its initial climb to a specified height” is referred to\nas:\nStopway\nClearway",
-      "options": [
-        "Screen height",
-        "Runway",
-        "Question 8 of 13",
-        "ID:"
-      ],
+      "options": ["Screen height", "Runway", "Question 8 of 13", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00905",
       "question": "A clearway is included in the:\nASDA\nLDA",
-      "options": [
-        "TORA",
-        "TODA",
-        "Question 9 of 13",
-        "ID:"
-      ],
+      "options": ["TORA", "TODA", "Question 9 of 13", "ID:"],
       "answer_index": 0
     },
     {
@@ -4647,12 +4072,7 @@
     {
       "id": "EN-I010-201014-00951",
       "question": "Runway markings are coloured in…\nred.\nwhite.",
-      "options": [
-        "orange.",
-        "green.",
-        "Question 4 of 30",
-        "ID:"
-      ],
+      "options": ["orange.", "green.", "Question 4 of 30", "ID:"],
       "answer_index": 0
     },
     {
@@ -4669,56 +4089,31 @@
     {
       "id": "EN-I010-201014-01005",
       "question": "ICAO Annex 14 states that ____ lights shall be used, for safety reasons, for elevated runways, stopways\nand taxiways.\nrigid\nre-inforced",
-      "options": [
-        "detachable",
-        "frangible",
-        "Question 6 of 30",
-        "ID:"
-      ],
+      "options": ["detachable", "frangible", "Question 6 of 30", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00929",
       "question": "How long is the approach lighting system for a precision-approach runway CAT II?\n1200 m\n500 m",
-      "options": [
-        "900 m",
-        "150 m",
-        "Question 7 of 30",
-        "ID:"
-      ],
+      "options": ["900 m", "150 m", "Question 7 of 30", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-01007",
       "question": "According to ICAO Annex 14, one part of a simple approach lighting system is a row of lights along the\ncentre line extending from the threshold.\nThe distance, equipped with lights, should be at least:\n550 m\n900 m",
-      "options": [
-        "250 m",
-        "420 m",
-        "Question 8 of 30",
-        "ID:"
-      ],
+      "options": ["250 m", "420 m", "Question 8 of 30", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00927",
       "question": "A precision approach CAT I Lighting System shall be equipped with a row of lights on the extended runway\ncentre line over a distance of [1] ___ with a row of lights forming a crossbar 30 m in length at a distance of\n[2] ___ from the runway threshold.\n[1] 600 m\n[2] 300 m\n[1] 900 m\n[2] 600 m\n[1] 300 m\n[2] 150 m",
-      "options": [
-        "[1] 900 m",
-        "[2] 300 m",
-        "Question 9 of 30",
-        "ID:"
-      ],
+      "options": ["[1] 900 m", "[2] 300 m", "Question 9 of 30", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00945",
       "question": "The centre line and crossbar lights of a precision approach CAT I lighting system are fixed ____ lights of\nvariable intensity.\ngreen\nwhite",
-      "options": [
-        "red",
-        "yellow",
-        "Question 10 of 30",
-        "ID:"
-      ],
+      "options": ["red", "yellow", "Question 10 of 30", "ID:"],
       "answer_index": 0
     },
     {
@@ -4735,12 +4130,7 @@
     {
       "id": "EN-I010-201014-00925",
       "question": "During final approach on a normal glide path, a Precision Approach Path Indicator (PAPI) should indicate how\nmany visible red lights?\n2\n4",
-      "options": [
-        "0",
-        "1",
-        "Question 12 of 30",
-        "ID:"
-      ],
+      "options": ["0", "1", "Question 12 of 30", "ID:"],
       "answer_index": 0
     },
     {
@@ -4757,12 +4147,7 @@
     {
       "id": "EN-I010-201014-00926",
       "question": "Taxiway centerline lights, except at an exit, are fixed lights in which color?\nYellow\nWhite",
-      "options": [
-        "Green",
-        "Blue",
-        "Question 14 of 30",
-        "ID:"
-      ],
+      "options": ["Green", "Blue", "Question 14 of 30", "ID:"],
       "answer_index": 0
     },
     {
@@ -4779,23 +4164,13 @@
     {
       "id": "EN-I010-201014-00947",
       "question": "When a threshold is displaced, what is the colour of the lights in the approach direction between the\nbeginning of the runway and the displaced threshold?\nBlue\nRed",
-      "options": [
-        "White",
-        "Green",
-        "Question 16 of 30",
-        "ID:"
-      ],
+      "options": ["White", "Green", "Question 16 of 30", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00948",
       "question": "Runway threshold identification lights are ____ and flashing.\nwhite\nyellow",
-      "options": [
-        "green",
-        "red",
-        "Question 17 of 30",
-        "ID:"
-      ],
+      "options": ["green", "red", "Question 17 of 30", "ID:"],
       "answer_index": 0
     },
     {
@@ -4812,34 +4187,19 @@
     {
       "id": "EN-I010-201014-00979",
       "question": "What is the colour of the fixed and unidirectional Runway End Lights?\nBlue\nWhite",
-      "options": [
-        "Red",
-        "Green",
-        "Question 19 of 30",
-        "ID:"
-      ],
+      "options": ["Red", "Green", "Question 19 of 30", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00980",
       "question": "What is the colour of the fixed and unidirectional runway threshold and wing bar lights?\nRed\nWhite",
-      "options": [
-        "Blue",
-        "Green",
-        "Question 20 of 30",
-        "ID:"
-      ],
+      "options": ["Blue", "Green", "Question 20 of 30", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00981",
       "question": "What is the colour of the fixed taxiway edge lights?\nWhite\nRed",
-      "options": [
-        "Blue",
-        "Green",
-        "Question 21 of 30",
-        "ID:"
-      ],
+      "options": ["Blue", "Green", "Question 21 of 30", "ID:"],
       "answer_index": 0
     },
     {
@@ -4856,12 +4216,7 @@
     {
       "id": "EN-I010-201014-01011",
       "question": "According ICAO Annex 14, which signs on the moving area shall be colored in red?\n1. Information signs\n2. Mandatory instruction signs\n3. Checkpoint signs\n1, 2 and 3\n1 only",
-      "options": [
-        "1 and 2",
-        "2 only",
-        "Question 23 of 30",
-        "ID:"
-      ],
+      "options": ["1 and 2", "2 only", "Question 23 of 30", "ID:"],
       "answer_index": 0
     },
     {
@@ -4955,67 +4310,37 @@
     {
       "id": "EN-I010-201014-00988",
       "question": "According ICAO Annex 14, emergency vehicles should be coloured in:",
-      "options": [
-        "yellow",
-        "red",
-        "black",
-        "yellowish green"
-      ],
+      "options": ["yellow", "red", "black", "yellowish green"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00989",
       "question": "According ICAO Annex 14, which colour should be used for service vehicles?\nYellow\nCyan",
-      "options": [
-        "Green",
-        "White",
-        "Question 3 of 7",
-        "ID:"
-      ],
+      "options": ["Green", "White", "Question 3 of 7", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-01020",
       "question": "According ICAO Annex 14, which colour should be used for flags marking fixed objects on an aerodrome\nwhen contrast to background colors can be assured?\nGreen\nOrange",
-      "options": [
-        "White",
-        "Red",
-        "Question 4 of 7",
-        "ID:"
-      ],
+      "options": ["White", "Red", "Question 4 of 7", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00982",
       "question": "What is the colour of high-intensity obstacle lights?\nFlashing-white\nSteady-red",
-      "options": [
-        "Steady-white",
-        "Flashing-red",
-        "Question 5 of 7",
-        "ID:"
-      ],
+      "options": ["Steady-white", "Flashing-red", "Question 5 of 7", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00983",
       "question": "What is the colour of low-intensity obstacle lights on vehicles, other than emergency or security vehicles?\nSteady yellow\nFlashing green",
-      "options": [
-        "Steady red",
-        "Flashing yellow",
-        "Question 6 of 7",
-        "ID:"
-      ],
+      "options": ["Steady red", "Flashing yellow", "Question 6 of 7", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-00984",
       "question": "What is the colour of low-intensity obstacle lights on fixed objects?\nFlashing yellow\nSteady white",
-      "options": [
-        "Flashing red",
-        "Steady red",
-        "Question 7 of 7",
-        "ID:"
-      ],
+      "options": ["Flashing red", "Steady red", "Question 7 of 7", "ID:"],
       "answer_index": 0
     },
     {
@@ -5153,12 +4478,7 @@
     {
       "id": "EN-I010-201014-01021",
       "question": "According ICAO Annex 14, what shall be the minimum length of the row of lights in a Precision Approach Category I\nlighting system?\n150 m\n300 m",
-      "options": [
-        "1200 m",
-        "900 m",
-        "Question 5 of 5",
-        "ID:"
-      ],
+      "options": ["1200 m", "900 m", "Question 5 of 5", "ID:"],
       "answer_index": 0
     },
     {
@@ -5252,12 +4572,7 @@
     {
       "id": "EN-I010-210105-01169",
       "question": "According ICAO Annex 12 defintions, “emergency phase” includes:\n1. Alert Phase\n2. Distress Phase\n3. Uncertainty Phase\n3 only\n1 and 3 only",
-      "options": [
-        "1, 2 and 3",
-        "1 and 2 only",
-        "Question 2 of 5",
-        "ID:"
-      ],
+      "options": ["1, 2 and 3", "1 and 2 only", "Question 2 of 5", "ID:"],
       "answer_index": 0
     },
     {
@@ -5340,45 +4655,25 @@
     {
       "id": "EN-I010-201014-01045",
       "question": "The ground-air visual signal code to be used by survivors on the ground to indicate “require assistance” is…\nV\nX",
-      "options": [
-        "N",
-        "Y",
-        "Question 2 of 6",
-        "ID:"
-      ],
+      "options": ["N", "Y", "Question 2 of 6", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-01046",
       "question": "The ground-air visual signal code to be used by survivors on the ground to indicate “require medical\nassistance” is…\nY\nV",
-      "options": [
-        "N",
-        "X",
-        "Question 3 of 6",
-        "ID:"
-      ],
+      "options": ["N", "X", "Question 3 of 6", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-01047",
       "question": "The ground-air visual signal code to be used by survivors on the ground to indicate “affirmative” is:\nY\nN",
-      "options": [
-        "X",
-        "V",
-        "Question 4 of 6",
-        "ID:"
-      ],
+      "options": ["X", "V", "Question 4 of 6", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-01060",
       "question": "The ground-air visual signal code to be used by survivors on ground to indicate “NEGATIVE” is:\nY\nV",
-      "options": [
-        "X",
-        "N",
-        "Question 5 of 6",
-        "ID:"
-      ],
+      "options": ["X", "N", "Question 5 of 6", "ID:"],
       "answer_index": 0
     },
     {
@@ -5593,12 +4888,7 @@
     {
       "id": "EN-I010-201014-01061",
       "question": "According ICAO Annex 17, an isolated aircraft parking position should be located at the maximum distance\npracticable and in\n50 m\n500 m",
-      "options": [
-        "200 m",
-        "100 m",
-        "Question 6 of 6",
-        "ID:"
-      ],
+      "options": ["200 m", "100 m", "Question 6 of 6", "ID:"],
       "answer_index": 0
     },
     {
@@ -5648,23 +4938,13 @@
     {
       "id": "EN-I010-210105-01177",
       "question": "According to ICAO Annex 13, an occurrence “other than an accident, associated with the operation of an aircraft\nwhich affects or could affect the safety of operation”, is referred to as:\nIncident\nDangerous event",
-      "options": [
-        "Damage",
-        "Loss",
-        "Question 2 of 3",
-        "ID:"
-      ],
+      "options": ["Damage", "Loss", "Question 2 of 3", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I010-201014-01104",
       "question": "According to ICAO Annex 13, an occurrence in which “a person is fatally or seriously injured, the aircraft sustains\ndamage or structural failure or the aircraft is missing or is completely inaccessible”, is referred to as:\nAccident\nLoss",
-      "options": [
-        "Damage",
-        "Incident",
-        "Question 3 of 3",
-        "ID:"
-      ],
+      "options": ["Damage", "Incident", "Question 3 of 3", "ID:"],
       "answer_index": 0
     },
     {
@@ -5758,12 +5038,7 @@
     {
       "id": "EN-I010-210105-01183",
       "question": "According Regulation (EU) No 376/2014, Article 5, each organisation established in a Member State shall\nestablish a voluntary\nreporting system to facilitate the collection of:\n1. details of occurrences that may not be captured by the mandatory reporting system\n2. other safety-related information which is perceived by the reporter as an actual or potential hazard to\naviation\nsafety\n3. events that lead to injury or death of passengers\n2 and 3 only\n1 only",
-      "options": [
-        "1 and 2 only",
-        "1, 2 and 3",
-        "Question 9 of 9",
-        "ID:"
-      ],
+      "options": ["1 and 2 only", "1, 2 and 3", "Question 9 of 9", "ID:"],
       "answer_index": 0
     },
     {

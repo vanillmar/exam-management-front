@@ -24,23 +24,13 @@
   {
     "id": 2,
     "question": "The speed limitation for IFR flights inside ATS airspace classified as C, when flying below 3.050 m (10.000 ft) AMSL, is :",
-    "options": [
-      "Not applicable",
-      "250 KT IAS",
-      "250 KT TAS",
-      "240 KT IAS"
-    ],
+    "options": ["Not applicable", "250 KT IAS", "250 KT TAS", "240 KT IAS"],
     "correct_index": 0
   },
   {
     "id": 3,
     "question": "The temporary, long-term modification ( 3 months or more) and the short-term extensive or graphical information are published as follows:",
-    "options": [
-      "NOTAM",
-      "Trigger NOTAM",
-      "AIP Supplements",
-      "AIP Amendments"
-    ],
+    "options": ["NOTAM", "Trigger NOTAM", "AIP Supplements", "AIP Amendments"],
     "correct_index": 2
   },
   {
@@ -90,12 +80,7 @@
   {
     "id": 8,
     "question": "Which code shall be used on Mode (A) to provide recognition of an aircraft subjected to unlawful interference?",
-    "options": [
-      "Code 7600.",
-      "Code 2000.",
-      "Code 7500.",
-      "Code 7700."
-    ],
+    "options": ["Code 7600.", "Code 2000.", "Code 7500.", "Code 7700."],
     "correct_index": 2
   },
   {
@@ -123,12 +108,7 @@
   {
     "id": 11,
     "question": "The criterion which shall be used to determine that a specific level is occupied by an aircraft shall be, (except that appropriate ATS authorities may specify a smaller criterion):",
-    "options": [
-      "+/- 150 ft.",
-      "+/- 250 ft.",
-      "+/- 300 ft.",
-      "+/- 200 ft."
-    ],
+    "options": ["+/- 150 ft.", "+/- 250 ft.", "+/- 300 ft.", "+/- 200 ft."],
     "correct_index": 2
   },
   {
@@ -222,12 +202,7 @@
   {
     "id": 20,
     "question": "Longitudinal separation minima based on time for aircraft at the same cruising level when navigation aids permit frequent determination of position and speed provided that the preceding aircraft is maintaining a true air speed of 20 Kt or more faster than the succeeding aircraft will be",
-    "options": [
-      "10 minutes",
-      "2 minutes",
-      "5 minutes",
-      "3 minutes"
-    ],
+    "options": ["10 minutes", "2 minutes", "5 minutes", "3 minutes"],
     "correct_index": 2
   },
   {
@@ -453,23 +428,13 @@
   {
     "id": 41,
     "question": "Which of the following Annexes to the Chicago convention contains minimum specifications for the design of aerodromes?",
-    "options": [
-      "Annex 6",
-      "Annex 11",
-      "Annex 10",
-      "Annex 14"
-    ],
+    "options": ["Annex 6", "Annex 11", "Annex 10", "Annex 14"],
     "correct_index": 3
   },
   {
     "id": 42,
     "question": "The International Civil Aviation Convention Annex containing standards and recommended practices for Personnel Licensing is :",
-    "options": [
-      "Annex 1",
-      "Annex 2",
-      "Annex 11",
-      "Annex 12"
-    ],
+    "options": ["Annex 1", "Annex 2", "Annex 11", "Annex 12"],
     "correct_index": 0
   },
   {
@@ -497,12 +462,7 @@
   {
     "id": 45,
     "question": "The longitudinal separation minima based on time between aircraft at same cruising level where navigation aids permit frequent determination of position and speed, is:",
-    "options": [
-      "15 minutes.",
-      "3 minutes.",
-      "10 minutes.",
-      "5 minutes."
-    ],
+    "options": ["15 minutes.", "3 minutes.", "10 minutes.", "5 minutes."],
     "correct_index": 2
   },
   {
@@ -519,23 +479,13 @@
   {
     "id": 47,
     "question": "A controlled flight is requested to inform the appropriate ATC unit whenever the average True Air Speed at cruising level varies or is expected to varyfrom that given in the flight plan by plus or minus:",
-    "options": [
-      "5%",
-      "3%",
-      "2%",
-      "10 %"
-    ],
+    "options": ["5%", "3%", "2%", "10 %"],
     "correct_index": 0
   },
   {
     "id": 48,
     "question": "The longitudinal separation minima between aircraft departed from the same aerodrome and following the same track, and the preceeding aircraft is maintaining a true airspeed of 20 kt or more faster than the succeeding aircraft, is:",
-    "options": [
-      "3 minutes.",
-      "10 minutes.",
-      "2 minutes.",
-      "5 minutes."
-    ],
+    "options": ["3 minutes.", "10 minutes.", "2 minutes.", "5 minutes."],
     "correct_index": 3
   },
   {
@@ -596,23 +546,13 @@
   {
     "id": 54,
     "question": "How far beyond the boundary of the holding area extends the buffer area?",
-    "options": [
-      "3 km.",
-      "5 NM.",
-      "3 NM.",
-      "5 km."
-    ],
+    "options": ["3 km.", "5 NM.", "3 NM.", "5 km."],
     "correct_index": 1
   },
   {
     "id": 55,
     "question": "In an instrument departure procedure the minimum obstacle clearance at the departure end of runway equals:",
-    "options": [
-      "0 ft.",
-      "3.3 % gradient.",
-      "35 ft.",
-      "0.8 % gradient."
-    ],
+    "options": ["0 ft.", "3.3 % gradient.", "35 ft.", "0.8 % gradient."],
     "correct_index": 0
   },
   {
@@ -651,12 +591,7 @@
   {
     "id": 59,
     "question": "Unless otherwise prescribed by the appropriate ATS authority, the horizontal radar separation minimum shall be:",
-    "options": [
-      "3.5 NM.",
-      "5.0 NM.",
-      "3.0 NM.",
-      "10.0 NM."
-    ],
+    "options": ["3.5 NM.", "5.0 NM.", "3.0 NM.", "10.0 NM."],
     "correct_index": 1
   },
   {
@@ -706,12 +641,7 @@
   {
     "id": 64,
     "question": "The pilot in command of an aircraft:\n1 - must comply immediately to all instructions received from ATC.\n2 - is responsible only if he is the (pilot flying).\n3 - may deviate from air regulations for safety reasons.\n4 - may be exempt from air regulations in order to comply to an ATC instruction.\n5 - may ask for the modification of an unsatisfactory clearance.\nWhich of the following combinations contains all of the correct statements?",
-    "options": [
-      "2 - 3 - 5",
-      "3 - 5",
-      "3 - 4 - 5",
-      "1 - 4"
-    ],
+    "options": ["2 - 3 - 5", "3 - 5", "3 - 4 - 5", "1 - 4"],
     "correct_index": 1
   },
   {
@@ -739,12 +669,7 @@
   {
     "id": 67,
     "question": "The pilot of an aircraft losing two-way communications shall set the transponder to Mode A Code:",
-    "options": [
-      "7700.",
-      "7600.",
-      "2000.",
-      "7500."
-    ],
+    "options": ["7700.", "7600.", "2000.", "7500."],
     "correct_index": 1
   },
   {
@@ -794,12 +719,7 @@
   {
     "id": 72,
     "question": "According with the 'Aerodrome Reference Code' the 'Code number 4' shall identify an aircraft reference field length of:",
-    "options": [
-      "1 500 m",
-      "1 200 m",
-      "1 800 m and over",
-      "1 600 m"
-    ],
+    "options": ["1 500 m", "1 200 m", "1 800 m and over", "1 600 m"],
     "correct_index": 2
   },
   {
@@ -816,12 +736,7 @@
   {
     "id": 74,
     "question": "During circling-to-land (with or without prescribed flight tracks), the maximum allowed airspeed for a Cat B aeroplane, in order to remain within the protection envelope, is:",
-    "options": [
-      "120 kt",
-      "125 kt",
-      "150 kt",
-      "135 kt"
-    ],
+    "options": ["120 kt", "125 kt", "150 kt", "135 kt"],
     "correct_index": 3
   },
   {
@@ -882,23 +797,13 @@
   {
     "id": 80,
     "question": "When an aircraft is subjected to unlawful interference, the pilot-in-command shall indicate the situation by setting the transponder to:",
-    "options": [
-      "7500",
-      "7700",
-      "7600",
-      "7000"
-    ],
+    "options": ["7500", "7700", "7600", "7000"],
     "correct_index": 0
   },
   {
     "id": 81,
     "question": "For a category I precision approach, the decision height cannot be lower than:",
-    "options": [
-      "150 ft",
-      "100 ft",
-      "200 ft",
-      "250 ft"
-    ],
+    "options": ["150 ft", "100 ft", "200 ft", "250 ft"],
     "correct_index": 2
   },
   {
@@ -981,12 +886,7 @@
   {
     "id": 89,
     "question": "An ATS airspace where IFR and VFR flights are permitted and all flights are subject to air traffic control service. IFR flights are separated from other IFR flights and receive traffic information in respect of VFR flights. VFR flights receive traffic information in respect of all other flights, is classified as:",
-    "options": [
-      "Airspace A",
-      "Airspace D",
-      "Airspace B",
-      "Airspace E"
-    ],
+    "options": ["Airspace A", "Airspace D", "Airspace B", "Airspace E"],
     "correct_index": 1
   },
   {
@@ -1058,12 +958,7 @@
   {
     "id": 96,
     "question": "Turning departures provide track guidance within:",
-    "options": [
-      "15 Km",
-      "20 Km",
-      "10 Km",
-      "5 Km"
-    ],
+    "options": ["15 Km", "20 Km", "10 Km", "5 Km"],
     "correct_index": 2
   },
   {
@@ -1157,12 +1052,7 @@
   {
     "id": 105,
     "question": "An ATS airspace where IFR and VFR flights are permitted, all flights are subject to air traffic control service and IFR flights are separated from other IFR flights and from VFR flights. VFR flights are separated from IFR flights and receive traffic information in respect of other VFR flights, is classified as:",
-    "options": [
-      "Airspace E",
-      "Airspace B",
-      "Airspace C",
-      "Airspace D"
-    ],
+    "options": ["Airspace E", "Airspace B", "Airspace C", "Airspace D"],
     "correct_index": 2
   },
   {
@@ -1179,23 +1069,13 @@
   {
     "id": 107,
     "question": "The minimum age for obtaining a PPL is:",
-    "options": [
-      "18 years",
-      "21 years",
-      "17 years",
-      "16 years"
-    ],
+    "options": ["18 years", "21 years", "17 years", "16 years"],
     "correct_index": 2
   },
   {
     "id": 108,
     "question": "The informations on holding, approach and departure procedures, are found in the following part of the AIP:",
-    "options": [
-      "AD",
-      "MAP",
-      "ENR",
-      "GEN"
-    ],
+    "options": ["AD", "MAP", "ENR", "GEN"],
     "correct_index": 0
   },
   {
@@ -1223,23 +1103,13 @@
   {
     "id": 111,
     "question": "Longitudinal separation minima based on distance using DME for aircraft at the same cruising level and track, provided that each aircraft utilizes 'on Track' DME stations and separation is checked by obtaining simultaneous DME readings, is:",
-    "options": [
-      "40 NM",
-      "20 NM",
-      "10 NM",
-      "25 NM"
-    ],
+    "options": ["40 NM", "20 NM", "10 NM", "25 NM"],
     "correct_index": 1
   },
   {
     "id": 112,
     "question": "In which chapter of the AIP can you find a list with 'location indicators'?",
-    "options": [
-      "GEN",
-      "AGA",
-      "ENR",
-      "AD"
-    ],
+    "options": ["GEN", "AGA", "ENR", "AD"],
     "correct_index": 0
   },
   {
@@ -1267,12 +1137,7 @@
   {
     "id": 115,
     "question": "An ATS airspace where IFR and VFR are permitted and receive flight information service if requested, is classified as:",
-    "options": [
-      "Airspace C",
-      "Airspace E",
-      "Airspace G",
-      "Airspace F"
-    ],
+    "options": ["Airspace C", "Airspace E", "Airspace G", "Airspace F"],
     "correct_index": 3
   },
   {
@@ -1289,23 +1154,13 @@
   {
     "id": 117,
     "question": "In general, during a straight-in approach, the MDH cannot be below:",
-    "options": [
-      "the OCH",
-      "200 ft",
-      "350 ft",
-      "400 ft"
-    ],
+    "options": ["the OCH", "200 ft", "350 ft", "400 ft"],
     "correct_index": 0
   },
   {
     "id": 118,
     "question": "A separation minimum shall be applied between a light or MEDIUM aircraft and a HEAVY aircraft and between a LIGHT aircraft and a MEDIUM aircraft when the heavier aircraft is making a low or missed approach and the lighter aircraft is landing on the same runway in the opposite direction or on a parallel opposite direction runway separated by:",
-    "options": [
-      "730 m",
-      "Less than 760 m",
-      "760 m",
-      "Less than 730 m"
-    ],
+    "options": ["730 m", "Less than 760 m", "760 m", "Less than 730 m"],
     "correct_index": 1
   },
   {
@@ -1421,12 +1276,7 @@
   {
     "id": 129,
     "question": "40) What is the shortest distance in a sequence for landing between a 'Heavy' aircraft preceding a 'Light' aircraft?",
-    "options": [
-      "6 NM",
-      "3 NM",
-      "2 km",
-      "10 km"
-    ],
+    "options": ["6 NM", "3 NM", "2 km", "10 km"],
     "correct_index": 0
   },
   {
@@ -1454,12 +1304,7 @@
   {
     "id": 132,
     "question": "46) What is the minimum vertical separation between aircraft flying IFR below flight level 290?",
-    "options": [
-      "500 feet",
-      "1500 feet",
-      "2000 feet",
-      "1000 feet"
-    ],
+    "options": ["500 feet", "1500 feet", "2000 feet", "1000 feet"],
     "correct_index": 3
   },
   {
@@ -1509,23 +1354,13 @@
   {
     "id": 137,
     "question": "39) A minimum radar separation shall be provided until aircraft are established inbound on the ILS localizer course and/or MLS final approach track. This minimum is, when independent parallel approaches are being conducted:",
-    "options": [
-      "1.0 NM",
-      "2.0 NM",
-      "3.0 NM",
-      "5.0 NM"
-    ],
+    "options": ["1.0 NM", "2.0 NM", "3.0 NM", "5.0 NM"],
     "correct_index": 2
   },
   {
     "id": 138,
     "question": "38) \"Code letter D\" shall be chosen to identify a taxiway used by aircraft having an outer main gear wheel span of less than 9 m. The taxiway width shall be:",
-    "options": [
-      "25 m.",
-      "18 m.",
-      "15 m.",
-      "23 m."
-    ],
+    "options": ["25 m.", "18 m.", "15 m.", "23 m."],
     "correct_index": 1
   },
   {
@@ -1575,12 +1410,7 @@
   {
     "id": 143,
     "question": "56) Related to the three entry sectors in a holding pattern, there is a zone of flexibility on either side of the sectors boundaries of:",
-    "options": [
-      "10°.",
-      "15°.",
-      "20°.",
-      "5°."
-    ],
+    "options": ["10°.", "15°.", "20°.", "5°."],
     "correct_index": 3
   },
   {
@@ -1608,12 +1438,7 @@
   {
     "id": 146,
     "question": "61) When independent parallel approaches are being conducted and vectoring to intercept the ILS localizer course or MLS final approach track, the final vector shall be such as to enable the aircraft to intercept the ILS localizer course or MLS final approach track at an angle not greater than:",
-    "options": [
-      "20 degrees",
-      "15 degrees",
-      "30 degrees",
-      "25 degrees"
-    ],
+    "options": ["20 degrees", "15 degrees", "30 degrees", "25 degrees"],
     "correct_index": 2
   },
   {
@@ -1652,23 +1477,13 @@
   {
     "id": 150,
     "question": "57) At the commencement of final approach, if the controller possesses wind information in the form of components, significant changes in the mean surface wind direction and speed shall be transmitted to aircraft. The mean cross-wind component significant change is:",
-    "options": [
-      "5 KT",
-      "3 KT",
-      "10 KT",
-      "8 KT"
-    ],
+    "options": ["5 KT", "3 KT", "10 KT", "8 KT"],
     "correct_index": 0
   },
   {
     "id": 151,
     "question": "32) (For this question use annex 010-9802A) Using the ground - air visual code the symbol meaning 'we have found all personnel' is:",
-    "options": [
-      "2",
-      "3",
-      "4",
-      "1"
-    ],
+    "options": ["2", "3", "4", "1"],
     "correct_index": 3
   },
   {
@@ -1718,34 +1533,19 @@
   {
     "id": 156,
     "question": "51) Above flight level FL 290 the vertical flight separation between aircraft on the same direction is:",
-    "options": [
-      "3 000 feet.",
-      "1 500 feet.",
-      "4 000 feet.",
-      "2 000 feet."
-    ],
+    "options": ["3 000 feet.", "1 500 feet.", "4 000 feet.", "2 000 feet."],
     "correct_index": 2
   },
   {
     "id": 157,
     "question": "50) Except otherwise established by the appropriate ATS authority a Surveillance Radar Approach (SRA) shall be terminated at a distance from the touchdown of:",
-    "options": [
-      "4 NM.",
-      "5 NM.",
-      "3 NM.",
-      "2 NM."
-    ],
+    "options": ["4 NM.", "5 NM.", "3 NM.", "2 NM."],
     "correct_index": 3
   },
   {
     "id": 158,
     "question": "58) The informations concerning charges for aerodromes/heliports and Air Navigation Services are on the following part of the AIP:",
-    "options": [
-      "GEN",
-      "FAL",
-      "RAC",
-      "AD"
-    ],
+    "options": ["GEN", "FAL", "RAC", "AD"],
     "correct_index": 0
   },
   {
@@ -1784,34 +1584,19 @@
   {
     "id": 162,
     "question": "13) The holder of a pilot's licence should inform the Authority of any illness which they are suffering which involves incapacity to undertake those functions to which the licence relates throughout a period of a certain number of days or more. The number of days is:",
-    "options": [
-      "30",
-      "60",
-      "90",
-      "21"
-    ],
+    "options": ["30", "60", "90", "21"],
     "correct_index": 3
   },
   {
     "id": 163,
     "question": "12) The speed limitation for IFR flights inside ATS airspace classified as E, when flying below 3.050 m (10.000 ft) AMSL, is:",
-    "options": [
-      "260 KT IAS",
-      "250 KT IAS",
-      "250 KT TAS",
-      "Not applicable"
-    ],
+    "options": ["260 KT IAS", "250 KT IAS", "250 KT TAS", "Not applicable"],
     "correct_index": 1
   },
   {
     "id": 164,
     "question": "11) Longitudinal separation minima based on time for aircraft at the same cruising level when navigation aids permit frequent determination of position and speed will be:",
-    "options": [
-      "5 minutes",
-      "3 minutes",
-      "10 minutes",
-      "15 minutes"
-    ],
+    "options": ["5 minutes", "3 minutes", "10 minutes", "15 minutes"],
     "correct_index": 2
   },
   {
@@ -1938,12 +1723,7 @@
   {
     "id": 176,
     "question": "30) In a precision approach category I, lighting system, the single, two and three light sources on the centre line have a length of:",
-    "options": [
-      "200 m.",
-      "250 m.",
-      "300 m.",
-      "150 m."
-    ],
+    "options": ["200 m.", "250 m.", "300 m.", "150 m."],
     "correct_index": 2
   },
   {
@@ -1993,12 +1773,7 @@
   {
     "id": 181,
     "question": "An aircraft making a radar approach should be advised to consider executing a missed approach, if the position or identification of the aircraft is in doubt during any portion of the final approach or if the aircraft is not visible on the radar display for significant interval during the last:",
-    "options": [
-      "3 NM.",
-      "1 NM.",
-      "4 NM.",
-      "2 NM."
-    ],
+    "options": ["3 NM.", "1 NM.", "4 NM.", "2 NM."],
     "correct_index": 3
   },
   {
@@ -2081,12 +1856,7 @@
   {
     "id": 189,
     "question": "110) In order to meet the wake turbulence criteria, what minimum separation should be applied when a medium aircraft is taking off behind a heavy aircraft and both are using the same runway?",
-    "options": [
-      "2 minutes",
-      "3 minutes",
-      "4 minutes",
-      "1 minute"
-    ],
+    "options": ["2 minutes", "3 minutes", "4 minutes", "1 minute"],
     "correct_index": 0
   },
   {
@@ -2114,12 +1884,7 @@
   {
     "id": 192,
     "question": "104) Minimum sector altitudes are determined by the inbound radial in relation to the IAF. These sectors are established for a distance from the IAF of:",
-    "options": [
-      "20 NM",
-      "10 NM",
-      "5 NM",
-      "25 NM"
-    ],
+    "options": ["20 NM", "10 NM", "5 NM", "25 NM"],
     "correct_index": 3
   },
   {
@@ -2169,12 +1934,7 @@
   {
     "id": 197,
     "question": "112) In relation to the three entry sectors, the entry into the holding pattern shall be according to:",
-    "options": [
-      "Heading",
-      "Course",
-      "Bearing",
-      "Track"
-    ],
+    "options": ["Heading", "Course", "Bearing", "Track"],
     "correct_index": 0
   },
   {
@@ -2268,12 +2028,7 @@
   {
     "id": 206,
     "question": "The following minimum radar separation shall be provided between aircraft on the same localizer with additional longitudinal separation as required for wake turbulence:",
-    "options": [
-      "5 NM.",
-      "2.5 NM.",
-      "3 NM.",
-      "2 NM."
-    ],
+    "options": ["5 NM.", "2.5 NM.", "3 NM.", "2 NM."],
     "correct_index": 2
   },
   {
@@ -2455,12 +2210,7 @@
   {
     "id": 223,
     "question": "When letters are used for registration mark combinations shall not be used which might be confused with urgent signals for example:",
-    "options": [
-      "LLL",
-      "DDD",
-      "PAN",
-      "RCC"
-    ],
+    "options": ["LLL", "DDD", "PAN", "RCC"],
     "correct_index": 2
   },
   {
@@ -2499,12 +2249,7 @@
   {
     "id": 227,
     "question": "Radar identification of a departing aircraft can be achieved if a radar blip is observed within a certain distance from the end of the runway. Identification has to be achieved within:",
-    "options": [
-      "5NM",
-      "1NM",
-      "2NM",
-      "3NM"
-    ],
+    "options": ["5NM", "1NM", "2NM", "3NM"],
     "correct_index": 1
   },
   {
@@ -2708,12 +2453,7 @@
   {
     "id": 246,
     "question": "Using the ground-air visual signal code, the letter similar to the symbol meaning 'REQUIRE MEDICAL ASSISTANCE' is:",
-    "options": [
-      "3",
-      "4",
-      "1",
-      "2"
-    ],
+    "options": ["3", "4", "1", "2"],
     "correct_index": 2
   },
   {
@@ -2741,23 +2481,13 @@
   {
     "id": 249,
     "question": "A lower limit of a Control Area shall be established at a height above the ground level or water of not less than:",
-    "options": [
-      "150 metres.",
-      "500 metres.",
-      "200 metres.",
-      "300 metres."
-    ],
+    "options": ["150 metres.", "500 metres.", "200 metres.", "300 metres."],
     "correct_index": 2
   },
   {
     "id": 250,
     "question": "Longitudinal separation minima based on time for aircraft at the same cruising level when navigation aids permit frequent determination of position and speed provided that the preceding aircraft is maintaining a true air speed of 40 Kt or more faster than the succeeding aircraft will be:",
-    "options": [
-      "5 minutes",
-      "10 minutes",
-      "2 minutes",
-      "3 minutes"
-    ],
+    "options": ["5 minutes", "10 minutes", "2 minutes", "3 minutes"],
     "correct_index": 3
   },
   {
@@ -2774,12 +2504,7 @@
   {
     "id": 252,
     "question": "An ATS airspace where IFR and VFR are permitted IFR flights are subject to Air Trafic Control Service and are separated from other IFR flights. All flights receive traffic information as far as is practical, is classified as",
-    "options": [
-      "Airspace D",
-      "Airspace B",
-      "Airspace A",
-      "Airspace E"
-    ],
+    "options": ["Airspace D", "Airspace B", "Airspace A", "Airspace E"],
     "correct_index": 3
   },
   {
@@ -2928,12 +2653,7 @@
   {
     "id": 266,
     "question": "Within the Annex to the ICAO convention that specifies dimensions of aerodromes are codes for different runways. Which is the minimum width of a runway with runway code 4?",
-    "options": [
-      "45 metres",
-      "35 metres",
-      "40 metres",
-      "50 metres"
-    ],
+    "options": ["45 metres", "35 metres", "40 metres", "50 metres"],
     "correct_index": 0
   },
   {
@@ -2950,23 +2670,13 @@
   {
     "id": 268,
     "question": "Which code shall be used on mode 'A' to provide recognition of an emergency aircraft?",
-    "options": [
-      "Code 7500.",
-      "Code 7600.",
-      "Code 7000.",
-      "Code 7700."
-    ],
+    "options": ["Code 7500.", "Code 7600.", "Code 7000.", "Code 7700."],
     "correct_index": 3
   },
   {
     "id": 269,
     "question": "Normally missed approach procedures are based on a nominal missed approach climb gradient of:",
-    "options": [
-      "0.8%.",
-      "3.3%.",
-      "5%.",
-      "2.5%."
-    ],
+    "options": ["0.8%.", "3.3%.", "5%.", "2.5%."],
     "correct_index": 3
   },
   {
@@ -3027,12 +2737,7 @@
   {
     "id": 275,
     "question": "The width of the corridor around a specified arrival route is :",
-    "options": [
-      "± 10 NM",
-      "± 12.5 NM",
-      "± 2.5 NM",
-      "± 5 NM"
-    ],
+    "options": ["± 10 NM", "± 12.5 NM", "± 2.5 NM", "± 5 NM"],
     "correct_index": 3
   },
   {
@@ -3093,34 +2798,19 @@
   {
     "id": 281,
     "question": "Within the Annex to the ICAO convention that specifies dimensions of aerodromes is a specific dimension given for the approach light system for CAT 1 ILS. What should be the length of this approach light system?",
-    "options": [
-      "420 metres",
-      "1000 metres",
-      "1200 metres",
-      "900 metres"
-    ],
+    "options": ["420 metres", "1000 metres", "1200 metres", "900 metres"],
     "correct_index": 3
   },
   {
     "id": 282,
     "question": "How many separate segments has an instrument approach procedure.",
-    "options": [
-      "Up to 4.",
-      "Up to 5.",
-      "3.",
-      "4."
-    ],
+    "options": ["Up to 4.", "Up to 5.", "3.", "4."],
     "correct_index": 1
   },
   {
     "id": 283,
     "question": "What is the length of an approach lighting system of a precision-approach runway CAT II :",
-    "options": [
-      "900m",
-      "150m",
-      "300m",
-      "600m"
-    ],
+    "options": ["900m", "150m", "300m", "600m"],
     "correct_index": 0
   },
   {
@@ -3181,23 +2871,13 @@
   {
     "id": 289,
     "question": "The speed limitation for both IFR flights and VFR flights inside ATS airspace classified as B, when flying below 3.050 m (10.000 ft) AMLS, is :",
-    "options": [
-      "Not applicable",
-      "250 KT IAS",
-      "250 KT TAS",
-      "260 KT IAS"
-    ],
+    "options": ["Not applicable", "250 KT IAS", "250 KT TAS", "260 KT IAS"],
     "correct_index": 0
   },
   {
     "id": 290,
     "question": "The SIGMET service, is in the AIP, in the following part :",
-    "options": [
-      "MET",
-      "GEN",
-      "ENR",
-      "AGA"
-    ],
+    "options": ["MET", "GEN", "ENR", "AGA"],
     "correct_index": 1
   },
   {
@@ -3214,12 +2894,7 @@
   {
     "id": 292,
     "question": "A 'RNAV' distance based separation minimum may be used at the time the level is crossed, provided that each aircraft reports its distance to or from the same 'on track' way-point. This minimum is:",
-    "options": [
-      "60 NM.",
-      "50 NM.",
-      "20 NM.",
-      "80 NM."
-    ],
+    "options": ["60 NM.", "50 NM.", "20 NM.", "80 NM."],
     "correct_index": 3
   },
   {
@@ -3280,45 +2955,25 @@
   {
     "id": 298,
     "question": "When letters are used for the registration mark combinations shall not be used which might be confused with urgent or distress signals for example",
-    "options": [
-      "RCC",
-      "LLL",
-      "XXX",
-      "DDD"
-    ],
+    "options": ["RCC", "LLL", "XXX", "DDD"],
     "correct_index": 2
   },
   {
     "id": 299,
     "question": "Which letter is used in a flight plan to indicate that the flight commences in accordance with IFR and subsequently changes to VFR?",
-    "options": [
-      "Y",
-      "I",
-      "V",
-      "Z"
-    ],
+    "options": ["Y", "I", "V", "Z"],
     "correct_index": 0
   },
   {
     "id": 300,
     "question": "Except when prescribed in procedures or made possible by agreements, aircraft under radar-control shall not be vectored closer to the boundary of controlled airspace than :",
-    "options": [
-      "5 NM",
-      "2,5 NM",
-      "1,5 NM",
-      "3 NM"
-    ],
+    "options": ["5 NM", "2,5 NM", "1,5 NM", "3 NM"],
     "correct_index": 1
   },
   {
     "id": 301,
     "question": "The longitudinal separation minima based on time between aircraft at same cruising level where navigation aids permit frequent determination of position and speed and the preceding aircraft is maintaining a true airspeed of 40 kt or more faster than the succeeding aircraft, is:",
-    "options": [
-      "10 minutes.",
-      "3 minutes.",
-      "5 minutes.",
-      "6 minutes."
-    ],
+    "options": ["10 minutes.", "3 minutes.", "5 minutes.", "6 minutes."],
     "correct_index": 1
   },
   {
@@ -3335,45 +2990,25 @@
   {
     "id": 303,
     "question": "The radar separation minimum may be reduced but not below:",
-    "options": [
-      "3.0 NM.",
-      "5.0 NM.",
-      "2.0 NM.",
-      "1.5 NM."
-    ],
+    "options": ["3.0 NM.", "5.0 NM.", "2.0 NM.", "1.5 NM."],
     "correct_index": 0
   },
   {
     "id": 304,
     "question": "The 'Aerodrome Reference Code' is a code composed of two elements which are related to the aeroplane performance characteristics and dimensions. These elements are a combination of a number and a letter as in the example under listed:",
-    "options": [
-      "2B.",
-      "6D.",
-      "5E.",
-      "4F."
-    ],
+    "options": ["2B.", "6D.", "5E.", "4F."],
     "correct_index": 0
   },
   {
     "id": 305,
     "question": "What is the minimum wake turbulence separation criteria when a light aircraft is taking off behind a medium aircraft and both are using the same runway ?",
-    "options": [
-      "3 minutes",
-      "1 minute",
-      "5 minutes",
-      "2 minutes"
-    ],
+    "options": ["3 minutes", "1 minute", "5 minutes", "2 minutes"],
     "correct_index": 3
   },
   {
     "id": 306,
     "question": "In the primary area, the obstacle clearance for the initial approach segment provides at least :",
-    "options": [
-      "984 ft",
-      "1476 ft",
-      "492 ft",
-      "decreasing from 984 to 492 ft"
-    ],
+    "options": ["984 ft", "1476 ft", "492 ft", "decreasing from 984 to 492 ft"],
     "correct_index": 0
   },
   {
@@ -3401,12 +3036,7 @@
   {
     "id": 309,
     "question": "Entering a holding pattern at FL 110 with a jet aircraft, which will be the maximum speed ?",
-    "options": [
-      "230 kt IAS.",
-      "230 kt TAS.",
-      "240 kt IAS.",
-      "240 kt TAS."
-    ],
+    "options": ["230 kt IAS.", "230 kt TAS.", "240 kt IAS.", "240 kt TAS."],
     "correct_index": 0
   },
   {
@@ -3423,12 +3053,7 @@
   {
     "id": 311,
     "question": "The validity of the instrument-rating aeroplane - IR(A) is :",
-    "options": [
-      "6 months",
-      "5 years",
-      "2 years",
-      "1 year"
-    ],
+    "options": ["6 months", "5 years", "2 years", "1 year"],
     "correct_index": 3
   },
   {
@@ -3456,23 +3081,13 @@
   {
     "id": 314,
     "question": "At the commencement of final approach, if the controller possesses wind information in the form of components, significant changes in the mean surface wind direction and speed shall be transmitted to aircraft. The mean head-wind component significant change is :",
-    "options": [
-      "10 KT",
-      "5 KT",
-      "8 KT",
-      "4 KT"
-    ],
+    "options": ["10 KT", "5 KT", "8 KT", "4 KT"],
     "correct_index": 0
   },
   {
     "id": 315,
     "question": "The longitudinal separation minima between aircraft departed from the same aerodrome and following the same track, and the preceeding aircraft is maintaining a true airspeed of 40 kt or more faster than the succeeding aircraft, is:",
-    "options": [
-      "5 minutes.",
-      "10 minutes.",
-      "8 minutes.",
-      "3 minutes."
-    ],
+    "options": ["5 minutes.", "10 minutes.", "8 minutes.", "3 minutes."],
     "correct_index": 3
   },
   {
@@ -3489,12 +3104,7 @@
   {
     "id": 317,
     "question": "When the Mach number tecnique (MNT) is being applied, and the preceding aircraft shall maintain a mach number equal to or greater than the following aircraft a RNAV distance based separation minimum may be used on the same direction tracks in lieu of 10 minutes longitudinal separation minimum. The distance is :",
-    "options": [
-      "80 NM",
-      "100 NM",
-      "70 NM",
-      "60 NM"
-    ],
+    "options": ["80 NM", "100 NM", "70 NM", "60 NM"],
     "correct_index": 0
   },
   {
@@ -3577,45 +3187,25 @@
   {
     "id": 325,
     "question": "The longitudinal separation minima based on time between aircraft at same cruising level where navigation aids permit frequent determination of position and speed and the preceding aircraft is maintaining a true airspeed of 20 kt or more faster than the succeeding aircraft, is:",
-    "options": [
-      "15 minutes.",
-      "5 minutes.",
-      "3 minutes.",
-      "10 minutes."
-    ],
+    "options": ["15 minutes.", "5 minutes.", "3 minutes.", "10 minutes."],
     "correct_index": 1
   },
   {
     "id": 326,
     "question": "Normally, the maximum descent gradient, applicable in the final approach segment to ensure the required minimum obstacle clearance, is :",
-    "options": [
-      "8%.",
-      "6,5%.",
-      "5%.",
-      "7%."
-    ],
+    "options": ["8%.", "6,5%.", "5%.", "7%."],
     "correct_index": 1
   },
   {
     "id": 327,
     "question": "When, in air space where VFR are permitted, the pilot in command of an IFR flight wishes to continue his flight in accordance with visual flight rules, until the destination is reached:\n1 He must inform the control unit ('cancel IFR')\n2 He must request and obtain clearance.\n3 He may request his IFR flight plan to be changed to a VFR flight plan.\n4 The flight plan automatically becomes a VFR flight plan.\nThe correct combination of statements is:",
-    "options": [
-      "1 and 3",
-      "1 and 4",
-      "2 and 4",
-      "2 and 3"
-    ],
+    "options": ["1 and 3", "1 and 4", "2 and 4", "2 and 3"],
     "correct_index": 1
   },
   {
     "id": 328,
     "question": "If radio communication is established during an interception but communications in a common language is not possible, which phrase should be pronounced by the intercepting aircraft to request the intercepted aircraft to descend for landing ?",
-    "options": [
-      "Descend for landing",
-      "Descend",
-      "Let down",
-      "You land"
-    ],
+    "options": ["Descend for landing", "Descend", "Let down", "You land"],
     "correct_index": 1
   },
   {
@@ -3632,12 +3222,7 @@
   {
     "id": 330,
     "question": "An aircraft intercepted by another aircraft, if equipped with SSR transponder shall, unless otherwise instructed by the appropriate ATS unit, select one of the following code on mode 'A'",
-    "options": [
-      "7 500",
-      "7 600",
-      "7 000",
-      "7 700"
-    ],
+    "options": ["7 500", "7 600", "7 000", "7 700"],
     "correct_index": 3
   },
   {
@@ -3665,23 +3250,13 @@
   {
     "id": 333,
     "question": "The ASHTAM provides information on the status of activity of a volcano when a change in its activity is, or is expected to be of operational significance. This information is provided using the volcano level of colour code. When volcanic eruption in progress or volcano dangerous, eruption likely, with ash plume/cloud is reported above FL 250 or is expected to rise above FL 250, the level of alert colour code is",
-    "options": [
-      "ORANGE",
-      "RED",
-      "YELLOW",
-      "GREEN"
-    ],
+    "options": ["ORANGE", "RED", "YELLOW", "GREEN"],
     "correct_index": 1
   },
   {
     "id": 334,
     "question": "The ICAO annex which deals with entry and departure of cargo and other articles on international flights is :",
-    "options": [
-      "annex 15",
-      "annex 16",
-      "annex 9",
-      "annex 8"
-    ],
+    "options": ["annex 15", "annex 16", "annex 9", "annex 8"],
     "correct_index": 2
   },
   {
@@ -3720,12 +3295,7 @@
   {
     "id": 338,
     "question": "An airline is planning a flight that will require a Technical landing in a neighboring state. Which freedom of the Air will be exercised ?",
-    "options": [
-      "1st freedom",
-      "3rd freedom",
-      "4th freedom",
-      "2nd freedom"
-    ],
+    "options": ["1st freedom", "3rd freedom", "4th freedom", "2nd freedom"],
     "correct_index": 3
   },
   {
@@ -3753,12 +3323,7 @@
   {
     "id": 341,
     "question": "In which section of AIP are contained information elements relating to refuelling facilities and limitations on refuelling services?",
-    "options": [
-      "AD",
-      "FAL",
-      "GEN",
-      "SAR"
-    ],
+    "options": ["AD", "FAL", "GEN", "SAR"],
     "correct_index": 0
   },
   {
@@ -3874,12 +3439,7 @@
   {
     "id": 352,
     "question": "The ICAO annex which deals with entry and departure of persons and their baggage in international flights is:",
-    "options": [
-      "annex 6",
-      "annex 15",
-      "annex 9",
-      "annex 8"
-    ],
+    "options": ["annex 6", "annex 15", "annex 9", "annex 8"],
     "correct_index": 2
   },
   {
@@ -3973,23 +3533,13 @@
   {
     "id": 361,
     "question": "How many red lights must a pilot see, whose aircraft, in final approach, is following a normal glide path defined by a PAPI?",
-    "options": [
-      "1",
-      "2",
-      "3",
-      "None"
-    ],
+    "options": ["1", "2", "3", "None"],
     "correct_index": 1
   },
   {
     "id": 362,
     "question": "A VFR flight constitutes essential traffic to other VFR flights, when operating in controlled airspaced classified as:",
-    "options": [
-      "B and C",
-      "B, C and D",
-      "B, C, D and E",
-      "B"
-    ],
+    "options": ["B and C", "B, C and D", "B, C, D and E", "B"],
     "correct_index": 1
   },
   {
@@ -4006,12 +3556,7 @@
   {
     "id": 364,
     "question": "When letters are used for registration mark combinations shall not be used which might be confused with urgent signals for example:",
-    "options": [
-      "TTT",
-      "FFF",
-      "RCC",
-      "LLL"
-    ],
+    "options": ["TTT", "FFF", "RCC", "LLL"],
     "correct_index": 0
   },
   {
@@ -4039,23 +3584,13 @@
   {
     "id": 367,
     "question": "High intensity obstacle lights should be:",
-    "options": [
-      "Flashing white",
-      "Flashing red",
-      "Fixed red",
-      "Fixed orange"
-    ],
+    "options": ["Flashing white", "Flashing red", "Fixed red", "Fixed orange"],
     "correct_index": 0
   },
   {
     "id": 368,
     "question": "In a precision approach (ILS), the OCA or OCH values are based among other standard conditions, on a vertical distance between the flight paths of the wheels and glide path antenna, not greater than:",
-    "options": [
-      "9m",
-      "12m",
-      "6m",
-      "3m"
-    ],
+    "options": ["9m", "12m", "6m", "3m"],
     "correct_index": 2
   },
   {
@@ -4083,12 +3618,7 @@
   {
     "id": 371,
     "question": "At the commencement of final approach, if the controller possesses wind information in the form of components, significant changes in the mean surface wind direction and speed shall be transmitted to aircraft. The mean tail-wind component significant change is:",
-    "options": [
-      "3 KT",
-      "2 KT",
-      "4 KT",
-      "5 KT"
-    ],
+    "options": ["3 KT", "2 KT", "4 KT", "5 KT"],
     "correct_index": 1
   },
   {
@@ -4149,12 +3679,7 @@
   {
     "id": 377,
     "question": "The speed limitation for VFR flights inside ATS airspace classified as C, when flying below 3.050 m (10.000 ft) AMSL, is:",
-    "options": [
-      "250 KT TAS",
-      "Not applicable",
-      "240 KT IAS",
-      "250 KT IAS"
-    ],
+    "options": ["250 KT TAS", "Not applicable", "240 KT IAS", "250 KT IAS"],
     "correct_index": 3
   },
   {
@@ -4171,23 +3696,13 @@
   {
     "id": 379,
     "question": "The surveillance radar approach shall be terminated at a distance of 2 NM from the touchdown except when as determined by the appropriate ATS authority, the accuracy of the radar equipment permits to be continued to a prescribed point less than 2 NM from the touchdown. In this case distance and level information shall be given at each",
-    "options": [
-      "half NM",
-      "1 NM",
-      "1.5 NM",
-      "half mile"
-    ],
+    "options": ["half NM", "1 NM", "1.5 NM", "half mile"],
     "correct_index": 0
   },
   {
     "id": 380,
     "question": "A braking action given by ATS of 0.25 and below is:",
-    "options": [
-      "Good",
-      "Medium/poor",
-      "Medium",
-      "Poor"
-    ],
+    "options": ["Good", "Medium/poor", "Medium", "Poor"],
     "correct_index": 3
   },
   {
@@ -4248,34 +3763,19 @@
   {
     "id": 386,
     "question": "The MSA, which must be established around a navigation facility, is in general valid within a sector of:",
-    "options": [
-      "15 NM",
-      "30 NM",
-      "25 NM",
-      "10 NM"
-    ],
+    "options": ["15 NM", "30 NM", "25 NM", "10 NM"],
     "correct_index": 2
   },
   {
     "id": 387,
     "question": "In which section of AIP are contained information elements relating to prohibited, restricted and dangerous areas?",
-    "options": [
-      "AGA",
-      "ENR",
-      "MAP",
-      "GEN"
-    ],
+    "options": ["AGA", "ENR", "MAP", "GEN"],
     "correct_index": 1
   },
   {
     "id": 388,
     "question": "In the \"VASIS\", how many light units are in each wing bar?",
-    "options": [
-      "4",
-      "5",
-      "3",
-      "2"
-    ],
+    "options": ["4", "5", "3", "2"],
     "correct_index": 2
   },
   {
@@ -4292,23 +3792,13 @@
   {
     "id": 390,
     "question": "Subject to conditions specified by the appropriate ATS authority, a radar controller may request radar-controlled aircraft to adjust their speed when established on intermediate and final approach. This speed adjustment should not be more than:",
-    "options": [
-      "+/- 8 kt",
-      "+/- 20 kt",
-      "+/- 10 kt",
-      "+/- 15 kt"
-    ],
+    "options": ["+/- 8 kt", "+/- 20 kt", "+/- 10 kt", "+/- 15 kt"],
     "correct_index": 1
   },
   {
     "id": 391,
     "question": "In a precision approach (ILS), the final approach segment begins at the:",
-    "options": [
-      "IF",
-      "FAP",
-      "FAF",
-      "MAP"
-    ],
+    "options": ["IF", "FAP", "FAF", "MAP"],
     "correct_index": 1
   },
   {
@@ -4347,12 +3837,7 @@
   {
     "id": 395,
     "question": "In which section of AIP are contained information elements relating to areas and/or routes for which meteorological service is provided?",
-    "options": [
-      "RAC",
-      "COM",
-      "MET",
-      "GEN"
-    ],
+    "options": ["RAC", "COM", "MET", "GEN"],
     "correct_index": 3
   },
   {
@@ -4369,12 +3854,7 @@
   {
     "id": 397,
     "question": "In a straight departure, the initial departure track is of the alignment of the runway centre line within:",
-    "options": [
-      "45°",
-      "12.5°",
-      "15°",
-      "30°"
-    ],
+    "options": ["45°", "12.5°", "15°", "30°"],
     "correct_index": 2
   },
   {
@@ -4391,12 +3871,7 @@
   {
     "id": 399,
     "question": "The transition altitude of an aerodrome should not be below:",
-    "options": [
-      "2500 ft",
-      "1500 ft",
-      "1000 ft",
-      "3000 ft"
-    ],
+    "options": ["2500 ft", "1500 ft", "1000 ft", "3000 ft"],
     "correct_index": 3
   },
   {
@@ -4457,12 +3932,7 @@
   {
     "id": 405,
     "question": "What is the outbound timing in a holding pattern up to FL 140?",
-    "options": [
-      "2 minutes",
-      "1,5 minutes",
-      "30 secondes",
-      "1 minute"
-    ],
+    "options": ["2 minutes", "1,5 minutes", "30 secondes", "1 minute"],
     "correct_index": 3
   },
   {
@@ -4534,12 +4004,7 @@
   {
     "id": 412,
     "question": "The International Civil Aviation Organisation (I.C.A.O.) was established by the international convention of:",
-    "options": [
-      "Chicago",
-      "The Hague",
-      "Warsaw",
-      "Montreal"
-    ],
+    "options": ["Chicago", "The Hague", "Warsaw", "Montreal"],
     "correct_index": 0
   },
   {
@@ -4622,12 +4087,7 @@
   {
     "id": 420,
     "question": "Which letter is used in a flight plan to indicate that the flight commences in accordance with VFR and subsequently changes to IFR?",
-    "options": [
-      "I",
-      "V",
-      "Y",
-      "Z"
-    ],
+    "options": ["I", "V", "Y", "Z"],
     "correct_index": 3
   },
   {
@@ -4732,12 +4192,7 @@
   {
     "id": 430,
     "question": "Select the acronym corresponding to the following definition: an special NOTAM series notifying, by means of a specific format, an important change for the aircraft operations, due to a volcano activity, a volcano eruption or a volcanic ash cloud.",
-    "options": [
-      "NAVTAM",
-      "VULTAM",
-      "ASHTAM",
-      "GVATAM"
-    ],
+    "options": ["NAVTAM", "VULTAM", "ASHTAM", "GVATAM"],
     "correct_index": 2
   },
   {
@@ -4776,12 +4231,7 @@
   {
     "id": 434,
     "question": "The system notifying in advance the circumstances requiring important changes in the methods of operation, based on common effective dates, is identified by the acronym:",
-    "options": [
-      "NOTAM",
-      "EATCHIP",
-      "AIRAC",
-      "IFPS"
-    ],
+    "options": ["NOTAM", "EATCHIP", "AIRAC", "IFPS"],
     "correct_index": 2
   },
   {
@@ -4875,12 +4325,7 @@
   {
     "id": 443,
     "question": "Which of the following is NOT an international distress frequency?",
-    "options": [
-      "2.182 KHz",
-      "2430 KHz",
-      "121.5 MHz",
-      "243.0 MHz"
-    ],
+    "options": ["2.182 KHz", "2430 KHz", "121.5 MHz", "243.0 MHz"],
     "correct_index": 1
   },
   {
@@ -4908,12 +4353,7 @@
   {
     "id": 446,
     "question": "When vectoring an aircraft to intercept the localizer course, the final vector furnished shall be such as to enable the aircraft to intercept the localizer course at an angle not greater than:",
-    "options": [
-      "20 degrees.",
-      "30 degrees.",
-      "25 degrees.",
-      "15 degrees."
-    ],
+    "options": ["20 degrees.", "30 degrees.", "25 degrees.", "15 degrees."],
     "correct_index": 1
   },
   {
@@ -5007,12 +4447,7 @@
   {
     "id": 455,
     "question": "An ATS airspace where IFR and VFR flights are permitted, all participating IFR flights receive an air traffic advisory service and all flights receive flight information service if requested, is classified",
-    "options": [
-      "Airspace G",
-      "Airspace E",
-      "Airspace D",
-      "Airspace F"
-    ],
+    "options": ["Airspace G", "Airspace E", "Airspace D", "Airspace F"],
     "correct_index": 3
   },
   {
@@ -5040,12 +4475,7 @@
   {
     "id": 458,
     "question": "Aircraft flying along the same track may be separated by DME-distances from the same DME and it is confirmed that the aircraft have passed each other. Specify the shortest difference in DME-distance to make it possible for one aircraft to climb or descend",
-    "options": [
-      "20 NM",
-      "10 NM",
-      "12 NM",
-      "15 NM"
-    ],
+    "options": ["20 NM", "10 NM", "12 NM", "15 NM"],
     "correct_index": 1
   },
   {
@@ -5062,12 +4492,7 @@
   {
     "id": 460,
     "question": "Which of the following Annexes to the Chicago convention contains minimum specifications for a crew licence to have international validity",
-    "options": [
-      "Annex 3",
-      "Annex 4",
-      "Annex 1",
-      "Annex 2"
-    ],
+    "options": ["Annex 3", "Annex 4", "Annex 1", "Annex 2"],
     "correct_index": 2
   },
   {
@@ -5238,23 +4663,13 @@
   {
     "id": 476,
     "question": "Which of the following Annexes to the Chicago convention contains international standards and recommended practices for air traffic services (ATS)?",
-    "options": [
-      "Annex 14",
-      "Annex 6",
-      "Annex 17",
-      "Annex 11"
-    ],
+    "options": ["Annex 14", "Annex 6", "Annex 17", "Annex 11"],
     "correct_index": 3
   },
   {
     "id": 477,
     "question": "When a runway is 2 000 metres in length, and taxi holding positions have not been established, aircraft shall not be held closer to the runway in use more than:",
-    "options": [
-      "50 metres.",
-      "30 metres.",
-      "45 metres.",
-      "60 metres."
-    ],
+    "options": ["50 metres.", "30 metres.", "45 metres.", "60 metres."],
     "correct_index": 0
   },
   {
@@ -5271,34 +4686,19 @@
   {
     "id": 479,
     "question": "(For this question use annex 010-9801A) Using the ground - air visual code the letter(s) similar to the symbol meaning \"REQUIRE ASSISTANCE\" is (are):",
-    "options": [
-      "4",
-      "1",
-      "2",
-      "3"
-    ],
+    "options": ["4", "1", "2", "3"],
     "correct_index": 1
   },
   {
     "id": 480,
     "question": "The ATIS broadcast message should, whenever practicable, not exceed",
-    "options": [
-      "3 minutes",
-      "30 seconds",
-      "1 minute",
-      "2 minutes"
-    ],
+    "options": ["3 minutes", "30 seconds", "1 minute", "2 minutes"],
     "correct_index": 1
   },
   {
     "id": 481,
     "question": "What is the maximum speed adjustment that a pilot should be requested to make when under radar control and established on intermediate and final approach?",
-    "options": [
-      "± 15 KT",
-      "± 10KT",
-      "± 25 KT",
-      "± 20KT"
-    ],
+    "options": ["± 15 KT", "± 10KT", "± 25 KT", "± 20KT"],
     "correct_index": 3
   },
   {
@@ -5326,12 +4726,7 @@
   {
     "id": 484,
     "question": "Unless otherwise prescribed by the appropriate ATS authority, the radar controller should notify the non-radar controller when an aircraft making a radar approach is approximately:",
-    "options": [
-      "5 NM.",
-      "6 NM.",
-      "8 NM.",
-      "10 NM."
-    ],
+    "options": ["5 NM.", "6 NM.", "8 NM.", "10 NM."],
     "correct_index": 2
   },
   {
@@ -5381,12 +4776,7 @@
   {
     "id": 489,
     "question": "ATS airspaces where IFR and VFR flights are permitted, all flights are subject to air traffic control service and are separated from each other is classified as:",
-    "options": [
-      "Class D.",
-      "Class E.",
-      "Class B.",
-      "Class A."
-    ],
+    "options": ["Class D.", "Class E.", "Class B.", "Class A."],
     "correct_index": 2
   },
   {
@@ -5436,12 +4826,7 @@
   {
     "id": 494,
     "question": "Unless otherwise indicated, the missed approach procedures published on the IAC charts are based on a minimum climb gradient of:",
-    "options": [
-      "5%",
-      "3.3%",
-      "2.5%",
-      "2%"
-    ],
+    "options": ["5%", "3.3%", "2.5%", "2%"],
     "correct_index": 2
   },
   {
@@ -5513,12 +4898,7 @@
   {
     "id": 501,
     "question": "The tolerance value used to determine that mode C derived level information displayed to the controller is accurate shall be:",
-    "options": [
-      "+/- 500 ft.",
-      "+/- 300 ft.",
-      "+/- 200 ft.",
-      "+/- 250 ft."
-    ],
+    "options": ["+/- 500 ft.", "+/- 300 ft.", "+/- 200 ft.", "+/- 250 ft."],
     "correct_index": 1
   },
   {
@@ -5535,23 +4915,13 @@
   {
     "id": 503,
     "question": "You are on an IFR flight executing a circling approach. A descend below the MDA should not be made until: 1. the pilot has the landing threshold in sight 2. visual reference has been established and can be maintained 3. the required obstacle clearance can be maintained and a landing can be made. The combination regrouping all the correct answers is:",
-    "options": [
-      "1, 3.",
-      "1, 2, 3.",
-      "1, 2.",
-      "2, 3."
-    ],
+    "options": ["1, 3.", "1, 2, 3.", "1, 2.", "2, 3."],
     "correct_index": 1
   },
   {
     "id": 504,
     "question": "A separation minimum shall be applied between a light or MEDIUM aircraft and a HEAVY aircraft and between a LIGHT aircraft and a MEDIUM aircraft when the heavier aircraft is making a low or missed approach and the lighter aircraft is utilizing an opposite direction runway for take off, this minimum is:",
-    "options": [
-      "2 minutes",
-      "5 minutes",
-      "3 minutes",
-      "1 minute"
-    ],
+    "options": ["2 minutes", "5 minutes", "3 minutes", "1 minute"],
     "correct_index": 0
   },
   {
@@ -5601,12 +4971,7 @@
   {
     "id": 509,
     "question": "An ATS airspace where IFR and VFR flights are permitted, all flights are subject to air traffic control service and are separated from each other is classified as",
-    "options": [
-      "Airspace B",
-      "Airspace C",
-      "Airspace D",
-      "Airspace E"
-    ],
+    "options": ["Airspace B", "Airspace C", "Airspace D", "Airspace E"],
     "correct_index": 0
   },
   {

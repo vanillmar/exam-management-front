@@ -4,13 +4,13 @@
   --foreground: #171717;
   --bg: #0a0c12;
   --panel: #151923;
-  --glass: rgba(255,255,255,0.06);
+  --glass: rgba(255, 255, 255, 0.06);
   --text: #eef2ff;
   --muted: #9aa4b2;
   --brand: #f6b600;
   --accent: #2bd4a1;
   --danger: #ff5c7c;
-  --shadow: 0 10px 30px rgba(0,0,0,0.4);
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
 }
 
 @theme inline {

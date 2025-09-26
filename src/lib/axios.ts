@@ -1,8 +1,8 @@
-import axios, { AxiosInstance, AxiosError } from 'axios';
-import type { InternalAxiosRequestConfig } from 'axios';
+import axios, { AxiosInstance, AxiosError } from "axios";
+import type { InternalAxiosRequestConfig } from "axios";
 
 // Detect runtime environment (Next.js can run on server and client)
-const isBrowser = typeof window !== 'undefined';
+const isBrowser = typeof window !== "undefined";
 
 /**
  * Create a shared axios instance for the app.
@@ -11,10 +11,10 @@ const isBrowser = typeof window !== 'undefined';
  * - Authorization header is attached when a token exists in localStorage (client-side only)
  */
 const api: AxiosInstance = axios.create({
-  baseURL: process.env.NEXT_PUBLIC_API_BASE_URL ?? '',
+  baseURL: process.env.NEXT_PUBLIC_API_BASE_URL ?? "",
   headers: {
-    'Content-Type': 'application/json',
-    Accept: 'application/json',
+    "Content-Type": "application/json",
+    Accept: "application/json",
   },
 });
 
@@ -22,15 +22,16 @@ const api: AxiosInstance = axios.create({
 api.interceptors.request.use((config: InternalAxiosRequestConfig) => {
   if (isBrowser) {
     try {
-      const token = localStorage.getItem('token');
+      const token = localStorage.getItem("token");
       if (token) {
         config.headers = config.headers ?? {};
         // headers in InternalAxiosRequestConfig may be a complex type so cast to record for assignment
-        (config.headers as Record<string, string>)['Authorization'] = `Bearer ${token}`;
+        (config.headers as Record<string, string>)["Authorization"] =
+          `Bearer ${token}`;
       }
     } catch (err) {
       // localStorage may throw in some browsers or environments; log for debugging
-      console.debug('Failed to read token from localStorage', err);
+      console.debug("Failed to read token from localStorage", err);
     }
   }
   return config;
@@ -43,15 +44,15 @@ api.interceptors.response.use(
     const status = error?.response?.status;
     if (status === 401 && isBrowser) {
       try {
-        localStorage.removeItem('token');
+        localStorage.removeItem("token");
       } catch (err) {
-        console.debug('Failed to remove token from localStorage', err);
+        console.debug("Failed to remove token from localStorage", err);
       }
       // Redirect to login page. Use location.assign to allow back navigation control by the browser.
-      window.location.assign('/login');
+      window.location.assign("/login");
     }
     return Promise.reject(error);
-  }
+  },
 );
 
 /**
@@ -61,9 +62,9 @@ api.interceptors.response.use(
 export function setAuthToken(token: string) {
   if (!isBrowser) return;
   try {
-    localStorage.setItem('token', token);
+    localStorage.setItem("token", token);
   } catch (err) {
-    console.debug('Failed to set token in localStorage', err);
+    console.debug("Failed to set token in localStorage", err);
   }
 }
 
@@ -71,9 +72,9 @@ export function setAuthToken(token: string) {
 export function clearAuthToken() {
   if (!isBrowser) return;
   try {
-    localStorage.removeItem('token');
+    localStorage.removeItem("token");
   } catch (err) {
-    console.debug('Failed to clear token from localStorage', err);
+    console.debug("Failed to clear token from localStorage", err);
   }
 }
 

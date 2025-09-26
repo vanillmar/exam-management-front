@@ -1,5 +1,5 @@
-'use client';
-import { Question } from '@/lib/api';
+"use client";
+import { Question } from "@/lib/api";
 
 interface QuestionAreaProps {
   question: Question;
@@ -29,7 +29,10 @@ export default function QuestionArea({
       <p className="text-lg leading-relaxed mb-3.5">{question.question}</p>
       <div className="flex flex-col gap-2.5">
         {question.options.map((option, i) => (
-          <label key={i} className="opt flex items-start gap-2.5 p-2.5 bg-white/5 border border-white/8 rounded-10">
+          <label
+            key={i}
+            className="opt flex items-start gap-2.5 p-2.5 bg-white/5 border border-white/8 rounded-10"
+          >
             <input
               type="radio"
               name={`q-${index}`}
@@ -44,7 +47,7 @@ export default function QuestionArea({
       <div className="statusbar mt-3 text-sm text-[#cbd5e1]">
         <button
           onClick={() => onMark(index)}
-          className={`icon-btn ${marked.has(index) ? 'border-brand' : ''}`}
+          className={`icon-btn ${marked.has(index) ? "border-brand" : ""}`}
         >
           ★
         </button>

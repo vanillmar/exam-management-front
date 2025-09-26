@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
+import { useState } from "react";
 
 interface CommentModalProps {
   comment: string;
@@ -8,7 +8,11 @@ interface CommentModalProps {
   onClose: () => void;
 }
 
-export default function CommentModal({ comment, onSave, onClose }: CommentModalProps) {
+export default function CommentModal({
+  comment,
+  onSave,
+  onClose,
+}: CommentModalProps) {
   const [text, setText] = useState(comment);
 
   return (

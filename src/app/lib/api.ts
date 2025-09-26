@@ -11,10 +11,12 @@ export interface QuestionBank {
   questions: Question[];
 }
 
-export const fetchQuestions = async (subject: string): Promise<QuestionBank> => {
+export const fetchQuestions = async (
+  subject: string,
+): Promise<QuestionBank> => {
   const res = await fetch(`/app/api/questions/${subject}`);
   if (!res.ok) {
-    throw new Error('Failed to fetch questions');
+    throw new Error("Failed to fetch questions");
   }
   return res.json();
 };

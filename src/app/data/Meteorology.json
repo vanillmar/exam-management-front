@@ -38,12 +38,7 @@
     {
       "id": "EN-I050-200512-01120",
       "question": "The boundary between the troposphere and the stratosphere is called:\nIonosphere\nTropopause",
-      "options": [
-        "Stratopause",
-        "Atmosphere",
-        "Question 5 of 20",
-        "ID:"
-      ],
+      "options": ["Stratopause", "Atmosphere", "Question 5 of 20", "ID:"],
       "answer_index": 0
     },
     {
@@ -93,34 +88,19 @@
     {
       "id": "EN-I050-200512-01146",
       "question": "Which gas has the highest percentage per volume in the atmosphere?\nHydrogen\nNitrogen",
-      "options": [
-        "Oxygen",
-        "Noble gases",
-        "Question 10 of 20",
-        "ID:"
-      ],
+      "options": ["Oxygen", "Noble gases", "Question 10 of 20", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01132",
       "question": "The approximate composition of the dry air by volume in the troposphere\nis [1] ___ oxygen, [2] ___ nitrogen, and the rest are other gases.\n[1] 89 %\n[2] 25 %\n[1] 21 %\n[2] 78 %\n[1] 50 %\n[2] 35 %",
-      "options": [
-        "[1] 19 %",
-        "[2] 87 %",
-        "Question 11 of 20",
-        "ID:"
-      ],
+      "options": ["[1] 19 %", "[2] 87 %", "Question 11 of 20", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01129",
       "question": "The most atmospheric humidity occurs in the:\nTropopause\nStratosphere",
-      "options": [
-        "Stratopause",
-        "Troposphere",
-        "Question 12 of 20",
-        "ID:"
-      ],
+      "options": ["Stratopause", "Troposphere", "Question 12 of 20", "ID:"],
       "answer_index": 0
     },
     {
@@ -137,23 +117,13 @@
     {
       "id": "EN-I050-200512-01131",
       "question": "The average thickness of the troposphere changes with…\nlongitude.\nlatitude.",
-      "options": [
-        "the wind.",
-        "cloud coverage.",
-        "Question 14 of 20",
-        "ID:"
-      ],
+      "options": ["the wind.", "cloud coverage.", "Question 14 of 20", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01134",
       "question": "When flying from the equator to the north pole, the tropopause height [1] ___ and its\ntemperature [2] ___.\n[1] decreases\n[2] decreases\n[1] decreases\n[2] increases\n[1] increases\n[2] decreases",
-      "options": [
-        "[1] increases",
-        "[2] increases",
-        "Question 15 of 20",
-        "ID:"
-      ],
+      "options": ["[1] increases", "[2] increases", "Question 15 of 20", "ID:"],
       "answer_index": 0
     },
     {
@@ -181,12 +151,7 @@
     {
       "id": "EN-I050-200512-01144",
       "question": "(See attachment IC-050-017)\nThe height of the tropopause during January on the shown route between DAKAR and\nRECEIFE is approximately:\n40000 ft\n56000 ft",
-      "options": [
-        "36000 ft",
-        "25000 ft",
-        "Question 18 of 20",
-        "ID:"
-      ],
+      "options": ["36000 ft", "25000 ft", "Question 18 of 20", "ID:"],
       "answer_index": 0
     },
     {
@@ -203,12 +168,7 @@
     {
       "id": "EN-I050-201129-01364",
       "question": "During flights at high altitude at or above the tropopause, which atmospheric gas may pose\na hazard to nose, lungs and throats\nOzone\nNitrogen",
-      "options": [
-        "Carbon Dioxide",
-        "Water vapour",
-        "Question 20 of 20",
-        "ID:"
-      ],
+      "options": ["Carbon Dioxide", "Water vapour", "Question 20 of 20", "ID:"],
       "answer_index": 0
     },
     {
@@ -225,56 +185,31 @@
     {
       "id": "EN-I050-200512-01149",
       "question": "The temperature at FL140 is -12°C.\nWhen applying the ICAO standard lapse rate, the temperature at FL110 is:\n-6°C\n-18°C",
-      "options": [
-        "-9°C",
-        "-24°C",
-        "Question 2 of 26",
-        "ID:"
-      ],
+      "options": ["-9°C", "-24°C", "Question 2 of 26", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01150",
       "question": "Assuming a temperature on the 300 hPa chart of -48°C, the Significant Weather Chart\nindicates the tropopause at FL330.\nThe most likely temperature at FL350 is:\n-40°C\n-56.5°C",
-      "options": [
-        "-54°C",
-        "-48°C",
-        "Question 3 of 26",
-        "ID:"
-      ],
+      "options": ["-54°C", "-48°C", "Question 3 of 26", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01151",
       "question": "The 0° isotherm is forecast to be at FL50.\nA temperature of -6° C can be expected at:\nFL60\nFL100",
-      "options": [
-        "FL80",
-        "FL40",
-        "Question 4 of 26",
-        "ID:"
-      ],
+      "options": ["FL80", "FL40", "Question 4 of 26", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01152",
       "question": "The temperature at FL80 is +6°C.\nWhen applying the ICAO standard lapse rate, the temperature at FL150 will be:\n-8°C\n-4°C",
-      "options": [
-        "-1°C",
-        "-12°C",
-        "Question 5 of 26",
-        "ID:"
-      ],
+      "options": ["-1°C", "-12°C", "Question 5 of 26", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01153",
       "question": "A temperature of +15°C is recorded at an altitude of 500 metres above sea level.\nAssuming that the ICAO vertical temperature gradient is applied, what will the\ntemperature on a mountain with a height of\n-2°C\n+8°C",
-      "options": [
-        "+2°C",
-        "+4°C",
-        "Question 6 of 26",
-        "ID:"
-      ],
+      "options": ["+2°C", "+4°C", "Question 6 of 26", "ID:"],
       "answer_index": 0
     },
     {
@@ -423,12 +358,7 @@
     {
       "id": "EN-I050-200512-01169",
       "question": "Which of the following situations can cause a surface based inversion?\nThe passage of a cold front\nNocturnal radiation during clear nights",
-      "options": [
-        "Hill fog",
-        "Clouds",
-        "Question 20 of 26",
-        "ID:"
-      ],
+      "options": ["Hill fog", "Clouds", "Question 20 of 26", "ID:"],
       "answer_index": 0
     },
     {
@@ -478,12 +408,7 @@
     {
       "id": "EN-I050-201129-01371",
       "question": "The transfer of heat from the ground to lower levels of air by direct molecular\ninteractions is referred to as…\nconvection.\nconduction.",
-      "options": [
-        "latent heat.",
-        "radiation.",
-        "Question 24 of 26",
-        "ID:"
-      ],
+      "options": ["latent heat.", "radiation.", "Question 24 of 26", "ID:"],
       "answer_index": 0
     },
     {
@@ -522,23 +447,13 @@
     {
       "id": "EN-I050-200512-01181",
       "question": "Relating to the standard unit of measurement (ICAO), atmospheric pressure is stated in:\nhBar\nPSI",
-      "options": [
-        "mmHg",
-        "hPa",
-        "Question 2 of 18",
-        "ID:"
-      ],
+      "options": ["mmHg", "hPa", "Question 2 of 18", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01183",
       "question": "Atmospheric pressure can be measured by a(n)…\nceilometer.\nhygrometer.",
-      "options": [
-        "anemometer.",
-        "barometer.",
-        "Question 3 of 18",
-        "ID:"
-      ],
+      "options": ["anemometer.", "barometer.", "Question 3 of 18", "ID:"],
       "answer_index": 0
     },
     {
@@ -555,12 +470,7 @@
     {
       "id": "EN-I050-200512-01177",
       "question": "Isobars are lines connecting points of equal…\ndew point.\nwind velocity.",
-      "options": [
-        "temperature.",
-        "air pressure.",
-        "Question 5 of 18",
-        "ID:"
-      ],
+      "options": ["temperature.", "air pressure.", "Question 5 of 18", "ID:"],
       "answer_index": 0
     },
     {
@@ -588,67 +498,37 @@
     {
       "id": "EN-I050-200512-01190",
       "question": "The vertical interval which is equal to a pressure change of 1 hPa at mean sea level (MSL) is\napproximately:\n30 ft (9 m)\n300 ft (90 m)",
-      "options": [
-        "50 ft (15 m)",
-        "100 ft (30 m)",
-        "Question 8 of 18",
-        "ID:"
-      ],
+      "options": ["50 ft (15 m)", "100 ft (30 m)", "Question 8 of 18", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-201129-01373",
       "question": "Under ISA consitions, the value of atmospheric air pressure is reduced to 50% of the value at\nMSL at what approximate altitude?\n36000 ft\n22000 ft",
-      "options": [
-        "5000 ft",
-        "18000 ft",
-        "Question 9 of 18",
-        "ID:"
-      ],
+      "options": ["5000 ft", "18000 ft", "Question 9 of 18", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01191",
       "question": "Under ISA consitions, the value of atmospheric air pressure at 18000 ft AMSL compared with the\natmospheric air pressure at\n75%\n25%",
-      "options": [
-        "10%",
-        "50%",
-        "Question 10 of 18",
-        "ID:"
-      ],
+      "options": ["10%", "50%", "Question 10 of 18", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01192",
       "question": "Under ISA consitions, the value of atmospheric air density is reduced to 50% of the value at MSL\nat what approximate altitude?\n18000 ft\n36000 ft",
-      "options": [
-        "22000 ft",
-        "5000 ft",
-        "Question 11 of 18",
-        "ID:"
-      ],
+      "options": ["22000 ft", "5000 ft", "Question 11 of 18", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01196",
       "question": "The abbreviation for the station pressure used in surface weather charts is:\nQNH\nQFF",
-      "options": [
-        "QNE",
-        "QFE",
-        "Question 12 of 18",
-        "ID:"
-      ],
+      "options": ["QNE", "QFE", "Question 12 of 18", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01204",
       "question": "Relating to a surface chart, Isobars are lines of equal…\nQNH.\nQFE.",
-      "options": [
-        "QFF.",
-        "QNE.",
-        "Question 13 of 18",
-        "ID:"
-      ],
+      "options": ["QFF.", "QNE.", "Question 13 of 18", "ID:"],
       "answer_index": 0
     },
     {
@@ -731,12 +611,7 @@
     {
       "id": "EN-I050-200512-01207",
       "question": "With all other parameters remaining constant, the density of the air increases with increasing…\nair pressure.\nhumidity.",
-      "options": [
-        "temperature.",
-        "stability.",
-        "Question 3 of 3",
-        "ID:"
-      ],
+      "options": ["temperature.", "stability.", "Question 3 of 3", "ID:"],
       "answer_index": 0
     },
     {
@@ -753,23 +628,13 @@
     {
       "id": "EN-I050-200512-01220",
       "question": "Assuming a flight at FL120 with an outside air temperature of -2°C, the “freezing level” will be at:\nFL90\nFL110",
-      "options": [
-        "FL120",
-        "FL100",
-        "Question 2 of 9",
-        "ID:"
-      ],
+      "options": ["FL120", "FL100", "Question 2 of 9", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01222",
       "question": "Assuming a flight with a height below 11 km and in ICAO Standard Atmosphere, the temperature\ndecreases ___ with height.\n0.65°C per 100m\n1°C per 100m",
-      "options": [
-        "0.5°C per 100m",
-        "0.6°C per 100m",
-        "Question 3 of 9",
-        "ID:"
-      ],
+      "options": ["0.5°C per 100m", "0.6°C per 100m", "Question 3 of 9", "ID:"],
       "answer_index": 0
     },
     {
@@ -786,12 +651,7 @@
     {
       "id": "EN-I050-200512-01211",
       "question": "What is the lowest temperature in the ICAO Standard Atmosphere between mean sea level and a\nheight of 20 km?\n-45°C\n-80°C",
-      "options": [
-        "-273°C",
-        "-56.5°C",
-        "Question 5 of 9",
-        "ID:"
-      ],
+      "options": ["-273°C", "-56.5°C", "Question 5 of 9", "ID:"],
       "answer_index": 0
     },
     {
@@ -819,12 +679,7 @@
     {
       "id": "EN-I050-200512-01225",
       "question": "Relating to the ICAO standard atmosphere, what is the temperature lapse rate in the troposphere?\n3°C/1000 ft\n2°C/1000 ft",
-      "options": [
-        "1°C/1000 ft",
-        "4°C/1000 ft",
-        "Question 8 of 9",
-        "ID:"
-      ],
+      "options": ["1°C/1000 ft", "4°C/1000 ft", "Question 8 of 9", "ID:"],
       "answer_index": 0
     },
     {
@@ -995,45 +850,25 @@
     {
       "id": "EN-I050-200512-00308",
       "question": "An aircraft is flying at FL80. The local QNH is 1000 hPa.\nAfter adjusting the second altimeter to the local QNH, the reading will be:\n8390 ft.\n7880 ft.",
-      "options": [
-        "8120 ft.",
-        "7610 ft.",
-        "Question 15 of 75",
-        "ID:"
-      ],
+      "options": ["8120 ft.", "7610 ft.", "Question 15 of 75", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00306",
       "question": "An altimeter is set to 1013 hPa and indicates an altitude of 3600 ft.\nWhen adjusting the altimeter setting to a local QNH of 991 hPa, the indicated altitude would be…\n3800 ft.\n4260 ft.",
-      "options": [
-        "2940 ft.",
-        "3400 ft.",
-        "Question 16 of 75",
-        "ID:"
-      ],
+      "options": ["2940 ft.", "3400 ft.", "Question 16 of 75", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00237",
       "question": "During the climb after take-off, the altimeter setting is adjusted at the transition altitude.\nIf the local QNH is 966 hPa, the altimeter reading will ___ during the resetting procedure.\ndecrease\nremain the same",
-      "options": [
-        "decrease rapidly",
-        "increase",
-        "Question 17 of 75",
-        "ID:"
-      ],
+      "options": ["decrease rapidly", "increase", "Question 17 of 75", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00236",
       "question": "During the climb, the altimeter setting is adjusted at the transition altitude.\nIf the local QNH is 1021 hPa, the altimeter reading will ___ during the resetting procedure.\ndecrease\nincrease rapidly",
-      "options": [
-        "remain the same",
-        "increase",
-        "Question 18 of 75",
-        "ID:"
-      ],
+      "options": ["remain the same", "increase", "Question 18 of 75", "ID:"],
       "answer_index": 0
     },
     {
@@ -1050,34 +885,19 @@
     {
       "id": "EN-I050-201129-01388",
       "question": "In case a decision altitude (DA) is restricted to a minimum value of 2500 ft due to terrain clearance\non missed approach\nprocedure, what is the indication on the altimeter at the geometric (true) decision altitude if the\nenvironmental temperature is 20°C lower that ISA (ISA-20)?\n2700 ft\n2500 ft",
-      "options": [
-        "2320 ft",
-        "2600 ft",
-        "Question 20 of 75",
-        "ID:"
-      ],
+      "options": ["2320 ft", "2600 ft", "Question 20 of 75", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-201129-01387",
       "question": "While following a STAR at an airport with Transition Level FL60 and Transition Altitude 5000 ft with\naltimeter set to standard and\ndescending below the transition level, what will the altimeter indicate after being set to QNH 1033\nhPa at the transition level?\n5400 ft\n6600 ft",
-      "options": [
-        "5600 ft",
-        "4400 ft",
-        "Question 21 of 75",
-        "ID:"
-      ],
+      "options": ["5600 ft", "4400 ft", "Question 21 of 75", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-201129-01386",
       "question": "When climbing with altimeter set to local QNH of 998 hPa and passing the transition altitude of 5000\nft, what will the altimeter\nindicate when set to 1013.25 hPa at that altitude?\n4550 ft\n5450 ft",
-      "options": [
-        "450 ft",
-        "5000 ft",
-        "Question 22 of 75",
-        "ID:"
-      ],
+      "options": ["450 ft", "5000 ft", "Question 22 of 75", "ID:"],
       "answer_index": 0
     },
     {
@@ -1127,100 +947,55 @@
     {
       "id": "EN-I050-200512-00609",
       "question": "Assuming a flight at FL45 (OAT 6°C) and a radio altimeter reading of 1860 ft\n(ground elevation 3090 ft).\nWhat is the value of the QNH at that point?\n986 hPa\n1044 hPa",
-      "options": [
-        "1028 hPa",
-        "998 hPa",
-        "Question 27 of 75",
-        "ID:"
-      ],
+      "options": ["1028 hPa", "998 hPa", "Question 27 of 75", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00586",
       "question": "For a given airfield the QFE is 980 hPa and the QNH is 1000 hPa.\nCalculate the elevation of the airfield:\n600 metres.\n300 metres.",
-      "options": [
-        "180 metres.",
-        "990 metres.",
-        "Question 28 of 75",
-        "ID:"
-      ],
+      "options": ["180 metres.", "990 metres.", "Question 28 of 75", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00309",
       "question": "The altimeter is set to 1013.2 hPa. The aircraft landed at an aerodrome with an elevation of 320 ft\nwhere the QNH is 1023 hPa.\nWhat does the altimeter on ground read?\n-30 ft.\n30 ft.",
-      "options": [
-        "290 ft.",
-        "350 ft.",
-        "Question 29 of 75",
-        "ID:"
-      ],
+      "options": ["290 ft.", "350 ft.", "Question 29 of 75", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00525",
       "question": "You must make an emergency landing at sea. Assuming a QNH of 1025 hPa of a nearby field with\nan elevation of 4000 ft and a\ntemperature of -20°C.\nWhat does the pressure altimeter indicate when landing and the QNH is set\nto 1025 hPa?\nLess than 0 ft\nMore than 0 ft, but less than 4000 ft",
-      "options": [
-        "4000 ft",
-        "0 ft",
-        "Question 30 of 75",
-        "ID:"
-      ],
+      "options": ["4000 ft", "0 ft", "Question 30 of 75", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00239",
       "question": "After landing at an aerodrome (QNH 993 hPa) it is noticed that the altimeter is still set to 1013,2 hPa\nand that it reads 1200 feet.\nCalculate the elevation of the aerodrome above MSL:\n600 ft.\n930 ft.",
-      "options": [
-        "1800 ft.",
-        "1200 ft.",
-        "Question 31 of 75",
-        "ID:"
-      ],
+      "options": ["1800 ft.", "1200 ft.", "Question 31 of 75", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00227",
       "question": "With QNH at an airport 270 metres above sea level being 1015 hPa, the QFE is…\n1006 hPa.\n1024 hPa.",
-      "options": [
-        "1045 hPa.",
-        "985 hPa.",
-        "Question 32 of 75",
-        "ID:"
-      ],
+      "options": ["1045 hPa.", "985 hPa.", "Question 32 of 75", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00226",
       "question": "With QFE at an airport at 270 metres above sea level is 980 hPa, the local QNH is…\n989 hPa.\n971 hPa.",
-      "options": [
-        "950 hPa.",
-        "1010 hPa.",
-        "Question 33 of 75",
-        "ID:"
-      ],
+      "options": ["950 hPa.", "1010 hPa.", "Question 33 of 75", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00168",
       "question": "When an aircraft lands at an airport (airport elevation 1240 ft, QNH 1008 hPa)\nwith an altimeter setting of 1013 hPa, the altimeter indicates…\n1390 ft.\n1090 ft.",
-      "options": [
-        "150 ft.",
-        "1240 ft.",
-        "Question 34 of 75",
-        "ID:"
-      ],
+      "options": ["150 ft.", "1240 ft.", "Question 34 of 75", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00307",
       "question": "Assuming a local QNH of 994 hPa at an airport elevation of 1440 ft.\nThe QFE adjustment at the airport is:\n1042 hPa.\n946 hPa.",
-      "options": [
-        "961 hPa.",
-        "1027 hPa.",
-        "Question 35 of 75",
-        "ID:"
-      ],
+      "options": ["961 hPa.", "1027 hPa.", "Question 35 of 75", "ID:"],
       "answer_index": 0
     },
     {
@@ -1314,12 +1089,7 @@
     {
       "id": "EN-I050-200512-00005",
       "question": "Assuming a temperature of ISA +10°C in the lower troposphere up to 18000 ft, the actual layer\nthickness between\nFL60 and FL120 is…\n6240 ft.\n5600 ft.",
-      "options": [
-        "6500 ft.",
-        "5760 ft.",
-        "Question 44 of 75",
-        "ID:"
-      ],
+      "options": ["6500 ft.", "5760 ft.", "Question 44 of 75", "ID:"],
       "answer_index": 0
     },
     {
@@ -1336,23 +1106,13 @@
     {
       "id": "EN-I050-201129-01380",
       "question": "When flying in an airmass with temperature 10°C lower that ISA (ISA-10) at an altitude of 5000 ft\nand QNH correctly set, how\nmuch differs the true altitude from the indicated altitude approximately?\n100 ft\n200 ft",
-      "options": [
-        "320 ft",
-        "50 ft",
-        "Question 46 of 75",
-        "ID:"
-      ],
+      "options": ["320 ft", "50 ft", "Question 46 of 75", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-201129-01379",
       "question": "When flying in an airmass with temperature 10°C lower that ISA (ISA-10) at an altitude of 4000 ft\nand QNH correctly set,\nhow much differs the true altitude from the indicated altitude approximately?\n320 ft\n80 ft",
-      "options": [
-        "160 ft",
-        "40 ft",
-        "Question 47 of 75",
-        "ID:"
-      ],
+      "options": ["160 ft", "40 ft", "Question 47 of 75", "ID:"],
       "answer_index": 0
     },
     {
@@ -1413,12 +1173,7 @@
     {
       "id": "EN-I050-200512-00499",
       "question": "An aircraft is flying in the northern hemisphere at the 500 hPa pressure surface on a heading of\n270 degrees.\nIf the wind comes from the direction ___ degrees, the true altitude increases.\n90\n270",
-      "options": [
-        "360",
-        "180",
-        "Question 53 of 75",
-        "ID:"
-      ],
+      "options": ["360", "180", "Question 53 of 75", "ID:"],
       "answer_index": 0
     },
     {
@@ -1446,12 +1201,7 @@
     {
       "id": "EN-I050-200512-00038",
       "question": "Which weather situation lowers the true altitude as compared to the pressure altitude?\nFlat pressure pattern.\nWarm high.",
-      "options": [
-        "Warm depression.",
-        "Cold low.",
-        "Question 56 of 75",
-        "ID:"
-      ],
+      "options": ["Warm depression.", "Cold low.", "Question 56 of 75", "ID:"],
       "answer_index": 0
     },
     {
@@ -1501,56 +1251,31 @@
     {
       "id": "EN-I050-200512-00608",
       "question": "An aircraft maintains a constant indicated altitude of 4500 ft\nfrom A (360 ft/AMSL – QNH 986 hPa) to B (690 ft/AMSL – QNH 1011 hPa).\nWhen the altimeter setting remains unchanged at 986 hPa, the height of the aircraft above the\nsurface at B will be…\n5250 ft.\n4890 ft.",
-      "options": [
-        "4560 ft.",
-        "4750 ft.",
-        "Question 61 of 75",
-        "ID:"
-      ],
+      "options": ["4560 ft.", "4750 ft.", "Question 61 of 75", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00607",
       "question": "An aircraft maintains a constant indicated altitude of 5500 ft from A (1050 ft/AMSL – QNH 968 hPa)\nto\nB (650 ft/AMSL – QNH 1016 hPa).\nWhen the altimeter setting remains unchanged at 968 hPa, the height of the aircraft above the\nsurface at B will be:\n3410 ft.\n6290 ft.",
-      "options": [
-        "5890 ft.",
-        "6940 ft.",
-        "Question 62 of 75",
-        "ID:"
-      ],
+      "options": ["5890 ft.", "6940 ft.", "Question 62 of 75", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00718",
       "question": "The following information are given:\nAltimeter setting: 1013.2 hPa\nAltimeter reading: 5000 ft\nOutside air temperature at 5000 ft: +5°C\nQFE: 958 hPa\nQNH: 983 hPa\nAirport Elevation: 200 ft\nCalculate the true height of the aircraft above the aerodrome:\n4100 ft\n6450 ft",
-      "options": [
-        "4800 ft",
-        "3900 ft",
-        "Question 63 of 75",
-        "ID:"
-      ],
+      "options": ["4800 ft", "3900 ft", "Question 63 of 75", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00397",
       "question": "You are flying at FL300 where the OAT is -57.5°C and the pressure at MSL is 1013.25 hPa.\nAssuming that the difference\nbetween the actual temperature and the temperature in the ISA is valid for the whole troposphere.\nWhat will be the true altitude?\n31500 ft\n30000 ft",
-      "options": [
-        "27000 ft",
-        "28500 ft",
-        "Question 64 of 75",
-        "ID:"
-      ],
+      "options": ["27000 ft", "28500 ft", "Question 64 of 75", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00238",
       "question": "Assuming a flight at FL200, an outside air temperature of -40°C, and pressure at MSL of 1033 hPa.\nCalculate the true altitude:\n18760 ft\n19360 ft",
-      "options": [
-        "20640 ft",
-        "18160 ft",
-        "Question 65 of 75",
-        "ID:"
-      ],
+      "options": ["20640 ft", "18160 ft", "Question 65 of 75", "ID:"],
       "answer_index": 0
     },
     {
@@ -1567,34 +1292,19 @@
     {
       "id": "EN-I050-200512-00164",
       "question": "The QNH of an airport at MSL is 983 hPa and the temperature deviation from ISA is -15°C below\nFL100.\nThe true altitude of FL100 is…\n10260 ft.\n8640 ft.",
-      "options": [
-        "9540 ft.",
-        "11460 ft.",
-        "Question 67 of 75",
-        "ID:"
-      ],
+      "options": ["9540 ft.", "11460 ft.", "Question 67 of 75", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-201129-01384",
       "question": "Flying in an air mass 15°C colder that ISA (ISA-15), the altimeter set to the QFE of an nearby\naerodrome at elevation 2000 ft\nindicates 4500 ft, pressure altitude is 5500 ft.\nCalculate the true height of the aircraft overhead the aerodrome:\n5170 ft\n5830 ft",
-      "options": [
-        "4770 ft",
-        "4230 ft.",
-        "Question 68 of 75",
-        "ID:"
-      ],
+      "options": ["4770 ft", "4230 ft.", "Question 68 of 75", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-201129-01383",
       "question": "Flying in an air mass 10°C colder that ISA (ISA-10), the altimeter set to local QNH indicates 8500 ft.\nWhen setting the altimeter\nto 1013.25 hPa the altimeter indicates 9000 ft.\nCalculate the true altitude of the aircraft:\n8840 ft\n9360 ft",
-      "options": [
-        "8640 ft",
-        "8160 ft",
-        "Question 69 of 75",
-        "ID:"
-      ],
+      "options": ["8640 ft", "8160 ft", "Question 69 of 75", "ID:"],
       "answer_index": 0
     },
     {
@@ -1622,45 +1332,25 @@
     {
       "id": "EN-I050-200512-00166",
       "question": "Assuming a flight at a true altitude of 15000 ft/AMSL with a temperature 15°C colder than ISA and\na pressure at MSL of 1003\nhPa.\nThe altimeter (setting 1013.2 hPa) should indicate…\n16200 ft.\n15900 ft.",
-      "options": [
-        "14400 ft.",
-        "13800 ft.",
-        "Question 72 of 75",
-        "ID:"
-      ],
+      "options": ["14400 ft.", "13800 ft.", "Question 72 of 75", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00173",
       "question": "Minimum flight altitude 15000 ft/AMSL in an air mass on average 15°C warmer than ISA, altimeter\nsetting 1023 hPa.\nAt what altimeter reading will you be at the recommended minimum flight altitude?\n15900 ft\n14100 ft",
-      "options": [
-        "16200 ft.",
-        "13800 ft",
-        "Question 73 of 75",
-        "ID:"
-      ],
+      "options": ["16200 ft.", "13800 ft", "Question 73 of 75", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00696",
       "question": "Assuming a flight which has the highest terrain elevation at 200 ft and the minimum obstacle\nclearance at 1000 ft. The altimeter\nsubscale is set to the local QNH of 1013 hPa and the temperature on the ground is -5°C.\nWhen using the standard temperature lapse rate for calculation, the minimum acceptable altimeter\nindication during the flight\nis:\n1600 ft\n1200 ft",
-      "options": [
-        "1300 ft",
-        "1100 ft",
-        "Question 74 of 75",
-        "ID:"
-      ],
+      "options": ["1300 ft", "1100 ft", "Question 74 of 75", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00865",
       "question": "In a mountainous area, the minimum safe altitude is 8000 ft. An airport in the vicinity with an\nelevation of 0 ft reports the\nfollowing data:\nTemperature: -24 °C at FL100\nQNH 990 hPa\nUnder these conditions, the lowest usable flight level is:\nFL100\nFL90",
-      "options": [
-        "FL150",
-        "FL70",
-        "Question 75 of 75",
-        "ID:"
-      ],
+      "options": ["FL150", "FL70", "Question 75 of 75", "ID:"],
       "answer_index": 0
     },
     {
@@ -1688,34 +1378,19 @@
     {
       "id": "EN-I050-200512-01235",
       "question": "A wind speed of a 25 kt equals…\n50 km/h.\n30 km/h.",
-      "options": [
-        "45 km/h.",
-        "65 km/h.",
-        "Question 3 of 7",
-        "ID:"
-      ],
+      "options": ["45 km/h.", "65 km/h.", "Question 3 of 7", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01237",
       "question": "A wind speed of a 90 km/h equals…\n55 kt.\n45 kt.",
-      "options": [
-        "40 kt.",
-        "50 kt.",
-        "Question 4 of 7",
-        "ID:"
-      ],
+      "options": ["40 kt.", "50 kt.", "Question 4 of 7", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01238",
       "question": "A wind speed of 40 kt equals…\n10 m/s.\n30 m/s.",
-      "options": [
-        "20 m/s.",
-        "40 m/s.",
-        "Question 5 of 7",
-        "ID:"
-      ],
+      "options": ["20 m/s.", "40 m/s.", "Question 5 of 7", "ID:"],
       "answer_index": 0
     },
     {
@@ -1765,12 +1440,7 @@
     {
       "id": "EN-I050-200512-01251",
       "question": "The greater the horizontal pressure gradient, the [1] ___ the isobars and the [2] ___ the\nwind.\n[1] further\n[2] weaker\n[1] closer\n[2] stronger\n[1] further\n[2] stronger",
-      "options": [
-        "[1] closer",
-        "[2] weaker",
-        "Question 3 of 91",
-        "ID:"
-      ],
+      "options": ["[1] closer", "[2] weaker", "Question 3 of 91", "ID:"],
       "answer_index": 0
     },
     {
@@ -1897,45 +1567,25 @@
     {
       "id": "EN-I050-200512-00956",
       "question": "(See attachment IC-050-079)\nSee the schematic view of a similar pressure gradient with isobars on the northern and\non the southern hemisphere.\nWhat wind direction can be expected between 2000 and 3000 ft above ground at the\ntwo magenta locations A and B?\nA: SW, B: SW\nA: SW, B: NE",
-      "options": [
-        "A: NE, B: SW",
-        "A: NW, B: SE",
-        "Question 15 of 91",
-        "ID:"
-      ],
+      "options": ["A: NE, B: SW", "A: NW, B: SE", "Question 15 of 91", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00671",
       "question": "Relating to a flight at 5000 feet in the southern hemisphere over a flat surface with an\nanticyclone on the left and a depression\nThe wind comes from…\nthe back.\nthe left.",
-      "options": [
-        "ahead.",
-        "the right.",
-        "Question 16 of 91",
-        "ID:"
-      ],
+      "options": ["ahead.", "the right.", "Question 16 of 91", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00670",
       "question": "Relating to a flight at 5000 feet in the northern hemisphere over a flat surface with an\nanticyclone on the left and a depression\nThe wind comes from…\nahead.\nthe left.",
-      "options": [
-        "the right.",
-        "the back.",
-        "Question 17 of 91",
-        "ID:"
-      ],
+      "options": ["the right.", "the back.", "Question 17 of 91", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00669",
       "question": "Relating to a flight in the southern hemisphere at 2000 ft over a flat surface.\nAn anticyclone is in front of the aircraft while a depression is behind of it.\nThe affecting wind comes from…\nbehind.\nthe right.",
-      "options": [
-        "ahead.",
-        "the left.",
-        "Question 18 of 91",
-        "ID:"
-      ],
+      "options": ["ahead.", "the left.", "Question 18 of 91", "ID:"],
       "answer_index": 0
     },
     {
@@ -1974,12 +1624,7 @@
     {
       "id": "EN-I050-200512-00668",
       "question": "Relating to a flight in the northern hemisphere at 2000 ft over a flat surface.\nAn anticyclone is in front of the aircraft while a depression is behind of it.\nThe affecting wind comes from…\nahead.\nbehind.",
-      "options": [
-        "the left.",
-        "the right.",
-        "Question 22 of 91",
-        "ID:"
-      ],
+      "options": ["the left.", "the right.", "Question 22 of 91", "ID:"],
       "answer_index": 0
     },
     {
@@ -2018,12 +1663,7 @@
     {
       "id": "EN-I050-200512-00612",
       "question": "For the same pressure gradient and density at 60°S, 50°S and 40°S, at which latitude, if\nany, is the speed of the geostrophic wind the greatest?\nThere are no differences in wind speed.\n60°S.",
-      "options": [
-        "50°S.",
-        "40°S",
-        "Question 26 of 91",
-        "ID:"
-      ],
+      "options": ["50°S.", "40°S", "Question 26 of 91", "ID:"],
       "answer_index": 0
     },
     {
@@ -2095,12 +1735,7 @@
     {
       "id": "EN-I050-200512-01244",
       "question": "Assuming a flight from a high pressure area towards a low pressure area at FL100 on\nthe southern hemisphere.\nThe affecting wind comes from…\nthe left.\nthe right.",
-      "options": [
-        "the back.",
-        "the front.",
-        "Question 33 of 91",
-        "ID:"
-      ],
+      "options": ["the back.", "the front.", "Question 33 of 91", "ID:"],
       "answer_index": 0
     },
     {
@@ -2524,34 +2159,19 @@
     {
       "id": "EN-I050-200512-00616",
       "question": "In the northern hemisphere at 2000 ft above the sea, the gradient wind of a cyclonic\npressure system is 350/28.\nAt the same position the surface wind is expected to be:\n030/28\n340/28",
-      "options": [
-        "030/20",
-        "340/20",
-        "Question 72 of 91",
-        "ID:"
-      ],
+      "options": ["030/20", "340/20", "Question 72 of 91", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00617",
       "question": "In the southern hemisphere at 2000 ft above the sea, the gradient wind of a cyclonic\npressure system is 330/28.\nAt the same position the surface wind is expected to be:\n340/28\n340/20",
-      "options": [
-        "320/28",
-        "320/20",
-        "Question 73 of 91",
-        "ID:"
-      ],
+      "options": ["320/28", "320/20", "Question 73 of 91", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00244",
       "question": "Johannesburg reports a wind of 19015KT on the METAR.\nThe expected wind velocity at a height of 2000 ft above ground is:\n22030KT\n14025KT",
-      "options": [
-        "16030KT",
-        "16010KT",
-        "Question 74 of 91",
-        "ID:"
-      ],
+      "options": ["16030KT", "16010KT", "Question 74 of 91", "ID:"],
       "answer_index": 0
     },
     {
@@ -2568,12 +2188,7 @@
     {
       "id": "EN-I050-200512-00243",
       "question": "Paris reports a wind of 19015KT on the METAR.\nThe expected wind velocity at a height of 2000 ft above ground is:\n22010KT\n24025KT",
-      "options": [
-        "22030KT",
-        "17020KT",
-        "Question 76 of 91",
-        "ID:"
-      ],
+      "options": ["22030KT", "17020KT", "Question 76 of 91", "ID:"],
       "answer_index": 0
     },
     {
@@ -2590,12 +2205,7 @@
     {
       "id": "EN-I050-200512-00039",
       "question": "Relating to a flight in the northern hemisphere, in mid-latitudes at 2500 ft/AGL. Current\nwind is from 180°, and you intend to\nThe expected wind direction of the surface wind will be around…\nSW.\nS.",
-      "options": [
-        "SSE.",
-        "SSW.",
-        "Question 78 of 91",
-        "ID:"
-      ],
+      "options": ["SSE.", "SSW.", "Question 78 of 91", "ID:"],
       "answer_index": 0
     },
     {
@@ -2623,12 +2233,7 @@
     {
       "id": "EN-I050-200512-00041",
       "question": "Relating to a flight in the southern hemisphere, in mid-latitudes at 2500 ft/AGL. Current\nwind is from 180°, and you intend to\nThe expected wind direction of the surface wind will be around…\nSE.\nS.",
-      "options": [
-        "SSE.",
-        "SSW.",
-        "Question 81 of 91",
-        "ID:"
-      ],
+      "options": ["SSE.", "SSW.", "Question 81 of 91", "ID:"],
       "answer_index": 0
     },
     {
@@ -2678,12 +2283,7 @@
     {
       "id": "EN-I050-200512-00370",
       "question": "Divergence in the upper air that is greater than the convergence in the friction layer\nresults, close to the surface, in a(n) [1] ___ in pressure and the [2] ___ of clouds is likely.\n[1] decrease\n[2] dissipation\n[1] increase\n[2] dissipation\n[1] decrease\n[2] formation",
-      "options": [
-        "[1] increase",
-        "[2] formation",
-        "Question 86 of 91",
-        "ID:"
-      ],
+      "options": ["[1] increase", "[2] formation", "Question 86 of 91", "ID:"],
       "answer_index": 0
     },
     {
@@ -2755,12 +2355,7 @@
     {
       "id": "EN-I050-200512-00413",
       "question": "On the northern hemisphere, the “Trade Winds” blow from…\nNE.\nSW.",
-      "options": [
-        "W.",
-        "N.",
-        "Question 2 of 12",
-        "ID:"
-      ],
+      "options": ["W.", "N.", "Question 2 of 12", "ID:"],
       "answer_index": 0
     },
     {
@@ -2788,23 +2383,13 @@
     {
       "id": "EN-I050-200512-01117",
       "question": "(See attachment IC-050-076)\nThe schematic global views show the areas of easterly and westerly winds in the upper\ntroposphere.\nWhich figure corresponds to the weather situation in January?\n4\n1",
-      "options": [
-        "2",
-        "3",
-        "Question 5 of 12",
-        "ID:"
-      ],
+      "options": ["2", "3", "Question 5 of 12", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01056",
       "question": "(See attachment IC-050-018)\nNE trade winds can be found in zone…\nu\nz",
-      "options": [
-        "v",
-        "w",
-        "Question 6 of 12",
-        "ID:"
-      ],
+      "options": ["v", "w", "Question 6 of 12", "ID:"],
       "answer_index": 0
     },
     {
@@ -2821,12 +2406,7 @@
     {
       "id": "EN-I050-200512-01053",
       "question": "(See attachment IC-050-018)\nLow pressure areas of temperate latitudes can be found in zone(s)…\nv only.\nt and x.",
-      "options": [
-        "s and y.",
-        "u and w.",
-        "Question 8 of 12",
-        "ID:"
-      ],
+      "options": ["s and y.", "u and w.", "Question 8 of 12", "ID:"],
       "answer_index": 0
     },
     {
@@ -2843,12 +2423,7 @@
     {
       "id": "EN-I050-200512-01051",
       "question": "(See attachment IC-050-018)\nThe SE trade winds can be found in zone:\ny\nw",
-      "options": [
-        "x",
-        "v",
-        "Question 10 of 12",
-        "ID:"
-      ],
+      "options": ["x", "v", "Question 10 of 12", "ID:"],
       "answer_index": 0
     },
     {
@@ -2865,12 +2440,7 @@
     {
       "id": "EN-I050-200512-00201",
       "question": "At which approximate geographical latitude do “Westerlies” occur?\n70°N\n50°N",
-      "options": [
-        "30°N",
-        "10°N",
-        "Question 12 of 12",
-        "ID:"
-      ],
+      "options": ["30°N", "10°N", "Question 12 of 12", "ID:"],
       "answer_index": 0
     },
     {
@@ -2964,12 +2534,7 @@
     {
       "id": "EN-I050-200512-01280",
       "question": "A land breeze blows…\nfrom water to land.\nat noon.",
-      "options": [
-        "by day.",
-        "from land to water.",
-        "Question 9 of 15",
-        "ID:"
-      ],
+      "options": ["by day.", "from land to water.", "Question 9 of 15", "ID:"],
       "answer_index": 0
     },
     {
@@ -3107,12 +2672,7 @@
     {
       "id": "EN-I050-200512-01296",
       "question": "At the top of mountain waves, the development of ___ is most likely to occur.\naltocumulus lenticularis\ncirrus",
-      "options": [
-        "cirrostratus",
-        "cumulus nimbus",
-        "Question 7 of 12",
-        "ID:"
-      ],
+      "options": ["cirrostratus", "cumulus nimbus", "Question 7 of 12", "ID:"],
       "answer_index": 0
     },
     {
@@ -3360,34 +2920,19 @@
     {
       "id": "EN-I050-220820-02135",
       "question": "(See attachment IC-050-035A)\nThe vertical extend of the polar front jet at approximate position 53N, 008E is:\n23000 ft\n37000 ft",
-      "options": [
-        "21000 ft",
-        "11000 ft",
-        "Question 2 of 49",
-        "ID:"
-      ],
+      "options": ["21000 ft", "11000 ft", "Question 2 of 49", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01312",
       "question": "The minimum speed for a wind to be classified as a jet stream is:\n80 kt\n60 kt",
-      "options": [
-        "50 kt",
-        "70 kt",
-        "Question 3 of 49",
-        "ID:"
-      ],
+      "options": ["50 kt", "70 kt", "Question 3 of 49", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01311",
       "question": "The ratio between height and width for a jet stream cross section is typically:\n1/1000\n01-Oct",
-      "options": [
-        "01-Jan",
-        "1/100",
-        "Question 4 of 49",
-        "ID:"
-      ],
+      "options": ["01-Jan", "1/100", "Question 4 of 49", "ID:"],
       "answer_index": 0
     },
     {
@@ -3415,12 +2960,7 @@
     {
       "id": "EN-I050-200512-01326",
       "question": "Polar front jet streams over the South Pacific are usually strongest in:\nApril\nOctober",
-      "options": [
-        "July",
-        "January",
-        "Question 7 of 49",
-        "ID:"
-      ],
+      "options": ["July", "January", "Question 7 of 49", "ID:"],
       "answer_index": 0
     },
     {
@@ -3459,12 +2999,7 @@
     {
       "id": "EN-I050-200512-01336",
       "question": "The average height of the polar front jet stream is:\n40000 ft\n50000 ft",
-      "options": [
-        "30000 ft",
-        "20000 ft",
-        "Question 11 of 49",
-        "ID:"
-      ],
+      "options": ["30000 ft", "20000 ft", "Question 11 of 49", "ID:"],
       "answer_index": 0
     },
     {
@@ -3547,12 +3082,7 @@
     {
       "id": "EN-I050-200512-01322",
       "question": "From summer to winter the average geographic position of the polar front jet stream over the North\nAtlantic moves towards\n[1] south\n[2] decreases\n[1] south\n[2] increases\n[1] north\n[2] decreases",
-      "options": [
-        "[1] north",
-        "[2] increases",
-        "Question 19 of 49",
-        "ID:"
-      ],
+      "options": ["[1] north", "[2] increases", "Question 19 of 49", "ID:"],
       "answer_index": 0
     },
     {
@@ -3602,12 +3132,7 @@
     {
       "id": "EN-I050-200512-01318",
       "question": "The average height of the arctic jet stream is:\n30000 ft\n20000 ft",
-      "options": [
-        "40000 ft",
-        "50000 ft",
-        "Question 24 of 49",
-        "ID:"
-      ],
+      "options": ["40000 ft", "50000 ft", "Question 24 of 49", "ID:"],
       "answer_index": 0
     },
     {
@@ -3635,12 +3160,7 @@
     {
       "id": "EN-I050-200512-01315",
       "question": "The usual flight level for a subtropical jet stream is:\nFL400\nFL100",
-      "options": [
-        "FL200",
-        "FL300",
-        "Question 27 of 49",
-        "ID:"
-      ],
+      "options": ["FL200", "FL300", "Question 27 of 49", "ID:"],
       "answer_index": 0
     },
     {
@@ -3723,12 +3243,7 @@
     {
       "id": "EN-I050-200512-01344",
       "question": "An aircraft crosses a jet stream at 3000 ft below its core and at right angles in Western Europe.\nWhen the OAT is decreasing, the expected wind is…\na crosswind from the right.\na crosswind from the left.",
-      "options": [
-        "a headwind.",
-        "a tailwind.",
-        "Question 35 of 49",
-        "ID:"
-      ],
+      "options": ["a headwind.", "a tailwind.", "Question 35 of 49", "ID:"],
       "answer_index": 0
     },
     {
@@ -3767,34 +3282,19 @@
     {
       "id": "EN-I050-220820-02134",
       "question": "(See attachment IC-050-095)\nState at which positition an approximately southerly jet can be expected:\nPosition 3\nPosition 2",
-      "options": [
-        "Position 1",
-        "Position 4",
-        "Question 39 of 49",
-        "ID:"
-      ],
+      "options": ["Position 1", "Position 4", "Question 39 of 49", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-220820-02133",
       "question": "(See attachment IC-050-095)\nState at which positition an approximately westerly jet can be expected:\nPosition 1\nPosition 3",
-      "options": [
-        "Position 2",
-        "Position 4",
-        "Question 40 of 49",
-        "ID:"
-      ],
+      "options": ["Position 2", "Position 4", "Question 40 of 49", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-220820-02132",
       "question": "(See attachment IC-050-094)\nState which figure correctly displays the correlation between tropopause heights, direction of the jet\nand height of the jet core\nFigure 1\nFigure 2",
-      "options": [
-        "Figure 3",
-        "Figure 4",
-        "Question 41 of 49",
-        "ID:"
-      ],
+      "options": ["Figure 3", "Figure 4", "Question 41 of 49", "ID:"],
       "answer_index": 0
     },
     {
@@ -3833,12 +3333,7 @@
     {
       "id": "EN-I050-200512-01339",
       "question": "An aircraft over Western Europe is crossing a jet stream 2500 ft below its core at right angles. While\ncrossing, the outside temperature is increasing.\nThe wind comes from…\nthe front\nthe left.",
-      "options": [
-        "the back.",
-        "the right.",
-        "Question 45 of 49",
-        "ID:"
-      ],
+      "options": ["the back.", "the right.", "Question 45 of 49", "ID:"],
       "answer_index": 0
     },
     {
@@ -3877,12 +3372,7 @@
     {
       "id": "EN-I050-220820-02136",
       "question": "(See attachment IC-050-035A)\nThe vertical extend of the clear air turbulence (CAT) area found around the polar front jet at\napproximate position 53N, 008E is:\n11000 ft\n23000 ft",
-      "options": [
-        "21000 ft",
-        "37000 ft",
-        "Question 49 of 49",
-        "ID:"
-      ],
+      "options": ["21000 ft", "37000 ft", "Question 49 of 49", "ID:"],
       "answer_index": 0
     },
     {
@@ -3899,23 +3389,13 @@
     {
       "id": "EN-I050-200512-01356",
       "question": "The constituent considered most important in the atmosphere’s composition is:\nOzone\nNitrogen",
-      "options": [
-        "Oxygen",
-        "Water vapour",
-        "Question 2 of 25",
-        "ID:"
-      ],
+      "options": ["Oxygen", "Water vapour", "Question 2 of 25", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01357",
       "question": "Which component has the greatest importance for the weather in the atmosphere?\nOxygen\nWater vapour",
-      "options": [
-        "Carbon monoxide",
-        "Hydrogen",
-        "Question 3 of 25",
-        "ID:"
-      ],
+      "options": ["Carbon monoxide", "Hydrogen", "Question 3 of 25", "ID:"],
       "answer_index": 0
     },
     {
@@ -4097,34 +3577,19 @@
     {
       "id": "EN-I050-201129-01423",
       "question": "Estimate the relative humidiy from the information given below:\nTemperature +25°C\nDew point +15°C\n65%\n50%",
-      "options": [
-        "25%",
-        "85%",
-        "Question 20 of 25",
-        "ID:"
-      ],
+      "options": ["25%", "85%", "Question 20 of 25", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-201129-01422",
       "question": "Estimate the relative humidiy from the information given below:\nTemperature +5°C\nDew point +3°C\n85%\n90%",
-      "options": [
-        "25%",
-        "65%",
-        "Question 21 of 25",
-        "ID:"
-      ],
+      "options": ["25%", "65%", "Question 21 of 25", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-201129-01421",
       "question": "Estimate the relative humidiy from the information given below:\nTemperature +22°C\nDew point +15°C\n75%\n80%",
-      "options": [
-        "25%",
-        "65%",
-        "Question 22 of 25",
-        "ID:"
-      ],
+      "options": ["25%", "65%", "Question 22 of 25", "ID:"],
       "answer_index": 0
     },
     {
@@ -4196,23 +3661,13 @@
     {
       "id": "EN-I050-200512-00631",
       "question": "Water vapour is transformed directly into ice: this process is called…\nfreezing.\nsupercooling.",
-      "options": [
-        "sublimation.",
-        "saturation.",
-        "Question 4 of 19",
-        "ID:"
-      ],
+      "options": ["sublimation.", "saturation.", "Question 4 of 19", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00729",
       "question": "Which of the following changes of state implies that latent heat is absorbed?\nLiquid to solid\nLiquid to gas",
-      "options": [
-        "Gas to liquid",
-        "Gas to solid",
-        "Question 5 of 19",
-        "ID:"
-      ],
+      "options": ["Gas to liquid", "Gas to solid", "Question 5 of 19", "ID:"],
       "answer_index": 0
     },
     {
@@ -4251,12 +3706,7 @@
     {
       "id": "EN-I050-200512-00733",
       "question": "Melting is the change of state from:\nSolid to liquid\nSolid to gas",
-      "options": [
-        "Gas to solid",
-        "Liquid to solid",
-        "Question 9 of 19",
-        "ID:"
-      ],
+      "options": ["Gas to solid", "Liquid to solid", "Question 9 of 19", "ID:"],
       "answer_index": 0
     },
     {
@@ -4361,12 +3811,7 @@
     {
       "id": "EN-I050-200512-00895",
       "question": "Which of the following changes of state implies that latent heat is absorbed?\nGas to liquid\nLiquid to solid",
-      "options": [
-        "Solid to gas",
-        "Gas to solid",
-        "Question 19 of 19",
-        "ID:"
-      ],
+      "options": ["Solid to gas", "Gas to solid", "Question 19 of 19", "ID:"],
       "answer_index": 0
     },
     {
@@ -4735,12 +4180,7 @@
     {
       "id": "EN-I050-200512-00205",
       "question": "When the surface temperature is 15°C and the temperature at 1000 m/AGL\nis 13°C, the corresponding layer of air is…\nconditionally stable.\nunstable.",
-      "options": [
-        "turbulent.",
-        "stable.",
-        "Question 34 of 44",
-        "ID:"
-      ],
+      "options": ["turbulent.", "stable.", "Question 34 of 44", "ID:"],
       "answer_index": 0
     },
     {
@@ -4768,12 +4208,7 @@
     {
       "id": "EN-I050-201129-01426",
       "question": "(See attachment IC-050-086)\nWhat figure illustrates the formation of “Foehn”?\nFigure 1\nFigure 2",
-      "options": [
-        "Figure 3",
-        "Figure 4",
-        "Question 37 of 44",
-        "ID:"
-      ],
+      "options": ["Figure 3", "Figure 4", "Question 37 of 44", "ID:"],
       "answer_index": 0
     },
     {
@@ -4801,34 +4236,19 @@
     {
       "id": "EN-I050-200512-00490",
       "question": "In a current of ascending unsaturated air the surface temperature is 15°C.\nWhat will be the temperature at 10000 ft?\n7°C\n-10°C",
-      "options": [
-        "5°C",
-        "-15°C",
-        "Question 40 of 44",
-        "ID:"
-      ],
+      "options": ["5°C", "-15°C", "Question 40 of 44", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00481",
       "question": "In an unsaturated rising parcel of air, the decrease in temperature\nper 100 metres is:\n0.6°C\n0.65°C",
-      "options": [
-        "3°C",
-        "1°C",
-        "Question 41 of 44",
-        "ID:"
-      ],
+      "options": ["3°C", "1°C", "Question 41 of 44", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00482",
       "question": "In a saturated rising parcel of air, the decrease in temperature per 100 metres\nat lower levels of the atmosphere is approximately:\n3°C\n0.35°C",
-      "options": [
-        "0.6°C",
-        "2°C",
-        "Question 42 of 44",
-        "ID:"
-      ],
+      "options": ["0.6°C", "2°C", "Question 42 of 44", "ID:"],
       "answer_index": 0
     },
     {
@@ -4900,12 +4320,7 @@
     {
       "id": "EN-I050-200512-00126",
       "question": "Which process in an air mass is responsible for the creation of wide spread NS and AS cloud?\nLifting\nSubsidence",
-      "options": [
-        "Heating",
-        "Convection",
-        "Question 5 of 65",
-        "ID:"
-      ],
+      "options": ["Heating", "Convection", "Question 5 of 65", "ID:"],
       "answer_index": 0
     },
     {
@@ -5010,23 +4425,13 @@
     {
       "id": "EN-I050-200512-00246",
       "question": "Which cloud types are typically an indicaton of stable conditions?\nST, AS\nCB, AC",
-      "options": [
-        "NS, CU",
-        "ST, CB",
-        "Question 15 of 65",
-        "ID:"
-      ],
+      "options": ["NS, CU", "ST, CB", "Question 15 of 65", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00023",
       "question": "Which of the following cloud types are associated with unstable conditions?\nCI, AC\nST, CU",
-      "options": [
-        "SC, NS",
-        "CU, CB",
-        "Question 16 of 65",
-        "ID:"
-      ],
+      "options": ["SC, NS", "CU, CB", "Question 16 of 65", "ID:"],
       "answer_index": 0
     },
     {
@@ -5065,12 +4470,7 @@
     {
       "id": "EN-I050-200512-00009",
       "question": "Which cloud type can project up into the stratosphere?\nAltostratus\nCirrostratus",
-      "options": [
-        "Stratocumulus",
-        "Cumulonimbus",
-        "Question 20 of 65",
-        "ID:"
-      ],
+      "options": ["Stratocumulus", "Cumulonimbus", "Question 20 of 65", "ID:"],
       "answer_index": 0
     },
     {
@@ -5087,34 +4487,19 @@
     {
       "id": "EN-I050-200512-00787",
       "question": "The following description chracterises which cloud type (genus)?\n“Grey cloud layer, often dark, the appearance of which is rendered diffuse by more or less\ncontinuously falling rain or snow,\nwhich in most cases reaches the ground. It is thick enough throughout to blot out the sun. Low,\nragged clouds frequently occur below the layer, with which they may or may not merge.”\nCumulonimbus\nStratocumulus",
-      "options": [
-        "Nimbostratus",
-        "Cirrocumulus",
-        "Question 22 of 65",
-        "ID:"
-      ],
+      "options": ["Nimbostratus", "Cirrocumulus", "Question 22 of 65", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00789",
       "question": "The following description chracterises which cloud type (genus)?\n“Greyish or bluish cloud sheet or layer of striated, fibrous or uniform appearance, totally or\npartly covering the sky, and having\nparts thin enough to reveal the sun at least vaguely, as through ground glass. This genus does\nnot show halo phenomena.”\nCirrostratus\nAltostratus",
-      "options": [
-        "Altocumulus",
-        "Cumulus",
-        "Question 23 of 65",
-        "ID:"
-      ],
+      "options": ["Altocumulus", "Cumulus", "Question 23 of 65", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00786",
       "question": "The following description chracterises which cloud type (genus)?\n“Detached clouds in the form of white, delicate filaments or white or mostly white patches or\nnarrow bands. These clouds have\nfibrous (hair-like) appearance, or a silky sheen, or both.”\nCumulus\nNimbostratus",
-      "options": [
-        "Cirrus",
-        "Altostratus",
-        "Question 24 of 65",
-        "ID:"
-      ],
+      "options": ["Cirrus", "Altostratus", "Question 24 of 65", "ID:"],
       "answer_index": 0
     },
     {
@@ -5142,144 +4527,79 @@
     {
       "id": "EN-I050-200512-00682",
       "question": "Which cloud type is characterised in the following description?\n“Clouds in patches, sheets or grey or whitish layers made up of elements resembling large\npebbles or rollers, together or not,\nand always clear of the ground.”\nStratocumulus\nNimbostratus",
-      "options": [
-        "Cumulonimbus",
-        "Cirrocumulus",
-        "Question 27 of 65",
-        "ID:"
-      ],
+      "options": ["Cumulonimbus", "Cirrocumulus", "Question 27 of 65", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00790",
       "question": "The following description chracterises which cloud species?\n“Cumulonimbus characterised by the presence, mostly in its upper portion, of distinct cirriform\nparts of clearly fibrous or\nstriated structure, frequently having the form of an anvil, a plume or a vast, more or less\ndisorderly mass of hair. This species is usually accompanied by a shower, or by a\nthunderstorm, often with squalls and sometimes with hail, it frequently produces very well\ndefined virga.”\nFractus\nCongestus",
-      "options": [
-        "Capillatus",
-        "Incus",
-        "Question 28 of 65",
-        "ID:"
-      ],
+      "options": ["Capillatus", "Incus", "Question 28 of 65", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00791",
       "question": "The following description chracterises which cloud species?\n“Clouds which present, in at least some portion of their upper part, cumuliform protuberances\nin the form of turrets which\ngenerally give the clouds a crenellated appearance. The turrets, some of which are taller than\nthey are wide, are connected by a common base and seem to be arranged in lines. The\ntypical character is especially evident when the clouds are seen from the side.”\nFractus\nMediocris",
-      "options": [
-        "Incus",
-        "Castellanus",
-        "Question 29 of 65",
-        "ID:"
-      ],
+      "options": ["Incus", "Castellanus", "Question 29 of 65", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00973",
       "question": "(See attachment IC-050-001)\nWhich of the displayed cloud forms represents altocumulus castellanus?\n2\n4",
-      "options": [
-        "1",
-        "3",
-        "Question 30 of 65",
-        "ID:"
-      ],
+      "options": ["1", "3", "Question 30 of 65", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01018",
       "question": "(See attachment IC-050-001)\nWhich cloud form represents altocumulus lenticularis?\n4\n1",
-      "options": [
-        "2",
-        "3",
-        "Question 31 of 65",
-        "ID:"
-      ],
+      "options": ["2", "3", "Question 31 of 65", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01019",
       "question": "(See attachment IC-050-001)\nWhich cloud form represents cumulonimbus?\n4\n1",
-      "options": [
-        "2",
-        "3",
-        "Question 32 of 65",
-        "ID:"
-      ],
+      "options": ["2", "3", "Question 32 of 65", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01112",
       "question": "(See attachment IC-050-001)\nWhich of the depicted cloud forms represents a cumulus?\n2\n3",
-      "options": [
-        "4",
-        "1",
-        "Question 33 of 65",
-        "ID:"
-      ],
+      "options": ["4", "1", "Question 33 of 65", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00735",
       "question": "Which of the following is a low-level cloud?\nSC\nCC",
-      "options": [
-        "AS",
-        "CB",
-        "Question 34 of 65",
-        "ID:"
-      ],
+      "options": ["AS", "CB", "Question 34 of 65", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00736",
       "question": "Which of the following is a high-level cloud?\nAC\nCS",
-      "options": [
-        "CU",
-        "AS",
-        "Question 35 of 65",
-        "ID:"
-      ],
+      "options": ["CU", "AS", "Question 35 of 65", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00737",
       "question": "Which of the following is a high-level cloud?\nCC\nAS",
-      "options": [
-        "CU",
-        "ST",
-        "Question 36 of 65",
-        "ID:"
-      ],
+      "options": ["CU", "ST", "Question 36 of 65", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00734",
       "question": "Which type of cloud may extend over more than one level?\nCirrocumulus\nCumulus congestus",
-      "options": [
-        "Altostratus",
-        "Cirrostratus",
-        "Question 37 of 65",
-        "ID:"
-      ],
+      "options": ["Altostratus", "Cirrostratus", "Question 37 of 65", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00935",
       "question": "Which of the following cloud genera may extend over several levels?\nCB\nST",
-      "options": [
-        "CC",
-        "AS",
-        "Question 38 of 65",
-        "ID:"
-      ],
+      "options": ["CC", "AS", "Question 38 of 65", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00878",
       "question": "Which of the following is a high-level cloud?\nST\nCI",
-      "options": [
-        "AC",
-        "AS",
-        "Question 39 of 65",
-        "ID:"
-      ],
+      "options": ["AC", "AS", "Question 39 of 65", "ID:"],
       "answer_index": 0
     },
     {
@@ -5318,34 +4638,19 @@
     {
       "id": "EN-I050-200512-00024",
       "question": "Which of the following are considered medium-level clouds in temperate regions?\nAS, AC\nSC, CB",
-      "options": [
-        "CS, ST",
-        "CU, CC",
-        "Question 43 of 65",
-        "ID:"
-      ],
+      "options": ["CS, ST", "CU, CC", "Question 43 of 65", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00025",
       "question": "What is the main component of “high-level clouds”?\nWater vapour\nSupercooled water",
-      "options": [
-        "Ice crystals",
-        "Water droplets",
-        "Question 44 of 65",
-        "ID:"
-      ],
+      "options": ["Ice crystals", "Water droplets", "Question 44 of 65", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00027",
       "question": "Which type of clouds may extend across more than one layer?\nAltocumulus\nCirrocumulus",
-      "options": [
-        "Stratus",
-        "Nimbostratus",
-        "Question 45 of 65",
-        "ID:"
-      ],
+      "options": ["Stratus", "Nimbostratus", "Question 45 of 65", "ID:"],
       "answer_index": 0
     },
     {
@@ -5362,23 +4667,13 @@
     {
       "id": "EN-I050-200512-00249",
       "question": "Which of the following is considered a medium-level cloud?\nST\nCB",
-      "options": [
-        "CC",
-        "AS",
-        "Question 47 of 65",
-        "ID:"
-      ],
+      "options": ["CC", "AS", "Question 47 of 65", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00127",
       "question": "Which type of cloud is a low-level cloud?\nAS\nAC",
-      "options": [
-        "ST",
-        "CB",
-        "Question 48 of 65",
-        "ID:"
-      ],
+      "options": ["ST", "CB", "Question 48 of 65", "ID:"],
       "answer_index": 0
     },
     {
@@ -5395,12 +4690,7 @@
     {
       "id": "EN-I050-200512-00398",
       "question": "Which cloud type is associated with the optical phenomenon called halo?\nCirrostratus\nCumulus",
-      "options": [
-        "Cumulonimbus",
-        "Cirrocumulus",
-        "Question 50 of 65",
-        "ID:"
-      ],
+      "options": ["Cumulonimbus", "Cirrocumulus", "Question 50 of 65", "ID:"],
       "answer_index": 0
     },
     {
@@ -5472,12 +4762,7 @@
     {
       "id": "EN-I050-200512-00880",
       "question": "For which of the following cloud types can icing be virtually ruled out?\nCB\nCS",
-      "options": [
-        "ST",
-        "NS",
-        "Question 57 of 65",
-        "ID:"
-      ],
+      "options": ["ST", "NS", "Question 57 of 65", "ID:"],
       "answer_index": 0
     },
     {
@@ -5538,12 +4823,7 @@
     {
       "id": "EN-I050-200512-00263",
       "question": "For which of the following types of cloud can icing be virtually ruled out?\nCB\nST",
-      "options": [
-        "CI",
-        "NS",
-        "Question 63 of 65",
-        "ID:"
-      ],
+      "options": ["CI", "NS", "Question 63 of 65", "ID:"],
       "answer_index": 0
     },
     {
@@ -5582,23 +4862,13 @@
     {
       "id": "EN-I050-200512-00632",
       "question": "When visibility is reduced to less than 1000 metres due to the presence of water droplets, this\ncondition is called:\nFog\nDrizzle",
-      "options": [
-        "Ash",
-        "Mist",
-        "Question 2 of 52",
-        "ID:"
-      ],
+      "options": ["Ash", "Mist", "Question 2 of 52", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00672",
       "question": "When “fog” is reported in a METAR, the visibility must be below:\n2 km\n1 km",
-      "options": [
-        "0.5 km",
-        "5 km",
-        "Question 3 of 52",
-        "ID:"
-      ],
+      "options": ["0.5 km", "5 km", "Question 3 of 52", "ID:"],
       "answer_index": 0
     },
     {
@@ -5736,23 +5006,13 @@
     {
       "id": "EN-I050-200512-00552",
       "question": "Which type of fog can NOT develop over water?\nArctic smoke\nRadiation fog",
-      "options": [
-        "Steam fog",
-        "Frontal fog",
-        "Question 16 of 52",
-        "ID:"
-      ],
+      "options": ["Steam fog", "Frontal fog", "Question 16 of 52", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00531",
       "question": "Radiation fog will most likely form with a wind speed:\n7 to 12 kt\nbelow 5 kt",
-      "options": [
-        "above 15 kt",
-        "10 to 15 kt",
-        "Question 17 of 52",
-        "ID:"
-      ],
+      "options": ["above 15 kt", "10 to 15 kt", "Question 17 of 52", "ID:"],
       "answer_index": 0
     },
     {
@@ -5791,12 +5051,7 @@
     {
       "id": "EN-I050-200512-01263",
       "question": "The average vertical extent of radiation fog is approximately…\n500 ft.\n50 ft.",
-      "options": [
-        "5000 ft.",
-        "15000 ft.",
-        "Question 21 of 52",
-        "ID:"
-      ],
+      "options": ["5000 ft.", "15000 ft.", "Question 21 of 52", "ID:"],
       "answer_index": 0
     },
     {
@@ -5879,12 +5134,7 @@
     {
       "id": "EN-I050-200512-00212",
       "question": "An air mass with a temperature of 15°C and dew point of 12°C is blown over a sea surface with a\ntemperature of 5°C at a wind\nspeed of 10 knots.\nWhich type of fog is likely to form?\nOrographic fog\nAdvection fog",
-      "options": [
-        "Frontal fog",
-        "Hill fog",
-        "Question 29 of 52",
-        "ID:"
-      ],
+      "options": ["Frontal fog", "Hill fog", "Question 29 of 52", "ID:"],
       "answer_index": 0
     },
     {
@@ -5923,12 +5173,7 @@
     {
       "id": "EN-I050-200512-00871",
       "question": "The METAR at a coastal aerodrome reports a temperature and dew point of 10/05. An air mass\nenters the area from the ocean.\nWhich of the following sets of surface temperature/dew point values of this air mass will most\nlikely cause advection fog?\n10-May\n20-May",
-      "options": [
-        "25-May",
-        "20/15",
-        "Question 33 of 52",
-        "ID:"
-      ],
+      "options": ["25-May", "20/15", "Question 33 of 52", "ID:"],
       "answer_index": 0
     },
     {
@@ -5945,12 +5190,7 @@
     {
       "id": "EN-I050-200512-00716",
       "question": "Which kind of fog can often be observed in the coastal region of Newfoundland in spring time?\nFrontal fog\nAdvection fog",
-      "options": [
-        "Arctic fog",
-        "Orographic fog",
-        "Question 35 of 52",
-        "ID:"
-      ],
+      "options": ["Arctic fog", "Orographic fog", "Question 35 of 52", "ID:"],
       "answer_index": 0
     },
     {
@@ -6209,12 +5449,7 @@
     {
       "id": "EN-I050-200512-00014",
       "question": "Which precipitation type is most likely to fall in mid-latitudes, when the clouds contain\nonly water?\nHeavy rain\nDrizzle",
-      "options": [
-        "Rain with large drops",
-        "Hail",
-        "Question 7 of 10",
-        "ID:"
-      ],
+      "options": ["Rain with large drops", "Hail", "Question 7 of 10", "ID:"],
       "answer_index": 0
     },
     {
@@ -6231,23 +5466,13 @@
     {
       "id": "EN-I050-200512-00931",
       "question": "Evaluate the correctness of the following statements:\n1. In a mixed cloud the ice crystals grow at the expense of supercooled water droplets.\n2. In the mid-latitudes heavy rain showers are only formed by the coalescence process.\nNone\n2 only",
-      "options": [
-        "1 and 2",
-        "1 only",
-        "Question 9 of 10",
-        "ID:"
-      ],
+      "options": ["1 and 2", "1 only", "Question 9 of 10", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-201129-01436",
       "question": "When water vapour condenses with a convective cloud formation, water droplets build\nup around small condensation nuclei and\ncollide with other droplets building larger drops.\nThe precipitation produced hereby is usually…\nhail.\nice pellets.",
-      "options": [
-        "rain.",
-        "snow.",
-        "Question 10 of 10",
-        "ID:"
-      ],
+      "options": ["rain.", "snow.", "Question 10 of 10", "ID:"],
       "answer_index": 0
     },
     {
@@ -6275,12 +5500,7 @@
     {
       "id": "EN-I050-200512-00872",
       "question": "Which abbreviation is used in METAR and TAF for ice particles with a diameter of 4 mm,\nthat “bounces off hard”?\nPL\nGR",
-      "options": [
-        "FG",
-        "AZ",
-        "Question 3 of 26",
-        "ID:"
-      ],
+      "options": ["FG", "AZ", "Question 3 of 26", "ID:"],
       "answer_index": 0
     },
     {
@@ -6319,12 +5539,7 @@
     {
       "id": "EN-I050-200512-00582",
       "question": "Which kind of precipitation is described below?\n“Solid precipitation which is transparent or translucent and has a diameter of 5mm or less\nformed by the freezing of raindrops\nor refreezing of melted snow, and usually bounces off hard surfaces”\nSnow grains\nIce pellets",
-      "options": [
-        "Water drops",
-        "Drizzle",
-        "Question 7 of 26",
-        "ID:"
-      ],
+      "options": ["Water drops", "Drizzle", "Question 7 of 26", "ID:"],
       "answer_index": 0
     },
     {
@@ -6341,12 +5556,7 @@
     {
       "id": "EN-I050-200512-00404",
       "question": "Freezing rain is produced by which cloud type?\nCirrostratus\nAltocumulus lenticularis",
-      "options": [
-        "Cumulonimbus",
-        "Nimbostratus",
-        "Question 9 of 26",
-        "ID:"
-      ],
+      "options": ["Cumulonimbus", "Nimbostratus", "Question 9 of 26", "ID:"],
       "answer_index": 0
     },
     {
@@ -6363,12 +5573,7 @@
     {
       "id": "EN-I050-200512-00661",
       "question": "What type of cloud produces drizzle?\nAltocumulus castellanuS\nCirrostratus",
-      "options": [
-        "Cumulonimbus",
-        "Stratus",
-        "Question 11 of 26",
-        "ID:"
-      ],
+      "options": ["Cumulonimbus", "Stratus", "Question 11 of 26", "ID:"],
       "answer_index": 0
     },
     {
@@ -6396,23 +5601,13 @@
     {
       "id": "EN-I050-200512-00253",
       "question": "Which cloud type is the least likely to produce precipitation?\nCI\nAS",
-      "options": [
-        "NS",
-        "AC",
-        "Question 14 of 26",
-        "ID:"
-      ],
+      "options": ["NS", "AC", "Question 14 of 26", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00046",
       "question": "What type of clouds is most likely to produce showers?\nCumulonimbus\nCirrocumulus",
-      "options": [
-        "Altostratus",
-        "Nimbostratus",
-        "Question 15 of 26",
-        "ID:"
-      ],
+      "options": ["Altostratus", "Nimbostratus", "Question 15 of 26", "ID:"],
       "answer_index": 0
     },
     {
@@ -6429,12 +5624,7 @@
     {
       "id": "EN-I050-200512-00254",
       "question": "Which cloud type is most unlikely to produce heavy precipitation during summer?\nNS, CU\nCS, NS",
-      "options": [
-        "SC, AS",
-        "CB, AC",
-        "Question 17 of 26",
-        "ID:"
-      ],
+      "options": ["SC, AS", "CB, AC", "Question 17 of 26", "ID:"],
       "answer_index": 0
     },
     {
@@ -6451,12 +5641,7 @@
     {
       "id": "EN-I050-200512-00255",
       "question": "Which cloud type is most commonly associated with “+TSRA” precipitation?\nNS\nCB",
-      "options": [
-        "CC",
-        "ST",
-        "Question 19 of 26",
-        "ID:"
-      ],
+      "options": ["CC", "ST", "Question 19 of 26", "ID:"],
       "answer_index": 0
     },
     {
@@ -6473,56 +5658,31 @@
     {
       "id": "EN-I050-200512-00252",
       "question": "Which cloud type is most commonly associated with “DZ” precipitation?\nAC\nST",
-      "options": [
-        "CB",
-        "AS",
-        "Question 21 of 26",
-        "ID:"
-      ],
+      "options": ["CB", "AS", "Question 21 of 26", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00251",
       "question": "Which cloud type is most commonly associated with “GR” precipitation?\nAC\nCS",
-      "options": [
-        "CB",
-        "ST",
-        "Question 22 of 26",
-        "ID:"
-      ],
+      "options": ["CB", "ST", "Question 22 of 26", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00250",
       "question": "Which cloud type is most commonly associated with “+RA” precipitation?\nCC\nAC",
-      "options": [
-        "SC",
-        "NS",
-        "Question 23 of 26",
-        "ID:"
-      ],
+      "options": ["SC", "NS", "Question 23 of 26", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00132",
       "question": "The cloud type associated with hail showers is:\nCB\nNS",
-      "options": [
-        "CC",
-        "AS",
-        "Question 24 of 26",
-        "ID:"
-      ],
+      "options": ["CC", "AS", "Question 24 of 26", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00028",
       "question": "Which of the following cloud types is most likely to produce moderate to heavy\nprecipitation?\nCS\nNS",
-      "options": [
-        "CU",
-        "AS",
-        "Question 25 of 26",
-        "ID:"
-      ],
+      "options": ["CU", "AS", "Question 25 of 26", "ID:"],
       "answer_index": 0
     },
     {
@@ -6682,12 +5842,7 @@
     {
       "id": "EN-I050-200512-00104",
       "question": "Central Europe is mainly influenced by:",
-      "options": [
-        "equatorial air",
-        "arctic air",
-        "polar air",
-        "tropical air"
-      ],
+      "options": ["equatorial air", "arctic air", "polar air", "tropical air"],
       "answer_index": 0
     },
     {
@@ -6825,12 +5980,7 @@
     {
       "id": "EN-I050-200512-00405",
       "question": "When cold moist air moves over a warm surface the formation of ___ is likely.\nCumulus\nStratocumulus",
-      "options": [
-        "Stratus",
-        "Nimbostratus",
-        "Question 27 of 33",
-        "ID:"
-      ],
+      "options": ["Stratus", "Nimbostratus", "Question 27 of 33", "ID:"],
       "answer_index": 0
     },
     {
@@ -6924,12 +6074,7 @@
     {
       "id": "EN-I050-200512-00907",
       "question": "A surface front is associated with a…\nheat low.\nlow on lee side of a mountain.",
-      "options": [
-        "polar front low.",
-        "ridge.",
-        "Question 3 of 81",
-        "ID:"
-      ],
+      "options": ["polar front low.", "ridge.", "Question 3 of 81", "ID:"],
       "answer_index": 0
     },
     {
@@ -6968,12 +6113,7 @@
     {
       "id": "EN-I050-200512-00908",
       "question": "A North Atlantic low moves from west to east generally at their most southerly position in…\nsummer.\nwinter.",
-      "options": [
-        "autumn.",
-        "spring.",
-        "Question 7 of 81",
-        "ID:"
-      ],
+      "options": ["autumn.", "spring.", "Question 7 of 81", "ID:"],
       "answer_index": 0
     },
     {
@@ -6990,12 +6130,7 @@
     {
       "id": "EN-I050-200512-00047",
       "question": "Relating to the winter in Central Europe, when temperatures close to the ground are below\n0°C, and freezing rain starts to fall,\nthis may indicate the approach of a…\nhigh level cold front.\nwarm front or warm occlusion.",
-      "options": [
-        "cold front.",
-        "cold occlusion.",
-        "Question 9 of 81",
-        "ID:"
-      ],
+      "options": ["cold front.", "cold occlusion.", "Question 9 of 81", "ID:"],
       "answer_index": 0
     },
     {
@@ -7012,12 +6147,7 @@
     {
       "id": "EN-I050-200512-00050",
       "question": "When warm air masses override cold air masses the formation of ___ clouds is likely.\nAltostratus\nCumulus",
-      "options": [
-        "Cumulonimbus",
-        "Nimbostratus",
-        "Question 11 of 81",
-        "ID:"
-      ],
+      "options": ["Cumulonimbus", "Nimbostratus", "Question 11 of 81", "ID:"],
       "answer_index": 0
     },
     {
@@ -7144,12 +6274,7 @@
     {
       "id": "EN-I050-200512-00835",
       "question": "The average width of the precipitation zone of a warm front is…\n10 – 50 km\n80 – 150 km",
-      "options": [
-        "500 – 800 km",
-        "150 – 300 km",
-        "Question 23 of 81",
-        "ID:"
-      ],
+      "options": ["500 – 800 km", "150 – 300 km", "Question 23 of 81", "ID:"],
       "answer_index": 0
     },
     {
@@ -7166,23 +6291,13 @@
     {
       "id": "EN-I050-200512-00836",
       "question": "The average width of the precipitation zone of a cold front is…\n500 – 700 km.\n50 – 100 km.",
-      "options": [
-        "10 – 30 km.",
-        "150 – 250 km.",
-        "Question 25 of 81",
-        "ID:"
-      ],
+      "options": ["10 – 30 km.", "150 – 250 km.", "Question 25 of 81", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00407",
       "question": "Gusty winds mainly occur in a(n)…\nstationary front.\nwarm front.",
-      "options": [
-        "cold front.",
-        "occlusion.",
-        "Question 26 of 81",
-        "ID:"
-      ],
+      "options": ["cold front.", "occlusion.", "Question 26 of 81", "ID:"],
       "answer_index": 0
     },
     {
@@ -7210,12 +6325,7 @@
     {
       "id": "EN-I050-200512-00441",
       "question": "Which type of air mass can be found in the warm sector of a polar front?\nSubtropical air\nTropical air",
-      "options": [
-        "Polar air",
-        "Arctic air",
-        "Question 29 of 81",
-        "ID:"
-      ],
+      "options": ["Polar air", "Arctic air", "Question 29 of 81", "ID:"],
       "answer_index": 0
     },
     {
@@ -7232,23 +6342,13 @@
     {
       "id": "EN-I050-200512-00055",
       "question": "Relating to a warm sector of a frontal depression during winter, which cloud type is most\nlikely to occur?\nAC, AS\nST",
-      "options": [
-        "CU, CB",
-        "Fair weather CU",
-        "Question 31 of 81",
-        "ID:"
-      ],
+      "options": ["CU, CB", "Fair weather CU", "Question 31 of 81", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00138",
       "question": "Relating to a wide spread warm sector of a polar front depression in summer during\ndaytime, which cloud type is most likely to\noccur?\nAS and CS\nFair weather CU",
-      "options": [
-        "Sky clear",
-        "ST and NS",
-        "Question 32 of 81",
-        "ID:"
-      ],
+      "options": ["Sky clear", "ST and NS", "Question 32 of 81", "ID:"],
       "answer_index": 0
     },
     {
@@ -7298,12 +6398,7 @@
     {
       "id": "EN-I050-200512-00683",
       "question": "Behind a cold front, the visibility outside precipitation is [1] ___ and the precipitation is\n[2] ___.\n[1] low\n[2] showers\n[1] good\n[2] showers\n[1] good\n[2] continuous rain",
-      "options": [
-        "[1] low",
-        "[2] continuous rain",
-        "Question 37 of 81",
-        "ID:"
-      ],
+      "options": ["[1] low", "[2] continuous rain", "Question 37 of 81", "ID:"],
       "answer_index": 0
     },
     {
@@ -7375,23 +6470,13 @@
     {
       "id": "EN-I050-200512-00139",
       "question": "In Europe, cold occlusions occur most often in…\nwinter.\nautumn.",
-      "options": [
-        "spring.",
-        "summer.",
-        "Question 44 of 81",
-        "ID:"
-      ],
+      "options": ["spring.", "summer.", "Question 44 of 81", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00925",
       "question": "(See attachment IC-050-080)\nThe cross-section of air mass and cloud presentation applicable to the\nstraight line A-B is:\n1\n2",
-      "options": [
-        "4",
-        "3",
-        "Question 45 of 81",
-        "ID:"
-      ],
+      "options": ["4", "3", "Question 45 of 81", "ID:"],
       "answer_index": 0
     },
     {
@@ -7452,12 +6537,7 @@
     {
       "id": "EN-I050-201129-01440",
       "question": "The typical span of the lifetime of a polar front low is about…\n4 – 7 days.\n1 – 2 hours.",
-      "options": [
-        "2 weeks.",
-        "3 – 4 weeks.",
-        "Question 51 of 81",
-        "ID:"
-      ],
+      "options": ["2 weeks.", "3 – 4 weeks.", "Question 51 of 81", "ID:"],
       "answer_index": 0
     },
     {
@@ -7474,12 +6554,7 @@
     {
       "id": "EN-I050-201129-01442",
       "question": "The typical speed of movement of a warm front is:\n30 kt\n50 kt",
-      "options": [
-        "10 kt",
-        "100 kt",
-        "Question 53 of 81",
-        "ID:"
-      ],
+      "options": ["10 kt", "100 kt", "Question 53 of 81", "ID:"],
       "answer_index": 0
     },
     {
@@ -7518,34 +6593,19 @@
     {
       "id": "EN-I050-200512-00955",
       "question": "(See annex IC-050-025)\nThe cold front with the highest speed of movement is number:\n1\n2",
-      "options": [
-        "3",
-        "4",
-        "Question 57 of 81",
-        "ID:"
-      ],
+      "options": ["3", "4", "Question 57 of 81", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00970",
       "question": "(See attachment IC-050-003)\nAssuming the common direction of movement, the polar frontal wave have moved to ___\nafter a\ncertain time.\nposition 3\nposition 2",
-      "options": [
-        "position 4",
-        "position 1",
-        "Question 58 of 81",
-        "ID:"
-      ],
+      "options": ["position 4", "position 1", "Question 58 of 81", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00972",
       "question": "(See attachment IC-050-004)\nAssuming the common direction of movement, the polar frontal wave have moved to ___\nafter a\ncertain time.\nposition 3\nposition 1",
-      "options": [
-        "position 4",
-        "position 2",
-        "Question 59 of 81",
-        "ID:"
-      ],
+      "options": ["position 4", "position 2", "Question 59 of 81", "ID:"],
       "answer_index": 0
     },
     {
@@ -7562,45 +6622,25 @@
     {
       "id": "EN-I050-200512-01116",
       "question": "(See attachment IC-050-005)\nThe pressure at point B during the next hour…\nis constant.\ndecreases.",
-      "options": [
-        "increases.",
-        "fluctuates.",
-        "Question 61 of 81",
-        "ID:"
-      ],
+      "options": ["increases.", "fluctuates.", "Question 61 of 81", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01115",
       "question": "(See attachment IC-050-005)\nThe wind at point F over the sea blows from:\nWest.\nNorthwest",
-      "options": [
-        "South",
-        "Northeast",
-        "Question 62 of 81",
-        "ID:"
-      ],
+      "options": ["South", "Northeast", "Question 62 of 81", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01114",
       "question": "(See attachment IC-050-005)\nThe wind at point E over land blows from:\nWest\nNorth",
-      "options": [
-        "Southeast",
-        "Southwest",
-        "Question 63 of 81",
-        "ID:"
-      ],
+      "options": ["Southeast", "Southwest", "Question 63 of 81", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01113",
       "question": "(See attachment IC-050-005)\nThe wind at point B blows from:\nNorth\nSoutheast",
-      "options": [
-        "East",
-        "West",
-        "Question 64 of 81",
-        "ID:"
-      ],
+      "options": ["East", "West", "Question 64 of 81", "ID:"],
       "answer_index": 0
     },
     {
@@ -7738,12 +6778,7 @@
     {
       "id": "EN-I050-200512-00062",
       "question": "After passing at right angles through a very active cold front in the direction towards the cold\nair, what can be expected at FL50,\nin the southern hemisphere directly after a marked change in temperature?\nIncreasing tailwind\nDecreasing tailwind",
-      "options": [
-        "Veering winds",
-        "Backing winds",
-        "Question 77 of 81",
-        "ID:"
-      ],
+      "options": ["Veering winds", "Backing winds", "Question 77 of 81", "ID:"],
       "answer_index": 0
     },
     {
@@ -7760,34 +6795,19 @@
     {
       "id": "EN-I050-200512-00372",
       "question": "Relating to the northern hemisphere, ahead of a warm front the wind\n[1] ___ in the friction layer and [2] ___ above the friction layer.\n[1] veers\n[2] veers\n[1] backs\n[2] backs\n[1] veers\n[2] backs",
-      "options": [
-        "[1] backs",
-        "[2] veers",
-        "Question 79 of 81",
-        "ID:"
-      ],
+      "options": ["[1] backs", "[2] veers", "Question 79 of 81", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00297",
       "question": "When a warm front is approaching an aerodrome:\n[1] QFE\n[2] QNH\n[1] increases\n[2] decreases\n[1] decreases\n[2] decreases\n[1] increases\n[2] increases",
-      "options": [
-        "[1] decreases",
-        "[2] increases",
-        "Question 80 of 81",
-        "ID:"
-      ],
+      "options": ["[1] decreases", "[2] increases", "Question 80 of 81", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00373",
       "question": "Relating to the southern hemisphere, ahead of a warm front the wind\n[1] ___ in the friction layer and [2] ___ above the friction layer.\n[1] backs\n[2] veers\n[1] veers\n[2] veers\n[1] backs\n[2] backs",
-      "options": [
-        "[1] veers",
-        "[2] backs",
-        "Question 81 of 81",
-        "ID:"
-      ],
+      "options": ["[1] veers", "[2] backs", "Question 81 of 81", "ID:"],
       "answer_index": 0
     },
     {
@@ -7804,12 +6824,7 @@
     {
       "id": "EN-I050-200512-00758",
       "question": "The zone of the subtropical high is commonly located at:\n0° (equator)\n80° N/S",
-      "options": [
-        "30° N/S",
-        "60° N/S",
-        "Question 2 of 9",
-        "ID:"
-      ],
+      "options": ["30° N/S", "60° N/S", "Question 2 of 9", "ID:"],
       "answer_index": 0
     },
     {
@@ -7837,12 +6852,7 @@
     {
       "id": "EN-I050-200512-00241",
       "question": "The subtropical high-pressure belt can be found between the latitudes:\n10° – 15° N/S\n25° – 35° N/S",
-      "options": [
-        "55° – 75° N/S",
-        "35° – 55° N/S",
-        "Question 5 of 9",
-        "ID:"
-      ],
+      "options": ["55° – 75° N/S", "35° – 55° N/S", "Question 5 of 9", "ID:"],
       "answer_index": 0
     },
     {
@@ -7859,23 +6869,13 @@
     {
       "id": "EN-I050-200512-00622",
       "question": "The main pressure systems at the surface, affecting the North Atlantic region between 30°N\nand 65°N during winter, is usually\ncentred over:\nAzores\nUSA",
-      "options": [
-        "Iceland / Greenland",
-        "Siberia",
-        "Question 7 of 9",
-        "ID:"
-      ],
+      "options": ["Iceland / Greenland", "Siberia", "Question 7 of 9", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00757",
       "question": "Where can the center of an extended high pressure area be expected in January?\nCentral Europe\nSouth America",
-      "options": [
-        "Australia",
-        "Siberia",
-        "Question 8 of 9",
-        "ID:"
-      ],
+      "options": ["Australia", "Siberia", "Question 8 of 9", "ID:"],
       "answer_index": 0
     },
     {
@@ -7936,23 +6936,13 @@
     {
       "id": "EN-I050-200512-00451",
       "question": "If the pressure surfaces bulge upwards in all levels then the pressure system is called a…\ncold high.\nwarm low.",
-      "options": [
-        "warm high.",
-        "cold low.",
-        "Question 5 of 19",
-        "ID:"
-      ],
+      "options": ["warm high.", "cold low.", "Question 5 of 19", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00814",
       "question": "When high level convergence occurs in the atmosphere the surface pressure [1] ___ in the\narea below and the air [2] ___.\n[1] increases\n[2] subsides\n[1] decreases\n[2] subsides\n[1] increases\n[2] is lifted",
-      "options": [
-        "[1] decreases",
-        "[2] is lifted",
-        "Question 6 of 19",
-        "ID:"
-      ],
+      "options": ["[1] decreases", "[2] is lifted", "Question 6 of 19", "ID:"],
       "answer_index": 0
     },
     {
@@ -7969,12 +6959,7 @@
     {
       "id": "EN-I050-200512-00070",
       "question": "The process of descending air flow in a large high pressure area is called…\nconvection.\nsubsidence.",
-      "options": [
-        "convergence.",
-        "advection.",
-        "Question 8 of 19",
-        "ID:"
-      ],
+      "options": ["convergence.", "advection.", "Question 8 of 19", "ID:"],
       "answer_index": 0
     },
     {
@@ -8123,12 +7108,7 @@
     {
       "id": "EN-I050-201129-01445",
       "question": "When prevailling wind is blowing against a mountain ridge at right angle, the airstream on the lee\nside may reduce air pressure\nand may result in the formation of a…\norographic low (lee low).\nthermal low.",
-      "options": [
-        "polar low.",
-        "cold low.",
-        "Question 3 of 11",
-        "ID:"
-      ],
+      "options": ["polar low.", "cold low.", "Question 3 of 11", "ID:"],
       "answer_index": 0
     },
     {
@@ -8277,12 +7257,7 @@
     {
       "id": "EN-I050-200512-00570",
       "question": "The wind speed In the middle of the eye of a hurricane is typically [1] ___ than 63 knots\nand the air is [2] ___.\n[1] lower\n[2] ascending\n[1] lower\n[2] descending\n[1] higher\n[2] descending",
-      "options": [
-        "[1] higher",
-        "[2] ascending",
-        "Question 6 of 28",
-        "ID:"
-      ],
+      "options": ["[1] higher", "[2] ascending", "Question 6 of 28", "ID:"],
       "answer_index": 0
     },
     {
@@ -8343,12 +7318,7 @@
     {
       "id": "EN-I050-201129-01449",
       "question": "Tropical revolving storms in their mature stage usually have a diameter in the order of:\n5000 km\n50 km",
-      "options": [
-        "5 km",
-        "500 km",
-        "Question 12 of 28",
-        "ID:"
-      ],
+      "options": ["5 km", "500 km", "Question 12 of 28", "ID:"],
       "answer_index": 0
     },
     {
@@ -8475,45 +7445,25 @@
     {
       "id": "EN-I050-200512-00142",
       "question": "In North America, the danger of tropical revolving storms is the greatest on the…\nW coast.\nNW coast.",
-      "options": [
-        "N coast.",
-        "SE coast.",
-        "Question 24 of 28",
-        "ID:"
-      ],
+      "options": ["N coast.", "SE coast.", "Question 24 of 28", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00066",
       "question": "Hurricanes are most likely to develop in the northern hemisphere in…\nwinter and spring.\nspring.",
-      "options": [
-        "summer and autumn.",
-        "winter.",
-        "Question 25 of 28",
-        "ID:"
-      ],
+      "options": ["summer and autumn.", "winter.", "Question 25 of 28", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-201129-01448",
       "question": "The number of Hurricanes per year observed on average in the North Atlantic region is:\n36\n6",
-      "options": [
-        "20",
-        "2",
-        "Question 26 of 28",
-        "ID:"
-      ],
+      "options": ["20", "2", "Question 26 of 28", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-201129-01450",
       "question": "The number of Tropical Revolving Storms per year observed on average in the South-\nWest Pacific at the eastern side of\nAustralia is:\n9\n25",
-      "options": [
-        "44",
-        "2",
-        "Question 27 of 28",
-        "ID:"
-      ],
+      "options": ["44", "2", "Question 27 of 28", "ID:"],
       "answer_index": 0
     },
     {
@@ -8618,12 +7568,7 @@
     {
       "id": "EN-I050-200512-00760",
       "question": "Central Europe is located in the zone of ___ climate.\nsubarctic\nsnow",
-      "options": [
-        "mid-latitude",
-        "dry",
-        "Question 9 of 9",
-        "ID:"
-      ],
+      "options": ["mid-latitude", "dry", "Question 9 of 9", "ID:"],
       "answer_index": 0
     },
     {
@@ -8640,23 +7585,13 @@
     {
       "id": "EN-I050-200512-00764",
       "question": "At which hight may the top of a thunderstorm cluster in the tropics be expected?\n50000 ft\n80000 ft",
-      "options": [
-        "22000 ft",
-        "360000 ft",
-        "Question 2 of 48",
-        "ID:"
-      ],
+      "options": ["22000 ft", "360000 ft", "Question 2 of 48", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00765",
       "question": "What is the average height of the tropical zero degree isotherm?\n10000 ft\n36000 ft",
-      "options": [
-        "24000 ft",
-        "16000 ft",
-        "Question 3 of 48",
-        "ID:"
-      ],
+      "options": ["24000 ft", "16000 ft", "Question 3 of 48", "ID:"],
       "answer_index": 0
     },
     {
@@ -8673,12 +7608,7 @@
     {
       "id": "EN-I050-200512-00179",
       "question": "The low level wind system between the subtropical high pressure belt and the equatorial\ntrough of low pressure is called…\nmonsoon.\ndoldrums.",
-      "options": [
-        "westerlies.",
-        "trade winds.",
-        "Question 5 of 48",
-        "ID:"
-      ],
+      "options": ["westerlies.", "trade winds.", "Question 5 of 48", "ID:"],
       "answer_index": 0
     },
     {
@@ -8695,12 +7625,7 @@
     {
       "id": "EN-I050-200512-00145",
       "question": "In the southern hemisphere, the trade winds blow from:\nSW\nW",
-      "options": [
-        "SE",
-        "E",
-        "Question 7 of 48",
-        "ID:"
-      ],
+      "options": ["SE", "E", "Question 7 of 48", "ID:"],
       "answer_index": 0
     },
     {
@@ -8728,12 +7653,7 @@
     {
       "id": "EN-I050-200512-00058",
       "question": "The ITCZ can be expected from in January, between Dakar and Rio de Janeiro at which\nlatitudes?\n3° – 8°S\n0° – 7°N",
-      "options": [
-        "10° – 15°N",
-        "8° – 14°S",
-        "Question 10 of 48",
-        "ID:"
-      ],
+      "options": ["10° – 15°N", "8° – 14°S", "Question 10 of 48", "ID:"],
       "answer_index": 0
     },
     {
@@ -8893,12 +7813,7 @@
     {
       "id": "EN-I050-200512-00686",
       "question": "Icing in the ITCZ is likely to occur between…\nFL250 – FL350\nFL160 – FL260",
-      "options": [
-        "FL50 – FL150",
-        "FL100 – FL200",
-        "Question 25 of 48",
-        "ID:"
-      ],
+      "options": ["FL50 – FL150", "FL100 – FL200", "Question 25 of 48", "ID:"],
       "answer_index": 0
     },
     {
@@ -8992,12 +7907,7 @@
     {
       "id": "EN-I050-200512-00991",
       "question": "(See attachment IC-050-017)\nWhich weather system does affect Mumbai the most during January?\nNE monsoon\nSW monsoon",
-      "options": [
-        "SE monsoon",
-        "NW monsoon",
-        "Question 34 of 48",
-        "ID:"
-      ],
+      "options": ["SE monsoon", "NW monsoon", "Question 34 of 48", "ID:"],
       "answer_index": 0
     },
     {
@@ -9014,12 +7924,7 @@
     {
       "id": "EN-I050-200512-00200",
       "question": "The humid monsoon in India starts in…\nOctober.\nJanuary.",
-      "options": [
-        "April.",
-        "June.",
-        "Question 36 of 48",
-        "ID:"
-      ],
+      "options": ["April.", "June.", "Question 36 of 48", "ID:"],
       "answer_index": 0
     },
     {
@@ -9179,12 +8084,7 @@
     {
       "id": "EN-I050-200512-00759",
       "question": "The zone of travelling frontal depressions can be found at…\n60°N.\n20°N.",
-      "options": [
-        "80°N.",
-        "40°N.",
-        "Question 3 of 15",
-        "ID:"
-      ],
+      "options": ["80°N.", "40°N.", "Question 3 of 15", "ID:"],
       "answer_index": 0
     },
     {
@@ -9212,12 +8112,7 @@
     {
       "id": "EN-I050-200512-01047",
       "question": "(See attachment IC-050-016)\nThe typical weather situation shown over Central Europe is/are…\na flat pressure pattern.\na old air pool.",
-      "options": [
-        "westerlies.",
-        "easterlies.",
-        "Question 6 of 15",
-        "ID:"
-      ],
+      "options": ["westerlies.", "easterlies.", "Question 6 of 15", "ID:"],
       "answer_index": 0
     },
     {
@@ -9366,12 +8261,7 @@
     {
       "id": "EN-I050-200512-00379",
       "question": "A strong, dry and warm katabatic wind, produced by enforced ascent of air over hills or\nmountains is called…\nFoehn.\nHarmattan.",
-      "options": [
-        "Mistral.",
-        "Bora.",
-        "Question 5 of 17",
-        "ID:"
-      ],
+      "options": ["Mistral.", "Bora.", "Question 5 of 17", "ID:"],
       "answer_index": 0
     },
     {
@@ -9410,12 +8300,7 @@
     {
       "id": "EN-I050-200512-00112",
       "question": "Which of the local winds stated below is a “Foehn” wind?\nBora\nMistral",
-      "options": [
-        "Chinook",
-        "Harmattan",
-        "Question 9 of 17",
-        "ID:"
-      ],
+      "options": ["Chinook", "Harmattan", "Question 9 of 17", "ID:"],
       "answer_index": 0
     },
     {
@@ -9454,12 +8339,7 @@
     {
       "id": "EN-I050-200512-00032",
       "question": "The strong relatively cold katabatic wind, blowing down the northern Adriatic coast,\nduring the winter and spring is called:\nMistral\nHarmattan",
-      "options": [
-        "Bora",
-        "Pampero",
-        "Question 13 of 17",
-        "ID:"
-      ],
+      "options": ["Bora", "Pampero", "Question 13 of 17", "ID:"],
       "answer_index": 0
     },
     {
@@ -9476,12 +8356,7 @@
     {
       "id": "EN-I050-200512-00595",
       "question": "The northerly, cold and strong wind, blowing down a river valley close to the surface at\nthe northern mediterranean coast, is\ncalled…\nFoehn.\nBora.",
-      "options": [
-        "Typhoon.",
-        "Mistral.",
-        "Question 15 of 17",
-        "ID:"
-      ],
+      "options": ["Typhoon.", "Mistral.", "Question 15 of 17", "ID:"],
       "answer_index": 0
     },
     {
@@ -9630,23 +8505,13 @@
     {
       "id": "EN-I050-200512-00261",
       "question": "The formation of ice on the aircraft’s surface is most likely in the temperature band from…\n-30°C to -55°C\n-25°C to -40°C",
-      "options": [
-        "0°C to -10°C",
-        "+10°C to 0°C",
-        "Question 12 of 59",
-        "ID:"
-      ],
+      "options": ["0°C to -10°C", "+10°C to 0°C", "Question 12 of 59", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00203",
       "question": "Considering the following temperature profile:\n3000 ft +15°C\n6000 ft +8°C\n10000 ft +1°C\n14000 ft -6°C\n18000 ft -13°C\n24000 ft -25°C\nAt which of the following flight levels is the risk for aircraft icing, in cloud,\nthe greatest?\nFL90\nFL150",
-      "options": [
-        "FL180",
-        "FL230",
-        "Question 13 of 59",
-        "ID:"
-      ],
+      "options": ["FL180", "FL230", "Question 13 of 59", "ID:"],
       "answer_index": 0
     },
     {
@@ -9663,12 +8528,7 @@
     {
       "id": "EN-I050-200512-00548",
       "question": "In a CB the probability of severe icing is greatest in the following temperature range:\n0°C to -23°C\n+5°C to -2°C",
-      "options": [
-        "-25°C to -50°C",
-        "below -50°C",
-        "Question 15 of 59",
-        "ID:"
-      ],
+      "options": ["-25°C to -50°C", "below -50°C", "Question 15 of 59", "ID:"],
       "answer_index": 0
     },
     {
@@ -9707,12 +8567,7 @@
     {
       "id": "EN-I050-200512-00264",
       "question": "Amongst the following conditions, which is most likely to cause airframe icing?\nFG\nSHSN",
-      "options": [
-        "+FZRA",
-        "RA",
-        "Question 19 of 59",
-        "ID:"
-      ],
+      "options": ["+FZRA", "RA", "Question 19 of 59", "ID:"],
       "answer_index": 0
     },
     {
@@ -9784,23 +8639,13 @@
     {
       "id": "EN-I050-200512-00903",
       "question": "When icing occurs in dense clouds with large supercooled droplets at a temperature of -5°C,\nit is most likely to be…\nmixed ice.\nsmooth ice.",
-      "options": [
-        "hoar frost.",
-        "clear ice.",
-        "Question 26 of 59",
-        "ID:"
-      ],
+      "options": ["hoar frost.", "clear ice.", "Question 26 of 59", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00676",
       "question": "When an aircraft flies into freezing rain in a layer with a temperature below 0°C, what type of\nicing will most likely be\nencountered?\nClear ice\nSmooth ice",
-      "options": [
-        "Hoar frost",
-        "Mixed ice",
-        "Question 27 of 59",
-        "ID:"
-      ],
+      "options": ["Hoar frost", "Mixed ice", "Question 27 of 59", "ID:"],
       "answer_index": 0
     },
     {
@@ -9927,12 +8772,7 @@
     {
       "id": "EN-I050-200512-00593",
       "question": "Which kind of ice is described in the following?\n“While descending through a cloud cover at high level, a small amount of a white, opaque\ndeposit with a light porous texture\nand a rough surface is detected along the leading edge of the wing.”\nHoar frost\nSupercooled ice",
-      "options": [
-        "Clear ice",
-        "Rime ice",
-        "Question 39 of 59",
-        "ID:"
-      ],
+      "options": ["Clear ice", "Rime ice", "Question 39 of 59", "ID:"],
       "answer_index": 0
     },
     {
@@ -9993,78 +8833,43 @@
     {
       "id": "EN-I050-200512-00675",
       "question": "When penetrating a humid air mass after a prolonged VMC descent in very cold air, what type\nof icing will be encountered?\nRime ice\nHoar frost",
-      "options": [
-        "Mixed icing",
-        "Clear ice",
-        "Question 45 of 59",
-        "ID:"
-      ],
+      "options": ["Mixed icing", "Clear ice", "Question 45 of 59", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00817",
       "question": "Which intensity of ice accretion is described in the following?\n“An aircraft in flight experiences airframe icing which makes a change of heading and/or altitude\ndesirable.”\nModerate\nHeavy",
-      "options": [
-        "Severe",
-        "Light",
-        "Question 46 of 59",
-        "ID:"
-      ],
+      "options": ["Severe", "Light", "Question 46 of 59", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00739",
       "question": "The following ICAO description characterises which degree of icing?\n“Conditions in which immediate change of heading and/or altitude is considered essential.”\nModerate\nSmooth",
-      "options": [
-        "Severe",
-        "Light",
-        "Question 47 of 59",
-        "ID:"
-      ],
+      "options": ["Severe", "Light", "Question 47 of 59", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00738",
       "question": "The following ICAO description characterises which degree of icing?\n“Conditions in which change of heading and/or altitude may be considered desirable.”\nSevere\nModerate",
-      "options": [
-        "Heavy",
-        "Light",
-        "Question 48 of 59",
-        "ID:"
-      ],
+      "options": ["Heavy", "Light", "Question 48 of 59", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00267",
       "question": "The ICAO recommendation “No change of course and altitude necessary” should be followed\nat what degree of icing?\nModerate\nLight",
-      "options": [
-        "Soft",
-        "Strong",
-        "Question 49 of 59",
-        "ID:"
-      ],
+      "options": ["Soft", "Strong", "Question 49 of 59", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00265",
       "question": "The ICAO recommendation “Change of course and/or altitude desirable”\nshould be followed at what degree of icing?\nHeavy\nModerate",
-      "options": [
-        "Excessive",
-        "Severe",
-        "Question 50 of 59",
-        "ID:"
-      ],
+      "options": ["Excessive", "Severe", "Question 50 of 59", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00266",
       "question": "The ICAO recommendation “Change course and/or altitude immediately”\nshould be followed at what degree of icing?\nExcessive\nStrong",
-      "options": [
-        "Light",
-        "Severe",
-        "Question 51 of 59",
-        "ID:"
-      ],
+      "options": ["Light", "Severe", "Question 51 of 59", "ID:"],
       "answer_index": 0
     },
     {
@@ -10081,12 +8886,7 @@
     {
       "id": "EN-I050-200512-00220",
       "question": "Which is the most dangerous form of airframe icing?\nDry ice\nClear ice",
-      "options": [
-        "Hoar frost",
-        "Wet ice and snow",
-        "Question 53 of 59",
-        "ID:"
-      ],
+      "options": ["Hoar frost", "Wet ice and snow", "Question 53 of 59", "ID:"],
       "answer_index": 0
     },
     {
@@ -10169,45 +8969,25 @@
     {
       "id": "EN-I050-200512-00778",
       "question": "What intensity of turbulence is described in the following?\n“Conditions in which abrupt changes in aircraft attitude and/or altitude occur, aircraft may\nbe out of control for short periods.”\nSmooth\nHeavy",
-      "options": [
-        "Severe",
-        "Moderate",
-        "Question 2 of 16",
-        "ID:"
-      ],
+      "options": ["Severe", "Moderate", "Question 2 of 16", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00030",
       "question": "Which kind of turbulence is specified by the following ICAO description?\n“There may be moderate changes in aircraft attitude and/or altitude but the aircraft\nremains in positive control at all times.\nUsually, small variations in air speed. Changes in accelerometer readings of 0.5 to 1.0 g at\nthe aircraft`s centre of gravity. Occupants feel strain against seat belts. Loose objects\nmove about. Food service and walking are difficult.”\nModerate\nLight",
-      "options": [
-        "Severe",
-        "Calm",
-        "Question 3 of 16",
-        "ID:"
-      ],
+      "options": ["Severe", "Calm", "Question 3 of 16", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00316",
       "question": "You experience CAT which causes passengers and crew to feel definite strain against\ntheir seat belt. Unsecured objects are\ndislodged. Food service and walking are difficult.\nThis intensity of CAT should be reported as:\nSevere\nExcessive",
-      "options": [
-        "Moderate",
-        "Strong",
-        "Question 4 of 16",
-        "ID:"
-      ],
+      "options": ["Moderate", "Strong", "Question 4 of 16", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00740",
       "question": "The following ICAO description characterises which degree of turbulence?\n“Conditions in which abrupt changes in aircraft attitude and/or altitude occur, aircraft may\nbe out of control for short periods.\nUsually, large variations in air speed. Changes in accelerometer readings greater than 1.0\ng at the aircraft`s centre of gravity. Occupants are forced violently against seat belts.\nLoose objects are tossed about.”\nLight\nModerate",
-      "options": [
-        "Heavy",
-        "Severe",
-        "Question 5 of 16",
-        "ID:"
-      ],
+      "options": ["Heavy", "Severe", "Question 5 of 16", "ID:"],
       "answer_index": 0
     },
     {
@@ -10268,34 +9048,19 @@
     {
       "id": "EN-I050-201129-01462",
       "question": "The description “short-time, irregular movements of air from the undisturbed wind flow” is\nreferred to as…\natmospheric turbulence.\nwind shear.",
-      "options": [
-        "gustiness.",
-        "bumpiness.",
-        "Question 11 of 16",
-        "ID:"
-      ],
+      "options": ["gustiness.", "bumpiness.", "Question 11 of 16", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-201129-01463",
       "question": "The description “sudden, but sustained change in wind direction and / or speed over a\nshort distance” is referred to as…\nwind shear.\natmospheric turbulence.",
-      "options": [
-        "bumpiness.",
-        "gustiness.",
-        "Question 12 of 16",
-        "ID:"
-      ],
+      "options": ["bumpiness.", "gustiness.", "Question 12 of 16", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-201129-01464",
       "question": "The description “change of wind velocity above a prevailling strength within a 1 minute\ntime limit” is referred to as…\natmospheric turbulence.\nbumpiness.",
-      "options": [
-        "wind shear.",
-        "gustiness.",
-        "Question 13 of 16",
-        "ID:"
-      ],
+      "options": ["wind shear.", "gustiness.", "Question 13 of 16", "ID:"],
       "answer_index": 0
     },
     {
@@ -10488,12 +9253,7 @@
     {
       "id": "EN-I050-200512-00185",
       "question": "Which meteorological phenomenon indicates upper-level instability and possible thunderstorm\ndevelopment?\nAurora Borealis\nAC castellanus",
-      "options": [
-        "AC lenticularis",
-        "Cirrocumulus",
-        "Question 2 of 53",
-        "ID:"
-      ],
+      "options": ["AC lenticularis", "Cirrocumulus", "Question 2 of 53", "ID:"],
       "answer_index": 0
     },
     {
@@ -10642,12 +9402,7 @@
     {
       "id": "EN-I050-200512-00417",
       "question": "Frontal thunderstorms usually occur with…\nstrong insolation.\nhigh pressure areas.",
-      "options": [
-        "cold fronts.",
-        "warm fronts.",
-        "Question 16 of 53",
-        "ID:"
-      ],
+      "options": ["cold fronts.", "warm fronts.", "Question 16 of 53", "ID:"],
       "answer_index": 0
     },
     {
@@ -10686,12 +9441,7 @@
     {
       "id": "EN-I050-200512-00148",
       "question": "What weather conditions are usually associated with a “squall line”?\nfair weather with some CU\nContinuous light rain",
-      "options": [
-        "Thunderstorms",
-        "Fog",
-        "Question 20 of 53",
-        "ID:"
-      ],
+      "options": ["Thunderstorms", "Fog", "Question 20 of 53", "ID:"],
       "answer_index": 0
     },
     {
@@ -10719,34 +9469,19 @@
     {
       "id": "EN-I050-200512-00077",
       "question": "When are thunderstorms caused by warm updrafts most likely in Central Europe?\nMid-afternoon\nAround midnight",
-      "options": [
-        "Late evening",
-        "Early morning",
-        "Question 23 of 53",
-        "ID:"
-      ],
+      "options": ["Late evening", "Early morning", "Question 23 of 53", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00468",
       "question": "In which of the following areas would you expect to encounter the highest frequency of\nthunderstorms?\nSubtropical\nSubpolar",
-      "options": [
-        "Tropical",
-        "Mid-latitudes",
-        "Question 24 of 53",
-        "ID:"
-      ],
+      "options": ["Tropical", "Mid-latitudes", "Question 24 of 53", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00537",
       "question": "At what stage in thunderstorm development will there be only updraughts?\nPrecipitation stage\nStorm stage",
-      "options": [
-        "Initial stage",
-        "Mature stage",
-        "Question 25 of 53",
-        "ID:"
-      ],
+      "options": ["Initial stage", "Mature stage", "Question 25 of 53", "ID:"],
       "answer_index": 0
     },
     {
@@ -10785,12 +9520,7 @@
     {
       "id": "EN-I050-200512-00078",
       "question": "Which stage of thunderstorm development is usually associated with rotor winds characterized\nby roll clouds?\nCumulus stage\nDissipating stage",
-      "options": [
-        "Updraft stage",
-        "Mature stage",
-        "Question 29 of 53",
-        "ID:"
-      ],
+      "options": ["Updraft stage", "Mature stage", "Question 29 of 53", "ID:"],
       "answer_index": 0
     },
     {
@@ -11005,12 +9735,7 @@
     {
       "id": "EN-I050-200512-00149",
       "question": "What approximate maximum area can be affected by damaging winds at the surface caused\nby a microburst?\n20 km\n100 m",
-      "options": [
-        "4 km",
-        "100 km",
-        "Question 49 of 53",
-        "ID:"
-      ],
+      "options": ["4 km", "100 km", "Question 49 of 53", "ID:"],
       "answer_index": 0
     },
     {
@@ -11071,12 +9796,7 @@
     {
       "id": "EN-I050-200512-00076",
       "question": "Tornadoes in North America are most likely to occur at which time of the year?\nWinter and summer\nWinter, spring",
-      "options": [
-        "Spring, summer",
-        "Summer, autumn",
-        "Question 2 of 5",
-        "ID:"
-      ],
+      "options": ["Spring, summer", "Summer, autumn", "Question 2 of 5", "ID:"],
       "answer_index": 0
     },
     {
@@ -11093,12 +9813,7 @@
     {
       "id": "EN-I050-200512-00471",
       "question": "Which type of cloud is associated with tornadoes?\nAltocumulus\nNimbostratus",
-      "options": [
-        "Cirrostratus",
-        "Cumulonimbus",
-        "Question 4 of 5",
-        "ID:"
-      ],
+      "options": ["Cirrostratus", "Cumulonimbus", "Question 4 of 5", "ID:"],
       "answer_index": 0
     },
     {
@@ -11412,45 +10127,25 @@
     {
       "id": "EN-I050-201129-01471",
       "question": "In meteorological terms, reduction in visibility is distinguished between reduction due to\nwater or water related particles\n(precipitation) and non-water particles (obscurations).\nIn this sense, obscuration could be caused by…\nmist.\nfog.",
-      "options": [
-        "dust.",
-        "rain.",
-        "Question 8 of 11",
-        "ID:"
-      ],
+      "options": ["dust.", "rain.", "Question 8 of 11", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-201129-01472",
       "question": "In case of blowing snow, visibility can be reduced to:\n100 m\n1 m (near zero)",
-      "options": [
-        "500 m",
-        "1 km",
-        "Question 9 of 11",
-        "ID:"
-      ],
+      "options": ["500 m", "1 km", "Question 9 of 11", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-201129-01473",
       "question": "In case of a “heavy” duststorm (with sky obscured), visibility can be reduced to:\nbelow 200 m\n600 – 1200 m",
-      "options": [
-        "200 – 600 m",
-        "1 – 5 km",
-        "Question 10 of 11",
-        "ID:"
-      ],
+      "options": ["200 – 600 m", "1 – 5 km", "Question 10 of 11", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-201129-01474",
       "question": "In case of a “moderate” duststorm (with sky not obscured), visibility can be reduced to:\n1 – 5 km\n200 – 600 m",
-      "options": [
-        "below 200 m",
-        "600 – 1200 m",
-        "Question 11 of 11",
-        "ID:"
-      ],
+      "options": ["below 200 m", "600 – 1200 m", "Question 11 of 11", "ID:"],
       "answer_index": 0
     },
     {
@@ -11478,12 +10173,7 @@
     {
       "id": "EN-I050-200512-00912",
       "question": "The wind direction given in a METAR is measured in relation to…\ncompass north.\nthe Greenwich meridian.",
-      "options": [
-        "true north.",
-        "magnetic north.",
-        "Question 3 of 53",
-        "ID:"
-      ],
+      "options": ["true north.", "magnetic north.", "Question 3 of 53", "ID:"],
       "answer_index": 0
     },
     {
@@ -11852,34 +10542,19 @@
     {
       "id": "EN-I050-220820-02150",
       "question": "(See attachment IC-050-096)\nThe clouds within the marked area shown on the stallite image, northeast of Great Britain, are:\nNimbostratus\nCirrus streaks",
-      "options": [
-        "Altostratus",
-        "CB clouds",
-        "Question 37 of 53",
-        "ID:"
-      ],
+      "options": ["Altostratus", "CB clouds", "Question 37 of 53", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-220820-02153",
       "question": "(See attachment IC-050-097B)\nThe band of clouds the arrow in the attached satellite image is pointing at, is associated with…\nlow stratus.\nthe subtropical jet.",
-      "options": [
-        "a warm front.",
-        "a cold front.",
-        "Question 38 of 53",
-        "ID:"
-      ],
+      "options": ["a warm front.", "a cold front.", "Question 38 of 53", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-220820-02152",
       "question": "(See attachment IC-050-097A)\nThe intense, white spots shown on the attached satellite image within the marked area are\nassociated with:\nCB clouds\nCirrus streaks",
-      "options": [
-        "shallow fog",
-        "Nimbostratus",
-        "Question 39 of 53",
-        "ID:"
-      ],
+      "options": ["shallow fog", "Nimbostratus", "Question 39 of 53", "ID:"],
       "answer_index": 0
     },
     {
@@ -11896,12 +10571,7 @@
     {
       "id": "EN-I050-201129-01475",
       "question": "Satellite images using the technique of “motion vector imaging” can be used to locate…\ntropical revolving storms.\ncold pools.",
-      "options": [
-        "jet streams.",
-        "fronts.",
-        "Question 41 of 53",
-        "ID:"
-      ],
+      "options": ["jet streams.", "fronts.", "Question 41 of 53", "ID:"],
       "answer_index": 0
     },
     {
@@ -11918,12 +10588,7 @@
     {
       "id": "EN-I050-200512-00269",
       "question": "Echoes on meteorological radar screens are caused by:\nAny type of cloud\nVolcanic ash",
-      "options": [
-        "Hail",
-        "Water vapour",
-        "Question 43 of 53",
-        "ID:"
-      ],
+      "options": ["Hail", "Water vapour", "Question 43 of 53", "ID:"],
       "answer_index": 0
     },
     {
@@ -12050,12 +10715,7 @@
     {
       "id": "EN-I050-200512-00008",
       "question": "What is the abbreviation for well separated CB clouds on the significant weather chart?\nEMBD CB.\nMPL CB.",
-      "options": [
-        "OCNL CB.",
-        "SEP CB.",
-        "Question 2 of 81",
-        "ID:"
-      ],
+      "options": ["OCNL CB.", "SEP CB.", "Question 2 of 81", "ID:"],
       "answer_index": 0
     },
     {
@@ -12149,12 +10809,7 @@
     {
       "id": "EN-I050-200512-00849",
       "question": "A line connecting areas of the same temperature is a/an…\nisohypse.\nvapour line.",
-      "options": [
-        "isogone.",
-        "isotherm.",
-        "Question 11 of 81",
-        "ID:"
-      ],
+      "options": ["isogone.", "isotherm.", "Question 11 of 81", "ID:"],
       "answer_index": 0
     },
     {
@@ -12171,12 +10826,7 @@
     {
       "id": "EN-I050-200512-00945",
       "question": "(See attachment IC-050-002)\nThe number indicating a cold front is:\nnumber 1\nnumber 4",
-      "options": [
-        "number 3",
-        "number 2",
-        "Question 13 of 81",
-        "ID:"
-      ],
+      "options": ["number 3", "number 2", "Question 13 of 81", "ID:"],
       "answer_index": 0
     },
     {
@@ -12193,56 +10843,31 @@
     {
       "id": "EN-I050-200512-00952",
       "question": "(See attachment IC-050-006)\nThe symbol representing a quasi-stationary front is:\nSymbol 1\nSymbol 4",
-      "options": [
-        "Symbol 3",
-        "Symbol 2",
-        "Question 15 of 81",
-        "ID:"
-      ],
+      "options": ["Symbol 3", "Symbol 2", "Question 15 of 81", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00993",
       "question": "(See attachment IC-050-006)\nThe symbol representing a a severe squall line is:\nSymbol 1\nSymbol 4",
-      "options": [
-        "Symbol 3",
-        "Symbol 2",
-        "Question 16 of 81",
-        "ID:"
-      ],
+      "options": ["Symbol 3", "Symbol 2", "Question 16 of 81", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00998",
       "question": "(See attachment IC-050-034-A)\nYou are planning a flight from Zurich to Warsaw, ETD 1130 UTC.\nAt what flight level would you first expect to encounter clear air turbulence during the\nclimbout from Zurich?\nFL280\nFL260",
-      "options": [
-        "FL160",
-        "FL200",
-        "Question 17 of 81",
-        "ID:"
-      ],
+      "options": ["FL160", "FL200", "Question 17 of 81", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00999",
       "question": "(See attachment IC-050-035)\nThe approximate height of the tropopause between London and Berlin is:\nFL450\nFL360",
-      "options": [
-        "FL400",
-        "FL320",
-        "Question 18 of 81",
-        "ID:"
-      ],
+      "options": ["FL400", "FL320", "Question 18 of 81", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01000",
       "question": "(See attachment IC-050-035)\nFor a flight from Paris to Copenhagen, which of the following flight levels would you\nchoose to avoid turbulence and icing?\nFL170\nFL340",
-      "options": [
-        "FL330",
-        "FL260",
-        "Question 19 of 81",
-        "ID:"
-      ],
+      "options": ["FL330", "FL260", "Question 19 of 81", "ID:"],
       "answer_index": 0
     },
     {
@@ -12259,12 +10884,7 @@
     {
       "id": "EN-I050-200512-01002",
       "question": "(See attachment IC-050-035)\nThe core of the jet stream that is located over Ireland is at:\nFL310\nFL270",
-      "options": [
-        "FL370",
-        "FL250",
-        "Question 21 of 81",
-        "ID:"
-      ],
+      "options": ["FL370", "FL250", "Question 21 of 81", "ID:"],
       "answer_index": 0
     },
     {
@@ -12281,12 +10901,7 @@
     {
       "id": "EN-I050-200512-01004",
       "question": "(See attachment AC-ICQB-050-916)\nWhat is the approximate flight level of the tropopause over Berlin?\nFL310\nFL250",
-      "options": [
-        "FL330",
-        "FL220",
-        "Question 23 of 81",
-        "ID:"
-      ],
+      "options": ["FL330", "FL220", "Question 23 of 81", "ID:"],
       "answer_index": 0
     },
     {
@@ -12303,23 +10918,13 @@
     {
       "id": "EN-I050-200512-01012",
       "question": "(See attachment IC-050-034)\nWhat is the direction and speed of the jet stream affecting a flight from Rome to Zurich\nat FL310?\n040° / 105 kt\n280° / 110 kt",
-      "options": [
-        "220° / 110 kt",
-        "120° / 105 kt",
-        "Question 25 of 81",
-        "ID:"
-      ],
+      "options": ["220° / 110 kt", "120° / 105 kt", "Question 25 of 81", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01024",
       "question": "(See attachment IC-050-002)\nThe number representing a warm sector is:\nnumber 1\nnumber 4",
-      "options": [
-        "number 2",
-        "number 3",
-        "Question 26 of 81",
-        "ID:"
-      ],
+      "options": ["number 2", "number 3", "Question 26 of 81", "ID:"],
       "answer_index": 0
     },
     {
@@ -12369,78 +10974,43 @@
     {
       "id": "EN-I050-200512-01029",
       "question": "(See attachment IC-050-012)\nWhich of the given symbols indicates severe icing?\nSymbol 3\nSymbol 4",
-      "options": [
-        "Symbol 1",
-        "Symbol 2",
-        "Question 31 of 81",
-        "ID:"
-      ],
+      "options": ["Symbol 1", "Symbol 2", "Question 31 of 81", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01030",
       "question": "(See attachment IC-050-013)\nWhich of the given symbols indicates a tropical revolving storm?\nSymbol 3\nSymbol 4",
-      "options": [
-        "Symbol 2",
-        "Symbol 1",
-        "Question 32 of 81",
-        "ID:"
-      ],
+      "options": ["Symbol 2", "Symbol 1", "Question 32 of 81", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01031",
       "question": "(See attachment IC-050-014)\nWhich of the given symbols indicates danger to an aircraft flying under instrument flight\nrules (IFR)?\nSymbol 3\nSymbol 4",
-      "options": [
-        "Symbol 1",
-        "Symbol 2",
-        "Question 33 of 81",
-        "ID:"
-      ],
+      "options": ["Symbol 1", "Symbol 2", "Question 33 of 81", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01032",
       "question": "(See attachment IC-050-015)\nWhich of the given symbols indicates danger to an aircraft flying under instrument flight\nrules (IFR)?\nSymbol 1\nSymbol 2",
-      "options": [
-        "Symbol 4",
-        "Symbol 3",
-        "Question 34 of 81",
-        "ID:"
-      ],
+      "options": ["Symbol 4", "Symbol 3", "Question 34 of 81", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01036",
       "question": "(See attachment IC-050-036-A)\nWhat is the average wind for the route Paris – Moscow at FL290?\n240/70\n280/40",
-      "options": [
-        "220/60",
-        "250/55",
-        "Question 35 of 81",
-        "ID:"
-      ],
+      "options": ["220/60", "250/55", "Question 35 of 81", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01037",
       "question": "(See attachment IC-050-036-B)\nWhat is the average temperature for the route Munich – Stockholm at FL280?\n-33°C\n-44°C",
-      "options": [
-        "-40°C",
-        "-36°C",
-        "Question 36 of 81",
-        "ID:"
-      ],
+      "options": ["-40°C", "-36°C", "Question 36 of 81", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01039",
       "question": "(See attachment IC-050-032-A)\nAt what flight level can the tropopause be expected over Ankara?\nFL370\nFL400",
-      "options": [
-        "FL450",
-        "FL330",
-        "Question 37 of 81",
-        "ID:"
-      ],
+      "options": ["FL450", "FL330", "Question 37 of 81", "ID:"],
       "answer_index": 0
     },
     {
@@ -12457,12 +11027,7 @@
     {
       "id": "EN-I050-200512-01041",
       "question": "(See attachment IC-050-035)\nWhat wind speeds can you expect at FL230 overhead Amsterdam?\n120 km/h\n80 kt",
-      "options": [
-        "45 kt",
-        "130 kt",
-        "Question 39 of 81",
-        "ID:"
-      ],
+      "options": ["45 kt", "130 kt", "Question 39 of 81", "ID:"],
       "answer_index": 0
     },
     {
@@ -12512,23 +11077,13 @@
     {
       "id": "EN-I050-200512-01096",
       "question": "(See attachment IC-050-016)\nThe front with the designator “C” represents a…\nthunderstorm front.\nwarm front.",
-      "options": [
-        "cold front.",
-        "cold occlusion.",
-        "Question 44 of 81",
-        "ID:"
-      ],
+      "options": ["cold front.", "cold occlusion.", "Question 44 of 81", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01098",
       "question": "(See attachment IC-050-036-C)\nThe average forecast wind for FL300 between Moscow and Kiev is:\n280/20\n250/30",
-      "options": [
-        "280/10",
-        "250/15",
-        "Question 45 of 81",
-        "ID:"
-      ],
+      "options": ["280/10", "250/15", "Question 45 of 81", "ID:"],
       "answer_index": 0
     },
     {
@@ -12545,34 +11100,19 @@
     {
       "id": "EN-I050-200512-01126",
       "question": "(See attachment IC-050-026)\nThe tropopause in the vicinity of PARIS (49°N 003°E) is at approximately:\nFL330\nFL400",
-      "options": [
-        "FL430",
-        "FL370",
-        "Question 47 of 81",
-        "ID:"
-      ],
+      "options": ["FL430", "FL370", "Question 47 of 81", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01179",
       "question": "(See attachment IC-050-067)\nWhat is the correct term for the pressure pattern at position marked “X”?\nTrough\nRidge",
-      "options": [
-        "Depression",
-        "Col",
-        "Question 48 of 81",
-        "ID:"
-      ],
+      "options": ["Depression", "Col", "Question 48 of 81", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01180",
       "question": "(See attachment IC-050-070)\nWhat is the correct term for the pressure pattern shown near the area marked “X!”?\nRidge of high pressure\nDepression",
-      "options": [
-        "Col",
-        "Trough of low pressure",
-        "Question 49 of 81",
-        "ID:"
-      ],
+      "options": ["Col", "Trough of low pressure", "Question 49 of 81", "ID:"],
       "answer_index": 0
     },
     {
@@ -12611,23 +11151,13 @@
     {
       "id": "EN-I050-200512-01267",
       "question": "(See attachment AC-ICQB-050-041)\nAn Aircraft departs from point A to B. After passing through the warm front (nearly half to\nB), the wind speed on top of the friction layer will (1)___ and the wind direction will\n(2)___.\n(1) decrease\n(2) veer\n(1) increase\n(2) back\n(1) decrease\n(2) back",
-      "options": [
-        "(1) increase",
-        "(2) veer",
-        "Question 53 of 81",
-        "ID:"
-      ],
+      "options": ["(1) increase", "(2) veer", "Question 53 of 81", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01275",
       "question": "(See attachment AC-ICQB-050-008)\nIndicate the aircraft that is experiencing the highest headwind at an altitude close to the\nground:\nAeroplane B\nAeroplane C",
-      "options": [
-        "Aeroplane D",
-        "Aeroplane A",
-        "Question 54 of 81",
-        "ID:"
-      ],
+      "options": ["Aeroplane D", "Aeroplane A", "Question 54 of 81", "ID:"],
       "answer_index": 0
     },
     {
@@ -12655,23 +11185,13 @@
     {
       "id": "EN-I050-200512-01288",
       "question": "(See attachment AC-ICQB-050-013)\nWhen flying close to the ground, which aircraft will experience the greatest headwind?\nAircraft C\nAircraft A",
-      "options": [
-        "Aircraft D",
-        "Aircraft B",
-        "Question 57 of 81",
-        "ID:"
-      ],
+      "options": ["Aircraft D", "Aircraft B", "Question 57 of 81", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01293",
       "question": "(For this question use annex AC-ICQB-050-010)\nWhen a pilot is flying from point A to point B, the wind speed will be (1) ____, and the\nsurface wind direction will (2) ____.\n(1) decreasing\n(2) backing\n(1) decreasing\n(2) veering\n(1) increasing\n(2) backing",
-      "options": [
-        "(1) increasing",
-        "(2) veering",
-        "Question 58 of 81",
-        "ID:"
-      ],
+      "options": ["(1) increasing", "(2) veering", "Question 58 of 81", "ID:"],
       "answer_index": 0
     },
     {
@@ -12688,34 +11208,19 @@
     {
       "id": "EN-I050-200512-01297",
       "question": "(See attachment AC-ICQB-050-052)\nAs illustrated on the annex in the boxed area, determine the temperature deviation\nfrom ISA at FL340 over the mid-Atlantic:\nISA +2\nISA -2",
-      "options": [
-        "ISA +55",
-        "ISA -55",
-        "Question 60 of 81",
-        "ID:"
-      ],
+      "options": ["ISA +55", "ISA -55", "Question 60 of 81", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01307",
       "question": "(See attachment IC-050-026)\nWhich maximum intensity of CAT is forecast for FL330 over Benghazi (32°N, 020°E)?\nHeavy\nModerate",
-      "options": [
-        "Light",
-        "Nil",
-        "Question 61 of 81",
-        "ID:"
-      ],
+      "options": ["Light", "Nil", "Question 61 of 81", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01347",
       "question": "(See attachment AC-ICQB-050-053)\nUse the boxed area on the annex provided, what ISA deviation can be assumed\nover the western region of the black sea at FL340?\nISA – 2\nISA – 51",
-      "options": [
-        "ISA + 2",
-        "ISA + 51",
-        "Question 62 of 81",
-        "ID:"
-      ],
+      "options": ["ISA + 2", "ISA + 51", "Question 62 of 81", "ID:"],
       "answer_index": 0
     },
     {
@@ -12732,23 +11237,13 @@
     {
       "id": "EN-I050-200512-01360",
       "question": "(See attachment AC-ICQB-050-055)\nUsing the information provided inside the boxed area on the annex, find the approximate\naverage wind direction at FL340\n180°(T)\n200°(T)",
-      "options": [
-        "170°(T)",
-        "020°(T)",
-        "Question 64 of 81",
-        "ID:"
-      ],
+      "options": ["170°(T)", "020°(T)", "Question 64 of 81", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01361",
       "question": "(See attachment AC-ICQB-050-055)\nFind the approximate wind speed at FL340 overhead the central Europe area (use the\nboxed area shown on the annex):\n12 kt\n22 kt",
-      "options": [
-        "105 kt",
-        "55 kt",
-        "Question 65 of 81",
-        "ID:"
-      ],
+      "options": ["105 kt", "55 kt", "Question 65 of 81", "ID:"],
       "answer_index": 0
     },
     {
@@ -12765,12 +11260,7 @@
     {
       "id": "EN-I050-200512-01363",
       "question": "(See attachment AC-ICQB-050-057)\nUsing the boxed area provided on the annex, find the approximate wind direction\nat FL340 over mid-Atlantic at 040° W:\n270°(T)\n290°(T)",
-      "options": [
-        "230°(T)",
-        "200°(T)",
-        "Question 67 of 81",
-        "ID:"
-      ],
+      "options": ["230°(T)", "200°(T)", "Question 67 of 81", "ID:"],
       "answer_index": 0
     },
     {
@@ -12787,12 +11277,7 @@
     {
       "id": "EN-I050-201129-01478",
       "question": "World area forecast centres prepare global sets of gridded forecasts for flight planning\npurposes providing information about upper:\n1. wind\n2. temperature\n3. humidity\n2 and 3\n1 and 2",
-      "options": [
-        "1, 2 and 3",
-        "1 and 3",
-        "Question 69 of 81",
-        "ID:"
-      ],
+      "options": ["1, 2 and 3", "1 and 3", "Question 69 of 81", "ID:"],
       "answer_index": 0
     },
     {
@@ -12842,12 +11327,7 @@
     {
       "id": "EN-I050-210802-01486",
       "question": "(See attachment IC-050-089)\nOn the route shown in the annex from Lomé (L) to Nairobi (N), what is the highest\ncoverage of CB that has to be expected?\nBetween 0 and 25%\n50 – 75%",
-      "options": [
-        "Less than 50%",
-        "More than 75%",
-        "Question 74 of 81",
-        "ID:"
-      ],
+      "options": ["Less than 50%", "More than 75%", "Question 74 of 81", "ID:"],
       "answer_index": 0
     },
     {
@@ -12864,23 +11344,13 @@
     {
       "id": "EN-I050-210802-01488",
       "question": "(See attachment IC-050-089)\nOn the route shown in the annex from Capetown (C) to Nairobi (N), the average\ntropopause height is…\nbetween FL550 and FL500.\nhigher than FL550.",
-      "options": [
-        "FL500.",
-        "lower than FL500.",
-        "Question 76 of 81",
-        "ID:"
-      ],
+      "options": ["FL500.", "lower than FL500.", "Question 76 of 81", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-210802-01489",
       "question": "(See attachment IC-050-089)\nOn the route shown in the annex from Capetown (C) to Antananarivo (A), the average\ntropopause height is…\nFL550 or slightly below.\nhigher than FL550.",
-      "options": [
-        "lower than FL450.",
-        "FL500.",
-        "Question 77 of 81",
-        "ID:"
-      ],
+      "options": ["lower than FL450.", "FL500.", "Question 77 of 81", "ID:"],
       "answer_index": 0
     },
     {
@@ -12908,23 +11378,13 @@
     {
       "id": "EN-I050-210802-01492",
       "question": "(See attachment IC-050-090)\nThe highest coverage of CB along the route from Mumbai (M) to Singapore (S) to be\nexpected is:\nless than 50%\n50 – 75%",
-      "options": [
-        "more than 75%",
-        "less than 25%",
-        "Question 80 of 81",
-        "ID:"
-      ],
+      "options": ["more than 75%", "less than 25%", "Question 80 of 81", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-210802-01493",
       "question": "(See attachment IC-050-090)\nThe highest coverage of CB in the area south of Shanghai (S) is:\nmore than 75%\nless than 25%",
-      "options": [
-        "50 – 75%",
-        "less than 50%",
-        "Question 81 of 81",
-        "ID:"
-      ],
+      "options": ["50 – 75%", "less than 50%", "Question 81 of 81", "ID:"],
       "answer_index": 0
     },
     {
@@ -12941,12 +11401,7 @@
     {
       "id": "EN-I050-200512-00084",
       "question": "What is the meaning of the expression “FEW”?\n3 – 4 oktas\n1 – 2 oktas",
-      "options": [
-        "0 oktas",
-        "5 – 7 oktas",
-        "Question 2 of 121",
-        "ID:"
-      ],
+      "options": ["0 oktas", "5 – 7 oktas", "Question 2 of 121", "ID:"],
       "answer_index": 0
     },
     {
@@ -12963,12 +11418,7 @@
     {
       "id": "EN-I050-200512-00090",
       "question": "A TAF for Athens during summer shows “TEMPO TS” for the time of your landing.\nWhat is the maximum time this deterioration in weather can last in any one occurrence?\n120 minutes\n60 minutes",
-      "options": [
-        "15 minutes",
-        "30 minutes",
-        "Question 4 of 121",
-        "ID:"
-      ],
+      "options": ["15 minutes", "30 minutes", "Question 4 of 121", "ID:"],
       "answer_index": 0
     },
     {
@@ -13018,12 +11468,7 @@
     {
       "id": "EN-I050-200512-00155",
       "question": "Which weather report can provide information about icing conditions\non the runway?\nMETAR\nLow-level report",
-      "options": [
-        "TAF",
-        "Enroute report",
-        "Question 9 of 121",
-        "ID:"
-      ],
+      "options": ["TAF", "Enroute report", "Question 9 of 121", "ID:"],
       "answer_index": 0
     },
     {
@@ -13106,23 +11551,13 @@
     {
       "id": "EN-I050-200512-00163",
       "question": "ETA 2100 UTC, what is the minimum visibility forecast for the ETA?\nTAF EHAM 281500Z 2816/2901 14010KT 6000 RA SCT025 BKN040 BECMG 2816/2818\n12015G25KT SCT008 BKN013 TEMPO\n2818/2823 3000 BKN005 OVC010 BECMG 2823/2901 25020KT 5000 NSW BKN020=\n3 km\n10 km",
-      "options": [
-        "5 NM",
-        "5 km",
-        "Question 17 of 121",
-        "ID:"
-      ],
+      "options": ["5 NM", "5 km", "Question 17 of 121", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00170",
       "question": "Which weather report is a warning of potentially hazardous conditions\nto aircraft in flight?\nMETAR\nGAFOR",
-      "options": [
-        "ATIS",
-        "SIGMET",
-        "Question 18 of 121",
-        "ID:"
-      ],
+      "options": ["ATIS", "SIGMET", "Question 18 of 121", "ID:"],
       "answer_index": 0
     },
     {
@@ -13172,12 +11607,7 @@
     {
       "id": "EN-I050-200512-00182",
       "question": "Considering the TAF extract below, what visibility is forecast for 2400 UTC?\nBECMG 1218/1221 2000 BR BKN004 BECMG 1221/1224 0500 FG VV001\n2000 m\n100 m",
-      "options": [
-        "500 m",
-        "400 m",
-        "Question 23 of 121",
-        "ID:"
-      ],
+      "options": ["500 m", "400 m", "Question 23 of 121", "ID:"],
       "answer_index": 0
     },
     {
@@ -13205,12 +11635,7 @@
     {
       "id": "EN-I050-200512-00189",
       "question": "How long is a TREND in a METAR valid?\n24 hours\n2 hours",
-      "options": [
-        "45 minutes",
-        "9 hours",
-        "Question 26 of 121",
-        "ID:"
-      ],
+      "options": ["45 minutes", "9 hours", "Question 26 of 121", "ID:"],
       "answer_index": 0
     },
     {
@@ -13304,34 +11729,19 @@
     {
       "id": "EN-I050-200512-00280",
       "question": "Which of the following weather phenomena should be reported as precipitation?\nSN\nMIFG",
-      "options": [
-        "FZFG",
-        "DU",
-        "Question 35 of 121",
-        "ID:"
-      ],
+      "options": ["FZFG", "DU", "Question 35 of 121", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00281",
       "question": "Which of the following weather phenomena can cause a rapid change of the braking action of a\nrunway?\nDU\nHZ",
-      "options": [
-        "+FZRA",
-        "BCFG",
-        "Question 36 of 121",
-        "ID:"
-      ],
+      "options": ["+FZRA", "BCFG", "Question 36 of 121", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00282",
       "question": "Which of the following weather phenomena can cause aquaplaning?\nFG\nHZ",
-      "options": [
-        "+RA",
-        "MIFG",
-        "Question 37 of 121",
-        "ID:"
-      ],
+      "options": ["+RA", "MIFG", "Question 37 of 121", "ID:"],
       "answer_index": 0
     },
     {
@@ -13436,34 +11846,19 @@
     {
       "id": "EN-I050-200512-00302",
       "question": "What is the lowest visibility forecast for Zurich at 1430 UTC?\nLSZH 260900Z 2610/2619 20018G30KT 9999 -RA SCT050 BKN080 TEMPO 2612/2615\n27015KT 4500 -DZ BKN013 BKN040\nBECMG 2615/2618 3000 RA OVC012=\n10 km\n4500 m",
-      "options": [
-        "4500 ft",
-        "3000 m",
-        "Question 47 of 121",
-        "ID:"
-      ],
+      "options": ["4500 ft", "3000 m", "Question 47 of 121", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00303",
       "question": "What is the lowest cloud base forecast for Zurich at 1200 UTC?\nLSZH 060900Z 0610/0619 20018G30KT 9999 RA SCT030 BKN070 TEMPO 0611/0613\n24017KT 4500 -DZ BKN012 BKN030\nBECMG 0615/0618 5000 RA OVC010=\n1000 ft\n3000 ft",
-      "options": [
-        "1000 m",
-        "1200 ft",
-        "Question 48 of 121",
-        "ID:"
-      ],
+      "options": ["1000 m", "1200 ft", "Question 48 of 121", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00304",
       "question": "Which type of report is the weather message below?\nEDDM 241200Z 2413/2422 VRB03KT 2500 BR OVC004 BECMG 2415/2417 0600 FG VV002\nTEMPO 2419/2421 0400 FG VV001=\nSIGMET\n9 hour TAF",
-      "options": [
-        "24 hour TAF",
-        "TREND",
-        "Question 49 of 121",
-        "ID:"
-      ],
+      "options": ["24 hour TAF", "TREND", "Question 49 of 121", "ID:"],
       "answer_index": 0
     },
     {
@@ -13480,12 +11875,7 @@
     {
       "id": "EN-I050-200512-00311",
       "question": "The abbreviation “SCT” represents a cloud cover of:\n3 – 4 oktas\n1 – 3 oktas",
-      "options": [
-        "8 oktas",
-        "5 – 7 oktas",
-        "Question 51 of 121",
-        "ID:"
-      ],
+      "options": ["8 oktas", "5 – 7 oktas", "Question 51 of 121", "ID:"],
       "answer_index": 0
     },
     {
@@ -13524,12 +11914,7 @@
     {
       "id": "EN-I050-200512-00422",
       "question": "When vertical visibility is missing or not measurable, how would this be indicated in a METAR?\nVV///\nVVmis",
-      "options": [
-        "VVnavbl",
-        "VV???",
-        "Question 55 of 121",
-        "ID:"
-      ],
+      "options": ["VVnavbl", "VV???", "Question 55 of 121", "ID:"],
       "answer_index": 0
     },
     {
@@ -13612,12 +11997,7 @@
     {
       "id": "EN-I050-200512-00518",
       "question": "Runway visual range (RVR) is reported in…\na METAR.\na TAF and a VOLMET.",
-      "options": [
-        "the SWC.",
-        "a TAF.",
-        "Question 63 of 121",
-        "ID:"
-      ],
+      "options": ["the SWC.", "a TAF.", "Question 63 of 121", "ID:"],
       "answer_index": 0
     },
     {
@@ -13645,12 +12025,7 @@
     {
       "id": "EN-I050-200512-00521",
       "question": "The main European airports provide METARs at intervals of:\n0.5 hour\n1.5 hours",
-      "options": [
-        "6 hours",
-        "2 hours",
-        "Question 66 of 121",
-        "ID:"
-      ],
+      "options": ["6 hours", "2 hours", "Question 66 of 121", "ID:"],
       "answer_index": 0
     },
     {
@@ -13711,34 +12086,19 @@
     {
       "id": "EN-I050-200512-00641",
       "question": "Considering the following TAF, what is the lowest cloud base that can be expected for 1500\nUTC?\nKCHS 280430Z 2806/2906 VRB05KT 4000 BR SCT006 OVC013 BECMG 2813/2814 9000\nSHRA OVC017 PROB40 TEMPO\n2814/2816 VRB15G25KT 1600 TSRA OVC010CB BECMG 2816/2818 26010KT BECMG\n2821/2822 CAVOK=\n1000 ft\n1700 ft",
-      "options": [
-        "1600 ft",
-        "600 ft",
-        "Question 72 of 121",
-        "ID:"
-      ],
+      "options": ["1600 ft", "600 ft", "Question 72 of 121", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00642",
       "question": "Considering the following TAF, what visibility can be expected at 1400 UTC?\nEDDF 272200Z 2806/2824 VRB03KT 3000 BR SCT005 OVC013 BECMG 2813/2814 9000\nSHRA OVC017 PROB40 TEMPO\n2814/2816 VRB10G20KT 1800 TSRA OVC010CB BECMG 2816/2818 26010KT BECMG\n2821/2822 CAVOK=\n10 km or more\n1800 metres",
-      "options": [
-        "9000 metres",
-        "3000 metres",
-        "Question 73 of 121",
-        "ID:"
-      ],
+      "options": ["9000 metres", "3000 metres", "Question 73 of 121", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00643",
       "question": "Considering the following TAF, what is the lowest possible cloud base forecast for 2300 UTC?\nEDDF 272200Z 2806/2824 VRB03KT 4000 BR SCT005 OVC013 BECMG 2813/2814 9000\nSHRA OVC017 PROB40 TEMPO\n2814/2816 VRB10G20KT 1800 TSRA OVC010CB BECMG 2816/2818 26010KT BECMG\n2821/2822 CAVOK=\n1000 ft\n5000 ft",
-      "options": [
-        "1300 ft",
-        "500 ft",
-        "Question 74 of 121",
-        "ID:"
-      ],
+      "options": ["1300 ft", "500 ft", "Question 74 of 121", "ID:"],
       "answer_index": 0
     },
     {
@@ -13755,78 +12115,43 @@
     {
       "id": "EN-I050-200512-00645",
       "question": "Considering the following TAF, what visibility is most likely to be experienced at 2300 UTC?\nTAF LEMD 281200Z 2818/2912 13007KT CAVOK TEMPO 2818/2821 7000 SCT020 SCT030\nBECMG 2821/2823 21005KT 9999\nSCT015 BKN080 PROB40 TEMPO 2823/2906 6000 SCT008=\n10 kilometres or more\n5 kilometres or more",
-      "options": [
-        "7000 metres",
-        "6000 metres",
-        "Question 76 of 121",
-        "ID:"
-      ],
+      "options": ["7000 metres", "6000 metres", "Question 76 of 121", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00646",
       "question": "Considering the following TAF, what lowest cloud base is most likely to be experienced at 2300\nUTC?\nTAF LEMD 281200Z 2818/2912 13007KT CAVOK TEMPO 2818/2821 7000 SCT020 SCT030\nBECMG 2821/2823 21005KT 9999\nSCT015 BKN080 PROB40 TEMPO 2823/2906 6000 SCT008=\n800 ft\n8000 ft",
-      "options": [
-        "1500 ft",
-        "5000 ft",
-        "Question 77 of 121",
-        "ID:"
-      ],
+      "options": ["1500 ft", "5000 ft", "Question 77 of 121", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00647",
       "question": "Considering the following TAF, what is the lowest forecast visibility that may be expected at\n0600 UTC?\nTAF OEDR 280000Z 2801/2810 VRB05KT CAVOK BECMG 2801/2803 8000 NSC TEMPO\n2804/2810 28015G25KT 4000 SA=\n4000 feet\n10 km or more",
-      "options": [
-        "4 km",
-        "8 km",
-        "Question 78 of 121",
-        "ID:"
-      ],
+      "options": ["4 km", "8 km", "Question 78 of 121", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00648",
       "question": "Considering the following TAF, what is the lowest visibility forecast at 1400 UTC?\nTAF VTBD 271800Z 2800/2824 VRB07KT 1200 BR TEMPO 2800/2802 4000 BECMG\n2802/2805 9999 NSW SCT015 BKN100\nTEMPO 2811/2818 04012G25KT 4500 TSRA SCT009 BKN014 BKN017CB BECMG 2820/2824\n4000=\n4500 metres\n4000 feet",
-      "options": [
-        "4000 metres",
-        "1200 metres",
-        "Question 79 of 121",
-        "ID:"
-      ],
+      "options": ["4000 metres", "1200 metres", "Question 79 of 121", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00649",
       "question": "Considering the following TAF, what is the height of the lowest cloud forecast at 1400 UTC?\nTAF VTBD 271800Z 2800/2824 VRB07KT 1200 BR TEMPO 2800/2802 4000 BECMG\n2802/2805 9999 NSW SCT015 BKN100\nTEMPO 2811/2818 04012G25KT 4500 TSRA SCT009 BKN014 BKN017CB BECMG 2820/2824\n4000=\n900 ft\n1400 ft",
-      "options": [
-        "1500 ft",
-        "1700 ft",
-        "Question 80 of 121",
-        "ID:"
-      ],
+      "options": ["1500 ft", "1700 ft", "Question 80 of 121", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00651",
       "question": "Considering the following TAF, what is the lowest possible cloud base forecast at 1700 UTC?\nTAF MKJP 160430Z 1606/1706 36010KT 9999 FEW025 BECMG 1613/1615 14020G34KT\nFEW015CB SCT025 PROB30 TEMPO\n1615/1620 2500 +SHRA SCT010 BKN012CB BECMG 1622/1624 34010KT FEW025=\n2500 ft\n1500 m",
-      "options": [
-        "1000 ft",
-        "1200 ft",
-        "Question 81 of 121",
-        "ID:"
-      ],
+      "options": ["1000 ft", "1200 ft", "Question 81 of 121", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-00653",
       "question": "Considering the following TAF, what is the lowest visibility forecast at 1200 UTC?\nTAF LSGG 020900Z 0210/0219 18007KT 9999 SCT020 BKN100 BECMG 0211/0214 RA\nSCT010 OVC020 PROB30\nTEMPO 0211/0218 VRB10G25KT 4000 TSRA SCT005 BKN015CB=\n10 km or more\n4 km",
-      "options": [
-        "4 NM",
-        "4000 ft",
-        "Question 82 of 121",
-        "ID:"
-      ],
+      "options": ["4 NM", "4000 ft", "Question 82 of 121", "ID:"],
       "answer_index": 0
     },
     {
@@ -13843,12 +12168,7 @@
     {
       "id": "EN-I050-200512-00655",
       "question": "The term PROB in a TAF message indicates the probability of phenomena described and is\nused with the percental values:\n20 or 30\n30 or 40",
-      "options": [
-        "10 or 70",
-        "15 or 55",
-        "Question 84 of 121",
-        "ID:"
-      ],
+      "options": ["10 or 70", "15 or 55", "Question 84 of 121", "ID:"],
       "answer_index": 0
     },
     {
@@ -13964,12 +12284,7 @@
     {
       "id": "EN-I050-200512-00723",
       "question": "Which phenomenon must be reported in a SIGMET?\nVolcanic ash\nSlush and ice on the runway",
-      "options": [
-        "Fog",
-        "An inversion",
-        "Question 95 of 121",
-        "ID:"
-      ],
+      "options": ["Fog", "An inversion", "Question 95 of 121", "ID:"],
       "answer_index": 0
     },
     {
@@ -14074,12 +12389,7 @@
     {
       "id": "EN-I050-200512-00881",
       "question": "Which of the following meteorological phenomena should be reported as “precipitation”?\nTS\nFG",
-      "options": [
-        "DS",
-        "DZ",
-        "Question 105 of 121",
-        "ID:"
-      ],
+      "options": ["DS", "DZ", "Question 105 of 121", "ID:"],
       "answer_index": 0
     },
     {
@@ -14107,12 +12417,7 @@
     {
       "id": "EN-I050-200512-00892",
       "question": "Which of the following meteorological phenomena should be reported as “precipitation”?\nHZ\nBCFG",
-      "options": [
-        "+SHSN",
-        "VA",
-        "Question 108 of 121",
-        "ID:"
-      ],
+      "options": ["+SHSN", "VA", "Question 108 of 121", "ID:"],
       "answer_index": 0
     },
     {
@@ -14129,12 +12434,7 @@
     {
       "id": "EN-I050-200512-00926",
       "question": "Considering the following TAF, what is the lowest cloud base forecast at 2100 UTC?\nTAF EHAM 281500Z 2816/2901 14011KT 6000 RA SCT025 BKN040 BECMG 2816/2818\n12015G25KT SCT008 BKN013 TEMPO\n2818/2823 3000 BKN005 OVC010 BECMG 2823/2901 25018KT 7000 NSW BKN020=\n1000 ft\n500 ft",
-      "options": [
-        "2500 m",
-        "2500 ft",
-        "Question 110 of 121",
-        "ID:"
-      ],
+      "options": ["2500 m", "2500 ft", "Question 110 of 121", "ID:"],
       "answer_index": 0
     },
     {
@@ -14162,34 +12462,19 @@
     {
       "id": "EN-I050-200512-00997",
       "question": "(See attachment AC-ICQB-050-916)\nReferring to the significant weather chart, what would be the optimum flight level between\nShannon and Keflavik?\nFL240\nFL360",
-      "options": [
-        "FL140",
-        "FL280",
-        "Question 113 of 121",
-        "ID:"
-      ],
+      "options": ["FL140", "FL280", "Question 113 of 121", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01252",
       "question": "Vertical wind shear may reported in which units?\nkt / 100 ft\nmph",
-      "options": [
-        "m / 100 ft",
-        "NM / ft²",
-        "Question 114 of 121",
-        "ID:"
-      ],
+      "options": ["m / 100 ft", "NM / ft²", "Question 114 of 121", "ID:"],
       "answer_index": 0
     },
     {
       "id": "EN-I050-200512-01253",
       "question": "The following extract belongs to which type of message?\n… VALID 211600/212000 HVY SN 35CM FCST=\nSNOWTAM\nMETAR",
-      "options": [
-        "Aerodrome warning",
-        "SIGMET",
-        "Question 115 of 121",
-        "ID:"
-      ],
+      "options": ["Aerodrome warning", "SIGMET", "Question 115 of 121", "ID:"],
       "answer_index": 0
     },
     {
@@ -14217,12 +12502,7 @@
     {
       "id": "EN-I050-200512-01256",
       "question": "The following text belongs to which type of meteorological message?\nMBST APCH RWY26 REP AT 1510 B747 30KTLOSS 2NM FNA=\nMETAR\nSignificant weather report",
-      "options": [
-        "Wind shear warning",
-        "AIRMET",
-        "Question 118 of 121",
-        "ID:"
-      ],
+      "options": ["Wind shear warning", "AIRMET", "Question 118 of 121", "ID:"],
       "answer_index": 0
     },
     {
@@ -14261,12 +12541,7 @@
     {
       "id": "EN-I050-200512-01262",
       "question": "Which type of message should be cancelled when the reported conditions no longer occur or\nare no longer expected to occur?",
-      "options": [
-        "GAMETs",
-        "TAFs",
-        "Aerodrome warnings",
-        "GAFORs"
-      ],
+      "options": ["GAMETs", "TAFs", "Aerodrome warnings", "GAFORs"],
       "answer_index": 0
     }
   ]
