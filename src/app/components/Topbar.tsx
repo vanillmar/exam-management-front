@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { clearAuthToken } from "@/lib/axios";
 
 export default function Topbar() {
   const [time, setTime] = useState("--:--");
@@ -24,6 +25,10 @@ export default function Topbar() {
 
   const handleSignOut = () => {
     localStorage.removeItem("fedjtech_user");
+    // Also clear any stored auth token used by the axios client
+    try {
+      clearAuthToken();
+    } catch {}
     router.push("/login");
   };
 

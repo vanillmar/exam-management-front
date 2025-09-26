@@ -1,8 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
+import api, { setAuthToken, clearAuthToken } from "@/lib/axios";
 
 export default function LoginCard() {
   const [username, setUsername] = useState("");
@@ -12,10 +13,38 @@ export default function LoginCard() {
   const handleLogin = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (username.trim()) {
+      // Demo flow: persist username and a fake token to simulate auth
       localStorage.setItem("fedjtech_user", username.trim());
+      // In a real app you'd receive a token from the server. Here we'll store a demo token.
+      const demoToken = "demo-token";
+      setAuthToken(demoToken);
       router.push("/dashboard");
     }
   };
+
+  // On mount: if a token exists, validate it by calling a lightweight endpoint (e.g. /auth/validate or /me).
+  // If validation succeeds redirect to dashboard; if it fails, clear stored token.
+  useEffect(() => {
+    const checkToken = async () => {
+      try {
+        const token = localStorage.getItem("token");
+        if (!token) return;
+        // Attach token to axios instance for this validation call
+        setAuthToken(token);
+        // Try a simple GET to a protected endpoint. Adjust the path if your API exposes a different route.
+        await api.get("/auth/validate");
+        // If successful, navigate to dashboard
+        router.push("/dashboard");
+      } catch {
+        // Invalid token or request failed: remove it so user can log in
+        try {
+          clearAuthToken();
+        } catch {}
+      }
+    };
+
+    checkToken();
+  }, [router]);
 
   return (
     <div className="max-w-[520px] mx-auto mt-[8vh] glass p-5 flex flex-col gap-3.5">
