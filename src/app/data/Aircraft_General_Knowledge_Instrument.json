@@ -1,0 +1,2558 @@
+{
+  "source": "AGK Instrument",
+  "question_count": 232,
+  "questions": [
+    {
+      "id": "Q0001",
+      "question": "o A pressure of 800 bar equals:",
+      "options": [
+        "120 psi",
+        "12 psi",
+        "12000 psi",
+        "1200 psi"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0002",
+      "question": "o A pressure of 1 bar equals:",
+      "options": [
+        "10 Pascal",
+        "1000 Pascal",
+        "100000 Pascal",
+        "100 Pascal"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0003",
+      "question": "o In standard conditions, the static pressure at MSL is:",
+      "options": [
+        "1013.25 hPa or 1.45 psi or 2.92 in Hg",
+        "1013.25 hPa or 14.5 psi or 29.92 in Hg",
+        "1013.25 hPa or 1.45 psi or 29.92 in Hg",
+        "1013.25 hPa or 14.5 psi or 2.92 in Hg"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0004",
+      "question": "o A pressure of 3000 psi is equivalent to approximately:",
+      "options": [
+        "2 bar",
+        "200 bar",
+        "20 bar",
+        "2000 bar"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0005",
+      "question": "o Which one of the following instruments uses a “bellows type” sensor?",
+      "options": [
+        "An oil temperature gauge",
+        "A fuel pressure gauge",
+        "A manifold pressure gauge",
+        "An oil pressure gauge"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0006",
+      "question": "o What is a “Bourdon tube”?",
+      "options": [
+        "A smoke detector",
+        "A fire detector",
+        "A pressure sensor",
+        "A vibration sensor"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0007",
+      "question": "o What does the Bourdon tube measure?",
+      "options": [
+        "Temperature",
+        "Pressure",
+        "Air flow",
+        "Quantity"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0008",
+      "question": "o What are the main functions of an aneroid capsule?",
+      "options": [
+        "1 – to measure absolute pressure",
+        "2 – to measure differential pressure",
+        "3 – to measure low pressure",
+        "4 – to measure high pressure"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0009",
+      "question": "o Which of the following statements about temperature units is correct?",
+      "options": [
+        "1. F = (C x 1.8) + 32",
+        "2. C = K + 273",
+        "With:",
+        "C = the temperature in Celsius"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0010",
+      "question": "o Given:",
+      "options": [
+        "C = temperature in Celsius.",
+        "K = temperature in Kelvin.",
+        "The correct relationship between the above mentioned units is:",
+        "K = C + 273"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0011",
+      "question": "o Which of the following statements about temperature units are correct or incorrect?",
+      "options": [
+        "1. 0° Celsius = 273° Kelvin.",
+        "2. 20° Celsius = 68° Fahrenheit.",
+        "1 is correct, 2 is correct",
+        "1 is correct, 2 is incorrect"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0012",
+      "question": "o Which of the following statements about the relationship of temperatures is correct?",
+      "options": [
+        "1. F = (C x 1.8) + 32",
+        "2. C = K – 273",
+        "Temperatures given as:",
+        "C = the temperature in Celsius"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0013",
+      "question": "o Fahrenheit (F)?",
+      "options": [
+        "C = F – 273",
+        "F = C – 273",
+        "C = (F x 1.8) + 32",
+        "F = (C x 1.8) + 32"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0014",
+      "question": "o Which of the following statements about temperature units are correct or incorrect?",
+      "options": [
+        "1. 15° Celsius = 59° Fahrenheit.",
+        "2. 15° Celsius = 273° Kelvin.",
+        "1 is correct, 2 is incorrect",
+        "1 is incorrect, 2 is correct"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0015",
+      "question": "o Which type of sensor is normally used for temperature measurements up to 500°C?",
+      "options": [
+        "A temperature-dependent resistor",
+        "An expansion type system",
+        "A bi-metallic strip",
+        "A thermocouple"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0016",
+      "question": "o Which of the following statements is correct?",
+      "options": [
+        "1. The quantity of fuel can not be measured by volume.",
+        "2. The quantity of fuel can be measured by mass.",
+        "1 is incorrect, 2 is correct",
+        "1 is incorrect, 2 is incorrect"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0017",
+      "question": "o Which of the following statements about the fuel mass unit is correct?",
+      "options": [
+        "1 lb = 2.2 kg",
+        "1 kg = 2.2 lb",
+        "1 kg = 0.45 lb",
+        "1 lb = 4.5 kg"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0018",
+      "question": "o Which of these statements about the fuel mass unit is correct?",
+      "options": [
+        "1 t = 2200 lb",
+        "1 t = 450 lb",
+        "1000 lb = 4500 kg",
+        "1000 lb = 2200 kg"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0019",
+      "question": "o Which of the following relationships is correct?",
+      "options": [
+        "1 lb = 2.2 kg",
+        "1 lb = 0.45 kg",
+        "1 kg = 0.22 lb",
+        "1 kg = 0.45 lb"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0020",
+      "question": "o What does a capacitive fuel quantity measurement system provide?",
+      "options": [
+        "The mass of the fuel",
+        "The volume of the fuel",
+        "The density of the fuel",
+        "The inductivity of the fuel"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0021",
+      "question": "o What is the most relevant fuel parameter for a fuel gauge system?",
+      "options": [
+        "Density",
+        "Volume.",
+        "Mass",
+        "Permittivity"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0022",
+      "question": "o Which statement(s) about a float type fuel gauge is (are) correct?",
+      "options": [
+        "1 – it supplies a mass information",
+        "2 – it supplies information all the more accurate as the tank is full",
+        "3 – it is typically a DC powered system",
+        "3 only"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0023",
+      "question": "o After refueling, the flight deck crew should crosscheck the fuel upload reported by the fuel truck by:",
+      "options": [
+        "Check for condensed water at all drain ports.",
+        "Check the indicated fuel quantities with expected values.",
+        "Perform a visual check through the fuel caps.",
+        "Take a sample from the fuel to measure its density."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0024",
+      "question": "o What does the mass fuel flow meter consider compared with the volumetric fuel flow meter?",
+      "options": [
+        "Density",
+        "Permittivity",
+        "Pressure",
+        "Irregular flow in the line"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0025",
+      "question": "o How can fuel flow be expressed?",
+      "options": [
+        "1 – kg per m3",
+        "2 – lb per m3",
+        "3 – lb per hour",
+        "4 – kg per hour"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0026",
+      "question": "o What can be obtained when integrating a flow with regards to time?",
+      "options": [
+        "A pressure.",
+        "A volume or a mass.",
+        "The diameter of a line.",
+        "The cross section of a line."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0027",
+      "question": "o Which of the following statements about fuel flow are correct or incorrect?",
+      "options": [
+        "1. Fuel flow may be measured by mass per unit of time.",
+        "2. Fuel flow may be measured by volume per unit of time.",
+        "1 is correct, 2 is incorrect",
+        "1 is correct, 2 is correct"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0028",
+      "question": "o The different types of tachometer are:",
+      "options": [
+        "1 – electrical",
+        "2 – mechanical",
+        "3 – electronic",
+        "1 and 2 only"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0029",
+      "question": "o An RPM indicator can be operated by which tachometer types?",
+      "options": [
+        "Mechanical, electrical, magnetic",
+        "Electrical, mechanical, hydraulic",
+        "Magnetic, hydraulic, centrifugal",
+        "Magnetic, electrical, helical"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0030",
+      "question": "o The parameters used to represent thrust are:",
+      "options": [
+        "1 – N1 (low pressure shaft speed).",
+        "2 – N2 (high pressure shaft speed).",
+        "3 – EGT.",
+        "4 – EPR."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0031",
+      "question": "o How can the EPR (Engine Pressure Ratio) be defined?",
+      "options": [
+        "The ratio of the turbine outlet total pressure to the ambient total pressure.",
+        "The ratio of the compressor outlet total pressure to the compressor inlet total pressure.",
+        "The difference between the compressor inlet total pressure and the turbine outlet total pressure.",
+        "The ratio of the turbine outlet total pressure to the compressor inlet total pressure."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0032",
+      "question": "o Which two components are used to calculate the turbojet thrust?",
+      "options": [
+        "EPR or the total pressure at the low pressure turbine outlet",
+        "Fan rotation speed (or N1) or the high pressure turbine rotation speed",
+        "Fan rotation speed (or N1) or the EPR",
+        "High pressure turbine rotation speed or the EGT"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0033",
+      "question": "o Relating to the thrust measurement, what is the correct description for N1?",
+      "options": [
+        "It is the second stage compressor speed.",
+        "It is the low pressure shaft speed.",
+        "It is the high pressure shaft speed.",
+        "It is the first stage compressor speed."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0034",
+      "question": "o Which sensor(s) is (are) feeding the EPR-indicator?",
+      "options": [
+        "Two temperature sensors, one located upstream from the compressor inlet, and an other downstream",
+        "from the turbine outlet.",
+        "A tachometer located on the shaft of the N2 compressor.",
+        "Two pressure sensors, one located upstream from the compressor inlet, and the other"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0035",
+      "question": "o Torque can be expressed as:",
+      "options": [
+        "Force divided by lever arm",
+        "Force multiplied by lever arm",
+        "Force divided by RPM",
+        "Force multiplied by RPM"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0036",
+      "question": "o What is the correct relationship between the following units?",
+      "options": [
+        "P = power",
+        "T = torque",
+        "n = RPM",
+        "P = T x n"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0037",
+      "question": "o The torque is expressed in:",
+      "options": [
+        "Newton",
+        "Newton per meter (N/m)",
+        "Watt",
+        "Newton meter (Nm)"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0038",
+      "question": "o How can the torque be determined?",
+      "options": [
+        "By measuring the frequency change between torque and reference shaft",
+        "By measuring the ratio Pt2 by Pt7",
+        "By measuring the twist of a torque shaft of a known length",
+        "By measuring the ratio Pt7 by Pt2"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0039",
+      "question": "o What is the operating principle of an oil torque meter?",
+      "options": [
+        "An axial movement is generated when cylindrically cut gears are used to transfer power from one shaft to",
+        "another",
+        "An axial movement is generated when helically cut gears are used to transfer power from one shaft to",
+        "another"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0040",
+      "question": "o What is the working principle of an electronic torque meter?",
+      "options": [
+        "When power increases, the torque shaft twists",
+        "The axial thrust and movement is produced when cylindrically cut gears are used to transfer power from one",
+        "shaft to another",
+        "When power increases, the torque shaft expands"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0041",
+      "question": "o What is the main function of a synchroscope?",
+      "options": [
+        "To reach optimum control of on-board voltages.",
+        "To set several engines to the same speed.",
+        "To reduce the vibration of each engine.",
+        "To minimize the RPM of each engine."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0042",
+      "question": "Which type(s) of sensor is (are) a part of an engine vibration monitoring system?",
+      "options": [
+        "1. Magnetic sensors",
+        "Piezoelectric crystal sensors",
+        "Tachometers",
+        "2 and 3."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0043",
+      "question": "Which of the following statements is correct or incorrect regarding the filter in a vibration monitoring system?",
+      "options": [
+        "1. The filter erases any output which is normal to the engine.",
+        "The filter let through to the amplifier any frequency that is considered to be harmful to the engine.",
+        "1 is correct, 2 is incorrect",
+        "is correct, 2 is correct"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0044",
+      "question": "o Which pressure sensors are required for measurement of dynamic pressure?",
+      "options": [
+        "Static pressure sensor only",
+        "Total pressure and cabin pressure sensors",
+        "Total pressure and static pressure sensors",
+        "Total pressure sensor only"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0045",
+      "question": "o Which of the following formulas is correct?",
+      "options": [
+        "Pt = total pressure",
+        "Ps = static pressure",
+        "Pd = dynamic pressure",
+        "Pt = Pd + Ps"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0046",
+      "question": "o The calibrated airspeed is a function of:",
+      "options": [
+        "Pt / Ps",
+        "(Pt – Pso) / Ps",
+        "Pt + Pso",
+        "Pt – Ps"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0047",
+      "question": "o State the correct formula to calculate the dynamic pressure:",
+      "options": [
+        "Pt = total pressure",
+        "Ps = static pressure",
+        "(Pt – Ps) / Pt",
+        "(Pt – Ps) / Ps"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0048",
+      "question": "o An open-ended tube parallel to the longitudinal axis of the aircraft senses:",
+      "options": [
+        "Differential pressure",
+        "Total pressure",
+        "Static pressure",
+        "Dynamic pressure"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0049",
+      "question": "o What is the reason for the attachment of the pitot tube to a mast?",
+      "options": [
+        "To protect it from icing",
+        "To ease accessibility during maintenance checks",
+        "To locate it outside the boundary layer",
+        "To avoid the disturbance of the aerodynamic flow around the aircraft"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0050",
+      "question": "o Which of the following statements is correct regarding the static pressure position error?",
+      "options": [
+        "It is a direct effect of heating of the static ports",
+        "It is caused by an interrupted airflow around the static ports",
+        "It is a typical effect of the alternate static port",
+        "It is a direct effect of a blockage of the static port"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0051",
+      "question": "o The position error of the pitot and static system changes with:",
+      "options": [
+        "1 – altimeter setting",
+        "2 – Mach number",
+        "3 – angle of attack",
+        "1 and 3"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0052",
+      "question": "o Which indication(s) is (are) affected when ice forms on the pitot tubes?",
+      "options": [
+        "1 – altitude",
+        "2 – vertical speed",
+        "3 – airspeed",
+        "1 only"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0053",
+      "question": "o When is alternate static source be used?",
+      "options": [
+        "To settle the hysteresis of the aneroid capsule",
+        "When the static ports become blocked",
+        "To settle the static pressure error",
+        "When the drain holes freeze"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0054",
+      "question": "o Which of the following statements is correct?",
+      "options": [
+        "1. Total Air Temperature (TAT) is the sum of Static Air Temperature (SAT) and effects from adiabatic and kindetic",
+        "heating.",
+        "2. Outside Air Temperature (OAT) can be higher than Total Air Temperature (TAT).",
+        "1 is correct, 2 is correct"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0055",
+      "question": "o Airspeed (TAS)?",
+      "options": [
+        "Ram Air Temperature (RAT)",
+        "Static AIr Temperature (SAT)",
+        "Total Air Temperature (TAT)",
+        "Outside Air Temperature (OAT)"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0056",
+      "question": "o attack sensors, both are subject to what error that can be corrected in the Air Data Computer (ADC)?",
+      "options": [
+        "Magnetic error",
+        "Density error",
+        "Connection error",
+        "Position error"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0057",
+      "question": "o Which of the following components are part of an angle of attack sensor?",
+      "options": [
+        "1 – An inertial system calculating the difference between flight path and flight attitude",
+        "2 – A vane detector which positions the rotor of a synchro-transmitter",
+        "3 – A slotted probe which positions itself to determine the angle of attack",
+        "1, 2, 3."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0058",
+      "question": "o Which of the following statements is correct?",
+      "options": [
+        "1. Null-seeking (slotted) probe angle-of-attack sensors cannot be protected from ice accretion.",
+        "2. Vane-detector angle-of-attack sensors use electro-thermal heating for ice protection.",
+        "1 is correct, 2 is correct",
+        "1 is incorrect, 2 is incorrect"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0059",
+      "question": "o In case of failure of the angle-of-attack sensor, affected systems will be:",
+      "options": [
+        "1. Air Data Computer (ADC)",
+        "2. Airspeed Indicator (ASI)",
+        "3. Flight Management System (FMS)",
+        "1, 2 and 3."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0060",
+      "question": "o Which statement about the QNH is correct?",
+      "options": [
+        "It is the value of the atmospheric pressure at MSL of the location for which it is given",
+        "It is the value of atmospheric pressure at the level of the ground overflown by the aircraft",
+        "It is the value of the altimeter setting so that the altimeter, on the apron of the aerodrome for which it is",
+        "given, indicates the elevation"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0061",
+      "question": "o What is the pressure altitude of the aircraft?",
+      "options": [
+        "15000 ft",
+        "11580 ft",
+        "12000 ft",
+        "12420 ft"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0062",
+      "question": "o What is the pressure altitude of the aircraft?",
+      "options": [
+        "12400 ft",
+        "9600 ft",
+        "10400 ft",
+        "10000 ft"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0063",
+      "question": "o What is the function of a vibrating device of an altimeter?",
+      "options": [
+        "To reduce the effect of friction in the linkages",
+        "To allow damping of the measurement in the unit",
+        "To minimize the pressure error",
+        "To inform the crew of an instrument failure"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0064",
+      "question": "o What type of pressures are in the aneroid capsule (i) and aneroid casing (ii)?",
+      "options": [
+        "(i) static pressure at time, (ii) vacuum (or a very low pressure)",
+        "(i) vacuum (or a very low pressure), (ii) static pressure",
+        "(i) total pressure, (ii) static pressure",
+        "(i) static pressure, (ii) total pressure"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0065",
+      "question": "o What type of altitude does an altimeter measure?",
+      "options": [
+        "Density altitude",
+        "Pressure altitude",
+        "True altitude",
+        "QNH altitude"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0066",
+      "question": "o How does the altimeter indication change when the knob for reference pressure is turned to higher values?",
+      "options": [
+        "Indication decreases when setting values > 1013 hPa",
+        "Indication decreases",
+        "Indication decreases when setting values < 1013 hPa",
+        "Indication increases"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0067",
+      "question": "o Under which conditions does the altimeter indicate a true altitude?",
+      "options": [
+        "In standard atmosphere only",
+        "When the temperature on the ground is +15 °C with a lapse rate of 2 °C per 1000 m, and the correct setting of the",
+        "QFE",
+        "When the temperature on the ground is +20 °C with a lapse rate of 2 °C per 1000 m, and the correct setting of the"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0068",
+      "question": "o Which of the following statements is correct?",
+      "options": [
+        "1. The altimeter lag results in “under-read” during climb which should be taken into account when leveling off.",
+        "2. Position error of a stand-alone altimeter varies with different indicated airspeeds.",
+        "1 is incorrect, 2 is incorrect",
+        "1 is correct, 2 is incorrect"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0069",
+      "question": "o What does the altimeter indicate when flying in air colder than standard atmosphere?",
+      "options": [
+        "It indicates the correct altitude when correct QNH is set",
+        "The indicated altitude is lower than the correct altitude",
+        "It indicates the correct altitude when correct 1013 is set",
+        "The indicated altitude is higher than the correct altitude"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0070",
+      "question": "o The altimeter is subject to static pressure error which varies according to:",
+      "options": [
+        "[1] TAS",
+        "[2] altimeter setting",
+        "[3] angle of attack",
+        "[4] OAT"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0071",
+      "question": "o In aviation, Altitude is usually determined with barometric reference rather than with GNSS because:",
+      "options": [
+        "there is a time delay in determining GNSS altitude making momentary information unavailable.",
+        "GNSS alititude reference is taken from terrain database and may be out of date.",
+        "there are usually not enough satellites available for sufficiently accurate position determination.",
+        "the GNSS reference ellipsoids do not provide a sufficiently accurate model of the earth."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0072",
+      "question": "o The Vertical Speed Indicator (VSI) is fed by:",
+      "options": [
+        "Dynamic pressure",
+        "Static pressure",
+        "Total pressure",
+        "Differential pressure"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0073",
+      "question": "o What is the operating principle of the vertical speed indicator?",
+      "options": [
+        "Measurement of the rate of change of dynamic pressure",
+        "Measurement of the rate of change of total pressure",
+        "Measurement of the rate of change of static pressure",
+        "Measurement of the rate of change of differential pressure"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0074",
+      "question": "o What does the vertical speed indicator display when the static ports are completely covered with ice?",
+      "options": [
+        "A constant rate of climb",
+        "An increasing rate of climb",
+        "A decreasing rate of climb",
+        "Zero"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0075",
+      "question": "o What is the correct relationship between CAS and EAS?",
+      "options": [
+        "EAS can be lower or greater than CAS, depending on air density",
+        "EAS is always greater than or equal to CAS",
+        "EAS can be lower or greater than CAS, depending on pressure altitude",
+        "EAS is always lower than or equal to CAS"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0076",
+      "question": "o Which parameter defines the relationship between EAS and TAS?",
+      "options": [
+        "Mach number",
+        "Pressure",
+        "OAT",
+        "Density"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0077",
+      "question": "o TAS equal to EAS in which case?",
+      "options": [
+        "P = 1013,25 hPa and OAT = 273° K",
+        "P = 1013,25 hPa, OAT = 15°C and TAS < 200 kt",
+        "P = 1013,25 hPa and OAT = 15°C",
+        "P = 1013,25 hPa, OAT = 15°C and TAS > 200 kt"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0078",
+      "question": "o TAS is equal to IAS when correcting it for which of the following factors?",
+      "options": [
+        "1 – instrument error",
+        "2 – position error",
+        "3 – compressibility",
+        "4 – density"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0079",
+      "question": "o correct?",
+      "options": [
+        "1. The difference between the EAS and the CAS is negligible.",
+        "2. The speed shown on the ASI is the same as CAS if position- and instrument errors are zero.",
+        "3. The TAS is approximately 10% higher than the IAS.",
+        "1 and 2 only"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0080",
+      "question": "o What must be considered to obtain CAS from IAS?",
+      "options": [
+        "Position and instrument errors",
+        "Compressibility",
+        "Air temperature",
+        "Air density"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0081",
+      "question": "o In case of absence of position and instrument errors, CAS is equal to:",
+      "options": [
+        "GS",
+        "IAS",
+        "TAS",
+        "EAS"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0082",
+      "question": "o Which data are necessary to obtain the EAS?",
+      "options": [
+        "TAS and pressure altitude",
+        "CAS and air density",
+        "EAS and pressure altitude",
+        "CAS and pressure altitude"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0083",
+      "question": "o Assuming constant CAS and flight level, what is the effect of decreasing ambient temperature?",
+      "options": [
+        "TAS increases due toair density decreases",
+        "TAS decreases due to air density increases",
+        "TAS increases due to air density increases",
+        "TAS decreases due to air density decreases"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0084",
+      "question": "o TAS is obtained from CAS by correcting for which factors?",
+      "options": [
+        "1. Instrument error",
+        "2. Compressibility",
+        "3. Position error",
+        "4. Density"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0085",
+      "question": "o What does the airspeed indicator measure?",
+      "options": [
+        "Pt = total pressure",
+        "Ps = static pressure",
+        "Pd = dynamic pressure",
+        "Ps – Pt"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0086",
+      "question": "o Relating to an airspeed indicator, a second striped needle shows:",
+      "options": [
+        "VS1",
+        "VNE",
+        "VMO",
+        "VFE"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0087",
+      "question": "o What are the limits of the yellow arc (caution speed range) of an ASI?",
+      "options": [
+        "VNE for the lower limit and VNO for the upper limit.",
+        "VFE for the lower limit and VNE for the upper limit.",
+        "VNO for the lower limit and VNE for the upper limit.",
+        "VLO for the lower limit and VNO for the upper limit."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0088",
+      "question": "o Relating to an airspeed indicator, what are the limits of the green scale?",
+      "options": [
+        "VS0 for the lower limit and VNO for the upper limit",
+        "VS1 for the lower limit and VNE for the upper limit",
+        "VS1 for the lower limit and VNO for the upper limit",
+        "VS0 for the lower limit and VNE for the upper limit"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0089",
+      "question": "o What does the Airspeed Indicator (ASI) display when ice covers the static air ports?",
+      "options": [
+        "The ASI displays a decrease in speed with a decrease in altitude",
+        "The on board emergency system switches automatically to the standby static pressure port",
+        "The ASI Indicator no longer displays changes in speed",
+        "The ASI displays an increase in speed with a decrease in altitude"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0090",
+      "question": "o What happens if the total pressure probe of the airspeed indicator becomes blocked during the descent?",
+      "options": [
+        "1 – IAS becomes greater than CAS",
+        "2 – IAS becomes lower than CAS",
+        "3 – while trying to maintain IAS constant, VMO may be exceeded",
+        "4 – while trying to maintain IAS constant, aeroplane may stall"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0091",
+      "question": "o If the pitot tube becomes completely blocked during a descent, what is the reaction of the airspeed indicator?",
+      "options": [
+        "The ASI over-reads",
+        "The ASI indicates zero.",
+        "The ASI under-reads",
+        "The ASI reading depends on ISA temperature deviation"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0092",
+      "question": "o Which instrument(s) is (are) affected by a pitot tube covered with ice which blocks the ram air inlet?",
+      "options": [
+        "The altimeter",
+        "The airspeed indicator and the vertical speed indicator",
+        "The vertical speed indicator and the altimeter",
+        "The airspeed indicator"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0093",
+      "question": "o Which of the following statements is correct regarding the speed of sound?",
+      "options": [
+        "The speed of sound is proportional to the square of the TAS.",
+        "The speed of sound is proportional to the square root of the TAS.",
+        "The speed of sound is proportional to the square root of the absolute temperature.",
+        "The speed of sound is proportional to the square of the absolute temperature."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0094",
+      "question": "o What is the value of the Mach number?",
+      "options": [
+        "0.82",
+        "0.83",
+        "0.78",
+        "0.8"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0095",
+      "question": "o What is the speed of sound at MSL at ISA conditions?",
+      "options": [
+        "357 kt",
+        "330 kt",
+        "661 kt",
+        "1224 kt"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0096",
+      "question": "o If the outside temperature at 35 000 ft is -40°C, what is the value of the local speed of sound?",
+      "options": [
+        "696 kt.",
+        "507 kt.",
+        "595 kt.",
+        "247 kt."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0097",
+      "question": "o To displaying Mach number, which of the following parameters have to be measured?",
+      "options": [
+        "1. Static Pressure",
+        "2. Air Density",
+        "3. Dynamic Pressure",
+        "4. Outside Air Temperature"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0098",
+      "question": "o Mach indicator is based on the calculation of the ratio of:",
+      "options": [
+        "(Pt + Ps) / Ps",
+        "(Pt – Ps) / Ps",
+        "(Pt – Ps) / Pt",
+        "Pt / Ps"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0099",
+      "question": "o During a descent at a constant CAS:",
+      "options": [
+        "1 – the TAS decreases",
+        "2 – the TAS increases",
+        "3 – the Mach number decreases",
+        "4 – the Mach number increases"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0100",
+      "question": "o Which of the following statements is correct?",
+      "options": [
+        "1 – the relationship between EAS and CAS is dependent on Mach number",
+        "2 – the relationship between EAS and CAS is dependent on air density",
+        "3 – EAS is always greater than CAS",
+        "4 – EAS is always smaller or equal to CAS"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0101",
+      "question": "o What happens to the Mach number, when descending at a constant CAS through an isothermal layer?",
+      "options": [
+        "It increases if OAT is lower than the standard temperature and decreases if higher.",
+        "It decreases.",
+        "It remains constant.",
+        "It increases."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0102",
+      "question": "o What is (are) the speed limit(s)?",
+      "options": [
+        "Initially MMO, then VMO below a given flight level",
+        "VMO during the complete descent",
+        "Initially VMO, then MMO below a given flight level",
+        "MMO during the complete descent"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0103",
+      "question": "o VMO is stated as:",
+      "options": [
+        "TAS or IAS",
+        "CAS or TAS",
+        "TAS or EAS",
+        "CAS or EAS"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0104",
+      "question": "o Under which conditions can the maximum TAS be achieved?",
+      "options": [
+        "Above the tropopause",
+        "At a Flight Level where CAS = VMO and M = MMO",
+        "At the Flight Level(s) where CAS = VMO",
+        "At the Flight Level(s) where M = MMO"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0105",
+      "question": "o Relating to the air data computer, which of the following statements are correct?",
+      "options": [
+        "1 – Reception of static pressure and total pressure",
+        "2 – Supply the TAS to the INS computer",
+        "3 – Determination of Mach number and OAT",
+        "4 – Supply of GS and drift angle"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0106",
+      "question": "o The measured input data of an ADC includes:",
+      "options": [
+        "1. Static pressure",
+        "2. Total pressure",
+        "3. OAT",
+        "4. TAT"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0107",
+      "question": "o What are the output data from an ADC?",
+      "options": [
+        "1. Barometric altitude",
+        "2. Mach number",
+        "3. CAS",
+        "4. TAS"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0108",
+      "question": "o The output data from an ADC is used by:",
+      "options": [
+        "1. EFIS via the symbol generator",
+        "2. Automatic Flight Control System",
+        "3. Transponder",
+        "1 and 3 only"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0109",
+      "question": "o Air Data Computer output data are used by the:",
+      "options": [
+        "SAT indicator",
+        "ADI",
+        "IRS",
+        "GPS"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0110",
+      "question": "o Air Data Computer output data are used by the:",
+      "options": [
+        "RPM indicator",
+        "GPS",
+        "DG",
+        "AFCS"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0111",
+      "question": "o Why can the magnetic compass not be used for navigation?",
+      "options": [
+        "The Horizontal component becomes so weak that the directive force is insufficient for a reliable",
+        "compass indication.",
+        "The decrease of the earth’s magnetic field strength results in a insufficient directive force to ensure a reliable",
+        "compass"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0112",
+      "question": "o What is the true heading?",
+      "options": [
+        "280°",
+        "274°",
+        "258°",
+        "263°"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0113",
+      "question": "o What is the magnetic dip?",
+      "options": [
+        "It is the angle made by a compass needle with the local vertical.",
+        "It is the angle made by a compass needle with the horizontal.",
+        "It is the angle made by a compass needle when flying a steady turn.",
+        "It is the angle between the horizontal component of the magnetic field and true north direction."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0114",
+      "question": "o What is the inclination of the earth magnetic field at the North magnetic Pole?",
+      "options": [
+        "45°.",
+        "0°.",
+        "90°.",
+        "270°."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0115",
+      "question": "o Which of the following statements regarding the properties of a simple bar magnet are correct or incorrect?",
+      "options": [
+        "1. North or south poles can exist separately.",
+        "2. Magnetism is concentrated at the extremities of the bar.",
+        "1 is correct, 2 is incorrect.",
+        "1 is incorrect, 2 is correct."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0116",
+      "question": "o Which of the following statements regarding the properties of a simple bar magnet are correct or incorrect?",
+      "options": [
+        "1. North or south poles cannot exist separately.",
+        "2. Magnetism is concentrated at the extremities of the bar.",
+        "1 is incorrect, 2 is correct.",
+        "1 is correct, 2 is correct."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0117",
+      "question": "o Which statement regarding the magnetic variation is correct?",
+      "options": [
+        "It varies inversely with the bank angle of the aircraft.",
+        "It varies proportionally with the bank angle of the aircraft.",
+        "It is caused by the inclination of magnetic field lines of the Earth.",
+        "It is caused by the different positions of the geographic North Pole and the magnetic North Pole."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0118",
+      "question": "o What is the inclination of the earth magnetic field at the magnetic equator?",
+      "options": [
+        "0°.",
+        "90°.",
+        "270°.",
+        "45°."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0119",
+      "question": "o Which statement regarding an electromagnet is correct?",
+      "options": [
+        "It is a magnet in which the magnetic field of the Earth is concentrated in a hard iron bar",
+        "It is a magnet in which the magnetic field is produced by static electricity",
+        "It is a magnet in which the magnetic field of the Earth is concentrated in a soft iron bar",
+        "It is a magnet in which the magnetic field is produced by the flow of an electric current"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0120",
+      "question": "o What is the reason of calibrating a magnetic compass?",
+      "options": [
+        "To determine the magnetic variation",
+        "To determine the residual deviations",
+        "To adjust the magnetic variation",
+        "To adjust the deviations"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0121",
+      "question": "o What is the reason for compensating a magnetic compass?",
+      "options": [
+        "To calculate the residual deviations",
+        "To correct for magnetic variation",
+        "To correct for deviations",
+        "To calculate the magnetic variation"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0122",
+      "question": "o What is the principle of the compass swinging procedure?",
+      "options": [
+        "To adjust for deviation due to soft iron magnetism only",
+        "To adjust for deviation due to soft and hard iron magnetism",
+        "To determine the amount by which the compass readings are affected by hard and soft iron magnetism",
+        "To adjust for deviation due to hard iron magnetism only"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0123",
+      "question": "o Highlight a situation that triggers the need for a compass swing:",
+      "options": [
+        "After a period of one year where an aircraft was only operated for cargo purposes.",
+        "A few days after an aircraft was involved in a significant change of longitude.",
+        "Immediately after an aircraft was involved in a significant change of latitude.",
+        "When an aircraft has remained static for a period of one year."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0124",
+      "question": "o What is the purpose of a Direct Reading Magnetic Compass in large aeroplane?",
+      "options": [
+        "To provide the main direction indication for the Pilot in Command",
+        "To display the main direction indication for the Co-Pilot",
+        "To provide a backup direction indication",
+        "To give information for calibrating compass swings"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0125",
+      "question": "o When should a direct reading compass be swung again?",
+      "options": [
+        "When the aircraft has made more than a specified number of landings",
+        "When the aircraft has been parked for a long time",
+        "When there is a large change in magnetic longitude",
+        "When there is a large and permanent change in magnetic latitude"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0126",
+      "question": "o If the initial heading was 135°, after 30 seconds the direct reading magnetic compass indicates:",
+      "options": [
+        "Less than 055°",
+        "055°",
+        "225°",
+        "More than 225°"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0127",
+      "question": "o Which statement about a direct reading magnetic compass is correct?",
+      "options": [
+        "The turning error is caused by the vertical component of the Earth`s magnetic field",
+        "The errors of parallax are caused by the oscillation of the compass rose",
+        "The acceleration errors are caused by the angle of dip",
+        "The acceleration errors are caused by Schüler oscillations"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0128",
+      "question": "o During the take-off run, the compass shows:",
+      "options": [
+        "225°",
+        "Less than 045°",
+        "045°",
+        "More than 225°"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0129",
+      "question": "o Which statement regarding the turning errors of a direct reading magnetic compass is correct?",
+      "options": [
+        "They are minimum at a latitude of 50°",
+        "They are minimum at the magnetic poles",
+        "They are maximum at the magnetic poles",
+        "They are maximum at the magnetic equator"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0130",
+      "question": "o The initial heading was 330°, what does the magnetic compass read after 30 seconds of the turn?",
+      "options": [
+        "060°",
+        "Less than 060°",
+        "90°",
+        "More than 090°"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0131",
+      "question": "o hemisphere?",
+      "options": [
+        "On a westerly heading, a longitudinal deceleration causes an apparent turn to the North",
+        "On an easterly heading, a longitudinal acceleration causes an apparent turn to the South",
+        "On a westerly heading, a longitudinal acceleration causes an apparent turn to the South",
+        "On an easterly heading, a longitudinal acceleration causes an apparent turn to the North"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0132",
+      "question": "o about:",
+      "options": [
+        "200",
+        "170",
+        "160",
+        "230"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0133",
+      "question": "o What is the effect of the turning error of a direct reading magnetic compass?",
+      "options": [
+        "It increases when the magnetic latitude increases.",
+        "It decreases when the magnetic longitude increases.",
+        "It is independent of the magnetic latitude.",
+        "It decreases when the magnetic latitude increases."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0134",
+      "question": "o aeroplane?",
+      "options": [
+        "To ensure that the unit is in the best reachable position on the aircraft for ease of maintenance",
+        "To cancel out the deviation effects caused by the aircraft structure",
+        "To reduce the influence of the aircraft magnetic field",
+        "To increase the units exposure to the earth`s magnetic field"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0135",
+      "question": "o What is the function of a flux valve?",
+      "options": [
+        "Sensing the vertical component of the magnetic field of the Earth",
+        "Sensing electronically the horizontal component of the magnetic field of the Earth",
+        "Sensing both the horizontal and vertical components of the magnetic field of the Earth",
+        "Sensing the actual magnetic variation of the aircraft's location in order to correct manually the compass"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0136",
+      "question": "o Which instrument needs the information sensed by a flux valve?",
+      "options": [
+        "The aircraft's air data computer",
+        "The direct reading magnetic compass",
+        "The remote reading magnetic compass",
+        "The directional gyro indicator"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0137",
+      "question": "o When does a gyro begin to precess?",
+      "options": [
+        "When the speed of the gyro reduces",
+        "When a force is applied at right angles to its rotational axis",
+        "When a force is applied parallel or at 180° to its rotational axis",
+        "When the speed of the gyro raises"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0138",
+      "question": "o What are the properties of a gyroscope?",
+      "options": [
+        "Rigidity in space and precession",
+        "Schuler oscillations and rigidity in space",
+        "Precession and rigidity on earth",
+        "Rigidity on earth and Schuler oscillations"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0139",
+      "question": "o Which diagram shows a 40° left bank and 15° nose up attitude?",
+      "options": [
+        "Diagram 1",
+        "Diagram 3",
+        "Diagram 4",
+        "Diagram 2"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0140",
+      "question": "o Which diagram shows a right turn with insufficient yaw rate?",
+      "options": [
+        "Diagram 2",
+        "Diagram 1",
+        "Diagram 3",
+        "Diagram 4"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0141",
+      "question": "o Which statement regarding the rate-of-turn is correct?",
+      "options": [
+        "It is the yaw rate-of-change during a turn",
+        "It is the change-of-heading rate of the aircraft",
+        "It is the speed rate-of-change during a turn",
+        "It is the pitch rate-of-change during a turn"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0142",
+      "question": "o Which statement is correct about the aircraft’s heading during a rate-one turn?",
+      "options": [
+        "It changes with 720 degrees per minute",
+        "It changes with 6 degrees per second",
+        "It changes with 540 degrees per minute",
+        "It changes with 3 degrees per second"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0143",
+      "question": "o Which indication corresponds to straight and level flight?",
+      "options": [
+        "Diagram 4",
+        "Diagram 1",
+        "Diagram 3",
+        "Diagram 2"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0144",
+      "question": "o The indication from diagram 1 corresponds to:",
+      "options": [
+        "Right turn, not enough rudder",
+        "Straight and level flight",
+        "Left turn, not enough rudder",
+        "Left turn, too much rudder"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0145",
+      "question": "o The indication from diagram 2 corresponds to:",
+      "options": [
+        "Left turn, too much rudder",
+        "Straight and level flight",
+        "Right turn, not enough rudder",
+        "Left turn, not enough rudder"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0146",
+      "question": "o The indication from diagram 4 corresponds to:",
+      "options": [
+        "Left turn, too much rudder",
+        "Right turn, not enough rudder",
+        "Left turn, not enough rudder",
+        "Straight and level flight"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0147",
+      "question": "o Which diagram shows a left turn with insufficient yaw rate?",
+      "options": [
+        "Diagram 1",
+        "Diagram 4",
+        "Diagram 2",
+        "Diagram 3"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0148",
+      "question": "o Which diagram shows a left turn with too much yaw rate?",
+      "options": [
+        "Diagram 1",
+        "Diagram 2",
+        "Diagram 4",
+        "Diagram 3"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0149",
+      "question": "o What is the main function of the attitude indicator?",
+      "options": [
+        "To indicate the aircraft's orientation in relation to the horizon in pitch and roll",
+        "To show the aircraft's angle of bank and the heading change rate",
+        "To display the aircraft's rate of heading change",
+        "To indicate the aircraft's orientation in relation to the horizon in roll and yaw"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0150",
+      "question": "o observe on the artificial horizon?",
+      "options": [
+        "A correct attitude and bank",
+        "Too much nose-up and bank too low",
+        "Too much nose-up and and a correct bank",
+        "Too much nose-up and bank too high"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0151",
+      "question": "o during the take-off run?",
+      "options": [
+        "A false nose-up indication",
+        "A constant pitch angle indication",
+        "A false nose-down indication",
+        "A right or left wing down indication depending on the runway direction"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0152",
+      "question": "o ground during the landing?",
+      "options": [
+        "A right or left wing down indication depending on the runway direction",
+        "A false nose-up indication",
+        "A false nose-down indication",
+        "A constant pitch indication"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0153",
+      "question": "o Which diagram shows a 20° left bank and 18° nose down attitude?",
+      "options": [
+        "Diagram 2",
+        "Diagram 3",
+        "Diagram 4",
+        "Diagram 1"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0154",
+      "question": "o Which diagram shows a 40° right bank and 8° nose down attitude?",
+      "options": [
+        "Diagram 4",
+        "Diagram 2",
+        "Diagram 1",
+        "Diagram 3"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0155",
+      "question": "o Which diagram represents a 40° left bank and 15° nose down attitude?",
+      "options": [
+        "Diagram 3",
+        "Diagram 2",
+        "Diagram 4",
+        "Diagram 1"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0156",
+      "question": "o Which statements about a directional gyro are correct?",
+      "options": [
+        "1. It is a gyroscope free to rotate around one axis.",
+        "2. It is a gyroscope free to rotate around two axes.",
+        "3. It is capable of self-orientation around an earth-tied direction.",
+        "4. It is incapable of self-orientation around an earth-tied direction."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0157",
+      "question": "o The indications on a directional gyroscope are subject to errors. The most significant errors are:",
+      "options": [
+        "1. Apparent wander due to the Earth`s rotation",
+        "2. Apparent wander due to change of aircraft position",
+        "3. Gimballing errors",
+        "4. Mechanical defects"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0158",
+      "question": "o At which latitude is the apparent wander of a directional gyro equal to 0?",
+      "options": [
+        "At the latitude 45°",
+        "At the latitude 10°",
+        "At the Equator",
+        "At the South Pole"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0159",
+      "question": "o Which component gives the direction of the earth’s magnetic field in a gyromagnetic compass?",
+      "options": [
+        "Directional compass",
+        "Flux valve",
+        "Directional gyro",
+        "Air Data Computer"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0160",
+      "question": "o Which of the following are parts of a gyromagnetic compass?",
+      "options": [
+        "1 – a gyro with its axis perpendicular to the normal axis (the z-axis) of the aircraft",
+        "2 – a magnetic North detector",
+        "3 – an erection mechanism to maintain the gyro axis horizontal",
+        "4 – a torque motor to make the gyro precess in azimuth"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0161",
+      "question": "o What is the main role of a flux detection unit?",
+      "options": [
+        "To take measurement of the fuel flow",
+        "To sense the strength and direction of the magntic fields",
+        "To compare the direction of the Earth's magnetic field with the direction of the IRS",
+        "To take a measurement of the AC generator's phase"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0162",
+      "question": "o Relating to the autopilot, what is (are) the function(s) of the automatic pitch trim?",
+      "options": [
+        "1. To ease the steady state load of the rudder as much as possible",
+        "2. To off-load any steady state elevator deflection",
+        "3. To cancel out of trim force during autopilot disengagement",
+        "1 and 3"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0163",
+      "question": "o What is the purpose of a trim system of a large transport aeroplane?",
+      "options": [
+        "To move the control commands when the autopilot is engaged.",
+        "To adjust the neutral position of a control surface.",
+        "To provide the same manoeuvrability with the left or the right control command.",
+        "To extend automatically the slats when reaching the stalling speed."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0164",
+      "question": "o What is the function of the automatic trim of the autopilot pitch channel?",
+      "options": [
+        "To transfer a stabilised aeroplane to the pilot during autopilot disengagement",
+        "To set the attitude to an instantaneous value before engaging the autopilot",
+        "To disengage automatically the autopilot when an excessive pitch up occur",
+        "To adjust the attitude, after engaging the autopilot"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0165",
+      "question": "o On a conventional aeroplane, how does the automatic pitch trim system work?",
+      "options": [
+        "When detecting force on the elevator control, the trim is moved to relieve the load.",
+        "During manual input, it counter-moves the tab to create artificial force feedback.",
+        "When detecting force on the elevator control, the recommended trim is displayed to be adjusted by the",
+        "pilot."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0166",
+      "question": "o What is the function of the automatic pitch trim?",
+      "options": [
+        "1 – To allow that the elevator to always be in neutral position with respect to horizontal stabiliser",
+        "2 – To ensure that the aeroplane is properly trimmed when the autopilot is disengaged",
+        "3 – To ensure that the aeroplane is properly trimmed when the autopilot is engaged",
+        "2 and 3"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0167",
+      "question": "o Which statement regarding the Mach trim system is correct?",
+      "options": [
+        "It provides an optimum C.G. location by transferring fuel into the horizontal stabiliser.",
+        "It adjusts the horizontal stabiliser position during a high speed stall.",
+        "It compensates the pitch up tendency at high Mach numbers.",
+        "It increases the static longitudinal stability by adjusting the horizontal stabiliser according to Mach"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0168",
+      "question": "o Which statement regarding the operation of a Mach trim system is correct?",
+      "options": [
+        "It only operates when the autopilot is used",
+        "It only operates above a pre-determined Mach number",
+        "It operates to counteract the larger than normal forward movements of the wing centre of pressure at high",
+        "subsonic airspeeds"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0169",
+      "question": "o What does the yaw damper system control?",
+      "options": [
+        "1. It controls the rudder",
+        "2. It controls the ailerons",
+        "3. with Mach Number as the input signal",
+        "4. with the angular rate about the yaw axis as the input signal"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0170",
+      "question": "o What is the main function of a Yaw Damper system?",
+      "options": [
+        "To decrease the damping ratio of phugoid roll.",
+        "To increase the damping ratio of dutch roll.",
+        "To increase the damping ratio of aileron roll.",
+        "To decrease the damping ratio of pitch oscillation."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0171",
+      "question": "o Under which conditions is the yaw damper system operative?",
+      "options": [
+        "Only if the flight director is engaged.",
+        "During manual or automatic flight.",
+        "Only if the autopilot is engaged.",
+        "Only during a manual flight."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0172",
+      "question": "o What undesired aircraft state is usually prevented by the yaw damper system at higher altitudes?",
+      "options": [
+        "Phygoide",
+        "Dutch roll",
+        "Spin",
+        "Spiral instability."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0173",
+      "question": "o The yaw damper system acts on:",
+      "options": [
+        "1. Rudder",
+        "2. Speed brakes",
+        "3. Roll trim",
+        "4. Ailerons"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0174",
+      "question": "o What happens to the commands sent out by the yaw damper computer?",
+      "options": [
+        "They are inhibited when the autopilot is engaged.",
+        "They are inhibited when the pilot uses the rudder pedals.",
+        "They inhibit the rudder deflection orders sent out by the pilot or the autopilot.",
+        "They are added to or subtracted from the rudder deflection orders sent out by the pilot or the autopilot."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0175",
+      "question": "o Which of the following does the yaw damper affect?",
+      "options": [
+        "1. ailerons",
+        "2. rudder",
+        "3. all control surfaces in a co-ordinated way",
+        "2 only"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0176",
+      "question": "o With regard to flight envelope protection systems, which of the following statements is correct?",
+      "options": [
+        "1. It provides traffic alerts to the crew and automatically performs evasion manoeuvres.",
+        "2. It prevents the aircraft from exceeding limits defined by specific parameters.",
+        "1 is incorrect, 2 is incorrect",
+        "1 is correct, 2 is incorrect"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0177",
+      "question": "o What are the main inputs to the flight envelope protection system?",
+      "options": [
+        "GPWS and ACAS signals.",
+        "ACAS signals, angle of attack and bank angle.",
+        "Angle of attack and bank angle.",
+        "GPWS and ACAS signals, angle of attack and bank angle."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0178",
+      "question": "o Which of the following can be a part of the flight envelope protection (FEP)?",
+      "options": [
+        "1 – Stall protection",
+        "2 – Maximum vertical speed protection",
+        "3 – Overspeed protection",
+        "2 only."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0179",
+      "question": "o approaching a limit?",
+      "options": [
+        "Stick shaker",
+        "Stick pusher",
+        "Mach trim",
+        "Yaw damper"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0180",
+      "question": "o If the speed exceeds VMO/MMO the overspeed protection function will:",
+      "options": [
+        "1 – reduce thrust to idle.",
+        "2 – send a pitch up order.",
+        "3 – inhibit the pitch trim orders in the nose up direction.",
+        "The combination that regroups all of the correct statements is:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0181",
+      "question": "o A warning message is generated by the flight warning system (FWS) if:",
+      "options": [
+        "immediate recognition and corrective or compensatory action by the crew is required.",
+        "immediate recognition is required, but no subsequent crew action will be required.",
+        "immediate crew awareness is required and subsequent crew action may be required.",
+        "immediate crew awareness is not required, corrective action by the crew may be required."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0182",
+      "question": "o is:",
+      "options": [
+        "GPWS, Stall, TCAS, Windshear.",
+        "TCAS, Windshear, GPWS, Stall.",
+        "Stall, TCAS, GPWS, Windshear.",
+        "Stall, Windshear, GPWS, TCAS."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0183",
+      "question": "o The flight warning system (FWS):",
+      "options": [
+        "1. increases the situation awareness of the crew",
+        "2. automatically transmits distress messages to ATC",
+        "3. supplies indications to the crew of action necessary to avoid impending danger",
+        "4. prioritises warnings"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0184",
+      "question": "o The flight warning system (FWS):",
+      "options": [
+        "1 – draws the attention of the crew to the existence of an abnormal condition",
+        "2 – supplies indications to the crew to identify an abnormal condition",
+        "3 – automatically transmits urgency messages to ATC",
+        "4 – can not generate alerts in case of engine malfunctions"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0185",
+      "question": "o Which of the following is measured by a stall warning system?",
+      "options": [
+        "Angle of attack",
+        "GS",
+        "TAS",
+        "Rudder movement"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0186",
+      "question": "o On most aeroplanes, the stall warning is inhibited:",
+      "options": [
+        "1 – when the flaps are retracted",
+        "2 – when the aeroplane is on the ground",
+        "3 – when encountering a windshear",
+        "4 – when receiving a GPWS alert"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0187",
+      "question": "o To stop the warning provided by a stall warning system, the pilot:",
+      "options": [
+        "1 – can push the inhibit aural warning button.",
+        "2 – can switch off the stall warning system.",
+        "3 – must leave the stall condition.",
+        "2, 3."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0188",
+      "question": "o A stall warning system can be used to warn the flight crew by:",
+      "options": [
+        "1 – an aural warning.",
+        "2 – a stick shaker connected to the control column.",
+        "3 – a vibration device connected to the autothrottle.",
+        "1, 2."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0189",
+      "question": "o The stick shaker is part of which system?",
+      "options": [
+        "Stall Management System (SMS).",
+        "Flight Envelope Protection System (FEPS).",
+        "Traffic Alert and Collision Avoidance System (TCAS).",
+        "Stall Warning System (SWS)."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0190",
+      "question": "o Which statement about a stall warning is correct?",
+      "options": [
+        "It shall be artificial to give distinctive indications under expected flight conditions.",
+        "It shall be artificial to avoid distracting the pilot's attention by visual and audible warnings.",
+        "It shall be unique to avoid being misinterpreted or mistaken for any other warning types.",
+        "It shall be unique in order to be processed by the aircraft's flight warning system."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0191",
+      "question": "o Which of the following statements about Stall Warning systems is correct?",
+      "options": [
+        "1. Light aircrafts use a micro-switch triggered by a plate or vane in the airflow near the leading edge of the",
+        "wing.",
+        "2. Systems using Angle-of-Attack (AoA) sensor require information about flap/slat setting and calibrated",
+        "airspeed."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0192",
+      "question": "o Which of the following statements about Stall Warning systems is correct?",
+      "options": [
+        "1. Systems using Angle-of-Attack (AoA) sensor require information about flap/slat setting, calibrated airspeed",
+        "and thrust",
+        "2. Light aircrafts use a micro-switch triggered by a plate or vane in the airflow near the leading edge of the",
+        "wing."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0193",
+      "question": "o The stall warning system of a large aeroplane includes:",
+      "options": [
+        "1 – an angle of attack sensor",
+        "2 – a computer",
+        "3 – an independent pitot probe",
+        "4 – a transmitter of the flap/slat position indicating system"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0194",
+      "question": "o At high angles of attack and depending on the type of aeroplane, the stall protection system can:",
+      "options": [
+        "1. extend the flaps to the full position",
+        "2. increase thrust",
+        "3. inhibit the pitch trim orders in the nose down direction",
+        "2"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0195",
+      "question": "o At high angles of attack and depending on the type of aeroplane, the stall protection system can:",
+      "options": [
+        "1. inhibit the pitch trim orders in the nose up direction.",
+        "2. retract the speed brakes.",
+        "3. increase thrust.",
+        "1, 3."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0196",
+      "question": "o What is the main input of a stall protection system?",
+      "options": [
+        "the bank angle.",
+        "the load factor.",
+        "the g load.",
+        "the angle of attack."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0197",
+      "question": "o What is the purpose of an aircraft stall protection system?",
+      "options": [
+        "To protect the aircraft from an impending stall without pilot intervention.",
+        "To warn the pilot from a forthcoming stall.",
+        "To trigger an aural warning to inform the crew about an impending stall.",
+        "To activate the TCAS."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0198",
+      "question": "o Which statement regarding the Stall Protection System is correct?",
+      "options": [
+        "It can active the Stick Shaker shortly before the horizontal stabiliser begins to stall.",
+        "It can active the Automatic Pitch Trim just before the wing begins to stall.",
+        "It can active the Autothrottle when the speed decrease below a minimum limit.",
+        "It can active the Autopilot when the AoA reaches a maximum value."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0199",
+      "question": "o To stop the warning generated by an overspeed warning system, the pilot:",
+      "options": [
+        "1. can push the inhibit aural warning button",
+        "2. can switch off the overspeed warning system",
+        "3. must reduce the airspeed",
+        "3"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0200",
+      "question": "o Which statement below is correct about an overspeed warning?",
+      "options": [
+        "It prevents the lower deviation of the stall speed (VS).",
+        "It triggers an engine overspeed warning.",
+        "It helps preventing the exceedance of the Design Diving Speed (VD).",
+        "It prevents the unintended exceedance of limit speeds, Maximum Operating Limit Speed/Mach"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0201",
+      "question": "o To warn the flight crew, an overspeed warning system can use:",
+      "options": [
+        "1 – an aural warning",
+        "2 – a stick shaker connected to the control column",
+        "3 – a vibration device connected to the autothrottle",
+        "1, 3."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0202",
+      "question": "o roll, which of the following statements are correct or incorrect?",
+      "options": [
+        "I. An aural warning is provided if the longitudinal trim device is not in a position for a safe take-off.",
+        "II. An aural warning is provided if the parking brake is set.",
+        "I is incorrect, II is correct",
+        "I is correct, II is incorrect"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0203",
+      "question": "o roll of a large aeroplane:",
+      "options": [
+        "I – An aural warning is provided if the elevator is not in a safe position for take-off.",
+        "II – An aural warning is provided if the brake pressure is too low.",
+        "I is incorrect, II is correct",
+        "I is correct, II is incorrect"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0204",
+      "question": "o roll of a large aeroplane:",
+      "options": [
+        "I – An aural warning is provided if the elevator is not in a safe position for take-off.",
+        "II – An aural warning is provided if the parking brake is set.",
+        "I is incorrect, II is correct",
+        "I is incorrect, II is incorrect"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0205",
+      "question": "o roll:",
+      "options": [
+        "1 – take-off thrust is not fully applied",
+        "2 – the flaps are not in the approved range for take-off",
+        "3 – speed brakes are extended",
+        "4 – take-off is attempted NOT in appropriate and safe configurations"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0206",
+      "question": "o if:",
+      "options": [
+        "1. one engine fails.",
+        "2. the longitudinal trim is not in the approved range for take-off.",
+        "3. take-off thrust is not fully applied.",
+        "2"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0207",
+      "question": "o The altitude alerting system alerts the flight crew:",
+      "options": [
+        "1. upon approaching a pre-selected altitude",
+        "2. upon approaching a pre-selected altitude during climb only",
+        "3. of a loss of altitude during take-off or missed approach",
+        "4. of a wrong landing configuration"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0208",
+      "question": "o An altitude alert system must at least warn the crew:",
+      "options": [
+        "1. when approaching the pre-selected altitude",
+        "2. when the aeroplane is approaching the ground too fast",
+        "3. in case of a given deviation above or below the pre-selected altitude",
+        "4. in case of excessive vertical speed"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0209",
+      "question": "o Which statement below is correct concerning the components of a typical radio-altimeter?",
+      "options": [
+        "It has one antenna which is alternately sending and receiving radio pulses.",
+        "It has four antennas: two longitudinal and two lateral antennas which make use of the Doppler",
+        "technique.",
+        "It has two antennas: one is continuously sending radio signals, while the other one is"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0210",
+      "question": "o Therefore it is necessary to:",
+      "options": [
+        "change the display scale on short final.",
+        "compensate for residual height and cable length.",
+        "have an additional radio altimeter only for automatic landing.",
+        "adjust the gross height according to the pitch angle."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0211",
+      "question": "o The radio altimeter provides data for the following system(s):",
+      "options": [
+        "1. Altitude alert system",
+        "2. EGPWS",
+        "3. Autothrust",
+        "4. Automatic landing system (Flare)"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0212",
+      "question": "o A radio altimeter indicates the height from the ground to:",
+      "options": [
+        "200 ft",
+        "1000 ft",
+        "50 ft",
+        "2500 ft"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0213",
+      "question": "o How is a TCAS II traffic advisory displayed?",
+      "options": [
+        "As a cyan solid lozenge",
+        "As an amber solid circle",
+        "As a red full square",
+        "As a white empty lozenge"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0214",
+      "question": "o Above 600 ft AGL, display characteristics of a TCAS II resolution advisory are:",
+      "options": [
+        "1. Display of red square and an aural annunciation (“CLIMB CLIMB”).",
+        "2. At the end of the RA sequence an annunciation “CLEAR OF CONFLICT”.",
+        "1 is correct, 2 is incorrect",
+        "1 is incorrect, 2 is incorrect"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0215",
+      "question": "o How is a TCAS II proximate traffic displayed?",
+      "options": [
+        "As an amber circle or square",
+        "As a white or cyan solid lozenge (\"diamond\")",
+        "As a red empty square",
+        "As a white or cyan empty lozenge (\"diamond\")"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0216",
+      "question": "o Concerning the TCAS II:",
+      "options": [
+        "1 – Neither advisory nor traffic display is provided for aircraft that do not have an operating transponder",
+        "2 – TCAS II operation is independent of ground-based ATC",
+        "3 – TCAS II has feeds from the radio altimeter",
+        "1 and 2 only"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0217",
+      "question": "o How does the associated intruder appear on your TCAS display for a Resolution Advisory?",
+      "options": [
+        "Empty amber circle",
+        "Empty red circle",
+        "Solid amber square",
+        "Solid red square"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0218",
+      "question": "o When is the TCAS Resolution Advisory message “CLIMB – CLIMB NOW” (repeated twice) generated?",
+      "options": [
+        "each time after a \"CLIMB\" resolution advisory is generated to remind the pilot of the instruction.",
+        "after a \"DESCEND\" resolution advisory when a reversal in the vertical manoeuvre sense is required.",
+        "when clear of conflict and the aircraft which had to descend is below the cruising altitude.",
+        "after a \"CLIMB\" resolution advisory when the initial climb rate is not sufficient to get clear of conflict."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0219",
+      "question": "o Which of the following statements is correct regarding a TCAS Traffic Advisory (TA) and a Resolution Advisory (RA)?",
+      "options": [
+        "For an RA the intruder is displayed on the Navigation Display, while for a TA the intruder will not be displayed.",
+        "A TA indicates the relative position of the intruder, an RA provides a vertical traffic avoidance manoeuvre.",
+        "An RA indicates the relative position of the intruder, a TA provides a vertical traffic avoidance manoeuvre.",
+        "A TA will generate an aural alert giving instructions to the crew, while an RA informs about proximate traffic."
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0220",
+      "question": "o The TCAS symbol shown in the annex indicates which intruder vertical information?",
+      "options": [
+        "300 ft above, descending",
+        "same altitude, rate of descent 300 ft/min",
+        "300 ft below, descending",
+        "3000 ft below, descending"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0221",
+      "question": "o The TCAS symbol shown in the annex indicates which intruder vertical information?",
+      "options": [
+        "same altitude, associated with traffic advisory (TA)",
+        "same altitude, associated with resolution advisory (RA)",
+        "maintain ROC of 0 ft/min, coming clear of traffic",
+        "vertical distance less than 1000 ft, maintaing altitude"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0222",
+      "question": "o TCAS II may provide:",
+      "options": [
+        "1 – a TA (Traffic Advisory)",
+        "2 – a RA (Resolution Advisory) in the horizontal plane",
+        "3 – a RA (Resolution Advisory) in the vertical plane",
+        "4 – a ground proximity warning"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0223",
+      "question": "o Which functions are provided by a TCAS II system?",
+      "options": [
+        "The intruder relative position and possibly an indication of a collision avoidance manoeuvre within the horizontal",
+        "plane only",
+        "The intruder relative altitude and possibly an indication of an avoidance manoeuvre within the vertical and the",
+        "horizontal plane"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0224",
+      "question": "o For collision avoidance, ACAS may trigger:",
+      "options": [
+        "1. Command orders in the horizontal plane",
+        "2. Command orders in the vertical plane",
+        "1 is incorrect, 2 is incorrect",
+        "1 is correct, 2 is incorrect"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0225",
+      "question": "o Regarding TCAS II:",
+      "options": [
+        "One of the warnings generated by the system is \"TOO LOW TERRAIN\"",
+        "There is no protection against aircraft not equipped with a SSR transponder.",
+        "There is no protection against aircraft not equipped with a FMS/FMC.",
+        "One of the warnings generated by the system is \"PULL UP\""
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0226",
+      "question": "o What does TCAS II use for its operation?",
+      "options": [
+        "the replies from the transponders of other aircraft and SSR echoes",
+        "the radar echoes of the on-board collision avoidance radar system",
+        "the replies from the transponders of other aircraft",
+        "the echoes from the ground-based primary radar system"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0227",
+      "question": "o The TCAS computer uses the following data:",
+      "options": [
+        "1 – TAS (true airspeed)",
+        "2 – Configuration (gear / flaps)",
+        "3 – Pressure altitude from the mode C transponder",
+        "4 – Height from the radio altimeter"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0228",
+      "question": "o How can your TCAS determine the bearing of an intruder?",
+      "options": [
+        "By measuring the time between a transmission and a reply signal",
+        "By comparing the barometric altitude of the two aircraft",
+        "By using two specific antennas",
+        "By using the bearing function of the ADF system"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0229",
+      "question": "o With regard to an aircraft equipped with ACAS II, which of the following statements is correct?",
+      "options": [
+        "1. ACAS II is linked with the transponder to generate Resolution Advisories (RAs).",
+        "2. In case another aircraft is also equipped with ACAS II, RAs are coordinated and complementary.",
+        "1 is correct, 2 is correct",
+        "1 is incorrect, 2 is correct"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0230",
+      "question": "o With regard to an aircraft equipped with ACAS II, which of the following statements is correct?",
+      "options": [
+        "1. ACAS II system is linked to the radio altimeter to inhibit an RA when the aircraft operates close to the ground.",
+        "2. ACAS II is linked with the transponder to generate Resolution Advisories (RAs).",
+        "1 is incorrect, 2 is incorrect",
+        "1 is incorrect, 2 is correct"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0231",
+      "question": "o The anticollision logic of a TCAS II is based on which criterion?",
+      "options": [
+        "Distance",
+        "Altitude",
+        "Configuration",
+        "Time"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "Q0232",
+      "question": "o on the VSI:",
+      "options": [
+        "takes into account the standard stall margin.",
+        "takes into account a 1.4 Vs stall margin.",
+        "does not take into account the stall margin.",
+        "takes into account the flaps extended stall margin. o"
+      ],
+      "answer_index": 0
+    }
+  ]
+}

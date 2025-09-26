@@ -1,0 +1,2470 @@
+{
+  "source": "Instrument Rating",
+  "question_count": 224,
+  "questions": [
+    {
+      "id": "EN-I030-200625-00466",
+      "question": "Course 235(M) MSA 7800 ft QNH 995 hPa Temp. ISA o The minimum suitable IFR flight level is: o FL60 FL90",
+      "options": [
+        "FL75",
+        "FL100",
+        "o Question 2 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200625-00410",
+      "question": "The minimum sector altitude (MSA) on an instrument apppraoch chart is referenced to a radio navigation facility, usually within… o 5 NM 30 NM",
+      "options": [
+        "25 NM",
+        "20 NM",
+        "o Question 3 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200625-00408",
+      "question": "QNH 1025 HPa ISA +10 deg. C IFR flight 135° magnetic course airway MSA 7800 ft o The minimum flight level is: o FL75 FL65",
+      "options": [
+        "FL90",
+        "FL80",
+        "o Question 4 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200625-00371",
+      "question": "Excluding RVSM, an appropriate flight level (FL) for an IFR flight in accordance with the semi-circular height rules on a Magnetic Course 200 is: o FL320 FL310",
+      "options": [
+        "FL300",
+        "FL290",
+        "o Question 5 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200625-00370",
+      "question": "Excluding RVSM, an appropriate flight level (FL) for an IFR flight in accordance with the semi-circular height rules on a Magnetic Course 180 is: o FL85 FL90",
+      "options": [
+        "FL100",
+        "FL115",
+        "o Question 6 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-02206",
+      "question": "(See attachment IC-033-032) When following the track 185(M) from TALLA (TLA N55°30.0′, W003°21.2′), the aircraft is following what type of route? o RNAV route RNP route",
+      "options": [
+        "Non-RNAV route",
+        "Direct route",
+        "o Question 7 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-02207",
+      "question": "(See attachment ic-033-095) The airway with designator UG851 is what type of airway? o Conditional route RNAV ATS route",
+      "options": [
+        "Route usable by non B-RNAV equipped aircraft",
+        "Direct route",
+        "o Question 8 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-02210",
+      "question": "o According GM1 CAT.OP.MPA.145 (b), MOCA is the sum of the maximum terrain or obstacle elevation plus (1) ____ for elevation up to and including 6000 ft, or (2) ____ for elevation exceeding 6000 ft rounded up to the next 100 ft. o (1) 3000 ft, (2) 2000 ft (1) 500 ft, (2) 1000 ft",
+      "options": [
+        "(1) 1000 ft, (2) 2000 ft",
+        "(1) 2000 ft, (2) 1000 ft",
+        "o Question 9 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-02211",
+      "question": "According GM1 CAT.OP.MPA.145 (b), the lowest MOCA to be indicated is… o 1000 ft (300 m) 500 ft (150 m)",
+      "options": [
+        "2000 ft (600 m)",
+        "5000 ft (450 m)",
+        "o Question 10 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200625-00367",
+      "question": "An airway is marked “3500T 2100 a” means the: o Minimum En-route Altitude (MEA) is 3500 ft. Airway is a low level link route from 2100 ft to 3500 ft AMSL",
+      "options": [
+        "Minimum Obstacle Clearance Altitude (MOCA) is 3500 ft.",
+        "Base of the Airway is 3500 ft MSL.",
+        "o Question 11 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200625-00368",
+      "question": "An airway is marked “FL80 1500 a” means the… o Base of the airway is 1500 ft MSL. Airway extends from 1500 ft MSL to FL80.",
+      "options": [
+        "Minimum En-route Altitude (MEA) is FL80.",
+        "Minimum radio reception altitude (MRA) is 1500 ft AMSL.",
+        "o Question 12 of 122",
+        "o ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200625-00369",
+      "question": "An airway is marked “5000 2900a” means the… o Maximum Authorised Altitude (MAA). Minimum En-route Altitude (MEA).",
+      "options": [
+        "Minimum Obstacle Clearance Altitude (MOCA).",
+        "Minimum Holding Altitude (MHA).",
+        "o Question 13 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200625-00439",
+      "question": "The lowest altitude between radio fixes assuring navigational signal coverage and obstacle clearance is the: o Minimum Off Route Altitude (MORA) Minimum Obstacle Clearance Altitude (MOCA)",
+      "options": [
+        "Minimum Sector Altitude (MSA)",
+        "Minimum Enroute Altitude (MEA)",
+        "o Question 14 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-02208",
+      "question": "The Minimum Off-Route Altitude (MORA) provides obstruction clearance up to what distance from the airway centerline? o 20 NM 5 NM",
+      "options": [
+        "1 NM",
+        "10 NM",
+        "o Question 15 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-02215",
+      "question": "During IFR descent to an airport, who is responsible for terrain separation and obstacle clearance? o The pilot in command (PIC) in all cases The pilot in command (PIC), except when flying in IMC",
+      "options": [
+        "The pilot in command (PIC), except the flight is RADAR vectored",
+        "ATC in all cases",
+        "o Question 16 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-02209",
+      "question": "According ICAO Doc 82168, in non-mountainous areas (e.g with terrain not higher than 3000 ft), the minimum permissible holding level provides a clearance of at least (1) ____ above obstacles in the holding area, and a clearance which ranges from 300 m at the edge of the holding area to a minimum of 60 m at the (2) ____ limit of the buffer area. o (1) 600 m, (2) 5 NM (1) 300 m, (2) 5 NM",
+      "options": [
+        "(1) 300 m, (2) 10 NM",
+        "(1) 600 m, (2) 10 NM",
+        "o Question 17 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-02216",
+      "question": "For an airway in mountainous terrain, the approximate minimum clearance used for calculating MOCA is (1) ____ for elevations less than 5000 ft and (2) ____ for elevations greater than 5000 ft. o (1) 1000 ft, (2) 3000 ft (1) 1000 ft, (2) 2000 ft",
+      "options": [
+        "(1) 1500 ft, (2) 2000 ft",
+        "(1) 1500 ft, (2) 3000 ft",
+        "o Question 18 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-02219",
+      "question": "o According SERA.5015, an IFR flight shall be flown at a level which is not below the minimum flight altitude, or, where no such minimum flight altitude has been established: over high terrain or in mountainous areas, at a level which is at least (1) ____ above the highest obstacle located within (2) ____ of the estimated position of the aircraft. o (1) 300 m (1000 ft), (2) 8 km (1) 300 m (1000 ft), (2) 5 km",
+      "options": [
+        "(1) 600 m (2000 ft), (2) 5 km",
+        "(1) 600 m (2000 ft), (2) 8 km",
+        "o Question 19 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-02220",
+      "question": "o According SERA.5015, an IFR flight shall be flown at a level which is not below the minimum flight altitude, or, where no such minimum flight altitude has been established: if NOT over high terrain or in mountainous areas, at a level which is at least (1) ____ above the highest obstacle located within (2) ____ of the estimated position of the aircraft. o (1) 300 m (1000 ft), (2) 8 km (1) 300 m (1000 ft), (2) 5 km",
+      "options": [
+        "(1) 600 m (2000 ft), (2) 5 km",
+        "(1) 600 m (2000 ft), (2) 8 km",
+        "o Question 20 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-02212",
+      "question": "Altimeter temperature correction should be applied by the pilot during final approach, when the ambient temperature on the surface is much (1) ____ than ISA, and is (2) ____ minimum altitudes at fixes inside the Final Approach Fix (FAF). o (1) higher, (2) subtracted from (1) lower, (2) subtracted from",
+      "options": [
+        "(1) higher, (2) added to",
+        "(1) lower, (2) added to",
+        "o Question 21 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-02214",
+      "question": "o During an LNAV 2D approach, (1) ___ is responsible to apply temperature corrections in case temperature is (2) ___ than ISA. o (1) ATC, (2) much higher (1) the pilot in command, (2) much lower",
+      "options": [
+        "(1) ATC, (2) much lower",
+        "(1) the pilot in command, (2) much higher",
+        "o Question 22 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-02213",
+      "question": "According to ICAO Doc 8168 Volume I FLIGHT PROCEDURES PART III, when an IFR flight is being vectored by radar, air traffic control (ATC) may assign minimum radar vectoring altitudes which… o may be below the minimum sector altitude. must be at least 1000 ft above minimum sector altitude.",
+      "options": [
+        "must be at the minimum sector altitude.",
+        "may not be below the minimum sector altitude.",
+        "o Question 23 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-02217",
+      "question": "Given the following information, calculate the minimum flight level to be flown under IFR: MOCA: 4400 ft o Magnetic course: 233(M) Elevation of nearby airport: 1500 ft Magnetic variation: 12°W Temperature: ISA-18 QNH reported at airport: 993 hPa Transition Altitude: 5000 feet o FL 70 FL 80",
+      "options": [
+        "FL 60",
+        "FL 50",
+        "o Question 24 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-02221",
+      "question": "Given the following information, calculate the minimum flight level to be flown under IFR in RVSM airspace? Obstacle Altitude: 24800 ft Obstacle Clearance: 2000 ft Magnetic course: 330(M) Temperature: ISA-15 QNH reported at airport: 993 hPa o FL 310 FL 290",
+      "options": [
+        "FL 300",
+        "FL 280",
+        "o Question 25 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-02218",
+      "question": "Given the following information, calculate the true altitude of the aircraft of the aircraft above airfield datum (“true height”): Aircraft at FL 45 Temperature: ISA-13 Elevation of nearby airport: 200 ft QNH at airport: 1030 hPa o 3560 ft 5040 ft",
+      "options": [
+        "4580 ft",
+        "4020 ft",
+        "o Question 26 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-02229",
+      "question": "(See attachment IC-033-007) On departure, the waypoint EH087… o is reached after 7.5 NM from AMS. is a waypoint that must be flown-over.",
+      "options": [
+        "requires a minimum altitude of 8500 ft.",
+        "is a waypoint that requires turn-anticipation.",
+        "o Question 27 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-02228",
+      "question": "(See attachment IC-033-096) The RNAV symbol in line D refers to a: o Fly-over waypoint Mileage break",
+      "options": [
+        "o Non-compulsory waypoint",
+        "Compulsory waypoint",
+        "o Question 28 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-02227",
+      "question": "(See attachment IC-033-096) The RNAV symbol in line B refers to a: o Compulsory waypoint Fly-over waypoint",
+      "options": [
+        "Non-compulsory waypoint",
+        "Mileage break",
+        "o Question 29 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-02226",
+      "question": "(See attachment IC-033-096) The RNAV symbol in line A refers to a: o Non-compulsory waypoint Compulsory waypoint",
+      "options": [
+        "Fly-over waypoint",
+        "Mileage break",
+        "o Question 30 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-02225",
+      "question": "(See attachment IC-033-096) The RNAV symbol in line C refers to a: o Fly-by waypoint Mileage break",
+      "options": [
+        "Compulsory waypoint",
+        "Fly-over waypoint",
+        "o Question 31 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200625-00637",
+      "question": "(See attachment IC-033-007) The route distance (NM) from runway 36L to ARNEM via the ARNEM 1Z departure route is: o 63.5 NM 68 NM",
+      "options": [
+        "63 NM",
+        "65.5 NM",
+        "o Question 32 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200625-00636",
+      "question": "(See attachment IC-033-003) The correct ZURICH EAST departure route via D5.0 ZUE for Runway 32 is: o ZUE 3F ZUE 1G",
+      "options": [
+        "ZUE 1M",
+        "o ZUE 3L",
+        "o Question 33 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200625-00635",
+      "question": "(See attachment IC-033-001) What is the initial approach fix (IAF) for an arrival via DOMUS to RWY 27R? o BANOX DOMUS",
+      "options": [
+        "PGS",
+        "PG516",
+        "o Question 34 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200625-00634",
+      "question": "(See attachment IC-033-001) The Minimum Sector Altitude (MSA) based on the airport reference point is: o 6600 ft 3200 ft",
+      "options": [
+        "4000 ft",
+        "3300 ft",
+        "o Question 35 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200625-00633",
+      "question": "(See attachment IC-033-001) Determine the Minimum Holding Altitude (MHA) and max. holding speed (IAS) at MOPAR holding: o FL070 and 250 KT FL110 and 280 KT",
+      "options": [
+        "FL070 and 230 KT",
+        "FL140 and 250 KT",
+        "o Question 36 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200625-00632",
+      "question": "(See attachment IC-033-003) The correct departure via ZURICH EAST from runway 34 is: o ZUE 3L ZUE 3F",
+      "options": [
+        "ZUE 1G",
+        "ZUE 1M",
+        "o Question 37 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200625-00516",
+      "question": "(See attachment IC-033-002) What is the elevation of runway 09R LFPG? o 392 ft 823 ft",
+      "options": [
+        "371 ft",
+        "3200 ft",
+        "o Question 38 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200701-00749",
+      "question": "(See annex IC-033-022) An aircraft proceeding on the EXOBI 3B SID is passing DME 15.0 JSV. What is the MSA at this point? o 7000 ft 8400 ft",
+      "options": [
+        "o 8000 ft",
+        "7800 ft",
+        "o Question 39 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200701-00748",
+      "question": "(See annex IC-033-022) An aircraft cleared for the EXOBI 1A SID for runway 03 L/R is permitted to climb initially to… o FL90. 7800 ft altitude.",
+      "options": [
+        "FL75.",
+        "8000 ft altitude.",
+        "o Question 40 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200625-00638",
+      "question": "(See attachment IC-033-005) What is the correct arrival route when arriving via DISUN? o MERSI 4A KOGOL 4A",
+      "options": [
+        "OSDER 4A",
+        "IRBIR 5A",
+        "o Question 41 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200701-00746",
+      "question": "(See annex IC-033-027) All aircraft following the TETAN departures are required to cross the CTR boundary… o at or above 2,500 ft. with radio contact to the tower.",
+      "options": [
+        "at or above FL85.",
+        "with the altimeter set to standard.",
+        "o Question 42 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200701-00740",
+      "question": "(See annex IC-033-023) An aircraft is cleared to descent according the procedure following the arrival AXODO 1A. The first altitude change must be initiated at… o DUNBA, descending to FL95. DUNBA, descending to 9,500 ft altitude.",
+      "options": [
+        "SUDOG, descending to FL150.",
+        "DUNBA, descending to FL150.",
+        "o Question 43 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200701-00739",
+      "question": "(See annex IC-033-023) What is the outbound course of the AXODO holding? o 217° 300°",
+      "options": [
+        "119°",
+        "299°",
+        "o Question 44 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200701-00745",
+      "question": "(See annex IC-033-026) What is the total distance of the UVBIX 2C arrival? o 51 NM o 74 NM",
+      "options": [
+        "72 NM",
+        "48 NM",
+        "o Question 45 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200701-00744",
+      "question": "(See annex IC-033-026) What is the initial approach fix when following the UVBIX 2C arrival? o UVBIX OKPEX",
+      "options": [
+        "UTIMO",
+        "BONDY",
+        "o Question 46 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200701-00743",
+      "question": "(See annex IC-033-025) The MSA of FAOR is based on… o the airport reference point. JSV VOR.",
+      "options": [
+        "the highest runway elevation.",
+        "WKV VOR.",
+        "o Question 47 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200701-00742",
+      "question": "(See annex IC-033-025) What is the height of the highest terrain high point or man-made structure of the chart? o 8400 ft 7800 ft",
+      "options": [
+        "6793 ft",
+        "8900 ft",
+        "o Question 48 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200701-00741",
+      "question": "(See annex IC-033-025) An aircraft following the AVAGO 2A arrival is on JSV radial 320 inbound at a distance of 10.0 JSV DME. What is the current MSA for this aircraft? o 8900 ft 8400 ft",
+      "options": [
+        "7800 ft",
+        "8000 ft",
+        "o Question 49 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200701-00747",
+      "question": "(See annex IC-033-027) An aircraft cleared for the TETAN 1B SID for runway 19 is permitted to climb initially to… o 7500 ft altitude. FL75.",
+      "options": [
+        "FL85.",
+        "FL90.",
+        "o Question 50 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200701-00738",
+      "question": "(See annex IC-033-023) What is the inbound course of the ATUPI holding? o 299° 217°",
+      "options": [
+        "037°",
+        "036°",
+        "o Question 51 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200701-00737",
+      "question": "(See annex IC-033-023) What is the aproximate route distance of the ATUPI 1A arrival? o 64 NM 32 NM",
+      "options": [
+        "28 NM",
+        "35 NM",
+        "o Question 52 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200701-00736",
+      "question": "(See annex IC-033-023) The route distance of the AXODO 1A arrival is: o 58 NM 32 NM",
+      "options": [
+        "64 NM",
+        "60 NM",
+        "o Question 53 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200701-00734",
+      "question": "(See annex IC-033-023) What is the initial approach fix (IAF) of the ATUPI 1A arrival route? o UNDID OLLIE",
+      "options": [
+        "ATUPI",
+        "EGLIK",
+        "o Question 54 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200625-00159",
+      "question": "Unless on Standard Instrument Departure charts, routes usually indicate… o True Heading. Magnetic Heading.",
+      "options": [
+        "Magnetic Course.",
+        "True Course.",
+        "o Question 55 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-02222",
+      "question": "With regard to RNAV and conventional STARs, which of the following statements is correct? 1. “RNAV STAR overlay” charts provide RNAV information to support flying a conventional STAR. 2. An “RNAV STAR” must NOT be flown with reference to conventional sources only. o 1 is correct, 2 is correct 1 is correct, 2 is incorrect",
+      "options": [
+        "1 is incorrect, 2 is correct",
+        "1 is incorrect, 2 is incorrect",
+        "o Question 56 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-02223",
+      "question": "With regard to RNAV and conventional SIDs, which of the following statements is correct? 1. A “RNAV SID” may be flown without any ground-based navigation aids. 2. A “RNAV SID” must be flown in case ground-based navigational navigation aids become unusable. o 1 is correct, 2 is incorrect 1 is incorrect, 2 is incorrect",
+      "options": [
+        "1 is correct, 2 is correct",
+        "1 is incorrect, 2 is correct",
+        "o Question 57 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-02224",
+      "question": "With regard to RNAV and conventional SIDs, which of the following statements is correct? 1. A “RNAV STAR overlay” provides shortcuts compared to a STAR using ground-based navigational aids. 2. A “SID RNAV only” is limited to aircraft with approved RNAV equipment only. o 1 is incorrect, 2 is correct 1 is correct, 2 is correct",
+      "options": [
+        "1 is correct, 2 is incorrect",
+        "1 is incorrect, 2 is incorrect",
+        "o Question 58 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-02230",
+      "question": "A commercial aeroplane is capable for an Approach Climb Gradient (ACG) of 3.5%. Instrument approach procedures that o 1. ILS-DME approach with required minimum ACG is 2.9% 2. VOR-DME approach minimum ACG required is 4.4% 3. LOC-DME approach with required minimum ACG required is 3.5% o 1 and 3. 1, 2 and 3",
+      "options": [
+        "2 and 3",
+        "1 and 2",
+        "o Question 59 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200625-00727",
+      "question": "(See attachment IC-033-092) Select the (1) Frequency (MHz) and (2) QDM (deg.) of the ILS at De Kooy Aerodrome: o (1) 109.70 (2) 210°T (1) 123.30 (2) 220°T",
+      "options": [
+        "(1) 109.70 (2) 216°M",
+        "(1) 123.30 (2) 220°M",
+        "o Question 60 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200625-00648",
+      "question": "(See attachment IC-033-006) What is the frequency of the NDB for the published NDB approach on runway 26L? o 115.0 MHz 400 kHz",
+      "options": [
+        "108.3 MHz",
+        "338 kHz",
+        "o Question 61 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200625-00647",
+      "question": "(See annex IC-033-004) In a Category A aircraft with all other aids serviceable and a missed approach climb gradient until 3,200 ft of 4.2%, the o 2100 m 2500 m",
+      "options": [
+        "1500 m",
+        "1200 m",
+        "o Question 62 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200625-00646",
+      "question": "(See attachment IC-033-002) Determine the ILS localizer final approach course: o 134° 114°",
+      "options": [
+        "085°",
+        "110°",
+        "o Question 63 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200625-00645",
+      "question": "(See annex IC-033-002) What are the ILS frequency for RWY 09R? o 110.1 MHz 119.25 MHz",
+      "options": [
+        "115.35 MHz",
+        "127.13 MHz",
+        "o Question 64 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200625-00644",
+      "question": "(See attachment IC-033-001) What is the crossing altitude overhead BANOX for a propeller aircraft? o FL 150 FL 140",
+      "options": [
+        "FL 280",
+        "FL 070",
+        "o Question 65 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200625-00643",
+      "question": "(See attachment IC-033-002) The Minimum Descent Altitude (MDA) for an ILS glide slope out is: o 760 ft 389 ft",
+      "options": [
+        "581 ft",
+        "571 ft",
+        "o Question 66 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200625-00642",
+      "question": "(See attachment IC-033-057) The Radio Altimeter minimum altitude for a CAT 2 ILS DME approach to Rwy 01L is: o 100 ft 300 ft",
+      "options": [
+        "188 ft",
+        "88 ft",
+        "o Question 67 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200625-00641",
+      "question": "(See attachment IC-033-006) The minimum initial descent altitude for a an NDB approach on runway 26L is: o 5000 ft 4040 ft",
+      "options": [
+        "2800 ft",
+        "2330 ft",
+        "o Question 68 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200625-00640",
+      "question": "(See annex IC-033-004) The initial climb altitude during the missed approach procedure for runway 26 is: o 10300 ft 9500 ft",
+      "options": [
+        "11600 ft",
+        "11500 ft",
+        "o Question 69 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200625-00639",
+      "question": "(See attachment IC-033-002) The Decision Altitude (DA) for an ILS straight-in landing with an aircraft category A is: o 581 ft 571 ft",
+      "options": [
+        "760 ft",
+        "200 ft",
+        "o Question 70 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200701-00735",
+      "question": "(See annex IC-033-021) What is the MSA for an aircraft approaching FBSK on a track of 310° for an ILS DME approach on runway 08? o 6400 ft 6100 ft",
+      "options": [
+        "6000 ft",
+        "7000 ft",
+        "o Question 71 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200701-00732",
+      "question": "(See annex IC-033-021) What is the minimum descent altitude for a localizer approach with NO vertical guidance (GS out)? o 3960 ft 4060 ft",
+      "options": [
+        "3600 ft",
+        "3492 ft",
+        "o Question 72 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200701-00731",
+      "question": "(See annex IC-033-020) What is the published descent angle for the RNAV approach on runway 01? o 10.0° 3.0°",
+      "options": [
+        "5.0°",
+        "3.8°",
+        "o Question 73 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200701-00730",
+      "question": "(See annex IC-033-019) What is the frequency of the localizer for the published ILS approach on runway 19? o 115.7 MHz 109.1 MHz",
+      "options": [
+        "189.0 MHz",
+        "o 462.5 kHz",
+        "o Question 74 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200701-00729",
+      "question": "(See annex IC-033-019) o What is the speed limit, when established on localizer at 10.0 KSI DME on the ILS approach for runway 19 in Cape Town? o As advised by ATC 160 kt",
+      "options": [
+        "180 kt",
+        "150 kt",
+        "o Question 75 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200701-00728",
+      "question": "(See annex IC-033-019) What speed restriction has to be considered during an ILS approach on runway 19 when passing the check altitude of 1973 ft? o No speed restriction Maximum 150 kt",
+      "options": [
+        "Maximum 180 kt",
+        "Maximum 130 kt",
+        "o Question 76 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200701-00733",
+      "question": "(See annex IC-033-021) Which radial must a category C aircraft intercept when passing GSV VOR for a standard ILS DME approach on runway 08? o R077 R275",
+      "options": [
+        "R266",
+        "R074",
+        "o Question 77 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200701-00726",
+      "question": "(See annex IC-033-018) What minimum navigation equipment is required for a VOR approach on runway 19 at Cape Town airport? o ADF and DME CDI and ADF",
+      "options": [
+        "CDI only",
+        "CDI and DME",
+        "o Question 78 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200701-00727",
+      "question": "(See annex IC-033-018) Determine the minimum RVR for a category A aircraft, assuming the approach light system is out of service: o 1800 m 1500 m",
+      "options": [
+        "900 m",
+        "1000 m",
+        "o Question 79 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200625-00440",
+      "question": "o The lowest ICAO altitude providing minimum 300 m (1000 ft) clearance above all objects in a 46 km (25 NM) radius centred on a radio navigational aid, is the: o MSA MEA",
+      "options": [
+        "MORA",
+        "MOCA",
+        "o Question 80 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200701-00712",
+      "question": "(See annex IC-033-015) What is the elevation of runway 03R FAOR? o 5558 ft 5510 ft",
+      "options": [
+        "7800 ft",
+        "186 ft",
+        "o Question 81 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200701-00713",
+      "question": "(See annex IC-033-015) The Minimum Sector Altitude (MSA) is based on… o JNI ILS DME. HGV VOR.",
+      "options": [
+        "the airport reference point.",
+        "JSV VOR.",
+        "o Question 82 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200701-00714",
+      "question": "(See annex IC-033-015) The initial climb altitude during the missed approach procedure for runway 03R is: o 7800 ft 8400 ft",
+      "options": [
+        "8000 ft",
+        "9000 ft",
+        "o Question 83 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200701-00715",
+      "question": "(See annex IC-033-015) The ILS localizer course for runway 03R is… o 028°. 030°.",
+      "options": [
+        "034°.",
+        "214°.",
+        "o Question 84 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200701-00717",
+      "question": "(See annex IC-033-016) What is the minimum descent altitude for an NDB DME approach on runway 26? o 3960 ft 5500 ft",
+      "options": [
+        "3650 ft",
+        "373 ft",
+        "o Question 85 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200701-00718",
+      "question": "o (See annex IC-033-016) What is the frequency of the NDB for the published NDB DME approach on runway 26? o 126.6 MHz 128 kHz",
+      "options": [
+        "114.0 MHz",
+        "311 kHz",
+        "o Question 86 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200701-00716",
+      "question": "(See annex IC-033-015) An aircraft is approaching FAOR for the ILS on runway 03R on a 250° track. What Minimum Sector Altitude has to be considered? o 9000 ft 6700 ft",
+      "options": [
+        "7800 ft",
+        "8400 ft",
+        "o Question 87 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200701-00720",
+      "question": "(See annex IC-033-016) The Missed Approach Point of the NDB DME approach for runway 26 is located at: o D1.1 GSV DME GBE NDB",
+      "options": [
+        "D7.9 GSV DME",
+        "D3.3 GSV DME",
+        "o Question 88 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200701-00721",
+      "question": "(See annex IC-033-016) The Missed Approach procedure requires a climb to an altitude of (1) ____ on a track of (2) ____ . o (1) 6000 ft, (2) 257° (1) 6400 ft, (2) 257°",
+      "options": [
+        "(1) 6000 ft, (2) 270°",
+        "(1) 6400 ft, (2) 270°",
+        "o Question 89 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200701-00722",
+      "question": "(See annex IC-033-017) Determine the Minimum Descent Height for a category C aircraft using lateral and vertical guidance. o 368 ft 1800 m",
+      "options": [
+        "6010 ft",
+        "1500 m",
+        "o Question 90 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200701-00723",
+      "question": "(See annex IC-033-017) What is the transition altitude when departing from Windhoek, Namibia? o 10000 ft As advised by ATC",
+      "options": [
+        "5000 ft",
+        "9000 ft",
+        "o Question 91 of 122",
+        "o ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200701-00724",
+      "question": "(See annex IC-033-017) Under what conditions is a LNAV/VNAV approach based on barometric measurement NOT permitted? o Tailwind exceeds 10 kt ISA deviation is more than -15°C",
+      "options": [
+        "Crosswind exceeds 25 kt",
+        "OAT is below -15°C",
+        "o Question 92 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200701-00725",
+      "question": "(See annex IC-033-018) The frequency of Cape Town Director is: o 124.35 MHz 124.35 kHz",
+      "options": [
+        "119.7 kHz",
+        "119.7 MHz",
+        "o Question 93 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200701-00719",
+      "question": "(See annex IC-033-016) What altitude indication is required at 4.0 GSV DME, in order to maintain the ideal descent path during the NDB DME approach for runway 26? o 5500 ft 3940 ft",
+      "options": [
+        "6000 ft",
+        "4260 ft",
+        "o Question 94 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-02231",
+      "question": "The approach chart for an RNAV approach shows a decision height of 320 ft. Type and category of this approach are: o Type B, Category II Type A, no category",
+      "options": [
+        "Type A, Category I",
+        "Type B, no category",
+        "o Question 95 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-02237",
+      "question": "With regard to PBN approaches designated as RNP APCH, which of the following statements is correct? o 1. RNP approaches are based on GNSS. 2. RNP approaches can be identified by LNAV or LNAV/VNAV minima published on the chart. o 1 is incorrect, 2 is correct 1 is correct, 2 is correct",
+      "options": [
+        "1 is incorrect, 2 is incorrect",
+        "1 is correct, 2 is incorrect",
+        "o Question 96 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-02235",
+      "question": "Type B approaches have a decision height of (1) ____ and (2) ____ . o (1) less than 250 ft, (2) categories I, II or III (1) more than 250 ft, (2) categories I, II or III",
+      "options": [
+        "(1) less than 250 ft, (2) no category",
+        "(1) more than 250 ft, (2) no category",
+        "o Question 97 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-02234",
+      "question": "Category and type of an ILS CAT I approach with decision height (DH) of 200 ft are: o Type A, 3D approach Type B, 2D approach",
+      "options": [
+        "Type B, 3D approach",
+        "Type A, 2D approach",
+        "o Question 98 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-02233",
+      "question": "A RNP Type B approach must be 3D and requires: o 1. ILS 2. MLS 3. GBAS 4. SBAS 5. ABAS only o 1, 2 or 5 3, 4 or 5",
+      "options": [
+        "1, 2, 3 or 4",
+        "1, 3, 4 or 5",
+        "o Question 99 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-02232",
+      "question": "The approach chart for an approach shows a decision height of 150 ft. Type and category of this approach are: o Type B, Category II Type A, no category",
+      "options": [
+        "Type B, no category",
+        "Type A, Category I",
+        "o Question 100 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-02246",
+      "question": "With regard to definition by ICAO Annex 2, a non-precision approach is an instrument approach procedure designed for (1) ____ instrument approach operations of (2) ____ . o (1) 2D, (2) Type A (1) 2D, (2) Type B",
+      "options": [
+        "(1) 3D, (2) Type A",
+        "(1) 3D, (2) Type B",
+        "o Question 101 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-02245",
+      "question": "With regard to LPV approaches, the (1) ____ guidance is equivalent to localizer, and the protected area is considerably (2) ____ than the protected area for the present LNAV and LNAV/VNAV lateral protection. o (1) lateral, (2) larger (1) lateral, (2) smaller",
+      "options": [
+        "(1) vertical, (2) larger",
+        "(1) vertical, (2) smaller",
+        "o Question 102 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-02236",
+      "question": "A non-precision approach in its most basic form uses reference from (1) ____ only and provides (2) ____ . o (2) GNSS waypoints, (2) lateral and vertical guidance (1) ground-based facilities, (2) lateral and vertcial guidance",
+      "options": [
+        "o (1) ground-based facilities, (2) lateral guidance only by VOR or Localizer",
+        "(2) GNSS waypoints, (2) lateral guidance only",
+        "o Question 103 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-02243",
+      "question": "An example for an RNP approach procedure which must be designated as “RNP AR APCH” may be… o any published LNAV/VNAV minima. a curved segment in the final approach.",
+      "options": [
+        "any published LPV minima.",
+        "a curved segment in the arrival path.",
+        "o Question 104 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-02242",
+      "question": "According ICAO Doc 9613 regarding approaches designated as “RNP AR APCH”, the State AIP should clearly indicate that the navigation application is an RNP AR APCH procedure and that… o alternative routings are required. augmented reality features are required.",
+      "options": [
+        "specific authorization is required.",
+        "special equipment is required.",
+        "o Question 105 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-02241",
+      "question": "A LPV provides precision approaches (1) ____ vertical guidance down to minima as low as (2) ____ . o (1) without, (2) 100 ft (1) with, (2) 100 ft",
+      "options": [
+        "(1) without, (2) 200 ft",
+        "(1) with, (2) 200 ft",
+        "o Question 106 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-02240",
+      "question": "A LPV approach is… o an augmented GNSS approach based on localizer performance with vertical guidance. a limited-precision approach based on ground-based facilities without vertical guidance.",
+      "options": [
+        "an augmented GNSS approach based on localizer performance without vertical guidance.",
+        "a limited-precision approach based on ground-based facilities with vertical guidance.",
+        "o Question 107 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-02239",
+      "question": "In case an RNP approach chart shows two types of published minima for LNAV and LP, the (1) ____ are based on Localiser Performance requiring (2) ____ on board the aircraft. o (1) LP minima, (2) additional equipment to standard GNSS receiver (1) LP minima, (2) standard GNSS equipment",
+      "options": [
+        "(1) LNAV minima, (2) additional equipment to standard GNSS receiver",
+        "(1) LNAV minima, (2) standard GNSS equipment",
+        "o Question 108 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-02238",
+      "question": "In case of FMS inability to provide vertical guidance, a RNP approach may be flown… o as a non-precision approach with vertical guidance by on-board systems. as a precision approach with vertical guidance by on-board systems.",
+      "options": [
+        "as a precision approach without vertical guidance by on-board systems.",
+        "as a non-precision approach without vertical guidance by on-board systems.",
+        "o Question 109 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-02244",
+      "question": "An approach designated as “APV Baro” or “APV SBAS” is a (1) ____ down to minima published as (2) ____ . o (1) 2D approach, (2) LNAV/VNAV or LPV (1) 3D approach, (2) LNAV/VNAV or LPV",
+      "options": [
+        "(1) 3D approach, (2) MDH or DH",
+        "(1) 2D approach, (2) LNAV or LP",
+        "o Question 110 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210505-03002",
+      "question": "(See attachment IC-033-034) In case you accidently change the COM-Frequence while approaching ODIN (N55 34.8 E010 39.3) via airway UA4, what frequency should you select to re-establish communication? o 126.05 MHz 128.15 MHz",
+      "options": [
+        "119.55 MHz or 128.75 MHz",
+        "115.5 MHz",
+        "o Question 111 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200625-00094",
+      "question": "Cruise Level FL370 Cruise Regime M 0.74 OAT -47° C The TAS in kt is: o 438 424",
+      "options": [
+        "416",
+        "434",
+        "o Question 112 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200625-00442",
+      "question": "True course 130° W/V 180/30 TAS 200 kt Calculate the Wind Correction Angle (WCA) and GS: o WCA +7°, GS 222 kt WCA -7°, GS 180 kt",
+      "options": [
+        "WCA +7°, GS 180 kt",
+        "WCA -7°, GS 222 kt",
+        "o Question 113 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I030-200625-00441",
+      "question": "Distance 300 NM Wind (true) 340/40 Magnetic course 300° Variation 20°E TAS 440 kt Calculate the flight time: o 48 min 37 min",
+      "options": [
+        "45 min",
+        "42 min",
+        "o Question 114 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210705-02251",
+      "question": "Advantages of global navigation satellite system/flight management computer (GNSS/FMC) are in specific: o 1. Capability for time and fuel revisions based on predicted and actual wind. 2. Disregarding limitations in uncontrolled airspaces during under IFR. o 1 is correct, 2 is correct 1 is incorrect, 2 is incorrect",
+      "options": [
+        "1 is correct, 2 is incorrect",
+        "1 is incorrect, 2 is correct",
+        "o Question 115 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210705-02250",
+      "question": "Advantages of global navigation satellite system/flight management computer (GNSS/FMC) are in specific: o 1. No further need for information from the Air Data Computer (ADC). 2. Capability to store and display additional aeronautical information, like minimum altitudes, approach procedures. o 1 is incorrect, 2 is correct 1 is incorrect, 2 is incorrect",
+      "options": [
+        "1 is correct, 2 is correct",
+        "1 is correct, 2 is incorrect",
+        "o Question 116 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210705-02252",
+      "question": "Advantages of global navigation satellite system/flight management computer (GNSS/FMC) are in specific: o 1. Automatic calculation and display of tracks and leg distances. 2. Time and fuel estimates over waypoints and the ability to adjust speed to arrive over a waypoint at a defined time. o 1 is correct, 2 is correct 1 is incorrect, 2 is correct",
+      "options": [
+        "1 is incorrect, 2 is incorrect",
+        "1 is correct, 2 is incorrect",
+        "o Question 117 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210705-02248",
+      "question": "Advantages of global navigation satellite system/flight management computer (GNSS/FMC) are in specific: o 1. The can be used to check the estimated time of arrival (ETA) after speed changes in case of revised clearances to reach 2. The provide information about time and fuel revisions based on predicted and actual wind. o 1 is incorrect, 2 is incorrect 1 is incorrect, 2 is correct",
+      "options": [
+        "1 is correct, 2 is correct",
+        "1 is correct, 2 is incorrect",
+        "o Question 118 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210705-02249",
+      "question": "Advantages of global navigation satellite system/flight management computer (GNSS/FMC) are in specific: o 1. Automatic calculation and display of tracks and leg distances and in-flight position. 2. Automatic detaction and avoidance of In-flight weather. o 1 is incorrect, 2 is incorrect 1 is correct, 2 is correct",
+      "options": [
+        "1 is correct, 2 is incorrect",
+        "1 is incorrect, 2 is correct",
+        "o Question 119 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210705-02253",
+      "question": "Limitations of using GNSS/FMC equipment include: o 1. Errors by pilot-input, especially interchange of numbers when entering flight levels, wind, temperature, fuel. 2. The effect of other than predicted wind on fuel and time estimates. o 1 is correct, 2 is incorrect 1 is incorrect, 2 is correct",
+      "options": [
+        "1 is correct, 2 is correct",
+        "1 is incorrect, 2 is incorrect",
+        "o Question 120 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210705-02254",
+      "question": "Limitations of using GNSS/FMC equipment include: o 1. Effect of aircraft’s non-standard configuration on flight management system (FMS) predictions (e.g. in case of gear down). 2. Inability to store and display additional aeronautical information, like minimum altitudes, approach procedures. o 1 is incorrect, 2 is correct 1 is incorrect, 2 is incorrect",
+      "options": [
+        "1 is correct, 2 is correct",
+        "1 is correct, 2 is incorrect",
+        "o Question 121 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210705-02255",
+      "question": "Limitations of using GNSS/FMC equipment include: o 1. Inaccuracy and loss of precision by FMS navigation calculations. 2. Aircraft mass significantly differs from that which was input by the crew. o 1 is correct, 2 is incorrect 1 is incorrect, 2 is correct",
+      "options": [
+        "1 is incorrect, 2 is incorrect",
+        "1 is correct, 2 is correct",
+        "o Question 122 of 122",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I033-210705-02256",
+      "question": "Limitations of using GNSS/FMC equipment include: from that predicted by the FMS. 2. Incorrect data entry will be detected resulting in rejection of input and a warning message. 1 is incorrect, 2 is correct 1 is correct, 2 is correct 1 is correct, 2 is incorrect Volume I) – ATPL(A) ID:",
+      "options": [
+        "1. Interchange of numbers when entering wind can result in a significantly different fuel burn up to the next waypoint",
+        "1 is incorrect, 2 is incorrect",
+        "10.6.2 Definitions and abbreviations (PANS-OPS Flight Procedures, ICAO Doc 8168,",
+        "Question 1 of 4"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00480",
+      "question": "The turn made by an aircraft to the runway between the end of the outbound track and the beginning of the intermediate or final approach track, where the tracks are not reciprocal, is called a… o final turn. approach turn.",
+      "options": [
+        "procedure turn.",
+        "base turn.",
+        "o Question 2 of 4",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00481",
+      "question": "A turn made away from a designated track followed by a turn in the opposite direction to permit the aircraft to intercept and proceed along the reciprocal of the designated track is called a… o final turn. base turn.",
+      "options": [
+        "approach turn.",
+        "procedure turn.",
+        "o Question 3 of 4",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00488",
+      "question": "The abbreviation OIS stands for: o Obstruction In Surface Obstacle Ideal Slope",
+      "options": [
+        "Obstacle Identification Surface",
+        "Object In Surface",
+        "o Question 4 of 4",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00505",
+      "question": "The letter “D” of the abbreviation “DER” means: o Departure Distance Displaced",
+      "options": [
+        "Direct",
+        "o 10.6.3 Departure procedures – ICAO Doc 8168 – ATPL(A)",
+        "o Question 1 of 6",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00489",
+      "question": "During an instrument departure procedure pilots are expected to… o ignore the wind and proceed on a heading which equals the track. request a clearance from ATC for adjusting the track.",
+      "options": [
+        "correct the track for known wind to stay within the protected airspace.",
+        "request from ATC an adequate heading for the correction of wind direction.",
+        "o Question 2 of 6",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00516",
+      "question": "One main factor that determines the design of an instrument departure procedure is… o the terrain which surrounds the aerodrome. the performance of the aircraft.",
+      "options": [
+        "the availability of navigation aids.",
+        "the expected experience level of the operating pilots.",
+        "o Question 3 of 6",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00569",
+      "question": "The initial track in a straight departure does not differ from the alignment of the extended runway centre line by more than how many degrees? o 30 15",
+      "options": [
+        "10",
+        "25",
+        "o Question 4 of 6",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00517",
+      "question": "In a turning departure, the initial departure track deviates from the alignment of the extended runway centre line by more than: o 25° 10°",
+      "options": [
+        "15°",
+        "5°",
+        "o Question 5 of 6",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-210105-01135",
+      "question": "According ICAO Doc 8168, when a departure route requires a turn of more than (1) ___ degress, it is called a turning departure. Straight flight is assumed until reaching an altitude/height of at least (2) ____ (for aeroplanes). o (1) 15, 120 m (394 ft) (1) 5, 100 m (328 ft)",
+      "options": [
+        "(1) 10, 60 m (200 ft)",
+        "(1) 20, 200 m (656 ft)",
+        "o Question 6 of 6",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-210105-01134",
+      "question": "According ICAO Doc 8168, which of the following statements is correct? An omni-directional departure may be applied in case: 2. sectors with minimum climb gradient or minimum turn altitude may be defined. 1 is correct, 2 is incorrect. 1 is incorrect, 2 is correct. ID:",
+      "options": [
+        "1. where no track guidance via navigation aid can be provided.",
+        "1 is correct, 2 is correct.",
+        "1 is incorrect, 2 is incorrect.",
+        "10.6.4 Approach procedures – ICAO Doc 8168, Volume I – ATPL(A)"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-210105-01136",
+      "question": "According ICAO Doc 8168, which of the following statements about the fix tolerance area is correct? o 1. The dimension of the fix tolerance area is based on ground system tolerance 2. The dimension of the fix tolerance area is based on airborne receiving system tolerance. o 1 is correct, 2 is correct 1 is incorrect, 2 is correct",
+      "options": [
+        "1 is correct, 2 is incorrect",
+        "1 is incorrect, 2 is incorrect",
+        "o Question 2 of 40",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-210105-01137",
+      "question": "According ICAO Doc 8168, which of the following statements about the fix tolerance area is correct? o 1. The dimension of the fix tolerance area is NOT based on ground system tolerance 2. The dimension of the fix tolerance area is based on flight technical tolerance. o 1 is incorrect, 2 is incorrect 1 is incorrect, 2 is correct",
+      "options": [
+        "1 is correct, 2 is incorrect",
+        "1 is correct, 2 is correct",
+        "o Question 3 of 40",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-210105-01138",
+      "question": "According ICAO Doc 8168, which of the following statements about the fix tolerance area is correct? o 1. The dimension of the fix tolerance area is based on weather factors. 2. The dimension of the fix tolerance area is based on flight technical tolerance. o 1 is correct, 2 is incorrect 1 is incorrect, 2 is incorrect",
+      "options": [
+        "1 is correct, 2 is correct",
+        "1 is incorrect, 2 is correct",
+        "o Question 4 of 40",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00531",
+      "question": "In an instrument approach procedure, what is the name of the segment connecting the initial and final segments? o Arrival segment Intermediate segment",
+      "options": [
+        "Secondary segment",
+        "Feeder segment",
+        "o Question 5 of 40",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00501",
+      "question": "A “straight-in-approach” can be accepted for a non-precision approach if the angle between the final approach track and the runway centreline is… o 25 degrees or less. 30 degrees or less.",
+      "options": [
+        "15 degrees or less.",
+        "20 degrees or less.",
+        "o Question 6 of 40",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00509",
+      "question": "o A Minimum Sector Altitude (MSA) provides an obstacle clearance of at least (1) ____ within a radius of (2) ____ , associated with the homing facility for the approach procedure of that aerodrome. o (1) 600 m (2000 ft), (2) 30 NM (1) 300m (1000 ft), (2) 25 NM",
+      "options": [
+        "(1) 900 m (3000 ft), (2) 20 NM",
+        "(1) 150 m (500 ft), (2) 15 NM",
+        "o Question 7 of 40",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-210105-01139",
+      "question": "According ICAO Doc 8168, the design of an instrument approach procedure is, in general, dictated by the: o 1. terrain surrounding the aerodrome 2. type of available navigation aids 3. the type of operations contemplated and the aircraft to be accommodated. 4. Aircraft and Pavement Classification Numbers (ACN / PCN) o 1, 2 and 3 1 and 3",
+      "options": [
+        "1, 2, 3 and 4",
+        "2 and 3",
+        "o Question 8 of 40",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-210105-01140",
+      "question": "According ICAO Doc 8168, in a precision approach, the lowest height above the elevation of the relevant runway threshold at which a missed approach must be initiated to ensure compliance with the appropriate obstacle clearance criteria, is defined as: o DH (decision height) MSA (minimum sector altitude)",
+      "options": [
+        "OCH (obstacle clearance height)",
+        "MDH (minimum descent height)",
+        "o Question 9 of 40",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00528",
+      "question": "What is the meaning of the abbreviation OCA? o Obstruction clearance altitude Obstacle clearance area",
+      "options": [
+        "Oceanic clearance area",
+        "Obstacle clearance altitude",
+        "o Question 10 of 40",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00510",
+      "question": "For a non-precision or circling approach, the MDH shall not be lower than: o 100 ft",
+      "options": [
+        "OCH",
+        "200 ft",
+        "o Question 11 of 40",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00529",
+      "question": "Regarding a non-precision approach procedure, what is the result when an additional margin is added to the OCH due to operational factors? o The decision height The minimum descent height",
+      "options": [
+        "The decision altitude",
+        "The minimum descent altitude",
+        "o Question 12 of 40",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00535",
+      "question": "An Obstacle Clearance Altitude has reference to… o the Aerodrome Elevation the Runway Threshold",
+      "options": [
+        "MSL",
+        "AGL",
+        "o Question 13 of 40",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-210105-01141",
+      "question": "o According ICAO Doc 8168, minima are developed by adding the effect of a number of (1) ___ factors to OCA/H to produce, in the case of (2) ___ approaches, decision altitude (DA) or decision height (DH) and, in the case of (3) ___ approaches, minimum descent altitude (MDA) or minimum descent height (MDH). o (1) runway, (2) non-precision, (3) precision (1) runway, (2) precision, (3) non-precision",
+      "options": [
+        "(1) operational, (2) precision, (3) non-precision",
+        "(1) operational, (2) non-precision, (3) precision",
+        "o Question 14 of 40",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-210105-01142",
+      "question": "According ICAO Doc 8168, the obstacle clearance altitude (OCA) is the sum of obstacle clearance height (OCH) and… o airport elevation. elevation of the relevant runway threshold.",
+      "options": [
+        "elevation of the highest runway threshold.",
+        "elevation of the lowest runway threshold.",
+        "o Question 15 of 40",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-210105-01145",
+      "question": "(See attachment IC-010-005) According ICAO Doc 8168, within a straight track segment, the interval marked by the arrows, reducing from within the secondary area from primary area value to zero, refers to the: o Minimum Sector Altitude (MSA) Minimum Obstacle Clearance (MOC)",
+      "options": [
+        "Minimum Descent Height (MDH)",
+        "Minimum Descent Altitude (MDA)",
+        "o Question 16 of 40",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-210105-01146",
+      "question": "According ICAO Doc 8168, a point in space on the final approach track where the intermediate approach altitude intercepts the nominal glide path, is defined as: o ILS Decision Point (IDP) Approach Established Point (AEP)",
+      "options": [
+        "Final Approach Point (FAP)",
+        "Final Descent Point (FDP)",
+        "o Question 17 of 40",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-210105-01143",
+      "question": "o Standard glide slope for descent, also used in ILS approaches, is: o 4° 5°",
+      "options": [
+        "2°",
+        "3°",
+        "o Question 18 of 40",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-210105-01144",
+      "question": "Standard gradient for descent, also used in ILS approaches, is: o 5.20% 3%",
+      "options": [
+        "1%",
+        "2.50%",
+        "o Question 19 of 40",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00490",
+      "question": "Which of the following segments can be part of an instrument approach procedure? o Holding, intermediate, final and missed approach. Arrival, initial, intermediate, final and missed approach.",
+      "options": [
+        "Descend, holding, arrival, intermediate and final.",
+        "Descend, Initial, intermediate and final.",
+        "o Question 20 of 40",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00571",
+      "question": "In a precision approach (ILS), the final approach segment starts at the: o Initial Approach Fix (IAF) Missed Approach Point (MAP)",
+      "options": [
+        "Final Approach Point (FAP)",
+        "Final Approach Fix (FAF)",
+        "o Question 21 of 40",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-210105-01147",
+      "question": "A Standard Instrument Arrival (STAR) named FLYME1A ends at the ARIGO waypoint. ARIGO then is the: o Intermediate Fix (IF) Initial Approach Fix (IAF)",
+      "options": [
+        "Final Approach Point (FAP)",
+        "Missed Approach Point (MAPt)",
+        "o Question 22 of 40",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00491",
+      "question": "During an instrument approach procedure, the minimum obstacle clearance in the primary area of the intermediate approach segment is… o 300 m (984 ft) reducing to 0 m. 450 m (1476 ft) reducing to 300 m (984 ft).",
+      "options": [
+        "300 m (984 ft) reducing to 150 m (492 ft).",
+        "150 m (492 ft) reducing to 0 m.",
+        "o Question 23 of 40",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00533",
+      "question": "The intermediate approach segment is the segment during which the aircraft… o makes the alignment and descend for landing. is configured and makes the alignment for landing.",
+      "options": [
+        "o speed and configuration should be adjusted to prepare the aircraft for final approach.",
+        "leaves the en-route segment and starts the approach segment.",
+        "o Question 24 of 40",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00570",
+      "question": "In an instrument approach procedure, the alignment and descent for landing are made at the… o descent segment. final approach segment.",
+      "options": [
+        "initial approach segment.",
+        "landing segment.",
+        "o Question 25 of 40",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00512",
+      "question": "What is the purpose of the Final Approach segment? o To join the airways system with the ILS procedure To transition from the en-route phase to the approach phase",
+      "options": [
+        "For speed adjustment and to configure the aircraft for landing",
+        "For aircraft alignment and descent for landing",
+        "o Question 26 of 40",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00493",
+      "question": "In a precision approach (ILS), when does the glide path interception generally occur in reference to heights above runway elevation? o Between 300 m (1000 ft) and 600 m (2000 ft) Between 150 m (500 ft) and 600 m (2000 ft)",
+      "options": [
+        "Between 300 m (1000 ft) and 900 m (3000 ft)",
+        "Between 100 m (328 ft) and 300 m (1000 ft)",
+        "o Question 27 of 40",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00572",
+      "question": "ILS obstacle clearance surfaces are established to deviate from the centreline by less than… o half a scale deflection after being established on the track. a full scale deflection after being established on the track.",
+      "options": [
+        "three-quarter of a scale deflection after being established on the track.",
+        "one and a half scales deflection after being established on the track.",
+        "o Question 28 of 40",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-210105-01148",
+      "question": "o According ICAO Doc 8168, in the event of loss of glide path guidance during an ILS approach, the correct procedure is to… o continue precision approach with LOC signal only while maintaining the same minima, or go-around. continue with LOC signal as non-precision approach, applying the corresponding minima, or go-around.",
+      "options": [
+        "if in VMC, continue precision approach with LOC signal only while maintaining the same minima.",
+        "immediately initiate a go-around.",
+        "o Question 29 of 40",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00539",
+      "question": "A complete missed approach procedure consists of the… o acceleration, intermediate and final segment. initial, acceleration and final segment.",
+      "options": [
+        "climb, intermediate and deceleration segment.",
+        "initial, intermediate and final segment.",
+        "o Question 30 of 40",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00542",
+      "question": "Missed approach procedures are generally based on a missed approach climb gradient of: o 5.50% 3.30%",
+      "options": [
+        "2.50%",
+        "1.50%",
+        "o Question 31 of 40",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00559",
+      "question": "The missed approach procedure… o provides obstacle clearance throughout the manoeuvre. minimises the noise in the vicinity of the aerodrome.",
+      "options": [
+        "directs the aircraft to the Intermediate Fix (IF) for continuing the approach afterwards.",
+        "is always followed by an emergency landing.",
+        "o Question 32 of 40",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00561",
+      "question": "Which statement regarding the Missed Approach Point (MAPt) is correct? o At the MAPt the electronic glide path will be intersected with the applicable DA/H The MAPt is located 10 NM from the threshold",
+      "options": [
+        "The MAPt is located at the Middle Marker",
+        "At the MAPt the approach procedure will be initiated",
+        "o Question 33 of 40",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00562",
+      "question": "When reaching the MAPt and the runway is not in sight, the flight crew should… o immediately initiate the missed approach procedure. level off and fly a holding pattern until the weather conditions improve.",
+      "options": [
+        "continue the descent until the runway is in sight.",
+        "level off and continue looking for the runway.",
+        "o Question 34 of 40",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00563",
+      "question": "If a missed approach is initiated before arriving at the MAPt, the flight crew should… o return to the IAF and follow the standard approach procedure. proceed to the MAPt and follow procedure.",
+      "options": [
+        "wait for ATC instructions and radar vectoring.",
+        "continue the missed approach and wait for further ATC instructions.",
+        "o Question 35 of 40",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00494",
+      "question": "When an instrument approach is followed by a visual phase, bringing the aircraft into position for the landing on a runway which differs from the one for a straight-in approach, the procedure is called… o visual approach. visual manoeuvring – circling.",
+      "options": [
+        "aerodrome holding pattern.",
+        "manoeuvring approach.",
+        "o Question 36 of 40",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00573",
+      "question": "The circling approach is the extension of the instrument approach procedure which… o allows visual circling before landing. which can only be performed in IMC.",
+      "options": [
+        "which can only be conducted when radar vectoring is available.",
+        "can be carried out as long as visual ground contact is existing.",
+        "o Question 37 of 40",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00495",
+      "question": "When a high obstacle exists within the final approach and missed approach area, … o circling is allowed only in VMC. circling is prohibited within the entire sector in which the obstacle is located.",
+      "options": [
+        "it is recommended not to perform the circling within the total sector in which the obstacle exists.",
+        "circling approach can not be performed on the affected runway.",
+        "o Question 38 of 40",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00534",
+      "question": "o The obstacle clearance altitude/height within a visual manoeuvring (circling) area is given for which ICAO aircraft categories? o C, D and E D and E only",
+      "options": [
+        "A, B and C",
+        "A, B, C, D and E",
+        "o Question 39 of 40",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00482",
+      "question": "On a circling approach, descending below the MDA is permitted when… o the runway is in sight. the required visual references have been established and can be maintained.",
+      "options": [
+        "The ceiling is 2 000 ft or higher.",
+        "the landing clearance has been assigned.",
+        "o Question 40 of 40",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00502",
+      "question": "During an instrument approach, the visual contact with the runway is lost on the downwind leg, the procedure to be followed is to… approach procedure. make a turn towards the aerodrome, holding altitude and speed, and request instructions from ATC. make a turn of 360 degrees and try to regain visual contact. visible ID:",
+      "options": [
+        "make an initial climbing turn towards the instrument runway and initiate the respective missed",
+        "hold visual ground contact and continue visually, provided other cues of the aerodrome environment are",
+        "10.6.5 Holding procedures – ICAO Doc 8168, Volume I – ATPL(A)",
+        "Question 1 of 11"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00484",
+      "question": "When normal conditions for a holding pattern can not be kept, the pilot should … o follow the emergency procedure. perform a non-standard holding pattern.",
+      "options": [
+        "advise ATC as soon as possible.",
+        "remain within the protected area, but may deviate from the prescribed holding pattern.",
+        "o Question 2 of 11",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00543",
+      "question": "All turns in a holding pattern shall be made at a bank angle of (1) ____ or at a rate of turn of (2) ____ , whichever requires (3) ____ bank. o (1) 20°, (2) 5 degrees per second, (3) higher (1) 25°, (2) 5 degrees per second, (3) higher",
+      "options": [
+        "(1) 20°, (2) 3 degrees per second, (3) lesser",
+        "(1) 25°, (2) 3 degrees per second, (3) lesser",
+        "o Question 3 of 11",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00547",
+      "question": "Tracks in a holding pattern can be maintained by considering the wind conditions and therefore adjusting: o 1. Heading 2. Track 3. Time 4. Speed o 1 and 3 2 and 3",
+      "options": [
+        "2 and 4",
+        "1 and 4",
+        "o Question 4 of 11",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00485",
+      "question": "In still air conditions, the outbound time in a holding pattern at 14000 ft or below is: o 1 minute 30 seconds",
+      "options": [
+        "3 minutes",
+        "20 seconds",
+        "o Question 5 of 11",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00537",
+      "question": "What is the outbound time for a holding pattern above 14000 ft in still air conditions? o 30 seconds 3 minutes",
+      "options": [
+        "1 minute",
+        "1 minute 30 seconds",
+        "o Question 6 of 11",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00585",
+      "question": "The three entry sectors in a holding pattern have a range of flexibility on each side of the sector boundaries of… o 5 degrees. 3 degrees.",
+      "options": [
+        "25 degrees.",
+        "o 15 degrees.",
+        "o Question 7 of 11",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00486",
+      "question": "The inbound magnetic track for holding is 055°, turns are to the right and the outbound time is 1 minute. The appropriate entry procedure for a flight on magnetic track 235° in still air conditions is… o parallel only. either offset or parallel.",
+      "options": [
+        "direct only.",
+        "either parallel or direct.",
+        "o Question 8 of 11",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00590",
+      "question": "After the holding fix, following manoeuvres are carried out for which type of entry into a holding pattern? o 1. Left turn onto outbound heading of 030° for 1 minute 2. Left turn onto holding side to intercept 210° inbound track 3. On the second arrival over holding fix, right turn to follow holding pattern o Parallel entry Free entry",
+      "options": [
+        "Direct entry",
+        "Teardrop entry",
+        "o Question 9 of 11",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00591",
+      "question": "After reaching the holding fix, the aircraft enters the holding pattern by turning right and following for a (1) ____ into a (2) ____ holding pattern. o (1) direct entry, (2) left-turn (1) offset entry, (2) left-turn",
+      "options": [
+        "(1) offset entry, (2) right-turn",
+        "(1) direct entry, (2) right-turn",
+        "o Question 10 of 11",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00546",
+      "question": "ATC requests the flight crew to leave the holding point at a specified time. Therefore, the crew should… o adjust the holding pattern within its limits in order to comply with the appropriate requirements. carry out the standard holding pattern, and using the aircraft performance to leave the holding point as requested. adjust the holding pattern within its limits and leaving the holding point at the requested time +/- 2 minutes.",
+      "options": [
+        "conduct the standard holding pattern until reaching the holding fix, followed by an adjustment of the speed to leave",
+        "the holding point at the specified time.",
+        "o Question 11 of 11",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00574",
+      "question": "The boundary of the holding area can be extended by: o 8 NM 5 km 8 km",
+      "options": [
+        "5 NM",
+        "o 10.6.6 Altimeter-setting procedures – ICAO Doc 8168 – ATPL(A)",
+        "o Question 1 of 16",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00540",
+      "question": "The vertical position of an aircraft at or above the transition level with altimeter setting 1013.2 hPa shall be stated as: o Elevation Flight Level",
+      "options": [
+        "Altitude",
+        "Height",
+        "o Question 2 of 16",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00577",
+      "question": "What are the main objectives of altimeter setting procedures? o 1. To provide terrain clearance 2. To provide an adequate input to ACAS equipment 3. To ensure vertical separation between aircraft 4. To ensure horizontal separation between aircraft o 2 and 4 2 and 3",
+      "options": [
+        "1 and 3",
+        "1 and 4",
+        "o Question 3 of 16",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00581",
+      "question": "According to ICAO Doc 8168, the published transition altitude is the calculated value usually rounded (1) ___ to the next full (2) ___ . o (1) off, (2) 2000 ft (1) up, (2) 500 ft",
+      "options": [
+        "(1) off, (2) 1000 ft",
+        "(1) up, (2) 1000 ft",
+        "o Question 4 of 16",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00506",
+      "question": "The vertical position of an aircraft shall be expressed in terms of… o altitude at or above the transition altitude. altitude at or below the transition altitude.",
+      "options": [
+        "flight level at or below the transition level.",
+        "flight level at or below the transition altitude.",
+        "o Question 5 of 16",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00580",
+      "question": "According ICAO Doc 8168, consecutive flight levels are separated by at least: o 500 ft 1000 ft",
+      "options": [
+        "300 ft",
+        "2000 ft",
+        "o Question 6 of 16",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00497",
+      "question": "In general the transition altitude shall be as low as possible, but not less than: o 3500 ft AGL 3000 ft AGL",
+      "options": [
+        "o 1500 ft AGL",
+        "2000 ft AGL",
+        "o Question 7 of 16",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00503",
+      "question": "How can the term “transition level” be described? o It is the lowest flight level available for use above the transition altitude It is the highest available flight level below the transition altitude",
+      "options": [
+        "It is calculated and declared for an approach by the pilot",
+        "It is published for each aerodrome in the AIP",
+        "o Question 8 of 16",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00541",
+      "question": "The transition level… o has to be calculated by the pilot. is usually part of the ATIS.",
+      "options": [
+        "is published in the NOTAM.",
+        "is published on the approach and landing chart.",
+        "o Question 9 of 16",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00513",
+      "question": "The transition layer is the airspace located… o above the Transition Level. where the atmospheric pressure equals 1013.2 hPa.",
+      "options": [
+        "between the Transition Level and the Transition Altitude.",
+        "below the Transition Altitude.",
+        "o Question 10 of 16",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00507",
+      "question": "When passing through the transition layer, a pilot shall report the vertical position of the aircraft as… o either altitude or flight level in climb. altitude in climb.",
+      "options": [
+        "altitude in descent.",
+        "flight level in descent.",
+        "o Question 11 of 16",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00584",
+      "question": "According to ICAO Doc 8168, during approach to a controlled aerodrome for landing, when should the QNH altimeter setting be provided for flight crews? o 1. in landing clearances 2. in approach clearances 3. in clearances to enter the traffic circuit o 1 and 3 2 and 3",
+      "options": [
+        "2 only.",
+        "1, 2 and 3",
+        "o Question 12 of 16",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00576",
+      "question": "When performing a pre-flight altimeter check by setting the current QNH, a serviceable altimeter with a test range of 0 to 30.000 ft will display the elevation of the current position with a tolerance of… o +/- 120 ft to the exact elevaition of this point. +/- 60 ft, plus the height of the altimeter above this point.",
+      "options": [
+        "o +/- 80 ft to the exact elevaition of this point.",
+        "+/- 30 ft, plus the height of the altimeter above this point.",
+        "o Question 13 of 16",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00487",
+      "question": "The adjustment of the QNH to Standard Pressure shall be made at… o a specific level assigned by ATC. the transition layer as published via AIP.",
+      "options": [
+        "the transition altitude.",
+        "the transition level as published via NOTAM.",
+        "o Question 14 of 16",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00518",
+      "question": "The altimeter setting can be changed from 1013.2 hPa to QNH during descent for landing, although the aircraft being still above transition level, in case… o approach clearance is received and level flight above transition altitude is requested and cleared. approach clearance is received and no level flight above transition altitude is indicated or anticipated.",
+      "options": [
+        "requested level flight altitude is not more than 5000 ft above transition layer.",
+        "the crew reports being unable to adjust altimeter setting.",
+        "o Question 15 of 16",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00520",
+      "question": "When should the latest QNH altimeter setting for the aerodrome be obtained? o Prior to descending below the transition level When descending through the transition layer",
+      "options": [
+        "Prior to descending below the transition altitude",
+        "When descending below the transition level",
+        "o Question 16 of 16",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00522",
+      "question": "When shall the number of the transition level be obtained by the crew of a flight intending to land? o Before reaching top of descent Before beginning the initial approach Before starting the arrival segment",
+      "options": [
+        "Before descending below the transition level",
+        "o 10.6.7 Parallel or near-parallel instrument RWYs – ICAO Doc 8168, Volume I – ATPL(A)",
+        "o Question 1 of 5",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00592",
+      "question": "In case of airport operation with one runway used for approaches and another one used for departures, this type of operation is referred to as: o alternating operations. independent parallel operation.",
+      "options": [
+        "segregated parallel operations.",
+        "mixed operations.",
+        "o Question 2 of 5",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00519",
+      "question": "What is the intention of a No-Transgression Zone (NTZ)? o To protect aircrafts carrying out opposite direction approaches To separate flights under VFR from flights under IFR on final",
+      "options": [
+        "To protect aircrafts performing independent parallel approaches",
+        "To provide sufficient lateral separation for en-route traffic",
+        "o Question 3 of 5",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-210105-01149",
+      "question": "According to ICAO Doc 8168, required avionics for operation in parallel instrument approaches are: o 1. Normal IFR avionics 2. Full ILS or MLS capability 3. RNP-RNAV compliant navigation system o 1 only 1, 2 and 3",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "o Question 4 of 5",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00483",
+      "question": "In case of independent parallel approaches, the minimum radar separation on the ILS localizer is: o 8.0 NM 5.0 NM",
+      "options": [
+        "1.0 NM",
+        "3.0 NM",
+        "o Question 5 of 5",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00521",
+      "question": "Regarding independent parallel approaches, the final vector shall allow the aircraft to intercept the final approach course (ILS LOC) at an angle not larger than: o 30 degrees 60 degrees 10 degrees 25 degrees",
+      "options": [
+        "o 10.6.8 Secondary surveillance radar (transponder) operating procedures – ICAO Doc 8168 –",
+        "ATPL(A)",
+        "o Question 1 of 13",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00500",
+      "question": "To confirm a transponder mode and code which are instructed by ATC, pilots shall… o use the word WILCO. confirm by saying the word ROGER.",
+      "options": [
+        "read back the mode and code to be set.",
+        "read back the words SQUAWK IDENT.",
+        "o Question 2 of 13",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00496",
+      "question": "When an aircraft is equipped with a serviceable transponder, the pilot shall operate the transponder… o during the whole flight, regardless of whether SSR is used for ATS purposes or not. only when the aircraft is operating within airspace where SSR is used for ATS purposes.",
+      "options": [
+        "only when instructed by ATC.",
+        "only when flying within controlled airspace.",
+        "o Question 3 of 13",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00498",
+      "question": "A serviceable Mode C transponder shall continuously operate… o regardless of ATC instructions for another mode. unless otherwise directed by ATC.",
+      "options": [
+        "only when flying within controlled airspace.",
+        "only when instructed by ATC.",
+        "o Question 4 of 13",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00525",
+      "question": "Pilots shall SQUAWK IDENT when… o operate within uncontrolled airspace. operate a transponder with Mode C.",
+      "options": [
+        "operate within controlled airspace.",
+        "it is requested by ATC.",
+        "o Question 5 of 13",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00499",
+      "question": "When an aircraft is subjected to unlawful interference, the pilot shall set the transponder to Mode A, code: o 5500 5000",
+      "options": [
+        "7600",
+        "7500",
+        "o Question 6 of 13",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00508",
+      "question": "Which action must be taken by the pilot in case of a two-way radio communication failure? o Change transponder setting to Mode A Code 5320 Change transponder setting to Mode C Code 7600",
+      "options": [
+        "Change transponder setting to Mode C Code 5000",
+        "Change transponder setting to Mode A Code 7600",
+        "o Question 7 of 13",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00523",
+      "question": "o What transponder mode and code should be used by an aircraft in a state of emergency? o Mode C, Code 7600 Mode A, Code 7700",
+      "options": [
+        "Mode C, Code 7700",
+        "Mode A, Code 7500",
+        "o Question 8 of 13",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00586",
+      "question": "When the transponder is unserviceable and repair is not possible at the departure aerodrome, the… o aircraft is grounded and can not be operated. flight is allowed to continue to the destination via a direct routing. operation is allowed to the nearest suitable aerodrome where repair can be carried out.",
+      "options": [
+        "pilot has to indicate the unserviceable equipment in the fight plan. ATC provides guidance for the",
+        "continuation of the flight.",
+        "o Question 9 of 13",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00593",
+      "question": "What is a main function of the ACAS system? o To assist ATC by advising them if appropriate action is needed to avoid collision between aircraft To assist the flight crew by advising them if appropriate action is needed to avoid collision with high obstacles To assist the flight crew by advising them if appropriate action is required to avoid collosion with surrounding aircraft",
+      "options": [
+        "To assist the flight crew by evaluating if appropriate action on the flight controls is required to avoid",
+        "collision with surrounding aircraft",
+        "o Question 10 of 13",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00594",
+      "question": "According to ICAO Doc 8168, how shall the crew react when the ACAS advisories conflict with manoeuvres requested by ATC? o ATC shoudl be informed about the TA and an emergency descent be initiated ATC instructions should be followed and the alert triggered by the ACAS be ignored",
+      "options": [
+        "The crew should make its own decision based on the visual situation",
+        "The RA shoudl be followed even though ATC instructs something different",
+        "o Question 11 of 13",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00596",
+      "question": "Why shall pilots not manoeuvre the aircraft when receiving a Traffic Advisory (TA) only? o TAs are triggered only to inform ATC about conflicting traffic TAs alert all surrounding traffic that an aircraft changes its flight level",
+      "options": [
+        "TAs alert all surrounding traffic that a horizontal manoeuvre will be performed",
+        "TAs aim only at enhancing situational awareness",
+        "o Question 12 of 13",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00524",
+      "question": "When may the pilot disregard a Resolution Advisory (RA) issued by ACAS? o When visually acquired information indicate that the RA is erroneous Under no circumstances may a pilot disregard the indications provided by a RA",
+      "options": [
+        "When following the RA would jeopardize the safety of the aircraft",
+        "When ATC instructions are in conflict with RA's indications",
+        "o Question 13 of 13",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-201014-00598",
+      "question": "ATC should be notified after the aircraft has returned to its planned track. the flight crew should declare emergency and land at the next suitable airport. ATC should be informed because only the flight crew receives the RA. ID:",
+      "options": [
+        "After a Resolution Advisory (RA) has been triggered…",
+        "ATC must not be informed because they automatically receive a datalink message.",
+        "10.6.9 REGULATION (EU) No 965/2012 ON AIR OPERATIONS – ATPL(A)",
+        "Question 1 of 8"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-210105-01150",
+      "question": "Regulation (EU) No 965/2012 lays down detailed rules for: o 1. Air operations with aeroplanes and helicopters 2. Ramp inspections of aircraft of operators 3. Flight Crew Licensing 4. Conditions for issuing the certificates of operators o 1, 3 and 4 1, 2 and 4",
+      "options": [
+        "3 and 4",
+        "1, 2, 3 and 4",
+        "o Question 2 of 8",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-210105-01151",
+      "question": "Regulations from (EU) No 965/2012 include detailed rules on the: o 1. air operations with airships, balloons and sailplanes. 2. conditions for certain high risk commercial specialised operations. o 1 is incorrect, 2 is incorrect 1 is incorrect, 2 is correct",
+      "options": [
+        "1 is correct, 2 is incorrect",
+        "1 is correct, 2 is correct",
+        "o Question 3 of 8",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-210105-01155",
+      "question": "According to Regulation (EU) No 965/2012 Definitions, “area navigation based on performance requirements for aircraft operating along an ATS route, on an instrument approach procedure or in a designated airspace” is referred to as: o Performance-based navigation Operation in performance class 1",
+      "options": [
+        "Competition flight",
+        "Operarion in performance class B",
+        "o Question 4 of 8",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-210105-01154",
+      "question": "According to Regulation (EU) No 965/2012 Definitions, “an operation that, in the event of failure of the critical engine, the helicopter is able to land within the rejected take-off distance available or safely continue the flight to an appropriate landing area, depending on when the failure occurs” is referred to as: o Operation in performance class 1 Operarion in performance class B",
+      "options": [
+        "Performance-based navigation",
+        "Competition flight",
+        "o Question 5 of 8",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-210105-01153",
+      "question": "According Regulation (EU) No 965/2012 Definitions, the definition for “Performance Class B aeroplanes” refers to the term “aeroplanes powered by propeller engines with a maximum operational passenger seating configuration of ____ and a maximum take-off mass of (2) ____ “. o (1) nine or less, 5700 kg or less (1) nine or more, 12500 kg or less",
+      "options": [
+        "(1) nineteen or less, 5700 kg or more",
+        "(1) nineteen or more, 12500 kg or more",
+        "o Question 6 of 8",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-210105-01152",
+      "question": "According Regulation (EU) No 965/2012 Article 2, the definition for “commercial air transport” referes to the term… o any commercial specialised aircraft operation carried out over an area where the safety of third parties on the ground is likely to be endangered in the event of an emergency. for the purpose of flight time and duty time limitations, a non-scheduled on demand commercial air transport operation with an aeroplane. any operation, other than commercial air transport operation, where the aircraft is used for specialised activities.",
+      "options": [
+        "any operation of an aircraft, in return for remuneration or other valuable consideration, which is available for",
+        "the",
+        "o Question 7 of 8",
+        "ID:"
+      ],
+      "answer_index": 0
+    },
+    {
+      "id": "EN-I010-210105-01157",
+      "question": "Which annex of Regulation (EU) 965/2012 deals with “AIR OPERATOR CERTIFICATION”? o Annex II (Part-NCC) Annex III (Part-ORO) Annex IV (Part-CAT) Annex V (Part-SPA) o Which annex of Regulation (EU) 965/2012 deals with “Specific Approvals” and “PERFORMANCE BASED NAVIGATION (PBN) OPERATIONS”? o Annex IV (Part-CAT)",
+      "options": [
+        "Annex VI (Part-NCC)",
+        "Annex V (Part-SPA)",
+        "Annex II (Part-ARO)",
+        "o"
+      ],
+      "answer_index": 0
+    }
+  ]
+}
