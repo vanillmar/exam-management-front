@@ -64,6 +64,15 @@ export function setAuthToken(token: string) {
   if (!isBrowser) return;
   try {
     localStorage.setItem("token", token);
+    // Also set a non-httpOnly cookie so Next.js middleware (server-side) can read it.
+    try {
+      // 7 days expiry
+      const maxAge = 60 * 60 * 24 * 7;
+      document.cookie = `token=${encodeURIComponent(token)}; path=/; max-age=${maxAge}`;
+    } catch (_err) {
+      // ignore cookie failures (debuggable if needed)
+      console.debug("Failed to set cookie token", _err);
+    }
   } catch (err) {
     console.debug("Failed to set token in localStorage", err);
   }
@@ -74,6 +83,13 @@ export function clearAuthToken() {
   if (!isBrowser) return;
   try {
     localStorage.removeItem("token");
+    try {
+      // remove cookie by expiring it
+      document.cookie = `token=; path=/; max-age=0`;
+    } catch (_err) {
+      // ignore cookie removal failures (debuggable if needed)
+      console.debug("Failed to remove cookie token", _err);
+    }
   } catch (err) {
     console.debug("Failed to clear token from localStorage", err);
   }

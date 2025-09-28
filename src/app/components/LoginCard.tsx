@@ -52,8 +52,13 @@ export default function LoginCard() {
       if ("token" in respData && typeof respData.token === "string") {
         setAuthToken(respData.token);
       }
-      // Navigate to dashboard
-      router.push("/dashboard");
+      // Navigate to dashboard. Use full page navigation so the cookie set above
+      // is sent to the server and Next.js middleware can read it on the incoming request.
+      if (typeof window !== "undefined") {
+        window.location.assign("/dashboard");
+      } else {
+        router.push("/dashboard");
+      }
     } catch (err: unknown) {
       // Try to extract a useful message from the server response (type-safe)
       let serverMessage: string | undefined;
