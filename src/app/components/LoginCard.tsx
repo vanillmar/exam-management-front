@@ -3,9 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
-import api, { clearAuthToken } from "@/lib/axios";
-import { AuthResponseDTO, ResponseDTO } from "@/types/auth";
-import { hasToken, persistAuth, extractErrorMessage } from "@/lib/utils";
+import { signIn } from "next-auth/react";
 
 export default function LoginCard() {
   const [username, setUsername] = useState("");
@@ -14,43 +12,31 @@ export default function LoginCard() {
   const [error, setError] = useState<string | null>(null);
   const router = useRouter();
 
-  // Helper to navigate to dashboard
-  const goToDashboard = () => {
-    if (typeof window !== "undefined") {
-      window.location.assign("/dashboard");
-    } else {
-      router.push("/dashboard");
-    }
-  };
-
   const handleLogin = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setError(null);
     const trimmedUsername = username.trim();
-    setUsername(trimmedUsername); // Trim whitespace from username
+    setUsername(trimmedUsername);
     if (!trimmedUsername) {
       setError("Please enter a username");
       return;
     }
     setLoading(true);
     try {
-      const resp = await api.post<ResponseDTO | AuthResponseDTO>(
-        "/auth/login",
-        { username: trimmedUsername, password },
-      );
-      const respData: ResponseDTO | AuthResponseDTO = resp.data;
-      if (!hasToken(respData)) {
-        setError("Login failed. " + respData.message);
+      const result = await signIn("credentials", {
+        redirect: false, // Prevent automatic redirect
+        username: trimmedUsername,
+        password,
+      });
+      if (result?.error) {
+        setError(result.error);
+        setLoading(false);
         return;
       }
-      persistAuth(respData);
-      goToDashboard();
-    } catch (err: unknown) {
-      setError(extractErrorMessage(err));
-      try {
-        clearAuthToken();
-      } catch {}
-    } finally {
+      // Successful login, redirect to dashboard
+      router.push("/dashboard");
+    } catch (err) {
+      setError("An unexpected error occurred");
       setLoading(false);
     }
   };
