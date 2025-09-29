@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import axios from "axios";
 import axiosInstance from "@/lib/axios";
+import { Label, Button, TextInput, Select, Checkbox } from "flowbite-react"; 
 
 interface Role {
   id: string;
@@ -104,66 +105,74 @@ export default function RegisterCard() {
       </div>
       <h2 className="text-2xl font-extrabold mb-3">Sign Up</h2>
       <form onSubmit={handleRegister} className="flex flex-col gap-3.5">
-        <label className="flex flex-col gap-1.5 text-sm text-[#cbd5e1]">
-          <span>Firstname</span>
-          <input
-            type="text"
-            value={firstname}
-            onChange={(e) => setFirstName(e.target.value)}
-            className="w-full h-10 bg-white/8 border border-white/12 rounded-10 px-3 text-text"
-          />
-        </label>
-        <label className="flex flex-col gap-1.5 text-sm text-[#cbd5e1]">
-          <span>Lastname</span>
-          <input
-            type="text"
-            value={lastname}
-            onChange={(e) => setLastName(e.target.value)}
-            className="w-full h-10 bg-white/8 border border-white/12 rounded-10 px-3 text-text"
-          />
-        </label>
-        <label className="flex flex-col gap-1.5 text-sm text-[#cbd5e1]">
+        <Label className="flex flex-col gap-1.5 text-sm text-[#cbd5e1]">
           <span>Username</span>
-          <input
+          <TextInput
+            name="username"
             type="text"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
-            className="w-full h-10 bg-white/8 border border-white/12 rounded-10 px-3 text-text"
+            
           />
-        </label>
-        <label className="flex flex-col gap-1.5 text-sm text-[#cbd5e1]">
+        </Label>
+        <Label className="flex flex-col gap-1.5 text-sm text-[#cbd5e1]">
           <span>E-mail</span>
-          <input
+          <TextInput
+            name="email"
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="w-full h-10 bg-white/8 border border-white/12 rounded-10 px-3 text-text"
+            
           />
-        </label>
-        <label className="flex flex-col gap-1.5 text-sm text-[#cbd5e1]">
-          <span>Password</span>
-          <input
-            type="password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            className="w-full h-10 bg-white/8 border border-white/12 rounded-10 px-3 text-text"
-          />
-        </label>
-        <label className="flex flex-col gap-1.5 text-sm text-[#cbd5e1]">
-          <span>Confirm Password</span>
-          <input
-            type="password"
-            value={confirmPassword}
-            onChange={(e) => setConfirmPassword(e.target.value)}
-            className="w-full h-10 bg-white/8 border border-white/12 rounded-10 px-3 text-text"
-          />
-        </label>
-        <label className="flex flex-col gap-1.5 text-sm text-[#cbd5e1]">
+        </Label>
+        <div className="grid md:grid-cols-2 md:gap-6">
+          <Label className="flex flex-col gap-1.5 text-sm text-[#cbd5e1]">
+            <span>Password</span>
+            <TextInput
+              name="password"
+              type="password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              
+            />
+          </Label>
+          <Label className="flex flex-col gap-1.5 text-sm text-[#cbd5e1]">
+            <span>Confirm Password</span>
+            <TextInput
+              name="confirmPassword"
+              type="password"
+              value={confirmPassword}
+              onChange={(e) => setConfirmPassword(e.target.value)}
+              
+            />
+          </Label>
+        </div>
+        <div className="grid md:grid-cols-2 md:gap-6">
+          <Label className="flex flex-col gap-1.5 text-sm text-[#cbd5e1]">
+            <span>Firstname</span>
+            <TextInput
+              name="firstname"
+              type="text"
+              value={firstname}
+              onChange={(e) => setFirstName(e.target.value)}
+            />
+          </Label>
+          <Label className="flex flex-col gap-1.5 text-sm text-[#cbd5e1]">
+            <span>Lastname</span>
+            <TextInput
+              name="lastname"
+              type="text"
+              value={lastname}
+              onChange={(e) => setLastName(e.target.value)}
+            />
+          </Label>
+        </div>
+        <Label className="flex flex-col gap-1.5 text-sm text-[#cbd5e1]">
           <span>Role</span>
-          <select
+          <Select
+            name="role"
             value={roleId}
             onChange={(e) => setRoleId(e.target.value)}
-            className="w-full h-10 bg-white/8 border border-white/12 rounded-10 px-3 text-text"
           >
             {roles.length === 0 && <option value="">Loading roles...</option>}
             {roles.map((role) => (
@@ -171,25 +180,23 @@ export default function RegisterCard() {
                 {role.name}
               </option>
             ))}
-          </select>
-        </label>
-        <label className="flex flex-col gap-1.5 text-sm text-[#cbd5e1] items-start">
-          <span>Enabled</span>
-          <input
+          </Select>
+        </Label>
+        <Label className="flex items-center gap-1.5 text-sm text-[#cbd5e1]">
+           <Checkbox
             name="enabled"
-            type="checkbox"
             checked={enabled}
             onChange={(e) => setEnabled(e.target.checked)}
-            className=" h-6 w-6 border border-gray-300 rounded-md checked:bg-blue-500 checked:border-transparent focus:outline-none"
           />
-        </label>
-        <button
+          <span>Enabled</span> 
+        </Label>
+        <Button
           type="submit"
           disabled={loading || roles.length === 0}
           className="w-full h-10 cta rounded-lg"
         >
           {loading ? "Signing up…" : "Sign Up"}
-        </button>
+        </Button>
       </form>
       {error && (
         <p className="text-center text-sm text-red-300 mt-2">{error}</p>

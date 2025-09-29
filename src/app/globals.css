@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@plugin "flowbite-react/plugin/tailwindcss";
+@source "../../.flowbite-react/class-list.json";
 
 :root {
   --foreground: #171717;
@@ -11,6 +13,7 @@
   --accent: #2bd4a1;
   --danger: #ff5c7c;
   --shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  --custom-bg: rgba(255, 255, 255, 0.08)
 }
 
 @theme inline {

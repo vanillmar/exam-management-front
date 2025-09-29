@@ -24,9 +24,6 @@ export default function Topbar() {
     return <div>Loading...</div>;
   }
 
-  if (status === "unauthenticated") {
-    return <div>Please sign in</div>;
-  }
   const name = session?.user?.name;
 
   return (
