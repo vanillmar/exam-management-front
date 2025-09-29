@@ -48,7 +48,10 @@ export default function Topbar() {
         <span className="text-muted">{time}</span>
         <span className="text-muted">{name}</span>
         {name && (
-          <button onClick={() => signOut({ callbackUrl: "/login"})} className="ghost">
+          <button
+            onClick={() => signOut({ callbackUrl: "/login" })}
+            className="ghost"
+          >
             Sign Out
           </button>
         )}

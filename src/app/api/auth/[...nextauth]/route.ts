@@ -41,8 +41,10 @@ export const authOptions: NextAuthOptions = {
           // Normalize axios errors to avoid throwing non-serializable objects
           const message = axios.isAxiosError(err)
             ? // If the server responded with a body, include it for easier debugging
-              (err.response ? JSON.stringify(err.response.data) + " - " + err.message : err.message)
-            : (err as Error).message ?? "Authentication error";
+              err.response
+              ? JSON.stringify(err.response.data) + " - " + err.message
+              : err.message
+            : ((err as Error).message ?? "Authentication error");
           // Returning null here prevents NextAuth from sending an empty/non-JSON response
           // and results in a predictable 401 response on the client
           console.error("Credentials authorize error (normalized):", message);
@@ -60,25 +62,34 @@ export const authOptions: NextAuthOptions = {
       if (user) {
         // The 'user' object comes from authorize return value. Use safe assignment through unknown casts
         token.id = (user as unknown as { id?: string }).id ?? token.id;
-        token.username = (user as unknown as { name?: string }).name ?? token.username;
-        token.accessToken = (user as unknown as { token?: string }).token ?? token.accessToken;
+        token.username =
+          (user as unknown as { name?: string }).name ?? token.username;
+        token.accessToken =
+          (user as unknown as { token?: string }).token ?? token.accessToken;
       }
       return token;
     },
     async session({ session, token }) {
       // Guard against undefined session.user and keep types safe by casting through unknown
       const userRecord = session.user ?? ({} as unknown as typeof session.user);
-      (userRecord as unknown as { id?: string }).id = (token as unknown as { id?: string }).id ?? (userRecord as unknown as { id?: string }).id;
-      (userRecord as unknown as { username?: string }).username = (token as unknown as { username?: string }).username ?? (userRecord as unknown as { username?: string }).username;
+      (userRecord as unknown as { id?: string }).id =
+        (token as unknown as { id?: string }).id ??
+        (userRecord as unknown as { id?: string }).id;
+      (userRecord as unknown as { username?: string }).username =
+        (token as unknown as { username?: string }).username ??
+        (userRecord as unknown as { username?: string }).username;
       // Attach back to session
       session.user = userRecord as typeof session.user;
       // Attach accessToken to session via unknown cast to allow adding custom fields
-      (session as unknown as Record<string, unknown>).accessToken = (token as unknown as { accessToken?: string }).accessToken ?? (session as unknown as Record<string, unknown>).accessToken;
+      (session as unknown as Record<string, unknown>).accessToken =
+        (token as unknown as { accessToken?: string }).accessToken ??
+        (session as unknown as Record<string, unknown>).accessToken;
       return session;
     },
   },
   pages: {
     signIn: "/login", // Your login page
+    newUser: "/register",
   },
   // Provide a fallback secret during development to avoid NextAuth returning invalid/empty responses
   secret: process.env.NEXTAUTH_SECRET ?? "my_secret", // Add a secret in .env for production

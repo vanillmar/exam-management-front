@@ -166,6 +166,10 @@ textarea {
   padding: 10px;
 }
 
+select option {
+  background: #0a0c12;
+}
+
 .dashboard .panel {
   max-width: 1000px;
   margin: 0 auto;
