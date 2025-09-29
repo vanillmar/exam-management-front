@@ -19,7 +19,7 @@ export default function LeftNav({
   onSelect,
   onFinish,
 }: LeftNavProps) {
-  const [timer, setTimer] = useState("2:30:00");
+  const [timer] = useState("2:30:00");
 
   return (
     <div className="sticky top-16 bg-white/3 border border-white/8 rounded-12 p-2.5 flex flex-col gap-2.5 h-[calc(100vh-110px)]">

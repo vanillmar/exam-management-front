@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import axios from "axios";
+import axiosInstance from "@/lib/axios";
 
 interface Role {
   id: string;
@@ -50,7 +51,15 @@ export default function RegisterCard() {
     const trimmedUsername = username.trim();
     setUsername(trimmedUsername);
 
-    if (!firstname || !lastname || !trimmedUsername || !email || !password || !confirmPassword || !roleId) {
+    if (
+      !firstname ||
+      !lastname ||
+      !trimmedUsername ||
+      !email ||
+      !password ||
+      !confirmPassword ||
+      !roleId
+    ) {
       setError("All fields are required");
       return;
     }
@@ -61,19 +70,18 @@ export default function RegisterCard() {
 
     setLoading(true);
     try {
-      const response = await axios.post(
-        `${process.env.NEXT_PUBLIC_API_BASE_URL}/auth/register`,
-        { 
-            firstname, lastname,
-            username: trimmedUsername, email,
-            password, roleId,
-            isActive: enabled
-        },
-      );
+      const response = await axiosInstance.post(`/auth/register`, {
+        firstname,
+        lastname,
+        username: trimmedUsername,
+        email,
+        password,
+        roleId,
+        isActive: enabled,
+      });
       setSuccess(response.data.message || "Registration successful!");
       setTimeout(() => router.push("/login"), 2000);
     } catch (err) {
-      console.log(err);
       const message = axios.isAxiosError(err)
         ? err.response?.data?.message || "Registration failed"
         : "An unexpected error occurred";
@@ -166,13 +174,14 @@ export default function RegisterCard() {
           </select>
         </label>
         <label className="flex flex-col gap-1.5 text-sm text-[#cbd5e1] items-start">
-            <span>Enabled</span>
-            <input
-                name="enabled"
-                type="checkbox"
-                checked={enabled}
-                onChange={(e) => setEnabled(e.target.checked)}
-                className=" h-6 w-6 border border-gray-300 rounded-md checked:bg-blue-500 checked:border-transparent focus:outline-none"/>
+          <span>Enabled</span>
+          <input
+            name="enabled"
+            type="checkbox"
+            checked={enabled}
+            onChange={(e) => setEnabled(e.target.checked)}
+            className=" h-6 w-6 border border-gray-300 rounded-md checked:bg-blue-500 checked:border-transparent focus:outline-none"
+          />
         </label>
         <button
           type="submit"

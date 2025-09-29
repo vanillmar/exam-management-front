@@ -1,6 +1,7 @@
 // app/api/auth/[...nextauth]/route.ts
 import NextAuth, { NextAuthOptions } from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
+import axiosInstance from "@/lib/axios";
 import axios from "axios";
 
 // NextAuth in the App Router requires exporting HTTP method handlers (GET/POST) from the route file.
@@ -19,8 +20,8 @@ export const authOptions: NextAuthOptions = {
         }
 
         try {
-          const response = await axios.post(
-            `http://127.0.0.1:8080/api/auth/login`,
+          const response = await axiosInstance.post(
+            `/auth/login`,
             {
               username: credentials.username,
               password: credentials.password,

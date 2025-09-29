@@ -35,7 +35,7 @@ export default function LoginCard() {
       }
       // Successful login, redirect to dashboard
       router.push("/dashboard");
-    } catch (err) {
+    } catch {
       setError("An unexpected error occurred");
       setLoading(false);
     }
