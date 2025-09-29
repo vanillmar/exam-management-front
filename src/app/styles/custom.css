@@ -29,6 +29,7 @@ body {
   --success: #1e8c53;
   --danger: #ef4444;
   --card-bg: rgba(255,255,255,0.03);
+  --custom-bg: rgba(255, 255, 255, 0.08);
 }
 .topbar {
   position: sticky;
@@ -163,10 +164,10 @@ body {
   font-size: 14px;
   color: #cbd5e1;
 }
-input[type="text, email, password"],
+input,
 select,
 textarea {
-  /* background: rgba(255, 255, 255, 0.08); */
+  /* background: var(--custom-bg); */
   color: var(--text);
   border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 10px;
