@@ -19,7 +19,6 @@ export default function DashboardPage() {
 
   if (status === "loading") return <div>Loading...</div>;
   if (!session) return null;
-
   return (
     <div className="p-6">
       <Topbar />

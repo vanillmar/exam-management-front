@@ -1,5 +1,4 @@
 import axios, { AxiosInstance } from "axios";
-
 /**
  * Create a shared axios instance for the app.
  * - baseURL comes from NEXT_PUBLIC_API_BASE_URL
@@ -14,5 +13,6 @@ const axiosInstance: AxiosInstance = axios.create({
   },
   withCredentials: true,
 });
+
 
 export default axiosInstance;

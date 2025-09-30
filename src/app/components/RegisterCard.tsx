@@ -31,9 +31,7 @@ export default function RegisterCard() {
   useEffect(() => {
     const fetchRoles = async () => {
       try {
-        const response = await axios.post(
-          `${process.env.NEXT_PUBLIC_API_BASE_URL}/auth/roles`,
-        );
+        const response = await axiosInstance.post(`/auth/roles`,);
         setRoles(response.data.roles);
         if (response.data.length > 0) {
           setRoleId(response.data[0].id); // Set default role to first option

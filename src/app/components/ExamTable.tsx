@@ -1,50 +1,43 @@
 "use client";
 
 import { useRouter } from "next/navigation";
+import { Button } from "flowbite-react";
+import { useEffect, useState } from "react";
+import axiosInstance from "@/lib/axios";
+import { useSession } from 'next-auth/react';
 
-const exams = [
-  { subject: "airlaw", title: "Air Law", result: "—", status: "Ready" },
-  {
-    subject: "human-performance",
-    title: "Human Performance",
-    result: "—",
-    status: "Ready",
-  },
-  {
-    subject: "aircraft-technical",
-    title: "Aircraft Technical General",
-    result: "—",
-    status: "Ready",
-  },
-  {
-    subject: "flight-planning",
-    title: "Flight Planning and Performance",
-    result: "—",
-    status: "Ready",
-  },
-  {
-    subject: "instruments",
-    title: "Instruments and Electronics",
-    result: "—",
-    status: "Ready",
-  },
-  {
-    subject: "meteorology",
-    title: "Meteorology",
-    result: "—",
-    status: "Ready",
-  },
-  {
-    subject: "general-navigation",
-    title: "General Navigation",
-    result: "—",
-    status: "Ready",
-  },
-  { subject: "radio-aids", title: "Radio Aids", result: "—", status: "Ready" },
-];
+interface Exam {
+  subject: string;
+  title: string;
+  result: string;
+  status: ExamStatus;
+}
+interface ExamStatus {
+  id: number;
+  name: string;
+}
 
 export default function ExamTable() {
+  const { data: session, status } = useSession();
   const router = useRouter();
+  const [error, setError] = useState<string | null>(null);
+  const [exams, setExams] = useState<Exam[]>([]); 
+
+  useEffect(() => {
+    const fetchExams = async () => {
+      try {
+        const response = await axiosInstance.get<Exam[]>(`/exams`,{
+          headers: {
+              Authorization: `Bearer ${session?.accessToken}`,
+            },
+        });
+        setExams(response.data);
+      } catch {
+        setError("Failed to load exams.");
+      }
+    };
+    fetchExams();
+  }, []);
 
   return (
     <div className="max-w-4xl mx-auto exam-table">
@@ -57,18 +50,19 @@ export default function ExamTable() {
           </tr>
         </thead>
         <tbody>
-          {exams.map((exam) => (
+     
+          {error ?? exams.map((exam) => (
             <tr key={exam.subject} className="border-b border-white/6">
               <td className="p-3">{exam.title}</td>
               <td className="p-3">{exam.result}</td>
               <td className="p-3">
-                <button
-                  className="info"
+                <Button
+                  color="green"
                   data-exam={exam.subject}
                   onClick={() => router.push(`/exam/start/${exam.subject}`)}
                 >
-                  {exam.status}
-                </button>
+                  {exam.examStatus.name}
+                </Button>
               </td>
             </tr>
           ))}
