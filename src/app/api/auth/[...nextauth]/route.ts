@@ -28,7 +28,7 @@ export const authOptions: NextAuthOptions = {
             },
             { timeout: 5000 },
           );
-          const user = response.data;
+          const user = response.data.data;
           if (user && user.token) {
             return {
               id: user.id ?? user.username,

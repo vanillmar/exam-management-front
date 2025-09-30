@@ -32,9 +32,9 @@ export default function RegisterCard() {
     const fetchRoles = async () => {
       try {
         const response = await axiosInstance.post(`/auth/roles`,);
-        setRoles(response.data.roles);
-        if (response.data.length > 0) {
-          setRoleId(response.data[0].id); // Set default role to first option
+        setRoles(response.data.data.roles);
+        if (response.data.data.length > 0) {
+          setRoleId(response.data.data[0].id); // Set default role to first option
         }
       } catch {
         setError("Failed to load roles");

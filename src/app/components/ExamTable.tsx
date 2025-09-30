@@ -16,9 +16,16 @@ interface ExamStatus {
   id: number;
   name: string;
 }
+interface ExamResponse {
+  timestamp: string;
+  status: number;
+  message: string;
+  success: boolean;
+  data: Exam[];
+}
 
 export default function ExamTable() {
-  const { data: session, status } = useSession();
+  const { data: session } = useSession();
   const router = useRouter();
   const [error, setError] = useState<string | null>(null);
   const [exams, setExams] = useState<Exam[]>([]); 
@@ -26,13 +33,14 @@ export default function ExamTable() {
   useEffect(() => {
     const fetchExams = async () => {
       try {
-        const response = await axiosInstance.get<Exam[]>(`/exams`,{
+        const response = await axiosInstance.get<ExamResponse>(`/exams`,{
           headers: {
               Authorization: `Bearer ${session?.accessToken}`,
             },
         });
-        setExams(response.data);
-      } catch {
+        setExams(response.data.data);
+      } catch(err) {
+        console.error(err);
         setError("Failed to load exams.");
       }
     };
