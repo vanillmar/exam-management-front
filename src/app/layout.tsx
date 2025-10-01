@@ -1,7 +1,7 @@
 "use client";
 
 import { SessionProvider } from "next-auth/react";
-import { ThemeModeScript, ThemeProvider } from 'flowbite-react';
+import { ThemeModeScript, ThemeProvider } from "flowbite-react";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import "./styles/custom.css"; // Import your new custom CSS after Tailwind
@@ -25,15 +25,13 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <ThemeModeScript/>
-      </head>     
+        <ThemeModeScript />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <SessionProvider>
-          <ThemeProvider theme={fedgtechTheme}>
-            {children}
-          </ThemeProvider>
+          <ThemeProvider theme={fedgtechTheme}>{children}</ThemeProvider>
         </SessionProvider>
       </body>
     </html>

@@ -24,7 +24,9 @@ export interface QuestionsResponse {
 export const fetchQuestions = async (
   subject: string,
 ): Promise<QuestionBank> => {
-  const response = await axiosInstance<QuestionsResponse>(`/questions/subject/${subject}`);
+  const response = await axiosInstance<QuestionsResponse>(
+    `/questions/subject/${subject}`,
+  );
   if (!response.data.success) {
     throw new Error(`Failed to fetch questions. ${response.data.message}`);
   }

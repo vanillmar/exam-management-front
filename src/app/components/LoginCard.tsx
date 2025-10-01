@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { signIn } from "next-auth/react";
-import { Label, Button, TextInput} from "flowbite-react";
+import { Label, Button, TextInput } from "flowbite-react";
 
 export default function LoginCard() {
   const [username, setUsername] = useState("");
@@ -81,10 +81,8 @@ export default function LoginCard() {
       {error && (
         <p className="text-center text-sm text-red-300 mt-2">{error}</p>
       )}
+      <p className="text-center text-muted">Login — use your credentials.</p>
       <p className="text-center text-muted">
-        Login — use your credentials.
-      </p>
-       <p className="text-center text-muted">
         Don&apos;t have an account?{" "}
         <a href="/register" className="text-blue-300">
           Sign Up

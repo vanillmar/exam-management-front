@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import axios from "axios";
 import axiosInstance from "@/lib/axios";
-import { Label, Button, TextInput, Select, Checkbox } from "flowbite-react"; 
+import { Label, Button, TextInput, Select, Checkbox } from "flowbite-react";
 
 interface Role {
   id: string;
@@ -31,7 +31,7 @@ export default function RegisterCard() {
   useEffect(() => {
     const fetchRoles = async () => {
       try {
-        const response = await axiosInstance.post(`/auth/roles`,);
+        const response = await axiosInstance.post(`/auth/roles`);
         setRoles(response.data.data.roles);
         if (response.data.data.length > 0) {
           setRoleId(response.data.data[0].id); // Set default role to first option
@@ -110,7 +110,6 @@ export default function RegisterCard() {
             type="text"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
-            
           />
         </Label>
         <Label className="flex flex-col gap-1.5 text-sm text-[#cbd5e1]">
@@ -120,7 +119,6 @@ export default function RegisterCard() {
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            
           />
         </Label>
         <div className="grid md:grid-cols-2 md:gap-6">
@@ -131,7 +129,6 @@ export default function RegisterCard() {
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              
             />
           </Label>
           <Label className="flex flex-col gap-1.5 text-sm text-[#cbd5e1]">
@@ -141,7 +138,6 @@ export default function RegisterCard() {
               type="password"
               value={confirmPassword}
               onChange={(e) => setConfirmPassword(e.target.value)}
-              
             />
           </Label>
         </div>
@@ -181,12 +177,12 @@ export default function RegisterCard() {
           </Select>
         </Label>
         <Label className="flex items-center gap-1.5 text-sm text-[#cbd5e1]">
-           <Checkbox
+          <Checkbox
             name="enabled"
             checked={enabled}
             onChange={(e) => setEnabled(e.target.checked)}
           />
-          <span>Enabled</span> 
+          <span>Enabled</span>
         </Label>
         <Button
           type="submit"

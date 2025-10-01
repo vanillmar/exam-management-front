@@ -5,7 +5,6 @@ import { createTheme } from "flowbite-react";
   Keep this small and extend later as needed.
 */
 const fedgtechTheme = createTheme({
-  
   button: {
     color: {
       /* Use project CSS variables where possible */
@@ -20,12 +19,13 @@ const fedgtechTheme = createTheme({
   textInput: {
     backgroundColor: "bg-[var(--custom-bg)]",
     color: {
-      primary: "bg-[var(--input-bg)] border border-[var(--input-border)] text-[var(--input-text)] placeholder:text-[var(--input-placeholder)] focus:ring-2 focus:ring-[var(--brand-500)]",
+      primary:
+        "bg-[var(--input-bg)] border border-[var(--input-border)] text-[var(--input-text)] placeholder:text-[var(--input-placeholder)] focus:ring-2 focus:ring-[var(--brand-500)]",
     },
-    size: { 
+    size: {
       lg: "px-6 py-10 text-lg",
       sm: "px-3 py-1 text-sm",
-    },  
+    },
   },
 });
 

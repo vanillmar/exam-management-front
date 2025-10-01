@@ -67,7 +67,7 @@ export const authOptions: NextAuthOptions = {
           (user as unknown as { name?: string }).name ?? token.username;
         token.accessToken =
           (user as unknown as { token?: string }).token ?? token.accessToken;
-          //localStorage.setItem("myAuthToken", token.accessToken);
+        //localStorage.setItem("myAuthToken", token.accessToken);
       }
       return token;
     },
