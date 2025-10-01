@@ -10,7 +10,7 @@ interface Exam {
   subject: string;
   title: string;
   result: string;
-  status: ExamStatus;
+  examStatus: ExamStatus;
 }
 interface ExamStatus {
   id: number;
@@ -39,13 +39,12 @@ export default function ExamTable() {
             },
         });
         setExams(response.data.data);
-      } catch(err) {
-        console.error(err);
+      } catch {
         setError("Failed to load exams.");
       }
     };
     fetchExams();
-  }, []);
+  }, [session?.accessToken]);
 
   return (
     <div className="max-w-4xl mx-auto exam-table">
@@ -58,7 +57,6 @@ export default function ExamTable() {
           </tr>
         </thead>
         <tbody>
-     
           {error ?? exams.map((exam) => (
             <tr key={exam.subject} className="border-b border-white/6">
               <td className="p-3">{exam.title}</td>
