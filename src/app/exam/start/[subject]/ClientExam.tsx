@@ -12,16 +12,15 @@ import FinishModal from "@/components/FinishModal";
 import { fetchQuestions, Question } from "@/lib/api";
 
 const PASS_MARK = 75;
-const TAKE_COUNT = 60;
 const LIMIT_SECONDS = 2 * 60 * 60 + 30 * 60; // 2h30
 
 export default function ClientExam({ subject }: { subject: string }) {
   const router = useRouter();
   const [currentSet, setCurrentSet] = useState<Question[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [answers, setAnswers] = useState<(number | null)[]>(
-    Array(TAKE_COUNT).fill(null),
-  );
+  const [takeCount, setTakeCount] = useState(0);
+
+  const [answers, setAnswers] = useState<(number | null)[]>([]);
   const [marked, setMarked] = useState(new Set<number>());
   const [comments, setComments] = useState<{ [key: number]: string }>({});
   const [remainingSeconds, setRemainingSeconds] = useState(LIMIT_SECONDS);
@@ -34,10 +33,13 @@ export default function ClientExam({ subject }: { subject: string }) {
     const loadQuestions = async () => {
       try {
         const data = await fetchQuestions(subject);
+        const questionCount = data.questionCount; // Assuming the API returns questionCount
         const shuffled = [...data.questions]
           .sort(() => Math.random() - 0.5)
-          .slice(0, TAKE_COUNT);
+          .slice(0, questionCount);
         setCurrentSet(shuffled);
+        setTakeCount(questionCount);
+        setAnswers(Array(questionCount).fill(null));
       } catch (error) {
         console.error("Error fetching questions:", error);
       }
@@ -57,7 +59,7 @@ export default function ClientExam({ subject }: { subject: string }) {
 
     return () => clearInterval(timer);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [subject]);
+  }, [subject, takeCount]);
 
   const handleAnswer = (index: number, option: number) => {
     setAnswers((prev) => {
@@ -78,17 +80,17 @@ export default function ClientExam({ subject }: { subject: string }) {
 
   const finishExam = (auto: boolean) => {
     let correct = 0;
-    for (let i = 0; i < TAKE_COUNT; i++) {
-      if (answers[i] === currentSet[i]?.answer_index) correct++;
+    for (let i = 0; i < takeCount; i++) {
+      if (answers[i] === currentSet[i]?.answerIndex) correct++;
     }
-    const score = Math.round((correct / TAKE_COUNT) * 100);
+    const score = Math.round((correct / takeCount) * 100);
     const status = score >= PASS_MARK ? "PASS" : "FAIL";
     const elapsed = LIMIT_SECONDS - remainingSeconds;
     const pad = (n: number) => String(n).padStart(2, "0");
     const time = `${pad(Math.floor(elapsed / 3600))}:${pad(Math.floor((elapsed % 3600) / 60))}:${pad(elapsed % 60)}`;
 
     router.push(
-      `/result?score=${score}&status=${status}&correct=${correct}/${TAKE_COUNT}&time=${time}&summary=${
+      `/result?score=${score}&status=${status}&correct=${correct}/${takeCount}&time=${time}&summary=${
         auto
           ? "Time is up. Your examination was auto-submitted."
           : "Your examination data has been successfully submitted."
@@ -103,7 +105,7 @@ export default function ClientExam({ subject }: { subject: string }) {
       <Topbar />
       <div className="exam-split grid grid-cols-[280px_1fr] gap-4 max-w-[1200px] mx-auto max-md:grid-cols-1">
         <LeftNav
-          total={TAKE_COUNT}
+          total={takeCount}
           answers={answers}
           marked={marked}
           currentIndex={currentIndex}
@@ -113,7 +115,7 @@ export default function ClientExam({ subject }: { subject: string }) {
         <QuestionArea
           question={currentSet[currentIndex]}
           index={currentIndex}
-          total={TAKE_COUNT}
+          total={takeCount}
           answers={answers}
           marked={marked}
           onAnswer={handleAnswer}

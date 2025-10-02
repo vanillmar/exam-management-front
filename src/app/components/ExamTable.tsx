@@ -6,13 +6,15 @@ import { useEffect, useState } from "react";
 import axiosInstance from "@/lib/axios";
 import { useSession } from "next-auth/react";
 
-interface Exam {
+export interface Exam {
   subject: string;
   title: string;
   result: string;
+  timeLimit: number,
+  passMark: number,
   examStatus: ExamStatus;
 }
-interface ExamStatus {
+export interface ExamStatus {
   id: number;
   name: string;
 }
@@ -66,7 +68,7 @@ export default function ExamTable() {
                   <Button
                     color="green"
                     data-exam={exam.subject}
-                    onClick={() => router.push(`/exam/start/${exam.subject}`)}
+                    onClick={() => router.push(`/exam/start/${exam}`)}
                   >
                     {exam.examStatus.name}
                   </Button>

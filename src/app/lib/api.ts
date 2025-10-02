@@ -4,12 +4,12 @@ export interface Question {
   id: number;
   question: string;
   options: string[];
-  answer_index: number;
+  answerIndex: number;
 }
 
 export interface QuestionBank {
   subject: string;
-  question_count: number;
+  questionCount: number;
   questions: Question[];
 }
 
