@@ -7,7 +7,8 @@ import axiosInstance from "@/lib/axios";
 import { useSession } from "next-auth/react";
 
 export interface Exam {
-  subject: string;
+  id: number,
+  subject: Subject;
   title: string;
   result: string;
   timeLimit: number,
@@ -17,6 +18,13 @@ export interface Exam {
 export interface ExamStatus {
   id: number;
   name: string;
+}
+
+export interface Subject {
+  id: number,
+  name: string,
+  description: string,
+  code: string
 }
 interface ExamResponse {
   timestamp: string;
@@ -61,14 +69,14 @@ export default function ExamTable() {
         <tbody>
           {error ??
             exams.map((exam) => (
-              <tr key={exam.subject} className="border-b border-white/6">
+              <tr key={exam.id} className="border-b border-white/6">
                 <td className="p-3">{exam.title}</td>
                 <td className="p-3">{exam.result}</td>
                 <td className="p-3">
                   <Button
                     color="green"
                     data-exam={exam.subject}
-                    onClick={() => router.push(`/exam/start/${exam}`)}
+                    onClick={() => router.push(`/exam/start/${exam.subject.name}`)}
                   >
                     {exam.examStatus.name}
                   </Button>

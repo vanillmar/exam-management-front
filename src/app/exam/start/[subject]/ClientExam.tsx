@@ -19,7 +19,6 @@ export default function ClientExam({ subject }: { subject: string }) {
   const [currentSet, setCurrentSet] = useState<Question[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [takeCount, setTakeCount] = useState(0);
-
   const [answers, setAnswers] = useState<(number | null)[]>([]);
   const [marked, setMarked] = useState(new Set<number>());
   const [comments, setComments] = useState<{ [key: number]: string }>({});
@@ -34,6 +33,7 @@ export default function ClientExam({ subject }: { subject: string }) {
       try {
         const data = await fetchQuestions(subject);
         const questionCount = data.questionCount; // Assuming the API returns questionCount
+
         const shuffled = [...data.questions]
           .sort(() => Math.random() - 0.5)
           .slice(0, questionCount);
