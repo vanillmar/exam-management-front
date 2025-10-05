@@ -7,12 +7,12 @@ import axiosInstance from "@/lib/axios";
 import { useSession } from "next-auth/react";
 
 export interface Exam {
-  id: number,
+  id: number;
   subject: Subject;
   title: string;
   result: string;
-  timeLimit: number,
-  passMark: number,
+  timeLimit: number;
+  passMark: number;
   examStatus: ExamStatus;
 }
 export interface ExamStatus {
@@ -21,10 +21,10 @@ export interface ExamStatus {
 }
 
 export interface Subject {
-  id: number,
-  name: string,
-  description: string,
-  code: string
+  id: number;
+  name: string;
+  description: string;
+  code: string;
 }
 interface ExamResponse {
   timestamp: string;
@@ -37,7 +37,6 @@ interface ExamResponse {
 export default function ExamTable() {
   const { data: session } = useSession();
   const router = useRouter();
-  const [error, setError] = useState<string | null>(null);
   const [exams, setExams] = useState<Exam[]>([]);
 
   useEffect(() => {
@@ -50,12 +49,16 @@ export default function ExamTable() {
         });
         setExams(response.data.data);
       } catch {
-        setError("Failed to load exams.");
+        // Throw the error to trigger the global error boundary
+        throw new Error("Failed to load exams.");
       }
     };
-    fetchExams();
+    if (session?.accessToken) {
+      fetchExams();
+    }
   }, [session?.accessToken]);
 
+  // If we reach here without error, render the table
   return (
     <div className="max-w-4xl mx-auto exam-table">
       <table className="w-full border-collapse bg-white/3 rounded-10 overflow-hidden">
@@ -67,22 +70,23 @@ export default function ExamTable() {
           </tr>
         </thead>
         <tbody>
-          {error ??
-            exams.map((exam) => (
-              <tr key={exam.id} className="border-b border-white/6">
-                <td className="p-3">{exam.title}</td>
-                <td className="p-3">{exam.result}</td>
-                <td className="p-3">
-                  <Button
-                    color="green"
-                    data-exam={exam.subject}
-                    onClick={() => router.push(`/exam/start/${exam.subject.name}`)}
-                  >
-                    {exam.examStatus.name}
-                  </Button>
-                </td>
-              </tr>
-            ))}
+          {exams.map((exam) => (
+            <tr key={exam.id} className="border-b border-white/6">
+              <td className="p-3">{exam.title}</td>
+              <td className="p-3">{exam.result}</td>
+              <td className="p-3">
+                <Button
+                  color="green"
+                  data-exam={exam.subject}
+                  onClick={() =>
+                    router.push(`/exam/start/${exam.subject.name}`)
+                  }
+                >
+                  {exam.examStatus.name}
+                </Button>
+              </td>
+            </tr>
+          ))}
         </tbody>
       </table>
     </div>

@@ -6,6 +6,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import "./styles/custom.css"; // Import your new custom CSS after Tailwind
 import fedgtechTheme from "./styles/fedgtechTheme";
+import ErrorBoundary from "./components/ErrorBoundary";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

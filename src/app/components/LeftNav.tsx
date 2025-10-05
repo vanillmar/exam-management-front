@@ -36,7 +36,8 @@ export default function LeftNav({
       <div className="text-center text-sm border border-dashed border-white/10 p-1.5">
         {timer}
       </div>
-      <div className="
+      <div
+        className="
         p-2
         grid grid-cols-5 
         gap-1.5 overflow-auto
@@ -47,7 +48,8 @@ export default function LeftNav({
         [&::-webkit-scrollbar-thumb]:bg-gray-300
         dark:[&::-webkit-scrollbar-track]:bg-neutral-700
         dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500
-      ">
+      "
+      >
         {Array.from({ length: total }).map((_, i) => (
           <button
             key={i}
