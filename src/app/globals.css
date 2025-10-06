@@ -11,8 +11,23 @@
   --muted: #9aa4b2;
   --brand: #f6b600;
   --accent: #2bd4a1;
-  --danger: #ff5c7c;
   --shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  --brand: #f6b600;
+  --brand-600: #f6b600;
+  --brand-500: #f9c32b;
+  --accent: rgba(246, 182, 0, 0.12);
+  --glass: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.03),
+    rgba(255, 255, 255, 0.02)
+  );
+  --bg-0: #1b2230;
+  --bg-1: #0d1016;
+  --bg-2: #0a0c12;
+  --text: #e6eef8;
+  --success: #1e8c53;
+  --danger: #ef4444;
+  --card-bg: rgba(255, 255, 255, 0.03);
   --custom-bg: rgba(255, 255, 255, 0.08);
 }
 
@@ -31,7 +46,11 @@
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply p-0 m-0 font-sans text-[color:var(--text)];
+  background: radial-gradient(
+    1200px 800px,
+    var(--bg-0) 0%,
+    var(--bg-1) 60%,
+    var(--bg-2) 100%
+  );
 }

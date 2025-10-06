@@ -27,7 +27,7 @@ export default function Topbar() {
   const name = session?.user?.name;
 
   return (
-    <header className="sticky top-0 z-10 flex items-center justify-between px-4 py-2 bg-black/50 backdrop-blur border-b border-white/6">
+    <header className="sticky top-0 z-10 flex items-center justify-between px-4 py-2 rounded-[15px] bg-black/30 backdrop-blur border-b border-white/6">
       <Link
         href="/dashboard"
         className="flex items-center gap-2.5 font-bold tracking-wide text-white"

@@ -6,6 +6,7 @@ import ExamTable from "@/components/ExamTable";
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
+import LoadingScreen from "@/components/LoadingScreen";
 
 export default function DashboardPage() {
   const { data: session, status } = useSession();
@@ -17,10 +18,10 @@ export default function DashboardPage() {
     }
   }, [status, router]);
 
-  if (status === "loading") return <div>Loading...</div>;
+  if (status === "loading") return <LoadingScreen />;
   if (!session) return null;
   return (
-    <div className="p-6">
+    <div className="px-6 py-2">
       <Topbar />
       <div className="max-w-[860px] mx-auto text-center my-8">
         <Image

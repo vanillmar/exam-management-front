@@ -10,6 +10,7 @@ import CommentModal from "@/components/CommentModal";
 import AttachmentModal from "@/components/AttachmentModal";
 import FinishModal from "@/components/FinishModal";
 import { fetchQuestions, Question } from "@/lib/api";
+import LoadingScreen from "@/components/LoadingScreen";
 
 const PASS_MARK = 75;
 const LIMIT_SECONDS = 2 * 60 * 60 + 30 * 60; // 2h30
@@ -98,12 +99,12 @@ export default function ClientExam({ subject }: { subject: string }) {
     );
   };
 
-  if (!currentSet.length) return <div>Loading...</div>;
+  if (!currentSet.length) return <LoadingScreen />;
 
   return (
-    <div>
+    <div className="px-6 py-2">
       <Topbar />
-      <div className="exam-split grid grid-cols-[280px_1fr] gap-4 max-w-[1200px] mx-auto max-md:grid-cols-1">
+      <div className="mt-2 grid grid-cols-[280px_1fr] gap-4 max-w-[1200px] mx-auto max-md:grid-cols-1">
         <LeftNav
           total={takeCount}
           answers={answers}

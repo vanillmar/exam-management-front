@@ -1,13 +1,20 @@
+"use client";
+
+import { useSession } from "next-auth/react";
+import { useRouter } from "next/navigation";
+import { useEffect } from "react";
+
 import LoginCard from "@/components/LoginCard";
-import Topbar from "@/components/Topbar";
 
-const LoginPage = () => {
-  return (
-    <div>
-      <Topbar />
-      <LoginCard />
-    </div>
-  );
-};
+export default function LoginPage() {
+  const { data: session } = useSession();
+  const router = useRouter();
 
-export default LoginPage;
+  useEffect(() => {
+    if (session) {
+      router.replace("/dashboard");
+    }
+  }, [session, router]);
+
+  return <LoginCard />;
+}

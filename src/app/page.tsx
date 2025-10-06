@@ -1,8 +1,14 @@
-"use client";
-export default function Page() {
-  return (
-    <div className="h-screen flex items-center justify-center">
-      <span className="text-sm text-muted">Checking authentication…</span>
-    </div>
-  );
+import { redirect } from "next/navigation";
+import { getServerSession } from "next-auth";
+
+export default async function Page() {
+  const session = await getServerSession();
+
+  if (session) {
+    redirect("/dashboard");
+  } else {
+    redirect("/login");
+  }
+
+  return null; // Or a loading state
 }
