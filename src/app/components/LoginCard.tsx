@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { signIn } from "next-auth/react";
 import { Label, Button, TextInput } from "flowbite-react";
@@ -11,7 +10,6 @@ export default function LoginCard() {
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const router = useRouter();
 
   const handleLogin = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -34,8 +32,6 @@ export default function LoginCard() {
         setLoading(false);
         return;
       }
-      // Successful login, redirect to dashboard
-      router.push("/dashboard");
     } catch {
       setError("An unexpected error occurred");
       setLoading(false);

@@ -18,7 +18,6 @@ export default function QuestionArea({
   answers,
   marked,
   onAnswer,
-  onMark,
 }: QuestionAreaProps) {
   return (
     <div className="glass p-4">
@@ -43,14 +42,6 @@ export default function QuestionArea({
             <span>{option}</span>
           </label>
         ))}
-      </div>
-      <div className="statusbar mt-3 text-sm text-[#cbd5e1]">
-        <button
-          onClick={() => onMark(index)}
-          className={`icon-btn ${marked.has(index) ? "border-brand" : ""}`}
-        >
-          ★
-        </button>
       </div>
     </div>
   );
