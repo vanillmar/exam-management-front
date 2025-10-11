@@ -9,7 +9,6 @@ import {
 import { FaGraduationCap, FaBook, FaChartBar } from "react-icons/fa";
 import { IoSettingsSharp } from "react-icons/io5";
 
-
 import {
   HiChartPie,
   HiOutlineUserGroup,
@@ -44,39 +43,50 @@ export default function Sidebar({ activeMenu, onMenuClick }) {
           </SidebarItem>
           <SidebarItem
             href="#"
-            icon={HiOutlineUserGroup }
+            icon={HiOutlineUserGroup}
             active={activeMenu === "personnel"}
             onClick={() => onMenuClick("personnel")}
           >
             Personnel Management
           </SidebarItem>
-          <SidebarItem href="#" icon={HiOfficeBuilding}
-          active={activeMenu === "company"}
-          onClick={()=>onMenuClick("company")}
+          <SidebarItem
+            href="#"
+            icon={HiOfficeBuilding}
+            active={activeMenu === "company"}
+            onClick={() => onMenuClick("company")}
           >
             Company Management
           </SidebarItem>
-          <SidebarItem href="#" icon={FaGraduationCap}
+          <SidebarItem
+            href="#"
+            icon={FaGraduationCap}
             active={activeMenu === "exams"}
             onClick={() => onMenuClick("exams")}
           >
             Exams & Certifications
           </SidebarItem>
-          <SidebarItem href="#" icon={FaBook}
-                      active={activeMenu === "subjects"}
+          <SidebarItem
+            href="#"
+            icon={FaBook}
+            active={activeMenu === "subjects"}
             onClick={() => onMenuClick("subjects")}
           >
             Subject Management
           </SidebarItem>
-          <SidebarItem href="#" icon={FaChartBar}
-                      active={activeMenu === "reports"}
+          <SidebarItem
+            href="#"
+            icon={FaChartBar}
+            active={activeMenu === "reports"}
             onClick={() => onMenuClick("reports")}
           >
             Reports
           </SidebarItem>
-          <SidebarItem href="#" icon={IoSettingsSharp}
-                      active={activeMenu === "settings"}
-            onClick={() => onMenuClick("settings")}>
+          <SidebarItem
+            href="#"
+            icon={IoSettingsSharp}
+            active={activeMenu === "settings"}
+            onClick={() => onMenuClick("settings")}
+          >
             Settings
           </SidebarItem>
           <SidebarItem icon={HiLogout}>Logout</SidebarItem>
