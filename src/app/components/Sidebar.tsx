@@ -6,12 +6,17 @@ import {
   SidebarItems,
   SidebarLogo,
 } from "flowbite-react";
+import { FaGraduationCap, FaBook, FaChartBar } from "react-icons/fa";
+import { IoSettingsSharp } from "react-icons/io5";
+
+
 import {
   HiChartPie,
+  HiOutlineUserGroup,
+  HiOfficeBuilding,
   HiHome,
   HiLogout,
   HiSupport,
-  HiUsers,
   HiViewBoards,
 } from "react-icons/hi";
 
@@ -39,25 +44,39 @@ export default function Sidebar({ activeMenu, onMenuClick }) {
           </SidebarItem>
           <SidebarItem
             href="#"
-            icon={HiUsers}
+            icon={HiOutlineUserGroup }
             active={activeMenu === "personnel"}
             onClick={() => onMenuClick("personnel")}
           >
             Personnel Management
           </SidebarItem>
-          <SidebarItem href="#" icon={HiUsers}>
+          <SidebarItem href="#" icon={HiOfficeBuilding}
+          active={activeMenu === "company"}
+          onClick={()=>onMenuClick("company")}
+          >
             Company Management
           </SidebarItem>
-          <SidebarItem href="#" icon={HiUsers}>
+          <SidebarItem href="#" icon={FaGraduationCap}
+            active={activeMenu === "exams"}
+            onClick={() => onMenuClick("exams")}
+          >
             Exams & Certifications
           </SidebarItem>
-          <SidebarItem href="#" icon={HiUsers}>
+          <SidebarItem href="#" icon={FaBook}
+                      active={activeMenu === "subjects"}
+            onClick={() => onMenuClick("subjects")}
+          >
             Subject Management
           </SidebarItem>
-          <SidebarItem href="#" icon={HiUsers}>
+          <SidebarItem href="#" icon={FaChartBar}
+                      active={activeMenu === "reports"}
+            onClick={() => onMenuClick("reports")}
+          >
             Reports
           </SidebarItem>
-          <SidebarItem href="#" icon={HiUsers}>
+          <SidebarItem href="#" icon={IoSettingsSharp}
+                      active={activeMenu === "settings"}
+            onClick={() => onMenuClick("settings")}>
             Settings
           </SidebarItem>
           <SidebarItem icon={HiLogout}>Logout</SidebarItem>

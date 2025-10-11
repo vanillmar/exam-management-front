@@ -18,6 +18,8 @@ import {
 } from "flowbite-react";
 import Sidebar from "@/components/Sidebar";
 import Header from "@/components/Header";
+import { HiUser } from "react-icons/hi";
+import { FaBuilding, FaGraduationCap, FaQuestion } from "react-icons/fa";
 
 export default function AdminDashboard() {
   const [activeSection, setActiveSection] = useState("dashboard");
@@ -41,13 +43,13 @@ export default function AdminDashboard() {
               Dashboard Overview
             </h2>
             <div className="dashboard-cards grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mb-8">
-              <Card className="card hover:-translate-y-1 transition-transform">
-                <div className="card-header flex justify-between items-center mb-4">
+              <Card className="card hover:-translate-y-1 transition-transform p-2">
+                <div className="card-header flex justify-between items-center mb-2">
                   <h3 className="card-title text-lg font-semibold text-dark">
                     Total Personnel
                   </h3>
                   <div className="card-icon w-12 h-12 bg-light rounded-lg flex items-center justify-center text-primary text-2xl">
-                    <i className="fas fa-users"></i>
+                    <HiUser />
                   </div>
                 </div>
                 <div className="card-value text-3xl font-bold text-primary">
@@ -58,13 +60,13 @@ export default function AdminDashboard() {
                 </p>
               </Card>
               {/* Add other cards similarly */}
-              <Card>
-                <div className="card-header flex justify-between items-center mb-4">
+              <Card className="card hover:-translate-y-1 transition-transform">
+                <div className="card-header flex justify-between items-center mb-2">
                   <h3 className="card-title text-lg font-semibold text-dark">
                     Companies
                   </h3>
                   <div className="card-icon w-12 h-12 bg-light rounded-lg flex items-center justify-center text-primary text-2xl">
-                    <i className="fas fa-building"></i>
+                    <FaBuilding />
                   </div>
                 </div>
                 <div className="card-value text-3xl font-bold text-primary">
@@ -74,13 +76,13 @@ export default function AdminDashboard() {
                   Registered aviation companies
                 </p>
               </Card>
-              <Card>
-                <div className="card-header flex justify-between items-center mb-4">
+              <Card className="card hover:-translate-y-1 transition-transform">
+                <div className="card-header flex justify-between items-center mb-2">
                   <h3 className="card-title text-lg font-semibold text-dark">
                     Exam Categories
                   </h3>
                   <div className="card-icon w-12 h-12 bg-light rounded-lg flex items-center justify-center text-primary text-2xl">
-                    <i className="fas fa-graduation-cap"></i>
+                    <FaGraduationCap />
                   </div>
                 </div>
                 <div className="card-value text-3xl font-bold text-primary">
@@ -90,13 +92,13 @@ export default function AdminDashboard() {
                   Different certification types
                 </p>
               </Card>
-              <Card>
-                <div className="card-header flex justify-between items-center mb-4">
+              <Card className="card hover:-translate-y-1 transition-transform">
+                <div className="card-header flex justify-between items-center mb-">
                   <h3 className="card-title text-lg font-semibold text-dark">
                     Questions
                   </h3>
                   <div className="card-icon w-12 h-12 bg-light rounded-lg flex items-center justify-center text-primary text-2xl">
-                    <i className="fas fa-question-circle"></i>
+                    <FaQuestion />
                   </div>
                 </div>
                 <div className="card-value text-3xl font-bold text-primary">
@@ -254,16 +256,16 @@ export default function AdminDashboard() {
             <h2 className="section-title text-2xl font-semibold text-primary mb-5 pb-3 border-b-2 border-light">
               Company Management
             </h2>
-            <Tabs.Group
+            <Tabs
               aria-label="Company tabs"
-              style="underline"
+              // style="underline"
               onActiveTabChange={(tab) =>
                 setActiveCompanyTab(
                   ["airlines", "schools", "maintenance", "other"][tab],
                 )
               }
             >
-              <Tabs.Item
+              <TabItem
                 title="Airlines"
                 active={activeCompanyTab === "airlines"}
               >
@@ -288,9 +290,9 @@ export default function AdminDashboard() {
                 <Button className="btn-primary bg-primary hover:bg-[#0e3a5a]">
                   Create Airline Profile
                 </Button>
-              </Tabs.Item>
+              </TabItem>
               {/* Add other company tabs */}
-            </Tabs.Group>
+            </Tabs>
           </div>
         )}
 
@@ -300,21 +302,20 @@ export default function AdminDashboard() {
             <h2 className="section-title text-2xl font-semibold text-primary mb-5 pb-3 border-b-2 border-light">
               Exams & Certifications
             </h2>
-            <Tabs.Group
+            <Tabs
               aria-label="Exams tabs"
-              style="underline"
               onActiveTabChange={(tab) =>
                 setActiveExamsTab(["ppl", "cpl", "atpl", "type-ratings"][tab])
               }
             >
-              <Tabs.Item title="PPL" active={activeExamsTab === "ppl"}>
+              <TabItem title="PPL" active={activeExamsTab === "ppl"}>
                 <h3 className="text-xl mb-4">
                   Private Pilot License (PPL) Exams
                 </h3>
                 {/* Add form fields and table similarly */}
-              </Tabs.Item>
+              </TabItem>
               {/* Add other exam tabs */}
-            </Tabs.Group>
+            </Tabs>
           </div>
         )}
 

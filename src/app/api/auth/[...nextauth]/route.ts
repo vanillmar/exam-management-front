@@ -62,6 +62,7 @@ export const authOptions: NextAuthOptions = {
       if (user) {
         token.id = (user as any).id ?? token.id;
         token.username = (user as any).name ?? token.username;
+        token.email = (user as any).email ?? token.email;
         token.accessToken = (user as any).token ?? token.accessToken;
         token.roles = (user as any).roles ?? []; // ✅ save roles into token
       }
@@ -73,6 +74,7 @@ export const authOptions: NextAuthOptions = {
       if (session.user) {
         (session.user as any).id = token.id;
         (session.user as any).username = token.username;
+        (session.user as any).email = token.email;
         (session.user as any).roles = token.roles ?? []; // ✅ roles added here
       }
       (session as any).accessToken = token.accessToken;
