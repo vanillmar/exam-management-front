@@ -1,25 +1,6 @@
+import { SubjectsResponse } from "@/types/subject";
 import axiosInstance from "./axios";
-
-export interface Question {
-  id: number;
-  question: string;
-  options: string[];
-  answerIndex: number;
-}
-
-export interface QuestionBank {
-  subject: string;
-  questionCount: number;
-  questions: Question[];
-}
-
-export interface QuestionsResponse {
-  timestamp: string; // ISO date string
-  status: number;
-  message: string;
-  success: boolean;
-  data: QuestionBank;
-}
+import { QuestionBank, QuestionsResponse } from "@/types/questions";
 
 export const fetchQuestions = async (
   subject: string,
@@ -28,6 +9,14 @@ export const fetchQuestions = async (
     `/questions/subject/${subject}`,
   );
   if (!response.data.success) {
+    throw new Error(`Failed to fetch questions. ${response.data.message}`);
+  }
+  return response.data.data;
+};
+
+export const fetchSubjects = async () => {
+  const response = await axiosInstance.get<SubjectsResponse>('/subjects', );
+   if (!response.data.success) {
     throw new Error(`Failed to fetch questions. ${response.data.message}`);
   }
   return response.data.data;

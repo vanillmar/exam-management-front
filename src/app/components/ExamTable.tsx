@@ -5,34 +5,8 @@ import { Button } from "flowbite-react";
 import { useEffect, useState } from "react";
 import axiosInstance from "@/lib/axios";
 import { useSession } from "next-auth/react";
+import { Exam, ExamResponse } from "@/types/exam";
 
-export interface Exam {
-  id: number;
-  subject: Subject;
-  title: string;
-  result: string;
-  timeLimit: number;
-  passMark: number;
-  examStatus: ExamStatus;
-}
-export interface ExamStatus {
-  id: number;
-  name: string;
-}
-
-export interface Subject {
-  id: number;
-  name: string;
-  description: string;
-  code: string;
-}
-interface ExamResponse {
-  timestamp: string;
-  status: number;
-  message: string;
-  success: boolean;
-  data: Exam[];
-}
 
 export default function ExamTable() {
   const { data: session } = useSession();

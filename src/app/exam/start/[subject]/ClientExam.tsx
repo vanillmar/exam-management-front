@@ -9,8 +9,9 @@ import CalculatorModal from "@/components/CalculatorModal";
 import CommentModal from "@/components/CommentModal";
 import AttachmentModal from "@/components/AttachmentModal";
 import FinishModal from "@/components/FinishModal";
-import { fetchQuestions, Question } from "@/lib/api";
+import { fetchQuestions } from "@/lib/api";
 import LoadingScreen from "@/components/LoadingScreen";
+import { Question } from "@/types/questions";
 
 const PASS_MARK = 75;
 const LIMIT_SECONDS = 2 * 60 * 60 + 30 * 60; // 2h30

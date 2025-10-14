@@ -3,7 +3,7 @@ export function getRedirectPathByRole(roleName: string): string {
     ADMIN: "/admin/dashboard",
     TEACHER: "/teacher",
     STUDENT: "/dashboard",
-    USER: "/dashboard",
+    USER: "/home",
   };
   return map[roleName] || "/home";
 }

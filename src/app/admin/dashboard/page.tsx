@@ -20,12 +20,14 @@ import Sidebar from "@/components/Sidebar";
 import Header from "@/components/Header";
 import { HiUser } from "react-icons/hi";
 import { FaBuilding, FaGraduationCap, FaQuestion } from "react-icons/fa";
+import SubjectsSection from "@/components/SubjectsSection";
+import ExamSection from "@/components/ExamSection";
+import QuestionsSection from "@/components/QuestionsSection";
 
 export default function AdminDashboard() {
   const [activeSection, setActiveSection] = useState("dashboard");
   const [activePersonnelTab, setActivePersonnelTab] = useState("pilots");
   const [activeCompanyTab, setActiveCompanyTab] = useState("airlines");
-  const [activeExamsTab, setActiveExamsTab] = useState("ppl");
 
   const handleMenuClick = (section: string) => {
     setActiveSection(section);
@@ -296,59 +298,41 @@ export default function AdminDashboard() {
           </div>
         )}
 
-        {/* Exams & Certifications Section */}
-        {activeSection === "exams" && (
-          <div className="content-section active" id="exams-section">
-            <h2 className="section-title text-2xl font-semibold text-primary mb-5 pb-3 border-b-2 border-light">
-              Exams & Certifications
-            </h2>
-            <Tabs
-              aria-label="Exams tabs"
-              onActiveTabChange={(tab) =>
-                setActiveExamsTab(["ppl", "cpl", "atpl", "type-ratings"][tab])
-              }
-            >
-              <TabItem title="PPL" active={activeExamsTab === "ppl"}>
-                <h3 className="text-xl mb-4">
-                  Private Pilot License (PPL) Exams
-                </h3>
-                {/* Add form fields and table similarly */}
-              </TabItem>
-              {/* Add other exam tabs */}
-            </Tabs>
-          </div>
-        )}
-
         {/* Subject Management Section */}
         {activeSection === "subjects" && (
           <div className="content-section active" id="subjects-section">
-            <h2 className="section-title text-2xl font-semibold text-primary mb-5 pb-3 border-b-2 border-light">
+            <h2 className="section-title text-2xl font-semibold text-primary mb-2 pb-3 border-b-2 border-light">
               Subject Management
             </h2>
-            <div className="form-group mb-5">
-              <Label htmlFor="subject-name">Subject Name</Label>
-              <TextInput id="subject-name" placeholder="Enter subject name" />
-            </div>
-            <div className="form-group mb-5">
-              <Label htmlFor="subject-description">Description</Label>
-              <TextInput
-                id="subject-description"
-                type="textarea"
-                placeholder="Enter subject description"
-              />
-            </div>
-            <Button className="btn-primary bg-primary hover:bg-[#0e3a5a]">
-              Create Subject
-            </Button>
-            <h3 className="mt-8 mb-4 text-xl">Questions Management</h3>
-            {/* Add question form and table */}
+            <SubjectsSection/>
+          </div>
+        )}
+
+        {/* Exams & Certifications Section */}
+        {activeSection === "exams" && (
+          <div className="content-section active" id="exams-section">
+            <h2 className="section-title text-2xl font-semibold text-primary mb-2 pb-3 border-b-2 border-light">
+              Exams & Certifications
+            </h2>
+            <ExamSection/>
+          </div>
+        )}
+
+
+        {/* Subject Management Section */}
+        {activeSection === "questions" && (
+          <div className="content-section active" id="questions-section">
+            <h2 className="section-title text-2xl font-semibold text-primary mb-2 pb-3 border-b-2 border-light">
+              Question Management
+            </h2>
+            <QuestionsSection/>
           </div>
         )}
 
         {/* Reports Section */}
         {activeSection === "reports" && (
           <div className="content-section active" id="reports-section">
-            <h2 className="section-title text-2xl font-semibold text-primary mb-5 pb-3 border-b-2 border-light">
+            <h2 className="section-title text-2xl font-semibold text-primary mb-2 pb-3 border-b-2 border-light">
               Reports
             </h2>
             <p>

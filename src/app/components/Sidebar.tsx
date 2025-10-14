@@ -7,6 +7,8 @@ import {
   SidebarLogo,
 } from "flowbite-react";
 import { FaGraduationCap, FaBook, FaChartBar } from "react-icons/fa";
+import { HiQuestionMarkCircle } from "react-icons/hi";
+
 import { IoSettingsSharp } from "react-icons/io5";
 
 import {
@@ -59,19 +61,27 @@ export default function Sidebar({ activeMenu, onMenuClick }) {
           </SidebarItem>
           <SidebarItem
             href="#"
+            icon={FaBook}
+            active={activeMenu === "subjects"}
+            onClick={() => onMenuClick("subjects")}
+          >
+            Subject Management
+          </SidebarItem>
+          <SidebarItem
+            href="#"
             icon={FaGraduationCap}
             active={activeMenu === "exams"}
             onClick={() => onMenuClick("exams")}
           >
             Exams & Certifications
           </SidebarItem>
-          <SidebarItem
+                    <SidebarItem
             href="#"
-            icon={FaBook}
-            active={activeMenu === "subjects"}
-            onClick={() => onMenuClick("subjects")}
+            icon={HiQuestionMarkCircle}
+            active={activeMenu === "questions"}
+            onClick={() => onMenuClick("questions")}
           >
-            Subject Management
+            Questions Management
           </SidebarItem>
           <SidebarItem
             href="#"
