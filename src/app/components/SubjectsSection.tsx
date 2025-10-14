@@ -109,7 +109,7 @@ const SubjectsSection: React.FC = () => {
   };
 
   return (
-    <div className="container">
+    <div className="container mx-auto p-4">
       <Button onClick={openCreateDrawer} className="mb-4">Add Subject</Button>
       <Table hoverable>
         <TableHead>
