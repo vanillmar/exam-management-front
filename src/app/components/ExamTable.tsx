@@ -7,7 +7,6 @@ import axiosInstance from "@/lib/axios";
 import { useSession } from "next-auth/react";
 import { Exam, ExamResponse } from "@/types/exam";
 
-
 export default function ExamTable() {
   const { data: session } = useSession();
   const router = useRouter();

@@ -1,12 +1,26 @@
 // app/exams/page.tsx
-'use client';
+"use client";
 
-import React, { useState, useEffect } from 'react';
-import { Table, Button, Drawer, Label, TextInput, Select, TableHeadCell, TableRow, TableHead, TableBody, TableCell, DrawerItems, DrawerHeader } from 'flowbite-react';
-import { Exam, ExamStatus } from '@/types/exam';
-import { Subject } from '@/types/subject';
-import axiosInstance from '@/lib/axios';
-import { HiOutlinePencil, HiOutlineTrash } from 'react-icons/hi';
+import React, { useState, useEffect } from "react";
+import {
+  Table,
+  Button,
+  Drawer,
+  Label,
+  TextInput,
+  Select,
+  TableHeadCell,
+  TableRow,
+  TableHead,
+  TableBody,
+  TableCell,
+  DrawerItems,
+  DrawerHeader,
+} from "flowbite-react";
+import { Exam, ExamStatus } from "@/types/exam";
+import { Subject } from "@/types/subject";
+import axiosInstance from "@/lib/axios";
+import { HiOutlinePencil, HiOutlineTrash } from "react-icons/hi";
 
 const ExamSection: React.FC = () => {
   const [exams, setExams] = useState<Exam[]>([]);
@@ -16,8 +30,8 @@ const ExamSection: React.FC = () => {
   const [isEdit, setIsEdit] = useState(false);
   const [currentExam, setCurrentExam] = useState<Exam | null>(null);
   const [formData, setFormData] = useState({
-    title: '',
-    result: '',
+    title: "",
+    result: "",
     timeLimit: 0,
     passMark: 0,
     subjectId: 0,
@@ -31,25 +45,33 @@ const ExamSection: React.FC = () => {
   }, []);
 
   const fetchExams = async () => {
-    const { data } = await axiosInstance.get('/exams');
+    const { data } = await axiosInstance.get("/exams");
     setExams(data.data);
   };
 
   const fetchSubjects = async () => {
-    const { data } = await axiosInstance.get('/subjects');
+    const { data } = await axiosInstance.get("/subjects");
     setSubjects(data.data);
   };
 
   const fetchExamStatuses = async () => {
-    const { data } = await axiosInstance.get('/exam-statuses');
+    const { data } = await axiosInstance.get("/exam-statuses");
     setExamStatuses(data.data);
   };
 
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+  const handleInputChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>,
+  ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({
       ...prev,
-      [name]: name === 'timeLimit' || name === 'passMark' || name === 'subjectId' || name === 'examStatusId' ? parseInt(value) : value,
+      [name]:
+        name === "timeLimit" ||
+        name === "passMark" ||
+        name === "subjectId" ||
+        name === "examStatusId"
+          ? parseInt(value)
+          : value,
     }));
   };
 
@@ -58,7 +80,7 @@ const ExamSection: React.FC = () => {
   };
 
   const handleCreateOrUpdate = async () => {
-    const url = isEdit ? `/exams/${currentExam?.id}` : '/exams';
+    const url = isEdit ? `/exams/${currentExam?.id}` : "/exams";
     const requestData = {
       ...formData,
       subjectId: formData.subjectId,
@@ -78,7 +100,7 @@ const ExamSection: React.FC = () => {
   };
 
   const handleDelete = async (id: number) => {
-    if (confirm('Are you sure you want to delete this exam?')) {
+    if (confirm("Are you sure you want to delete this exam?")) {
       const response = await axiosInstance.delete(`/exams/${id}`);
       if (response.status >= 200 && response.status < 300) {
         fetchExams();
@@ -108,8 +130,8 @@ const ExamSection: React.FC = () => {
 
   const resetForm = () => {
     setFormData({
-      title: '',
-      result: '',
+      title: "",
+      result: "",
       timeLimit: 0,
       passMark: 0,
       subjectId: 0,
@@ -120,27 +142,41 @@ const ExamSection: React.FC = () => {
 
   return (
     <div className="container mx-auto p-4">
-      <Button onClick={openCreateDrawer} className="mb-4">Add Exam</Button>
+      <Button onClick={openCreateDrawer} className="mb-4">
+        Add Exam
+      </Button>
       <Table hoverable>
         <TableHead>
-            <TableRow>
-                <TableHeadCell>Actions</TableHeadCell>      
-                <TableHeadCell>ID</TableHeadCell>
-                <TableHeadCell>Title</TableHeadCell>
-                <TableHeadCell>Subject</TableHeadCell>
-                <TableHeadCell>Result</TableHeadCell>
-                <TableHeadCell>Time Limit</TableHeadCell>
-                <TableHeadCell>Pass Mark(Percentage)</TableHeadCell>
-                <TableHeadCell>Status</TableHeadCell>
-                
-            </TableRow>
+          <TableRow>
+            <TableHeadCell>Actions</TableHeadCell>
+            <TableHeadCell>ID</TableHeadCell>
+            <TableHeadCell>Title</TableHeadCell>
+            <TableHeadCell>Subject</TableHeadCell>
+            <TableHeadCell>Result</TableHeadCell>
+            <TableHeadCell>Time Limit</TableHeadCell>
+            <TableHeadCell>Pass Mark(Percentage)</TableHeadCell>
+            <TableHeadCell>Status</TableHeadCell>
+          </TableRow>
         </TableHead>
         <TableBody className="divide-y">
           {exams.map((exam) => (
             <TableRow key={exam.id}>
-              <TableCell className='flex'>
-                <Button size="sm" onClick={() => openEditDrawer(exam)} className="mr-2"> <HiOutlinePencil /></Button>
-                <Button size="sm" color="red" onClick={() => handleDelete(exam.id)}><HiOutlineTrash /></Button>
+              <TableCell className="flex">
+                <Button
+                  size="sm"
+                  onClick={() => openEditDrawer(exam)}
+                  className="mr-2"
+                >
+                  {" "}
+                  <HiOutlinePencil />
+                </Button>
+                <Button
+                  size="sm"
+                  color="red"
+                  onClick={() => handleDelete(exam.id)}
+                >
+                  <HiOutlineTrash />
+                </Button>
               </TableCell>
               <TableCell>{exam.id}</TableCell>
               <TableCell>{exam.title}</TableCell>
@@ -154,29 +190,65 @@ const ExamSection: React.FC = () => {
         </TableBody>
       </Table>
 
-      <Drawer open={openDrawer} onClose={() => setOpenDrawer(false)} position="right">
-        <DrawerHeader title={isEdit ? 'Edit Exam' : 'Create Exam'} />
+      <Drawer
+        open={openDrawer}
+        onClose={() => setOpenDrawer(false)}
+        position="right"
+      >
+        <DrawerHeader title={isEdit ? "Edit Exam" : "Create Exam"} />
         <DrawerItems>
           <div className="space-y-6 p-4">
             <div>
               <Label htmlFor="title">Title</Label>
-              <TextInput id="title" name="title" value={formData.title} onChange={handleInputChange} required />
+              <TextInput
+                id="title"
+                name="title"
+                value={formData.title}
+                onChange={handleInputChange}
+                required
+              />
             </div>
             <div>
-              <Label htmlFor="result">Result</Label> 
-              <TextInput id="result" name="result" value={formData.result} onChange={handleInputChange} />
+              <Label htmlFor="result">Result</Label>
+              <TextInput
+                id="result"
+                name="result"
+                value={formData.result}
+                onChange={handleInputChange}
+              />
             </div>
             <div>
               <Label htmlFor="timeLimit">Time Limit (minutes)</Label>
-              <TextInput id="timeLimit" name="timeLimit" value={formData.timeLimit} onChange={(value) => handleNumberChange('timeLimit', value)} min={1} required />
+              <TextInput
+                id="timeLimit"
+                name="timeLimit"
+                value={formData.timeLimit}
+                onChange={(value) => handleNumberChange("timeLimit", value)}
+                min={1}
+                required
+              />
             </div>
             <div>
               <Label htmlFor="passMark">Pass Mark</Label>
-              <TextInput id="passMark" name="passMark" value={formData.passMark} onChange={(value) => handleNumberChange('passMark', value)} min={0} max={100} required />
+              <TextInput
+                id="passMark"
+                name="passMark"
+                value={formData.passMark}
+                onChange={(value) => handleNumberChange("passMark", value)}
+                min={0}
+                max={100}
+                required
+              />
             </div>
             <div>
               <Label htmlFor="subjectId">Subject</Label>
-              <Select id="subjectId" name="subjectId" value={formData.subjectId} onChange={handleInputChange} required>
+              <Select
+                id="subjectId"
+                name="subjectId"
+                value={formData.subjectId}
+                onChange={handleInputChange}
+                required
+              >
                 <option value={0}>Select Subject</option>
                 {subjects.map((subject) => (
                   <option key={subject.id} value={subject.id}>
@@ -187,7 +259,13 @@ const ExamSection: React.FC = () => {
             </div>
             <div>
               <Label htmlFor="examStatusId">Exam Status</Label>
-              <Select id="examStatusId" name="examStatusId" value={formData.examStatusId} onChange={handleInputChange} required>
+              <Select
+                id="examStatusId"
+                name="examStatusId"
+                value={formData.examStatusId}
+                onChange={handleInputChange}
+                required
+              >
                 <option value={0}>Select Status</option>
                 {examStatuses.map((status) => (
                   <option key={status.id} value={status.id}>
@@ -197,8 +275,12 @@ const ExamSection: React.FC = () => {
               </Select>
             </div>
             <div className="flex justify-end space-x-2">
-              <Button onClick={handleCreateOrUpdate}>{isEdit ? 'Update' : 'Create'}</Button>
-              <Button color="gray" onClick={() => setOpenDrawer(false)}>Cancel</Button>
+              <Button onClick={handleCreateOrUpdate}>
+                {isEdit ? "Update" : "Create"}
+              </Button>
+              <Button color="gray" onClick={() => setOpenDrawer(false)}>
+                Cancel
+              </Button>
             </div>
           </div>
         </DrawerItems>

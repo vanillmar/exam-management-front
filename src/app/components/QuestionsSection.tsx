@@ -1,34 +1,45 @@
 // app/questions/page.tsx
-'use client';
+"use client";
 
-import React, { useState, useEffect } from 'react';
-import { Button, Label, TextInput, Select, TableHead, TableHeadCell, TableRow, TableBody, TableCell, Modal, ModalHeader, ModalBody, ModalFooter, Textarea } from 'flowbite-react';
-import axiosInstance from '@/lib/axios';
-import { Question, QuestionResponse } from '@/types/questions';
-import { Subject, SubjectsResponse } from '@/types/subject';
-import QuestionsTable from './QuestionTable';
+import React, { useState, useEffect } from "react";
+import {
+  Button,
+  Label,
+  TextInput,
+  Select,
+  Modal,
+  ModalHeader,
+  ModalBody,
+  ModalFooter,
+  Textarea,
+} from "flowbite-react";
+import axiosInstance from "@/lib/axios";
+import { Question, QuestionResponse } from "@/types/questions";
+import { Subject, SubjectsResponse } from "@/types/subject";
+import QuestionsTable from "./QuestionTable";
 
-export const fetchQuestions = async ({ page = 1,
+export const fetchQuestions = async ({
+  page = 1,
   pageSize = 10,
   sortBy = "id",
   sortOrder = "asc",
-  search = ""
-  }) => {
-  const { data  } = await axiosInstance.get<QuestionResponse>('/questions',  {
+  search = "",
+}) => {
+  const { data } = await axiosInstance.get<QuestionResponse>("/questions", {
     params: { page, pageSize, sortBy, sortOrder, search },
   });
   return data;
 };
 
-const QuestionsSection: React.FC = () =>  {
+const QuestionsSection: React.FC = () => {
   const [questions, setQuestions] = useState<Question[]>([]);
   const [subjects, setSubjects] = useState<Subject[]>([]);
   const [openModal, setOpenModal] = useState(false);
   const [isEdit, setIsEdit] = useState(false);
   const [currentQuestion, setCurrentQuestion] = useState<Question | null>(null);
   const [formData, setFormData] = useState({
-    question: '',
-    options:[] as string[],
+    question: "",
+    options: [] as string[],
     answerIndex: 0,
     subjectId: 0,
   });
@@ -38,15 +49,21 @@ const QuestionsSection: React.FC = () =>  {
     fetchSubjects();
   }, []);
   const fetch = async () => {
-      const data = await fetchQuestions({});  
-      setQuestions(data);
-  }
+    const data = await fetchQuestions({});
+    setQuestions(data);
+  };
   const fetchSubjects = async () => {
-    const { data: {data} } = await axiosInstance.get<SubjectsResponse>('/subjects');
+    const {
+      data: { data },
+    } = await axiosInstance.get<SubjectsResponse>("/subjects");
     setSubjects(data);
   };
 
-  const handleQuestionChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
+  const handleQuestionChange = (
+    e: React.ChangeEvent<
+      HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement
+    >,
+  ) => {
     const { value } = e.target;
     setFormData((prev) => ({ ...prev, question: value }));
   };
@@ -58,7 +75,7 @@ const QuestionsSection: React.FC = () =>  {
   };
 
   const addOption = () => {
-    setFormData((prev) => ({ ...prev, options: [...prev.options, ''] }));
+    setFormData((prev) => ({ ...prev, options: [...prev.options, ""] }));
   };
 
   const removeOption = (index: number) => {
@@ -69,7 +86,11 @@ const QuestionsSection: React.FC = () =>  {
     } else if (formData.answerIndex > index) {
       newAnswerIndex = formData.answerIndex - 1;
     }
-    setFormData((prev) => ({ ...prev, options: newOptions, answerIndex: newAnswerIndex }));
+    setFormData((prev) => ({
+      ...prev,
+      options: newOptions,
+      answerIndex: newAnswerIndex,
+    }));
   };
 
   const handleSubjectChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
@@ -81,13 +102,13 @@ const QuestionsSection: React.FC = () =>  {
   };
 
   const handleCreateOrUpdate = async () => {
-   const requestData = {
+    const requestData = {
       question: formData.question,
       options: formData.options,
       answerIndex: formData.answerIndex,
       subjectId: formData.subjectId,
     };
-    const url = isEdit ? `/questions/${currentQuestion?.id}` : '/questions';
+    const url = isEdit ? `/questions/${currentQuestion?.id}` : "/questions";
     let response;
     if (isEdit) {
       response = await axiosInstance.put(url, requestData);
@@ -96,13 +117,13 @@ const QuestionsSection: React.FC = () =>  {
     }
     if (response.status >= 200 && response.status < 300) {
       fetchQuestions({});
-      setOpenModal(false);      
+      setOpenModal(false);
       resetForm();
     }
   };
 
   const handleDelete = async (id: number) => {
-    if (confirm('Are you sure you want to delete this question?')) {
+    if (confirm("Are you sure you want to delete this question?")) {
       const response = await axiosInstance.delete(`/api/questions/${id}`);
       if (response.status >= 200 && response.status < 300) {
         fetchQuestions({});
@@ -120,7 +141,7 @@ const QuestionsSection: React.FC = () =>  {
     setIsEdit(true);
     setCurrentQuestion(question);
     setFormData({
-      question: question.question || '',
+      question: question.question || "",
       options: question.options || [],
       answerIndex: question.answerIndex || 0,
       subjectId: question.subjectId || 0,
@@ -130,25 +151,44 @@ const QuestionsSection: React.FC = () =>  {
 
   const resetForm = () => {
     setFormData({
-      question: '',
+      question: "",
       options: [] as string[],
       answerIndex: 0,
       subjectId: 0,
     });
     setCurrentQuestion(null);
   };
-  
+
   return (
     <div className="container mx-auto p-4">
-      <Button onClick={openCreateModal} className="mb-4">Add Question</Button>
-      <QuestionsTable openEditModal={openEditModal} handleDelete={handleDelete} />
-      <Modal show={openModal} onClose={() => setOpenModal(false)} size="xl" className="w-full"> 
-        <ModalHeader>{isEdit ? 'Edit Question' : 'Create Question'}</ModalHeader>
+      <Button onClick={openCreateModal} className="mb-4">
+        Add Question
+      </Button>
+      <QuestionsTable
+        openEditModal={openEditModal}
+        handleDelete={handleDelete}
+      />
+      <Modal
+        show={openModal}
+        onClose={() => setOpenModal(false)}
+        size="xl"
+        className="w-full"
+      >
+        <ModalHeader>
+          {isEdit ? "Edit Question" : "Create Question"}
+        </ModalHeader>
         <ModalBody>
           <div className="space-y-6">
             <div>
-              <Label htmlFor="question" className="block mb-2">Question</Label>
-              <Textarea value={formData.question} onChange={handleQuestionChange}  rows={4} required/>
+              <Label htmlFor="question" className="block mb-2">
+                Question
+              </Label>
+              <Textarea
+                value={formData.question}
+                onChange={handleQuestionChange}
+                rows={4}
+                required
+              />
             </div>
             <div>
               <Label className="block mb-2">Options</Label>
@@ -160,14 +200,30 @@ const QuestionsSection: React.FC = () =>  {
                     placeholder={`Option ${index + 1}`}
                     className="flex-1"
                   />
-                  <Button size="xs" color="failure" onClick={() => removeOption(index)}>Remove</Button>
+                  <Button
+                    size="xs"
+                    color="failure"
+                    onClick={() => removeOption(index)}
+                  >
+                    Remove
+                  </Button>
                 </div>
               ))}
-              <Button onClick={addOption} color="gray">Add Option</Button>
+              <Button onClick={addOption} color="gray">
+                Add Option
+              </Button>
             </div>
             <div>
-              <Label htmlFor="answerIndex" className="block mb-2">Correct Answer Index</Label>
-              <Select id="answerIndex" value={formData.answerIndex.toString()} onChange={handleAnswerIndexChange} required disabled={formData.options.length === 0}>
+              <Label htmlFor="answerIndex" className="block mb-2">
+                Correct Answer Index
+              </Label>
+              <Select
+                id="answerIndex"
+                value={formData.answerIndex.toString()}
+                onChange={handleAnswerIndexChange}
+                required
+                disabled={formData.options.length === 0}
+              >
                 {formData.options.map((_, index) => (
                   <option key={index} value={index.toString()}>
                     Option {index + 1}
@@ -176,8 +232,15 @@ const QuestionsSection: React.FC = () =>  {
               </Select>
             </div>
             <div>
-              <Label htmlFor="subjectId" className="block mb-2">Subject</Label>
-              <Select id="subjectId" value={formData.subjectId.toString()} onChange={handleSubjectChange} required>
+              <Label htmlFor="subjectId" className="block mb-2">
+                Subject
+              </Label>
+              <Select
+                id="subjectId"
+                value={formData.subjectId.toString()}
+                onChange={handleSubjectChange}
+                required
+              >
                 <option value="0">Select Subject</option>
                 {subjects.map((subject) => (
                   <option key={subject.id} value={subject.id.toString()}>
@@ -189,8 +252,12 @@ const QuestionsSection: React.FC = () =>  {
           </div>
         </ModalBody>
         <ModalFooter>
-          <Button onClick={handleCreateOrUpdate}>{isEdit ? 'Update' : 'Create'}</Button>
-          <Button color="gray" onClick={() => setOpenModal(false)}>Cancel</Button>
+          <Button onClick={handleCreateOrUpdate}>
+            {isEdit ? "Update" : "Create"}
+          </Button>
+          <Button color="gray" onClick={() => setOpenModal(false)}>
+            Cancel
+          </Button>
         </ModalFooter>
       </Modal>
     </div>

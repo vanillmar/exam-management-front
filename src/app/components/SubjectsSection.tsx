@@ -1,26 +1,26 @@
 // app/subjects/page.tsx
-'use client';
+"use client";
 
-import React, { useState, useEffect } from 'react';
-import { 
-  Table, 
-  Button, 
-  Drawer, 
-  Label, 
-  TextInput, 
-  TableHead, 
-  TableHeadCell, 
-  TableBody, 
-  TableRow, 
-  TableCell, 
-  DrawerHeader, 
-  DrawerItems 
-} from 'flowbite-react';
-import axiosInstance from '@/lib/axios';
-import { Subject } from '@/types/subject';
-import { fetchSubjects } from '@/lib/api';
-import { useSession } from 'next-auth/react';
-import { HiOutlinePencil, HiOutlineTrash } from 'react-icons/hi';
+import React, { useState, useEffect } from "react";
+import {
+  Table,
+  Button,
+  Drawer,
+  Label,
+  TextInput,
+  TableHead,
+  TableHeadCell,
+  TableBody,
+  TableRow,
+  TableCell,
+  DrawerHeader,
+  DrawerItems,
+} from "flowbite-react";
+import axiosInstance from "@/lib/axios";
+import { Subject } from "@/types/subject";
+import { fetchSubjects } from "@/lib/api";
+import { useSession } from "next-auth/react";
+import { HiOutlinePencil, HiOutlineTrash } from "react-icons/hi";
 
 const SubjectsSection: React.FC = () => {
   const { data: session } = useSession();
@@ -29,16 +29,16 @@ const SubjectsSection: React.FC = () => {
   const [isEdit, setIsEdit] = useState(false);
   const [currentSubject, setCurrentSubject] = useState<Subject | null>(null);
   const [formData, setFormData] = useState({
-    name: '',
-    description: '',
-    code: '',
+    name: "",
+    description: "",
+    code: "",
   });
 
   useEffect(() => {
     const loadData = async () => {
-        const data = await fetchSubjects();
-        setSubjects(data);
-    }
+      const data = await fetchSubjects();
+      setSubjects(data);
+    };
     loadData();
   }, []);
 
@@ -48,18 +48,18 @@ const SubjectsSection: React.FC = () => {
   };
 
   const handleCreateOrUpdate = async () => {
-    const url = isEdit ? `/subjects/${currentSubject?.id}` : '/subjects';
+    const url = isEdit ? `/subjects/${currentSubject?.id}` : "/subjects";
     let response;
     if (isEdit) {
       response = await axiosInstance.put(url, formData, {
         headers: {
-            Authorization: `Bearer ${session?.accessToken}`,
+          Authorization: `Bearer ${session?.accessToken}`,
         },
       });
     } else {
       response = await axiosInstance.post(url, formData, {
         headers: {
-            Authorization: `Bearer ${session?.accessToken}`,
+          Authorization: `Bearer ${session?.accessToken}`,
         },
       });
     }
@@ -71,12 +71,12 @@ const SubjectsSection: React.FC = () => {
   };
 
   const handleDelete = async (id: number) => {
-    if (confirm('Are you sure you want to delete this subject?')) {
-     const response = await axiosInstance.delete(`/subjects/${id}`, { 
+    if (confirm("Are you sure you want to delete this subject?")) {
+      const response = await axiosInstance.delete(`/subjects/${id}`, {
         headers: {
-        Authorization: `Bearer ${session?.accessToken}`,
-        }
-     });
+          Authorization: `Bearer ${session?.accessToken}`,
+        },
+      });
       if (response.status >= 200 && response.status < 300) {
         fetchSubjects();
       }
@@ -102,16 +102,18 @@ const SubjectsSection: React.FC = () => {
 
   const resetForm = () => {
     setFormData({
-      name: '',
-      description: '',
-      code: '',
+      name: "",
+      description: "",
+      code: "",
     });
     setCurrentSubject(null);
   };
 
   return (
     <div className="container mx-auto p-4">
-      <Button onClick={openCreateDrawer} className="mb-4">Add Subject</Button>
+      <Button onClick={openCreateDrawer} className="mb-4">
+        Add Subject
+      </Button>
       <Table hoverable>
         <TableHead>
           <TableRow>
@@ -125,43 +127,74 @@ const SubjectsSection: React.FC = () => {
         <TableBody className="divide-y">
           {subjects.map((subject) => (
             <TableRow key={subject.id}>
-              <TableCell className='flex'>
-                <Button size="sm" onClick={() => openEditDrawer(subject)} className="mr-2"> 
+              <TableCell className="flex">
+                <Button
+                  size="sm"
+                  onClick={() => openEditDrawer(subject)}
+                  className="mr-2"
+                >
                   <HiOutlinePencil />
                 </Button>
-                <Button size="sm" color="red" onClick={() => handleDelete(subject.id)}>
-                  <HiOutlineTrash /> 
+                <Button
+                  size="sm"
+                  color="red"
+                  onClick={() => handleDelete(subject.id)}
+                >
+                  <HiOutlineTrash />
                 </Button>
               </TableCell>
               <TableCell>{subject.id}</TableCell>
               <TableCell>{subject.name}</TableCell>
               <TableCell>{subject.description}</TableCell>
               <TableCell>{subject.code}</TableCell>
-
             </TableRow>
           ))}
         </TableBody>
       </Table>
 
-      <Drawer open={openDrawer} onClose={() => setOpenDrawer(false)} position="right">
-        <DrawerHeader title={isEdit ? 'Edit Subject' : 'Create Subject'} />
+      <Drawer
+        open={openDrawer}
+        onClose={() => setOpenDrawer(false)}
+        position="right"
+      >
+        <DrawerHeader title={isEdit ? "Edit Subject" : "Create Subject"} />
         <DrawerItems>
           <div className="space-y-6 p-4">
             <div>
               <Label htmlFor="name">Name</Label>
-              <TextInput id="name" name="name" value={formData.name} onChange={handleInputChange} required />
+              <TextInput
+                id="name"
+                name="name"
+                value={formData.name}
+                onChange={handleInputChange}
+                required
+              />
             </div>
             <div>
               <Label htmlFor="description">Description </Label>
-              <TextInput id="description" name="description" value={formData.description} onChange={handleInputChange} />
+              <TextInput
+                id="description"
+                name="description"
+                value={formData.description}
+                onChange={handleInputChange}
+              />
             </div>
             <div>
               <Label htmlFor="code">Code</Label>
-              <TextInput id="code" name="code" value={formData.code} onChange={handleInputChange} />
+              <TextInput
+                id="code"
+                name="code"
+                value={formData.code}
+                onChange={handleInputChange}
+              />
             </div>
             <div className="flex justify-end space-x-2">
-              <Button onClick={handleCreateOrUpdate}>{isEdit ? 'Update' : 'Create'}</Button>
-              <Button color="gray" onClick={() => setOpenDrawer(false)}>Cancel</Button>
+              <Button onClick={handleCreateOrUpdate}>
+                {isEdit ? "Update" : "Create"}
+              </Button>
+              <Button color="gray" onClick={() => setOpenDrawer(false)}>
+                Cancel
+              </Button>
             </div>
           </div>
         </DrawerItems>

@@ -15,8 +15,8 @@ export const fetchQuestions = async (
 };
 
 export const fetchSubjects = async () => {
-  const response = await axiosInstance.get<SubjectsResponse>('/subjects', );
-   if (!response.data.success) {
+  const response = await axiosInstance.get<SubjectsResponse>("/subjects");
+  if (!response.data.success) {
     throw new Error(`Failed to fetch questions. ${response.data.message}`);
   }
   return response.data.data;

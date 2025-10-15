@@ -304,7 +304,7 @@ export default function AdminDashboard() {
             <h2 className="section-title text-2xl font-semibold text-primary mb-2 pb-3 border-b-2 border-light">
               Subject Management
             </h2>
-            <SubjectsSection/>
+            <SubjectsSection />
           </div>
         )}
 
@@ -314,10 +314,9 @@ export default function AdminDashboard() {
             <h2 className="section-title text-2xl font-semibold text-primary mb-2 pb-3 border-b-2 border-light">
               Exams & Certifications
             </h2>
-            <ExamSection/>
+            <ExamSection />
           </div>
         )}
-
 
         {/* Subject Management Section */}
         {activeSection === "questions" && (
@@ -325,7 +324,7 @@ export default function AdminDashboard() {
             <h2 className="section-title text-2xl font-semibold text-primary mb-2 pb-3 border-b-2 border-light">
               Question Management
             </h2>
-            <QuestionsSection/>
+            <QuestionsSection />
           </div>
         )}
 

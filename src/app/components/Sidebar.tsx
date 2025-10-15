@@ -75,7 +75,7 @@ export default function Sidebar({ activeMenu, onMenuClick }) {
           >
             Exams & Certifications
           </SidebarItem>
-                    <SidebarItem
+          <SidebarItem
             href="#"
             icon={HiQuestionMarkCircle}
             active={activeMenu === "questions"}
