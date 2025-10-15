@@ -20,6 +20,7 @@ import axiosInstance from '@/lib/axios';
 import { Subject } from '@/types/subject';
 import { fetchSubjects } from '@/lib/api';
 import { useSession } from 'next-auth/react';
+import { HiOutlinePencil, HiOutlineTrash } from 'react-icons/hi';
 
 const SubjectsSection: React.FC = () => {
   const { data: session } = useSession();
@@ -114,24 +115,29 @@ const SubjectsSection: React.FC = () => {
       <Table hoverable>
         <TableHead>
           <TableRow>
+            <TableHeadCell>Actions</TableHeadCell>
             <TableHeadCell>ID</TableHeadCell>
             <TableHeadCell>Name</TableHeadCell>
             <TableHeadCell>Description</TableHeadCell>
             <TableHeadCell>Code</TableHeadCell>
-            <TableHeadCell>Actions</TableHeadCell>
           </TableRow>
         </TableHead>
         <TableBody className="divide-y">
           {subjects.map((subject) => (
             <TableRow key={subject.id}>
+              <TableCell className='flex'>
+                <Button size="sm" onClick={() => openEditDrawer(subject)} className="mr-2"> 
+                  <HiOutlinePencil />
+                </Button>
+                <Button size="sm" color="red" onClick={() => handleDelete(subject.id)}>
+                  <HiOutlineTrash /> 
+                </Button>
+              </TableCell>
               <TableCell>{subject.id}</TableCell>
               <TableCell>{subject.name}</TableCell>
               <TableCell>{subject.description}</TableCell>
               <TableCell>{subject.code}</TableCell>
-              <TableCell className='flex'>
-                <Button size="xs" onClick={() => openEditDrawer(subject)} className="mr-2">Edit</Button>
-                <Button size="xs" color="red" onClick={() => handleDelete(subject.id)}>Delete</Button>
-              </TableCell>
+
             </TableRow>
           ))}
         </TableBody>

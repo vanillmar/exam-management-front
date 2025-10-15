@@ -12,6 +12,7 @@
     "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx,json,css,md}\""
   },
   "dependencies": {
+    "@tanstack/react-table": "^8.21.3",
     "axios": "^1.12.2",
     "flowbite": "^3.1.2",
     "flowbite-react": "^0.12.9",

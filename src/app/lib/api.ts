@@ -1,11 +1,11 @@
 import { SubjectsResponse } from "@/types/subject";
 import axiosInstance from "./axios";
-import { QuestionBank, QuestionsResponse } from "@/types/questions";
+import { QuestionBank, QuestionBankResponse } from "@/types/questions";
 
 export const fetchQuestions = async (
   subject: string,
 ): Promise<QuestionBank> => {
-  const response = await axiosInstance<QuestionsResponse>(
+  const response = await axiosInstance<QuestionBankResponse>(
     `/questions/subject/${subject}`,
   );
   if (!response.data.success) {

@@ -5,6 +5,8 @@ export interface Question {
   question: string;
   options: string[];
   answerIndex: number;
+  subjectId: number;
+  subjectName: string;
 }
 
 export interface QuestionBank {
@@ -14,4 +16,6 @@ export interface QuestionBank {
 }
 
 // eslint-disable-next-line @typescript-eslint/no-empty-object-type
-export interface QuestionsResponse extends ApiResponse<QuestionBank>{}
+export interface QuestionBankResponse extends ApiResponse<QuestionBank>{}
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
+export interface QuestionResponse extends ApiResponse<Question>{}

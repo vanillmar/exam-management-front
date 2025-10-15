@@ -2,59 +2,89 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { Table, Button, Drawer, Label, TextInput, Textarea, Select, TableHead, TableHeadCell, TableRow, TableBody, TableCell, DrawerHeader, DrawerItems } from 'flowbite-react';
+import { Button, Label, TextInput, Select, TableHead, TableHeadCell, TableRow, TableBody, TableCell, Modal, ModalHeader, ModalBody, ModalFooter, Textarea } from 'flowbite-react';
 import axiosInstance from '@/lib/axios';
-import { Question, QuestionBank, QuestionsResponse } from '@/types/questions';
+import { Question, QuestionResponse } from '@/types/questions';
 import { Subject, SubjectsResponse } from '@/types/subject';
+import QuestionsTable from './QuestionTable';
 
-const QuestionsSection: React.FC = () => {
-  const [questions, setQuestions] = useState<QuestionBank[]>([]);
+export const fetchQuestions = async ({ page = 1,
+  pageSize = 10,
+  sortBy = "id",
+  sortOrder = "asc",
+  search = ""
+  }) => {
+  const { data  } = await axiosInstance.get<QuestionResponse>('/questions',  {
+    params: { page, pageSize, sortBy, sortOrder, search },
+  });
+  return data;
+};
+
+const QuestionsSection: React.FC = () =>  {
+  const [questions, setQuestions] = useState<Question[]>([]);
   const [subjects, setSubjects] = useState<Subject[]>([]);
-  const [openDrawer, setOpenDrawer] = useState(false);
+  const [openModal, setOpenModal] = useState(false);
   const [isEdit, setIsEdit] = useState(false);
   const [currentQuestion, setCurrentQuestion] = useState<Question | null>(null);
   const [formData, setFormData] = useState({
     question: '',
-    options: '',
+    options:[] as string[],
     answerIndex: 0,
     subjectId: 0,
   });
 
   useEffect(() => {
-    fetchQuestions();
+    fetch();
     fetchSubjects();
   }, []);
-
-  const fetchQuestions = async () => {
-    const { data: {data} } = await axiosInstance.get<QuestionsResponse>('/questions');
-    setQuestions(data);
-  };
-
+  const fetch = async () => {
+      const data = await fetchQuestions({});  
+      setQuestions(data);
+  }
   const fetchSubjects = async () => {
-    const { data } = await axiosInstance.get<SubjectsResponse>('/subjects');
-    setSubjects(data.data);
+    const { data: {data} } = await axiosInstance.get<SubjectsResponse>('/subjects');
+    setSubjects(data);
   };
 
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
-    const { name, value } = e.target;
-    if (name === 'options') {
-      setFormData((prev) => ({ ...prev, [name]: value }));
-    } else if (name === 'subjectId') {
-      setFormData((prev) => ({ ...prev, [name]: parseInt(value) }));
-    } else {
-      setFormData((prev) => ({ ...prev, [name]: value }));
+  const handleQuestionChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
+    const { value } = e.target;
+    setFormData((prev) => ({ ...prev, question: value }));
+  };
+
+  const handleOptionChange = (index: number, value: string) => {
+    const newOptions = [...formData.options];
+    newOptions[index] = value;
+    setFormData((prev) => ({ ...prev, options: newOptions }));
+  };
+
+  const addOption = () => {
+    setFormData((prev) => ({ ...prev, options: [...prev.options, ''] }));
+  };
+
+  const removeOption = (index: number) => {
+    let newAnswerIndex = formData.answerIndex;
+    const newOptions = formData.options.filter((_, i) => i !== index);
+    if (formData.answerIndex === index) {
+      newAnswerIndex = 0;
+    } else if (formData.answerIndex > index) {
+      newAnswerIndex = formData.answerIndex - 1;
     }
+    setFormData((prev) => ({ ...prev, options: newOptions, answerIndex: newAnswerIndex }));
   };
 
-  const handleNumberChange = (name: string, value: number | null) => {
-    setFormData((prev) => ({ ...prev, [name]: value || 0 }));
+  const handleSubjectChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    setFormData((prev) => ({ ...prev, subjectId: parseInt(e.target.value) }));
+  };
+
+  const handleAnswerIndexChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    setFormData((prev) => ({ ...prev, answerIndex: parseInt(e.target.value) }));
   };
 
   const handleCreateOrUpdate = async () => {
-    const optionsArray = formData.options.split(',').map(opt => opt.trim()).filter(opt => opt);
-    const requestData = {
-      ...formData,
-      options: optionsArray,
+   const requestData = {
+      question: formData.question,
+      options: formData.options,
+      answerIndex: formData.answerIndex,
       subjectId: formData.subjectId,
     };
     const url = isEdit ? `/questions/${currentQuestion?.id}` : '/questions';
@@ -65,8 +95,8 @@ const QuestionsSection: React.FC = () => {
       response = await axiosInstance.post(url, requestData);
     }
     if (response.status >= 200 && response.status < 300) {
-      fetchQuestions();
-      setOpenDrawer(false);
+      fetchQuestions({});
+      setOpenModal(false);      
       resetForm();
     }
   };
@@ -75,121 +105,94 @@ const QuestionsSection: React.FC = () => {
     if (confirm('Are you sure you want to delete this question?')) {
       const response = await axiosInstance.delete(`/api/questions/${id}`);
       if (response.status >= 200 && response.status < 300) {
-        fetchQuestions();
+        fetchQuestions({});
       }
     }
   };
 
-  const openCreateDrawer = () => {
+  const openCreateModal = () => {
     setIsEdit(false);
     resetForm();
-    setOpenDrawer(true);
+    setOpenModal(true);
   };
 
-  const openEditDrawer = (question: Question) => {
+  const openEditModal = (question: Question) => {
     setIsEdit(true);
     setCurrentQuestion(question);
     setFormData({
-      question: question.question,
-      options: question.options.join(', '),
-      answerIndex: question.answerIndex,
-      subjectId: 0, // Will need to set based on question's subject if available; assuming questions fetch includes subjectId
+      question: question.question || '',
+      options: question.options || [],
+      answerIndex: question.answerIndex || 0,
+      subjectId: question.subjectId || 0,
     });
-    setOpenDrawer(true);
+    setOpenModal(true);
   };
 
   const resetForm = () => {
     setFormData({
       question: '',
-      options: '',
+      options: [] as string[],
       answerIndex: 0,
       subjectId: 0,
     });
     setCurrentQuestion(null);
   };
-
-  const getOptionsDisplay = (options: string[]) => options.join(', ');
-
+  
   return (
     <div className="container mx-auto p-4">
-      <Button onClick={openCreateDrawer} className="mb-4">Add Question</Button>
-      <Table hoverable>
-        <TableHead>
-            <TableRow>
-                <TableHeadCell>ID</TableHeadCell>
-                <TableHeadCell>Question</TableHeadCell>
-                <TableHeadCell>Options</TableHeadCell>
-                <TableHeadCell>Answer Index</TableHeadCell>
-                <TableHeadCell>Subject ID</TableHeadCell>
-                <TableHeadCell>Actions</TableHeadCell>
-            </TableRow>
-        </TableHead>
-        <TableBody className="divide-y">
-          {questions.map((question) => (
-            <TableRow key={question.id}>
-              <TableCell>{question.id}</TableCell>
-              <TableCell className="max-w-xs truncate">{question.question}</TableCell>
-              <TableCell className="max-w-xs truncate">{getOptionsDisplay(question.options)}</TableCell>
-              <TableCell>{question.answerIndex}</TableCell>
-              <TableCell>{question.subjectId || 'N/A'}</TableCell> {/* Assuming subjectId is fetched or added to interface */}
-              <TableCell className='flex align-middle'>
-                <Button size="xs" onClick={() => openEditDrawer(question)} className="mr-2">Edit</Button>
-                <Button size="xs" color="red" onClick={() => handleDelete(question.id)}>Delete</Button>
-              </TableCell>
-            </TableRow>
-          ))}
-        </TableBody>
-      </Table>
-
-      <Drawer open={openDrawer} onClose={() => setOpenDrawer(false)} position="right">
-        <DrawerHeader title={isEdit ? 'Edit Question' : 'Create Question'} />
-        <DrawerItems>
-          <div className="space-y-6 p-4">
+      <Button onClick={openCreateModal} className="mb-4">Add Question</Button>
+      <QuestionsTable openEditModal={openEditModal} handleDelete={handleDelete} />
+      <Modal show={openModal} onClose={() => setOpenModal(false)} size="xl" className="w-full"> 
+        <ModalHeader>{isEdit ? 'Edit Question' : 'Create Question'}</ModalHeader>
+        <ModalBody>
+          <div className="space-y-6">
             <div>
-              <Label htmlFor="question">Question</Label>
-              <Textarea id="question" name="question" value={formData.question} onChange={handleInputChange} rows={3} required />
+              <Label htmlFor="question" className="block mb-2">Question</Label>
+              <Textarea value={formData.question} onChange={handleQuestionChange}  rows={4} required/>
             </div>
             <div>
-              <Label htmlFor="options">Options (comma-separated)</Label>
-              <Textarea
-                id="options"
-                name="options"
-                value={formData.options}
-                onChange={handleInputChange}
-                rows={3}
-                placeholder="e.g., Option A, Option B, Option C, Option D"
-                required
-              />
+              <Label className="block mb-2">Options</Label>
+              {formData.options.map((option, index) => (
+                <div key={index} className="flex space-x-2 mb-2 items-end">
+                  <TextInput
+                    value={option}
+                    onChange={(e) => handleOptionChange(index, e.target.value)}
+                    placeholder={`Option ${index + 1}`}
+                    className="flex-1"
+                  />
+                  <Button size="xs" color="failure" onClick={() => removeOption(index)}>Remove</Button>
+                </div>
+              ))}
+              <Button onClick={addOption} color="gray">Add Option</Button>
             </div>
             <div>
-              <Label htmlFor="answerIndex">Answer Index (0-based)</Label>
-              <TextInput
-                id="answerIndex"
-                name="answerIndex"
-                value={formData.answerIndex}
-                onChange={(value) => handleNumberChange('answerIndex', value)}
-                min={0}
-                required
-              />
+              <Label htmlFor="answerIndex" className="block mb-2">Correct Answer Index</Label>
+              <Select id="answerIndex" value={formData.answerIndex.toString()} onChange={handleAnswerIndexChange} required disabled={formData.options.length === 0}>
+                {formData.options.map((_, index) => (
+                  <option key={index} value={index.toString()}>
+                    Option {index + 1}
+                  </option>
+                ))}
+              </Select>
             </div>
             <div>
-              <Label htmlFor="subjectId">Subject</Label>
-              <Select id="subjectId" name="subjectId" value={formData.subjectId} onChange={handleInputChange} required>
-                <option value={0}>Select Subject</option>
+              <Label htmlFor="subjectId" className="block mb-2">Subject</Label>
+              <Select id="subjectId" value={formData.subjectId.toString()} onChange={handleSubjectChange} required>
+                <option value="0">Select Subject</option>
                 {subjects.map((subject) => (
-                  <option key={subject.id} value={subject.id}>
+                  <option key={subject.id} value={subject.id.toString()}>
                     {subject.name}
                   </option>
                 ))}
               </Select>
             </div>
-            <div className="flex justify-end space-x-2">
-              <Button onClick={handleCreateOrUpdate}>{isEdit ? 'Update' : 'Create'}</Button>
-              <Button color="gray" onClick={() => setOpenDrawer(false)}>Cancel</Button>
-            </div>
           </div>
-        </DrawerItems>
-      </Drawer>
+        </ModalBody>
+        <ModalFooter>
+          <Button onClick={handleCreateOrUpdate}>{isEdit ? 'Update' : 'Create'}</Button>
+          <Button color="gray" onClick={() => setOpenModal(false)}>Cancel</Button>
+        </ModalFooter>
+      </Modal>
     </div>
   );
 };

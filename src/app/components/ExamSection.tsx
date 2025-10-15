@@ -6,6 +6,7 @@ import { Table, Button, Drawer, Label, TextInput, Select, TableHeadCell, TableRo
 import { Exam, ExamStatus } from '@/types/exam';
 import { Subject } from '@/types/subject';
 import axiosInstance from '@/lib/axios';
+import { HiOutlinePencil, HiOutlineTrash } from 'react-icons/hi';
 
 const ExamSection: React.FC = () => {
   const [exams, setExams] = useState<Exam[]>([]);
@@ -122,7 +123,8 @@ const ExamSection: React.FC = () => {
       <Button onClick={openCreateDrawer} className="mb-4">Add Exam</Button>
       <Table hoverable>
         <TableHead>
-            <TableRow>      
+            <TableRow>
+                <TableHeadCell>Actions</TableHeadCell>      
                 <TableHeadCell>ID</TableHeadCell>
                 <TableHeadCell>Title</TableHeadCell>
                 <TableHeadCell>Subject</TableHeadCell>
@@ -130,12 +132,16 @@ const ExamSection: React.FC = () => {
                 <TableHeadCell>Time Limit</TableHeadCell>
                 <TableHeadCell>Pass Mark(Percentage)</TableHeadCell>
                 <TableHeadCell>Status</TableHeadCell>
-                <TableHeadCell>Actions</TableHeadCell>
+                
             </TableRow>
         </TableHead>
         <TableBody className="divide-y">
           {exams.map((exam) => (
             <TableRow key={exam.id}>
+              <TableCell className='flex'>
+                <Button size="sm" onClick={() => openEditDrawer(exam)} className="mr-2"> <HiOutlinePencil /></Button>
+                <Button size="sm" color="red" onClick={() => handleDelete(exam.id)}><HiOutlineTrash /></Button>
+              </TableCell>
               <TableCell>{exam.id}</TableCell>
               <TableCell>{exam.title}</TableCell>
               <TableCell>{exam.subject.name}</TableCell>
@@ -143,10 +149,6 @@ const ExamSection: React.FC = () => {
               <TableCell>{exam.timeLimit}</TableCell>
               <TableCell>{exam.passMark} %</TableCell>
               <TableCell>{exam.examStatus.name}</TableCell>
-              <TableCell className='flex'>
-                <Button size="xs" onClick={() => openEditDrawer(exam)} className="mr-2">Edit</Button>
-                <Button size="xs" color="red" onClick={() => handleDelete(exam.id)}>Delete</Button>
-              </TableCell>
             </TableRow>
           ))}
         </TableBody>
