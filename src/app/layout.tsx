@@ -1,7 +1,6 @@
 "use client";
 
 import { SessionProvider } from "next-auth/react";
-import { ThemeModeScript } from "flowbite-react";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import "./styles/custom.css"; // Import your new custom CSS after Tailwind
@@ -24,7 +23,6 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <ThemeModeScript />
         <link rel="icon" href="/logo.png" sizes="any" />
       </head>
       <body
