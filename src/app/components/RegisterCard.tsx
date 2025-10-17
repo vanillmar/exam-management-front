@@ -5,13 +5,17 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import axios from "axios";
 import axiosInstance from "@/lib/axios";
-import { Label, Button, TextInput, Select, Checkbox } from "flowbite-react";
-
-interface Role {
-  id: string;
-  name: string;
-}
-
+import { Label } from "@/components/ui/label";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { 
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue } from "@/components/ui/select";
+import { Checkbox } from "@/components/ui/checkbox" 
+import { Role } from "@/types/user";
 export default function RegisterCard() {
   const [username, setUsername] = useState("");
   const [firstname, setFirstName] = useState("");
@@ -105,7 +109,7 @@ export default function RegisterCard() {
       <form onSubmit={handleRegister} className="flex flex-col gap-3.5">
         <Label className="flex flex-col gap-1.5 text-sm text-[#cbd5e1]">
           <span>Username</span>
-          <TextInput
+          <Input
             name="username"
             type="text"
             value={username}
@@ -114,7 +118,7 @@ export default function RegisterCard() {
         </Label>
         <Label className="flex flex-col gap-1.5 text-sm text-[#cbd5e1]">
           <span>E-mail</span>
-          <TextInput
+          <Input
             name="email"
             type="email"
             value={email}
@@ -124,7 +128,7 @@ export default function RegisterCard() {
         <div className="grid md:grid-cols-2 md:gap-6">
           <Label className="flex flex-col gap-1.5 text-sm text-[#cbd5e1]">
             <span>Password</span>
-            <TextInput
+            <Input
               name="password"
               type="password"
               value={password}
@@ -133,7 +137,7 @@ export default function RegisterCard() {
           </Label>
           <Label className="flex flex-col gap-1.5 text-sm text-[#cbd5e1]">
             <span>Confirm Password</span>
-            <TextInput
+            <Input
               name="confirmPassword"
               type="password"
               value={confirmPassword}
@@ -144,7 +148,7 @@ export default function RegisterCard() {
         <div className="grid md:grid-cols-2 md:gap-6">
           <Label className="flex flex-col gap-1.5 text-sm text-[#cbd5e1]">
             <span>Firstname</span>
-            <TextInput
+            <Input
               name="firstname"
               type="text"
               value={firstname}
@@ -153,7 +157,7 @@ export default function RegisterCard() {
           </Label>
           <Label className="flex flex-col gap-1.5 text-sm text-[#cbd5e1]">
             <span>Lastname</span>
-            <TextInput
+            <Input
               name="lastname"
               type="text"
               value={lastname}
@@ -166,21 +170,28 @@ export default function RegisterCard() {
           <Select
             name="role"
             value={roleId}
-            onChange={(e) => setRoleId(e.target.value)}
+            onValueChange={(e) => setRoleId(e.valueOf())}
           >
-            {roles.length === 0 && <option value="">Loading roles...</option>}
-            {roles.map((role) => (
-              <option key={role.id} value={role.id}>
-                {role.name}
-              </option>
-            ))}
+            {
+              roles.length === 0 &&       
+              <SelectTrigger className="w-[180px]">
+                <SelectValue placeholder="Select a role" />
+              </SelectTrigger>
+            }
+            <SelectContent>
+              {roles.map((role) => (
+                <SelectItem key={role.id} value={role.id.toString()}>
+                  {role.name}
+                </SelectItem >
+              ))}
+            </SelectContent>
           </Select>
         </Label>
         <Label className="flex items-center gap-1.5 text-sm text-[#cbd5e1]">
           <Checkbox
             name="enabled"
             checked={enabled}
-            onChange={(e) => setEnabled(e.target.checked)}
+            onCheckedChange={(value) => setEnabled(value === true)}
           />
           <span>Enabled</span>
         </Label>

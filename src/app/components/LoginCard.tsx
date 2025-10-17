@@ -3,8 +3,9 @@
 import { useState } from "react";
 import Image from "next/image";
 import { signIn } from "next-auth/react";
-import { Label, Button, TextInput } from "flowbite-react";
-
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input"
+import { Label } from "@/components/ui/label";
 export default function LoginCard() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -52,7 +53,7 @@ export default function LoginCard() {
       <form onSubmit={handleLogin} className="flex flex-col gap-3.5">
         <Label className="flex flex-col gap-1.5 text-sm text-[#cbd5e1]">
           <span>Username</span>
-          <TextInput
+          <Input
             type="text"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
@@ -60,7 +61,7 @@ export default function LoginCard() {
         </Label>
         <Label className="flex flex-col gap-1.5 text-sm text-[#cbd5e1]">
           <span>Password</span>
-          <TextInput
+          <Input
             type="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}

@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 
+import { Button } from "@/components/ui/button";
+
 interface CommentModalProps {
   comment: string;
   onSave: (comment: string) => void;
@@ -26,12 +28,12 @@ export default function CommentModal({
           rows={4}
         />
         <div className="row space-between mt-3">
-          <button onClick={onClose} className="ghost">
+          <Button onClick={onClose} className="ghost">
             Cancel
-          </button>
-          <button onClick={() => onSave(text)} className="cta">
+          </Button>
+          <Button onClick={() => onSave(text)} className="cta">
             Save
-          </button>
+          </Button>
         </div>
       </div>
     </div>

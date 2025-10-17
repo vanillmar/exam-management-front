@@ -2,20 +2,12 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import {
-  Table,
-  Button,
-  Drawer,
-  Label,
-  TextInput,
-  TableHead,
-  TableHeadCell,
-  TableBody,
-  TableRow,
-  TableCell,
-  DrawerHeader,
-  DrawerItems,
-} from "flowbite-react";
+import { Table, TableBody, TableCell, TableHead, TableRow } from "@/components/ui/table";
+import { Button } from "@/components/ui/button";
+import { Label } from "@/components/ui/label";
+import { Input } from "@/components/ui/input";
+import { Drawer, DrawerContent, DrawerHeader } from "@/components/ui/drawer";
+
 import axiosInstance from "@/lib/axios";
 import { Subject } from "@/types/subject";
 import { fetchSubjects } from "@/lib/api";
@@ -114,14 +106,14 @@ const SubjectsSection: React.FC = () => {
       <Button onClick={openCreateDrawer} className="mb-4">
         Add Subject
       </Button>
-      <Table hoverable>
+      <Table >
         <TableHead>
           <TableRow>
-            <TableHeadCell>Actions</TableHeadCell>
-            <TableHeadCell>ID</TableHeadCell>
-            <TableHeadCell>Name</TableHeadCell>
-            <TableHeadCell>Description</TableHeadCell>
-            <TableHeadCell>Code</TableHeadCell>
+            <TableHead>Actions</TableHead>
+            <TableHead>ID</TableHead>
+            <TableHead>Name</TableHead>
+            <TableHead>Description</TableHead>
+            <TableHead>Code</TableHead>
           </TableRow>
         </TableHead>
         <TableBody className="divide-y">
@@ -155,14 +147,13 @@ const SubjectsSection: React.FC = () => {
       <Drawer
         open={openDrawer}
         onClose={() => setOpenDrawer(false)}
-        position="right"
       >
         <DrawerHeader title={isEdit ? "Edit Subject" : "Create Subject"} />
-        <DrawerItems>
+        <DrawerContent>
           <div className="space-y-6 p-4">
             <div>
               <Label htmlFor="name">Name</Label>
-              <TextInput
+              <Input
                 id="name"
                 name="name"
                 value={formData.name}
@@ -172,7 +163,7 @@ const SubjectsSection: React.FC = () => {
             </div>
             <div>
               <Label htmlFor="description">Description </Label>
-              <TextInput
+              <Input
                 id="description"
                 name="description"
                 value={formData.description}
@@ -181,7 +172,7 @@ const SubjectsSection: React.FC = () => {
             </div>
             <div>
               <Label htmlFor="code">Code</Label>
-              <TextInput
+              <Input
                 id="code"
                 name="code"
                 value={formData.code}
@@ -197,7 +188,7 @@ const SubjectsSection: React.FC = () => {
               </Button>
             </div>
           </div>
-        </DrawerItems>
+        </DrawerContent>
       </Drawer>
     </div>
   );

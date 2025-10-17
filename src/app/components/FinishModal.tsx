@@ -1,3 +1,5 @@
+import { Button } from "@/components/ui/button";
+
 export default function FinishModal({
   remaining,
   onCancel,
@@ -16,12 +18,12 @@ export default function FinishModal({
           There are still {remaining} unanswered question(s) remaining.
         </p>
         <div className="row space-between mt-3">
-          <button onClick={onCancel} className="ghost">
+          <Button onClick={onCancel} className="ghost">
             No
-          </button>
-          <button onClick={onConfirm} className="cta">
+          </Button>
+          <Button onClick={onConfirm} className="cta">
             Yes
-          </button>
+          </Button>
         </div>
       </div>
     </div>

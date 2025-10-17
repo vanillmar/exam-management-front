@@ -2,21 +2,26 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
+import { Button } from "@/components/ui/button";
+import { Select } from "@/components/ui/select";
+import { Label } from "@/components/ui/label";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
 import {
-  Button,
-  Label,
-  TextInput,
-  Select,
-  Modal,
-  ModalHeader,
-  ModalBody,
-  ModalFooter,
-  Textarea,
-} from "flowbite-react";
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
+
 import axiosInstance from "@/lib/axios";
 import { Question, QuestionResponse } from "@/types/questions";
 import { Subject, SubjectsResponse } from "@/types/subject";
 import QuestionsTable from "./QuestionTable";
+import { DialogClose } from "@radix-ui/react-dialog";
 
 export const fetchQuestions = async ({
   page = 1,
@@ -34,7 +39,6 @@ export const fetchQuestions = async ({
 const QuestionsSection: React.FC = () => {
   const [questions, setQuestions] = useState<Question[]>([]);
   const [subjects, setSubjects] = useState<Subject[]>([]);
-  const [openModal, setOpenModal] = useState(false);
   const [isEdit, setIsEdit] = useState(false);
   const [currentQuestion, setCurrentQuestion] = useState<Question | null>(null);
   const [formData, setFormData] = useState({
@@ -117,7 +121,6 @@ const QuestionsSection: React.FC = () => {
     }
     if (response.status >= 200 && response.status < 300) {
       fetchQuestions({});
-      setOpenModal(false);
       resetForm();
     }
   };
@@ -130,13 +133,6 @@ const QuestionsSection: React.FC = () => {
       }
     }
   };
-
-  const openCreateModal = () => {
-    setIsEdit(false);
-    resetForm();
-    setOpenModal(true);
-  };
-
   const openEditModal = (question: Question) => {
     setIsEdit(true);
     setCurrentQuestion(question);
@@ -146,7 +142,6 @@ const QuestionsSection: React.FC = () => {
       answerIndex: question.answerIndex || 0,
       subjectId: question.subjectId || 0,
     });
-    setOpenModal(true);
   };
 
   const resetForm = () => {
@@ -161,105 +156,102 @@ const QuestionsSection: React.FC = () => {
 
   return (
     <div className="container mx-auto p-4">
-      <Button onClick={openCreateModal} className="mb-4">
-        Add Question
-      </Button>
       <QuestionsTable
         openEditModal={openEditModal}
         handleDelete={handleDelete}
       />
-      <Modal
-        show={openModal}
-        onClose={() => setOpenModal(false)}
-        size="xl"
-        className="w-full"
-      >
-        <ModalHeader>
-          {isEdit ? "Edit Question" : "Create Question"}
-        </ModalHeader>
-        <ModalBody>
-          <div className="space-y-6">
-            <div>
-              <Label htmlFor="question" className="block mb-2">
-                Question
-              </Label>
-              <Textarea
-                value={formData.question}
-                onChange={handleQuestionChange}
-                rows={4}
-                required
-              />
-            </div>
-            <div>
-              <Label className="block mb-2">Options</Label>
-              {formData.options.map((option, index) => (
-                <div key={index} className="flex space-x-2 mb-2 items-end">
-                  <TextInput
-                    value={option}
-                    onChange={(e) => handleOptionChange(index, e.target.value)}
-                    placeholder={`Option ${index + 1}`}
-                    className="flex-1"
-                  />
-                  <Button
-                    size="xs"
-                    color="failure"
-                    onClick={() => removeOption(index)}
-                  >
-                    Remove
-                  </Button>
-                </div>
-              ))}
-              <Button onClick={addOption} color="gray">
-                Add Option
-              </Button>
-            </div>
-            <div>
-              <Label htmlFor="answerIndex" className="block mb-2">
-                Correct Answer Index
-              </Label>
-              <Select
-                id="answerIndex"
-                value={formData.answerIndex.toString()}
-                onChange={handleAnswerIndexChange}
-                required
-                disabled={formData.options.length === 0}
-              >
-                {formData.options.map((_, index) => (
-                  <option key={index} value={index.toString()}>
-                    Option {index + 1}
-                  </option>
+      <Dialog>
+        <DialogTrigger asChild>
+          <Button variant="outline" className="mb-4">Add Question</Button>
+        </DialogTrigger>
+        <DialogContent>
+          <DialogHeader>
+            <DialogTitle>
+              {isEdit ? "Edit Question" : "Create Question"}
+            </DialogTitle>
+          </DialogHeader>
+          <DialogDescription></DialogDescription>
+            <div className="space-y-6">
+              <div>
+                <Label htmlFor="question" className="block mb-2">
+                  Question
+                </Label>
+                <Textarea
+                  value={formData.question}
+                  onChange={handleQuestionChange}
+                  rows={4}
+                  required
+                />
+              </div>
+              <div>
+                <Label className="block mb-2">Options</Label>
+                {formData.options.map((option, index) => (
+                  <div key={index} className="flex space-x-2 mb-2 items-end">
+                    <Input
+                      value={option}
+                      onChange={(e) => handleOptionChange(index, e.target.value)}
+                      placeholder={`Option ${index + 1}`}
+                      className="flex-1"
+                    />
+                    <Button
+                      color="failure"
+                      onClick={() => removeOption(index)}
+                    >
+                      Remove
+                    </Button>
+                  </div>
                 ))}
-              </Select>
+                <Button onClick={addOption} color="gray">
+                  Add Option
+                </Button>
+              </div>
+              <div>
+                <Label htmlFor="answerIndex" className="block mb-2">
+                  Correct Answer Index
+                </Label>
+                <Select
+                  value={formData.answerIndex.toString()}
+                  onChange={handleAnswerIndexChange}
+                  required
+                  disabled={formData.options.length === 0}
+                >
+                  {formData.options.map((_, index) => (
+                    <option key={index} value={index.toString()}>
+                      Option {index + 1}
+                    </option>
+                  ))}
+                </Select>
+              </div>
+              <div>
+                <Label htmlFor="subjectId" className="block mb-2">
+                  Subject
+                </Label>
+                <Select
+                  value={formData.subjectId.toString()}
+                  onChange={handleSubjectChange}
+                  required
+                >
+                  <option value="0">Select Subject</option>
+                  {subjects.map((subject) => (
+                    <option key={subject.id} value={subject.id.toString()}>
+                      {subject.name}
+                    </option>
+                  ))}
+                </Select>
+              </div>
             </div>
-            <div>
-              <Label htmlFor="subjectId" className="block mb-2">
-                Subject
-              </Label>
-              <Select
-                id="subjectId"
-                value={formData.subjectId.toString()}
-                onChange={handleSubjectChange}
-                required
-              >
-                <option value="0">Select Subject</option>
-                {subjects.map((subject) => (
-                  <option key={subject.id} value={subject.id.toString()}>
-                    {subject.name}
-                  </option>
-                ))}
-              </Select>
-            </div>
-          </div>
-        </ModalBody>
-        <ModalFooter>
-          <Button onClick={handleCreateOrUpdate}>
-            {isEdit ? "Update" : "Create"}
-          </Button>
-          <Button color="gray" onClick={() => setOpenModal(false)}>
-            Cancel
-          </Button>
-        </ModalFooter>
-      </Modal>
+          <DialogFooter>
+            <Button onClick={handleCreateOrUpdate}>
+              {isEdit ? "Update" : "Create"}
+            </Button>
+              <DialogClose asChild>
+                <Button color="gray">
+                  Cancel
+                </Button>
+              </DialogClose>
+          </DialogFooter>  
+        </DialogContent>
+      </Dialog>
     </div>
   );
 };

@@ -2,6 +2,25 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
+import {
+  Pagination,
+  PaginationContent,
+  PaginationEllipsis,
+  PaginationItem,
+  PaginationLink,
+  PaginationNext,
+  PaginationPrevious,
+} from "@/components/ui/pagination"
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableRow,
+} from "@/components/ui/table";
+
 import {
   useReactTable,
   getCoreRowModel,
@@ -9,17 +28,7 @@ import {
   getPaginationRowModel,
   ColumnDef,
 } from "@tanstack/react-table";
-import {
-  Table,
-  TextInput,
-  Button,
-  Pagination,
-  TableHead,
-  TableHeadCell,
-  TableRow,
-  TableBody,
-  TableCell,
-} from "flowbite-react";
+
 import { HiOutlineTrash, HiOutlinePencil } from "react-icons/hi";
 
 import { Question } from "@/types/questions";
@@ -79,10 +88,37 @@ export default function QuestionsTable({ openEditModal, handleDelete }) {
     }
   };
 
+  // Helper function to generate the pagination items with ellipses
+function getPaginationItems(currentPage: number, totalPages: number) {
+  const delta = 1;
+  const left = currentPage - delta;
+  const right = currentPage + delta + 1;
+  const range: number[] = [];
+  
+  for (let i = 1; i <= totalPages; i++) {
+    if (i === 1 || i === totalPages || (i >= left && i < right)) {
+      range.push(i);
+    }
+  }
+  
+  const items: (number | "ellipsis")[] = [];
+  let prev: number | null = null;
+  
+  for (const i of range) {
+    if (prev !== null && i - prev !== 1) {
+      items.push("ellipsis");
+    }
+    items.push(i);
+    prev = i;
+  }
+  
+  return items;
+}
+
   return (
     <div className="p-6">
       <div className="flex justify-between mb-4">
-        <TextInput
+        <Input
           placeholder="Search questions..."
           value={search}
           onChange={(e) => setSearch(e.target.value)}
@@ -90,30 +126,30 @@ export default function QuestionsTable({ openEditModal, handleDelete }) {
         <Button onClick={() => setPage(1)}>Search</Button>
       </div>
 
-      <Table hoverable>
+      <Table >
         <TableHead>
           <TableRow>
-            <TableHeadCell>Actions</TableHeadCell>
-            <TableHeadCell
+            <TableHead >Actions</TableHead>
+            <TableHead 
               onClick={() => handleSort("id")}
               className="cursor-pointer  w-20"
             >
               ID {sortBy === "id" && (sortOrder === "asc" ? "▲" : "▼")}
-            </TableHeadCell>
-            <TableHeadCell
+            </TableHead >
+            <TableHead 
               onClick={() => handleSort("question")}
               className="cursor-pointer"
             >
               Question{" "}
               {sortBy === "question" && (sortOrder === "asc" ? "▲" : "▼")}
-            </TableHeadCell>
-            <TableHeadCell
+            </TableHead >
+            <TableHead 
               onClick={() => handleSort("subjectName")}
               className="cursor-pointer"
             >
               Subject{" "}
               {sortBy === "subjectName" && (sortOrder === "asc" ? "▲" : "▼")}
-            </TableHeadCell>
+            </TableHead>
           </TableRow>
         </TableHead>
         <TableBody className="divide-y">
@@ -146,13 +182,46 @@ export default function QuestionsTable({ openEditModal, handleDelete }) {
       </Table>
 
       <div className="flex justify-end mt-4">
-        {total > 0 && (
-          <Pagination
-            currentPage={page}
-            totalPages={Math.ceil(total / pageSize)}
-            onPageChange={(p) => setPage(p)}
-          />
-        )}
+       <Pagination>
+        <PaginationContent>
+          <PaginationItem>
+            <PaginationPrevious
+              href="#"
+              onClick={(e) => {
+                e.preventDefault();
+                if (page > 1) setPage(page - 1);
+              }}
+            />
+          </PaginationItem>
+          {getPaginationItems(page, Math.ceil(total / pageSize)).map((item, index) => (
+            <PaginationItem key={index}>
+              {item === "ellipsis" ? (
+                <PaginationEllipsis />
+              ) : (
+                <PaginationLink
+                  href="#"
+                  isActive={item === page}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setPage(item);
+                  }}
+                >
+                  {item}
+                </PaginationLink>
+              )}
+            </PaginationItem>
+          ))}
+          <PaginationItem>
+            <PaginationNext
+              href="#"
+              onClick={(e) => {
+                e.preventDefault();
+                if (page < Math.ceil(total / pageSize)) setPage(page + 1);
+              }}
+            />
+          </PaginationItem>
+        </PaginationContent>
+      </Pagination>
       </div>
     </div>
   );

@@ -2,21 +2,30 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import {
+import { Button } from "@/components/ui/button";
+import { Label } from "@/components/ui/label";
+import { Input } from "@/components/ui/input";
+import { 
   Table,
-  Button,
-  Drawer,
-  Label,
-  TextInput,
-  Select,
-  TableHeadCell,
-  TableRow,
-  TableHead,
   TableBody,
+  TableCaption,
   TableCell,
-  DrawerItems,
+  TableHead,
+  TableRow,
+} from "@/components/ui/table";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select"
+import {
+  Drawer,
+  DrawerContent,
   DrawerHeader,
-} from "flowbite-react";
+} from "@/components/ui/drawer"
+
 import { Exam, ExamStatus } from "@/types/exam";
 import { Subject } from "@/types/subject";
 import axiosInstance from "@/lib/axios";
@@ -145,17 +154,18 @@ const ExamSection: React.FC = () => {
       <Button onClick={openCreateDrawer} className="mb-4">
         Add Exam
       </Button>
-      <Table hoverable>
+      <Table>
+        <TableCaption>A list of exams.</TableCaption>
         <TableHead>
           <TableRow>
-            <TableHeadCell>Actions</TableHeadCell>
-            <TableHeadCell>ID</TableHeadCell>
-            <TableHeadCell>Title</TableHeadCell>
-            <TableHeadCell>Subject</TableHeadCell>
-            <TableHeadCell>Result</TableHeadCell>
-            <TableHeadCell>Time Limit</TableHeadCell>
-            <TableHeadCell>Pass Mark(Percentage)</TableHeadCell>
-            <TableHeadCell>Status</TableHeadCell>
+            <TableHead >Actions</TableHead >
+            <TableHead >ID</TableHead >
+            <TableHead >Title</TableHead >
+            <TableHead >Subject</TableHead >
+            <TableHead >Result</TableHead >
+            <TableHead >Time Limit</TableHead >
+            <TableHead >Pass Mark(Percentage)</TableHead >
+            <TableHead >Status</TableHead >
           </TableRow>
         </TableHead>
         <TableBody className="divide-y">
@@ -193,14 +203,13 @@ const ExamSection: React.FC = () => {
       <Drawer
         open={openDrawer}
         onClose={() => setOpenDrawer(false)}
-        position="right"
       >
         <DrawerHeader title={isEdit ? "Edit Exam" : "Create Exam"} />
-        <DrawerItems>
+        <DrawerContent>
           <div className="space-y-6 p-4">
             <div>
               <Label htmlFor="title">Title</Label>
-              <TextInput
+              <Input
                 id="title"
                 name="title"
                 value={formData.title}
@@ -210,7 +219,7 @@ const ExamSection: React.FC = () => {
             </div>
             <div>
               <Label htmlFor="result">Result</Label>
-              <TextInput
+              <Input
                 id="result"
                 name="result"
                 value={formData.result}
@@ -219,7 +228,7 @@ const ExamSection: React.FC = () => {
             </div>
             <div>
               <Label htmlFor="timeLimit">Time Limit (minutes)</Label>
-              <TextInput
+              <Input
                 id="timeLimit"
                 name="timeLimit"
                 value={formData.timeLimit}
@@ -230,7 +239,7 @@ const ExamSection: React.FC = () => {
             </div>
             <div>
               <Label htmlFor="passMark">Pass Mark</Label>
-              <TextInput
+              <Input
                 id="passMark"
                 name="passMark"
                 value={formData.passMark}
@@ -260,18 +269,21 @@ const ExamSection: React.FC = () => {
             <div>
               <Label htmlFor="examStatusId">Exam Status</Label>
               <Select
-                id="examStatusId"
                 name="examStatusId"
-                value={formData.examStatusId}
+                value={formData.examStatusId.toString()}
                 onChange={handleInputChange}
                 required
               >
-                <option value={0}>Select Status</option>
-                {examStatuses.map((status) => (
-                  <option key={status.id} value={status.id}>
-                    {status.name}
-                  </option>
-                ))}
+                 <SelectTrigger className="w-[280px]">
+                  <SelectValue>Select Status</SelectValue>
+                 </SelectTrigger>
+                <SelectContent>
+                  {examStatuses.map((status) => (
+                    <SelectItem key={status.id} value={status.id.toString()}>
+                      {status.name}
+                    </SelectItem >
+                  ))}
+                </SelectContent>
               </Select>
             </div>
             <div className="flex justify-end space-x-2">
@@ -283,7 +295,7 @@ const ExamSection: React.FC = () => {
               </Button>
             </div>
           </div>
-        </DrawerItems>
+        </DrawerContent>
       </Drawer>
     </div>
   );

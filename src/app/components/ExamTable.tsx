@@ -1,7 +1,8 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { Button } from "flowbite-react";
+import { Button } from "@/components/ui/button";
+import { Table, TableBody, TableCell, TableHead, TableRow } from "@/components/ui/table";
 import { useEffect, useState } from "react";
 import axiosInstance from "@/lib/axios";
 import { useSession } from "next-auth/react";
@@ -34,20 +35,20 @@ export default function ExamTable() {
   // If we reach here without error, render the table
   return (
     <div className="max-w-4xl mx-auto exam-table">
-      <table className="w-full border-collapse bg-white/3 rounded-10 overflow-hidden">
-        <thead>
-          <tr>
-            <th className="text-left p-3 text-[#cbd5e1]">Examination</th>
-            <th className="text-left p-3 text-[#cbd5e1]">Result</th>
-            <th className="text-left p-3 text-[#cbd5e1]">Status</th>
-          </tr>
-        </thead>
-        <tbody>
+      <Table className="w-full border-collapse bg-white/3 rounded-10 overflow-hidden">
+        <TableHead>
+          <TableRow>
+            <TableCell className="text-left p-3 text-[#cbd5e1]">Examination</TableCell>
+            <TableCell className="text-left p-3 text-[#cbd5e1]">Result</TableCell>
+            <TableCell className="text-left p-3 text-[#cbd5e1]">Status</TableCell>
+          </TableRow>
+        </TableHead>
+        <TableBody>
           {exams.map((exam) => (
-            <tr key={exam.id} className="border-b border-white/6">
-              <td className="p-3">{exam.title}</td>
-              <td className="p-3">{exam.result}</td>
-              <td className="p-3">
+            <TableRow key={exam.id} className="border-b border-white/6">
+              <TableCell className="p-3">{exam.title}</TableCell>
+              <TableCell className="p-3">{exam.result}</TableCell>
+              <TableCell className="p-3">
                 <Button
                   color="green"
                   data-exam={exam.subject}
@@ -57,11 +58,11 @@ export default function ExamTable() {
                 >
                   {exam.examStatus.name}
                 </Button>
-              </td>
-            </tr>
+              </TableCell>
+            </TableRow>
           ))}
-        </tbody>
-      </table>
+        </TableBody>
+      </Table>
     </div>
   );
 }

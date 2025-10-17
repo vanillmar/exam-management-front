@@ -1,5 +1,8 @@
 "use client";
-import { Question } from "@/lib/api";
+
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Question } from "@/types/questions";
 
 interface QuestionAreaProps {
   question: Question;
@@ -28,11 +31,11 @@ export default function QuestionArea({
       <p className="text-lg leading-relaxed mb-3.5">{question.question}</p>
       <div className="flex flex-col gap-2.5">
         {question.options.map((option, i) => (
-          <label
+          <Label
             key={i}
             className="opt flex items-start gap-2.5 p-2.5 bg-white/5 border border-white/8 rounded-10"
           >
-            <input
+            <Input
               type="radio"
               name={`q-${index}`}
               checked={answers[index] === i}
@@ -40,7 +43,7 @@ export default function QuestionArea({
               className="mt-1"
             />
             <span>{option}</span>
-          </label>
+          </Label>
         ))}
       </div>
     </div>
