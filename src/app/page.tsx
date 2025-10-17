@@ -1,3 +1,5 @@
+"using client";
+
 import { redirect } from "next/navigation";
 import { getServerSession } from "next-auth";
 
@@ -9,6 +11,5 @@ export default async function Page() {
   } else {
     redirect("/login");
   }
-
   return null; // Or a loading state
 }

@@ -6,6 +6,7 @@ import { signIn } from "next-auth/react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label";
+
 export default function LoginCard() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -42,11 +43,13 @@ export default function LoginCard() {
     <div className="max-w-[520px] mx-auto mt-[8vh] glass p-5 flex flex-col gap-3.5">
       <div className="flex justify-center mb-0">
         <Image
+          priority={false}
           src="/logo.png"
           alt="Login Logo"
           width={120}
           height={40}
           className="opacity-95 drop-shadow-lg"
+          loading="lazy" 
         />
       </div>
       <h2 className="text-2xl font-extrabold mb-3">Sign In</h2>

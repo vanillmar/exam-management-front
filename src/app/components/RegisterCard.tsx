@@ -98,11 +98,13 @@ export default function RegisterCard() {
     <div className="max-w-[520px] mx-auto mt-[8vh] glass p-5 flex flex-col gap-3.5">
       <div className="flex justify-center mb-0">
         <Image
+          priority={false}
           src="/logo.png"
           alt="Register Logo"
           width={120}
           height={40}
           className="opacity-95 drop-shadow-lg"
+          loading="lazy"
         />
       </div>
       <h2 className="text-2xl font-extrabold mb-3">Sign Up</h2>
@@ -170,11 +172,11 @@ export default function RegisterCard() {
           <Select
             name="role"
             value={roleId}
-            onValueChange={(e) => setRoleId(e.valueOf())}
+            onValueChange={(value) => setRoleId(value)}
           >
             {
               roles.length === 0 &&       
-              <SelectTrigger className="w-[180px]">
+              <SelectTrigger className="w-full">
                 <SelectValue placeholder="Select a role" />
               </SelectTrigger>
             }
