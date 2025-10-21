@@ -1,7 +1,7 @@
 "use client";
 
 import RegisterCard from "@/components/RegisterCard";
-import { getRedirectPathByRole } from "@/lib/util";
+import { getRedirectPath } from "@/lib/utils";
 import { Role } from "@/types/user";
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
@@ -15,7 +15,7 @@ export default function RegisterPage() {
     if (session) {
       const roles: Role[] = session?.user?.roles ?? [];
       const firstRole = roles[0]?.name;
-      router.push(getRedirectPathByRole(firstRole));
+      router.push(getRedirectPath(firstRole));
     }
   }, [session, router]);
 

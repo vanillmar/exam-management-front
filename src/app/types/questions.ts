@@ -1,4 +1,4 @@
-import { ApiResponse } from "./ApiResponse";
+import { Response } from "./ApiResponse";
 
 export interface Question {
   id: number;
@@ -16,6 +16,6 @@ export interface QuestionBank {
 }
 
 // eslint-disable-next-line @typescript-eslint/no-empty-object-type
-export interface QuestionBankResponse extends ApiResponse<QuestionBank> {}
+export interface QuestionBankResponse extends Response<QuestionBank> {}
 // eslint-disable-next-line @typescript-eslint/no-empty-object-type
-export interface QuestionResponse extends ApiResponse<Question> {}
+export interface QuestionResponse extends Response<Question> {}

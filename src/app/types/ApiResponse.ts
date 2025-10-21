@@ -1,4 +1,4 @@
-export interface ApiResponse<T> {
+export interface Response<T> {
   timestamp: string; // ISO date string
   status: number;
   message: string;

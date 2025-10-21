@@ -3,8 +3,7 @@
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
-import { getRedirectPathByRole } from "@/lib/util";
-import { Role } from "@/types/user";
+import { getRedirectPath as redirectPath } from "@/lib/utils";
 
 import LoginCard from "@/components/LoginCard";
 
@@ -14,9 +13,8 @@ export default function LoginPage() {
 
   useEffect(() => {
     if (session) {
-      const roles: Role[] = session?.user?.roles ?? [];
-      const firstRole = roles[0]?.name;
-      router.push(getRedirectPathByRole(firstRole));
+      const roles: string[] = session.user?.roles;
+      router.push(redirectPath(roles));
     }
   }, [session, router]);
 

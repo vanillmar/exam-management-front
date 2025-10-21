@@ -24,7 +24,7 @@ export default function Topbar() {
     return <div>Loading...</div>;
   }
 
-  const name = session?.user?.name;
+  const username = session?.user?.username;
 
   return (
     <header className="sticky top-0 z-10 flex items-center justify-between px-4 py-2 rounded-[15px] bg-black/30 backdrop-blur border-b border-white/6">
@@ -43,8 +43,8 @@ export default function Topbar() {
       </Link>
       <div className="flex items-center gap-2.5">
         <span className="text-muted">{time}</span>
-        <span className="text-muted">{name}</span>
-        {name && (
+        <span className="text-muted">{username}</span>
+        {username && (
           <button
             onClick={() => signOut({ callbackUrl: "/login" })}
             className="ghost"

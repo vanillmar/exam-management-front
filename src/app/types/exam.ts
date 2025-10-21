@@ -1,4 +1,4 @@
-import { ApiResponse } from "./ApiResponse";
+import { Response } from "./ApiResponse";
 import { Subject } from "./subject";
 
 export interface Exam {
@@ -15,4 +15,4 @@ export interface ExamStatus {
   name: string;
 }
 // eslint-disable-next-line @typescript-eslint/no-empty-object-type
-export interface ExamResponse extends ApiResponse<Exam[]> {}
+export interface ExamResponse extends Response<Exam[]> {}

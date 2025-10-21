@@ -3,6 +3,8 @@ import NextAuth, { NextAuthOptions } from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
 import axiosInstance from "@/lib/axios";
 import axios from "axios";
+import { jwtDecode } from "jwt-decode";
+import { DecodedToken } from "@/types/token";
 
 export const authOptions: NextAuthOptions = {
   providers: [
@@ -13,10 +15,7 @@ export const authOptions: NextAuthOptions = {
         password: { label: "Password", type: "password" },
       },
       async authorize(credentials) {
-        if (!credentials?.username || !credentials?.password) {
-          return null;
-        }
-
+        if (!credentials?.username || !credentials?.password) return null;          
         try {
           const response = await axiosInstance.post(
             `/auth/login`,
@@ -28,16 +27,15 @@ export const authOptions: NextAuthOptions = {
           );
 
           const user = response.data.data;
-          if (user && user.token) {
-            return {
-              id: user.id ?? user.username,
-              name: user.username ?? user.email ?? "",
-              token: user.token,
-              roles: user.roles ?? [], // ✅ make sure roles is plural
-            };
-          }
-
-          return null;
+          if (!user?.token) return null;
+          const decoded = jwtDecode<DecodedToken>(user.token);
+          return {
+            id: decoded.id,
+            email: decoded.email,
+            username: decoded.sub,
+            roles: decoded.roles, // parse if stringified
+            token: user.token,
+          };
         } catch (err) {
           const message = axios.isAxiosError(err)
             ? err.response
@@ -54,30 +52,28 @@ export const authOptions: NextAuthOptions = {
   session: {
     strategy: "jwt",
   },
-  debug: true,
-
+  debug: process.env.NODE_ENV === "development",
   callbacks: {
-    // ✅ Store roles in JWT
     async jwt({ token, user }) {
+            // First login
       if (user) {
-        token.id = (user as any).id ?? token.id;
-        token.username = (user as any).name ?? token.username;
-        token.email = (user as any).email ?? token.email;
-        token.accessToken = (user as any).token ?? token.accessToken;
-        token.roles = (user as any).roles ?? []; // ✅ save roles into token
+        token.id = user.id;
+        token.email = user.email;
+        token.username = user.username;
+        token.roles = user.roles;
+        token.accessToken = user.token;
       }
       return token;
     },
 
-    // ✅ Expose roles to session
     async session({ session, token }) {
-      if (session.user) {
-        (session.user as any).id = token.id;
-        (session.user as any).username = token.username;
-        (session.user as any).email = token.email;
-        (session.user as any).roles = token.roles ?? []; // ✅ roles added here
-      }
-      (session as any).accessToken = token.accessToken;
+      session.user = {
+        id: token.id,
+        email: token.email,
+        username: token.username,
+        roles: token.roles,
+      };
+      session.accessToken = token.accessToken;
       return session;
     },
   },
