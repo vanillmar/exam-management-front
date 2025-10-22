@@ -162,7 +162,9 @@ const QuestionsSection: React.FC = () => {
       />
       <Dialog>
         <DialogTrigger asChild>
-          <Button variant="outline" className="mb-4">Add Question</Button>
+          <Button variant="outline" className="mb-4">
+            Add Question
+          </Button>
         </DialogTrigger>
         <DialogContent>
           <DialogHeader>
@@ -171,85 +173,80 @@ const QuestionsSection: React.FC = () => {
             </DialogTitle>
           </DialogHeader>
           <DialogDescription></DialogDescription>
-            <div className="space-y-6">
-              <div>
-                <Label htmlFor="question" className="block mb-2">
-                  Question
-                </Label>
-                <Textarea
-                  value={formData.question}
-                  onChange={handleQuestionChange}
-                  rows={4}
-                  required
-                />
-              </div>
-              <div>
-                <Label className="block mb-2">Options</Label>
-                {formData.options.map((option, index) => (
-                  <div key={index} className="flex space-x-2 mb-2 items-end">
-                    <Input
-                      value={option}
-                      onChange={(e) => handleOptionChange(index, e.target.value)}
-                      placeholder={`Option ${index + 1}`}
-                      className="flex-1"
-                    />
-                    <Button
-                      color="failure"
-                      onClick={() => removeOption(index)}
-                    >
-                      Remove
-                    </Button>
-                  </div>
-                ))}
-                <Button onClick={addOption} color="gray">
-                  Add Option
-                </Button>
-              </div>
-              <div>
-                <Label htmlFor="answerIndex" className="block mb-2">
-                  Correct Answer Index
-                </Label>
-                <Select
-                  value={formData.answerIndex.toString()}
-                  onChange={handleAnswerIndexChange}
-                  required
-                  disabled={formData.options.length === 0}
-                >
-                  {formData.options.map((_, index) => (
-                    <option key={index} value={index.toString()}>
-                      Option {index + 1}
-                    </option>
-                  ))}
-                </Select>
-              </div>
-              <div>
-                <Label htmlFor="subjectId" className="block mb-2">
-                  Subject
-                </Label>
-                <Select
-                  value={formData.subjectId.toString()}
-                  onChange={handleSubjectChange}
-                  required
-                >
-                  <option value="0">Select Subject</option>
-                  {subjects.map((subject) => (
-                    <option key={subject.id} value={subject.id.toString()}>
-                      {subject.name}
-                    </option>
-                  ))}
-                </Select>
-              </div>
+          <div className="space-y-6">
+            <div>
+              <Label htmlFor="question" className="block mb-2">
+                Question
+              </Label>
+              <Textarea
+                value={formData.question}
+                onChange={handleQuestionChange}
+                rows={4}
+                required
+              />
             </div>
+            <div>
+              <Label className="block mb-2">Options</Label>
+              {formData.options.map((option, index) => (
+                <div key={index} className="flex space-x-2 mb-2 items-end">
+                  <Input
+                    value={option}
+                    onChange={(e) => handleOptionChange(index, e.target.value)}
+                    placeholder={`Option ${index + 1}`}
+                    className="flex-1"
+                  />
+                  <Button color="failure" onClick={() => removeOption(index)}>
+                    Remove
+                  </Button>
+                </div>
+              ))}
+              <Button onClick={addOption} color="gray">
+                Add Option
+              </Button>
+            </div>
+            <div>
+              <Label htmlFor="answerIndex" className="block mb-2">
+                Correct Answer Index
+              </Label>
+              <Select
+                value={formData.answerIndex.toString()}
+                onChange={handleAnswerIndexChange}
+                required
+                disabled={formData.options.length === 0}
+              >
+                {formData.options.map((_, index) => (
+                  <option key={index} value={index.toString()}>
+                    Option {index + 1}
+                  </option>
+                ))}
+              </Select>
+            </div>
+            <div>
+              <Label htmlFor="subjectId" className="block mb-2">
+                Subject
+              </Label>
+              <Select
+                value={formData.subjectId.toString()}
+                onChange={handleSubjectChange}
+                required
+              >
+                <option value="0">Select Subject</option>
+                {subjects.map((subject) => (
+                  <option key={subject.id} value={subject.id.toString()}>
+                    {subject.name}
+                  </option>
+                ))}
+              </Select>
+            </div>
+          </div>
           <DialogFooter>
             <Button onClick={handleCreateOrUpdate}>
               {isEdit ? "Update" : "Create"}
             </Button>
-              <DialogClose asChild>
-                <Button color="gray">
-                  Cancel
-                </Button>
-              </DialogClose>
-          </DialogFooter>  
+            <DialogClose asChild>
+              <Button color="gray">Cancel</Button>
+            </DialogClose>
+          </DialogFooter>
         </DialogContent>
       </Dialog>
     </div>

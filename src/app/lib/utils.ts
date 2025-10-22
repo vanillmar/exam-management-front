@@ -1,8 +1,8 @@
-import { clsx, type ClassValue } from "clsx"
-import { twMerge } from "tailwind-merge"
+import { clsx, type ClassValue } from "clsx";
+import { twMerge } from "tailwind-merge";
 
 export function cn(...inputs: ClassValue[]) {
-  return twMerge(clsx(inputs))
+  return twMerge(clsx(inputs));
 }
 
 export function getRedirectPath(roles: string[]): string {
@@ -12,7 +12,7 @@ export function getRedirectPath(roles: string[]): string {
     STUDENT: "/dashboard",
     USER: "/dashboard",
   };
-  
+
   const priority = ["ADMIN", "TEACHER", "STUDENT", "USER"];
 
   for (const role of priority) {
@@ -23,4 +23,3 @@ export function getRedirectPath(roles: string[]): string {
 
   return "/home";
 }
-

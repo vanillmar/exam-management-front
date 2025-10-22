@@ -8,13 +8,14 @@ import axiosInstance from "@/lib/axios";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { 
+import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
-  SelectValue } from "@/components/ui/select";
-import { Checkbox } from "@/components/ui/checkbox" 
+  SelectValue,
+} from "@/components/ui/select";
+import { Checkbox } from "@/components/ui/checkbox";
 import { Role } from "@/types/user";
 export default function RegisterCard() {
   const [username, setUsername] = useState("");
@@ -174,17 +175,16 @@ export default function RegisterCard() {
             value={roleId}
             onValueChange={(value) => setRoleId(value)}
           >
-            {
-              roles.length === 0 &&       
+            {roles.length === 0 && (
               <SelectTrigger className="w-full">
                 <SelectValue placeholder="Select a role" />
               </SelectTrigger>
-            }
+            )}
             <SelectContent>
               {roles.map((role) => (
                 <SelectItem key={role.id} value={role.id.toString()}>
                   {role.name}
-                </SelectItem >
+                </SelectItem>
               ))}
             </SelectContent>
           </Select>

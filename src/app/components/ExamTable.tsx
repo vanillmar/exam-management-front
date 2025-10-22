@@ -2,7 +2,14 @@
 
 import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
 import { useEffect, useState } from "react";
 import axiosInstance from "@/lib/axios";
 import { useSession } from "next-auth/react";
@@ -38,9 +45,15 @@ export default function ExamTable() {
       <Table className="w-full border-collapse bg-white/3 rounded-10 overflow-hidden">
         <TableHeader>
           <TableRow>
-            <TableHead className="text-left p-3 text-[#cbd5e1]">Examination</TableHead >
-            <TableHead className="text-left p-3 text-[#cbd5e1]">Result</TableHead >
-            <TableHead className="text-left p-3 text-[#cbd5e1]">Status</TableHead >
+            <TableHead className="text-left p-3 text-[#cbd5e1]">
+              Examination
+            </TableHead>
+            <TableHead className="text-left p-3 text-[#cbd5e1]">
+              Result
+            </TableHead>
+            <TableHead className="text-left p-3 text-[#cbd5e1]">
+              Status
+            </TableHead>
           </TableRow>
         </TableHeader>
         <TableBody>

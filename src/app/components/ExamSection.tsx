@@ -5,7 +5,7 @@ import React, { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
-import { 
+import {
   Table,
   TableBody,
   TableCaption,
@@ -19,12 +19,8 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select"
-import {
-  Drawer,
-  DrawerContent,
-  DrawerHeader,
-} from "@/components/ui/drawer"
+} from "@/components/ui/select";
+import { Drawer, DrawerContent, DrawerHeader } from "@/components/ui/drawer";
 
 import { Exam, ExamStatus } from "@/types/exam";
 import { Subject } from "@/types/subject";
@@ -158,14 +154,14 @@ const ExamSection: React.FC = () => {
         <TableCaption>A list of exams.</TableCaption>
         <TableHead>
           <TableRow>
-            <TableHead >Actions</TableHead >
-            <TableHead >ID</TableHead >
-            <TableHead >Title</TableHead >
-            <TableHead >Subject</TableHead >
-            <TableHead >Result</TableHead >
-            <TableHead >Time Limit</TableHead >
-            <TableHead >Pass Mark(Percentage)</TableHead >
-            <TableHead >Status</TableHead >
+            <TableHead>Actions</TableHead>
+            <TableHead>ID</TableHead>
+            <TableHead>Title</TableHead>
+            <TableHead>Subject</TableHead>
+            <TableHead>Result</TableHead>
+            <TableHead>Time Limit</TableHead>
+            <TableHead>Pass Mark(Percentage)</TableHead>
+            <TableHead>Status</TableHead>
           </TableRow>
         </TableHead>
         <TableBody className="divide-y">
@@ -200,10 +196,7 @@ const ExamSection: React.FC = () => {
         </TableBody>
       </Table>
 
-      <Drawer
-        open={openDrawer}
-        onClose={() => setOpenDrawer(false)}
-      >
+      <Drawer open={openDrawer} onClose={() => setOpenDrawer(false)}>
         <DrawerHeader title={isEdit ? "Edit Exam" : "Create Exam"} />
         <DrawerContent>
           <div className="space-y-6 p-4">
@@ -274,14 +267,14 @@ const ExamSection: React.FC = () => {
                 onChange={handleInputChange}
                 required
               >
-                 <SelectTrigger className="w-[280px]">
+                <SelectTrigger className="w-[280px]">
                   <SelectValue>Select Status</SelectValue>
-                 </SelectTrigger>
+                </SelectTrigger>
                 <SelectContent>
                   {examStatuses.map((status) => (
                     <SelectItem key={status.id} value={status.id.toString()}>
                       {status.name}
-                    </SelectItem >
+                    </SelectItem>
                   ))}
                 </SelectContent>
               </Select>

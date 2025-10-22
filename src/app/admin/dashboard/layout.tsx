@@ -1,4 +1,5 @@
-import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
+import AppSidebar from "@/components/App-Sidebar";
+import { SidebarProvider } from "@/components/ui/sidebar";
 
 export default function RootLayout({
   children,
@@ -7,9 +8,8 @@ export default function RootLayout({
 }>) {
   return (
     <SidebarProvider>
-        <main>
-            <SidebarTrigger />
-            {children}
-        </main>
+      <AppSidebar />
+      {children}
     </SidebarProvider>
-  )}
+  );
+}

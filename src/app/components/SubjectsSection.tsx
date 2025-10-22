@@ -2,7 +2,13 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { Table, TableBody, TableCell, TableHead, TableRow } from "@/components/ui/table";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableRow,
+} from "@/components/ui/table";
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
@@ -106,7 +112,7 @@ const SubjectsSection: React.FC = () => {
       <Button onClick={openCreateDrawer} className="mb-4">
         Add Subject
       </Button>
-      <Table >
+      <Table>
         <TableHead>
           <TableRow>
             <TableHead>Actions</TableHead>
@@ -144,10 +150,7 @@ const SubjectsSection: React.FC = () => {
         </TableBody>
       </Table>
 
-      <Drawer
-        open={openDrawer}
-        onClose={() => setOpenDrawer(false)}
-      >
+      <Drawer open={openDrawer} onClose={() => setOpenDrawer(false)}>
         <DrawerHeader title={isEdit ? "Edit Subject" : "Create Subject"} />
         <DrawerContent>
           <div className="space-y-6 p-4">

@@ -9,7 +9,7 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-} from "@/components/ui/sidebar"
+} from "@/components/ui/sidebar";
 
 import { FaGraduationCap, FaBook, FaChartBar } from "react-icons/fa";
 import { HiQuestionMarkCircle } from "react-icons/hi";
@@ -19,7 +19,6 @@ import { IoSettingsSharp } from "react-icons/io5";
 import {
   HiChartPie,
   HiOfficeBuilding,
-  HiHome,
   HiLogout,
   HiSupport,
   HiViewBoards,
@@ -29,66 +28,64 @@ import Image from "next/image";
 
 export default function AppSidebar() {
   // Menu items.
-const items = [
-  {
-    title: "Dashboard",
-    url: "#",
-    icon: Home,
-  },
-  {
-    title: "Company",
-    url: "#",
-    icon: HiOfficeBuilding,
-  },
-  {
-    title: "Subjects",
-    url: "#",
-    icon: FaBook,
-  },
-  {
-    title: "Exam & Certifications",
-    url: "#",
-    icon: FaGraduationCap,
-  },
-  {
-    title: "Questions Management",
-    url: "#",
-    icon: HiQuestionMarkCircle,
-  },
-  {
-    title: "Reports",
-    url: "#",
-    icon: FaChartBar,
-  },
-  {
-    title: "Settings",
-    url: "#",
-    icon: IoSettingsSharp,
-  },
-  {
-    title: "Logout",
-    url: "#",
-    icon: HiLogout,
-  },
-]
+  const items = [
+    {
+      title: "Dashboard",
+      url: "#",
+      icon: Home,
+    },
+    {
+      title: "Company",
+      url: "#",
+      icon: HiOfficeBuilding,
+    },
+    {
+      title: "Subjects",
+      url: "#",
+      icon: FaBook,
+    },
+    {
+      title: "Exam & Certifications",
+      url: "#",
+      icon: FaGraduationCap,
+    },
+    {
+      title: "Questions Management",
+      url: "#",
+      icon: HiQuestionMarkCircle,
+    },
+    {
+      title: "Reports",
+      url: "#",
+      icon: FaChartBar,
+    },
+    {
+      title: "Settings",
+      url: "#",
+      icon: IoSettingsSharp,
+    },
+    {
+      title: "Logout",
+      url: "#",
+      icon: HiLogout,
+    },
+  ];
   return (
-    <Sidebar className="bg-primary text-white h-screen transition-all z-50 overflow-y-auto">
-      <SidebarHeader
-      >
-        <Image 
-        width={10}
-        height={10}
-        src={"/logo.png"} 
-        alt={"Fedgtech logo"} 
-        className="logo p-5 text-center border-b border-white/10"/>
+    <Sidebar>
+      <SidebarHeader>
+        <Image
+          width={10}
+          height={10}
+          src={"/logo.png"}
+          alt={"Fedgtech logo"}
+          className="logo p-5 text-center border-b border-white/10"
+        />
         Fedgetech
       </SidebarHeader>
 
       <SidebarContent>
         <SidebarGroup>
-          <SidebarGroupLabel>
-            Application
-          </SidebarGroupLabel>
+          <SidebarGroupLabel>Application</SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>
               {items.map((item) => (
@@ -109,19 +106,19 @@ const items = [
             <SidebarMenuItem>
               <SidebarMenuButton asChild>
                 <a href="#">
-                    <HiChartPie />
-                    Upgrade to Pro
+                  <HiChartPie />
+                  Upgrade to Pro
                 </a>
               </SidebarMenuButton>
-            </SidebarMenuItem >
+            </SidebarMenuItem>
             <SidebarMenuItem>
               <SidebarMenuButton asChild>
                 <a href="#">
-                <HiViewBoards /> 
+                  <HiViewBoards />
                   Documentation
                 </a>
               </SidebarMenuButton>
-            </SidebarMenuItem >
+            </SidebarMenuItem>
             <SidebarMenuItem>
               <SidebarMenuButton asChild>
                 <a href="#">
@@ -129,7 +126,7 @@ const items = [
                   Help
                 </a>
               </SidebarMenuButton>
-            </SidebarMenuItem >
+            </SidebarMenuItem>
           </SidebarGroupContent>
         </SidebarGroup>
       </SidebarContent>

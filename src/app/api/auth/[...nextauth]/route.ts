@@ -15,7 +15,7 @@ export const authOptions: NextAuthOptions = {
         password: { label: "Password", type: "password" },
       },
       async authorize(credentials) {
-        if (!credentials?.username || !credentials?.password) return null;          
+        if (!credentials?.username || !credentials?.password) return null;
         try {
           const response = await axiosInstance.post(
             `/auth/login`,
@@ -55,7 +55,7 @@ export const authOptions: NextAuthOptions = {
   debug: process.env.NODE_ENV === "development",
   callbacks: {
     async jwt({ token, user }) {
-            // First login
+      // First login
       if (user) {
         token.id = user.id;
         token.email = user.email;

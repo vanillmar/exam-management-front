@@ -1,4 +1,3 @@
-import { Toaster } from "@/components/ui/sonner"
 import { Button } from "@/components/ui/button";
 interface ErrorToastProps {
   message: string;

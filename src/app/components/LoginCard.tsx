@@ -4,7 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { signIn } from "next-auth/react";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input"
+import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 
 export default function LoginCard() {
@@ -49,7 +49,7 @@ export default function LoginCard() {
           width={120}
           height={40}
           className="opacity-95 drop-shadow-lg"
-          loading="lazy" 
+          loading="lazy"
         />
       </div>
       <h2 className="text-2xl font-extrabold mb-3">Sign In</h2>

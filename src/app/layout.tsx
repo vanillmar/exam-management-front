@@ -1,19 +1,8 @@
 "use client";
 
 import { SessionProvider } from "next-auth/react";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import "./styles/custom.css"; // Import your new custom CSS after Tailwind
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+// import "./styles/custom.css"; // Import your new custom CSS after Tailwind
 
 export default function RootLayout({
   children,
@@ -25,12 +14,8 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/logo.png" sizes="any" />
       </head>
-      <body
-        // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <SessionProvider>
-          {children}
-        </SessionProvider>
+      <body>
+        <SessionProvider>{children}</SessionProvider>
       </body>
     </html>
   );
