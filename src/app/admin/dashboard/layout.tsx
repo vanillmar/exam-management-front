@@ -1,5 +1,6 @@
 import AppSidebar from "@/components/App-Sidebar";
-import { SidebarProvider } from "@/components/ui/sidebar";
+import { SiteHeader } from "@/components/SiteHeader";
+import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar";
 
 export default function RootLayout({
   children,
@@ -8,8 +9,11 @@ export default function RootLayout({
 }>) {
   return (
     <SidebarProvider>
-      <AppSidebar />
-      {children}
+      <AppSidebar variant="inset"/>
+        <SidebarInset>
+          <SiteHeader />
+          {children}
+      </SidebarInset>
     </SidebarProvider>
   );
 }

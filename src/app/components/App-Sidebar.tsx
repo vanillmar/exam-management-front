@@ -26,52 +26,53 @@ import {
 import { Home } from "lucide-react";
 import Image from "next/image";
 
-export default function AppSidebar() {
-  // Menu items.
-  const items = [
-    {
-      title: "Dashboard",
-      url: "#",
-      icon: Home,
-    },
-    {
-      title: "Company",
-      url: "#",
-      icon: HiOfficeBuilding,
-    },
-    {
-      title: "Subjects",
-      url: "#",
-      icon: FaBook,
-    },
-    {
-      title: "Exam & Certifications",
-      url: "#",
-      icon: FaGraduationCap,
-    },
-    {
-      title: "Questions Management",
-      url: "#",
-      icon: HiQuestionMarkCircle,
-    },
-    {
-      title: "Reports",
-      url: "#",
-      icon: FaChartBar,
-    },
-    {
-      title: "Settings",
-      url: "#",
-      icon: IoSettingsSharp,
-    },
-    {
-      title: "Logout",
-      url: "#",
-      icon: HiLogout,
-    },
-  ];
+// Menu items.
+const items = [
+  {
+    title: "Dashboard",
+    url: "#",
+    icon: Home,
+  },
+  {
+    title: "Company",
+    url: "#",
+    icon: HiOfficeBuilding,
+  },
+  {
+    title: "Subjects",
+    url: "#",
+    icon: FaBook,
+  },
+  {
+    title: "Exam & Certifications",
+    url: "#",
+    icon: FaGraduationCap,
+  },
+  {
+    title: "Questions Management",
+    url: "#",
+    icon: HiQuestionMarkCircle,
+  },
+  {
+    title: "Reports",
+    url: "#",
+    icon: FaChartBar,
+  },
+  {
+    title: "Settings",
+    url: "#",
+    icon: IoSettingsSharp,
+  },
+  {
+    title: "Logout",
+    url: "#",
+    icon: HiLogout,
+  },
+];
+
+export default function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   return (
-    <Sidebar>
+    <Sidebar collapsible="offcanvas" {...props}>
       <SidebarHeader>
         <Image
           width={10}

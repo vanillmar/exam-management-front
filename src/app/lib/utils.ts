@@ -8,9 +8,10 @@ export function cn(...inputs: ClassValue[]) {
 export function getRedirectPath(roles: string[]): string {
   const map: Record<string, string> = {
     ADMIN: "/admin/dashboard",
-    TEACHER: "/teacher",
-    STUDENT: "/dashboard",
-    USER: "/dashboard",
+    INSPECTOR: "/inspector/dashboard",
+    PILOT: "/pilot/dashboard",
+    STUDENT: "/student/dashboard",
+    USER: "/user/dashboard",
   };
 
   const priority = ["ADMIN", "TEACHER", "STUDENT", "USER"];
