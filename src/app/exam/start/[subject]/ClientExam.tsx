@@ -9,7 +9,7 @@ import CalculatorModal from "@/components/CalculatorModal";
 import CommentModal from "@/components/CommentModal";
 import AttachmentModal from "@/components/AttachmentModal";
 import FinishModal from "@/components/FinishModal";
-import { fetchQuestions } from "@/services/questions";
+import { getQuestionsBySubjectName } from "@/services/questions";
 import LoadingScreen from "@/components/LoadingScreen";
 import { Question } from "@/types/questions";
 
@@ -33,7 +33,7 @@ export default function ClientExam({ subject }: { subject: string }) {
   useEffect(() => {
     const loadQuestions = async () => {
       try {
-        const data = await fetchQuestions(subject);
+        const data = await getQuestionsBySubjectName(subject);
         const questionCount = data.questionCount; // Assuming the API returns questionCount
 
         const shuffled = [...data.questions]

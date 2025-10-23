@@ -40,4 +40,22 @@ api.interceptors.response.use(
   },
 );
 
+export async function apiRequest<T>(
+  endpoint: string,
+  options?: {
+    method?: "GET" | "POST" | "PUT" | "PATCH" | "DELETE";
+    data?: unknown;
+    params?: Record<string, unknown>;
+  },
+): Promise<T> {
+  const res = await api.request<T>({
+    url: endpoint,
+    method: options?.method || "GET",
+    data: options?.data,
+    params: options?.params,
+  });
+
+  return res.data;
+}
+
 export default api;

@@ -13,7 +13,7 @@ import {
 import { useEffect, useState } from "react";
 import api from "@/lib/axios";
 import { useSession } from "next-auth/react";
-import { Exam, ExamResponse } from "@/types/exam";
+import { Exam, ExamsResponse } from "@/types/exam";
 
 export default function ExamTable() {
   const { data: session } = useSession();
@@ -23,7 +23,7 @@ export default function ExamTable() {
   useEffect(() => {
     const fetchExams = async () => {
       try {
-        const response = await api.get<ExamResponse>(`/exams`, {
+        const response = await api.get<ExamsResponse>(`/exams`, {
           headers: {
             Authorization: `Bearer ${session?.accessToken}`,
           },
