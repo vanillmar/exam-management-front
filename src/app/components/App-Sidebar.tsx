@@ -10,63 +10,59 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
 } from "@/components/ui/sidebar";
-
-import { FaGraduationCap, FaBook, FaChartBar } from "react-icons/fa";
-import { HiQuestionMarkCircle } from "react-icons/hi";
-
-import { IoSettingsSharp } from "react-icons/io5";
-
+import { HiSupport, HiViewBoards } from "react-icons/hi";
 import {
-  HiChartPie,
-  HiOfficeBuilding,
-  HiLogout,
-  HiSupport,
-  HiViewBoards,
-} from "react-icons/hi";
-import { Home } from "lucide-react";
+  LayoutDashboard,
+  Users,
+  GraduationCap,
+  FileQuestion,
+  BarChart3,
+  Proportions,
+  Settings,
+} from "lucide-react";
 import Image from "next/image";
 
 // Menu items.
 const items = [
   {
     title: "Dashboard",
-    url: "#",
-    icon: Home,
+    url: "/admin/dashboard",
+    icon: LayoutDashboard,
   },
   {
-    title: "Company",
-    url: "#",
-    icon: HiOfficeBuilding,
+    title: "Students",
+    url: "/admin/students",
+    icon: Users,
   },
   {
-    title: "Subjects",
-    url: "#",
-    icon: FaBook,
+    title: "Instructors",
+    url: "/admin/instructors",
+    icon: GraduationCap,
   },
   {
-    title: "Exam & Certifications",
-    url: "#",
-    icon: FaGraduationCap,
+    title: "Courses",
+    url: "/admin/courses",
+    icon: FileQuestion,
   },
   {
-    title: "Questions Management",
-    url: "#",
-    icon: HiQuestionMarkCircle,
+    title: "Exams",
+    url: "/admin/exams",
+    icon: FileQuestion,
+  },
+  {
+    title: "Results",
+    url: "/admin/results",
+    icon: BarChart3,
   },
   {
     title: "Reports",
-    url: "#",
-    icon: FaChartBar,
+    url: "/admin/reports",
+    icon: Proportions,
   },
   {
     title: "Settings",
-    url: "#",
-    icon: IoSettingsSharp,
-  },
-  {
-    title: "Logout",
-    url: "#",
-    icon: HiLogout,
+    url: "/admin/settings",
+    icon: Settings,
   },
 ];
 
@@ -108,15 +104,7 @@ export default function AppSidebar({
           <SidebarGroupContent>
             <SidebarMenuItem>
               <SidebarMenuButton asChild>
-                <a href="#">
-                  <HiChartPie />
-                  Upgrade to Pro
-                </a>
-              </SidebarMenuButton>
-            </SidebarMenuItem>
-            <SidebarMenuItem>
-              <SidebarMenuButton asChild>
-                <a href="#">
+                <a href="/admin/docs">
                   <HiViewBoards />
                   Documentation
                 </a>
@@ -124,7 +112,7 @@ export default function AppSidebar({
             </SidebarMenuItem>
             <SidebarMenuItem>
               <SidebarMenuButton asChild>
-                <a href="#">
+                <a href="/admin/support">
                   <HiSupport />
                   Help
                 </a>

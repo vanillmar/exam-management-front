@@ -1,4 +1,4 @@
-import AppSidebar from "@/components/App-Sidebar";
+import AppSidebar from "@/components/app-sidebar";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar";
 
