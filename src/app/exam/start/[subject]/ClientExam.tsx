@@ -9,7 +9,7 @@ import CalculatorModal from "@/components/CalculatorModal";
 import CommentModal from "@/components/CommentModal";
 import AttachmentModal from "@/components/AttachmentModal";
 import FinishModal from "@/components/FinishModal";
-import { fetchQuestions } from "@/lib/api";
+import { fetchQuestions } from "@/services/questions";
 import LoadingScreen from "@/components/LoadingScreen";
 import { Question } from "@/types/questions";
 

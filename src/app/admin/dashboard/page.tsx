@@ -5,7 +5,6 @@ import { DataTable } from "@/components/data-table";
 import { SectionCards } from "@/components/SessionCards";
 import data from "./data.json";
 
-
 export default function AdminDashboard() {
   return (
     <div className="flex flex-1 flex-col">

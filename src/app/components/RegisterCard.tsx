@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import axios from "axios";
-import axiosInstance from "@/lib/axios";
+import api from "@/lib/axios";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -36,7 +36,7 @@ export default function RegisterCard() {
   useEffect(() => {
     const fetchRoles = async () => {
       try {
-        const response = await axiosInstance.post(`/auth/roles`);
+        const response = await api.post(`/auth/roles`);
         setRoles(response.data.data.roles);
         if (response.data.data.length > 0) {
           setRoleId(response.data.data[0].id); // Set default role to first option
@@ -74,7 +74,7 @@ export default function RegisterCard() {
 
     setLoading(true);
     try {
-      const response = await axiosInstance.post(`/auth/register`, {
+      const response = await api.post(`/auth/register`, {
         firstname,
         lastname,
         username: trimmedUsername,

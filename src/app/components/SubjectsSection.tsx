@@ -14,7 +14,7 @@ import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Drawer, DrawerContent, DrawerHeader } from "@/components/ui/drawer";
 
-import axiosInstance from "@/lib/axios";
+import api from "@/lib/axios";
 import { Subject } from "@/types/subject";
 import { fetchSubjects } from "@/lib/api";
 import { useSession } from "next-auth/react";
@@ -49,13 +49,13 @@ const SubjectsSection: React.FC = () => {
     const url = isEdit ? `/subjects/${currentSubject?.id}` : "/subjects";
     let response;
     if (isEdit) {
-      response = await axiosInstance.put(url, formData, {
+      response = await api.put(url, formData, {
         headers: {
           Authorization: `Bearer ${session?.accessToken}`,
         },
       });
     } else {
-      response = await axiosInstance.post(url, formData, {
+      response = await api.post(url, formData, {
         headers: {
           Authorization: `Bearer ${session?.accessToken}`,
         },
@@ -70,7 +70,7 @@ const SubjectsSection: React.FC = () => {
 
   const handleDelete = async (id: number) => {
     if (confirm("Are you sure you want to delete this subject?")) {
-      const response = await axiosInstance.delete(`/subjects/${id}`, {
+      const response = await api.delete(`/subjects/${id}`, {
         headers: {
           Authorization: `Bearer ${session?.accessToken}`,
         },

@@ -4,11 +4,11 @@ export default function FinishModal({
   remaining,
   onCancel,
   onConfirm,
-}: {
+}: Readonly<{
   remaining: number;
   onCancel: () => void;
   onConfirm: () => void;
-}) {
+}>) {
   return (
     <div className="modal fixed inset-0 flex items-center justify-center">
       <div className="modal-card w-[92%]border border-white/10 rounded-[12px] bg-black max-w-[520px] p-5">

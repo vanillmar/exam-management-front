@@ -17,7 +17,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 
-import axiosInstance from "@/lib/axios";
+import api from "@/lib/axios";
 import { Question, QuestionResponse } from "@/types/questions";
 import { Subject, SubjectsResponse } from "@/types/subject";
 import QuestionsTable from "./QuestionTable";
@@ -30,7 +30,7 @@ export const fetchQuestions = async ({
   sortOrder = "asc",
   search = "",
 }) => {
-  const { data } = await axiosInstance.get<QuestionResponse>("/questions", {
+  const { data } = await api.get<QuestionResponse>("/questions", {
     params: { page, pageSize, sortBy, sortOrder, search },
   });
   return data;
@@ -59,7 +59,7 @@ const QuestionsSection: React.FC = () => {
   const fetchSubjects = async () => {
     const {
       data: { data },
-    } = await axiosInstance.get<SubjectsResponse>("/subjects");
+    } = await api.get<SubjectsResponse>("/subjects");
     setSubjects(data);
   };
 
@@ -115,9 +115,9 @@ const QuestionsSection: React.FC = () => {
     const url = isEdit ? `/questions/${currentQuestion?.id}` : "/questions";
     let response;
     if (isEdit) {
-      response = await axiosInstance.put(url, requestData);
+      response = await api.put(url, requestData);
     } else {
-      response = await axiosInstance.post(url, requestData);
+      response = await api.post(url, requestData);
     }
     if (response.status >= 200 && response.status < 300) {
       fetchQuestions({});
@@ -127,7 +127,7 @@ const QuestionsSection: React.FC = () => {
 
   const handleDelete = async (id: number) => {
     if (confirm("Are you sure you want to delete this question?")) {
-      const response = await axiosInstance.delete(`/api/questions/${id}`);
+      const response = await api.delete(`/api/questions/${id}`);
       if (response.status >= 200 && response.status < 300) {
         fetchQuestions({});
       }

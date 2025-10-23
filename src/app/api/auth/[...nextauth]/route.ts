@@ -1,7 +1,7 @@
 // app/api/auth/[...nextauth]/route.ts
 import NextAuth, { NextAuthOptions } from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
-import axiosInstance from "@/lib/axios";
+import api from "@/lib/axios";
 import axios from "axios";
 import { jwtDecode } from "jwt-decode";
 import { DecodedToken } from "@/types/token";
@@ -17,7 +17,7 @@ export const authOptions: NextAuthOptions = {
       async authorize(credentials) {
         if (!credentials?.username || !credentials?.password) return null;
         try {
-          const response = await axiosInstance.post(
+          const response = await api.post(
             `/auth/login`,
             {
               username: credentials.username,
@@ -37,11 +37,14 @@ export const authOptions: NextAuthOptions = {
             token: user.token,
           };
         } catch (err) {
-          const message = axios.isAxiosError(err)
-            ? err.response
+          let message: string;
+          if (axios.isAxiosError(err)) {
+            message = err.response
               ? JSON.stringify(err.response.data) + " - " + err.message
-              : err.message
-            : ((err as Error).message ?? "Authentication error");
+              : err.message;
+          } else {
+            message = (err as Error).message ?? "Authentication error";
+          }
           console.error("Credentials authorize error:", message);
           return null;
         }

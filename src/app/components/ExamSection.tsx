@@ -24,7 +24,7 @@ import { Drawer, DrawerContent, DrawerHeader } from "@/components/ui/drawer";
 
 import { Exam, ExamStatus } from "@/types/exam";
 import { Subject } from "@/types/subject";
-import axiosInstance from "@/lib/axios";
+import api from "@/lib/axios";
 import { HiOutlinePencil, HiOutlineTrash } from "react-icons/hi";
 
 const ExamSection: React.FC = () => {
@@ -50,17 +50,17 @@ const ExamSection: React.FC = () => {
   }, []);
 
   const fetchExams = async () => {
-    const { data } = await axiosInstance.get("/exams");
+    const { data } = await api.get("/exams");
     setExams(data.data);
   };
 
   const fetchSubjects = async () => {
-    const { data } = await axiosInstance.get("/subjects");
+    const { data } = await api.get("/subjects");
     setSubjects(data.data);
   };
 
   const fetchExamStatuses = async () => {
-    const { data } = await axiosInstance.get("/exam-statuses");
+    const { data } = await api.get("/exam-statuses");
     setExamStatuses(data.data);
   };
 
@@ -93,9 +93,9 @@ const ExamSection: React.FC = () => {
     };
     let response;
     if (isEdit) {
-      response = await axiosInstance.put(url, requestData);
+      response = await api.put(url, requestData);
     } else {
-      response = await axiosInstance.post(url, requestData);
+      response = await api.post(url, requestData);
     }
     if (response.status >= 200 && response.status < 300) {
       fetchExams();
@@ -106,7 +106,7 @@ const ExamSection: React.FC = () => {
 
   const handleDelete = async (id: number) => {
     if (confirm("Are you sure you want to delete this exam?")) {
-      const response = await axiosInstance.delete(`/exams/${id}`);
+      const response = await api.delete(`/exams/${id}`);
       if (response.status >= 200 && response.status < 300) {
         fetchExams();
       }

@@ -9,10 +9,10 @@ export default function RootLayout({
 }>) {
   return (
     <SidebarProvider>
-      <AppSidebar variant="inset"/>
-        <SidebarInset>
-          <SiteHeader />
-          {children}
+      <AppSidebar variant="inset" />
+      <SidebarInset>
+        <SiteHeader />
+        {children}
       </SidebarInset>
     </SidebarProvider>
   );
