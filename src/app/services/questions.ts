@@ -3,7 +3,18 @@ import {
   QuestionBank,
   QuestionBankResponse,
   QuestionsResponse,
+  TotalQuestionsResponse,
 } from "@/types/questions";
+
+export const getTotalQuestions = async () => {
+  const response = await apiRequest<TotalQuestionsResponse>(
+    "/questions/stats/total",
+  );
+  if (!response.success) {
+    throw new Error(`Failed to fetch total questions. ${response.message}`);
+  }
+  return response.data;
+};
 
 export const getQuestionsBySubjectName = async (
   subject: string,

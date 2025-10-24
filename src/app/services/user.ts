@@ -1,5 +1,43 @@
 import { apiRequest } from "@/lib/axios";
-import { Role, UserResponse, UsersResponse, UUID } from "@/types/user";
+import {
+  Role,
+  TotalUsersResponse,
+  TotalActiveUsersResponse,
+  TotalInactiveUsersResponse,
+  UserResponse,
+  UsersResponse,
+  UUID,
+} from "@/types/user";
+
+export const getTotalUsers = async () => {
+  const response = await apiRequest<TotalUsersResponse>(`/users/stats/total`);
+  if (!response.success) {
+    throw new Error(`Failed to fetch total users. ${response.message}`);
+  }
+  return response.data;
+};
+
+export const getTotalActiveUsers = async () => {
+  const response = await apiRequest<TotalActiveUsersResponse>(
+    `/users/stats/total-active`,
+  );
+  if (!response.success) {
+    throw new Error(`Failed to fetch total active users. ${response.message}`);
+  }
+  return response.data;
+};
+
+export const getTotalInactiveUsers = async () => {
+  const response = await apiRequest<TotalInactiveUsersResponse>(
+    `/users/stats/total-inactive`,
+  );
+  if (!response.success) {
+    throw new Error(
+      `Failed to fetch total inactive users. ${response.message}`,
+    );
+  }
+  return response.data;
+};
 
 export const getAllUsers = async () => {
   const response = await apiRequest<UsersResponse>(`/users`);

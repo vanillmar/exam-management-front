@@ -1,5 +1,15 @@
 import { apiRequest } from "@/lib/axios";
-import { SubjectsResponse } from "@/types/subject";
+import { SubjectsResponse, TotalSubjectsResponse } from "@/types/subject";
+
+export const getTotalSubjects = async () => {
+  const response = await apiRequest<TotalSubjectsResponse>(
+    "/subjects/stats/total",
+  );
+  if (!response.success) {
+    throw new Error(`Failed to fetch total subjects. ${response.message}`);
+  }
+  return response.data;
+};
 
 export const getSubjects = async () => {
   const response = await apiRequest<SubjectsResponse>("/subjects");

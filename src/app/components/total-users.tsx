@@ -1,17 +1,17 @@
 "use client";
 import useSWR from "swr";
 import { IconTrendingUp } from "@tabler/icons-react";
-import { getTotalActiveStudents } from "@/services/students";
 import { StatCard } from "@/components/stat-card";
+import { getTotalActiveUsers } from "@/services/user";
 
 const fetcher = async () => {
-  const res = await getTotalActiveStudents();
+  const res = await getTotalActiveUsers();
   return res.total;
 };
 
-export default function TotalStudents() {
+export default function TotalUsers() {
   const { data, error, isLoading, mutate, isValidating } = useSWR(
-    "total-students",
+    "total-users",
     fetcher,
     {
       revalidateOnFocus: false,
@@ -21,8 +21,8 @@ export default function TotalStudents() {
 
   return (
     <StatCard
-      title="Active Students"
-      description="Total Students"
+      title="Users"
+      description="Total Active Users"
       value={data?.toLocaleString("en-US")}
       icon={<IconTrendingUp className="size-4" />}
       isLoading={isLoading || isValidating}

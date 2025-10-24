@@ -1,15 +1,15 @@
 "use client";
 import useSWR from "swr";
 import { IconTrendingUp } from "@tabler/icons-react";
-import { getTotalActiveStudents } from "@/services/students";
 import { StatCard } from "@/components/stat-card";
+import { getTotalQuestions } from "@/services/questions";
 
 const fetcher = async () => {
-  const res = await getTotalActiveStudents();
+  const res = await getTotalQuestions();
   return res.total;
 };
 
-export default function TotalStudents() {
+export default function TotalQuestions() {
   const { data, error, isLoading, mutate, isValidating } = useSWR(
     "total-students",
     fetcher,
@@ -21,8 +21,8 @@ export default function TotalStudents() {
 
   return (
     <StatCard
-      title="Active Students"
-      description="Total Students"
+      title="Questions"
+      description="Total Questions"
       value={data?.toLocaleString("en-US")}
       icon={<IconTrendingUp className="size-4" />}
       isLoading={isLoading || isValidating}
