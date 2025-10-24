@@ -31,7 +31,7 @@ export function StatCard({
   isLoading = false,
   isError = false,
   onRetry,
-}: StatCardProps) {
+}: Readonly<StatCardProps>) {
   // 🟡 Loading skeleton
   if (isLoading) {
     return (
@@ -56,7 +56,7 @@ export function StatCard({
         <CardHeader>
           <CardDescription>{description}</CardDescription>
           <CardTitle className="text-xl font-semibold text-red-400">
-            Error loading data
+            Unable to fetch data
           </CardTitle>
           {onRetry && (
             <CardAction>
