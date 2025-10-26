@@ -1,7 +1,9 @@
+"use client";
 // components/Sidebar.js
 import {
   Sidebar,
   SidebarContent,
+  SidebarFooter,
   SidebarGroup,
   SidebarGroupContent,
   SidebarGroupLabel,
@@ -19,9 +21,17 @@ import {
   BarChart3,
   Proportions,
   Settings,
+  User2,
+  ChevronUp,
 } from "lucide-react";
 import Image from "next/image";
-
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import { signOut, useSession } from "next-auth/react";
 // Menu items.
 const items = [
   {
@@ -69,6 +79,9 @@ const items = [
 export default function AppSidebar({
   ...props
 }: React.ComponentProps<typeof Sidebar>) {
+  const { data: session } = useSession();
+  const username = session?.user?.username;
+
   return (
     <Sidebar collapsible="offcanvas" {...props}>
       <SidebarHeader>
@@ -81,7 +94,6 @@ export default function AppSidebar({
         />
         Fedgetech
       </SidebarHeader>
-
       <SidebarContent>
         <SidebarGroup>
           <SidebarGroupLabel>Application</SidebarGroupLabel>
@@ -121,6 +133,36 @@ export default function AppSidebar({
           </SidebarGroupContent>
         </SidebarGroup>
       </SidebarContent>
+      <SidebarFooter>
+        <SidebarMenu>
+          <SidebarMenuItem>
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <SidebarMenuButton>
+                  <User2 /> {username}
+                  <ChevronUp className="ml-auto" />
+                </SidebarMenuButton>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent
+                side="top"
+                className="w-[--radix-popper-anchor-width]"
+              >
+                <DropdownMenuItem>
+                  <span>Account</span>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                  <span>Billing</span>
+                </DropdownMenuItem>
+                <DropdownMenuItem
+                  onClick={() => signOut({ callbackUrl: "/login" })}
+                >
+                  <span>Sign out</span>
+                </DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
+          </SidebarMenuItem>
+        </SidebarMenu>
+      </SidebarFooter>
     </Sidebar>
   );
 }

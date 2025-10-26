@@ -2,17 +2,20 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { signIn } from "next-auth/react";
+import { signIn, useSession } from "next-auth/react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import { useRouter } from "next/navigation";
+import { getRedirectPath } from "@/lib/utils";
 
 export default function LoginCard() {
+  const { data: session } = useSession();
+  const router = useRouter();
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
-
   const handleLogin = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setError(null);
@@ -37,6 +40,7 @@ export default function LoginCard() {
         setLoading(false);
         return;
       }
+      if (session) router.push(getRedirectPath(session.user.roles));
     } catch {
       setError("An unexpected error occurred");
       setLoading(false);

@@ -5,6 +5,7 @@ import axios from "axios";
 import { jwtDecode } from "jwt-decode";
 import { DecodedToken } from "@/types/token";
 import { login } from "@/services/auth";
+import { boolean } from "zod";
 
 export const authOptions: NextAuthOptions = {
   providers: [
@@ -28,11 +29,7 @@ export const authOptions: NextAuthOptions = {
             id: decoded.id,
             email: decoded.email,
             username: decoded.sub,
-            roles: decoded.roles
-              .replace(/^\[|\]$/g, "")
-              .split(",")
-              .map((p) => p.trim())
-              .filter(Boolean),
+            roles: decoded.roles,
             token: token,
             refreshToken: refreshToken,
             expiresIn: expiresAt,

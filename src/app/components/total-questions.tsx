@@ -11,7 +11,7 @@ const fetcher = async () => {
 
 export default function TotalQuestions() {
   const { data, error, isLoading, mutate, isValidating } = useSWR(
-    "total-students",
+    "total-questions",
     fetcher,
     {
       revalidateOnFocus: false,
