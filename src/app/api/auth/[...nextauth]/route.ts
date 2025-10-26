@@ -1,10 +1,10 @@
 // app/api/auth/[...nextauth]/route.ts
 import NextAuth, { NextAuthOptions } from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
-import api from "@/lib/axios";
 import axios from "axios";
 import { jwtDecode } from "jwt-decode";
 import { DecodedToken } from "@/types/token";
+import { login } from "@/services/auth";
 
 export const authOptions: NextAuthOptions = {
   providers: [
@@ -17,24 +17,25 @@ export const authOptions: NextAuthOptions = {
       async authorize(credentials) {
         if (!credentials?.username || !credentials?.password) return null;
         try {
-          const response = await api.post(
-            `/auth/login`,
-            {
-              username: credentials.username,
-              password: credentials.password,
-            },
-            { timeout: 5000 },
+          const response = await login(
+            credentials.username,
+            credentials.password,
           );
-
-          const user = response.data.data;
-          if (!user?.token) return null;
-          const decoded = jwtDecode<DecodedToken>(user.token);
+          const { token, refreshToken, expiresAt } = response;
+          if (!token) return null;
+          const decoded = jwtDecode<DecodedToken>(token);
           return {
             id: decoded.id,
             email: decoded.email,
             username: decoded.sub,
-            roles: decoded.roles, // parse if stringified
-            token: user.token,
+            roles: decoded.roles
+              .replace(/^\[|\]$/g, "")
+              .split(",")
+              .map((p) => p.trim())
+              .filter(Boolean),
+            token: token,
+            refreshToken: refreshToken,
+            expiresIn: expiresAt,
           };
         } catch (err) {
           let message: string;
@@ -65,6 +66,7 @@ export const authOptions: NextAuthOptions = {
         token.username = user.username;
         token.roles = user.roles;
         token.accessToken = user.token;
+        token.refreshToken = user.refreshToken;
       }
       return token;
     },
@@ -77,6 +79,8 @@ export const authOptions: NextAuthOptions = {
         roles: token.roles,
       };
       session.accessToken = token.accessToken;
+      session.refreshToken = token.refreshToken;
+      session.expiresIn = token.expiresIn;
       return session;
     },
   },

@@ -11,6 +11,8 @@ declare module "next-auth" {
       roles: string[];
     };
     accessToken: string;
+    refreshToken: string;
+    expiresIn: number;
   }
 
   interface User {
@@ -19,6 +21,7 @@ declare module "next-auth" {
     email?: string;
     roles: string[];
     token: string;
+    refreshToken: string;
   }
 }
 
@@ -29,5 +32,7 @@ declare module "next-auth/jwt" {
     email?: string;
     roles: string[];
     token: string;
+    refreshToken: string;
+    expiresIn: number;
   }
 }

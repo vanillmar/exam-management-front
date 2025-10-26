@@ -4,19 +4,22 @@ import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import axios from "axios";
-import api from "@/lib/axios";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import {
   Select,
   SelectContent,
+  SelectGroup,
   SelectItem,
+  SelectLabel,
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
 import { Checkbox } from "@/components/ui/checkbox";
-import { Role } from "@/types/user";
+import { Role } from "@/types/role";
+import { getRoles } from "@/services/roles";
+import { registerUser } from "@/services/auth";
 export default function RegisterCard() {
   const [username, setUsername] = useState("");
   const [firstname, setFirstName] = useState("");
@@ -36,10 +39,10 @@ export default function RegisterCard() {
   useEffect(() => {
     const fetchRoles = async () => {
       try {
-        const response = await api.post(`/auth/roles`);
-        setRoles(response.data.data.roles);
-        if (response.data.data.length > 0) {
-          setRoleId(response.data.data[0].id); // Set default role to first option
+        const roles: Role[] = await getRoles();
+        setRoles(roles);
+        if (roles.length > 0) {
+          setRoleId(roles[0].id.toString()); // Set default role to first option
         }
       } catch {
         setError("Failed to load roles");
@@ -74,17 +77,19 @@ export default function RegisterCard() {
 
     setLoading(true);
     try {
-      const response = await api.post(`/auth/register`, {
+      const response = await registerUser(
         firstname,
         lastname,
-        username: trimmedUsername,
+        trimmedUsername,
         email,
         password,
         roleId,
-        isActive: enabled,
-      });
-      setSuccess(response.data.message || "Registration successful!");
-      setTimeout(() => router.push("/login"), 2000);
+        enabled,
+      );
+      setSuccess(response.message || "Registration successful!");
+      setTimeout(() => {
+        router.push("/login");
+      }, 2000);
     } catch (err) {
       const message = axios.isAxiosError(err)
         ? err.response?.data?.message || "Registration failed"
@@ -175,17 +180,18 @@ export default function RegisterCard() {
             value={roleId}
             onValueChange={(value) => setRoleId(value)}
           >
-            {roles.length === 0 && (
-              <SelectTrigger className="w-full">
-                <SelectValue placeholder="Select a role" />
-              </SelectTrigger>
-            )}
+            <SelectTrigger className="w-full">
+              <SelectValue placeholder="Select a role" />
+            </SelectTrigger>
             <SelectContent>
-              {roles.map((role) => (
-                <SelectItem key={role.id} value={role.id.toString()}>
-                  {role.name}
-                </SelectItem>
-              ))}
+              <SelectGroup>
+                <SelectLabel>Roles</SelectLabel>
+                {roles.map((role) => (
+                  <SelectItem key={role.id} value={role.id.toString()}>
+                    {role.name}
+                  </SelectItem>
+                ))}
+              </SelectGroup>
             </SelectContent>
           </Select>
         </Label>

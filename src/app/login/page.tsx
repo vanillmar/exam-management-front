@@ -1,22 +1,16 @@
-"use client";
-
-import { useSession } from "next-auth/react";
-import { useRouter } from "next/navigation";
-import { useEffect } from "react";
-import { getRedirectPath as redirectPath } from "@/lib/utils";
-
+import { getServerSession } from "next-auth/next";
+import { redirect } from "next/navigation";
+import { authOptions } from "@/api/auth/[...nextauth]/route"; // Adjust path as needed
+import { getRedirectPath } from "@/lib/utils";
 import LoginCard from "@/components/LoginCard";
 
-export default function LoginPage() {
-  const { data: session } = useSession();
-  const router = useRouter();
-
-  useEffect(() => {
-    if (session) {
-      const roles: string[] = session.user?.roles;
-      router.push(redirectPath(roles));
-    }
-  }, [session, router]);
+export default async function LoginPage() {
+  const session = await getServerSession(authOptions);
+  if (session) {
+    // If the user is already authenticated, redirect them to the home page or dashboard
+    const roles: string[] = session.user?.roles;
+    redirect(getRedirectPath(roles));
+  }
 
   return <LoginCard />;
 }

@@ -1,11 +1,9 @@
 // src/types/auth.ts
-export interface ResponseDTO {
-  timestamp: string;
-  status: number;
-  message: string;
-}
+import { Response } from "@/types/response";
 
-export interface AuthResponseDTO extends ResponseDTO {
+export interface Auth {
   token: string;
-  username: string;
+  refreshToken: string;
+  expiresAt: string;
 }
+export type AuthResponseDTO = Response<Auth>;

@@ -1,6 +1,5 @@
 import { apiRequest } from "@/lib/axios";
 import {
-  Role,
   TotalUsersResponse,
   TotalActiveUsersResponse,
   TotalInactiveUsersResponse,
@@ -8,6 +7,7 @@ import {
   UsersResponse,
   UUID,
 } from "@/types/user";
+import { Role } from "@/types/role";
 
 export const getTotalUsers = async () => {
   const response = await apiRequest<TotalUsersResponse>(`/users/stats/total`);

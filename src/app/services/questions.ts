@@ -2,6 +2,7 @@ import { apiRequest } from "@/lib/axios";
 import {
   QuestionBank,
   QuestionBankResponse,
+  QuestionResponse,
   QuestionsResponse,
   TotalQuestionsResponse,
 } from "@/types/questions";
@@ -51,7 +52,7 @@ export const getAllQuestions = async (
 };
 
 export const getQuestionById = async (id: number) => {
-  const response = await apiRequest<QuestionsResponse>(`/questions/${id}`);
+  const response = await apiRequest<QuestionResponse>(`/questions/${id}`);
   if (!response.success) {
     throw new Error(`Failed to fetch question. ${response.message}`);
   }
@@ -64,14 +65,14 @@ export const createQuestion = async (questionData: {
   answerIndex: number;
   subjectId: number;
 }) => {
-  const response = await apiRequest<QuestionsResponse>(`/questions`, {
+  const response = await apiRequest<QuestionResponse>(`/questions`, {
     method: "POST",
     data: questionData,
   });
   if (!response.success) {
     throw new Error(`Failed to create question. ${response.message}`);
   }
-  return response.data;
+  return response;
 };
 
 export const updateQuestion = async (
@@ -83,14 +84,14 @@ export const updateQuestion = async (
     subjectId?: number;
   },
 ) => {
-  const response = await apiRequest<QuestionsResponse>(`/questions/${id}`, {
+  const response = await apiRequest<QuestionResponse>(`/questions/${id}`, {
     method: "PUT",
     data: questionData,
   });
   if (!response.success) {
     throw new Error(`Failed to update question. ${response.message}`);
   }
-  return response.data;
+  return response;
 };
 
 export const deleteQuestion = async (id: number) => {
@@ -100,5 +101,5 @@ export const deleteQuestion = async (id: number) => {
   if (!response.success) {
     throw new Error(`Failed to delete question. ${response.message}`);
   }
-  return response.data;
+  return response;
 };

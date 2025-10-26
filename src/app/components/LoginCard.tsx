@@ -30,7 +30,10 @@ export default function LoginCard() {
         password,
       });
       if (result?.error) {
-        setError(result.error);
+        setError(
+          result.error.message ||
+            "Unknown error occurred, please try again later.",
+        );
         setLoading(false);
         return;
       }
