@@ -23,6 +23,7 @@ import {
   Settings,
   User2,
   ChevronUp,
+  CircleQuestionMarkIcon
 } from "lucide-react";
 import Image from "next/image";
 import {
@@ -63,6 +64,11 @@ const items = [
     title: "Results",
     url: "/admin/results",
     icon: BarChart3,
+  },
+  {
+    title: "Questions",
+    url: "/admin/questions",
+    icon: CircleQuestionMarkIcon
   },
   {
     title: "Reports",
