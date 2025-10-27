@@ -6,7 +6,7 @@ import { getTotalSubjects } from "@/services/subjects";
 
 const fetcher = async () => {
   const res = await getTotalSubjects();
-  return res;
+  return res.total;
 };
 
 export default function TotalSubjects() {

@@ -6,7 +6,7 @@ import { getTotalUsers } from "@/services/user";
 
 const fetcher = async () => {
   const res = await getTotalUsers();
-  return res;
+  return res.total;
 };
 
 export default function TotalUsers() {

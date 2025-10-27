@@ -6,7 +6,7 @@ import { StatCard } from "@/components/stat-card";
 
 const fetcher = async () => {
   const res = await getTotalActiveStudents();
-  return res;
+  return res.total;
 };
 
 export default function TotalStudents() {
