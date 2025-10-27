@@ -16,14 +16,21 @@ export const getTotalStudents = async () => {
 };
 
 export const getTotalActiveStudents = async () => {
-  const response = await apiRequest<TotalActiveStudentsResponse>(
-    `/students/stats/total-active`,
-  );
-  if (!response.success) {
+  let response;
+  try {
+    response = await apiRequest<TotalActiveStudentsResponse>(
+      `/students/stats/total-active`,
+    );
+  } catch (err) {
+    console.error(err);
+  }
+
+  if (!response?.success) {
     throw new Error(
-      `Failed to fetch total active students. ${response.message}`,
+      `Failed to fetch total active students. ${response?.message}`,
     );
   }
+
   return response.data;
 };
 

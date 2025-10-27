@@ -15,7 +15,7 @@ export interface QuestionBank {
   questions: Question[];
 }
 
-interface getTotalQuestions {
+interface TotalQuestions {
   total: number;
 }
 
@@ -24,4 +24,4 @@ export type QuestionBankResponse = Response<QuestionBank>;
 export type QuestionsResponse = Response<Question[]>;
 export type QuestionResponse = Response<Question>;
 
-export type TotalQuestionsResponse = Response<getTotalQuestions>;
+export type TotalQuestionsResponse = Response<TotalQuestions>;

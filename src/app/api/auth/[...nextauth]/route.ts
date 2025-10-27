@@ -5,7 +5,6 @@ import axios from "axios";
 import { jwtDecode } from "jwt-decode";
 import { DecodedToken } from "@/types/token";
 import { login } from "@/services/auth";
-import { boolean } from "zod";
 
 export const authOptions: NextAuthOptions = {
   providers: [
@@ -22,6 +21,7 @@ export const authOptions: NextAuthOptions = {
             credentials.username,
             credentials.password,
           );
+
           const { token, refreshToken, expiresAt } = response;
           if (!token) return null;
           const decoded = jwtDecode<DecodedToken>(token);

@@ -24,6 +24,7 @@ export const getTotalActiveUsers = async () => {
   if (!response.success) {
     throw new Error(`Failed to fetch total active users. ${response.message}`);
   }
+  console.log(response);
   return response.data;
 };
 

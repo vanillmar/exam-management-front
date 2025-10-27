@@ -1,6 +1,8 @@
 import axios, { AxiosInstance } from "axios";
 import { getSession, signOut } from "next-auth/react";
 
+const REVIVE_API_URL = `/revive-api`;
+
 let isRefreshing = false;
 let failedQueue: Array<{
   resolve: (token: string) => void;
@@ -19,13 +21,30 @@ const processQueue = (error: unknown, token: string | null = null) => {
 };
 
 const api: AxiosInstance = axios.create({
-  baseURL: process.env.NEXT_PUBLIC_API_BASE_URL ?? "http://127.0.0.1:8080/api",
+  baseURL: REVIVE_API_URL ?? "http://127.0.0.1:8080/api",
   headers: {
     "Content-Type": "application/json",
     Accept: "application/json",
   },
   withCredentials: true,
 });
+
+export async function apiRequest<T>(
+  endpoint: string,
+  options?: {
+    method?: "GET" | "POST" | "PUT" | "PATCH" | "DELETE";
+    data?: unknown;
+    params?: Record<string, unknown>;
+  },
+): Promise<T> {
+  const res = await api.request<T>({
+    url: endpoint,
+    method: options?.method || "GET",
+    data: options?.data,
+    params: options?.params,
+  });
+  return res.data;
+}
 
 api.interceptors.request.use(async (config) => {
   const session = await getSession();
@@ -60,7 +79,7 @@ api.interceptors.response.use(
         if (!session?.refreshToken) throw new Error("No refresh token");
 
         // Ask your backend to refresh the token
-        const response = await api.post(`/auth/refresh`, {
+        const response = await api.post(`/auth/refresh-token`, {
           refreshToken: session.refreshToken,
         });
 
@@ -86,20 +105,4 @@ api.interceptors.response.use(
   },
 );
 
-export async function apiRequest<T>(
-  endpoint: string,
-  options?: {
-    method?: "GET" | "POST" | "PUT" | "PATCH" | "DELETE";
-    data?: unknown;
-    params?: Record<string, unknown>;
-  },
-): Promise<T> {
-  const res = await api.request<T>({
-    url: endpoint,
-    method: options?.method || "GET",
-    data: options?.data,
-    params: options?.params,
-  });
-  return res.data;
-}
 export default api;

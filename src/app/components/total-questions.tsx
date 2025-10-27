@@ -5,8 +5,8 @@ import { StatCard } from "@/components/stat-card";
 import { getTotalQuestions } from "@/services/questions";
 
 const fetcher = async () => {
-  const res = await getTotalQuestions();
-  return res.total;
+  const res: number = await getTotalQuestions();
+  return res;
 };
 
 export default function TotalQuestions() {
@@ -18,7 +18,6 @@ export default function TotalQuestions() {
       shouldRetryOnError: false,
     },
   );
-
   return (
     <StatCard
       title="Questions"

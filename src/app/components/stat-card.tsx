@@ -62,7 +62,7 @@ export function StatCard({
             <CardAction>
               <Button variant="outline" size="sm" onClick={onRetry}>
                 <IconRefresh className="mr-2 h-4 w-4" />
-                Tty again
+                Try again
               </Button>
             </CardAction>
           )}
@@ -76,7 +76,7 @@ export function StatCard({
       <CardHeader>
         {description && <CardDescription>{description}</CardDescription>}
         <CardTitle className="text-2xl font-semibold tabular-nums @[250px]/card:text-3xl">
-          {title} - {value ?? "-"}
+          {value ?? "-"} - {title}
         </CardTitle>
         {trend && (
           <CardAction>
@@ -87,14 +87,14 @@ export function StatCard({
           </CardAction>
         )}
       </CardHeader>
-      <CardFooter className="flex-col items-start gap-1.5 text-sm">
+      {/* <CardFooter className="flex-col items-start gap-1.5 text-sm">
         <div className="line-clamp-1 flex gap-2 font-medium">
           Trending up this month {icon}
         </div>
         <div className="text-muted-foreground">
           Visitors for the last 6 months
         </div>
-      </CardFooter>
+      </CardFooter> */}
     </Card>
   );
 }
