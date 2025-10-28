@@ -34,12 +34,12 @@ export default function LoginCard() {
       });
       if (result?.error) {
         setError(
-          result.error.message ||
+          result.error ||
             "Unknown error occurred, please try again later.",
         );
         setLoading(false);
         return;
-      }
+      } 
       if (session) router.push(getRedirectPath(session.user.roles));
     } catch {
       setError("An unexpected error occurred");

@@ -1,7 +1,6 @@
 import axios, { AxiosInstance } from "axios";
 import { getSession, signOut } from "next-auth/react";
 
-const REVIVE_API_URL = `/revive-api`;
 
 let isRefreshing = false;
 let failedQueue: Array<{
@@ -21,17 +20,14 @@ const processQueue = (error: unknown, token: string | null = null) => {
 };
 
 const api: AxiosInstance = axios.create({
-  baseURL: REVIVE_API_URL ?? "http://127.0.0.1:8080/api",
-  headers: {
-    "Content-Type": "application/json",
-    Accept: "application/json",
-  },
+  baseURL: `${process.env.NEXT_PUBLIC_API_BASE_URL}`, 
   withCredentials: true,
 });
 
 export async function apiRequest<T>(
   endpoint: string,
   options?: {
+    headers?: Record<string, string>;
     method?: "GET" | "POST" | "PUT" | "PATCH" | "DELETE";
     data?: unknown;
     params?: Record<string, unknown>;
@@ -39,6 +35,10 @@ export async function apiRequest<T>(
 ): Promise<T> {
   const res = await api.request<T>({
     url: endpoint,
+    headers: options?.headers || {
+      "Content-Type": "application/json",
+      Accept: "application/json",
+    },
     method: options?.method || "GET",
     data: options?.data,
     params: options?.params,

@@ -10,12 +10,18 @@ export default interface User {
   roles: Role[];
 }
 
+export interface ProfilePicture {
+  url: string
+}
+
 export interface TotalUsers {
   total: number;
 }
 
 export type UsersResponse = Response<User[]>;
 export type UserResponse = Response<User>;
+
+export type ProfilePictureResponse = Response<ProfilePicture>;
 
 export type TotalActiveUsers = TotalUsers;
 export type TotalInactiveUsers = TotalUsers;
