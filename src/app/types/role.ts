@@ -15,6 +15,7 @@ export const Roles = {
   INSPECTOR: "INSPECTOR",
   PILOT: "PILOT",
   USER: "USER",
+  ALL: "ROLE.*",
 } as const;
 
 export const RoleRedirects: Record<string, string> = {
@@ -24,6 +25,7 @@ export const RoleRedirects: Record<string, string> = {
   [Roles.INSPECTOR]: "/inspector/dashboard",
   [Roles.PILOT]: "/pilot/dashboard",
   [Roles.USER]: "/user/dashboard",
+  [Roles.ALL]: "/user/dashboard",
 };
 
 export type RoleResponse = Response<Role>;

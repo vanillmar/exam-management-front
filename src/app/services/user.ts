@@ -9,7 +9,6 @@ import {
   ProfilePictureResponse,
 } from "@/types/user";
 import { Role } from "@/types/role";
-import { file } from "zod";
 
 export const getTotalUsers = async () => {
   const response = await apiRequest<TotalUsersResponse>(`/users/stats/total`);
@@ -52,8 +51,9 @@ export const getAllUsers = async () => {
 
 export const getUsersById = async (id: UUID) => {
   const response = await apiRequest<UserResponse>(`/users/${id}`);
+  console.log(response)
   if (!response.success) {
-    throw new Error(`Failde to fetch user. ${response.message}`);
+    throw new Error(`Failed to fetch user. ${response.message}`);
   }
   return response.data;
 };

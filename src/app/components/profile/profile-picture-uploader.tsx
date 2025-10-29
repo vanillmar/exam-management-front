@@ -5,14 +5,13 @@ import Cropper from "react-easy-crop";
 import { Slider } from "@/components/ui/slider";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
-import { Card, CardContent } from "@/components/ui/card";
 import { getCroppedImg } from "@/lib/cropImage";
-import Image from "next/image";
 import { updateAvatar } from "@/services/user";
 import { useSession } from "next-auth/react";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
-export default function ProfilePictureUploader({ currentImage, userId }: Readonly<{ currentImage?: string; userId: string }>) {
-   const { update } = useSession();
+export default function ProfilePictureUploader({ userId, username, currentImage, }: Readonly<{ userId: string; username:string; currentImage?: string; }>) {
+  const {update } = useSession();
   const [imageSrc, setImageSrc] = useState<string | null>(null);
   const [crop, setCrop] = useState({ x: 0, y: 0 });
   const [zoom, setZoom] = useState(1);
@@ -59,19 +58,20 @@ export default function ProfilePictureUploader({ currentImage, userId }: Readonl
 
   return (
     <div className="space-y-4">
-      <Card className="w-40 h-40 overflow-hidden rounded-full mx-auto">
-        <CardContent className="p-0">
-          <Image src={preview} alt="Profile" width={160} height={160} className="object-cover w-full h-full" />
-        </CardContent>
-      </Card>
-
-      <div className="text-center">
-        <input id="file-input" type="file" accept="image/*" className="hidden" onChange={onFileChange} />
-        <Button asChild>
-          <label htmlFor="file-input">Upload Photo</label>
-        </Button>
+      <div className="flex items-center space-x-4">
+        <Avatar className="w-16 h-16">
+          <AvatarImage src={preview} />
+          <AvatarFallback>{username}</AvatarFallback>
+        </Avatar>
+        <div className="text-center">
+          <input id="file-input" type="file" accept="image/*" className="hidden" onChange={onFileChange} />
+          <Button asChild variant="secondary">
+             <label htmlFor="file-input">
+              Change Avatar
+              </label>
+          </Button>
+        </div>
       </div>
-
       <Dialog open={open} onOpenChange={setOpen}>
         <DialogContent className="max-w-lg">
           <DialogHeader>
