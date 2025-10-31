@@ -1,4 +1,3 @@
-
 import { getServerSession } from "next-auth/next";
 import { authOptions } from "@/api/auth/[...nextauth]/route"; // Adjust path as needed
 import { requireRole } from "@/lib/guards";
@@ -32,7 +31,12 @@ export default async function ProfilePage() {
       {/* ProfileForm will handle fetching, populating and updating via SWR */}
       {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
       {/* @ts-ignore Server -> Client prop */}
-      <ProfileForm userId={id ?? ""} currentImage={currentImage} username={username ?? ""} email={email ?? ""} />
+      <ProfileForm
+        userId={id ?? ""}
+        currentImage={currentImage}
+        username={username ?? ""}
+        email={email ?? ""}
+      />
     </div>
   );
 }

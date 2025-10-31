@@ -2,7 +2,6 @@
 
 import {
   IconCreditCard,
-  IconDotsVertical,
   IconLogout,
   IconNotification,
   IconUserCircle,
@@ -33,7 +32,9 @@ export function NavUser() {
   const { data: session } = useSession();
 
   const user = session?.user;
-  const avatar = session?.user?.avatar? `http://localhost:8080/api${session?.user?.avatar}` : "";
+  const avatar = session?.user?.avatar
+    ? `http://localhost:8080/api${session?.user?.avatar}`
+    : "";
 
   return (
     <SidebarMenu>
@@ -54,7 +55,7 @@ export function NavUser() {
                   {user?.email}
                 </span>
               </div>
-                  <ChevronRight className="ml-auto transition-transform duration-200 group-data-[state=open]/collapsible:rotate-90" />
+              <ChevronRight className="ml-auto transition-transform duration-200 group-data-[state=open]/collapsible:rotate-90" />
             </SidebarMenuButton>
           </DropdownMenuTrigger>
           <DropdownMenuContent
@@ -95,7 +96,9 @@ export function NavUser() {
               </DropdownMenuItem>
             </DropdownMenuGroup>
             <DropdownMenuSeparator />
-            <DropdownMenuItem onClick={() => signOut({ callbackUrl: "/login" })}>
+            <DropdownMenuItem
+              onClick={() => signOut({ callbackUrl: "/login" })}
+            >
               <IconLogout />
               Log out
             </DropdownMenuItem>

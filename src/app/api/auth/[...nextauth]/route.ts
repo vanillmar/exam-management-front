@@ -17,7 +17,10 @@ export const authOptions: NextAuthOptions = {
       async authorize(credentials) {
         if (!credentials?.username || !credentials?.password) return null;
         try {
-          const response = await login(credentials.username, credentials.password);
+          const response = await login(
+            credentials.username,
+            credentials.password,
+          );
           const { token, refreshToken, expiresAt } = response;
           if (!token) return null;
           const decoded = jwtDecode<DecodedToken>(token);
@@ -58,7 +61,7 @@ export const authOptions: NextAuthOptions = {
         token.id = user.id;
         token.email = user.email;
         token.username = user.username;
-        token.avatar =user.avatar;
+        token.avatar = user.avatar;
         token.roles = user.roles;
         token.accessToken = user.token;
         token.refreshToken = user.refreshToken;

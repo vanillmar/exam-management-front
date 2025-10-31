@@ -8,10 +8,11 @@ export default interface User {
   username: string;
   email: string;
   roles: Role[];
+  notifications: boolean;
 }
 
 export interface ProfilePicture {
-  url: string
+  url: string;
 }
 
 export interface TotalUsers {

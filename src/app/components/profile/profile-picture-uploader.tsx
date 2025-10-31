@@ -4,14 +4,23 @@ import { useState, useCallback } from "react";
 import Cropper from "react-easy-crop";
 import { Slider } from "@/components/ui/slider";
 import { Button } from "@/components/ui/button";
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
 import { getCroppedImg } from "@/lib/cropImage";
 import { updateAvatar } from "@/services/user";
 import { useSession } from "next-auth/react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
-export default function ProfilePictureUploader({ userId, username, currentImage, }: Readonly<{ userId: string; username:string; currentImage?: string; }>) {
-  const {update } = useSession();
+export default function ProfilePictureUploader({
+  userId,
+  username,
+  currentImage,
+}: Readonly<{ userId: string; username: string; currentImage?: string }>) {
+  const { update } = useSession();
   const [imageSrc, setImageSrc] = useState<string | null>(null);
   const [crop, setCrop] = useState({ x: 0, y: 0 });
   const [zoom, setZoom] = useState(1);
@@ -64,11 +73,15 @@ export default function ProfilePictureUploader({ userId, username, currentImage,
           <AvatarFallback>{username}</AvatarFallback>
         </Avatar>
         <div className="text-center">
-          <input id="file-input" type="file" accept="image/*" className="hidden" onChange={onFileChange} />
+          <input
+            id="file-input"
+            type="file"
+            accept="image/*"
+            className="hidden"
+            onChange={onFileChange}
+          />
           <Button asChild variant="secondary">
-             <label htmlFor="file-input">
-              Change Avatar
-              </label>
+            <label htmlFor="file-input">Change Avatar</label>
           </Button>
         </div>
       </div>
@@ -94,11 +107,20 @@ export default function ProfilePictureUploader({ userId, username, currentImage,
 
           <div className="flex items-center justify-between gap-4 mt-4">
             <span className="text-sm text-muted-foreground">Zoom</span>
-            <Slider value={[zoom]} onValueChange={(v) => setZoom(v[0])} min={1} max={3} step={0.1} className="w-2/3" />
+            <Slider
+              value={[zoom]}
+              onValueChange={(v) => setZoom(v[0])}
+              min={1}
+              max={3}
+              step={0.1}
+              className="w-2/3"
+            />
           </div>
 
           <div className="flex justify-end gap-2 mt-4">
-            <Button variant="outline" onClick={() => setOpen(false)}>Cancel</Button>
+            <Button variant="outline" onClick={() => setOpen(false)}>
+              Cancel
+            </Button>
             <Button onClick={uploadCroppedImage} disabled={uploading}>
               {uploading ? "Uploading..." : "Save"}
             </Button>

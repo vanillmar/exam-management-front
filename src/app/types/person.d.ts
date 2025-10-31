@@ -3,14 +3,14 @@ import { Contact } from "./contact";
 import { Response } from "./response";
 
 export type MaritalStatus = "Single" | "Married" | "Divorced" | "Widowed";
-export type Gender = "Male" | "female" ;
+export type Gender = "Male" | "female";
 
 export type Person = {
   id: number;
   firstName: string;
   lastName: string;
   gender?: Gender;
-  dateOfBirth?: Date;
+  dateOfBirth?: string;
   maritalStatus?: MaritalStatus;
   nationalId?: string;
   bio: string;

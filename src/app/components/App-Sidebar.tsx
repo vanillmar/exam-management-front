@@ -21,18 +21,9 @@ import {
   BarChart3,
   Proportions,
   Settings,
-  User2,
-  ChevronUp,
-  CircleQuestionMarkIcon
+  CircleQuestionMarkIcon,
 } from "lucide-react";
 import Image from "next/image";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
-import { NavUser } from "./Nav-User";
 // Menu items.
 const items = [
   {
@@ -68,7 +59,7 @@ const items = [
   {
     title: "Questions",
     url: "/admin/questions",
-    icon: CircleQuestionMarkIcon
+    icon: CircleQuestionMarkIcon,
   },
   {
     title: "Reports",
@@ -85,7 +76,6 @@ const items = [
 export default function AppSidebar({
   ...props
 }: React.ComponentProps<typeof Sidebar>) {
-
   return (
     <Sidebar collapsible="offcanvas" {...props}>
       <SidebarHeader>

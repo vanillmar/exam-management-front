@@ -1,6 +1,9 @@
 import { Area } from "react-easy-crop";
 
-export async function getCroppedImg(imageSrc: string, crop: Area): Promise<Blob> {
+export async function getCroppedImg(
+  imageSrc: string,
+  crop: Area,
+): Promise<Blob> {
   const image = new Image();
   image.src = imageSrc;
   await new Promise((r) => (image.onload = r));
@@ -13,8 +16,14 @@ export async function getCroppedImg(imageSrc: string, crop: Area): Promise<Blob>
 
   ctx.drawImage(
     image,
-    crop.x, crop.y, crop.width, crop.height,
-    0, 0, crop.width, crop.height
+    crop.x,
+    crop.y,
+    crop.width,
+    crop.height,
+    0,
+    0,
+    crop.width,
+    crop.height,
   );
 
   return new Promise((resolve) => {

@@ -51,7 +51,7 @@ export const getAllUsers = async () => {
 
 export const getUsersById = async (id: UUID) => {
   const response = await apiRequest<UserResponse>(`/users/${id}`);
-  console.log(response)
+  console.log(response);
   if (!response.success) {
     throw new Error(`Failed to fetch user. ${response.message}`);
   }
@@ -104,19 +104,22 @@ export const updateUser = async (
 };
 
 export const updateAvatar = async (id: string, file: FormData) => {
-  const response = await apiRequest<ProfilePictureResponse>(`/users/${id}/upload-profile-picture`, { 
-    headers: {
-      "Content-Type": "multipart/form-data",
-      Accept: "application/json"
+  const response = await apiRequest<ProfilePictureResponse>(
+    `/users/${id}/upload-profile-picture`,
+    {
+      headers: {
+        "Content-Type": "multipart/form-data",
+        Accept: "application/json",
+      },
+      method: "POST",
+      data: file,
     },
-    method: "POST", 
-    data: file,
-  });
-    if (!response.success) {
+  );
+  if (!response.success) {
     throw new Error(`Failed to update user. ${response.message}`);
   }
   return response.data;
-}
+};
 
 export const deleteUser = async (id: UUID) => {
   const response = await apiRequest<UserResponse>(`/users/${id}`, {

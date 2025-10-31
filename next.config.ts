@@ -13,7 +13,9 @@ const nextConfig: NextConfig = {
   //   ];
   // },
   images: {
-    remotePatterns: [new URL('http://localhost:8080/api/uploads/profile-pictures/**')],
+    remotePatterns: [
+      new URL("http://localhost:8080/api/uploads/profile-pictures/**"),
+    ],
   },
 };
 

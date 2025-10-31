@@ -5,7 +5,5 @@ interface ErrorToastProps {
 }
 
 export default function ErrorToast({ message, retry }: ErrorToastProps) {
-  return (
-    <Toaster id={message} duration={3000} />
-  );
+  return <Toaster id={message} duration={3000} />;
 }

@@ -1,7 +1,6 @@
 import axios, { AxiosInstance } from "axios";
 import { getSession, signOut } from "next-auth/react";
 
-
 let isRefreshing = false;
 let failedQueue: Array<{
   resolve: (token: string) => void;
@@ -20,7 +19,7 @@ const processQueue = (error: unknown, token: string | null = null) => {
 };
 
 const api: AxiosInstance = axios.create({
-  baseURL: `${process.env.NEXT_PUBLIC_API_BASE_URL}`, 
+  baseURL: `${process.env.NEXT_PUBLIC_API_BASE_URL}`,
   withCredentials: true,
 });
 
