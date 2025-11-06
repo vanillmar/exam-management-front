@@ -14,6 +14,7 @@ import { getCroppedImg } from "@/lib/cropImage";
 import { updateAvatar } from "@/services/user";
 import { useSession } from "next-auth/react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { toast } from "sonner";
 
 export default function ProfilePictureUploader({
   userId,
@@ -58,8 +59,9 @@ export default function ProfilePictureUploader({
       await update({ avatar: data.url });
       setPreview(data.url);
       setOpen(false);
-    } catch (error) {
-      console.error(error);
+      toast.info("Image uploaded sucessfully");
+    } catch {
+      toast.error(`Failed to upload image.`);
     } finally {
       setUploading(false);
     }

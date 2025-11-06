@@ -13,9 +13,11 @@ export const getPersonByUserId = async (id: UUID) => {
 };
 
 export const getPersonById = async (id: number) => {
+
   const response = await apiRequest<PersonResponse>(`/persons/${id}`, {
     method: "GET",
   });
+
   if (!response.success) {
     throw new Error(`Failed to fetch person. ${response.message}`);
   }

@@ -20,6 +20,7 @@ export default async function ProfilePage() {
   }
 
   const { id, username, email, avatar } = session.user;
+  console.log(avatar);
   const currentImage = avatar
     ? `${process.env.NEXT_PUBLIC_API_BASE_URL}${avatar}`
     : "/default-avatar.png";

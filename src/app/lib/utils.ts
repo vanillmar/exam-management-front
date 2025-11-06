@@ -28,19 +28,24 @@ export function getRedirectPath(roles: string[]): string {
 }
 
 export function convertToProfile(data: {
-  id: string;
+  userId: string;
   username: string;
   email: string;
+  personId: number;
   firstName: string;
   lastName: string;
   gender: string;
   maritalStatus: string;
   birthDate: string;
   nationalId: string;
+  addressId: number;
+  isPrimaryAddress: boolean;
   street: string;
   city: string;
   state: string;
   zipCode: string;
+  contactId: number;
+  isPrimaryContact: boolean;
   phoneNumber: string;
   emergencyContactPhone: string;
   bio: string;
@@ -48,12 +53,14 @@ export function convertToProfile(data: {
 }): Profile {
   return {
     user: {
-      id: data.id,
+      id: data.userId,
       username: data.username,
       email: data.email,
       notifications: data.notifications,
+      updatedBy: data.userId,
     },
     person: {
+      id: data.personId,
       firstName: data.firstName,
       lastName: data.lastName,
       gender: data.gender,
@@ -61,16 +68,25 @@ export function convertToProfile(data: {
       birthDate: data.birthDate,
       nationalId: data.nationalId,
       bio: data.bio,
+      updatedBy: data.userId,
     },
     contact: {
+      id: data.contactId,
+      email: data.email,
       phoneNumber: data.phoneNumber,
-      emergencyContactPhone: data.emergencyContactPhone,
+      isPrimary: data.isPrimaryContact,
+      personId: data.personId,
+      updatedBy: data.userId,
     },
     address: {
+      id: data.addressId,
       street: data.street,
       city: data.city,
       state: data.state,
       zipCode: data.zipCode,
+      isPrimary: data.isPrimaryAddress,
+      personId: data.personId,
+      updatedBy: data.userId,
     },
   };
 }

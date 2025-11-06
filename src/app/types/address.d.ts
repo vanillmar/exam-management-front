@@ -1,3 +1,4 @@
+import { BaseAuditableEntity } from "./base-aditable-entity";
 import { Response } from "./response";
 
 export type Address = {
@@ -6,13 +7,9 @@ export type Address = {
   city: string | null;
   state: string | null;
   zipCode: string | null;
+  personId?: number | null;
   isPrimary: boolean;
-  createdBy?: string;
-  updatedBy?: string;
-  createdAt?: string;
-  updatedAt?: string;
-  deletedAt?: string;
-};
+} & BaseAuditableEntity;
 
 export type AddressResponse = Response<Address>;
 export type AddressesResponse = Response<Address[]>;

@@ -1,5 +1,5 @@
 import { apiRequest } from "@/lib/axios";
-import {
+import User, {
   TotalUsersResponse,
   TotalActiveUsersResponse,
   TotalInactiveUsersResponse,
@@ -8,7 +8,6 @@ import {
   UUID,
   ProfilePictureResponse,
 } from "@/types/user";
-import { Role } from "@/types/role";
 
 export const getTotalUsers = async () => {
   const response = await apiRequest<TotalUsersResponse>(`/users/stats/total`);
@@ -51,7 +50,6 @@ export const getAllUsers = async () => {
 
 export const getUsersById = async (id: UUID) => {
   const response = await apiRequest<UserResponse>(`/users/${id}`);
-  console.log(response);
   if (!response.success) {
     throw new Error(`Failed to fetch user. ${response.message}`);
   }
@@ -66,16 +64,10 @@ export const getCurrentUser = async () => {
   return response.data;
 };
 
-export const createUser = async (userData: {
-  username: string;
-  email: string;
-  password: string;
-  enabled: boolean;
-  roles: Role[];
-}) => {
+export const createUser = async (data: User) => {
   const response = await apiRequest<UserResponse>(`/users`, {
     method: "POST",
-    data: userData,
+    data: data,
   });
   if (!response.success) {
     throw new Error(`Failed to create user. ${response.message}`);
@@ -83,19 +75,10 @@ export const createUser = async (userData: {
   return response.data;
 };
 
-export const updateUser = async (
-  id: UUID,
-  userData: {
-    username?: string;
-    email?: string;
-    password?: string;
-    enabled?: boolean;
-    roles?: Role[];
-  },
-) => {
+export const updateUser = async (id: UUID, data: Omit<User, "roles"> ) => {
   const response = await apiRequest<UserResponse>(`/users/${id}`, {
     method: "PUT",
-    data: userData,
+    data: data,
   });
   if (!response.success) {
     throw new Error(`Failed to update user. ${response.message}`);

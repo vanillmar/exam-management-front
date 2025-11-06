@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { signIn, useSession } from "next-auth/react";
+import { signIn, getSession } from "next-auth/react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -10,7 +10,6 @@ import { useRouter } from "next/navigation";
 import { getRedirectPath } from "@/lib/utils";
 
 export default function LoginCard() {
-  const { data: session } = useSession();
   const router = useRouter();
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -39,7 +38,10 @@ export default function LoginCard() {
         setLoading(false);
         return;
       }
-      if (session) router.push(getRedirectPath(session.user.roles));
+      const session = await getSession(); // Get the newly created session
+      if (session) {
+        router.push(getRedirectPath(session.user.roles));
+      }
     } catch {
       setError("An unexpected error occurred");
       setLoading(false);

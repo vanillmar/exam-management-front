@@ -24,6 +24,7 @@ import {
   CircleQuestionMarkIcon,
 } from "lucide-react";
 import Image from "next/image";
+import { NavUser } from "./Nav-User";
 // Menu items.
 const items = [
   {

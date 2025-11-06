@@ -69,20 +69,26 @@ export default function ProfileForm({
   );
 
   const [form, setForm] = useState({
-    id: userId || "",
+    userId: userId || "",
     username: username || "",
     email: email || "",
+    personId: 0,
     firstName: "",
     lastName: "",
     gender: "",
     maritalStatus: "",
     birthDate: "",
     nationalId: "",
+    addressId: 0,
+    isPrimaryAddress: true,
     street: "",
     city: "",
     state: "",
     zipCode: "",
+    contactId: 0,
+    isPrimaryContact: true,
     phoneNumber: "",
+    alternativeEmail: "",
     emergencyContactPhone: "",
     bio: "",
     notifications: false,
@@ -91,26 +97,32 @@ export default function ProfileForm({
   useEffect(() => {
     if (data) {
       // Map server keys to local form fields safely
+      console.log(data);
       setForm((prev) => ({
         ...prev,
-        id: data.user.id ?? prev.id,
+        userId: data.user.id ?? prev.userId,
         username: data.user.username ?? prev.username,
         email: data.user.email ?? prev.email,
+        personId: data.person.id,
         firstName: data.person.firstName ?? prev.firstName,
         lastName: data.person.lastName ?? prev.lastName,
         gender: data.person.gender ?? prev.gender,
         maritalStatus: data.person.maritalStatus ?? prev.maritalStatus,
         birthDate: data.person.dateOfBirth ?? prev.birthDate,
         nationalId: data.person.nationalId ?? prev.nationalId,
+        addressId: data.address.id,
+        isPrimaryAddress: data.address.isPrimary ?? prev.isPrimaryAddress,
         street: data.address.street ?? prev.street,
         city: data.address.city ?? prev.city,
         state: data.address.state ?? prev.state,
         zipCode: data.address.zipCode ?? prev.zipCode,
+        contactId: data.contact.id,
+        isPrimaryContact: data.contact.isPrimary ?? prev.isPrimaryContact,
         phoneNumber: data.contact.phoneNumber ?? prev.phoneNumber,
         emergencyContactPhone:
           data.contact.emergencyContactPhone ?? prev.emergencyContactPhone,
         bio: data.person.bio ?? prev.bio,
-        notifications: !!data.user.notifications,
+        notifications: data.user.notifications ?? prev.notifications,
       }));
     }
   }, [data]);
@@ -128,25 +140,27 @@ export default function ProfileForm({
     try {
       // create payload without id
       const data: Profile = convertToProfile(form);
+      console.log("Profile", data);
       const response = await updateUserProfile(userId, data);
       mutate(response, { revalidate: true });
-      // use alert as a simple fallback for notifications so no extra dependency is required
       toast.info("Profile updated");
     } catch (err) {
-      console.error(err);
       toast.error((err as Error).message || "Update failed");
     }
   };
 
   if (error) {
-    return <div className="text-red-500">Failed to load profile. ${}</div>;
+    return <div className="text-red-500">Failed to load profile. {error.message}</div>;
   }
 
   const isLoading = !data && !error;
 
   return (
     <>
-      <Card>
+      <Card onClick={() => {
+        toast.info("This is a test")
+        console.log("This is a test");
+        }}>
         <CardHeader>
           <h2 className="text-xl font-semibold">Profile Information</h2>
         </CardHeader>
@@ -165,7 +179,7 @@ export default function ProfileForm({
               <Input
                 id="id"
                 placeholder="Your user Id"
-                value={form.id}
+                value={form.userId}
                 disabled
               />
             </div>
@@ -235,11 +249,15 @@ export default function ProfileForm({
             {/* Gender and Marital Status */}
             <div>
               <Label htmlFor="gender">Gender</Label>
-              <Select>
+              <Select
+                value={form.gender}
+                defaultValue={form.gender}
+                onValueChange={(v: string) =>
+                  setForm((f) => ({ ...f, gender: v }))
+                }
+              >
                 <SelectTrigger className="w-70">
-                  <SelectValue id="gender" placeholder="Your gender">
-                    {form.gender || undefined}
-                  </SelectValue>
+                  <SelectValue id="gender" placeholder="Your gender"/>
                 </SelectTrigger>
                 <SelectContent>
                   <SelectItem value="MALE">Male</SelectItem>
@@ -249,14 +267,18 @@ export default function ProfileForm({
             </div>
             <div>
               <Label htmlFor="maritalStatus">Marital Status</Label>
-              <Select>
+              <Select
+                value={form.maritalStatus}
+                defaultValue={form.maritalStatus}
+                onValueChange={(v: string) =>
+                  setForm((f) => ({ ...f, maritalStatus: v }))
+                }
+              >
                 <SelectTrigger className="w-70">
                   <SelectValue
                     id="maritalStatus"
                     placeholder="Your marital status"
-                  >
-                    {form.maritalStatus || undefined}
-                  </SelectValue>
+                  />
                 </SelectTrigger>
                 <SelectContent>
                   <SelectItem value="SINGLE">Single</SelectItem>

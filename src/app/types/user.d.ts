@@ -1,15 +1,17 @@
+import { BaseAuditableEntity } from "./base-aditable-entity";
 import { Response } from "./response";
 import { Role } from "./role";
 
 export type UUID = string;
 
-export default interface User {
+type User = {
   id: UUID;
   username: string;
   email: string;
   roles: Role[];
   notifications: boolean;
-}
+  avatar: string;
+} & BaseAuditableEntity;
 
 export interface ProfilePicture {
   url: string;
@@ -30,3 +32,5 @@ export type TotalInactiveUsers = TotalUsers;
 export type TotalUsersResponse = Response<TotalUsers>;
 export type TotalActiveUsersResponse = Response<TotalActiveUsers>;
 export type TotalInactiveUsersResponse = Response<TotalInactiveUsers>;
+
+export default User;
