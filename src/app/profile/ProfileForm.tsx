@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import useSWR from "swr";
+import { signOut, useSession } from "next-auth/react";
 import ProfilePictureUploader from "@/components/profile/profile-picture-uploader";
 import { Button } from "@/components/ui/button";
 import {
@@ -35,7 +36,7 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 import { HelpCircle } from "lucide-react";
-import { getUserProfile, updateUserProfile } from "@/services/profile";
+import { deleteUserProfile, getUserProfile, updateUserProfile } from "@/services/profile";
 import { Profile } from "@/types/profile";
 import { convertToProfile } from "@/lib/utils";
 import Calendar22 from "@/components/calendar-22";
@@ -49,6 +50,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
+import { Spinner } from "@/components/ui/spinner";
 
 type Props = {
   userId: string;
@@ -68,7 +70,11 @@ export default function ProfileForm({
   username,
   email,
 }: Readonly<Props>) {
+  const { data: session, update } = useSession();
   const [confirmText, setConfirmText] = React.useState("");
+  const [isLoading, setIsLoading] = React.useState(false); // Add loading state
+  const [isOpen, setIsOpen] = React.useState(false); // State to control dialog visibility
+
   const requiredText = "delete";
   const isConfirmed = confirmText === requiredText;
 
@@ -153,22 +159,38 @@ export default function ProfileForm({
     try {
       // create payload without id
       const data: Profile = convertToProfile(form);
-      console.log("Profile", data);
       const response = await updateUserProfile(userId, data);
+      await update({
+        ...session?.user,
+        username: data.user.username,
+        email: data.user.email,
+      });
       mutate(response, { revalidate: true });
       toast.info("Profile updated");
-    } catch (err) {
-      toast.error((err as Error).message || "Update failed");
+    } catch (error) {
+      toast.error((error as Error).message || "Update failed.");
     }
   };
 
-  const onDelete = () => {
+  const onDelete = async () => {
     if (isConfirmed) {
-      // Perform the delete action (e.g., API call)
-      console.log("Deletion confirmed and executed!");
-      // Close the dialog manually if needed (DialogClose helps with this)
-      // You might also want to reset the input state after successful deletion
-      setConfirmText("");
+      setIsLoading(true); // Start loading
+      try {
+        const data: Profile = convertToProfile(form);
+        //const response = await deleteUserProfile(userId, data)
+        //mutate(response, { revalidate: true });
+        await new Promise(resolve => setTimeout(resolve, 2000));
+        setConfirmText("");
+        setIsOpen(false);
+        toast.info("Profile delete sucessfully.");
+        //await new Promise(resolve => setTimeout(resolve, 2000));
+        //await signOut({ redirect: true, callbackUrl: "/login" });  
+      } catch(error) {
+        toast.error((error as Error).message || "Update failed");
+      } finally {
+        setIsLoading(false);
+        setIsOpen(false);
+      }
     }
   };
 
@@ -180,7 +202,7 @@ export default function ProfileForm({
     );
   }
 
-  const isLoading = !data && !error;
+  const isLoadingData = !data && !error;
 
   return (
     <>
@@ -433,7 +455,7 @@ export default function ProfileForm({
           >
             Cancel
           </Button>
-          <Button onClick={onSave} disabled={isLoading}>
+          <Button onClick={onSave} disabled={isLoadingData}>
             Save Changes
           </Button>
         </CardFooter>
@@ -451,7 +473,7 @@ export default function ProfileForm({
           </p>
         </CardContent>
         <CardFooter>
-          <Dialog>
+          <Dialog open={isOpen} onOpenChange={setIsOpen}>
             <DialogTrigger asChild>
               <Button variant="destructive">Delete Account</Button>
             </DialogTrigger>
@@ -478,9 +500,16 @@ export default function ProfileForm({
                   type="button"
                   variant="destructive"
                   onClick={onDelete}
-                  disabled={!isConfirmed}
+                  disabled={!isConfirmed || isLoading}
                 >
-                  Delete
+                {isLoading ? (
+                  <>
+                     <Spinner />
+                    Deleting
+                  </>
+                ) : (
+                  "Delete"
+                )}
                 </Button>
               </DialogFooter>
             </DialogContent>
