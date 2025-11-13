@@ -40,6 +40,15 @@ import { Profile } from "@/types/profile";
 import { convertToProfile } from "@/lib/utils";
 import Calendar22 from "@/components/calendar-22";
 import { toast } from "sonner";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
 
 type Props = {
   userId: string;
@@ -59,6 +68,10 @@ export default function ProfileForm({
   username,
   email,
 }: Readonly<Props>) {
+  const [confirmText, setConfirmText] = React.useState("");
+  const requiredText = "delete";
+  const isConfirmed = confirmText === requiredText;
+
   const { data, error, mutate } = useSWR(
     userId ? ["user", userId] : null,
     () => fetcher(userId),
@@ -108,7 +121,7 @@ export default function ProfileForm({
         lastName: data.person.lastName ?? prev.lastName,
         gender: data.person.gender ?? prev.gender,
         maritalStatus: data.person.maritalStatus ?? prev.maritalStatus,
-        birthDate: data.person.dateOfBirth ?? prev.birthDate,
+        birthDate: data.person.birthDate ?? prev.birthDate,
         nationalId: data.person.nationalId ?? prev.nationalId,
         addressId: data.address.id,
         primaryAddress: data.address.primary ?? prev.primaryAddress,
@@ -146,6 +159,16 @@ export default function ProfileForm({
       toast.info("Profile updated");
     } catch (err) {
       toast.error((err as Error).message || "Update failed");
+    }
+  };
+
+  const onDelete = () => {
+    if (isConfirmed) {
+      // Perform the delete action (e.g., API call)
+      console.log("Deletion confirmed and executed!");
+      // Close the dialog manually if needed (DialogClose helps with this)
+      // You might also want to reset the input state after successful deletion
+      setConfirmText("");
     }
   };
 
@@ -428,7 +451,40 @@ export default function ProfileForm({
           </p>
         </CardContent>
         <CardFooter>
-          <Button variant="destructive">Delete Account</Button>
+          <Dialog>
+            <DialogTrigger asChild>
+              <Button variant="destructive">Delete Account</Button>
+            </DialogTrigger>
+            <DialogContent className="sm:max-w-[425px]">
+              <DialogHeader>
+                <DialogTitle>Delete profile</DialogTitle>
+                <DialogDescription>
+                  Write delete in the inputbox. Click delete when you&apos;re
+                  done.
+                </DialogDescription>
+              </DialogHeader>
+              <div className="grid gap-4 py-4">
+                <div className="flex grid-cols-4 items-center gap-4">
+                  <Input
+                    id="deleteInput"
+                    value={confirmText}
+                    onChange={(e) => setConfirmText(e.target.value)}
+                    placeholder={`Type "${requiredText}"`}
+                  />
+                </div>
+              </div>
+              <DialogFooter>
+                <Button
+                  type="button"
+                  variant="destructive"
+                  onClick={onDelete}
+                  disabled={!isConfirmed}
+                >
+                  Delete
+                </Button>
+              </DialogFooter>
+            </DialogContent>
+          </Dialog>
         </CardFooter>
       </Card>
     </>

@@ -3,6 +3,7 @@ import { SessionProvider } from "next-auth/react";
 import { ThemeProvider } from "@/components/theme-provider";
 
 import "./globals.css";
+import { Toaster } from "@/components/ui/sonner";
 // import "./styles/custom.css"; // Import your new custom CSS after Tailwind
 
 export default function RootLayout({
@@ -24,6 +25,7 @@ export default function RootLayout({
             disableTransitionOnChange
           >
             {children}
+            <Toaster />
           </ThemeProvider>
         </SessionProvider>
       </body>

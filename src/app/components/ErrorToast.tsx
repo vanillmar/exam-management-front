@@ -4,6 +4,9 @@ interface ErrorToastProps {
   retry: () => void;
 }
 
-export default function ErrorToast({ message, retry }: ErrorToastProps) {
+export default function ErrorToast({
+  message,
+  retry,
+}: Readonly<ErrorToastProps>) {
   return <Toaster id={message} duration={3000} />;
 }
