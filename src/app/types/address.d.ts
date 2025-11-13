@@ -8,7 +8,7 @@ export type Address = {
   state: string | null;
   zipCode: string | null;
   personId?: number | null;
-  isPrimary: boolean;
+  primary: boolean;
 } & BaseAuditableEntity;
 
 export type AddressResponse = Response<Address>;

@@ -75,7 +75,7 @@ export const createUser = async (data: User) => {
   return response.data;
 };
 
-export const updateUser = async (id: UUID, data: Omit<User, "roles"> ) => {
+export const updateUser = async (id: UUID, data: Omit<User, "roles">) => {
   const response = await apiRequest<UserResponse>(`/users/${id}`, {
     method: "PUT",
     data: data,

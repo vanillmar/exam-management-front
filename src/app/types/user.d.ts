@@ -10,7 +10,7 @@ type User = {
   email: string;
   roles: Role[];
   notifications: boolean;
-  avatar: string;
+  avatar?: string | null;
 } & BaseAuditableEntity;
 
 export interface ProfilePicture {

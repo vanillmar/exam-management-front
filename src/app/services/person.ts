@@ -13,7 +13,6 @@ export const getPersonByUserId = async (id: UUID) => {
 };
 
 export const getPersonById = async (id: number) => {
-
   const response = await apiRequest<PersonResponse>(`/persons/${id}`, {
     method: "GET",
   });

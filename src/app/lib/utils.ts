@@ -39,13 +39,13 @@ export function convertToProfile(data: {
   birthDate: string;
   nationalId: string;
   addressId: number;
-  isPrimaryAddress: boolean;
+  primaryAddress: boolean;
   street: string;
   city: string;
   state: string;
   zipCode: string;
   contactId: number;
-  isPrimaryContact: boolean;
+  primaryContact: boolean;
   phoneNumber: string;
   emergencyContactPhone: string;
   bio: string;
@@ -74,8 +74,9 @@ export function convertToProfile(data: {
       id: data.contactId,
       email: data.email,
       phoneNumber: data.phoneNumber,
-      isPrimary: data.isPrimaryContact,
+      primary: data.primaryContact,
       personId: data.personId,
+      emergencyContactPhone: data.emergencyContactPhone,
       updatedBy: data.userId,
     },
     address: {
@@ -84,7 +85,7 @@ export function convertToProfile(data: {
       city: data.city,
       state: data.state,
       zipCode: data.zipCode,
-      isPrimary: data.isPrimaryAddress,
+      primary: data.primaryAddress,
       personId: data.personId,
       updatedBy: data.userId,
     },

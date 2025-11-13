@@ -37,9 +37,9 @@ import {
 import { HelpCircle } from "lucide-react";
 import { getUserProfile, updateUserProfile } from "@/services/profile";
 import { Profile } from "@/types/profile";
-import { toast } from "sonner";
 import { convertToProfile } from "@/lib/utils";
 import Calendar22 from "@/components/calendar-22";
+import { toast } from "sonner";
 
 type Props = {
   userId: string;
@@ -80,13 +80,13 @@ export default function ProfileForm({
     birthDate: "",
     nationalId: "",
     addressId: 0,
-    isPrimaryAddress: true,
+    primaryAddress: true,
     street: "",
     city: "",
     state: "",
     zipCode: "",
     contactId: 0,
-    isPrimaryContact: true,
+    primaryContact: true,
     phoneNumber: "",
     alternativeEmail: "",
     emergencyContactPhone: "",
@@ -111,13 +111,13 @@ export default function ProfileForm({
         birthDate: data.person.dateOfBirth ?? prev.birthDate,
         nationalId: data.person.nationalId ?? prev.nationalId,
         addressId: data.address.id,
-        isPrimaryAddress: data.address.isPrimary ?? prev.isPrimaryAddress,
+        primaryAddress: data.address.primary ?? prev.primaryAddress,
         street: data.address.street ?? prev.street,
         city: data.address.city ?? prev.city,
         state: data.address.state ?? prev.state,
         zipCode: data.address.zipCode ?? prev.zipCode,
         contactId: data.contact.id,
-        isPrimaryContact: data.contact.isPrimary ?? prev.isPrimaryContact,
+        primaryContact: data.contact.primary ?? prev.primaryContact,
         phoneNumber: data.contact.phoneNumber ?? prev.phoneNumber,
         emergencyContactPhone:
           data.contact.emergencyContactPhone ?? prev.emergencyContactPhone,
@@ -150,17 +150,18 @@ export default function ProfileForm({
   };
 
   if (error) {
-    return <div className="text-red-500">Failed to load profile. {error.message}</div>;
+    return (
+      <div className="text-red-500">
+        Failed to load profile. {error.message}
+      </div>
+    );
   }
 
   const isLoading = !data && !error;
 
   return (
     <>
-      <Card onClick={() => {
-        toast.info("This is a test")
-        console.log("This is a test");
-        }}>
+      <Card>
         <CardHeader>
           <h2 className="text-xl font-semibold">Profile Information</h2>
         </CardHeader>
@@ -257,7 +258,7 @@ export default function ProfileForm({
                 }
               >
                 <SelectTrigger className="w-70">
-                  <SelectValue id="gender" placeholder="Your gender"/>
+                  <SelectValue id="gender" placeholder="Your gender" />
                 </SelectTrigger>
                 <SelectContent>
                   <SelectItem value="MALE">Male</SelectItem>

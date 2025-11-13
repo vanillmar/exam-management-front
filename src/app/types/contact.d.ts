@@ -8,8 +8,8 @@ export type Contact = {
   alternateEmail?: string | null;
   emergencyContactName?: string | null;
   emergencyContactPhone?: string | null;
-  personId?: number | null,
-  isPrimary: boolean,
+  personId?: number | null;
+  primary: boolean;
 } & BaseAuditableEntity;
 
 export type ContactResponse = Response<Contact>;
