@@ -1,4 +1,4 @@
-import { apiRequest } from "@/lib/axios";
+import { apiRequest } from "@/lib/api";
 import { Address, AddressResponse, AddressesResponse } from "@/types/address";
 import { UUID } from "@/types/user";
 

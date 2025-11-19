@@ -6,7 +6,6 @@ import ProfileForm from "./ProfileForm";
 
 export default async function ProfilePage() {
   await requireRole([
-    Roles.ADMIN,
     Roles.INSPECTOR,
     Roles.INSTRUCTOR,
     Roles.PILOT,

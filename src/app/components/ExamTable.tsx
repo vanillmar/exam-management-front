@@ -11,7 +11,7 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import { useEffect, useState } from "react";
-import api from "@/lib/axios";
+import api from "@/lib/api";
 import { useSession } from "next-auth/react";
 import { Exam, ExamsResponse } from "@/types/exam";
 

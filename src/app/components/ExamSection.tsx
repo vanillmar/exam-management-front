@@ -24,7 +24,7 @@ import { Drawer, DrawerContent, DrawerHeader } from "@/components/ui/drawer";
 
 import { Exam, ExamStatus } from "@/types/exam";
 import { Subject } from "@/types/subject";
-import api from "@/lib/axios";
+import api from "@/lib/api";
 import { HiOutlinePencil, HiOutlineTrash } from "react-icons/hi";
 
 const ExamSection: React.FC = () => {

@@ -1,4 +1,4 @@
-import { apiRequest } from "@/lib/axios";
+import { apiRequest } from "@/lib/api";
 import { AuthResponseDTO } from "@/types/auth";
 
 export const registerUser = async (

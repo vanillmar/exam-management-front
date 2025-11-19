@@ -1,4 +1,4 @@
-import { apiRequest } from "@/lib/axios";
+import { apiRequest } from "@/lib/api";
 import User, {
   TotalUsersResponse,
   TotalActiveUsersResponse,

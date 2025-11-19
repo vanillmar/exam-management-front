@@ -1,4 +1,4 @@
-import { apiRequest } from "@/lib/axios";
+import { apiRequest } from "@/lib/api";
 import { Contact, ContactResponse, ContactsResponse } from "@/types/contact";
 import { UUID } from "@/types/user";
 

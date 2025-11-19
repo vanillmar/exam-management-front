@@ -17,7 +17,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 
-import api from "@/lib/axios";
+import api from "@/lib/api";
 import { Question, QuestionResponse } from "@/types/questions";
 import { Subject, SubjectsResponse } from "@/types/subject";
 import QuestionsTable from "./QuestionTable";
