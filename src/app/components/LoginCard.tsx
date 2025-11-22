@@ -39,7 +39,7 @@ export default function LoginCard() {
         return;
       }
       const session = await getSession(); // Get the newly created session
-      if (session) {
+      if (result?.ok && session) {
         router.push(getRedirectPath(session.user.roles));
       }
     } catch {

@@ -33,6 +33,11 @@ const items = [
     icon: LayoutDashboard,
   },
   {
+    title: "Users",
+    url: "/admin/users",
+    icon: Users,
+  },
+  {
     title: "Students",
     url: "/admin/students",
     icon: Users,

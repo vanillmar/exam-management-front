@@ -4,7 +4,7 @@ import { Role } from "./role";
 
 export type UUID = string;
 
-type User = {
+export type User = {
   id: UUID;
   username: string;
   email: string;

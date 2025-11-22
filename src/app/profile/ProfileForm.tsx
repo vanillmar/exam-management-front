@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import useSWR from "swr";
-import { signOut, useSession } from "next-auth/react";
+import { useSession } from "next-auth/react";
 import ProfilePictureUploader from "@/components/profile/profile-picture-uploader";
 import { Button } from "@/components/ui/button";
 import {

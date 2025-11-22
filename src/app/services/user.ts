@@ -40,12 +40,26 @@ export const getTotalInactiveUsers = async () => {
   return response.data;
 };
 
-export const getAllUsers = async () => {
-  const response = await apiRequest<UsersResponse>(`/users`);
+export const getAllUsers = async (
+  page: number = 1,
+  pageSize: number = 10,
+  sortBy: string = "id",
+  sortOrder: string = "asc",
+  search: string = "",
+) => {
+  const response = await apiRequest<UsersResponse>(`/users`, {
+    params: {
+      page,
+      pageSize,
+      sortBy,
+      sortOrder,
+      search,
+    },
+  });
   if (!response.success) {
     throw new Error(`Failed to fetch users. ${response.message}`);
   }
-  return response.data;
+  return response;
 };
 
 export const getUsersById = async (id: UUID) => {

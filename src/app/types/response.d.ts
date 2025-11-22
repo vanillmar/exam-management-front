@@ -4,7 +4,7 @@ export interface Response<T> {
   message: string;
   success: boolean;
   data: T;
-  total?: number;
-  page?: number;
-  pageSize?: number;
+  total: number;
+  page: number;
+  pageSize: number;
 }
