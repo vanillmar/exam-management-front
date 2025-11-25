@@ -1,7 +1,7 @@
 import { Spinner } from "@/components/ui/spinner";
 export default function LoadingScreen() {
   return (
-    <div className="flex flex-col justify-center items-center h-screen bg-gray-50 dark:bg-gray-900">
+    <div className="flex flex-col justify-center items-center">
       <Spinner
         aria-label="Loading spinner"
         className="size-8 text-yellow-500"

@@ -38,9 +38,10 @@ export const getUsersColumns = ({ onEdit, onDelete }: UserColumnsProps): ColumnD
     header: "ID",
     cell: ({ row }) => {
       return (
-        <span>${row.original.id}</span>
+        <span>{row.original.id}</span>
       )
-    }
+    },
+    size: 350
   },
   { accessorKey: "username", header: "Username" },
   { accessorKey: "email", header: "E-mail" },

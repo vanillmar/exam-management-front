@@ -9,5 +9,5 @@ export const getRoles = async () => {
   if (!response.success) {
     throw new Error(`Failed to fetch roles. ${response.message}`);
   }
-  return response.data.roles;
+  return response;
 };
