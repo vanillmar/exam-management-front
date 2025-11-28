@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import useSWR from "swr";
-import { useSession } from "next-auth/react";
+import { signOut, useSession } from "next-auth/react";
 import ProfilePictureUploader from "@/components/profile/profile-picture-uploader";
 import { Button } from "@/components/ui/button";
 import {
@@ -36,7 +36,11 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 import { HelpCircle } from "lucide-react";
-import { deleteUserProfile, getUserProfile, updateUserProfile } from "@/services/profile";
+import {
+  deleteUserProfile,
+  getUserProfile,
+  updateUserProfile,
+} from "@/services/profile";
 import { Profile } from "@/types/profile";
 import { convertToProfile } from "@/lib/utils";
 import Calendar22 from "@/components/calendar-22";
@@ -177,15 +181,14 @@ export default function ProfileForm({
       setIsLoading(true); // Start loading
       try {
         const data: Profile = convertToProfile(form);
-        //const response = await deleteUserProfile(userId, data)
-        //mutate(response, { revalidate: true });
-        await new Promise(resolve => setTimeout(resolve, 2000));
+        const response = await deleteUserProfile(userId, data);
+        mutate(response, { revalidate: true });
         setConfirmText("");
         setIsOpen(false);
         toast.info("Profile delete sucessfully.");
-        //await new Promise(resolve => setTimeout(resolve, 2000));
-        //await signOut({ redirect: true, callbackUrl: "/login" });  
-      } catch(error) {
+        await new Promise((resolve) => setTimeout(resolve, 2000));
+        await signOut({ redirect: true, callbackUrl: "/login" });
+      } catch (error) {
         toast.error((error as Error).message || "Update failed");
       } finally {
         setIsLoading(false);
@@ -502,14 +505,14 @@ export default function ProfileForm({
                   onClick={onDelete}
                   disabled={!isConfirmed || isLoading}
                 >
-                {isLoading ? (
-                  <>
-                     <Spinner />
-                    Deleting
-                  </>
-                ) : (
-                  "Delete"
-                )}
+                  {isLoading ? (
+                    <>
+                      <Spinner />
+                      Deleting
+                    </>
+                  ) : (
+                    "Delete"
+                  )}
                 </Button>
               </DialogFooter>
             </DialogContent>

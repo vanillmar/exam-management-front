@@ -37,7 +37,7 @@ export const fetchQuestions = async ({
 };
 
 const QuestionsSection: React.FC = () => {
-  const [_, setQuestions] = useState<Question[]>([]);
+  const [questions, setQuestions] = useState<Question[]>([]);
   const [subjects, setSubjects] = useState<Subject[]>([]);
   const [isEdit, setIsEdit] = useState(false);
   const [currentQuestion, setCurrentQuestion] = useState<Question | null>(null);

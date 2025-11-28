@@ -2,7 +2,7 @@ import { BaseAuditableEntity } from "./base-aditable-entity";
 import { Response } from "./response";
 
 export type Address = {
-  id: number;
+  id?: number;
   street: string | null;
   city: string | null;
   state: string | null;

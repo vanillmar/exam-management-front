@@ -1,7 +1,8 @@
-import { Address } from "./address";
-import { BaseAuditableEntity } from "./base-aditable-entity";
-import { Contact } from "./contact";
-import { Response } from "./response";
+import { Address } from "@/types/address";
+import { BaseAuditableEntity } from "@/types/base-aditable-entity";
+import { Contact } from "@/types/contact";
+import { Response } from "@/types/response";
+import { UUID } from "@/types/user";
 
 export type MaritalStatus = "SINGLE" | "MARRIED" | "DIVORCED" | "WIDOWED";
 export type Gender = "MALE" | "FEMALE";
@@ -14,6 +15,7 @@ export type Person = {
   dateOfBirth?: string;
   maritalStatus?: MaritalStatus;
   nationalId?: string;
+  userId?: UUID;
   bio?: string;
   contacts?: Contact[];
   addresses?: Address[];

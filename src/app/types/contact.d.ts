@@ -2,7 +2,7 @@ import { BaseAuditableEntity } from "./base-aditable-entity";
 import { Response } from "./response";
 
 export type Contact = {
-  id: number;
+  id?: number;
   phoneNumber: string;
   email: string;
   alternateEmail?: string | null;

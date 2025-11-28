@@ -6,15 +6,15 @@ import { Role } from "./role";
 export type UUID = string;
 
 export type User = {
-  id: UUID;
+  id?: UUID;
   username: string;
   password?: string;
   email: string;
   roles: Role[];
   notifications: boolean;
-  person?: Person | null;
+  personId?: number;
+  person?: Person;
   avatar?: string | null;
-  bio?: string | null;
   active: boolean;
   enabled: boolean;
 } & BaseAuditableEntity;

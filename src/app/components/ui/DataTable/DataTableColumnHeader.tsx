@@ -1,9 +1,14 @@
-import { Button } from '@/components/ui/button';
-import { Column } from '@tanstack/react-table';
-import { ArrowDownIcon, ArrowUpIcon, ChevronsLeftRightIcon } from 'lucide-react';
-import { HTMLAttributes } from 'react';
+import { Button } from "@/components/ui/button";
+import { Column } from "@tanstack/react-table";
+import {
+  ArrowDownIcon,
+  ArrowUpIcon,
+  ChevronsLeftRightIcon,
+} from "lucide-react";
+import { HTMLAttributes } from "react";
 
-interface DataTableColumnHeaderProps<TData, TValue> extends HTMLAttributes<HTMLDivElement> {
+interface DataTableColumnHeaderProps<TData, TValue>
+  extends HTMLAttributes<HTMLDivElement> {
   column: Column<TData, TValue>;
   title: string;
 }
@@ -18,7 +23,11 @@ const DataTableColumnHeader = <TData, TValue>({
     if (!sort) {
       return <ChevronsLeftRightIcon className="ml-2 h-4 w-4 rotate-90" />;
     }
-    return sort === 'desc' ? <ArrowDownIcon className="ml-2 h-4 w-4" /> : <ArrowUpIcon className="ml-2 h-4 w-4" />;
+    return sort === "desc" ? (
+      <ArrowDownIcon className="ml-2 h-4 w-4" />
+    ) : (
+      <ArrowUpIcon className="ml-2 h-4 w-4" />
+    );
   };
 
   if (!column.getCanSort()) {
@@ -26,7 +35,12 @@ const DataTableColumnHeader = <TData, TValue>({
   }
   return (
     <div className={className}>
-      <Button variant="ghost" size="sm" className="h-8" onClick={column.getToggleSortingHandler()}>
+      <Button
+        variant="ghost"
+        size="sm"
+        className="h-8"
+        onClick={column.getToggleSortingHandler()}
+      >
         <span>{title}</span>
         {renderSortIcon()}
       </Button>

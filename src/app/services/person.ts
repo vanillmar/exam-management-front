@@ -41,7 +41,7 @@ export const createPerson = async (data: Person) => {
   if (!response.success) {
     throw new Error(`Failed to create new person. ${response.message}`);
   }
-  return response.data;
+  return response;
 };
 
 export const updatePerson = async (id: number, data: Person) => {

@@ -78,7 +78,9 @@ export const getCurrentUser = async () => {
   return response;
 };
 
-export const createUser = async (data: Omit<User, 'id' | 'BaseAuditableEntity'>) => {
+export const createUser = async (
+  data: Omit<User, "id" | "BaseAuditableEntity">,
+) => {
   const response = await apiRequest<UserResponse>(`/users`, {
     method: "POST",
     data: data,
@@ -86,7 +88,7 @@ export const createUser = async (data: Omit<User, 'id' | 'BaseAuditableEntity'>)
   if (!response.success) {
     throw new Error(`Failed to create user. ${response.message}`);
   }
-  return response;
+  return response.data;
 };
 
 export const updateUser = async (id: UUID, data: Omit<User, "roles">) => {
@@ -97,7 +99,7 @@ export const updateUser = async (id: UUID, data: Omit<User, "roles">) => {
   if (!response.success) {
     throw new Error(`Failed to update user. ${response.message}`);
   }
-  return response;
+  return response.data;
 };
 
 export const updateAvatar = async (id: string, file: FormData) => {
@@ -125,5 +127,5 @@ export const deleteUser = async (id: UUID) => {
   if (!response.success) {
     throw new Error(`Failed to delete user. ${response.message}`);
   }
-  return response;
+  return response.data;
 };

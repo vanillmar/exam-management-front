@@ -54,7 +54,7 @@ export const getAllContacts = async () => {
   return response.data;
 };
 
-export const createContacts = async (data: Contact) => {
+export const createContact = async (data: Contact) => {
   const response = await apiRequest<ContactResponse>(`/contacts`, {
     method: "POST",
     data: data,
@@ -62,10 +62,23 @@ export const createContacts = async (data: Contact) => {
   if (!response.success) {
     throw new Error(`Failed to create new contact. ${response.message}`);
   }
-  return response.data;
+  return response;
 };
 
-export const updateContacts = async (id: number, data: Contact) => {
+export const createContactsBulk = async (
+  contactsData: Omit<Contact, "id">[],
+) => {
+  const response = await apiRequest<ContactsResponse>(`/contacts/bulk`, {
+    method: "POST",
+    data: contactsData,
+  });
+  if (!response.success) {
+    throw new Error(`Failed to create contacts in bulk. ${response.message}`);
+  }
+  return response;
+};
+
+export const updateContact = async (id: number, data: Contact) => {
   const response = await apiRequest<ContactResponse>(`/contacts/${id}`, {
     method: "PUT",
     data: data,
@@ -76,7 +89,7 @@ export const updateContacts = async (id: number, data: Contact) => {
   return response.data;
 };
 
-export const deleteContacts = async (id: number) => {
+export const deleteContact = async (id: number) => {
   const response = await apiRequest<ContactResponse>(`/contacts/${id}`, {
     method: "DELETE",
   });

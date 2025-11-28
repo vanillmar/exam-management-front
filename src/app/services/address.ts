@@ -66,6 +66,17 @@ export const createAddress = async (addressData: Address) => {
   return response.data;
 };
 
+export const createAddressesBulk = async (addresses: Omit<Address, "id">[]) => {
+  const response = await apiRequest<AddressesResponse>(`/addresses/bulk`, {
+    method: "POST",
+    data: addresses,
+  });
+  if (!response.success) {
+    throw new Error(`Failed to create addresses in bulk. ${response.message}`);
+  }
+  return response;
+};
+
 export const updateAddress = async (id: number, addressData: Address) => {
   const response = await apiRequest<AddressResponse>(`/addresses/${id}`, {
     method: "PUT",

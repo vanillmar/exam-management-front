@@ -21,7 +21,7 @@ export function PasswordInput({
   value,
   onChange,
   className,
-  required
+  required,
 }: Readonly<PasswordInputProps>) {
   const [show, setShow] = useState(false);
 

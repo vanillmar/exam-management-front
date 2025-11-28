@@ -1,5 +1,12 @@
 import { CSSProperties, useState } from "react";
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
 import {
   ColumnDef,
   flexRender,
@@ -11,8 +18,19 @@ import {
 
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
-import { Select, SelectItem, SelectTrigger, SelectValue, SelectContent } from "@/components/ui/select";
-import { IconChevronLeft, IconChevronRight, IconChevronsLeft, IconChevronsRight } from "@tabler/icons-react";
+import {
+  Select,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+  SelectContent,
+} from "@/components/ui/select";
+import {
+  IconChevronLeft,
+  IconChevronRight,
+  IconChevronsLeft,
+  IconChevronsRight,
+} from "@tabler/icons-react";
 
 const DEFAULT_REACT_TABLE_COLUMN_WIDTH = 150;
 
@@ -21,7 +39,11 @@ interface DataTableProps<TData, TValue> {
   data: TData[];
   defaultColumn?: Partial<ColumnDef<TData, unknown>>;
 }
-const DataTable = <TData, TValue>({ data, columns, defaultColumn }: DataTableProps<TData, TValue>) => {
+const DataTable = <TData, TValue>({
+  data,
+  columns,
+  defaultColumn,
+}: DataTableProps<TData, TValue>) => {
   const [sorting, setSorting] = useState<SortingState>([]);
 
   const table = useReactTable({
@@ -46,10 +68,15 @@ const DataTable = <TData, TValue>({ data, columns, defaultColumn }: DataTablePro
                 <TableRow key={headerGroup.id}>
                   {headerGroup.headers.map((header) => {
                     const styles: CSSProperties =
-                      header.getSize() === DEFAULT_REACT_TABLE_COLUMN_WIDTH ? {} : { width: `${header.getSize()}px` };
+                      header.getSize() === DEFAULT_REACT_TABLE_COLUMN_WIDTH
+                        ? {}
+                        : { width: `${header.getSize()}px` };
                     return (
                       <TableHead key={header.id} style={styles}>
-                        {flexRender(header.column.columnDef.header, header.getContext())}
+                        {flexRender(
+                          header.column.columnDef.header,
+                          header.getContext(),
+                        )}
                       </TableHead>
                     );
                   })}
@@ -62,13 +89,21 @@ const DataTable = <TData, TValue>({ data, columns, defaultColumn }: DataTablePro
               table.getRowModel().rows.map((row) => (
                 <TableRow key={row.id}>
                   {row.getVisibleCells().map((cell) => (
-                    <TableCell key={cell.id}>{flexRender(cell.column.columnDef.cell, cell.getContext())}</TableCell>
+                    <TableCell key={cell.id}>
+                      {flexRender(
+                        cell.column.columnDef.cell,
+                        cell.getContext(),
+                      )}
+                    </TableCell>
                   ))}
                 </TableRow>
               ))
             ) : (
               <TableRow>
-                <TableCell colSpan={columns.length} className="h-24 text-center">
+                <TableCell
+                  colSpan={columns.length}
+                  className="h-24 text-center"
+                >
                   No results.
                 </TableCell>
               </TableRow>
@@ -90,7 +125,7 @@ const DataTable = <TData, TValue>({ data, columns, defaultColumn }: DataTablePro
             <Select
               value={`${table.getState().pagination.pageSize}`}
               onValueChange={(value) => {
-                table.setPageSize(Number(value))
+                table.setPageSize(Number(value));
               }}
             >
               <SelectTrigger size="sm" className="w-20" id="rows-per-page">
@@ -99,7 +134,7 @@ const DataTable = <TData, TValue>({ data, columns, defaultColumn }: DataTablePro
                 />
               </SelectTrigger>
               <SelectContent side="top">
-                {[10, 20, 30, 40, 50,].map((pageSize) => (
+                {[10, 20, 30, 40, 50].map((pageSize) => (
                   <SelectItem key={pageSize} value={`${pageSize}`}>
                     {pageSize}
                   </SelectItem>

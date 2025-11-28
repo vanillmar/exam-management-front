@@ -5,10 +5,10 @@ import {
   updateAddress,
 } from "./address";
 import {
-  deleteContacts,
+  deleteContact,
   getPrincipalContactsByUserId as getPrincipalContactByUserId,
-  updateContacts,
-} from "./contact";
+  updateContact,
+} from "@/services/contact";
 import { UUID } from "@/types/user";
 import { deletePerson, getPersonByUserId, updatePerson } from "./person";
 import { Profile } from "@/types/profile";
@@ -34,8 +34,8 @@ export const updateUserProfile = async (userId: UUID, data: Profile) => {
   const [userRes, personRes, addressRes, contactsRes] = await Promise.all([
     updateUser(userId, user),
     updatePerson(person.id, person),
-    updateAddress(address.id, address),
-    updateContacts(contact.id, contact),
+    updateAddress(address.id!, address),
+    updateContact(contact.id!, contact),
   ]);
 
   // Return the new combined profile
@@ -53,8 +53,8 @@ export const deleteUserProfile = async (userId: UUID, data: Profile) => {
   const [userRes, personRes, addressRes, contactsRes] = await Promise.all([
     deleteUser(userId),
     deletePerson(person.id),
-    deleteAddress(address.id),
-    deleteContacts(contact.id),
+    deleteAddress(address.id!),
+    deleteContact(contact.id!),
   ]);
 
   // Return the new combined profile
