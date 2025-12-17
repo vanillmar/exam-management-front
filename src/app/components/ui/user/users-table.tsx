@@ -183,7 +183,7 @@ export default function UsersTable() {
   };
 
   const columns = useMemo(
-    () => getUsersColumns({ onEdit, onDelete }),
+    () => getUsersColumns({  onEdit, onDelete }),
     [onDelete, onEdit],
   );
 
